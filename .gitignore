@@ -1,0 +1,26 @@
+# --- Secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- Node（.opencode/.gitignore 已忽略 node_modules，此处冗余防御） ---
+node_modules/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE ---
+.idea/
+*.swp
+
+# --- Logs ---
+*.log
