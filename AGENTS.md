@@ -52,20 +52,22 @@ AI 知识库助手：自动从 GitHub 热门仓库（github-hot-repos）和 Hack
 
 ### 字段归属契约
 
-最终知识条目（knowledge/articles/）必须包含以下 10 字段，由不同角色分阶段补齐：
+最终知识条目（knowledge/articles/）必须包含以下 12 字段（10 核心 + 2 增强），由不同角色分阶段补齐：
 
 | 字段 | 性质 | 归属角色 |
 | --- | --- | --- |
-| `id`, `title`, `url` | 来源元数据 | collector |
+| `id`, `title`, `url`, `category` | 来源元数据 | collector |
 | `source`, `collected_at` | 溯源元数据（采集时即知） | collector |
 | `summary` | 中文摘要（100-200 字） | analyzer |
 | `tags` | 英文 kebab-case 标签 | analyzer |
 | `relevance_score` | 相关性评分（0-1，五维加权） | analyzer |
 | `analyzed_at` | 分析时间戳 | analyzer |
 | `organized_at` | 归档时间戳 | organizer |
+| `meta` | 跨源统一容器（HN: author/comments/time；GitHub: stars/language/topics/pushed_at） | organizer 透传 |
 
-> 注：raw item 只需交付 collector 归属的字段；`summary/tags/relevance_score/score_breakdown/analyzed_at` 由 analyzer 在 enriched/ 阶段补齐，`organized_at` 由 organizer 补齐。
+> 注：raw item 只需交付 collector 归属的字段；`summary/tags/relevance_score/score_breakdown/analyzed_at` 由 analyzer 在 enriched/ 阶段补齐，`organized_at` 与 `meta` 由 organizer 补齐。
 > `score_breakdown` 留在 enriched/ 作审计底稿，不进 article。
+> `category`（HN 必填，GitHub 隐含 `open-source`）与 `meta` 都不参与门控（门控只看 `relevance_score` / `summary` / `tags` / `url`），仅供下游消费。
 > `id` 跨源唯一性与 article 文件名 slug 生成规则待 analyzer/organizer 阶段定义。
 
 ### 语言约定

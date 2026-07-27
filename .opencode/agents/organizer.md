@@ -38,23 +38,37 @@ allowed-tools:
 5. **维护索引**：更新 `knowledge/articles/index.json`（按 `organized_at` 降序）。
 6. **过滤日志**：把丢弃 / 跳过的条目记入 `articles/_filtered-{date}.json`（见「过滤日志」节）。
 
-### 标准知识条目（10 字段）
+### 标准知识条目（12 字段 = 10 核心 + 2 增强）
 
-| 字段 | 来源 |
-| --- | --- |
-| `id` | collector（原值保留） |
-| `title` | collector |
-| `source` | collector |
-| `url` | collector |
-| `collected_at` | collector |
-| `analyzed_at` | analyzer |
-| `organized_at` | organizer（归档时刻） |
-| `summary` | analyzer |
-| `tags` | analyzer |
-| `relevance_score` | analyzer |
+| 字段             | 来源                  | 说明                                            |
+| ---------------- | --------------------- | ----------------------------------------------- |
+| `id`             | collector（原值保留） | 跨源唯一：GitHub 用 `full_name`，HN 用数字 id   |
+| `title`          | collector             |                                                 |
+| `source`         | collector             | `github-hot-repos` / `hackernews-top`           |
+| `url`            | collector             |                                                 |
+| `category`       | collector（HN 必填）  | 3 枚举：`open-source` / `paper-or-talk` / `article-or-news`；GitHub 源一律 `open-source` |
+| `collected_at`   | collector             |                                                 |
+| `analyzed_at`    | analyzer              |                                                 |
+| `organized_at`   | organizer             | 归档时刻                                        |
+| `summary`        | analyzer              |                                                 |
+| `tags`           | analyzer              |                                                 |
+| `relevance_score`| analyzer              |                                                 |
+| `meta`           | organizer 透传        | dict，跨源统一容器（见下）                       |
 
 > `id` 跨源唯一性：GitHub 用 `full_name`（含 `/`），HN 用数字 id。`id` 字段保留原值；为避免 `/` 进文件名，article 文件名走 slug 化（见下）。
 > `score_breakdown` 不进 article，留在 enriched/ 作审计底稿。
+> `category` 不参与门控；`meta` 也不参与门控（仅供下游消费）。
+
+### `meta` 字段（跨源统一容器）
+
+`meta` 始终为 dict（可空 `{}`），用于沉淀 raw item 中除核心 10 字段外的源特有证据。**不参与质量门控**（门控只看 `relevance_score` / `summary` / `tags` / `url`）。
+
+| source            | `meta` 字段集                                          |
+| ----------------- | ------------------------------------------------------ |
+| `github-hot-repos`| `stars` / `language` / `topics` / `pushed_at`         |
+| `hackernews-top`  | `author` / `comments` / `time`（Unix 时间戳）         |
+
+未来增加新 source 时，按相同模式扩展 `meta` 字段集。
 
 ## 输出格式
 
@@ -72,12 +86,41 @@ allowed-tools:
   "title": "agents-sdk",
   "source": "github-hot-repos",
   "url": "https://github.com/openai/agents-sdk",
+  "category": "open-source",
   "collected_at": "2026-03-17T10:30:00Z",
   "analyzed_at": "2026-03-17T11:00:00Z",
   "organized_at": "2026-03-17T11:30:00Z",
   "summary": "OpenAI 官方的 Agent 构建框架……",
-  "tags": ["agent-framework", "openai", "multi-agent", "tool-use"],
-  "relevance_score": 0.87
+  "tags": ["agent-framework", "openai"],
+  "relevance_score": 0.87,
+  "meta": {
+    "stars": 15200,
+    "language": "Python",
+    "topics": ["ai", "agents", "openai", "llm"],
+    "pushed_at": "2026-03-17T06:30:00Z"
+  }
+}
+```
+
+HN 源示例：
+```json
+{
+  "id": "49063397",
+  "title": "Wattage: A token-spend profiler and cost-regression gate for AI agents",
+  "source": "hackernews-top",
+  "url": "https://github.com/faizannraza/wattage",
+  "category": "open-source",
+  "collected_at": "2026-07-27T02:53:29Z",
+  "analyzed_at": "2026-07-27T03:20:00Z",
+  "organized_at": "2026-07-27T12:30:00Z",
+  "summary": "Wattage 是一个针对 AI agent 的 token 消耗剖析器……",
+  "tags": ["ai-agent", "cost-optimization", "token-spend"],
+  "relevance_score": 0.81,
+  "meta": {
+    "author": "faizanraza03",
+    "comments": 0,
+    "time": 1785108455
+  }
 }
 ```
 
@@ -91,6 +134,8 @@ allowed-tools:
       "id": "openai/agents-sdk",
       "title": "agents-sdk",
       "source": "github-hot-repos",
+      "url": "https://github.com/openai/agents-sdk",
+      "category": "open-source",
       "file": "2026-03-17-github-hot-repos-openai-agents-sdk.json",
       "tags": ["agent-framework", "openai"],
       "relevance_score": 0.87,
@@ -133,10 +178,13 @@ organizer 丢弃或跳过的每一条，都追加写入 `knowledge/articles/_fil
 ## 质量检查清单
 
 - [ ] 所有落盘条目 `relevance_score` ≥ 0.6
-- [ ] 每条知识条目齐全 10 字段，2 空格缩进，UTF-8
+- [ ] 每条知识条目齐全 12 字段（含 `category` 与 `meta`），2 空格缩进，UTF-8
+- [ ] HN 源 `category` 必填且为 3 枚举之一；GitHub 源 `category` 一律 `open-source`
+- [ ] `meta` 始终为 dict，HN 含 `author/comments/time`，GitHub 含 `stars/language/topics/pushed_at`
+- [ ] `meta` 与 `category` 不参与门控（门控只看 `relevance_score` / `summary` / `tags` / `url`）
 - [ ] 无重复 `url`（已与 articles/ 存量比对）
 - [ ] 文件名符合 `{YYYY-MM-DD}-{source}-{slug}.json`，slug 全小写连字符、无 `/` 无空格
-- [ ] `index.json` 已更新，`total_count` 与实际 articles 数一致，`articles[]` 按 `organized_at` 降序
+- [ ] `index.json` 已更新，每条含 `url` + `category`，`total_count` 与实际 articles 数一致，`articles[]` 按 `organized_at` 降序
 - [ ] 丢弃 / 跳过的条目已记入 `_filtered-{date}.json`，含 `reason`
 - [ ] 未修改 raw/ 与 enriched/ 任何文件
 

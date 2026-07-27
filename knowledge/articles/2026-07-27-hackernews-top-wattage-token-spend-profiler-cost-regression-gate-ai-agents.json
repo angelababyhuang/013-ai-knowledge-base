@@ -1,0 +1,18 @@
+{
+  "id": "49063397",
+  "title": "Wattage: A token-spend profiler and cost-regression gate for AI agents",
+  "source": "hackernews-top",
+  "url": "https://github.com/faizannraza/wattage",
+  "category": "open-source",
+  "collected_at": "2026-07-27T02:53:29Z",
+  "analyzed_at": "2026-07-27T13:00:00Z",
+  "organized_at": "2026-07-27T12:30:00Z",
+  "summary": "Wattage 是一个面向 AI Agent 的「电表」工具（Apache-2.0，uvx 开箱即用）：吃进 OpenTelemetry GenAI 语义规范 trace，自动定位 token 在哪里被浪费——内置 8 个检测器（前缀重复发送未走缓存、缓存未命中、冗余工具调用、循环不收敛、检索空转、模型选型过贵、推理 token 超支等），用真实美元为每个浪费点定价并给出可执行修复建议，还能作为 CI 成本回归门禁阻止 agent 变贵。最大技术亮点是 convergence engine：在「看似每步都不同实则原地打转」的循环检测上，F1 达 1.00，远超 SHA-256 精确匹配的 0.25。是 agent 可观测性与成本治理方向的实用新工具，虽社区热度暂低但工程价值突出。",
+  "tags": ["cost-optimization", "agent-observability", "llmops", "opentelemetry", "ai-agents"],
+  "relevance_score": 0.81,
+  "meta": {
+    "author": "faizanraza03",
+    "comments": 0,
+    "time": 1785108455
+  }
+}

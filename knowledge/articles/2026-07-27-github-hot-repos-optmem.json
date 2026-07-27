@@ -1,0 +1,14 @@
+{
+  "id": "VictorTaelin/OptMem",
+  "title": "OptMem",
+  "source": "github-hot-repos",
+  "url": "https://github.com/VictorTaelin/OptMem",
+  "category": "open-source",
+  "collected_at": "2026-07-26T23:47:11Z",
+  "analyzed_at": "2026-07-27T09:20:00Z",
+  "organized_at": "2026-07-27T10:15:00Z",
+  "summary": "为 AI agent 提供永久记忆的极简方案：一段 426-token prompt + 一个零依赖单文件 Python 脚本即插即用（粘进 AGENTS.md/CLAUDE.md 即可）。机制是 append-only LOG.txt 配合可重建的二叉树摘要缓存，记录定长故「位置即身份」、单次 seek 即查；百万级记忆 wake 仅 0.03s。出自 Formality/HVM 作者 VictorTaelin，设计极简但精巧，是 prompt 驱动 agent 记忆的优秀范本。",
+  "tags": ["agent-memory", "prompt-engineering", "persistent-memory", "binary-tree", "local-first"],
+  "relevance_score": 0.81,
+  "meta": {}
+}

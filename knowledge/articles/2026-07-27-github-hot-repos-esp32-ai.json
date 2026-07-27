@@ -1,0 +1,14 @@
+{
+  "id": "slvDev/esp32-ai",
+  "title": "esp32-ai",
+  "source": "github-hot-repos",
+  "url": "https://github.com/slvDev/esp32-ai",
+  "category": "open-source",
+  "collected_at": "2026-07-26T23:47:11Z",
+  "analyzed_at": "2026-07-27T09:20:00Z",
+  "organized_at": "2026-07-27T10:15:00Z",
+  "summary": "在约 8 美元的 ESP32-S3 微控制器上端侧运行 28.9M 参数语言模型（约 9.5 tok/s，完全离线）。核心创新是借用 Google Gemma 的 Per-Layer Embeddings 思路，把 25M 参数表留在 flash、每 token 仅读约 450 字节，配合 4-bit 量化做到 14.9MB 体积，把同等芯片上的可用模型规模从 26 万参数提升了约百倍。模型用 TinyStories 训练只能写短故事，价值在于「大模型塞进小芯片」的架构范式而非推理能力。",
+  "tags": ["edge-ai", "llm", "esp32", "model-quantization", "per-layer-embedding"],
+  "relevance_score": 0.82,
+  "meta": {}
+}

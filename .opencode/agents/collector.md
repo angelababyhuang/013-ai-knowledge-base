@@ -67,9 +67,12 @@ API端点：`https://hacker-news.firebaseio.com/v0/topstories.json`
 1. 获取Top Stories ID 列表（取前 50）
 2. 逐条获取详情：`https://hacker-news.firebaseio.com/v0/item/{id}.json`
 3. 过滤：仅保留标题包含AI/LLM/Agent/GPT/Claude/model等关键词的条目
-4. 目标：筛选出10-15条相关文章
+4. **分层筛选**：
+   - 首轮：仅保留 `open-source` 类（url 指向 github.com / gitlab.com / bitbucket.org 等代码托管平台的条目）
+   - 若首轮结果数 < K（K 由用户指令给定；默认 10），**放宽范围**到 AI 主题，按 score 降序补足 K 条；放宽部分按内容性质归入 `paper-or-talk`（含 pdf / 学术演讲 / 论文） 或 `article-or-news`（资讯 / 评论 / 政策）
 5. URL 回填：若 `url` 为 null（Ask HN / 纯文本帖），回填 `https://news.ycombinator.com/item?id={id}`
 6. 每条补 `source="hackernews-top"` 与条目级 `collected_at`
+7. 每条补必填字段 `category`（见下表）
 
 #### 提取字段
 
@@ -86,6 +89,7 @@ API端点：`https://hacker-news.firebaseio.com/v0/topstories.json`
 | `comments`    | `descendants` | 评论数                                                               |
 | `author`      | `by`          | 作者                                                                 |
 | `time`        | `time`        | Unix 时间戳                                                          |
+| `category`    | agent 判定    | 必填，3 枚举：`open-source` / `paper-or-talk` / `article-or-news`   |
 
 ## 输出格式
 
@@ -119,6 +123,41 @@ API端点：`https://hacker-news.firebaseio.com/v0/topstories.json`
 }
 ```
 
+HN 源示例（含 `category`）：
+```json
+{
+  "source": "hackernews-top",
+  "collected_at": "2026-07-27T02:53:29Z",
+  "count": 6,
+  "items": [
+    {
+      "id": "49063397",
+      "title": "Wattage: A token-spend profiler and cost-regression gate for AI agents",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-27T02:53:29Z",
+      "url": "https://github.com/faizannraza/wattage",
+      "score": 4,
+      "comments": 0,
+      "author": "faizanraza03",
+      "time": 1785108455,
+      "category": "open-source"
+    },
+    {
+      "id": "49056620",
+      "title": "Terence Tao: Mathematics in the Age of AI [pdf]",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-27T02:53:29Z",
+      "url": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
+      "score": 107,
+      "comments": 46,
+      "author": "Anon84",
+      "time": 1785061955,
+      "category": "paper-or-talk"
+    }
+  ]
+}
+```
+
 ## 质量检查清单
 
 采集完成后，逐条检查：
@@ -128,19 +167,27 @@ API端点：`https://hacker-news.firebaseio.com/v0/topstories.json`
 - [ ] `url` 非空且以 `https://` 开头；HN 条目若 API 返回 null，已回填 `https://news.ycombinator.com/item?id={id}`
 - [ ] GitHub 数据的 `stars` 为数字类型
 - [ ] HN 数据的 `score` 为数字类型
+- [ ] HN 数据每个条目含 `category` 字段且为 3 枚举之一（`open-source` / `paper-or-talk` / `article-or-news`）
 - [ ] 无重复条目（同一个 `id` 不出现两次）
 - [ ] JSON格式正确，可通过 `JSON.parse()` 校验
 - [ ] 文件名包含当天日期
-- [ ] 失败条目已追加写入 `errors-{YYYY-MM-DD}.json`
+- [ ] 失败条目已**全部**追加写入 `errors-{YYYY-MM-DD}.json`（不论核心/扩展批次）
 
 ## 错误产物
 
-采集过程中遇到不可恢复的失败时，**跳过该条目**（不中断整体流程），并把失败记录追加写入 `knowledge/raw/errors-{YYYY-MM-DD}.json`。
+采集过程中，**凡 agent 发起的 HTTP 请求失败（无自由裁量空间，不允许以"非核心批次 / 扩展扫描"等理由豁免），一律跳过该条目，并把失败记录追加写入 `knowledge/raw/errors-{YYYY-MM-DD}.json`**。
 
-触发条件：
-- 网络请求失败（含限流耗尽、重试 3 次仍失败）
-- JSON 解析失败
-- 必填字段缺失（`id`/`title`/`url` 无法回填）
+### 触发条件（穷举式，无解释空间）
+
+以下任一情况即触发记录：
+
+- **网络层失败**：DNS 解析失败、TCP 连接失败、TLS 握手失败、请求超时
+- **HTTP 非 2xx**：4xx（含 401 / 403 / 404 / 429 限流）、5xx
+- **限流耗尽**：重试 3 次仍触发 403 / 429
+- **响应解析失败**：返回内容非预期 JSON 结构
+- **必填字段缺失**：`id` / `title` / `url` 任何一个无法回填（HN 的 `url` 为 null 时也未回填 `https://news.ycombinator.com/item?id={id}`）
+
+不论该请求属于核心采集批次还是扩展扫描批次，失败均需记入。
 
 记录格式（JSON 数组；文件已存在则读取后追加新记录，幂等不覆盖）：
 ```json
