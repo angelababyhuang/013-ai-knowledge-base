@@ -18,13 +18,14 @@ AI 知识库助手：自动从 GitHub 热门仓库（github-hot-repos）和 Hack
 ├── .env.example                       # 环境变量模板
 ├── README.md                          # 使用说明
 ├── .opencode/
-│   ├── agents/
-│   │   ├── collector.md               # 采集 Agent 角色定义
-│   │   ├── analyzer.md                # 分析 Agent 角色定义
+│   ├── agents/                        # 角色 = 权限/目录边界/跨源约定（role harness）
+│   │   ├── collector.md               # 采集 Agent — role harness + 数据源路由
+│   │   ├── analyzer.md                # 分析 Agent — role harness + procedure 路由
 │   │   └── organizer.md               # 整理 Agent 角色定义
-│   └── skills/
-│       ├── github-hot-repos/SKILL.md   # GitHub 热门仓库采集技能
-│       └── tech-summary/SKILL.md      # 技术摘要生成技能
+│   └── skills/                        # procedure = 各源"怎么采/怎么分析"（被 subagent 触发）
+│       ├── github-hot-repos/SKILL.md  # GitHub 热门仓库采集 procedure ✅
+│       ├── hackernews-top/SKILL.md    # Hacker News 热门采集 procedure ✅
+│       └── tech-summary/SKILL.md      # analyzer 摘要/打分 procedure ✅
 └── knowledge/
     ├── raw/                           # 原始采集数据（JSON，collector 写、他人只读）
     ├── enriched/                      # 分析增强后的数据（JSON，analyzer 写）
@@ -95,6 +96,21 @@ AI 知识库助手：自动从 GitHub 热门仓库（github-hot-repos）和 Hack
 4. 质量门控：`relevance_score < 0.6`、或摘要<50字、或 tags<2、或 url 异常的条目，Organizer 应丢弃
 5. 可追溯：每个条目保留 url、source 和 collected_at 用于溯源
 
+### 三层架构：主 Agent → Subagent → Skill
+
+角色（role，谁有权限/边界）与 procedure（怎么采/怎么分析）分离：
+
+‘‘‘
+主 Agent ──@collector──▶ Collector Subagent (角色：权限/目录边界/跨源约定)
+  (编排器)                  │ 识别 "GitHub 数据源" → 触发
+                           ▼
+                     github-hot-repos Skill (procedure：怎么调 API/提取字段/落盘)
+’’’
+
+- **角色（agents/*.md）**：权限、目录边界、跨源约定（errors 策略/文件命名/JSON 格式/幂等）。
+- **procedure（skills/*/SKILL.md）**：某数据源的采集/分析步骤，被对应 subagent 触发。`github-hot-repos` / `hackernews-top` 承载采集 procedure（查询参数、字段提取表、限流/筛选、输出 schema）；`tech-summary` 承载分析 procedure（摘要、五维评分、category 上限、`_override`）。各 skill 是其领域的单一事实来源。
+- collector.md 内置**数据源路由**：识别到 "github-hot-repos" / "hackernews-top" 时转交对应 skill；analyzer.md 识别到分析任务时转交 `tech-summary` skill。
+
 ### Agent调用方式
 
 在OpenCode中使用@语法调用特定Agent：
@@ -103,7 +119,7 @@ AI 知识库助手：自动从 GitHub 热门仓库（github-hot-repos）和 Hack
 @analyzer 分析 knowledge/raw/github-hot-repos-2026-03-17.json
 @organizer 整理今天所有已分析的原始数据
 ’’’
-也可以在对话中要求主Agent依次委派子Agent，实现流水线作业。
+也可以在对话中要求主Agent依次委派子Agent，实现流水线作业。`@collector` 收到 GitHub 采集指令后，会内部触发 `github-hot-repos` skill 执行实际采集。
 
 # 错误处理
 

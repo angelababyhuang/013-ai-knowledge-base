@@ -23,73 +23,19 @@ allowed-tools:
 - 只写 `knowledge/raw/`（自己的原始数据 + errors 记录），不碰 `knowledge/enriched/`、`knowledge/articles/`。
 - 原始文件对 analyzer/organizer 只读；重复运行时读取后追加去重，确保不覆盖已有数据。
 
-## 数据源与采集策略
+## 数据源路由
 
-### 1. GitHub 热门仓库（github-hot-repos）
+Collector 是跨源采集的**角色载体**；每个数据源的采集 procedure 由对应 skill 承载。本文件只保留跨源约定（权限 / 目录边界 / errors 策略 / 文件命名 / JSON 格式），**不再内联任何源的具体采集流程**。
 
-API端点：`https://api.github.com/search/repositories`
-搜索参数：
-- 关键词：`AI OR LLM OR agent OR “large language model” OR RAG OR MCP`
-- 排序：`stars`，降序
-- 时间窗口：过去7天内创建或更新
-- 每次采集： Top 20 仓库
+| 数据源 | procedure 归属 |
+| --- | --- |
+| GitHub 热门仓库 | `github-hot-repos` skill — `.opencode/skills/github-hot-repos/SKILL.md` |
+| Hacker News | `hackernews-top` skill — `.opencode/skills/hackernews-top/SKILL.md` |
 
-请求示例：
-```
-GET https://api.github.com/search/repositories?q=AI+OR+LLM+OR+agent+OR+"large+language+model"+OR+RAG+OR+MCP&sort=stars&order=desc&per_page=20
-```
+识别到具体数据源时，**触发对应 skill** 执行采集；skill 内定义查询参数、字段提取表、限流/筛选处理与输出 schema。本文件不重述源细节（单一事实来源）。
 
-
-#### 提取字段
-
-
-| 字段          | 来源               | 说明                             |
-| ------------- | ------------------ | -------------------------------- |
-| `id`          | `full_name`        | 仓库全名，如 `openai/agents-sdk` |
-| `title`       | `name`             | 仓库名                           |
-| `source`      | 固定值             | `github-hot-repos`               |
-| `collected_at`| 采集时刻           | ISO 8601，条目级时间戳           |
-| `description` | `description`      | 仓库描述                         |
-| `url`         | `html_url`         | 仓库链接                         |
-| `stars`       | `stargazers_count` | Star 数                          |
-| `language`    | `language`         | 主要编程语言                     |
-| `topics`      | `topics`           | 仓库标签列表                     |
-| `created_at`  | `created_at`       | 创建时间                         |
-| `updated_at`  | `pushed_at`        | 最近推送时间                     |
-
-
-### 2. Hacker News Top Stories
-
-API端点：`https://hacker-news.firebaseio.com/v0/topstories.json`
-
-采集流程：
-
-1. 获取Top Stories ID 列表（取前 50）
-2. 逐条获取详情：`https://hacker-news.firebaseio.com/v0/item/{id}.json`
-3. 过滤：仅保留标题包含AI/LLM/Agent/GPT/Claude/model等关键词的条目
-4. **分层筛选**：
-   - 首轮：仅保留 `open-source` 类（url 指向 github.com / gitlab.com / bitbucket.org 等代码托管平台的条目）
-   - 若首轮结果数 < K（K 由用户指令给定；默认 10），**放宽范围**到 AI 主题，按 score 降序补足 K 条；放宽部分按内容性质归入 `paper-or-talk`（含 pdf / 学术演讲 / 论文） 或 `article-or-news`（资讯 / 评论 / 政策）
-5. URL 回填：若 `url` 为 null（Ask HN / 纯文本帖），回填 `https://news.ycombinator.com/item?id={id}`
-6. 每条补 `source="hackernews-top"` 与条目级 `collected_at`
-7. 每条补必填字段 `category`（见下表）
-
-#### 提取字段
-
-
-
-| 字段          | 来源          | 说明                                                                 |
-| ------------- | ------------- | -------------------------------------------------------------------- |
-| `id`          | `id`          | HN 文章 ID                                                           |
-| `title`       | `title`       | 文章标题                                                             |
-| `source`      | 固定值        | `hackernews-top`                                                     |
-| `collected_at`| 采集时刻      | ISO 8601，条目级时间戳                                               |
-| `url`         | `url`         | 原文链接；若为 null 回填 `https://news.ycombinator.com/item?id={id}` |
-| `score`       | `score`       | HN 得分                                                              |
-| `comments`    | `descendants` | 评论数                                                               |
-| `author`      | `by`          | 作者                                                                 |
-| `time`        | `time`        | Unix 时间戳                                                          |
-| `category`    | agent 判定    | 必填，3 枚举：`open-source` / `paper-or-talk` / `article-or-news`   |
+- 识别到 "GitHub 数据源 / github-hot-repos" → 触发 `github-hot-repos` skill
+- 识别到 "Hacker News / hackernews-top" → 触发 `hackernews-top` skill
 
 ## 输出格式
 
@@ -99,75 +45,16 @@ API端点：`https://hacker-news.firebaseio.com/v0/topstories.json`
 - 错误记录：`knowledge/raw/errors-{YYYY-MM-DD}.json`（见「错误产物」节）
 
 ### JSON 格式
-```json
-{
-  "source": "github-hot-repos",
-  "collected_at": "2026-03-17T10:30:00Z",
-  "query": "AI OR LLM OR agent, past 7 days, sorted by stars",
-  "count": 20,
-  "items": [
-    {
-      "id": "openai/agents-sdk",
-      "title": "agents-sdk",
-      "source": "github-hot-repos",
-      "collected_at": "2026-03-17T10:30:00Z",
-      "description": "OpenAI Agents SDK for building agentic AI applications",
-      "url": "https://github.com/openai/agents-sdk",
-      "stars": 15200,
-      "language": "Python",
-      "topics": ["ai", "agents", "openai", "llm"],
-      "created_at": "2026-03-10T08:00:00Z",
-      "updated_at": "2026-03-17T06:30:00Z"
-    }
-  ]
-}
-```
-
-HN 源示例（含 `category`）：
-```json
-{
-  "source": "hackernews-top",
-  "collected_at": "2026-07-27T02:53:29Z",
-  "count": 6,
-  "items": [
-    {
-      "id": "49063397",
-      "title": "Wattage: A token-spend profiler and cost-regression gate for AI agents",
-      "source": "hackernews-top",
-      "collected_at": "2026-07-27T02:53:29Z",
-      "url": "https://github.com/faizannraza/wattage",
-      "score": 4,
-      "comments": 0,
-      "author": "faizanraza03",
-      "time": 1785108455,
-      "category": "open-source"
-    },
-    {
-      "id": "49056620",
-      "title": "Terence Tao: Mathematics in the Age of AI [pdf]",
-      "source": "hackernews-top",
-      "collected_at": "2026-07-27T02:53:29Z",
-      "url": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
-      "score": 107,
-      "comments": 46,
-      "author": "Anon84",
-      "time": 1785061955,
-      "category": "paper-or-talk"
-    }
-  ]
-}
-```
+- 2 空格缩进、UTF-8、中文不转义、日期 ISO 8601
+- 各源 raw 文件的具体 schema 见对应 skill 的「输出 schema」
 
 ## 质量检查清单
 
-采集完成后，逐条检查：
+采集完成后，逐条检查。**跨源通用项**如下；各源特有项（如 GitHub 的 `stars` 类型、HN 的 `category` 枚举与 `score` 类型）见对应 skill 的质量自检。
 
 - [ ] 每个条目都有非空的 `id`、`title`、`url`、`source`
 - [ ] 每个条目含条目级 `collected_at`（当前采集时间，ISO 8601）
-- [ ] `url` 非空且以 `https://` 开头；HN 条目若 API 返回 null，已回填 `https://news.ycombinator.com/item?id={id}`
-- [ ] GitHub 数据的 `stars` 为数字类型
-- [ ] HN 数据的 `score` 为数字类型
-- [ ] HN 数据每个条目含 `category` 字段且为 3 枚举之一（`open-source` / `paper-or-talk` / `article-or-news`）
+- [ ] `url` 非空且以 `https://` 开头
 - [ ] 无重复条目（同一个 `id` 不出现两次）
 - [ ] JSON格式正确，可通过 `JSON.parse()` 校验
 - [ ] 文件名包含当天日期
@@ -203,8 +90,7 @@ HN 源示例（含 `category`）：
 
 ## 注意事项
 
-1. 请求头：GitHub API 必须带 `Accept: application/vnd.github.v3+json`
-2. 认证：使用环境变量 `GITHUB_TOKEN` 以提高API限额（未认证60次/小时，认证后5000次/小时）
-3. 限流处理：收到HTTP403或429时，读取 `X-RateLimit-Reset` 头并等待
-4. 编码：所有文本保持UTF-8，不要转义中文字符
-5. 幂等性：如果当天的文件已存在，读取后追加去重，不要覆盖。
+跨源通用约定（各源请求头 / 认证 / 限流 / 筛选等源特有细节见对应 skill）：
+
+1. 编码：所有文本保持UTF-8，不要转义中文字符
+2. 幂等性：如果当天的文件已存在，读取后追加去重，不要覆盖。
