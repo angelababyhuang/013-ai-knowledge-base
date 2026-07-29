@@ -18,9 +18,11 @@ AI 知识库助手：自动从 GitHub 热门仓库（github-hot-repos）和 Hack
 ├── .env.example                       # 环境变量模板
 ├── README.md                          # 使用说明
 ├── schemas/
-│   └── article.schema.json            # 知识条目 JSON Schema（单一事实来源，validator 据此加载）
+│   ├── article.schema.json            # 知识条目 JSON Schema（结构契约，validator 据此加载）
+│   └── quality-rubric.json            # 5 维质量评分契约（评分规则，check_quality 据此加载）
 ├── hooks/
-│   └── validate_json.py               # schema 驱动的知识条目校验器
+│   ├── validate_json.py               # schema 驱动的知识条目结构校验器
+│   └── check_quality.py               # rubric 驱动的 5 维质量评分器
 ├── .opencode/
 │   ├── agents/                        # 角色 = 权限/目录边界/跨源约定（role harness）
 │   │   ├── collector.md               # 采集 Agent — role harness + 数据源路由
@@ -101,6 +103,7 @@ AI 知识库助手：自动从 GitHub 热门仓库（github-hot-repos）和 Hack
 3. 幂等性：重复运行同一天的采集不应产生重复条目
 4. 质量门控：`relevance_score < 0.6`、或摘要<50字、或 tags<2、或 url 异常的条目，Organizer 应丢弃
 5. 可追溯：每个条目保留 url、source 和 collected_at 用于溯源
+6. **质量评分**：条目落盘后可用 `hooks/check_quality.py` 做 5 维评分（摘要质量/技术深度/格式规范/标签精度/空洞词检测），规则见 `schemas/quality-rubric.json`（单一事实来源，A≥80/B≥60/C<60）。这是对 organizer 行为门控的**事后确定性复核**，二者互补。
 
 ### 三层架构：主 Agent → Subagent → Skill
 
