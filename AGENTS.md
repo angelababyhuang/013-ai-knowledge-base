@@ -17,6 +17,10 @@ AI 知识库助手：自动从 GitHub 热门仓库（github-hot-repos）和 Hack
 ├── AGENTS.md                          # 项目记忆文件（本文件）
 ├── .env.example                       # 环境变量模板
 ├── README.md                          # 使用说明
+├── schemas/
+│   └── article.schema.json            # 知识条目 JSON Schema（单一事实来源，validator 据此加载）
+├── hooks/
+│   └── validate_json.py               # schema 驱动的知识条目校验器
 ├── .opencode/
 │   ├── agents/                        # 角色 = 权限/目录边界/跨源约定（role harness）
 │   │   ├── collector.md               # 采集 Agent — role harness + 数据源路由
@@ -52,6 +56,8 @@ AI 知识库助手：自动从 GitHub 热门仓库（github-hot-repos）和 Hack
 - 字符编码：UTF-8
 
 ### 字段归属契约
+
+> **机器可读契约（单一事实来源）**：下表为人类可读说明；字段名/类型/枚举/约束的权威定义在 `schemas/article.schema.json`（标准 JSON Schema）。字段增删只改该 schema，校验器（`hooks/validate_json.py`）据此加载，不在代码里重抄。
 
 最终知识条目（knowledge/articles/）必须包含以下 12 字段（10 核心 + 2 增强），由不同角色分阶段补齐：
 

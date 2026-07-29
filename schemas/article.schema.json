@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-knowledge-base/schemas/article.schema.json",
+  "title": "Knowledge Article",
+  "description": "知识条目 12 字段契约 —— 全项目的单一事实来源（Single Source of Truth）。由 collector / analyzer / organizer 分阶段补齐。本文件是机器可读契约：validator 据此校验，agent prompt 可引用。字段增删只改这里，不改校验代码。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "source",
+    "url",
+    "category",
+    "collected_at",
+    "analyzed_at",
+    "organized_at",
+    "summary",
+    "tags",
+    "relevance_score",
+    "meta"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "跨源唯一标识。GitHub 用 full_name（owner/repo）；HN 用数字 id。source↔id 的对应关系属跨字段业务规则，由 validator 的 business-rules 校验，不在 schema 表达。"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "string",
+      "enum": ["github-hot-repos", "hackernews-top"]
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https://",
+      "description": "必须以 https:// 开头。"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["open-source", "paper-or-talk", "article-or-news"],
+      "description": "GitHub 源一律 open-source；HN 由 collector 人工判定。不参与质量门控。"
+    },
+    "collected_at": {
+      "type": "string",
+      "minLength": 1,
+      "description": "ISO 8601 时间戳。"
+    },
+    "analyzed_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organized_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 20,
+      "description": "中文摘要，最少 20 字。organizer 门控实际要求 50 字，此处 20 为格式下限。"
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+        "description": "英文 kebab-case，全小写、连字符分隔。"
+      }
+    },
+    "relevance_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "相关性评分 0.0-1.0。≥0.6 为门控通过（business rule）。JSON number 不接受 bool。"
+    },
+    "meta": {
+      "type": "object",
+      "description": "跨源统一容器，始终为 dict。GitHub: stars/language/topics/pushed_at；HN: author/comments/time。键集随 source 变化，故此处不固定 properties。不参与质量门控。"
+    }
+  }
+}

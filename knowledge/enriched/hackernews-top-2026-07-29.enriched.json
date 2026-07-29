@@ -1,0 +1,232 @@
+{
+  "source": "hackernews-top",
+  "collected_at": "2026-07-29T07:02:30Z",
+  "analyzed_at": "2026-07-29T01:24:34Z",
+  "count": 10,
+  "items": [
+    {
+      "id": "49078454",
+      "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-29T07:02:30Z",
+      "url": "https://fermisense.com/when-machines-take-the-wheel/",
+      "score": 306,
+      "comments": 116,
+      "author": "ilreb",
+      "time": 1785205133,
+      "category": "article-or-news",
+      "summary": "FermiSense 的实战复盘：仅花约 500 美元对一个 9B 参数的开源模型做 RL 微调，就在其「目录审查（catalog review）」业务基准上击败了前沿大模型。价值在于用小成本 + 领域 RL 证明「垂直场景里小模型可反超通用前沿」的工程路线可行，是评估开源小模型 + RL 微调性价比的有力案例参考（注：以博客文章呈现，未见配套代码，按 article 上限处理）。",
+      "tags": ["reinforcement-learning", "model-fine-tuning", "small-model", "open-model"],
+      "relevance_score": 0.64,
+      "score_breakdown": {
+        "tech_depth": 0.50,
+        "practical_value": 0.30,
+        "timeliness": 0.95,
+        "community_heat": 0.95,
+        "domain_match": 0.95
+      }
+    },
+    {
+      "id": "49089755",
+      "title": "OpenAI just open-sourced Codex Security",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-29T07:02:30Z",
+      "url": "https://github.com/openai/codex-security",
+      "score": 240,
+      "comments": 46,
+      "author": "bakigul",
+      "time": 1785271975,
+      "category": "open-source",
+      "summary": "OpenAI 开源了 Codex Security——面向代码安全场景的模型/工具，是 OpenAI 继 Codex 之后向「安全编码」垂直方向落地的官方动作。对需要把 LLM 接入 SAST/漏洞修复/代码审计流水线的团队是可直接评估的官方资源，开源属性也意味着可私有化部署与二次微调，技术与生态意义兼具。",
+      "tags": ["code-security", "openai", "open-source", "llm", "sast"],
+      "relevance_score": 0.91,
+      "score_breakdown": {
+        "tech_depth": 0.80,
+        "practical_value": 0.90,
+        "timeliness": 1.00,
+        "community_heat": 0.95,
+        "domain_match": 0.95
+      }
+    },
+    {
+      "id": "49087091",
+      "title": "Discovering Cryptographic Weaknesses with Claude",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-29T07:02:30Z",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "score": 153,
+      "comments": 81,
+      "author": "gslin",
+      "time": 1785259336,
+      "category": "paper-or-talk",
+      "summary": "Anthropic 研究展示 Claude 在密码学弱点发现上的能力——不是简单复现已知攻击，而是探索模型能否自主发现加密算法中的脆弱性。作为 LLM 推理/安全交叉方向的前沿研究，它对评估前沿模型在「需要长链推理 + 领域专家直觉」任务上的上限很有参考价值，属本轮技术深度最高的内容之一（研究论文，非可直接调用工具，按 paper 上限处理 practical_value）。",
+      "tags": ["llm-research", "cryptography", "anthropic", "ai-safety", "reasoning"],
+      "relevance_score": 0.77,
+      "score_breakdown": {
+        "tech_depth": 0.90,
+        "practical_value": 0.45,
+        "timeliness": 0.95,
+        "community_heat": 0.85,
+        "domain_match": 0.90
+      }
+    },
+    {
+      "id": "49081644",
+      "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-29T07:02:30Z",
+      "url": "https://spawn-queue.acm.org/doi/10.1145/3819083",
+      "score": 140,
+      "comments": 73,
+      "author": "jordigg",
+      "time": 1785232753,
+      "category": "article-or-news",
+      "summary": "Google 发表「Beyond Zero」——面向 AI 时代的企业安全框架/立场文章（ACM 渠道）。内容偏企业安全战略与架构主张，反映大型厂商对「AI 引入新攻击面后企业安全如何重构」的方向性思考。对安全架构师有方向参考价值，但属战略/观点类，缺乏可直接落地的技术实现或开源工具，按 article 上限处理。",
+      "tags": ["enterprise-security", "ai-era", "security-strategy", "zero-trust"],
+      "relevance_score": 0.58,
+      "score_breakdown": {
+        "tech_depth": 0.45,
+        "practical_value": 0.30,
+        "timeliness": 0.90,
+        "community_heat": 0.85,
+        "domain_match": 0.70
+      }
+    },
+    {
+      "id": "49083239",
+      "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-29T07:02:30Z",
+      "url": "https://github.com/schildep/verified-3d-mesh-intersection",
+      "score": 104,
+      "comments": 44,
+      "author": "permute",
+      "time": 1785244034,
+      "category": "open-source",
+      "summary": "一个 Show HN 项目：用形式化方法验证的 3D 构造实体几何（CSG）实现，核心卖点是「信任 93 行规范，而不是 1000 行 AI 生成代码」，直指 AI 生成代码的正确性信任问题。对关注形式化验证、可验证软件以及「AI 代码可信度」议题的工程师是很好的对照样本——既有可用库，又有方法论示范。",
+      "tags": ["formal-verification", "3d-csg", "verified-code", "ai-code-trust"],
+      "relevance_score": 0.81,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.80,
+        "timeliness": 0.90,
+        "community_heat": 0.75,
+        "domain_match": 0.65
+      }
+    },
+    {
+      "id": "49088058",
+      "title": "MCP 2026-07-28 Specification: transport going stateless",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-29T07:02:30Z",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "score": 91,
+      "comments": 29,
+      "author": "Eldodi",
+      "time": 1785263711,
+      "category": "article-or-news",
+      "summary": "MCP 官方发布 2026-07-28 规范更新，核心变化是 transport 走向 stateless（无状态）。这是 AI agent 生态的基础设施级动向：stateless transport 直接影响 MCP server/client 的实现方式、可扩展性与无状态部署模式，所有接入 MCP 的工程师都需要据此评估迁移。虽以博客形式发布，实为协议规范文档，工程落地性极高。",
+      "tags": ["mcp", "protocol-spec", "stateless-transport", "agent-infrastructure"],
+      "relevance_score": 0.88,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.90,
+        "timeliness": 1.00,
+        "community_heat": 0.70,
+        "domain_match": 0.95,
+        "_override": {
+          "tech_depth": "虽归 article-or-news，实为协议级架构设计文档（stateless transport 是 transport 层范式变更），非普通资讯，突破 article 的 0.5 上限",
+          "practical_value": "官方协议规范，工程师需直接据此实现/迁移 MCP server 与 client，属可直接落地，突破 article 的 0.3 上限"
+        }
+      }
+    },
+    {
+      "id": "49090083",
+      "title": "Anthropic publishes a practical key-recovery attack on HAWK-256",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-29T07:02:30Z",
+      "url": "https://github.com/anthropics/cryptography-research-demo",
+      "score": 36,
+      "comments": 3,
+      "author": "bakigul",
+      "time": 1785273768,
+      "category": "open-source",
+      "summary": "Anthropic 公开了一种针对后量子格密码方案 HAWK-256 的实用密钥恢复攻击（配套 research demo 仓库）。对密码学/后量子迁移方向的研究者是有分量的贡献，也间接体现前沿 AI 实验室在传统安全研究上的投入；但议题属密码学而非 AI/LLM 核心，对 AI 知识库受众的领域匹配度中等，社区讨论也偏冷。",
+      "tags": ["post-quantum", "cryptography", "key-recovery", "anthropic"],
+      "relevance_score": 0.70,
+      "score_breakdown": {
+        "tech_depth": 0.90,
+        "practical_value": 0.60,
+        "timeliness": 0.90,
+        "community_heat": 0.35,
+        "domain_match": 0.60
+      }
+    },
+    {
+      "id": "49088595",
+      "title": "What if useful AI is a fantasy?",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-29T07:02:30Z",
+      "url": "https://lzon.ca/posts/other/llm-fantasy/",
+      "score": 19,
+      "comments": 15,
+      "author": "jpmitchell",
+      "time": 1785266257,
+      "category": "article-or-news",
+      "summary": "一篇质疑性长文，核心论点是「有用的 AI（尤其是 LLM）可能只是一种幻想」，属 AI 怀疑论/思辨类观点文章。对想平衡性地了解 AI 批判声音、避免单边叙事的读者有一定参考，但全文无技术细节、无可落地方法，与 AI 工程实践关联很弱，更适合作为舆论风向的弱信号。",
+      "tags": ["ai-skepticism", "llm-critique", "opinion"],
+      "relevance_score": 0.33,
+      "score_breakdown": {
+        "tech_depth": 0.20,
+        "practical_value": 0.10,
+        "timeliness": 0.70,
+        "community_heat": 0.35,
+        "domain_match": 0.60
+      }
+    },
+    {
+      "id": "49089156",
+      "title": "`bun init` automatically creates a Claude.md file by default",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-29T07:02:30Z",
+      "url": "https://bun.com/docs/runtime/templating/init",
+      "score": 10,
+      "comments": 10,
+      "author": "achristmascarl",
+      "time": 1785268947,
+      "category": "article-or-news",
+      "summary": "Bun 的 `bun init` 现在默认自动生成一个 Claude.md 文件，意味着主流 JS 运行时开始把 Claude Code/AI agent 配置当作一等公民内置支持。这反映 AI 编码 agent 正在沉淀进前端/JS 工具链默认形态，是生态演进的一个信号；对 Bun + Claude Code 用户是小幅便利，整体技术含量有限，按 article 上限处理。",
+      "tags": ["bun", "claude-code", "ai-tooling", "js-runtime"],
+      "relevance_score": 0.47,
+      "score_breakdown": {
+        "tech_depth": 0.35,
+        "practical_value": 0.30,
+        "timeliness": 0.90,
+        "community_heat": 0.25,
+        "domain_match": 0.70
+      }
+    },
+    {
+      "id": "49089626",
+      "title": "OpenReviewer: A Specialized LLM for Generating Critical Scientific Paper Reviews",
+      "source": "hackernews-top",
+      "collected_at": "2026-07-29T07:02:30Z",
+      "url": "https://aclanthology.org/2025.naacl-demo.44/",
+      "score": 6,
+      "comments": 0,
+      "author": "Anon84",
+      "time": 1785271145,
+      "category": "paper-or-talk",
+      "summary": "NAACL 2025 demo 论文：OpenReviewer——一个专门用于生成批判性学术论文评审的专用 LLM。针对「同行评审稀缺/质量参差」的痛点，把 LLM 定制为 review 生成器，对学术出版与科研自动化方向有参考价值；但属研究 demo（论文 + 可能的 demo），尚非成熟产品，社区热度在本轮中也最低，按 paper 上限处理 practical_value。",
+      "tags": ["llm-application", "paper-review", "scientific-research", "naacl"],
+      "relevance_score": 0.59,
+      "score_breakdown": {
+        "tech_depth": 0.80,
+        "practical_value": 0.50,
+        "timeliness": 0.65,
+        "community_heat": 0.10,
+        "domain_match": 0.95
+      }
+    }
+  ]
+}
