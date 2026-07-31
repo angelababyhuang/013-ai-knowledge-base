@@ -1,0 +1,19 @@
+{
+  "id": "49113543",
+  "title": "Show HN: Noisegate – a differential-privacy gateway for untrusted AI agents",
+  "source": "hackernews-top",
+  "url": "https://github.com/yashmahajan10/llm-differential-privacy-gateway",
+  "category": "open-source",
+  "collected_at": "2026-07-30T21:20:23Z",
+  "analyzed_at": "2026-07-31T01:50:00Z",
+  "organized_at": "2026-07-31T02:30:00Z",
+  "summary": "Noisegate 是一个差分隐私网关，让不可信 AI agent 经 MCP 协议查询敏感数据时，获得'即使 agent 被对抗性操纵也无法泄露任何单条记录'的数学保证。它采用三段式信任边界：不可信的 LLM 仅生成受限查询 AST，可信的校验层与隐私引擎在模型之下强制执行 Laplace 加噪与预算记账。仓库内置差异攻击/成员推断/再识别三类攻击画廊并做 CI 回归测试，机制还与 OpenDP 交叉验证到 1e-9，是 agent 安全 + 隐私工程的硬核参考实现。",
+  "tags": ["differential-privacy", "agent-safety", "mcp", "data-security"],
+  "relevance_score": 0.71,
+  "meta": {
+    "author": "yashmahajan10",
+    "comments": 0,
+    "time": 1785434928,
+    "score": 9
+  }
+}
