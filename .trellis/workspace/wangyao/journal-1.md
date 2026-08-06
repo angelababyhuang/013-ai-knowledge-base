@@ -40,3 +40,34 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 2: MCP 知识库搜索测试
+
+**Date**: 2026-08-06
+**Task**: MCP 知识库搜索测试
+**Branch**: `main`
+
+### Summary
+
+测试 knowledge MCP server：列出了 opencode mcp list（knowledge server connected），用 knowledge_search_articles 搜索 'Pi' 命中 pi-textbook 等 10 条，用 knowledge_get_article 获取 hahhforest/pi-textbook 完整 12 字段详情。无代码改动；本 session 的 dirty 路径均为 RSS 采集批处理的并行工作，未纳入。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+(No commits - planning session)
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
