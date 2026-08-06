@@ -1,6 +1,6 @@
 # AI 知识库助手
 
-自动从 GitHub 热门仓库与 Hacker News 采集 AI/LLM/Agent 领域技术动态，经 LLM 分析（中文摘要 / 英文标签 / 五维相关性评分）后，结构化存储为 JSON 知识条目。
+自动从 GitHub 热门仓库、Hacker News 与 RSS 订阅源采集 AI/LLM/Agent 领域技术动态，经 LLM 分析（中文摘要 / 英文标签 / 五维相关性评分）后，结构化存储为 JSON 知识条目。
 
 核心是一条**四步自动化流水线**：采集（Collect）→ 分析（Analyze）→ 整理（Organize）→ 保存（Save），由 `pipeline/pipeline.py` 一键驱动。
 
@@ -9,7 +9,7 @@
 ### 1. 安装依赖
 
 ```bash
-pip install -r requirements.txt   # 仅 httpx
+pip install -r requirements.txt   # httpx + pyyaml
 ```
 
 ### 2. 配置环境变量
@@ -52,8 +52,8 @@ python3 pipeline/pipeline.py --sources github,hn --limit 20
 
 | 参数 | 取值 | 默认 | 说明 |
 | --- | --- | --- | --- |
-| `--sources` | 逗号分隔 `github` / `hn` | `github,hn` | 数据源；`github`→GitHub 热门仓库，`hn`→Hacker News |
-| `--limit` | int | GitHub 20 / HN 10 | 每源采集条数上限 |
+| `--sources` | 逗号分隔 `github` / `hn` / `rss` | `github,hn` | 数据源；`github`→GitHub 热门仓库，`hn`→Hacker News，`rss`→RSS 订阅源 |
+| `--limit` | int | GitHub 20 / HN 10 / RSS 10 | 每源采集条数上限（RSS 为每个 feed 取最新 N 条） |
 | `--dry-run` | flag | 关 | 采集+分析照常，但**全程不落盘**，仅打印预览 |
 | `--verbose` | flag | 关 | 输出 DEBUG 级详细日志 |
 | `--no-validate` | flag | 关 | 跳过保存后的 schema 校验 |
@@ -61,14 +61,20 @@ python3 pipeline/pipeline.py --sources github,hn --limit 20
 ### 常用示例
 
 ```bash
-# 完整流水线（双源，各 20 条）
+# 完整流水线（GitHub + HN，默认）
 python3 pipeline/pipeline.py --sources github,hn --limit 20
+
+# 三源全采（GitHub + HN + RSS）
+python3 pipeline/pipeline.py --sources github,hn,rss --limit 10
 
 # 只采集 GitHub（5 条）
 python3 pipeline/pipeline.py --sources github --limit 5
 
 # 只采集 Hacker News（10 条）
 python3 pipeline/pipeline.py --sources hn --limit 10
+
+# 只采集 RSS 订阅源（每个 enabled feed 取最新 10 条）
+python3 pipeline/pipeline.py --sources rss --limit 10
 
 # 干跑模式：真实采集+分析但不落盘（预览产出，不污染数据）
 python3 pipeline/pipeline.py --sources github --limit 5 --dry-run
@@ -80,7 +86,7 @@ python3 pipeline/pipeline.py --sources hn --limit 10 --verbose
 ### 四步流程
 
 ```
-Collect   按 --sources 采集 GitHub / HN      → knowledge/raw/{source}-{date}.json
+Collect   按 --sources 采集 GitHub / HN / RSS  → knowledge/raw/{source}-{date}.json
 Analyze   每条调 LLM 摘要/标签/五维评分       → knowledge/enriched/{source}-{date}.enriched.json
 Organize  四规则门控 + url 去重               → 通过集 / 丢弃集
 Save      12 字段格式化 + 索引                → knowledge/articles/{date}-{source}-{slug}.json
@@ -91,6 +97,27 @@ Save      12 字段格式化 + 索引                → knowledge/articles/{dat
 - **去重**：以 `url` 为键跨天去重，重复条目不重复落盘。
 - **幂等**：同一天重复运行按 `id` / `url` 去重，不产生重复条目。
 - **错误审计**：采集/分析/解析失败穷举记录到 `knowledge/raw/errors-{date}.json`，单条失败不中断整体。
+
+## RSS 数据源配置
+
+RSS 源在 `pipeline/rss_sources.yaml` 中声明，每个源含 `name` / `url` / `category` / `enabled` 字段（+可选 `note` 备注）。`enabled` 控制是否采集，`--sources rss` 只抓 `enabled: true` 且 url 非空的源。
+
+```yaml
+sources:
+  - name: openai-blog
+    url: https://openai.com/blog/rss.xml
+    category: company-blog      # 来源分组（采集侧组织用，非 article 类型）
+    enabled: true
+  - name: arxiv-cs-ai
+    url: https://rss.arxiv.org/rss/cs.AI
+    category: ai-research
+    enabled: true
+    note: 量大，采集截取最新 limit 条
+```
+
+- **当前启用**：lobsters-ai、arxiv-cs-ai、openai-blog；其余（anthropic-research / huggingface-blog / jiqizhixin / qbitai）默认 `enabled: false`。
+- **新增/启停源**：编辑该 yaml，把目标源 `enabled` 改为 `true` 即可，无需改代码。
+- **说明**：RSS 条目 `source` 统一为 `rss`（源名存入 `meta.feed_name`）；条目的内容类型 `category`（open-source/paper-or-talk/article-or-news）由 LLM 分析时判定，与 yaml 里的来源分组 `category` 是两个字段。
 
 ## 数据目录
 
@@ -119,7 +146,8 @@ python3 hooks/check_quality.py 'knowledge/articles/*.json'
 ```
 ├── pipeline/
 │   ├── pipeline.py        # 四步流水线（主入口）
-│   └── model_client.py    # 统一 LLM 客户端（DeepSeek/Qwen/OpenAI）
+│   ├── model_client.py    # 统一 LLM 客户端（DeepSeek/Qwen/OpenAI）
+│   └── rss_sources.yaml   # RSS 数据源配置
 ├── hooks/
 │   ├── validate_json.py   # 结构校验器（schema 驱动）
 │   └── check_quality.py   # 5 维质量评分器（rubric 驱动）
