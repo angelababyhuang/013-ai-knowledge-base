@@ -31,7 +31,7 @@
     },
     "source": {
       "type": "string",
-      "enum": ["github-hot-repos", "hackernews-top"]
+      "enum": ["github-hot-repos", "hackernews-top", "rss"]
     },
     "url": {
       "type": "string",
@@ -78,7 +78,7 @@
     },
     "meta": {
       "type": "object",
-      "description": "跨源统一容器，始终为 dict。GitHub: stars/language/topics/pushed_at；HN: author/comments/time。键集随 source 变化，故此处不固定 properties。不参与质量门控。"
+      "description": "跨源统一容器，始终为 dict。GitHub: stars/language/topics/pushed_at；HN: author/comments/time；RSS: feed_name/author/published（feed_name 为 rss_sources.yaml 中的源名）。键集随 source 变化，故此处不固定 properties。不参与质量门控。"
     }
   }
 }

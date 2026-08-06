@@ -4,7 +4,7 @@
 把原先由「主 Agent → Subagent → Skill」驱动、靠 LLM 执行的
 采集 → 分析 → 整理 → 保存流程固化为可直接运行的 Python 流水线：
 
-    Step1 Collect   按 --sources 采 GitHub / HN ──▶ knowledge/raw/{source}-{date}.json
+    Step1 Collect   按 --sources 采 GitHub / HN / RSS ──▶ knowledge/raw/{source}-{date}.json
     Step2 Analyze   每条 raw item 调 LLM        ──▶ knowledge/enriched/{source}-{date}.enriched.json
     Step3 Organize  四规则门控 + url 去重        ──▶ 通过集 / 丢弃集
     Step4 Save      12 字段格式化 + 索引         ──▶ knowledge/articles/{date}-{source}-{slug}.json
@@ -16,6 +16,7 @@
 用法:
     python pipeline/pipeline.py --sources github,hn --limit 5
     python pipeline/pipeline.py --sources hn --limit 10 --dry-run --verbose
+    python pipeline/pipeline.py --sources rss --limit 10
 """
 
 from __future__ import annotations
@@ -28,11 +29,14 @@ import re
 import subprocess
 import sys
 import time
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any, Optional
 
 import httpx
+import yaml
 
 from model_client import create_provider, chat_with_retry
 
@@ -51,8 +55,14 @@ VALIDATE_HOOK = PROJECT_ROOT / "hooks" / "validate_json.py"
 # --------------------------------------------------------------------------- #
 # 源映射与默认值
 # --------------------------------------------------------------------------- #
-SOURCE_MAP = {"github": "github-hot-repos", "hn": "hackernews-top"}
-DEFAULT_LIMITS = {"github-hot-repos": 20, "hackernews-top": 10}
+SOURCE_MAP = {"github": "github-hot-repos", "hn": "hackernews-top",
+              "rss": "rss"}
+DEFAULT_LIMITS = {"github-hot-repos": 20, "hackernews-top": 10, "rss": 10}
+
+# --------------------------------------------------------------------------- #
+# RSS 采集常量（配置见 pipeline/rss_sources.yaml）
+# --------------------------------------------------------------------------- #
+RSS_SOURCES_FILE = Path(__file__).resolve().parent / "rss_sources.yaml"
 
 # --------------------------------------------------------------------------- #
 # GitHub 采集常量（对齐 .opencode/skills/github-hot-repos/SKILL.md）
@@ -363,6 +373,140 @@ def collect_hn(limit: int, errors: ErrorLog,
 
 
 # --------------------------------------------------------------------------- #
+# Step 1 Collect — RSS（设计决策 D1-D6，配置见 rss_sources.yaml）
+# --------------------------------------------------------------------------- #
+def load_rss_sources(errors: ErrorLog) -> list[dict[str, Any]]:
+    """读 rss_sources.yaml，过滤 enabled 且 url 非空的源；空 url 源直接跳过。"""
+    try:
+        data = yaml.safe_load(RSS_SOURCES_FILE.read_text(encoding="utf-8"))
+    except (OSError, yaml.YAMLError) as exc:
+        errors.add("rss", str(RSS_SOURCES_FILE), f"yaml 加载失败: {exc}")
+        return []
+    sources = (data or {}).get("sources")
+    if not isinstance(sources, list):
+        errors.add("rss", str(RSS_SOURCES_FILE),
+                   "yaml 结构非法: 缺少 sources[]")
+        return []
+    enabled = [
+        s for s in sources
+        if isinstance(s, dict) and s.get("enabled") and s.get("url")
+    ]
+    logger.info("[rss] yaml 声明 %d 源，启用 %d 源", len(sources), len(enabled))
+    return enabled
+
+
+def _published_timestamp(published: str) -> float:
+    """尽力把发布时间解析为时间戳（RFC 822 / ISO 8601）；失败返回 0。"""
+    if not published:
+        return 0.0
+    try:
+        return parsedate_to_datetime(published).timestamp()
+    except (TypeError, ValueError):
+        pass
+    try:
+        return datetime.fromisoformat(
+            published.replace("Z", "+00:00")).timestamp()
+    except ValueError:
+        return 0.0
+
+
+def parse_feed(xml_text: str, limit: int) -> list[dict[str, Any]]:
+    """解析 RSS 2.0（channel/item）与 Atom（entry），按发布时间降序取前 limit 条。
+
+    用 {*} 通配命名空间兼容 dc:creator / Atom 命名空间；
+    XML 解析失败抛 ET.ParseError，由调用方记 errors。
+    """
+    root = ET.fromstring(xml_text)
+    if root.tag.rsplit("}", 1)[-1] == "feed":  # Atom
+        entries = []
+        for entry in root.findall("{*}entry"):
+            link = ""
+            for link_el in entry.findall("{*}link"):
+                href = link_el.get("href") or ""
+                if link_el.get("rel", "alternate") == "alternate" and href:
+                    link = href
+                    break
+                link = link or href
+            author_el = entry.find("{*}author/{*}name")
+            entries.append({
+                "id": (entry.findtext("{*}id") or "").strip() or link,
+                "title": (entry.findtext("{*}title") or "").strip(),
+                "url": link.strip(),
+                "author": ((author_el.text or "").strip()
+                           if author_el is not None else ""),
+                "published": (entry.findtext("{*}published")
+                              or entry.findtext("{*}updated") or "").strip(),
+                "summary_raw": (entry.findtext("{*}summary")
+                                or entry.findtext("{*}content") or "").strip(),
+            })
+    else:  # RSS 2.0
+        entries = []
+        for item in root.findall(".//{*}channel/{*}item") or \
+                root.findall(".//{*}item"):
+            entries.append({
+                "id": (item.findtext("{*}guid")
+                       or item.findtext("{*}link") or "").strip(),
+                "title": (item.findtext("{*}title") or "").strip(),
+                "url": (item.findtext("{*}link") or "").strip(),
+                "author": (item.findtext("{*}author")
+                           or item.findtext("{*}creator") or "").strip(),
+                "published": (item.findtext("{*}pubDate")
+                              or item.findtext("{*}date") or "").strip(),
+                "summary_raw": (item.findtext("{*}description")
+                                or "").strip(),
+            })
+    entries.sort(key=lambda e: _published_timestamp(e["published"]),
+                 reverse=True)
+    return entries[:limit]
+
+
+def collect_rss(limit: int, errors: ErrorLog,
+                client: httpx.Client) -> list[dict[str, Any]]:
+    """逐 enabled 源抓取 feed → 解析 → 字段提取；单源/单条失败记 errors 跳过。"""
+    items: list[dict[str, Any]] = []
+    collected_at = now_iso()
+    for feed in load_rss_sources(errors):
+        name = feed["name"]
+        url = feed["url"]
+        try:
+            resp = client.get(url, follow_redirects=True)
+        except httpx.HTTPError as exc:
+            errors.add("rss", url, f"[{name}] 网络层失败: {exc}")
+            continue
+        if resp.status_code != 200:
+            errors.add("rss", url, f"[{name}] HTTP {resp.status_code}")
+            continue
+        try:
+            entries = parse_feed(resp.text, limit)
+        except ET.ParseError as exc:
+            errors.add("rss", url, f"[{name}] XML 解析失败: {exc}")
+            continue
+        kept = 0
+        for entry in entries:
+            missing = [k for k in ("id", "title", "url") if not entry[k]]
+            if missing:
+                errors.add("rss", entry.get("url") or url,
+                           f"[{name}] 必填字段缺失: {missing}")
+                continue
+            items.append({
+                "id": entry["id"],
+                "title": entry["title"],
+                "source": "rss",
+                "collected_at": collected_at,
+                "url": entry["url"],
+                "feed_name": name,
+                "author": entry["author"],
+                "published": entry["published"],
+                "summary_raw": entry["summary_raw"],
+            })
+            kept += 1
+        logger.info("[rss] %s 解析 %d 条，取最新 %d 条", name,
+                    len(entries), kept)
+    logger.info("[rss] 共采集 %d 条", len(items))
+    return items
+
+
+# --------------------------------------------------------------------------- #
 # Step 1 — raw 幂等落盘
 # --------------------------------------------------------------------------- #
 def save_raw(source: str, date: str, items: list[dict[str, Any]],
@@ -399,7 +543,8 @@ SYSTEM_PROMPT = (
     '为什么值得看"，不要照搬原文描述，要有信息增量\n'
     '- "tags": 英文 kebab-case 标签数组，3-5 个，全小写连字符分隔\n'
     '- "category": 三选一 "open-source" / "paper-or-talk" / "article-or-news"'
-    "（开源仓库 / 论文或演讲 / 资讯或文章；仅 HN 条目需要，GitHub 条目可省略）\n"
+    "（开源仓库 / 论文或演讲 / 资讯或文章；仅 HN 与 RSS 条目需要，"
+    "GitHub 条目可省略）\n"
     '- "tech_depth": 0.0-1.0 技术深度（底层原理/架构设计/算法创新）\n'
     '- "practical_value": 0.0-1.0 实用价值（工程师能否直接用于项目）\n'
     '- "timeliness": 0.0-1.0 时效性（最新趋势/近期发布）\n'
@@ -418,6 +563,12 @@ def build_analysis_prompt(item: dict[str, Any]) -> str:
         lines.append(f"语言: {item.get('language')}")
         lines.append(f"Topics: {', '.join(item.get('topics') or [])}")
         lines.append("来源: GitHub 热门仓库")
+    elif item["source"] == "rss":
+        lines.append(f"摘要: {item.get('summary_raw') or '（无）'}")
+        lines.append(f"作者: {item.get('author') or '（未知）'}")
+        lines.append(f"发布时间: {item.get('published') or '（未知）'}")
+        lines.append(f"来源: RSS 订阅 {item.get('feed_name')}"
+                     "（请自行判定最终 category）")
     else:
         lines.append(f"HN 得分: {item.get('score')}，评论数: {item.get('comments')}")
         lines.append(f"初步分类: {item.get('category')}（请自行复核并给出最终 category）")
@@ -528,7 +679,7 @@ def analyze_item(provider: Any, item: dict[str, Any],
             return None
         breakdown[dim] = value
 
-    # category：GitHub 恒 open-source；HN 以 LLM 判定为准（D1），非法值回退
+    # category：GitHub 恒 open-source；HN/RSS 以 LLM 判定为准（D1/D2），非法值回退
     if item["source"] == "github-hot-repos":
         category = "open-source"
     else:
@@ -664,13 +815,19 @@ def slugify(title: str) -> str:
 
 
 def build_meta(item: dict[str, Any]) -> dict[str, Any]:
-    """meta 透传：GitHub 与 HN 各自按 organizer 约定的字段集组装。"""
+    """meta 透传：GitHub / HN / RSS 各自按 organizer 约定的字段集组装（D3）。"""
     if item["source"] == "github-hot-repos":
         return {
             "stars": item.get("stars"),
             "language": item.get("language"),
             "topics": item.get("topics") or [],
             "pushed_at": item.get("updated_at"),
+        }
+    if item["source"] == "rss":
+        return {
+            "feed_name": item.get("feed_name"),
+            "author": item.get("author"),
+            "published": item.get("published"),
         }
     return {
         "author": item.get("author"),
@@ -777,11 +934,11 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     )
     parser.add_argument(
         "--sources", default="github,hn",
-        help="逗号分隔数据源：github / hn（默认 github,hn）",
+        help="逗号分隔数据源：github / hn / rss（默认 github,hn）",
     )
     parser.add_argument(
         "--limit", type=int, default=None,
-        help="每源采集条数上限（默认 GitHub 20 / HN 10）",
+        help="每源采集条数上限（默认 GitHub 20 / HN 10 / RSS 每 feed 10）",
     )
     parser.add_argument(
         "--dry-run", action="store_true",
@@ -811,7 +968,7 @@ def main(argv: list[str]) -> int:
     for name in args.sources.split(","):
         name = name.strip().lower()
         if name not in SOURCE_MAP:
-            logger.error("未知数据源 %r（可选: github / hn）", name)
+            logger.error("未知数据源 %r（可选: github / hn / rss）", name)
             return 2
         if SOURCE_MAP[name] not in sources:
             sources.append(SOURCE_MAP[name])
@@ -826,6 +983,8 @@ def main(argv: list[str]) -> int:
                 limit = DEFAULT_LIMITS[source]
             if source == "github-hot-repos":
                 items = collect_github(limit, errors, client)
+            elif source == "rss":
+                items = collect_rss(limit, errors, client)
             else:
                 items = collect_hn(limit, errors, client)
             save_raw(source, date, items, args.dry_run)

@@ -1,0 +1,45 @@
+# RSS 数据源登记（单一事实来源：.trellis/tasks/08-06-rss-sources/research/rss-feeds.md 实测）
+#
+# 字段说明：
+#   name     源标识（kebab-case），采集后写入 raw item 的 feed_name / article 的 meta.feed_name
+#   url      feed 地址；留空表示暂无可用 feed，采集时跳过
+#   category 来源分组标签（general-tech / ai-research / company-blog / chinese-community），
+#            仅作采集侧组织，不写入 article.category（后者由 LLM 判定为 3 枚举之一）
+#   enabled  是否采集；false 的源被跳过
+#   note     可用性备注（可选）
+sources:
+  - name: lobsters-ai
+    url: https://lobste.rs/t/ai.rss
+    category: general-tech
+    enabled: true
+    note: 官方 tag feed，实测可用；ml tag 是 OCaml 勿用
+  - name: arxiv-cs-ai
+    url: https://rss.arxiv.org/rss/cs.AI
+    category: ai-research
+    enabled: true
+    note: 量大（单快照 400+ 条），采集截取最新 limit 条
+  - name: openai-blog
+    url: https://openai.com/blog/rss.xml
+    category: company-blog
+    enabled: true
+    note: 官方，实测可用
+  - name: anthropic-research
+    url: https://rsshub.rssforever.com/anthropic/news
+    category: company-blog
+    enabled: false
+    note: 官方无 RSS，依赖 RSSHub 公共实例稳定性
+  - name: huggingface-blog
+    url: https://huggingface.co/blog/feed.xml
+    category: company-blog
+    enabled: false
+    note: 公认官方路径，本环境未实测连通，待部署环境验证
+  - name: jiqizhixin
+    url: ""
+    category: chinese-community
+    enabled: false
+    note: 未找到可用官方 RSS（/rss 已失效为 SPA）
+  - name: qbitai
+    url: https://www.qbitai.com/feed
+    category: chinese-community
+    enabled: false
+    note: 官方 WordPress feed 实测可用；遵循课程默认 disabled，可按需开
