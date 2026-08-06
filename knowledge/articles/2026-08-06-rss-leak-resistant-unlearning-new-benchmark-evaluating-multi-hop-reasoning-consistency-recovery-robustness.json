@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.04519v1",
+  "title": "Leak-Resistant Unlearning: A New Benchmark for Evaluating Multi-Hop Reasoning Consistency and Recovery Robustness",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.04519",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T23:01:20Z",
+  "analyzed_at": "2026-08-06T23:01:21Z",
+  "organized_at": "2026-08-06T23:05:16Z",
+  "summary": "本文提出一个新的基准测试，用于评估大语言模型（LLM）在机器遗忘（machine unlearning）场景下的鲁棒性。现有基准主要关注单跳问题，忽略了多跳推理路径可能引发的知识泄漏，以及通过轻量级后训练适应等恢复攻击导致的遗忘不彻底。该基准涵盖多种推理路径和恢复攻击，并在3个模型、6种遗忘方法和2个数据集上进行了实验，发现现有方法在多跳推理和恢复攻击下表现脆弱。文章还探讨了遗忘质量、鲁棒性和模型效用之间的权衡。该工作为LLM遗忘研究提供了更全面的评估工具，有助于开发更安全的模型更新机制。",
+  "tags": [
+    "machine-unlearning",
+    "llm-benchmark",
+    "multi-hop-reasoning",
+    "recovery-attacks",
+    "robustness"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Haoting Qian, Qingjie Zhang, Zhicong Huang, Cheng Hong, Han Qiu",
+    "published": "Thu, 06 Aug 2026 00:00:00 -0400"
+  }
+}

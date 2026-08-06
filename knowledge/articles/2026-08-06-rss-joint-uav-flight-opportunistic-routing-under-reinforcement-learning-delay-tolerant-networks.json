@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.04590v1",
+  "title": "Joint UAV Flight and Opportunistic Routing under Reinforcement Learning for Delay-Tolerant Networks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.04590",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T23:01:20Z",
+  "analyzed_at": "2026-08-06T23:01:21Z",
+  "organized_at": "2026-08-06T23:05:16Z",
+  "summary": "该论文针对延迟容忍网络（DTN）中稀疏连接导致的投递率低和拥塞问题，提出联合优化无人机飞行轨迹与机会路由的策略。作者将问题建模为因子化部分可观测马尔可夫决策过程（Dec-POMDP），并基于近端策略优化（PPO）框架提出JUROR算法，采用集中训练、分散执行（CTDE）架构，使无人机通过调整航向扩大未来接触机会，同时各节点在局部观测下进行复制决策。仿真显示在多种流量模式下优于PRoPHET和MaxProp，且保持分散执行的低开销。该工作将强化学习应用于无人机辅助的DTN，具有实际部署潜力，值得关注。",
+  "tags": [
+    "reinforcement-learning",
+    "delay-tolerant-networks",
+    "uav-routing",
+    "ppo",
+    "ctde"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xiao Wang, Shun-Ren Yang",
+    "published": "Thu, 06 Aug 2026 00:00:00 -0400"
+  }
+}

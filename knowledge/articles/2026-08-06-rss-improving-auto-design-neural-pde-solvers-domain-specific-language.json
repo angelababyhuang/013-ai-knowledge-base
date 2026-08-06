@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.04384v1",
+  "title": "Improving Auto-Design of Neural PDE Solvers with a Domain-Specific Language",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.04384",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T23:01:20Z",
+  "analyzed_at": "2026-08-06T23:01:21Z",
+  "organized_at": "2026-08-06T23:05:16Z",
+  "summary": "本文提出 ADSL-PDE，一种用于神经 PDE 求解器自动设计的领域特定语言（DSL）。它通过引入介于概念与代码之间的结构化搜索状态，将架构、物理约束、目标函数等设计决策与底层实现细节解耦，并由确定性编译器生成可执行代码，从而重塑搜索空间，提高有效候选的密度。基于该表示，进化代理能更高效地迭代优化求解器，在多个基准上首十轮进化即提升超 52%。该工作揭示了 LLM 驱动自动设计的关键原则：有效的代理不仅需要更强的推理，更需要能聚焦于有效决策的搜索表示。值得关注，因为它为 LLM 在科学计算自动设计中的应用提供了新范式。",
+  "tags": [
+    "neural-pde-solver",
+    "domain-specific-language",
+    "llm-auto-design",
+    "evolutionary-search",
+    "search-space-representation"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shengxin Kong, Liwen Xu, Jingwen Fu",
+    "published": "Thu, 06 Aug 2026 00:00:00 -0400"
+  }
+}

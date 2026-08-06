@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.04625v1",
+  "title": "A/B Agent: A Self-Evolving Agent for Strategy Iteration in Industrial A/B Testing",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.04625",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T23:01:20Z",
+  "analyzed_at": "2026-08-06T23:01:21Z",
+  "organized_at": "2026-08-06T23:05:16Z",
+  "summary": "A/B Agent 是一个面向工业推荐系统 A/B 测试的闭环智能体，旨在自动化策略迭代流程。它通过构建层次化经验树组织历史实验知识，利用多路径 Tree-RAG 检索可迁移证据以生成目标感知策略，并根据在线 A/B 反馈自动调参和更新经验树，实现策略自进化。该框架解决了传统人工调参耗时、经验复用困难以及现有 RAG 代理忽略层次关系导致检索不匹配的问题。在真实短视频电商推荐系统中，A/B Agent 实现了 GMV 提升 4.829% 且所有护栏指标保持正向，展示了其实际应用价值。该工作结合了 RAG、层次知识组织和强化学习思想，对工业界和学术界均有参考意义。",
+  "tags": [
+    "ab-testing",
+    "recommendation-system",
+    "rag",
+    "self-evolving-agent",
+    "industrial-ai"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhuohang Jiang, Yuxin Chen, Yongsen Pan, Zheng Hu, Wenqi Fan, Qing Li, Hongyang Wang, Jun Wang, Wenwu Ou",
+    "published": "Thu, 06 Aug 2026 00:00:00 -0400"
+  }
+}

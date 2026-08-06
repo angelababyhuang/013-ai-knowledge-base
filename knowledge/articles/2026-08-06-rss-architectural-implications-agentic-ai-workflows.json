@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.04458v1",
+  "title": "Architectural Implications of Agentic AI Workflows",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.04458",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T23:01:20Z",
+  "analyzed_at": "2026-08-06T23:01:21Z",
+  "organized_at": "2026-08-06T23:05:16Z",
+  "summary": "该论文首次对数据中心中Agentic AI工作负载的架构影响进行了系统研究，基于微软Azure的生产数据和开源框架的受控实验，提出了一个分类法来组织Agentic工作流。研究发现Agentic执行具有碎片化和异构性，请求扩展为LLM推理、工具调用和编排决策的工作流，反复跨越CPU-GPU边界，导致CPU成为关键路径，负载呈现低基线和突发尖峰的特征。这些特性与常规统一服务器架构不匹配，造成资源浪费。作者提出了Agora原型服务器，通过动态回收空闲CPU核心、GPU内存超订和亲和性感知调度等机制，在保护尾延迟的同时提高利用率。该工作为未来Agentic AI服务器架构设计提供了重要方向。",
+  "tags": [
+    "agentic-ai",
+    "datacenter-architecture",
+    "workload-characterization",
+    "server-design",
+    "llm-inference"
+  ],
+  "relevance_score": 0.73,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jirong Yang, Peizhe Liu, Chaojie Zhang, Jovan Stojkovic",
+    "published": "Thu, 06 Aug 2026 00:00:00 -0400"
+  }
+}

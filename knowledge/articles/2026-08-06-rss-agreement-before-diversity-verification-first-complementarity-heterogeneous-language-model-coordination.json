@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.04618v1",
+  "title": "Agreement Before Diversity: Verification-First Complementarity for Heterogeneous Language-Model Coordination",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.04618",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T23:01:20Z",
+  "analyzed_at": "2026-08-06T23:01:21Z",
+  "organized_at": "2026-08-06T23:05:16Z",
+  "summary": "本文提出了一种名为“Agreement-Before-Diversity”（ABD）的决策规则，用于异构语言模型集成中，解决新生成答案何时应取代已有答案的问题。ABD是一种冻结的、无标签的规则，通过两个额外可信样本的验证来决定保留或替换答案，并证明了两个精确恒等式，揭示了准确率差距与协议覆盖率和锚定优势的关系。该方法在LiveCodeBench和GPQA-Diamond基准上取得了显著提升，且无需独立性或校准置信度假设，具有理论严谨性和实践价值。",
+  "tags": [
+    "language-model-ensemble",
+    "verification-first",
+    "decision-rule",
+    "agreement-before-diversity",
+    "llm-coordination"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ruitong Li, Binjie Guo, Aisheng Mo, Guowei Su, Jie Li, Ru Zhang",
+    "published": "Thu, 06 Aug 2026 00:00:00 -0400"
+  }
+}

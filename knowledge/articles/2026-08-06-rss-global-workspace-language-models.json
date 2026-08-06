@@ -1,0 +1,24 @@
+{
+  "id": "https://lobste.rs/s/xgtzrp",
+  "title": "A global workspace in language models",
+  "source": "rss",
+  "url": "https://www.anthropic.com/research/global-workspace",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T23:01:20Z",
+  "analyzed_at": "2026-08-06T23:01:21Z",
+  "organized_at": "2026-08-06T23:05:16Z",
+  "summary": "Anthropic 的研究提出在语言模型中引入“全局工作空间”（global workspace）机制，借鉴认知科学中的全局工作空间理论，通过一个共享的信息存储和广播模块，让模型的不同模块（如注意力头、前馈网络）能够协同处理复杂任务。该研究旨在解决当前 LLM 在长程推理、多步骤任务和跨模块信息整合上的局限性，提升模型的推理一致性和可解释性。值得关注的是，它提供了一种新的架构设计思路，可能为未来 LLM 的推理能力提升和内部机制透明化提供方向，对研究者和高级工程师具有启发意义。",
+  "tags": [
+    "global-workspace",
+    "llm-architecture",
+    "cognitive-science",
+    "reasoning",
+    "interpretability"
+  ],
+  "relevance_score": 0.72,
+  "meta": {
+    "feed_name": "lobsters-ai",
+    "author": "anthropic.com via bshanks",
+    "published": "Tue, 07 Jul 2026 13:26:18 -0500"
+  }
+}

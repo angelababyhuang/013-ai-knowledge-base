@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.04190v1",
+  "title": "Adversarially Robust Abductive Fusion of Pre-trained Transformer-based Perception Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.04190",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T23:01:20Z",
+  "analyzed_at": "2026-08-06T23:01:21Z",
+  "organized_at": "2026-08-06T23:05:16Z",
+  "summary": "该论文提出了一种无需领域知识的对抗鲁棒融合方法，用于集成多个预训练的ViT感知模型。它通过构建每个模型的标签向量池（LVP），利用向量空间几何学习错误检测规则，替代传统依赖手工领域知识（如物体大小先验、分割掩码）的元认知方法。在测试时，将多模型融合建模为一致性溯因问题，通过整数规划（IP）和多项式启发式求解。在15个天气偏移测试集和6个ViT检测器上的实验表明，该方法在干净数据上与多数投票基线相当，但在协调标签翻转攻击下显著优于基线（90%翻转率时F1提升22%）。该工作值得关注，因为它展示了如何在不依赖领域知识的情况下实现鲁棒的模型融合，对分布偏移和对抗攻击场景具有实际意义。",
+  "tags": [
+    "adversarial-robustness",
+    "model-fusion",
+    "neurosymbolic",
+    "distribution-shift",
+    "vision-transformer"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mario Leiva, Yue Ma, Qinru Qiu, Gerardo Simari, Paulo Shakarian",
+    "published": "Thu, 06 Aug 2026 00:00:00 -0400"
+  }
+}

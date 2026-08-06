@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.04095v1",
+  "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.04095",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T23:01:20Z",
+  "analyzed_at": "2026-08-06T23:01:21Z",
+  "organized_at": "2026-08-06T23:05:16Z",
+  "summary": "FinPerMA 是一个面向 LLM 智能体的个性化记忆基准，专注于金融咨询等高风险场景。它通过事件驱动的方式评估智能体能否在长期交互中更新用户模型，解决了现有基准仅测试事实记忆或依赖弱约束生成轨迹的问题。该基准基于理论驱动的冲击规则生成数据，并设置 Post-Shock 检查点，实验表明前沿模型在个性化记忆上远未饱和，且摘要式记忆常丢失偏好信号，简单检索反而优于专用记忆系统。值得关注，因为它揭示了当前记忆机制在个性化适配上的关键缺陷。",
+  "tags": [
+    "personalized-memory",
+    "benchmark",
+    "llm-agents",
+    "event-grounded",
+    "financial-advisory"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ben Wang, Kang Zhou, Lifan Guo, Feng Chen, Chi Zhang",
+    "published": "Thu, 06 Aug 2026 00:00:00 -0400"
+  }
+}
