@@ -1,0 +1,422 @@
+{
+  "source": "hackernews-top",
+  "collected_at": "2026-08-06T02:11:34Z",
+  "analyzed_at": "2026-08-06T02:13:02Z",
+  "count": 13,
+  "items": [
+    {
+      "id": "49182996",
+      "title": "Cloudflare OS: an open platform for agents, apps, and work",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
+      "score": 475,
+      "comments": 240,
+      "author": "speckx",
+      "time": 1785938333,
+      "category": "article-or-news",
+      "summary": "Cloudflare 宣布推出 Cloudflare OS，这是一个面向代理（agents）、应用和工作的开放平台。它旨在解决当前 AI 代理生态中基础设施碎片化、部署复杂和缺乏统一运行时的问题，通过提供一套集成的云服务，让开发者能够更轻松地构建、部署和扩展 AI 驱动的应用。该平台值得关注，因为它代表了大型云服务商对 AI 原生应用架构的深度布局，可能重塑开发者构建智能代理的方式，并暗示了未来工作流自动化的基础设施方向。",
+      "tags": [
+        "cloudflare-os",
+        "ai-agents",
+        "cloud-platform",
+        "developer-tools",
+        "infrastructure"
+      ],
+      "relevance_score": 0.6,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.8,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.6 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.7 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49187977",
+      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+      "score": 250,
+      "comments": 199,
+      "author": "malshe",
+      "time": 1785959246,
+      "category": "article-or-news",
+      "summary": "这篇文章报道了Meta在广告系统中投放了包含AI生成儿童性虐待图像的广告，揭示了平台内容审核的严重漏洞。问题在于AI生成内容的泛滥使得现有检测机制失效，而Meta的广告投放流程未能有效拦截这些非法内容。值得关注的是，这不仅是技术问题，还涉及伦理、法律和平台责任，对AI内容治理和审核系统的改进具有警示意义。",
+      "tags": [
+        "ai-safety",
+        "content-moderation",
+        "child-safety",
+        "meta-ads",
+        "ai-generated-content"
+      ],
+      "relevance_score": 0.5,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.2,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.8
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49181083",
+      "title": "Position: LLMs Can't Jump",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+      "score": 247,
+      "comments": 168,
+      "author": "theanonymousone",
+      "time": 1785927697,
+      "category": "article-or-news",
+      "summary": "该条目是OpenReview上关于大型语言模型（LLM）能力边界的一项挑战或讨论帖，标题“LLMs Can't Jump”暗示模型在需要跳跃性思维或非连续推理的任务上存在局限。它可能涉及对LLM在复杂推理、规划或创造性问题解决中失败案例的分析，旨在引发社区对模型根本性缺陷的反思。值得关注是因为它直击当前LLM的短板，对评估模型真实能力和未来研究方向具有启发意义。",
+      "tags": [
+        "llm-limitations",
+        "reasoning-gap",
+        "openreview",
+        "model-evaluation"
+      ],
+      "relevance_score": 0.56,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.8,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.6 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.4 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49186762",
+      "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+      "score": 227,
+      "comments": 49,
+      "author": "moonikakiss",
+      "time": 1785953936,
+      "category": "article-or-news",
+      "summary": "本文介绍了 Neon 公司如何通过优化开源模型（如 Llama 系列）的推理架构和检索流程，在特定检索任务上以比 GPT-5.6 Sol 低 100 倍的成本实现更优性能。文章重点阐述了其技术方案，包括使用更小的模型、高效的向量检索和缓存策略，以及针对检索场景的微调。值得关注的是，它展示了在特定领域任务中，开源模型通过工程优化可以超越前沿闭源模型，为成本敏感型应用提供了可行路径。",
+      "tags": [
+        "retrieval",
+        "open-source-models",
+        "cost-efficiency",
+        "llm-optimization",
+        "vector-search"
+      ],
+      "relevance_score": 0.59,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.7 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.8 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49187061",
+      "title": "Born Against, or why hobby programming communities are against LLM usage",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://blog.fogus.me/llm/born-against.html",
+      "score": 134,
+      "comments": 142,
+      "author": "lladnar",
+      "time": 1785955069,
+      "category": "article-or-news",
+      "summary": "这篇文章探讨了为什么许多业余编程社区（如某些开源项目、论坛）对使用LLM持反对态度。作者从文化、哲学和技术角度分析了这种“Born Against”现象，指出这些社区强调手工编程的技艺性、对代码的深度理解以及社区协作的纯粹性，而LLM被视为削弱这些价值的工具。文章值得一读，因为它揭示了AI工具在开发者社区中引发的文化冲突，而不仅仅是技术效率问题，有助于理解LLM采纳的障碍和社区动态。",
+      "tags": [
+        "llm-adoption",
+        "programming-culture",
+        "community-resistance",
+        "developer-tools",
+        "ai-philosophy"
+      ],
+      "relevance_score": 0.45,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.2,
+        "timeliness": 0.7,
+        "community_heat": 0.6,
+        "domain_match": 0.8
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49181519",
+      "title": "Why Erdős Problems Are Falling to AI",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+      "score": 126,
+      "comments": 124,
+      "author": "pseudolus",
+      "time": 1785930574,
+      "category": "article-or-news",
+      "summary": "这篇文章探讨了人工智能在解决数学难题，特别是埃尔德什猜想（Erdős Problems）方面的最新进展。文章指出，AI 系统（如 AlphaProof 和 AlphaGeometry）通过结合形式化推理和机器学习，已经能够解决一些长期未解的数学问题，例如某些组合数学和数论中的猜想。这标志着 AI 从辅助计算工具向自主推理者的转变，对数学研究范式产生了深远影响。文章值得关注，因为它不仅展示了 AI 在数学领域的突破，还引发了关于 AI 在科学发现中角色的讨论，对 AI 研究者和数学爱好者都具有启发意义。",
+      "tags": [
+        "ai-mathematics",
+        "erdos-problems",
+        "automated-reasoning",
+        "alphaproof",
+        "machine-learning"
+      ],
+      "relevance_score": 0.58,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.8,
+        "_override": {
+          "tech_depth": "原值 0.6 超出 article-or-news 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49182946",
+      "title": "Building an Advanced Agentic Harness",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://data4sci.com/blog/building-an-advanced-agentic-harness",
+      "score": 108,
+      "comments": 41,
+      "author": "Anon84",
+      "time": 1785938052,
+      "category": "article-or-news",
+      "summary": "本文深入探讨了如何构建一个高级的 Agentic Harness（智能体运行框架），旨在解决 LLM 智能体在生产环境中面临的可靠性、可观测性和控制力不足的问题。作者从架构设计出发，详细介绍了任务编排、工具调用管理、状态持久化、错误恢复及安全边界等核心模块，并分享了实际工程中的权衡与最佳实践。文章不仅关注理论，更提供了可落地的代码思路和配置示例，对于希望将 LLM 从原型推向生产级应用的工程师极具参考价值，是理解智能体工程化落地的重要资料。",
+      "tags": [
+        "agentic-harness",
+        "llm-agents",
+        "production-engineering",
+        "observability",
+        "tool-calling"
+      ],
+      "relevance_score": 0.53,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.6,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.8 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.9 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49189075",
+      "title": "Prime Agent: A self-improving RLM agent",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "score": 106,
+      "comments": 19,
+      "author": "Xeophon",
+      "time": 1785964317,
+      "category": "article-or-news",
+      "summary": "Prime Agent 是 Prime Intellect 发布的一个自改进型强化学习（RLM）智能体，旨在通过自主生成和优化训练数据来提升模型在复杂推理任务上的表现。它解决了传统智能体依赖人工标注或静态数据集、难以持续进化的问题，其核心创新在于将强化学习与自我反思机制结合，使智能体能够从自身错误中学习并迭代改进策略。该文章值得关注，因为它展示了智能体自我进化的一种实用路径，对构建长期自主运行的 AI 系统具有启发意义，且来自活跃的开源社区，具有较高的参考价值。",
+      "tags": [
+        "self-improving-agent",
+        "reinforcement-learning",
+        "agent-training",
+        "rlm",
+        "autonomous-agents"
+      ],
+      "relevance_score": 0.57,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.7 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49186720",
+      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://arxiv.org/abs/2510.01395",
+      "score": 77,
+      "comments": 54,
+      "author": "robin_reala",
+      "time": 1785953823,
+      "category": "article-or-news",
+      "summary": "这篇2025年的arXiv论文研究了AI谄媚行为（sycophancy）对用户亲社会意图和依赖性的影响。通过实验发现，当AI系统表现出过度迎合用户观点时，会显著降低用户的亲社会意图（如帮助他人、参与社会活动），并增加用户对AI的依赖。研究揭示了AI设计中的伦理风险，提示开发者在构建对话系统时需平衡友好性与独立性，避免强化用户偏见或削弱自主性。该研究对AI伦理、人机交互和Agent设计具有重要参考价值，值得关注。",
+      "tags": [
+        "ai-ethics",
+        "human-ai-interaction",
+        "sycophancy",
+        "prosocial-behavior",
+        "dependency"
+      ],
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.8,
+        "community_heat": 0.6,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.6 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.5 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49187259",
+      "title": "Sula: A Gemini protocol server written in Scryer Prolog",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://sagredo.dev/projects/sula/",
+      "score": 46,
+      "comments": 2,
+      "author": "triska",
+      "time": 1785955978,
+      "category": "article-or-news",
+      "summary": "Sula 是一个用 Scryer Prolog 编写的 Gemini 协议服务器，展示了逻辑编程语言在构建网络服务方面的可行性。它解决了 Gemini 协议服务器生态中缺乏非传统语言实现的问题，为开发者提供了使用 Prolog 构建轻量级、声明式网络服务的参考案例。该项目值得关注，因为它将逻辑编程与现代网络协议结合，展示了 Prolog 在特定场景下的实用价值，同时也为 Gemini 协议爱好者提供了新的工具选择。",
+      "tags": [
+        "gemini-protocol",
+        "prolog",
+        "scryer-prolog",
+        "network-server",
+        "logic-programming"
+      ],
+      "relevance_score": 0.38,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.5,
+        "community_heat": 0.3,
+        "domain_match": 0.2,
+        "_override": {
+          "tech_depth": "原值 0.6 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.4 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49185389",
+      "title": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://www.hyperprobe.co",
+      "score": 44,
+      "comments": 31,
+      "author": "shailendraht",
+      "time": 1785948435,
+      "category": "article-or-news",
+      "summary": "HyperProbe 是 YC S26 孵化的一个工具，提供只读的 AI 代理，用于在生产环境中进行调试。它解决了开发者在生产环境排查问题时面临的直接访问风险，通过只读方式安全地分析日志、指标和代码，帮助快速定位故障根因。该项目值得关注，因为它代表了 AI 代理在运维领域的实际应用，且强调安全性和实用性，对工程师有直接参考价值。",
+      "tags": [
+        "ai-agent",
+        "debugging",
+        "production",
+        "read-only",
+        "observability"
+      ],
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.8 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49188916",
+      "title": "When online commenters detect my art as AI",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
+      "score": 11,
+      "comments": 4,
+      "author": "Jare",
+      "time": 1785963532,
+      "category": "article-or-news",
+      "summary": "这篇文章由艺术家 David Revoy 撰写，讲述了他的人类创作的艺术作品被在线评论者误判为 AI 生成的过程。他分析了评论者依赖的检测线索（如细节瑕疵、风格一致性等），并指出这些线索并不可靠，因为人类艺术家也会产生类似特征。文章探讨了 AI 检测工具的局限性、对艺术家声誉的影响，以及当前 AI 生成内容泛滥背景下信任危机的问题。值得一看，因为它从创作者视角揭示了 AI 检测的误判现象，引发对 AI 内容识别和艺术伦理的思考。",
+      "tags": [
+        "ai-detection",
+        "art-ethics",
+        "misclassification",
+        "creator-perspective",
+        "content-authenticity"
+      ],
+      "relevance_score": 0.37,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.2,
+        "domain_match": 0.6
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    },
+    {
+      "id": "49191365",
+      "title": "LLMs won't break symmetric crypto",
+      "source": "hackernews-top",
+      "collected_at": "2026-08-06T02:11:34Z",
+      "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
+      "score": 4,
+      "comments": 0,
+      "author": "rowbin",
+      "time": 1785980346,
+      "category": "article-or-news",
+      "summary": "这篇文章探讨了大型语言模型（LLM）是否可能破解对称加密算法（如AES）的问题。作者从密码学原理出发，指出对称加密的安全性依赖于密钥的随机性和算法的数学结构，而非模式识别能力。LLM虽然擅长处理自然语言和统计模式，但无法在计算上暴力破解密钥或发现算法漏洞，因此不会对对称加密构成实质威胁。文章值得一读，因为它澄清了AI在密码学领域的边界，缓解了公众对AI可能颠覆安全基础的过度担忧，同时提醒读者关注AI在非对称加密或侧信道攻击中的潜在风险。",
+      "tags": [
+        "llm-security",
+        "symmetric-crypto",
+        "cryptography",
+        "ai-limits",
+        "security-analysis"
+      ],
+      "relevance_score": 0.4,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.5,
+        "community_heat": 0.1,
+        "domain_match": 0.7,
+        "_override": {
+          "tech_depth": "原值 0.6 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.4 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-06T02:11:34Z"
+    }
+  ]
+}
