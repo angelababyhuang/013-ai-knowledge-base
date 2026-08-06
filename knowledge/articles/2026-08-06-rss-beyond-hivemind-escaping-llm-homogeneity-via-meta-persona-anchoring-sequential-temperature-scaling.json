@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.02618v1",
+  "title": "Beyond the Hivemind: Escaping LLM Homogeneity via Meta-Persona Anchoring and Sequential Temperature Scaling",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.02618",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T03:33:39Z",
+  "analyzed_at": "2026-08-06T03:34:38Z",
+  "organized_at": "2026-08-06T03:35:53Z",
+  "summary": "该论文针对大语言模型在开放性问题上的“人工蜂群思维”效应，即模型输出高度同质化的问题，提出了一种结合元人格锚定与过滤温度缩放（FTS）的缓解框架。该方法通过两阶段生成过程，先让模型自选独特人格作为起点，再通过Top-p过滤和极端温度缩放探索更广的概率分布，从而显著降低语义收敛。实验表明，该方法将平均成对余弦相似度从约0.85降至约0.65，有效提升了输出多样性。该研究为增强AI生成内容的多样性和创造性提供了实用方案，值得关注。",
+  "tags": [
+    "llm-diversity",
+    "meta-persona",
+    "temperature-scaling",
+    "semantic-collapse",
+    "open-source"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tairan Fu, Javier Conde, Carlos Arriaga, Gonzalo Mart\\'inez, Pedro Reviriego, Javier Coronado-Bl\\'azquez",
+    "published": "Wed, 05 Aug 2026 00:00:00 -0400"
+  }
+}

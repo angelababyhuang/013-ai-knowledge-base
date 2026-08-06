@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.02650v1",
+  "title": "HyperAgent: Planning and Acting over Tool-Schema Hypergraphs for Tool-Use LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.02650",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T03:33:39Z",
+  "analyzed_at": "2026-08-06T03:34:38Z",
+  "organized_at": "2026-08-06T03:35:53Z",
+  "summary": "HyperAgent 提出了一种基于工具-模式超图（Tool-Schema Hypergraph）的 LLM 智能体规划与执行框架，旨在解决现有工具使用智能体在复杂任务中因隐式推理和动态环境导致的规划不可靠、探索低效等问题。它通过将工具建模为从输入模式到输出模式的超边，构建模式级关系图，并利用任务相关的上下文图指导生成模式感知的任务 DAG，在执行时通过缺陷导向扩展动态构建工具支持图，从而高效地完成子任务。实验表明，在 AppWorld 基准上，HyperAgent 在提升任务完成性能的同时，减少了冗余 API 调用、LLM 交互和 token 消耗。该工作为工具使用智能体的规划提供了新的结构化思路，值得关注。",
+  "tags": [
+    "tool-use-agents",
+    "hypergraph",
+    "planning",
+    "llm-agents",
+    "schema-aware"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zian Zhai, Xingyu Tan, Gaowang Zou, Xiaoyang Wang, Wenjie Zhang",
+    "published": "Wed, 05 Aug 2026 00:00:00 -0400"
+  }
+}

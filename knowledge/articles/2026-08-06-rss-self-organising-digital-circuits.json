@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.02606v1",
+  "title": "Self-Organising Digital Circuits",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.02606",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-06T03:33:39Z",
+  "analyzed_at": "2026-08-06T03:34:38Z",
+  "organized_at": "2026-08-06T03:35:53Z",
+  "summary": "该论文提出了一种自组织数字电路（Self-Organising Digital Circuits）架构，将功能逻辑生成与维护视为图上的元学习问题。其核心是使用拓扑掩码Transformer配置电路布尔门的查找表（LUT），并扩展神经细胞自动机（NCA）的模式生成范式，以在退化布尔搜索空间中满足计算任务而非重建固定目标状态。实验表明，该架构能从零开始自组装功能电路，并针对永久性硬件故障快速重路由逻辑；对于软错误，在远超训练条件的损伤规模下实现了超过99.99%的恢复准确率，且泛化到更宽的电路图。这项工作将生物自组织原理与数字硬件实践相结合，为容错计算提供了新思路，值得关注。",
+  "tags": [
+    "self-organising-circuits",
+    "meta-learning",
+    "neural-cellular-automata",
+    "fault-tolerance",
+    "transformer"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Marcello Barylli, Gabriel B\\'ena, Alexander Mordvintsev, Eleni Nisioti, Sebastian Risi",
+    "published": "Wed, 05 Aug 2026 00:00:00 -0400"
+  }
+}
