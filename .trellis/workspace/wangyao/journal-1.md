@@ -105,3 +105,36 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 4: pipeline --step/--days + 本地 crontab 定时配置
+
+**Date**: 2026-08-07
+**Task**: pipeline --step/--days + 本地 crontab 定时配置
+**Branch**: `main`
+
+### Summary
+
+完成两个关联任务：(1) pipeline-step-flag：给 pipeline.py 加 --step 参数（支持分步执行 1,2 采集分析 / 3,4 整理入库）+ --days 参数（Step 3-4 多天回溯扫描 enriched/）+ scan_enriched_dates() + main() 批次循环重构。(2) local-crontab：创建 crontab 文件并安装——每天 08:00 跑 --step 1,2（采集+分析），每周日 10:00 跑 --step 3,4 --days 7（整理入库）。关键发现：zsh 的 . source 命令不搜索当前目录（需 ./.env），但 cron 用 /bin/sh 无此问题。手动测试验证多天扫描+去重正确（171 条全 duplicate，符合预期）。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `a5b16ce` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
