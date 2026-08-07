@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.05228v1",
+  "title": "TriQua: Reconciling Granularity and Context in Factuality Evaluation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.05228",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-07T08:23:18Z",
+  "analyzed_at": "2026-08-07T08:23:18Z",
+  "organized_at": "2026-08-07T08:26:40Z",
+  "summary": "TriQua 是一个面向 LLM 事实性评估的框架，旨在解决“分解-验证”范式中原子事实粒度与上下文保留之间的权衡。它根据事实复杂度灵活建模：简单声明提取为标准三元组，复杂声明则通过附加上下文限定符表示为超关系事实，从而在保持原子性的同时保留必要上下文。TriQua 的验证过程能直接标注三元组和限定符中的具体错误，提供细粒度的可解释性，并配套提出 TriQuaScore 量化事实性分数。实验表明 TriQuaScore 与人工评分高度一致，且分解质量和证据验证效果优于现有方法。该工作对提升 LLM 输出的可信度评估具有重要价值，值得关注。",
+  "tags": [
+    "factuality-evaluation",
+    "llm-evaluation",
+    "knowledge-graph",
+    "decompose-verify",
+    "explainability"
+  ],
+  "relevance_score": 0.73,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jin Liu, Steffen Thoma, Achim Rettinger",
+    "published": "Fri, 07 Aug 2026 00:00:00 -0400"
+  }
+}

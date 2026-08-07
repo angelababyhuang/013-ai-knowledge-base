@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.05218v1",
+  "title": "PD-GS: Phoneme-Driven 3DGS for Audio-Driven Talking Heads",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.05218",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-07T08:23:18Z",
+  "analyzed_at": "2026-08-07T08:23:18Z",
+  "organized_at": "2026-08-07T08:26:40Z",
+  "summary": "PD-GS 是一种基于 3D 高斯泼溅的音频驱动说话头生成方法，旨在解决现有方法中嘴唇运动过度平滑、缺乏硬性发音约束（如双唇闭合）导致的“漏嘴”伪影问题。其核心创新是引入语音识别和强制对齐得到的音素级时间对齐标记，并通过语言融合模块自适应地融合连续音频特征与离散音素嵌入，从而在保持音频驱动动态的同时强化关键发音段的音素引导。该方法仅需单目视频训练，在 HDTF 数据集上取得了更优的嘴唇几何精度，并减少了挑战性音素序列中的闭合违规，为生成语言上更逼真的神经虚拟形象提供了新思路。",
+  "tags": [
+    "3d-gaussian-splatting",
+    "audio-driven-talking-head",
+    "phoneme-alignment",
+    "lip-sync",
+    "neural-avatar"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ao Fu, Yi Zhou",
+    "published": "Fri, 07 Aug 2026 00:00:00 -0400"
+  }
+}

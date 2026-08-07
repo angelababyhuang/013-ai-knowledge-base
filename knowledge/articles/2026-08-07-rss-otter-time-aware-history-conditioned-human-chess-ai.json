@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.05206v1",
+  "title": "Otter: A Time-Aware, History-Conditioned Human Chess AI",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.05206",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-07T08:23:18Z",
+  "analyzed_at": "2026-08-07T08:23:18Z",
+  "organized_at": "2026-08-07T08:26:40Z",
+  "summary": "Otter 是一个 15.3M 参数的人类国际象棋 AI，通过将下棋建模为时间感知的顺序过程来预测人类走子，而非孤立地看待每个局面。它结合了最近 20 步的历史编码器和时间控制模块，在 6.1 亿个局面（来自 117M 盘 Lichess 快棋）上训练，仅用单张 T4 GPU 训练 30 天。其 top-1 和 top-5 走子预测准确率分别达到 55.23% 和 90.95%，超越了此前最先进的人类模型 Maia 2，且参数更少、数据更少。该工作表明，将棋类建模为时间感知的顺序活动比仅基于局面的方法更能准确预测人类走子，值得关注因为它展示了在资源受限下通过架构创新提升人类行为建模的潜力。",
+  "tags": [
+    "human-chess-ai",
+    "move-prediction",
+    "time-aware-modeling",
+    "history-conditioning",
+    "lichess"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tarun Kumar S",
+    "published": "Fri, 07 Aug 2026 00:00:00 -0400"
+  }
+}

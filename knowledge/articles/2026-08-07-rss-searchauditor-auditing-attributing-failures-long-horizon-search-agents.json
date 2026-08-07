@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.05212v1",
+  "title": "SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.05212",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-07T08:23:18Z",
+  "analyzed_at": "2026-08-07T08:23:18Z",
+  "organized_at": "2026-08-07T08:26:40Z",
+  "summary": "SearchAuditor 针对长时程搜索智能体在复杂网络交互中因推理错误累积导致失败且难以人工诊断的问题，提出了一个审计基准 SearchAuditBench 和审计框架 SearchAuditor。该基准包含 1,243 条失败轨迹，平均长度 73.1 条消息和 65.1K tokens，由专家标注关键错误步骤、根因和修复参考。SearchAuditor 通过多视角、基于证据的裁决来定位、归因和修复失败，实验表明其端到端通过率优于强基线（32.3% vs 26.6%），并能帮助智能体从错误中恢复。该工作对提升搜索智能体的可靠性和可调试性具有重要价值。",
+  "tags": [
+    "search-agent",
+    "auditing",
+    "benchmark",
+    "failure-analysis",
+    "llm-agent"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhixiang Liang, Yifei Liu, Yidan Huang, Haozhe Zhao, Beichen Huang, Jiaqi Wang, Nan Duan, Qiong Cao",
+    "published": "Fri, 07 Aug 2026 00:00:00 -0400"
+  }
+}

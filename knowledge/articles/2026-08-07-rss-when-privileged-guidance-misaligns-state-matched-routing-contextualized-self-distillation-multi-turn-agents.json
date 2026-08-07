@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.05219v1",
+  "title": "When Privileged Guidance Misaligns: State-Matched Routing and Contextualized Self-Distillation for Multi-Turn Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.05219",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-07T08:23:18Z",
+  "analyzed_at": "2026-08-07T08:23:18Z",
+  "organized_at": "2026-08-07T08:26:40Z",
+  "summary": "该论文针对多轮智能体训练中特权蒸馏（privileged distillation）的状态-参考不匹配问题，提出了一种状态匹配路由与上下文自蒸馏方法（SMRC-SD）。该方法在每一轮判断学生当前执行状态是否与参考轨迹中的支持状态匹配，仅在匹配时应用蒸馏，并构建状态条件化的教师上下文，从而提供与当前状态兼容的监督信号。在ALFWorld和WebShop基准上，SMRC-SD显著优于无条件全路径蒸馏，例如在Qwen3-1.7B上任务成功率分别提升至0.865和0.693。该工作为多轮智能体训练中的蒸馏策略提供了新的思路，具有较高的研究价值。",
+  "tags": [
+    "multi-turn-agents",
+    "privileged-distillation",
+    "state-matching",
+    "self-distillation",
+    "reinforcement-learning"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Junzhuo Liu, Weiwei Li, Jun Ling, Peng Wang",
+    "published": "Fri, 07 Aug 2026 00:00:00 -0400"
+  }
+}

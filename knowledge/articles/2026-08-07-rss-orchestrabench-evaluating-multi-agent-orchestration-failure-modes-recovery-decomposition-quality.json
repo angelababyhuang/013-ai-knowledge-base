@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.05263v1",
+  "title": "OrchestraBench: Evaluating Multi-Agent Orchestration Failure Modes, Recovery, and Decomposition Quality",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.05263",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-07T08:23:18Z",
+  "analyzed_at": "2026-08-07T08:23:18Z",
+  "organized_at": "2026-08-07T08:26:40Z",
+  "summary": "OrchestraBench 是一个针对多智能体编排框架的基准测试工具，旨在诊断流水线失败原因、级联起始点及路由决策问题，而不仅仅是报告任务准确率。它通过受控的故障注入机制和模板化企业工作流，引入级联半径和按故障模式的恢复率作为主要指标，并比较不同路由策略。实验发现，基于关键词的路由器在对抗性案例中得分为0%，而基于意图推理的路由器达到100%；同时揭示了不同故障处理层级，并指出盲目重试无法解决潜在故障，检测和归因对于故障遏制至关重要。该工作为多智能体系统的可靠性和可调试性提供了重要见解，值得关注。",
+  "tags": [
+    "multi-agent-orchestration",
+    "failure-injection",
+    "benchmark",
+    "routing-policies",
+    "reliability"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yidian Chen, Yingzi Gu, Natan Vidra, Spurthi Setty, Sharon Zheng",
+    "published": "Fri, 07 Aug 2026 00:00:00 -0400"
+  }
+}
