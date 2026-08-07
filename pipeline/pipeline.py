@@ -747,6 +747,20 @@ def save_enriched(source: str, date: str, items: list[dict[str, Any]],
 # --------------------------------------------------------------------------- #
 # Step 3 Organize — 门控 + 去重
 # --------------------------------------------------------------------------- #
+def load_enriched(sources: list[str], date: str) -> list[dict[str, Any]]:
+    """从 knowledge/enriched/ 读取指定日期的 enriched items（Step 3-4 独立运行时用）。"""
+    items: list[dict[str, Any]] = []
+    for source in sources:
+        path = ENRICHED_DIR / f"{source}-{date}.enriched.json"
+        data = read_json(path, {})
+        if isinstance(data, dict):
+            items.extend(data.get("items", []))
+        else:
+            logger.warning("[load] %s 格式异常，跳过", path.name)
+    logger.info("[load] 从 enriched/ 加载 %d 条（date=%s）", len(items), date)
+    return items
+
+
 def gate_item(item: dict[str, Any]) -> Optional[str]:
     """四规则门控，返回丢弃原因；通过返回 None。"""
     if item.get("relevance_score", 0.0) < SCORE_GATE:
@@ -952,6 +966,10 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         "--no-validate", action="store_true",
         help="跳过保存后的 validate_json.py 事后校验",
     )
+    parser.add_argument(
+        "--step", default="1,2,3,4",
+        help="逗号分隔要执行的步骤：1 采集 / 2 分析 / 3 整理 / 4 入库（默认全跑）",
+    )
     return parser.parse_args(argv[1:])
 
 
@@ -963,6 +981,7 @@ def main(argv: list[str]) -> int:
     )
     date = today_str()
     errors = ErrorLog(date, args.dry_run)
+    steps = {int(s) for s in args.step.split(",")}
 
     sources: list[str] = []
     for name in args.sources.split(","):
@@ -972,53 +991,79 @@ def main(argv: list[str]) -> int:
             return 2
         if SOURCE_MAP[name] not in sources:
             sources.append(SOURCE_MAP[name])
+    logger.info("执行步骤: %s | 数据源: %s | 日期: %s",
+                sorted(steps), sources, date)
+
+    raw_items: list[dict[str, Any]] = []
+    enriched_items: list[dict[str, Any]] = []
+    passed: list[dict[str, Any]] = []
+    filtered: list[dict[str, Any]] = []
+    written = []
 
     # ---- Step 1 Collect ----
-    raw_items: list[dict[str, Any]] = []
-    with httpx.Client(timeout=30.0) as client:
-        for source in sources:
-            if args.limit is not None:
-                limit = args.limit
-            else:
-                limit = DEFAULT_LIMITS[source]
-            if source == "github-hot-repos":
-                items = collect_github(limit, errors, client)
-            elif source == "rss":
-                items = collect_rss(limit, errors, client)
-            else:
-                items = collect_hn(limit, errors, client)
-            save_raw(source, date, items, args.dry_run)
-            raw_items.extend(items)
-
-    if not raw_items:
-        logger.warning("未采集到任何条目，流程结束")
-        errors.flush()
-        return 1
+    if 1 in steps:
+        with httpx.Client(timeout=30.0) as client:
+            for source in sources:
+                if args.limit is not None:
+                    limit = args.limit
+                else:
+                    limit = DEFAULT_LIMITS[source]
+                if source == "github-hot-repos":
+                    items = collect_github(limit, errors, client)
+                elif source == "rss":
+                    items = collect_rss(limit, errors, client)
+                else:
+                    items = collect_hn(limit, errors, client)
+                save_raw(source, date, items, args.dry_run)
+                raw_items.extend(items)
+        if not raw_items:
+            logger.warning("未采集到任何条目，流程结束")
+            errors.flush()
+            return 1
 
     # ---- Step 2 Analyze ----
-    try:
-        provider = create_provider()
-    except (ValueError, RuntimeError) as exc:
-        logger.error("LLM provider 初始化失败: %s", exc)
-        errors.flush()
-        return 2
-    enriched_items = analyze_all(provider, raw_items, errors)
-    for source in sources:
-        source_items = [i for i in enriched_items if i["source"] == source]
-        if source_items:
-            save_enriched(source, date, source_items, args.dry_run)
+    if 2 in steps:
+        if not raw_items:
+            logger.error("Step 2 需要 Step 1 的采集数据，请用 --step 1,2")
+            errors.flush()
+            return 1
+        try:
+            provider = create_provider()
+        except (ValueError, RuntimeError) as exc:
+            logger.error("LLM provider 初始化失败: %s", exc)
+            errors.flush()
+            return 2
+        enriched_items = analyze_all(provider, raw_items, errors)
+        for source in sources:
+            source_items = [i for i in enriched_items if i["source"] == source]
+            if source_items:
+                save_enriched(source, date, source_items, args.dry_run)
+
+    # ---- Step 3-4 前置：若无 enriched_items（Step 2 没跑），从磁盘加载 ----
+    if (3 in steps or 4 in steps) and not enriched_items:
+        enriched_items = load_enriched(sources, date)
+        if not enriched_items:
+            logger.error("无 enriched 数据可整理，请先运行 --step 1,2")
+            errors.flush()
+            return 1
 
     # ---- Step 3 Organize ----
-    existing_urls = load_existing_urls()
-    passed, filtered = organize(enriched_items, existing_urls)
+    if 3 in steps:
+        existing_urls = load_existing_urls()
+        passed, filtered = organize(enriched_items, existing_urls)
 
     # ---- Step 4 Save ----
-    written = save_articles(date, passed, args.dry_run)
-    save_filtered(date, filtered, args.dry_run)
+    if 4 in steps:
+        if 3 not in steps:
+            logger.error("Step 4 需要 Step 3 的整理结果，请用 --step 3,4")
+            errors.flush()
+            return 1
+        written = save_articles(date, passed, args.dry_run)
+        save_filtered(date, filtered, args.dry_run)
     errors.flush()
 
-    # ---- 事后校验（非 dry-run）----
-    if not args.dry_run and not args.no_validate:
+    # ---- 事后校验（仅 Step 4 且非 dry-run）----
+    if 4 in steps and not args.dry_run and not args.no_validate:
         run_validation(written)
 
     # ---- 汇总 / dry-run 预览 ----
