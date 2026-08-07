@@ -96,12 +96,22 @@ if 4 in steps:
 | `3` | ✅ | 磁盘 enriched/ → 内存 passed | 只整理（不落盘 articles） |
 | `4` | ❌ | 无 passed | 报错：需先 Step 3 |
 
-### D6：date 一致性
+### D6：date 一致性 + 多天扫描（v2 — crontab 需求驱动）
 
-- Step 1-2 用 `today_str()`（UTC）命名 raw/enriched 文件。
-- Step 3-4 用同一 `today_str()` 读 enriched 文件。
-- crontab 日采（Step1-2）与周分析（Step3-4）跨天时：周分析只读**当天** enriched，前几天 enriched 不入 articles/。
-- ⚠️ 这是已知限制：如果想要"周分析处理整周数据"，需额外加 `--date` 参数或扫描多天。本任务**不加** `--date`，保持最小改动；课程要求是 `--step 3,4`（当天）。
+**v1 限制已解除**：原设计 `--step 3,4` 只读当天 enriched，周分析会漏掉周一到周六的数据。
+
+**v2 新增 `--days` 参数**：
+- `--days 1`（默认）：只看今天，向后兼容
+- `--days N`：扫描最近 N 天的 enriched 文件（按 UTC 日期回溯）
+- `--days 0`：扫描 enriched/ 目录全部日期（catch-up 用）
+
+**新增 `scan_enriched_dates(sources, today, days)` 函数**：
+- days<=0：glob enriched 目录，正则提取日期
+- days>0：timedelta 回溯 N 天，过滤到有文件的日期
+
+**main() 批次循环**：Step 3-4 构建 `batches = [(date, items), ...]`，逐日 organize（accumulating existing_urls 跨日去重）+ save（每条 article 用原始采集日期做前缀）。`from_disk` flag 避免与 Step 2 内存数据重复计数。
+
+**验证**：`--days 0` 命中 6 日期 221 条；`--days 7` 命中 2 日期 171 条；默认 1 日 80 条。
 
 ## 不做的事
 
