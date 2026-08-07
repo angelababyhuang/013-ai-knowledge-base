@@ -30,7 +30,7 @@ import subprocess
 import sys
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any, Optional
@@ -761,6 +761,29 @@ def load_enriched(sources: list[str], date: str) -> list[dict[str, Any]]:
     return items
 
 
+def scan_enriched_dates(sources: list[str], today: str, days: int) -> list[str]:
+    """返回有 enriched 文件的日期列表（降序）。days=0=全部，N=最近 N 天。"""
+    if days <= 0:
+        dates: set[str] = set()
+        for path in ENRICHED_DIR.glob("*.enriched.json"):
+            stem = path.stem.replace(".enriched", "")
+            for source in sources:
+                prefix = f"{source}-"
+                if stem.startswith(prefix):
+                    d = stem[len(prefix):]
+                    if re.match(r"\d{4}-\d{2}-\d{2}$", d):
+                        dates.add(d)
+                    break
+        return sorted(dates, reverse=True)
+    base = datetime.strptime(today, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    result: list[str] = []
+    for i in range(days):
+        d = (base - timedelta(days=i)).strftime("%Y-%m-%d")
+        if any((ENRICHED_DIR / f"{s}-{d}.enriched.json").exists() for s in sources):
+            result.append(d)
+    return result
+
+
 def gate_item(item: dict[str, Any]) -> Optional[str]:
     """四规则门控，返回丢弃原因；通过返回 None。"""
     if item.get("relevance_score", 0.0) < SCORE_GATE:
@@ -970,6 +993,10 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         "--step", default="1,2,3,4",
         help="逗号分隔要执行的步骤：1 采集 / 2 分析 / 3 整理 / 4 入库（默认全跑）",
     )
+    parser.add_argument(
+        "--days", type=int, default=1,
+        help="Step 3-4 回溯天数：扫描最近 N 天的 enriched（默认 1=只看今天，0=全部）",
+    )
     return parser.parse_args(argv[1:])
 
 
@@ -1039,27 +1066,48 @@ def main(argv: list[str]) -> int:
             if source_items:
                 save_enriched(source, date, source_items, args.dry_run)
 
-    # ---- Step 3-4 前置：若无 enriched_items（Step 2 没跑），从磁盘加载 ----
-    if (3 in steps or 4 in steps) and not enriched_items:
-        enriched_items = load_enriched(sources, date)
-        if not enriched_items:
-            logger.error("无 enriched 数据可整理，请先运行 --step 1,2")
-            errors.flush()
-            return 1
-
-    # ---- Step 3 Organize ----
-    if 3 in steps:
-        existing_urls = load_existing_urls()
-        passed, filtered = organize(enriched_items, existing_urls)
-
-    # ---- Step 4 Save ----
-    if 4 in steps:
-        if 3 not in steps:
+    # ---- Step 3 Organize + Step 4 Save ----
+    if 3 in steps or 4 in steps:
+        if 4 in steps and 3 not in steps:
             logger.error("Step 4 需要 Step 3 的整理结果，请用 --step 3,4")
             errors.flush()
             return 1
-        written = save_articles(date, passed, args.dry_run)
-        save_filtered(date, filtered, args.dry_run)
+
+        # 构建待处理批次 [(date, items), ...]
+        if enriched_items:
+            batches = [(date, enriched_items)]
+        else:
+            if args.days == 1:
+                dates_found = [date]
+            else:
+                dates_found = scan_enriched_dates(sources, date, args.days)
+                logger.info("扫描最近 %d 天 enriched，命中 %d 个日期: %s",
+                            args.days, len(dates_found), dates_found)
+            batches = []
+            for d in dates_found:
+                items = load_enriched(sources, d)
+                if items:
+                    batches.append((d, items))
+            if not batches:
+                logger.error("无 enriched 数据可整理，请先运行 --step 1,2")
+                errors.flush()
+                return 1
+
+        existing_urls = load_existing_urls() if (3 in steps) else set()
+        from_disk = not enriched_items
+        for d, batch_items in batches:
+            passed_d: list[dict[str, Any]] = []
+            filtered_d: list[dict[str, Any]] = []
+            if 3 in steps:
+                passed_d, filtered_d = organize(batch_items, existing_urls)
+                existing_urls.update(i["url"] for i in passed_d)
+                passed.extend(passed_d)
+                filtered.extend(filtered_d)
+            if 4 in steps:
+                written.extend(save_articles(d, passed_d, args.dry_run))
+                save_filtered(d, filtered_d, args.dry_run)
+            if from_disk:
+                enriched_items.extend(batch_items)
     errors.flush()
 
     # ---- 事后校验（仅 Step 4 且非 dry-run）----

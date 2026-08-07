@@ -1,0 +1,20 @@
+# ============================================================
+# AI 知识库定时采集 — 本地 crontab
+#
+# 安装：crontab /Users/wangyao/codeforCC/013-ai-knowledge-base/crontab
+# 查看：crontab -l
+# 卸载：crontab -r
+#
+# 日志：logs/collect.log（日采）/ logs/analyze.log（周分析）
+# 密钥：.env（LLM_PROVIDER / DEEPSEEK_API_KEY / GITHUB_TOKEN）
+# ============================================================
+
+# --- 任务 1：每天 08:00 采集 + 分析（Step 1,2）---
+# 调 GitHub/RSS API + LLM 分析，产出 knowledge/raw/ + knowledge/enriched/
+# 需要 .env 提供 LLM_PROVIDER / DEEPSEEK_API_KEY / GITHUB_TOKEN
+0 8 * * * cd /Users/wangyao/codeforCC/013-ai-knowledge-base && set -a && . ./.env && set +a && /Applications/anaconda3/bin/python3 pipeline/pipeline.py --step 1,2 --sources github,rss --limit 20 --verbose >> logs/collect.log 2>&1
+
+# --- 任务 2：每周日 10:00 整理 + 入库（Step 3,4）---
+# 扫描最近 7 天 enriched → 门控去重 → 写 knowledge/articles/
+# 纯本地操作，不调 API、不调 LLM，无需环境变量
+0 10 * * 0 cd /Users/wangyao/codeforCC/013-ai-knowledge-base && /Applications/anaconda3/bin/python3 pipeline/pipeline.py --step 3,4 --sources github,rss --days 7 --verbose >> logs/analyze.log 2>&1
