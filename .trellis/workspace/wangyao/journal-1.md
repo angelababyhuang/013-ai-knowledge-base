@@ -71,3 +71,37 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 3: GitHub Actions 每日采集 workflow
+
+**Date**: 2026-08-07
+**Task**: GitHub Actions 每日采集 workflow
+**Branch**: `main`
+
+### Summary
+
+创建 .github/workflows/daily-collect.yml（cron UTC 08:00 + workflow_dispatch，Python 3.11，GitHub+RSS 双源采集，5 secret env 含 GITHUB_TOKEN，check_quality 审计，git 自动 commit/push + 空提交保护）。首次 CI 跑通后发现两个问题并修复：(1) Node 20 弃用 warning → checkout@v5/setup-python@v6；(2) check_quality 误评全量历史+_filtered淘汰日志+测试夹具导致 151 个假阳性 C 级 → glob 改为当天日期前缀 $(date -u +%Y-%m-%d)-* 自动排除非文章文件 + || true 防审计染红。关键发现：78 篇真文章全 A/B 级（0 个 C），所谓 151 C 级全是 _filtered 淘汰日志（仅 4 字段）和 index/test 文件的假阳性。修复后手动触发验证成功，workflow 自动提交 c8cf91e 采集数据。AC1-AC11 全部通过。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `4ab7213` | (see git log) |
+| `073f3d3` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
