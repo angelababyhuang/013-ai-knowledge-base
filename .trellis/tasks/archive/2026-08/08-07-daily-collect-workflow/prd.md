@@ -51,7 +51,7 @@
 - [x] AC8：存在调用 `hooks/check_quality.py` 的 step（对当日 `knowledge/articles/*.json`）。✅ line 47
 - [x] AC9：存在 git add/commit/push step，commit 消息含文章数量与日期。✅ line 56-61
 - [x] AC10：空数据时不产生 commit（用 `git diff --staged --quiet` 或等价逻辑判断）。✅ line 54
-- [ ] AC11：workflow_dispatch 手动触发能成功跑通（运行时验证，需推送后在 GitHub 手动触发）。⏳ 留待后续
+- [x] AC11：workflow_dispatch 手动触发能成功跑通。✅ 已验证：GitHub Actions 自动提交 c8cf91e「采集 2026-08-07 数据（5 个文件变更）」
 
 ## Notes
 
