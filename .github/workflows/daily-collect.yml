@@ -21,10 +21,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -38,13 +38,15 @@ jobs:
       - name: Quality check
         continue-on-error: true
         run: |
+          TODAY=$(date -u +%Y-%m-%d)
           shopt -s nullglob
-          files=(knowledge/articles/*.json)
+          files=(knowledge/articles/${TODAY}-*.json)
           if [ ${#files[@]} -eq 0 ]; then
-            echo "无 article 文件，跳过质量校验"
+            echo "今日（${TODAY}）无新 article，跳过质量校验"
             exit 0
           fi
-          python3 hooks/check_quality.py knowledge/articles/*.json
+          echo "审计今日 ${#files[@]} 篇新文章质量："
+          python3 hooks/check_quality.py knowledge/articles/${TODAY}-*.json || true
 
       - name: Commit & push
         run: |

@@ -33,12 +33,28 @@ pipeline.py os.getenv("XXX") 直接拿到
 6. git add → 检测变更 → commit + push（条件执行）
 ```
 
-### D3：check_quality.py 调用
+### D3：check_quality.py 调用（v2 — 首次 CI 跑通后修正）
 
-- 命令：`python3 hooks/check_quality.py knowledge/articles/*.json`
-- 通配符可能匹配 0 文件（采集失败时）→ shell 默认传字面量导致报错。
-- **方案**：step 前加存在性判断，或用 `continue-on-error: true` + `if` 条件。
-- 此步是审计，**不阻塞**后续 commit。
+**v1 缺陷**：原用 `knowledge/articles/*.json` 全量匹配，导致：
+1. 把 `_filtered-*.json`（organizer 淘汰日志，仅 4 字段）当文章评 → 假阳性 C 级
+2. 把 `index.json` / `test-good.json` / `hook-test.json`（非文章）当文章评 → 0 分/C 级
+3. 每天**重审全量历史**，永远报错（首次 CI 实测 230 条里 151 个 C 级，但真文章 78 篇全是 A/B）
+
+**v2 修正**（3 处）：
+1. **作用域**：glob 改 `knowledge/articles/$(date -u +%Y-%m-%d)-*.json`，只审当天 UTC 新文章。
+   - 时区已验证：pipeline 用 `datetime.now(timezone.utc)`（pipeline.py:133）命名，workflow 用 `date -u`，两者一致。
+   - 日期前缀自动排除 `_filtered-*`（`_` 开头）、`index.json`、`test-*.json`（无日期前缀）。
+2. **退出码**：末尾加 `|| true`，审计有 C 级也不让 step 变红（审计不是门控）。
+3. **空文件保护**：`nullglob` + 数组长度判断，当天无产出则优雅跳过。
+
+**本地验证**：`2026-07-30-*` 匹配 18 篇真文章，A 15 / B 3 / C 0。
+
+### D7：Action 版本（v2 — Node 20 弃用修正）
+
+首次 CI 跑通后收到 Node 20 deprecation warning：
+- `actions/checkout@v4` → `@v5`（v5+ 迁移到 Node 24）
+- `actions/setup-python@v5` → `@v6`（v6.0.0 "Upgrade to node 24"）
+- 查证来源：actions/checkout/releases（v7.0.1 最新）、actions/setup-python/releases（v7.0.0 最新），取稳定次新版。
 
 ### D4：Git commit + 条件提交（核心逻辑）
 
