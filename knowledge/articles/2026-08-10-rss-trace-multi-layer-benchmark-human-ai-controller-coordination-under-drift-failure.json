@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.06657v1",
+  "title": "TRACE: A Multi-Layer Benchmark for Human AI Controller Coordination Under Drift and Failure",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.06657",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-10T08:31:14Z",
+  "analyzed_at": "2026-08-10T08:31:15Z",
+  "organized_at": "2026-08-10T08:34:22Z",
+  "summary": "TRACE 是一个针对人机协同控制系统中漂移与故障的多层基准测试集。它通过向 ALFRED 家庭任务指令数据注入受控漂移，生成 1,918 条时间对齐的多层轨迹，覆盖状态、观测、决策、规则和控制五个执行层，并标注漂移类型、影响层、起始时间、责任主体和因果机制。该基准解决了现有方法无法定位漂移来源和起始时间的问题，并提供了防泄漏协议和基线模型评估，结果显示简单模型在符号基准上表现不逊于注意力模型。值得关注的是，它填补了多模态监控在复杂系统中漂移诊断的空白，为 AI 系统可信度评估提供了标准化工具。",
+  "tags": [
+    "multi-layer-benchmark",
+    "drift-detection",
+    "human-ai-coordination",
+    "cyber-physical-systems",
+    "trace-dataset"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Joshua Zuniga, Srinivasan Subramanian, Ramya Madhuri Narapureddy, Md Abdullah Al Hafiz Khan",
+    "published": "Mon, 10 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.06704v1",
+  "title": "WebRider: Persona-Conditioned Intent Controllers for Live-Web Assistance",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.06704",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-10T08:31:14Z",
+  "analyzed_at": "2026-08-10T08:31:15Z",
+  "organized_at": "2026-08-10T08:34:22Z",
+  "summary": "WebRider 针对当前实时网页代理仅以最终答案评估、忽略策略约束的问题，提出将委派策略形式化为“意图契约”，涵盖目标、约束、证据义务、答案形式和人物控制。其采用分层架构，顶层维护契约，中层将意图实现为受保护的执行动作，工具层执行浏览器等操作。基于 4096 个实时契约的基准测试显示，现有强控制器虽能完成 99.2% 任务，但仅 38.8% 满足全部策略约束，凸显“完成不等于忠实”。该工作使浏览路径成为一等对象，支持审计、人工评判和可学习性，具有重要研究价值。",
+  "tags": [
+    "web-agent",
+    "intent-contract",
+    "hierarchical-architecture",
+    "policy-fidelity",
+    "live-web-benchmark"
+  ],
+  "relevance_score": 0.74,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhi Li, Tao Zhou, Yeqing Li, Eugene Ie, Demetri Terzopoulos",
+    "published": "Mon, 10 Aug 2026 00:00:00 -0400"
+  }
+}

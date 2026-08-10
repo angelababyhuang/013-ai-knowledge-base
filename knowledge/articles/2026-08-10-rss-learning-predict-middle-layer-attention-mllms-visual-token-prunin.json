@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.06411v1",
+  "title": "Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Prunin",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.06411",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-10T08:31:14Z",
+  "analyzed_at": "2026-08-10T08:31:15Z",
+  "organized_at": "2026-08-10T08:34:22Z",
+  "summary": "本文提出了一种名为MAP（Middle-layer Attention Prediction）的方法，用于多模态大语言模型（MLLMs）中的视觉token剪枝。现有方法依赖固定中间层的注意力图来评估token重要性，但不同样本的最佳层不同，且计算注意力图本身消耗大量计算。MAP通过问题对比教师选择（Question Contrastive Teacher Selection）为每个样本动态选择最佳教师层，并将其注意力蒸馏到轻量级预测器中，从而在进入语言模型层之前直接预测token重要性，无需实际计算注意力图。在LLaVA-NeXT-7B上，MAP仅保留5.56%的视觉token即可保持97.5%的性能，并实现3.09倍的端到端加速。该方法解决了固定层次剪枝的次优性和计算开销问题，具有显著的效率提升价值，值得关注。",
+  "tags": [
+    "visual-token-pruning",
+    "multimodal-llm",
+    "attention-distillation",
+    "efficiency",
+    "token-selection"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yuyao Sun, Tao Deng, Shuang Li, Deqing Wang, Hao Geng, Minjun Yu",
+    "published": "Mon, 10 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.06474v1",
+  "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.06474",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-10T08:31:14Z",
+  "analyzed_at": "2026-08-10T08:31:15Z",
+  "organized_at": "2026-08-10T08:34:22Z",
+  "summary": "WebGrader 提出了一种自进化的程序化评分器，用于训练 LLM 生成完整网站。它解决了 RL 训练中奖励设计瓶颈：手工浏览器脚本成本高，而 VLM/GUI 评分器可能过早判定。WebGrader 自动从网站请求中推导交互流程，表示为可执行的 Flow Contract，并在真实浏览器中执行，收集多模态证据，通过残差驱动的离线循环发现可复用的验证技能。在 WebGen-Bench 上，8B 策略达到 52.01% 功能成功率，超过 o4-mini 等模型。该工作对自动化网页生成和 RL 奖励设计有重要参考价值。",
+  "tags": [
+    "web-development",
+    "reinforcement-learning",
+    "programmatic-grader",
+    "llm-training",
+    "self-evolving"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Boshui Chen, Huiping Liu, Shaolei Zhang",
+    "published": "Mon, 10 Aug 2026 00:00:00 -0400"
+  }
+}

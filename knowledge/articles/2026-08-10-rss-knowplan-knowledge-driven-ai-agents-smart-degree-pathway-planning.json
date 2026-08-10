@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.06530v1",
+  "title": "KNOWPLAN: Knowledge-Driven AI Agents for Smart Degree Pathway Planning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.06530",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-10T08:31:14Z",
+  "analyzed_at": "2026-08-10T08:31:15Z",
+  "organized_at": "2026-08-10T08:34:22Z",
+  "summary": "KnowPlan 是一个面向大学学位规划的知识驱动 AI 智能体系统，解决从非结构化官方来源重建课程目录并优化学生个性化学习路径的两阶段问题。它通过强制先提取后规划的边界，使用 CatalogBrowse 进行无用户画像的探索性爬取，并以闭包证书保证数据完整性；DegreeMap 将提取结果编译为类型化需求超图，利用 CP-SAT 进行字典序优化，确保硬可行性。实验显示其显著优于基线，且可认证性高。该系统为教育领域的复杂规划任务提供了可验证、可扩展的架构范式，值得关注其两阶段解耦和可证明性的设计思路。",
+  "tags": [
+    "knowledge-driven-agents",
+    "degree-planning",
+    "catalog-extraction",
+    "cp-sat-optimization",
+    "certifiable-pipeline"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shuheng Cao, Weijia Zhang, Jiaqi Wu, Xiyun Hu, Yat Yang, Juqy Chen, Zhaoxiang Feng",
+    "published": "Mon, 10 Aug 2026 00:00:00 -0400"
+  }
+}

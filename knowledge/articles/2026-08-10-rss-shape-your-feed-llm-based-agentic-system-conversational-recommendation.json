@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.06632v1",
+  "title": "Shape Your Feed: An LLM-based Agentic System for Conversational Recommendation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.06632",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-10T08:31:14Z",
+  "analyzed_at": "2026-08-10T08:31:15Z",
+  "organized_at": "2026-08-10T08:34:22Z",
+  "summary": "本文提出 Shape Your Feed (SYF)，一个基于 LLM 的智能体推荐框架，旨在解决传统被动推荐系统无法理解用户显式自然语言意图的问题。SYF 采用三层架构：感知流捕捉多模态用户意图，服务流进行实时智能体重排序，自进化流通过 DPO 和 LLM-as-a-Judge 对齐人类偏好。离线评估显示对齐评分模块准确率达 98.85%，在线 A/B 实验证明其能提升信息流相关性和用户情感，为工业界实现用户可操控的交互式推荐提供了可行路径。该工作值得关注，因为它将 LLM 智能体引入推荐系统，弥合了被动行为信号与显式表达之间的鸿沟，且具备工业级验证。",
+  "tags": [
+    "llm-agent",
+    "conversational-recommendation",
+    "real-time-ranking",
+    "dpo",
+    "multimodal"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ziyun Xu, Bosen Ding, Yue Zhang, Ji Qi, Qingyuan Song, Jizhou Huang, Liwei Wang, Jefferey Santelli, Yue Weng, Qichao Que, Zhenheng Yang, Junfeng Pan, Linhong Zhu",
+    "published": "Mon, 10 Aug 2026 00:00:00 -0400"
+  }
+}

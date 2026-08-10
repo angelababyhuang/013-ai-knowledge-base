@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.06544v1",
+  "title": "TaskSense: Focusing on What Matters in World Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.06544",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-10T08:31:14Z",
+  "analyzed_at": "2026-08-10T08:31:15Z",
+  "organized_at": "2026-08-10T08:34:22Z",
+  "summary": "TaskSense 是一种面向视觉控制的世界模型框架，旨在解决传统世界模型因重建整个观测而浪费表示能力在任务无关背景上的问题。它通过可微分的随机空间注意力机制，在潜在编码前聚焦任务相关区域，并利用逆动力学目标辅助训练，仅重建注意力区域，从而提升在视觉干扰下的控制性能。相比 DreamerV3，TaskSense 在 Distracting Control Suite 上表现更优，具有实际应用价值。",
+  "tags": [
+    "world-models",
+    "visual-control",
+    "attention-mechanism",
+    "inverse-dynamics",
+    "distraction-robustness"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "SM Mazharul Islam, Manfred Huber",
+    "published": "Mon, 10 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.06400v1",
+  "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.06400",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-10T08:31:14Z",
+  "analyzed_at": "2026-08-10T08:31:15Z",
+  "organized_at": "2026-08-10T08:34:22Z",
+  "summary": "本文提出了一种名为 Contribution-Contrast (CoCo) 的响应级解释方法，用于稀疏混合专家（MoE）奖励模型。现有的基于路由权重的解释只能揭示专家接收哪些提示，无法反映其如何评判响应，而 CoCo 通过选择贡献对比最大的 chosen-rejected 响应对，联合捕捉路由和偏好行为，从而更忠实地刻画专家角色。实验表明，CoCo 在自动和人工评估中均优于基于路由、基于分数和基于稀疏自编码器的替代方法，同时保持奖励建模精度。这是首个对 MoE 奖励模型解释方法的系统性研究，对理解偏好学习模型的可解释性具有重要价值。",
+  "tags": [
+    "mixture-of-experts",
+    "reward-model",
+    "interpretability",
+    "contribution-contrast",
+    "preference-learning"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yifan Wang, Jinyi Mu, Mayank Jobanputra, Yu Wang, Soyoung Oh, Isabel Valera, Vera Demberg",
+    "published": "Mon, 10 Aug 2026 00:00:00 -0400"
+  }
+}
