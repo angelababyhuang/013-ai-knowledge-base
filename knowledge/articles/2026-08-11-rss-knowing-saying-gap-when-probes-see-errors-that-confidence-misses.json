@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.07528v1",
+  "title": "The Knowing-Saying Gap: When Probes See Errors that Confidence Misses",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.07528",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-11T08:19:44Z",
+  "analyzed_at": "2026-08-11T08:19:45Z",
+  "organized_at": "2026-08-11T08:23:03Z",
+  "summary": "该论文研究了语言模型中线性探针检测能力与最终输出正确性之间的脱节现象，即“知道但不说”的差距。实验表明，探针虽能近乎完美地检测上下文损坏，却无法可靠预测最终答案错误，且在不同模型家族中普遍存在。论文还评估了多种基于探针的干预策略，发现其效果依赖模型和错误类型，没有单一策略占优。这项研究对部署监控和模型可靠性评估具有重要参考价值，揭示了探针监控与口头置信度互补但均非万能，强调了模型感知和错误类型感知的路由必要性。",
+  "tags": [
+    "linear-probes",
+    "failure-prediction",
+    "language-models",
+    "monitoring",
+    "confidence"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jyotin Goel, Ipshita Bandyopadhyay, Justin Shenk",
+    "published": "Tue, 11 Aug 2026 00:00:00 -0400"
+  }
+}

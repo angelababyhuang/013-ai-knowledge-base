@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.07617v1",
+  "title": "TeXFix-Bench: An Empirically Grounded Multi-Format Benchmark for LLM-Based Document Source Repair",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.07617",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-11T08:19:44Z",
+  "analyzed_at": "2026-08-11T08:19:45Z",
+  "organized_at": "2026-08-11T08:23:03Z",
+  "summary": "TeXFix-Bench 是一个针对 LLM 文档源码修复任务的多格式基准测试，覆盖 LaTeX、Typst 和 Markdown。现有评估方法使用人为构造的故障注入，缺乏实证基础，该工作通过扎根理论从真实崩溃案例中挖掘出 18 类故障分类法，并实现为 AST 感知的变异算子 DocMut，构建了 10,437 个测试实例。实验表明 DocMut 生成的故障比模式化变异更难修复，且编译成功率会高估修复质量，因为部分修复会改变文档内容。该基准提供了更贴近实际的评估方法，对文档生成和代码修复领域有重要参考价值。",
+  "tags": [
+    "llm-benchmark",
+    "document-repair",
+    "latex",
+    "typst",
+    "markdown"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Prajwal S. Venkateshmurthy",
+    "published": "Tue, 11 Aug 2026 00:00:00 -0400"
+  }
+}

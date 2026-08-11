@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.07530v1",
+  "title": "NL2SHACL-Bench: A Benchmark Suite for Natural Language to SHACL Translation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.07530",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-11T08:19:44Z",
+  "analyzed_at": "2026-08-11T08:19:45Z",
+  "organized_at": "2026-08-11T08:23:03Z",
+  "summary": "NL2SHACL-Bench 是一个用于评估自然语言到 SHACL 形状翻译任务的基准测试套件。SHACL 是 RDF 知识图谱验证的核心技术，但编写 SHACL 形状需要专业知识，阻碍了领域专家的使用。该基准通过提供标准化的测试集和评估方法，解决了现有评估依赖字符串比较、无法捕捉语义等价性的问题。作者使用该基准评估了四个先进的大语言模型，发现它们能生成语法正确的 SHACL，但在复杂逻辑和结构约束的语义等价性上仍有不足。该基准为 NL2SHACL 研究提供了标准化的衡量基础，值得关注。",
+  "tags": [
+    "nl2shacl",
+    "benchmark",
+    "knowledge-graph",
+    "shacl",
+    "llm-evaluation"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yuchen Zhou, Niels Bobet, Maribel Acosta",
+    "published": "Tue, 11 Aug 2026 00:00:00 -0400"
+  }
+}

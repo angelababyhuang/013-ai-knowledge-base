@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.07622v1",
+  "title": "Controlled Memory Interference in Continual LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.07622",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-11T08:19:44Z",
+  "analyzed_at": "2026-08-11T08:19:45Z",
+  "organized_at": "2026-08-11T08:23:03Z",
+  "summary": "本文提出受控记忆干扰（CMI）框架，用于诊断和生成数据，研究持续学习型LLM智能体在长期记忆演化中，不同记忆关系（如强化、修订、干扰）对记忆更新的影响。实验发现，良性积累影响有限，而关系特定的干扰会显著抑制更新可塑性且不带来稳定性收益；词法和稠密检索表现出不同的干扰路径，投毒攻击对更新权威线索更敏感。CMI还提供针对性示例，帮助区分有效更新与干扰记忆，提升记忆学习的可靠性。该研究揭示了记忆交互是持续智能体系统可靠性的关键因素，对设计更鲁棒的长期记忆机制具有重要参考价值。",
+  "tags": [
+    "continual-learning",
+    "memory-interference",
+    "llm-agents",
+    "long-term-memory",
+    "diagnostic-framework"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ao Ding, Hongzong LI, Shiqin Tang, Li Zhang, Liang Chen, Xuyang Chen, Zi Liang",
+    "published": "Tue, 11 Aug 2026 00:00:00 -0400"
+  }
+}
