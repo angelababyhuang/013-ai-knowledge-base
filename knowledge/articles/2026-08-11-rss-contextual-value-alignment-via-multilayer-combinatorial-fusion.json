@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.07642v1",
+  "title": "Contextual Value Alignment via Multilayer Combinatorial Fusion",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.07642",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-11T08:19:44Z",
+  "analyzed_at": "2026-08-11T08:19:45Z",
+  "organized_at": "2026-08-11T08:23:03Z",
+  "summary": "该论文提出了一种名为 MCF-CVA 的多层组合融合框架，用于解决大语言模型与人类价值观对齐中的伦理多元性和上下文适应性问题。现有方法如 RLHF 和 CAI 依赖单一智能体和统一奖励系统，难以捕捉道德多样性。MCF-CVA 通过实例化多个代表不同价值观的道德智能体，利用分数和排名组合进行扩展与缩减（EAR）的多层迭代，融合认知多样性以生成更符合上下文人类价值观的响应。实验表明，该框架在标准指标上优于单智能体基线和多智能体单层方法，为上下文价值对齐提供了稳健有效的机制。",
+  "tags": [
+    "value-alignment",
+    "multi-agent",
+    "combinatorial-fusion",
+    "llm-alignment",
+    "ethical-pluralism"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yuanhong Wu, Djallel Bouneffouf, D. Frank Hsu",
+    "published": "Tue, 11 Aug 2026 00:00:00 -0400"
+  }
+}

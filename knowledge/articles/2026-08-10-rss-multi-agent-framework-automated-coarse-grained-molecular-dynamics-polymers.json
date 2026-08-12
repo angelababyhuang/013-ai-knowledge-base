@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.06694v1",
+  "title": "A Multi-Agent Framework for Automated Coarse-Grained Molecular Dynamics of Polymers",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.06694",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-10T08:31:14Z",
+  "analyzed_at": "2026-08-10T08:31:15Z",
+  "organized_at": "2026-08-10T08:34:22Z",
+  "summary": "CGMas 是一个基于多智能体框架的自动化粗粒化分子动力学模拟系统，旨在解决聚合物粗粒化建模中参数化繁琐、依赖人工设计的问题。该系统利用大语言模型推理智能体从聚合物名称推断全原子拓扑结构，并通过分层自校正处理不饱和、含杂原子和极性聚合物的物理错误，后续智能体自动完成平衡、映射、势函数推导和验证。在 27 种均聚物和共聚物任务中，CGMas 全部完成，其中 22 个任务的密度与全原子参考误差在 5% 以内，并将模拟时间从 38-88 分钟缩短至 1 分钟，展示了智能体 LLM 在自动化聚合物粗粒化中的潜力。该研究值得关注，因为它将 LLM 智能体应用于科学计算领域，实现了复杂物理建模流程的自动化，对材料模拟和 AI for Science 有重要启示。",
+  "tags": [
+    "multi-agent-framework",
+    "llm-agents",
+    "coarse-grained-molecular-dynamics",
+    "polymer-simulation",
+    "ai-for-science"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Joohee Choi, Junhyeong Lee, Seunghwa Ryu",
+    "published": "Mon, 10 Aug 2026 00:00:00 -0400"
+  }
+}

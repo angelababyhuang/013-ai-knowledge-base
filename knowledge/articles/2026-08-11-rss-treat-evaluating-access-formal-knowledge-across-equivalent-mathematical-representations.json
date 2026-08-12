@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.07540v1",
+  "title": "TREAT: Evaluating Access to Formal Knowledge across Equivalent Mathematical Representations",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.07540",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-11T08:19:44Z",
+  "analyzed_at": "2026-08-11T08:19:45Z",
+  "organized_at": "2026-08-11T08:23:03Z",
+  "summary": "TREAT 是一个用于评估大语言模型在等价数学表示下识别定理身份能力的基准测试。它通过将定理条件转换为残差方程、优化恒等式等不同数学形式，测试模型能否从变换后的表述中恢复标准定理。实验表明，最佳模型仅达到60.73%的准确率，揭示了模型在表示变化下的脆弱性。该基准为评估AI对形式化知识的鲁棒访问提供了可控测试平台，对需要稳定目标对象和显式等价关系的领域具有参考价值。",
+  "tags": [
+    "benchmark",
+    "theorem-recognition",
+    "llm-evaluation",
+    "mathematical-representation",
+    "robustness"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Fateme Mazdarani, Carlos Toxtli",
+    "published": "Tue, 11 Aug 2026 00:00:00 -0400"
+  }
+}

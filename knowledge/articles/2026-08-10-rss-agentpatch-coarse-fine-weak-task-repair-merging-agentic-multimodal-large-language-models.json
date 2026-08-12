@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.06699v1",
+  "title": "AgentPatch: Coarse-to-Fine Weak-Task Repair for Merging Agentic Multimodal Large Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.06699",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-10T08:31:14Z",
+  "analyzed_at": "2026-08-10T08:31:15Z",
+  "organized_at": "2026-08-10T08:34:22Z",
+  "summary": "AgentPatch 提出了一种针对智能体多模态大语言模型（MLLM）合并问题的无训练修复框架。该工作首先识别了模型合并中的两大挑战：非对称能力保留导致弱任务出现，以及行为关键遗忘影响长程执行。通过粗到细的修复策略，包括稳定合并主干选择、弱任务独有残差恢复和行为关键补丁，AgentPatch 能在不引入路由或集成的情况下生成单一静态检查点，显著提升合并后模型在多个智能体和多模态基准上的表现。该研究为模型合并领域提供了新的方法论，对构建通用智能体模型具有重要参考价值。",
+  "tags": [
+    "model-merging",
+    "multimodal-llm",
+    "agentic-ai",
+    "training-free",
+    "weak-task-repair"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zibo Shao, Baochen Xiong, Chengdong Xu, Linhui Xiao, Kaichen Li, Haoran Gong, Yan Li, Yaguang Song, Xiaoshan Yang",
+    "published": "Mon, 10 Aug 2026 00:00:00 -0400"
+  }
+}

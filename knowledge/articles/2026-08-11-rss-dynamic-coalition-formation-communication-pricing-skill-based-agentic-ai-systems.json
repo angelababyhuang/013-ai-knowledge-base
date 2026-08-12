@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.07532v1",
+  "title": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.07532",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-11T08:19:44Z",
+  "analyzed_at": "2026-08-11T08:19:45Z",
+  "organized_at": "2026-08-11T08:23:03Z",
+  "summary": "该论文针对技能异构的多智能体AI系统中通信与协作的低效问题，提出将智能体选择与通信建模为合作博弈，并引入任务条件净效用函数，以分离联盟级成本与智能体激活成本。作者提出边际价值激活规则和贪心路由器，并扩展至通信边优化，利用估计的Shapley值预测值得联系的智能体。论文证明了子模最大化下的若干近似保证，并通过合成实验显示贪心路由能达到最优效用的99.5%，同时平均仅激活8个智能体中的1.96个，远优于全广播。该工作为多智能体系统的动态联盟形成提供了理论框架和实用算法，对降低token成本和延迟具有直接价值。",
+  "tags": [
+    "multi-agent-systems",
+    "coalition-formation",
+    "shapley-value",
+    "submodular-maximization",
+    "agent-routing"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mojtaba Eslami",
+    "published": "Tue, 11 Aug 2026 00:00:00 -0400"
+  }
+}

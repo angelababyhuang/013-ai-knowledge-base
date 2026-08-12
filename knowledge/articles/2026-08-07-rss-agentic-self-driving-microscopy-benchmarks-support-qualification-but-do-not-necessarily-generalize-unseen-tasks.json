@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.05266v1",
+  "title": "Agentic self-driving microscopy benchmarks support qualification but do not necessarily generalize to unseen tasks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.05266",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-07T08:23:18Z",
+  "analyzed_at": "2026-08-07T08:23:18Z",
+  "organized_at": "2026-08-07T08:26:40Z",
+  "summary": "该研究针对大型语言模型智能体控制显微镜等科学仪器的新兴领域，提出了一套基准测试和追踪日志框架，用于评估不同智能体架构（单、双、三智能体图拓扑）、LLM选择、RAG参数等对显微镜任务性能的影响。通过53项测试、105种配置、1949次运行，发现不同配置在延迟、成本、失败模式上差异显著，但基于这些结果训练的代理模型无法可靠预测智能体在新任务上的表现。因此，基准测试适用于资格认证、回归测试和直接比较，但无法支持任务无关的全局配置优化。该研究对科学自动化智能体设计具有重要参考价值，揭示了当前基准的局限性。",
+  "tags": [
+    "agentic-systems",
+    "scientific-instrumentation",
+    "benchmarking",
+    "llm-agents",
+    "generalization"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Nathan S Johnson, Ian Abshire",
+    "published": "Fri, 07 Aug 2026 00:00:00 -0400"
+  }
+}

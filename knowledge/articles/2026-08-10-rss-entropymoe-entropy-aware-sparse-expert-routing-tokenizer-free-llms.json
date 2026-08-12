@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.06398v1",
+  "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.06398",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-10T08:31:14Z",
+  "analyzed_at": "2026-08-10T08:31:15Z",
+  "organized_at": "2026-08-10T08:34:22Z",
+  "summary": "EntropyMoE 是一种面向无分词器（tokenizer-free）大语言模型的稀疏专家路由架构，通过将动态字节补丁作为基本路由单元，并利用补丁熵作为路由坐标，解决了现有字节级模型对所有补丁统一计算、无法适应语义和粒度差异的问题。实验表明，在匹配的稠密和稀疏基线上，EntropyMoE 取得了最低的保留字节困惑度，同时保持下游准确率相当。该工作将 MoE 扩展到非分词器表示，为稀疏条件计算提供了新的路由信号，值得关注。",
+  "tags": [
+    "mixture-of-experts",
+    "tokenizer-free",
+    "byte-level-llm",
+    "sparse-routing",
+    "entropy"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bo Liu, Muxuab Yu, Yu Zhang, Pengfei Gao, Yongping Zhang",
+    "published": "Mon, 10 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.05224v1",
+  "title": "Small Foundation Models of Human Cognition and Behaviour",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.05224",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-07T08:23:18Z",
+  "analyzed_at": "2026-08-07T08:23:18Z",
+  "organized_at": "2026-08-07T08:26:40Z",
+  "summary": "本文研究了在人类行为数据上微调的小型基础模型作为认知代理的可行性。作者在Psych-101数据集上训练了14个不同规模的模型，发现分布内性能几乎不随规模变化，0.6B-1B参数即可匹配70B基线；但分布外泛化时，大规模模型优势明显。通过消融实验，证明模型主要依赖刺激和反馈信息，而非选择历史。该研究为心理学实验提供了低成本噪声上限估计器，并揭示了规模与泛化的关系。值得关注的是，它挑战了“越大越好”的假设，为认知建模提供了新思路。",
+  "tags": [
+    "cognitive-modeling",
+    "scaling-laws",
+    "psychology",
+    "fine-tuning",
+    "generalization"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Nick Oh, Fernand Gobet",
+    "published": "Fri, 07 Aug 2026 00:00:00 -0400"
+  }
+}
