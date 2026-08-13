@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.11235v1",
+  "title": "CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.11235",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-13T08:29:20Z",
+  "analyzed_at": "2026-08-13T08:29:20Z",
+  "organized_at": "2026-08-13T08:32:45Z",
+  "summary": "CORA-Diff 是一种针对扩散语言模型（DLM）推理的免训练加速方法。它利用模型自身的置信度和持久性信号，识别出在去噪过程中早期稳定的位置，并提前接受这些 token，从而避免对所有位置进行固定步数的密集前向计算。该方法无需修改模型架构或学习额外的接受模型，在保持任务质量的同时，显著降低了推理延迟，在 GSM8K 和 HumanEval 上分别实现了 2.70x 和 3.32x 的加速。该工作为 DLM 推理优化提供了新的思路，具有较高的实用价值。",
+  "tags": [
+    "diffusion-language-model",
+    "inference-acceleration",
+    "training-free",
+    "confidence-gating",
+    "llm"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yifan Wu, Yufeng Zhang, Kenli Li",
+    "published": "Thu, 13 Aug 2026 00:00:00 -0400"
+  }
+}

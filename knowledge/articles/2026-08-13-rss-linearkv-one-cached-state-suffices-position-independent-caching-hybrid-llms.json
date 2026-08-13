@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.11231v1",
+  "title": "LinearKV: One Cached State Suffices for Position-Independent Caching in Hybrid LLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.11231",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-13T08:29:20Z",
+  "analyzed_at": "2026-08-13T08:29:20Z",
+  "organized_at": "2026-08-13T08:32:45Z",
+  "summary": "LinearKV 是一个面向混合架构 LLM（如 GDN、Mamba-2）的无训练位置无关缓存（PIC）框架。现有 PIC 方法依赖 token 索引的 KV 缓存，但混合模型用线性递归替代大部分注意力层，只暴露固定大小的状态，破坏了拼接与局部重算的原语。LinearKV 提出解耦初始化：线性层将 K 个匹配的局部状态映射为单一初始状态，注意力层照常拼接 KV，从而兼容现有 PIC 选择器。核心发现是单个缓存状态足以作为初始化器，而精确组合所有状态（如 HYPIC 的做法）在 Mamba-2 上反而导致质量崩溃（46.6% vs 86.8%），且 TTFT 更优（0.46x vs 额外 5-17% 开销）。该工作为混合 LLM 的缓存推理提供了简洁且高效的方案，值得关注。",
+  "tags": [
+    "hybrid-llm",
+    "position-independent-caching",
+    "kv-cache",
+    "linear-recurrence",
+    "inference-optimization"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yirui Liu, Ruoling Qi, Longwen Wang, Xuaner Wu, Jian Chen, Yuxin Jin, Jiawei Shao, Xuelong Li",
+    "published": "Thu, 13 Aug 2026 00:00:00 -0400"
+  }
+}

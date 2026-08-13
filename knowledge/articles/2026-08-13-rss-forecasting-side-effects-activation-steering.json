@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.11227v1",
+  "title": "Forecasting Side Effects of Activation Steering",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.11227",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-13T08:29:20Z",
+  "analyzed_at": "2026-08-13T08:29:20Z",
+  "organized_at": "2026-08-13T08:32:45Z",
+  "summary": "该论文研究激活引导（activation steering）技术在语言模型中产生的副作用，并探讨能否在应用前预测这些副作用。作者在三个开源模型上构建了包含67种行为的交叉效应矩阵，发现副作用普遍存在、结构性强且常不对称，无法用现有相似性启发式解释。尽管复杂，但副作用在很大程度上可预测：其大小主要取决于目标行为，方向可从模型未引导的表示中以高于简单基线的准确率预测。该研究为激活引导的安全审计和部署提供了前瞻性方法，具有重要的安全价值。",
+  "tags": [
+    "activation-steering",
+    "llm-safety",
+    "side-effects",
+    "interpretability",
+    "forecasting"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chong Yong Ong, Alson Wei Jie Sim, Peixin Zhang, Jun Sun",
+    "published": "Thu, 13 Aug 2026 00:00:00 -0400"
+  }
+}

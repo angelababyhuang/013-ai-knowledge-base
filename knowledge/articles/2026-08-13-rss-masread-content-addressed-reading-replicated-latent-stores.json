@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.11218v1",
+  "title": "MaSRead: Content-Addressed Reading of Replicated Latent Stores",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.11218",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-13T08:29:20Z",
+  "analyzed_at": "2026-08-13T08:29:20Z",
+  "organized_at": "2026-08-13T08:32:45Z",
+  "summary": "MaSRead 提出了一种在复制潜在存储中按内容寻址读取的方法。独立智能体在潜在空间推理时，可将计算状态以键值缓存片段形式共享，并通过无冲突复制数据类型合并，形成可在任意交付顺序或重复下收敛的存储。然而，编码时未知的后续查询无法可靠读取合并后的缓存，因为共置片段会相互干扰。MaSRead 通过不透明键标签集路由，并在硬注意力掩码下解码所选片段，利用词汇连通性进行图遍历以支持多跳查询。该工作解决了分布式智能体共享潜在状态的可读性问题，对多智能体协作和缓存复用具有重要价值，值得关注。",
+  "tags": [
+    "latent-store",
+    "content-addressed-reading",
+    "replicated-data",
+    "multi-agent",
+    "cache-fragments"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Carlos Baquero, Lu\\'is Brito, Jo\\~ao Resende",
+    "published": "Thu, 13 Aug 2026 00:00:00 -0400"
+  }
+}

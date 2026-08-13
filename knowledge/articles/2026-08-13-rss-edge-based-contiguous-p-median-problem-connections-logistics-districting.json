@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.11230v1",
+  "title": "The Edge-based Contiguous p-median Problem with Connections to Logistics Districting",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.11230",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-13T08:29:20Z",
+  "analyzed_at": "2026-08-13T08:29:20Z",
+  "organized_at": "2026-08-13T08:32:45Z",
+  "summary": "本文提出边基连续p-中位（ECpM）问题，用于将路网中的道路划分为指定数量的紧凑且连续的辖区，并给出两种二进制规划模型：一种基于割集约束（需指数级约束，配合分支切割算法），另一种基于最短路径约束（多项式级约束，可直接用商用求解器）。实验表明，基于最短路径连续性的模型在2700节点、3400边的路网上，求解速度比割集法快17倍，且其约束被证明是边基p-中位模型的超有效不等式。该研究还探讨了ECpM与边基分区（EBD）问题的联系，后者增加工作量平衡约束，SPC模型能求解多数实例，而割集模型在12小时内无法找到可行解。该工作对物流分区、区域划分等应用具有理论和方法论价值。",
+  "tags": [
+    "p-median",
+    "contiguity",
+    "logistics-districting",
+    "branch-and-cut",
+    "shortest-path"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zeyad Kassem, Adolfo R. Escobedo",
+    "published": "Thu, 13 Aug 2026 00:00:00 -0400"
+  }
+}
