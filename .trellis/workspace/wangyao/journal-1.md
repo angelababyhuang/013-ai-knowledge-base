@@ -138,3 +138,38 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 5: 实现 Router/Supervisor Agent 模式并同步分支
+
+**Date**: 2026-08-13
+**Task**: 实现 Router/Supervisor Agent 模式并同步分支
+**Branch**: `main`
+
+### Summary
+
+实现两个 Agent 设计模式教学模块：patterns/router.py（两层意图分类——关键词快速匹配 + LLM 兜底，分发 github_search/knowledge_query/general_chat 三处理器，github_search 用 urllib.request + quote 编码，knowledge_query 读本地 index.json）与 patterns/supervisor.py（Worker 出 JSON 报告 → Supervisor 三维评分 accuracy/depth/format → 不通过带反馈重做最多 max_retries=3 轮 → 超限强制返回+warning）。两模块均适配项目实际 API（pipeline.model_client.quick_chat），课程要求的 workflows.model_client.chat()/chat_json() 不存在，改用 quick_chat + json.loads 软实现。Mock 测试 + DeepSeek/GitHub 真实联调全通过。期间发现本地与远端分叉（本地领先9、远端领先5），git merge origin/main 合并，5 个 08-10 数据冲突取远端版（数据可再生、云端权威），代码零冲突保留，git push 完成双向同步。另解释了 supervisor 设计（角色 prompt 分离、temperature=0.0 求稳、带反馈重做信息闭环、max_retries=3 成本/收益权衡）。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `c59d86b` | (see git log) |
+| `63aaa1e` | (see git log) |
+| `a706764` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete

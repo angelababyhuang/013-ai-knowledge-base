@@ -8,8 +8,8 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 4
-- **Last Active**: 2026-08-07
+- **Total Sessions**: 5
+- **Last Active**: 2026-08-13
 <!-- @@@/auto:current-status -->
 
 ---
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~140 | Active |
+| `journal-1.md` | ~175 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 5 | 2026-08-13 | 实现 Router/Supervisor Agent 模式并同步分支 | `c59d86b`, `63aaa1e`, `a706764` | `main` |
 | 4 | 2026-08-07 | pipeline --step/--days + 本地 crontab 定时配置 | `a5b16ce` | `main` |
 | 3 | 2026-08-07 | GitHub Actions 每日采集 workflow | `4ab7213`, `073f3d3` | `main` |
 | 2 | 2026-08-06 | MCP 知识库搜索测试 | - | `main` |
