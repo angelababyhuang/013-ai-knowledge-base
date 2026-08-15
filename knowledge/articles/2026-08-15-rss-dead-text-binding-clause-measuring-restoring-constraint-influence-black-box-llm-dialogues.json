@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.12599v1",
+  "title": "Dead text or binding clause? Measuring and restoring constraint influence in black-box LLM dialogues",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.12599",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-15T08:04:30Z",
+  "analyzed_at": "2026-08-15T08:04:31Z",
+  "organized_at": "2026-08-15T08:08:15Z",
+  "summary": "该论文针对多轮对话中用户约束（如指令、偏好）被撤销后模型仍持续执行的问题，提出了“行为复发”或“撤销惯性”这一现象，并设计了一个名为Sysname的框架，通过模型API实现约束影响力的测量、预测和修复。框架包括合同账本（将约束与可执行检查器配对，记录撤销墓碑并预编译净约束状态）、顺序消融探针（测量每条约束的遵守度和增量行为效应）以及修复阶梯（在token和尝试预算内修复）。实验表明，预编译能显著减少复发，探针可预测复发，而墓碑注释能恢复部分效果。该工作为对话状态中撤销失败提供了可量化、可预测、可修复的解决方案，值得关注。",
+  "tags": [
+    "constraint-influence",
+    "behavioral-relapse",
+    "multi-turn-dialogue",
+    "llm-evaluation",
+    "black-box"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Haoyuan Zhu",
+    "published": "Sat, 15 Aug 2026 00:00:00 -0400"
+  }
+}

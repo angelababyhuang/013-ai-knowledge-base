@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.12476v1",
+  "title": "Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.12476",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-15T08:04:30Z",
+  "analyzed_at": "2026-08-15T08:04:31Z",
+  "organized_at": "2026-08-15T08:08:15Z",
+  "summary": "本文提出了一种名为 Governed Persistent Memory (GPM) 的长期智能体记忆管理模型，旨在解决传统 select-store-retrieve 模式下记忆检索无法处理矛盾、过期、撤回或删除记录的问题。GPM 采用可审计的双时态状态转换模型，具备源绑定准入、派生生命周期状态、当前公共屏障和故障关闭的结构化发布机制，并通过五个可执行条款确保账本完整性、冲突隔离和声明闭合。在 GPM-ReleaseBench 基准和密封服务评估中，GPM 在受控场景下显著优于无治理的基线，并展示了零反例的有限模型验证。该工作为长时程智能体的记忆一致性和可信发布提供了新思路，值得关注。",
+  "tags": [
+    "governed-memory",
+    "bitemporal-model",
+    "agent-memory",
+    "fail-closed-release",
+    "long-horizon-agents"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Guodong Xu",
+    "published": "Sat, 15 Aug 2026 00:00:00 -0400"
+  }
+}

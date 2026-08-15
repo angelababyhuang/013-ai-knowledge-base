@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.12389v1",
+  "title": "Learning to Adapt Cross-Domain Preferences via Meta-LoRA for LLM Personalization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.12389",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-15T08:04:30Z",
+  "analyzed_at": "2026-08-15T08:04:31Z",
+  "organized_at": "2026-08-15T08:08:15Z",
+  "summary": "本文提出一种基于元学习的 LoRA 适配方法（Meta-LoRA），用于解决跨领域零样本或少样本的 LLM 个性化问题。现有方法在稀疏证据下容易过拟合，或导致负迁移。该方法通过 PAC-Bayes 正则化动态调整更新幅度，并分解用户与领域偏好，在 HiCUPID 等基准上显著提升胜率。值得关注的是其将元学习与 LoRA 结合，为个性化适配提供了新思路。",
+  "tags": [
+    "meta-learning",
+    "lora",
+    "personalization",
+    "cross-domain",
+    "pac-bayes"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xuefei Wang, Jun Han, Zixuan Wang, Qingkai Zeng, Xiao Wang, Ruijie Wang, Jianxin Li",
+    "published": "Sat, 15 Aug 2026 00:00:00 -0400"
+  }
+}
