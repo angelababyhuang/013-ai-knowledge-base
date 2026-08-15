@@ -1,0 +1,23 @@
+{
+  "id": "oai:arXiv.org:2608.11219v1",
+  "title": "From Monolithic to Modular: Segment-level Automatic Prompt Optimization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.11219",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-13T08:29:20Z",
+  "analyzed_at": "2026-08-13T08:29:20Z",
+  "organized_at": "2026-08-13T08:32:45Z",
+  "summary": "SAPO 提出了一种分段级自动提示优化方法，将提示分解为角色、上下文、任务和输出格式四个部分，并基于最优和最差示例进行针对性改进，解决了整体重写提示时可能顾此失彼的问题。该方法通过静态元提示和结构化输出实现分段诊断与候选生成，在多个基准上优于现有 APO 方法。值得关注的是，它为提示优化提供了更精细的粒度，有助于提升 LLM 在复杂任务上的表现。",
+  "tags": [
+    "prompt-optimization",
+    "llm",
+    "segmentation",
+    "automatic-prompt-engineering"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Nikita Kulin, Viktor Zhuravlev, Artur Khairullin, Sergey Muravyov, Ilya Makarov, Daniil Sukhorukov, Ekaterina Averkova",
+    "published": "Thu, 13 Aug 2026 00:00:00 -0400"
+  }
+}

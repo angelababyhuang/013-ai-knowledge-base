@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.12574v1",
+  "title": "Trie Automata for Constrained Decoding over Large Finite Sets",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.12574",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-15T08:04:30Z",
+  "analyzed_at": "2026-08-15T08:04:31Z",
+  "organized_at": "2026-08-15T08:08:15Z",
+  "summary": "本文提出了一种用于大语言模型受限解码的专用机制——trie自动机，解决从大规模有限集合中选择有效字符串时通用语法编译系统性能急剧下降的\"基数墙\"问题。该方法利用Aho-Corasick多模式匹配，利用有限集合的共享前缀、有界深度和已知基数等结构特性，预计算每个节点的token掩码，实现了比XGrammar快7倍的逐步骤有效token计算，并在批量服务场景下实现29倍的端到端吞吐量提升。该工作对需要高吞吐结构化输出的生产环境具有重要参考价值，展示了利用问题结构特性替代通用方案的有效路径。",
+  "tags": [
+    "constrained-decoding",
+    "trie-automaton",
+    "structured-output",
+    "inference-optimization",
+    "token-masking"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xingzi Xu, Karim Bouyarmane",
+    "published": "Sat, 15 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.11237v1",
+  "title": "Geometry-aware Incremental Neural Operator for Long-Horizon PDE prediction",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.11237",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-13T08:29:20Z",
+  "analyzed_at": "2026-08-13T08:29:20Z",
+  "organized_at": "2026-08-13T08:32:45Z",
+  "summary": "本文提出了一种几何感知增量神经算子（GeoIncNO），用于解决偏微分方程（PDE）长期自回归预测中的误差累积问题，如频谱不一致、相位偏移和均值漂移。该方法通过预测潜在增量实现残差推进，并利用轻量级低秩投影器在活跃频带内调节通道耦合，同时引入均值-波动解耦的重建机制，仅对零均值波动分量进行相位校正。在六个PDE基准（涵盖1D、2D、3D动力系统）上的实验表明，GeoIncNO在预测精度、滚动稳定性和频谱保真度上优于现有神经算子基线。该工作为长期PDE预测提供了新的架构思路，具有理论创新和实际应用潜力。",
+  "tags": [
+    "neural-operator",
+    "pde-prediction",
+    "long-horizon",
+    "spectral-fidelity",
+    "incremental-learning"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiaquan Zhang, Shuxu Chen, Haifan Meng, Yi Lu, Zhihan Lyu, Fan Mo, Wei Dong, Yang Yang, Chaoning Zhang",
+    "published": "Thu, 13 Aug 2026 00:00:00 -0400"
+  }
+}

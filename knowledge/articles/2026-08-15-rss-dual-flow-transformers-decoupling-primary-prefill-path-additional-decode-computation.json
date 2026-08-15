@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.12385v1",
+  "title": "Dual-Flow Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.12385",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-15T08:04:30Z",
+  "analyzed_at": "2026-08-15T08:04:31Z",
+  "organized_at": "2026-08-15T08:08:15Z",
+  "summary": "该论文提出 Dual-Flow Transformer 架构，将模型计算分为主流程（prefill 阶段）和辅助流程（decode 阶段），通过共享权重和 KV 缓存，在保持 prefill 成本不变的情况下增加 decode 计算量，以提升续写预测质量。它解决了传统宽度/深度扩展同时增加两阶段成本的问题，并通过 MoE 实验展示了阶段特定专家分配的潜力。值得关注是因为它提供了推理成本优化的新视角，对部署高吞吐 LLM 服务有实际意义。",
+  "tags": [
+    "dual-flow-transformer",
+    "inference-optimization",
+    "kv-cache",
+    "moe",
+    "decode-prefill"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Liming Liu, Mingze Wang, Tuo Zhao",
+    "published": "Sat, 15 Aug 2026 00:00:00 -0400"
+  }
+}

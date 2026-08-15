@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.12585v1",
+  "title": "Reasoning Jury: Multi-Model Consensus for Evaluating Reasoning Traces",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.12585",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-15T08:04:30Z",
+  "analyzed_at": "2026-08-15T08:04:31Z",
+  "organized_at": "2026-08-15T08:08:15Z",
+  "summary": "Reasoning Jury 提出了一种用多模型陪审团和协商共识机制来评估推理轨迹质量的系统，旨在解决单一模型（即使是前沿模型）在识别长推理轨迹缺陷时表现不佳的问题，并规避在线训练中禁止使用前沿模型的限制。该系统通过陪审员相互批评和修改初始投票的协商过程，由主持人达成共识，从而更准确地识别推理缺陷。实验表明，使用开放权重模型（如 gpt-oss-120b）的陪审团在识别缺陷上显著优于前沿模型（如 opus-4.6），且成本仅为后者的 8-15%。此外，该系统还能帮助深入理解推理模型在基准测试中的失败模式。该工作对推理数据筛选、强化学习训练信号和模型性能评估具有重要价值，值得关注。",
+  "tags": [
+    "multi-model-consensus",
+    "reasoning-evaluation",
+    "llm-judge",
+    "open-weight-models",
+    "deliberation"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Congchao Wang, Diwakar Singh, Qiaozi Gao, Spyros Matsoukas, Yang Liu, Mahdi Namazifar",
+    "published": "Sat, 15 Aug 2026 00:00:00 -0400"
+  }
+}

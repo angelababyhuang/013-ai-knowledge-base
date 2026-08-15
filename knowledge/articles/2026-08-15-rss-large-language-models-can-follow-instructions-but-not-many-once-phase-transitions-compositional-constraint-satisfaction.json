@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.12426v1",
+  "title": "Large Language Models Can Follow Instructions, But Not Many at Once: Phase Transitions in Compositional Constraint Satisfaction",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.12426",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-15T08:04:30Z",
+  "analyzed_at": "2026-08-15T08:04:31Z",
+  "organized_at": "2026-08-15T08:08:15Z",
+  "summary": "该论文提出约束饱和评估（CSE）基准，系统研究大语言模型在同时满足多个约束时的性能退化现象。通过程序化生成369,753个检查点，覆盖15个模型和36种约束类型，发现模型在k=8时满足全部约束的概率仅为5.7%，且约束失败近似独立导致累积效应。研究还揭示结构约束比词汇约束退化更快，并指出可靠指令遵循在5-6个约束后崩溃。该工作为理解LLM组合约束遵循能力提供了量化框架，对设计更鲁棒的指令系统具有参考价值。",
+  "tags": [
+    "constraint-satisfaction",
+    "llm-evaluation",
+    "instruction-following",
+    "phase-transition",
+    "benchmark"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mariya I. Vasileva",
+    "published": "Sat, 15 Aug 2026 00:00:00 -0400"
+  }
+}

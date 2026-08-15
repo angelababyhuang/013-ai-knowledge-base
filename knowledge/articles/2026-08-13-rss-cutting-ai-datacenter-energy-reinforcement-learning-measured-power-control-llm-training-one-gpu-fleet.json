@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.11226v1",
+  "title": "Cutting AI Datacenter Energy with Reinforcement Learning: Measured Power Control of LLM Training from One GPU to the Fleet",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.11226",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-13T08:29:20Z",
+  "analyzed_at": "2026-08-13T08:29:20Z",
+  "organized_at": "2026-08-13T08:32:45Z",
+  "summary": "该论文首次系统刻画了强化学习后训练（如GRPO）在GPU上的功耗行为，并提出用PPO元控制器动态调整工作负载的生成参数（如并发度）来管理功耗，而非依赖静态上限或反应式节流。实验显示在7B规模下可将功率违规降低89.8%，同时提升吞吐和能效；但在72B规模下因模型分片导致执行器失效，作者通过分析提出占用率-容量原则，并基于并发度重建控制器，在真实72B负载上实现35.7%的产出提升和更少的违规。该工作为数据中心能耗优化提供了新思路，具有重要的工程实践价值。",
+  "tags": [
+    "reinforcement-learning",
+    "power-control",
+    "datacenter",
+    "llm-training",
+    "energy-efficiency"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Eliseo Curcio",
+    "published": "Thu, 13 Aug 2026 00:00:00 -0400"
+  }
+}

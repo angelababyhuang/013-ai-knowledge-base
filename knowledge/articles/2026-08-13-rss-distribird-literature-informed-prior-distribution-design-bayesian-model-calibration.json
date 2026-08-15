@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.11210v1",
+  "title": "Distribird: Literature-Informed Prior Distribution Design for Bayesian Model Calibration",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.11210",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-13T08:29:20Z",
+  "analyzed_at": "2026-08-13T08:29:20Z",
+  "organized_at": "2026-08-13T08:32:45Z",
+  "summary": "Distribird 是一个基于多智能体的 Web 应用，用于自动化贝叶斯模型校准中的先验分布设计。它通过检索科学文献、提取参数值并按领域相关性加权，再经 AIC 模型选择拟合概率分布，从而生成有文献依据的先验，解决了传统上依赖均匀先验且构建信息先验耗时且需专业双重知识的问题。该工具支持本地运行 LLM，保护数据隐私，并内置有效性层以拒绝超出范围请求。评估显示其先验质量与单提示基线相当，但可追溯性和可靠性更优。值得关注的是，它为科学计算中的先验设定提供了可复现、可审计的自动化方案，对物理可解释参数的模型校准具有实际意义。",
+  "tags": [
+    "bayesian-calibration",
+    "prior-design",
+    "multi-agent",
+    "literature-mining",
+    "scientific-computing"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Patrik P. S\\\"uli, Gy\\\"orgy Eigner, Roland Holl\\'os",
+    "published": "Thu, 13 Aug 2026 00:00:00 -0400"
+  }
+}

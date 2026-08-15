@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.11212v1",
+  "title": "Detecting a Route Flip Is Easier Than Knowing Whether to Fix It: Causal Route-Mediated Damage in Quantized Mixture-of-Experts",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.11212",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-13T08:29:20Z",
+  "analyzed_at": "2026-08-13T08:29:20Z",
+  "organized_at": "2026-08-13T08:32:45Z",
+  "summary": "该论文研究量化混合专家模型（MoE）中路由翻转的因果影响，发现4-bit KV缓存量化导致的数值扰动会使token跨越决策边界，改变专家激活。作者提出因果分析框架，量化路由介导的损伤比例（RMF），并发现可部署的路由器余量能检测翻转发生（AUC 0.772），但无法区分有害与有益翻转，存在经验性的效益检测障碍。研究在OLMoE-1B-7B等三个架构上验证，预注册实验确保可靠性。该工作为量化MoE的鲁棒性分析提供了因果视角，但未提出新缓解方法，适合关注模型量化与路由机制的研究者。",
+  "tags": [
+    "mixture-of-experts",
+    "quantization",
+    "routing",
+    "causal-analysis",
+    "kv-cache"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Parvel Gu",
+    "published": "Thu, 13 Aug 2026 00:00:00 -0400"
+  }
+}

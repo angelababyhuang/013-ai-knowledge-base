@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.12428v1",
+  "title": "MindMemOS: A Portable and Self-Evolving Memory Operating Layer for AI Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.12428",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-15T08:04:30Z",
+  "analyzed_at": "2026-08-15T08:04:31Z",
+  "organized_at": "2026-08-15T08:08:15Z",
+  "summary": "MindMemOS 提出了一种面向 AI Agent 的可移植、自进化记忆操作系统层，旨在解决现有记忆系统在开发后固定不变、难以适应长期交互和场景变化的问题。它通过统一的实体属性时间结构组织开放世界信息，支持场景自适应记忆建模、高阶模式发现、自主记忆精炼和持续技能进化。其核心算法 MindMemEvolve 采用验证驱动的进化搜索优化记忆模式，并通过“梦境”机制合并冗余记录和解决冲突，同时利用隐式纠正反馈进行人机协同修正；MindSkillEvolve 则将执行轨迹转化为可复用的技能。实验表明其在 LOCOMO 和 PersonaMem 上分别达到 94.03% 和 70.63% 的准确率，并将 SpreadsheetBench 成功率提升 9.2 个百分点。该工作为 Agent 记忆系统的自适应和长期学习提供了新思路，值得关注。",
+  "tags": [
+    "memory-system",
+    "self-evolving",
+    "ai-agent",
+    "evolutionary-search",
+    "skill-evolution"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Kaichao Liang, Yuqi Cui, Hao Kong, Xinyuan Huang, Guohaotian Hou, Qingcan Kang, Liang Chen, Yiyang Yin, Ke Ye, Jiaquan Guo, Da Chen, Lingan Zeng, Yixing Peng, Rong Yao, Shixiong Kai, Mingxuan Yuan",
+    "published": "Sat, 15 Aug 2026 00:00:00 -0400"
+  }
+}
