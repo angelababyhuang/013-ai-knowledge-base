@@ -1,20 +1,26 @@
 #!/usr/bin/env python3
 """workflows/graph.py — 把 5 个节点组装成 LangGraph 知识库工作流图。
 
-图结构（课程第三节）::
+图结构（课程第四节接线：review 切换到 workflows/reviewer.py，审 analyses）::
 
-                       ┌──────────────────────────────┐
-                       │      （审核不通过，带反馈）      │
-                       ▼                              │
-    collect → analyze → organize → review ──passed──→ save → END
-    (入口)              (修正回路)    │
-                                    └─ review_passed=False 时回到 organize
+                        ┌──────────────────────────────┐
+                        │      （审核不通过，带反馈）      │
+                        ▼                              │
+     collect → analyze → review ──passed──→ organize → save → END
+     (入口)             │                        ▲
+                       └─ review_passed=False ────┘
+                          时回到 analyze 重分析
 
-- 线性边：``collect → analyze → organize → review``
+- 线性边：``collect → analyze → review``、``organize → save``
 - 条件边：``review`` 之后由 ``_route_after_review`` 读 ``review_passed``
-  分支：True → ``save``；False → ``organize``（带 feedback 修正回路）
-- 循环安全：节点内 ``review_node`` 的 ``iteration >= 2 强制通过``（业务级
-  刹车）+ LangGraph 默认 recursion_limit=25（图级急刹车），双层防死循环
+  分支：True → ``organize``（整理通过审核的 analyses）；False → ``analyze``
+  （带 feedback 重新分析——reviewer 审的是 analyses，反馈作用到源头）
+- review 语义：``workflows/reviewer.py`` 的五维加权审核（25/25/20/15/15，
+  加权总分代码重算，>= 7.0 通过，只审前 5 条，temperature=0.1，
+  LLM 失败 fail-open 自动通过）。旧版 nodes.review_node（审 articles）
+  保留在 nodes.py 但不再接线
+- 循环安全：reviewer 内 ``iteration >= 2 强制通过``（业务级刹车）+
+  LangGraph 默认 recursion_limit=25（图级急刹车），双层防死循环
 
 使用真实 LangGraph API（1.2.11）::
 
@@ -64,9 +70,9 @@ from workflows.nodes import (  # noqa: E402
     analyze_node,
     collect_node,
     organize_node,
-    review_node,
     save_node,
 )
+from workflows.reviewer import review_node  # noqa: E402
 from workflows.state import KBState  # noqa: E402
 
 logger = logging.getLogger("workflows.graph")
@@ -75,16 +81,19 @@ logger = logging.getLogger("workflows.graph")
 # --------------------------------------------------------------------------- #
 # 条件边路由函数
 # --------------------------------------------------------------------------- #
-def _route_after_review(state: KBState) -> Literal["save", "revise"]:
-    """review 出口的路由：读 review_passed 决定归档还是带反馈重整理。
+def _route_after_review(state: KBState) -> Literal["organize", "revise"]:
+    """review 出口的路由：读 review_passed 决定整理归档还是带反馈重分析。
 
-    返回值是 path_map 的键（"save" / "revise"），由 add_conditional_edges
-    映射到目标节点（save / organize）。
+    reviewer 审的是 analyses（organize 之前），所以未通过时反馈要作用到
+    源头 analyze——返回 "revise" 映射回 analyze；通过则进入 organize。
+
+    返回值是 path_map 的键（"organize" / "revise"），由 add_conditional_edges
+    映射到目标节点（organize / analyze）。
     """
     if state.get("review_passed"):
-        return "save"
+        return "organize"
     logger.info(
-        "[Route] 审核未通过（iteration=%d），回到 organize 修正",
+        "[Route] 审核未通过（iteration=%d），回到 analyze 按反馈重分析",
         state.get("iteration", 0),
     )
     return "revise"
@@ -104,20 +113,20 @@ def build_graph():
     graph.add_node("review", review_node)
     graph.add_node("save", save_node)
 
-    # 线性边：collect → analyze → organize → review
+    # 线性边：collect → analyze → review；organize → save
     graph.set_entry_point("collect")
     graph.add_edge("collect", "analyze")
-    graph.add_edge("analyze", "organize")
-    graph.add_edge("organize", "review")
+    graph.add_edge("analyze", "review")
 
     # 条件边：review 之后按 review_passed 分支
     graph.add_conditional_edges(
         "review",
         _route_after_review,
-        {"save": "save", "revise": "organize"},
+        {"organize": "organize", "revise": "analyze"},
     )
 
-    # 收尾：save → END
+    # 收尾：organize → save → END
+    graph.add_edge("organize", "save")
     graph.add_edge("save", END)
 
     return graph.compile()

@@ -232,9 +232,19 @@ def analyze_node(state: KBState) -> dict:
 
     单条解析失败按项目错误策略跳过（记 warning），失败条目以 0.0 分
     进入 analyses，由 organize_node 门控自然丢弃——不在节点里抛错。
+
+    审核回路（graph.py 接线 reviewer 后）：被打回时 ``iteration > 0`` 且
+    ``review_feedback`` 非空，本轮分析把反馈写进 prompt 定向改进
+    （summary/tags 质量），反馈作用到源头。
     """
     sources = state.get("sources") or []
-    logger.info("[AnalyzeNode] 开始分析 %d 条数据", len(sources))
+    iteration = state.get("iteration", 0)
+    feedback = state.get("review_feedback") or ""
+    revise = iteration > 0 and bool(feedback)
+    logger.info(
+        "[AnalyzeNode] 开始分析 %d 条数据%s",
+        len(sources), "（按审核反馈定向改进）" if revise else "",
+    )
 
     tracker = dict(state.get("cost_tracker") or {})
     analyzed_at = now_iso()
@@ -248,6 +258,10 @@ def analyze_node(state: KBState) -> dict:
             language=item.get("language") or "未知",
             stars=item.get("stars") or "未知",
         )
+        if revise:
+            prompt += (
+                f"\n\n上一轮审核未通过，改进要求（请针对性满足）：\n{feedback}"
+            )
         parsed, usage = chat_json(prompt, system=_ANALYZE_SYSTEM)
         tracker = accumulate_usage(tracker, usage, node="analyze_node")
 
