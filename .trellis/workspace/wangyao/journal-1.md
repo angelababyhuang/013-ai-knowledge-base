@@ -204,3 +204,37 @@
 ### Next Steps
 
 - 课程下一节（预计：checkpointer 持久化 / Send 并行 / 中断恢复，待课程要求）
+
+
+## Session 6: Git 双向同步 + LangGraph 课程三节（state/nodes/graph）
+
+**Date**: 2026-08-17
+**Task**: Git 双向同步 + LangGraph 课程三节（state/nodes/graph）
+**Branch**: `main`
+
+### Summary
+
+先处理本地/远端分叉同步：远端为准合并 08-13 冲突数据、备份丢弃的本地 08-14 手动采集文件、push 完成。随后完成 LangGraph 课程三节：workflows/state.py（KBState 七字段 TypedDict）、workflows/model_client.py（chat/chat_json/accumulate_usage 薄适配层，复用 pipeline 基建）、workflows/nodes.py（5 纯函数节点：GitHub 采集/LLM 分析/0.6 门控+双层幂等去重/四维审核 iteration>=2 强制通过/对齐现有 index 契约的保存）、workflows/graph.py（StateGraph 条件边审核回路 + 流式执行）。验证：真实端到端 DRY_RUN 跑通、fake review 确定性断言回路拓扑 organize×3、review 真实打回假条目。沉淀 spec（pipeline 不可包导入陷阱、sys.path 注入、DRY_RUN 惯例）与 journal，requirements.txt 补 langgraph。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `6a371f1` | (see git log) |
+| `9e19286` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
