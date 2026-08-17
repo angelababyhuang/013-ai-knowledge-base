@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.13607v1",
+  "title": "No Universal Signal Predicts Sample-Level LLM Regression under Version Updates",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.13607",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-17T08:12:27Z",
+  "analyzed_at": "2026-08-17T08:12:27Z",
+  "organized_at": "2026-08-17T08:15:42Z",
+  "summary": "该论文研究了LLM版本更新后，在样本级别上预测模型回归（即旧模型正确而新模型错误的样本）的问题。作者比较了多种推理时可用的信号，包括单模型信号（置信度、logit margin、注意力熵）和跨版本信号（输出KL散度、似然漂移、token级KL、表示漂移），并通过统一的增量价值测试评估各信号相对于置信度基线的增益。实验覆盖六个基准、三个任务族（多选题、数学推理、代码生成）和六组模型更新对，发现信号有效性高度依赖任务和模型更新对，没有普适的最佳信号；但跨版本信号在置信度失效时仍可能有效，且无需标签，支持了将高风险样本回退到旧模型的概念验证。该研究为实践者提供了按任务选择回归信号的任务级模式，具有实用参考价值。",
+  "tags": [
+    "llm-regression",
+    "model-update",
+    "confidence-signal",
+    "kl-divergence",
+    "selective-fallback"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jia Sheng, Yiwei Lu",
+    "published": "Mon, 17 Aug 2026 00:00:00 -0400"
+  }
+}

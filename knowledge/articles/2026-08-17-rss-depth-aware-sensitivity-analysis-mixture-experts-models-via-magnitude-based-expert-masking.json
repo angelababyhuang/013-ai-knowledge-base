@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.13565v1",
+  "title": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.13565",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-17T08:12:27Z",
+  "analyzed_at": "2026-08-17T08:12:27Z",
+  "organized_at": "2026-08-17T08:15:42Z",
+  "summary": "该论文对Qwen3.6-35B-A3B混合专家模型进行了逐层敏感性分析，通过基于幅度的专家掩码技术，在跨语言代码翻译基准上系统评估了各MoE层对压缩的容忍度。研究发现层敏感性具有强深度依赖性：早期和中间层对专家掩码高度脆弱，而后期层（尤其是35-39层）可容忍激进掩码。晚期聚焦策略在掩码640-1145个专家时仍能保留大部分输出质量，优于均匀掩码。此外，将top-k路由从8降至6可显著降低墙钟时间且不损失质量。该研究为深度感知的MoE压缩提供了实证基础，并指出了物理权重手术、激活基专家评分和训练恢复等实际路径。值得关注是因为它提供了可操作的MoE压缩策略，对部署大规模稀疏模型有直接指导意义。",
+  "tags": [
+    "mixture-of-experts",
+    "model-compression",
+    "sensitivity-analysis",
+    "expert-masking",
+    "llm-efficiency"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Pradeep Kumar Sharma, Shantanu Godbole, Hritvik Shrivastava",
+    "published": "Mon, 17 Aug 2026 00:00:00 -0400"
+  }
+}

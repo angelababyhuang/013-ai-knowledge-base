@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.13608v1",
+  "title": "Evaluating Agentic Learning Harness Capabilities Without Labels via the Scaling Hypothesis",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.13608",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-17T08:12:27Z",
+  "analyzed_at": "2026-08-17T08:12:27Z",
+  "organized_at": "2026-08-17T08:15:42Z",
+  "summary": "该论文提出了一种无需标签评估智能体持续学习框架（Agentic Continual Learning Harnesses）的方法，该框架通过将LLM与检索或记忆结合，在不重新训练的情况下从反馈中改进，在网络安全领域有应用价值。传统依赖标注基准的评估方法在真实安全场景中因标签稀缺、过时且不具代表性而失效，而LLM-as-a-judge也因能力不足无法提供有效信号。作者基于缩放假设，使用更强的教师模型提供稀疏修正，通过学生模型向教师收敛的程度来评分，并验证了教师相对提升与真实提升的相关性。该研究为无标签环境下评估学习框架提供了新思路，值得关注。",
+  "tags": [
+    "agentic-learning",
+    "continual-learning",
+    "llm-evaluation",
+    "scaling-hypothesis",
+    "cybersecurity"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aryan Luthra, Kshitij Jain, Siddharth Arya, Bobby Filar, Anna Bertiger",
+    "published": "Mon, 17 Aug 2026 00:00:00 -0400"
+  }
+}
