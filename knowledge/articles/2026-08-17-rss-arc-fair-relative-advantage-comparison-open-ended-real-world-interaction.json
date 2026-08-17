@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.13622v1",
+  "title": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.13622",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-17T08:12:27Z",
+  "analyzed_at": "2026-08-17T08:12:27Z",
+  "organized_at": "2026-08-17T08:15:42Z",
+  "summary": "ARC 提出了一种名为 Advantage Regularization via Conditioning 的训练方法，旨在解决开放世界交互中基于组的强化学习因行为多样性导致的奖励不公平比较问题。通过策略条件化的 rollout 分组、混合奖励和熵正则化，ARC 恢复了更公平的相对优势计算，并配合新的交互范式 Inter 及其数据集 Inter-86K，显著提升了工具使用基准性能，同时将首 token 延迟从 4.91 秒降至 1.27 秒。该工作揭示了交互学习中公平比较的重要性，并提供了可复现的实现与数据，对设计更稳健的 Agent 训练流程具有参考价值。",
+  "tags": [
+    "reinforcement-learning",
+    "reward-fairness",
+    "agent-training",
+    "tool-use",
+    "open-ended-interaction"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yongqi Tong, Tan Li Hui Faith, Choy Zhen Wen Marcus, Zhou Jin, Kewei Fu, Jiang-Ming Yang, Jianshe Li, Xin Zhang",
+    "published": "Mon, 17 Aug 2026 00:00:00 -0400"
+  }
+}

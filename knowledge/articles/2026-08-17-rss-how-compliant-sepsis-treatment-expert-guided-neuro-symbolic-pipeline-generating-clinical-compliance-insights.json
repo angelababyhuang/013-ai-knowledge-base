@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.13617v1",
+  "title": "How Compliant is Sepsis Treatment? An Expert-Guided Neuro-symbolic Pipeline for Generating Clinical Compliance Insights",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.13617",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-17T08:12:27Z",
+  "analyzed_at": "2026-08-17T08:12:27Z",
+  "organized_at": "2026-08-17T08:15:42Z",
+  "summary": "该论文提出了一种专家引导的神经符号流水线，用于验证脓毒症治疗是否符合循证方案。它结合了LLM的语义归一化能力和Sugeno模糊推理系统，将八条Surviving Sepsis Campaign捆绑规则编码为模糊规则，输出[0,1]的合规评分。在MIMIC-IV数据集上的实验揭示了抗生素时机等关键缺陷，展示了神经符号方法在安全关键医疗场景中的价值。值得关注的是其混合架构设计，为LLM在严格约束下的应用提供了范例。",
+  "tags": [
+    "neuro-symbolic",
+    "clinical-compliance",
+    "sepsis-treatment",
+    "llm-constraint",
+    "fuzzy-inference"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Himanshu Tripathi, Kaushik Roy, Subash Neupane, Shahram Rahimi",
+    "published": "Mon, 17 Aug 2026 00:00:00 -0400"
+  }
+}

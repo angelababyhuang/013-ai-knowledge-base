@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.13591v1",
+  "title": "Stable Miscalibration in Large Language Models: A Practical View of High-Confidence Errors",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.13591",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-17T08:12:27Z",
+  "analyzed_at": "2026-08-17T08:12:27Z",
+  "organized_at": "2026-08-17T08:15:42Z",
+  "summary": "该论文探讨了大语言模型中高置信度错误的一种新解释：稳定误校准，即模型在错误答案上保持高置信度且对微小扰动具有局部稳定性，而非传统认为的内部推理脆弱性。作者结合输出级审计分数和内部敏感性探针，在多项事实性数据集上验证了自我批判提示能降低隐藏状态敏感性，但高置信度错误与正确回答在局部敏感性上无显著差异，表明部分错误是稳定且误校准的。该研究为理解LLM的置信度机制和校准改进提供了新视角，值得关注。",
+  "tags": [
+    "llm-calibration",
+    "high-confidence-errors",
+    "self-critique",
+    "hidden-state-sensitivity",
+    "miscalibration"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Akira Okutomi",
+    "published": "Mon, 17 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.13612v1",
+  "title": "SemPlan: Benchmarking Structured Semantic Planning for LLM-Based Queries over Enterprise Data",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.13612",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-17T08:12:27Z",
+  "analyzed_at": "2026-08-17T08:12:27Z",
+  "organized_at": "2026-08-17T08:15:42Z",
+  "summary": "SemPlan 是一个用于评估企业数据上基于 LLM 的自然语言查询的结构化语义规划基准。它通过一个包含 1800 个案例（英葡双语）的确定性合成基准，比较了四种架构：直接 SQL 生成、有界工具代理、结构化语义请求生成加确定性规划执行，以及带澄清/有状态语义规划的变体。实验发现，绝对正确率普遍较低（约 22%-26%），但结构化语义规划（A3）在正确性上显著优于其他方法，同时各架构在策略合规、成本、拒绝率等维度上各有优劣，表明这是一个权衡空间而非单一最优解。该基准为设计企业数据上的 LLM 接口提供了系统性的评估框架，值得关注因为它揭示了当前 LLM 在企业数据查询中的局限性，并提出了可复现的评测方法。",
+  "tags": [
+    "semantic-planning",
+    "llm-benchmark",
+    "enterprise-data",
+    "sql-generation",
+    "structured-queries"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bruno Santos Teixeira",
+    "published": "Mon, 17 Aug 2026 00:00:00 -0400"
+  }
+}

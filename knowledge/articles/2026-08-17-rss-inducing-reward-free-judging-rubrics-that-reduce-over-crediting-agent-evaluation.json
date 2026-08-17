@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.13564v1",
+  "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.13564",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-17T08:12:27Z",
+  "analyzed_at": "2026-08-17T08:12:27Z",
+  "organized_at": "2026-08-17T08:15:42Z",
+  "summary": "本文提出 RubricForge，一种通过反射式进化从少量带环境奖励标签的轨迹中自动生成评判规则文本的方法，用于替代手写规则或微调权重的 LLM 评估器。其核心优势在于显著降低对失败轨迹的过度信任（false-pass rate），使评估更忠实于真实结果，且规则可读、可归因。尽管与通用 G-Eval 在总体一致性上无显著差异，但在部署场景中减少虚假通过比提高总体准确率更具实际价值。值得关注的是其将可解释性与评估可靠性结合，为无奖励信号的智能体评估提供了新思路。",
+  "tags": [
+    "agent-evaluation",
+    "llm-judge",
+    "rubric-generation",
+    "reward-free",
+    "false-pass-rate"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Darragh Quinn, David Dylan, Roisin Healy, Fionn Carroll, Maeve Donnelly, Cormac Sheehan",
+    "published": "Mon, 17 Aug 2026 00:00:00 -0400"
+  }
+}

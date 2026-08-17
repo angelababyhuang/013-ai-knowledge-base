@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.13625v1",
+  "title": "Reward Machines for Signal Temporal Logic",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.13625",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-17T08:12:27Z",
+  "analyzed_at": "2026-08-17T08:12:27Z",
+  "organized_at": "2026-08-17T08:15:42Z",
+  "summary": "该论文提出了一种基于自动机的方法，将信号时序逻辑（STL）规范转化为时间交替自动机，并从中推导出马尔可夫奖励，用于强化学习（RL）中的控制策略合成。它解决了STL鲁棒性奖励依赖历史状态导致状态空间爆炸的问题，通过自动机状态和时钟估值增强状态空间，使奖励成为马尔可夫的，从而提升学习效率和策略质量。实验表明，该方法在鲁棒性分数和满足率上优于现有基于鲁棒性的方法。值得关注，因为它为复杂时序规范下的RL控制提供了更高效的奖励设计框架，对自主系统和AI控制有实际意义。",
+  "tags": [
+    "signal-temporal-logic",
+    "reinforcement-learning",
+    "automata-based-reward",
+    "control-synthesis",
+    "markovian-reward"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Alper Kamil Bozkurt, Shangtong Zhang, Yuichi Motai",
+    "published": "Mon, 17 Aug 2026 00:00:00 -0400"
+  }
+}

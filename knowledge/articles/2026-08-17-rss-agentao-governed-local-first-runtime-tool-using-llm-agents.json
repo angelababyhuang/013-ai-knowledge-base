@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.13574v1",
+  "title": "Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.13574",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-17T08:12:27Z",
+  "analyzed_at": "2026-08-17T08:12:27Z",
+  "organized_at": "2026-08-17T08:15:42Z",
+  "summary": "Agentao 是一个面向工具使用型 LLM 代理的本地优先运行时框架，旨在解决代理在调用工具、修改状态和交互协议时面临的权限过度、审计困难、提示注入和工具投毒等安全问题。它通过分层架构将模型生成的动作提案与主机授权的执行分离，并将权限、状态、协议边界和执行轨迹显式化为运行时抽象，从而提升代理的可治理性和可检查性。该论文值得关注，因为它为构建安全可控的本地代理提供了一种实用的架构参考，尽管它不提供正式的安全保证。",
+  "tags": [
+    "llm-agent",
+    "runtime",
+    "security",
+    "permission",
+    "local-first"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bo Jin, Qiang Jiao, Xin Tong",
+    "published": "Mon, 17 Aug 2026 00:00:00 -0400"
+  }
+}
