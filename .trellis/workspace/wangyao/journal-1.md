@@ -173,3 +173,34 @@
 ### Next Steps
 
 - None - task complete
+
+---
+
+## 2026-08-17: LangGraph 课程三节（state/nodes/graph）+ Trellis 流程接入
+
+**Task**: 08-17-langgraph-graph（首次启用 Trellis 任务跟踪）
+**Branch**: `main`
+
+### Summary
+
+完成 LangGraph 课程三节：(1) workflows/state.py — KBState TypedDict 七字段（sources/analyses/articles/review_feedback/review_passed/iteration/cost_tracker），MAX_REVIEW_ITERATIONS=3 对齐 supervisor max_retries 语义。(2) workflows/model_client.py + nodes.py — 因课程要求的 chat()/chat_json()/accumulate_usage() 在项目不存在且 quick_chat 丢弃 usage，新建薄适配层复用 pipeline.model_client 基建；5 节点纯函数实现（collect 用 urllib.request、analyze 逐条 LLM 0-1 评分、organize <0.6 门控+双层 URL/id 去重+反馈定向修正、review 四维 LLM 评分且 iteration>=2 强制通过、save 完全对齐现有 index.json 契约）。关键陷阱：pipeline/pipeline.py 脚本式导入不可包导入，slugify/build_meta 复制并注明出处。(3) workflows/graph.py — StateGraph 组装，线性边 collect→analyze→organize→review，条件边 _route_after_review 按 review_passed 分支 save/organize 修正回路，build_graph() 返回 compile() 结果，__main__ 用 app.stream() updates 模式逐节点打印。
+
+### Testing
+
+- [OK] 真实端到端：GitHub+DeepSeek DRY_RUN 跑通，幂等去重生效（Top 仓库已在存量 index，dup_url 丢弃）
+- [OK] 回路拓扑（fake review 确定性验证）：collect→analyze→organize→review→organize→review→organize→review→save，修正回路真实调 LLM 修订标签（tags 2→4 个）
+- [OK] review 四维真实打分把冒烟假条目正确打回（summary_quality=4 + 具体反馈）
+
+### Key Decisions
+
+- workflows 直跑需 sys.path 注入项目根（sys.path[0] 是 workflows/），已沉淀至 .trellis/spec/backend/directory-structure.md
+- WORKFLOWS_DRY_RUN=1 为冒烟必备惯例，防污染 articles/
+- LLM JSON 解析失败：带严格提示重试一次→None→调用方兜底，节点内不抛错中断图；review 解析失败 fail-open + iteration 上限双保险防死循环
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- 课程下一节（预计：checkpointer 持久化 / Send 并行 / 中断恢复，待课程要求）
