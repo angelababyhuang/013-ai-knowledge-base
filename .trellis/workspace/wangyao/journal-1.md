@@ -238,3 +238,28 @@
 ### Next Steps
 
 - None - task complete
+
+---
+
+## 2026-08-18: LangGraph 课程第四节 — reviewer.py 五维加权审核
+
+**Task**: 08-18-langgraph-reviewer
+**Branch**: `main`
+
+### Summary
+
+workflows/reviewer.py 新版 review_node：审 analyses（organize 之前，区别于 nodes.review_node 审 articles），五维评分（summary_quality 25%/technical_depth 25%/relevance 20%/originality 15%/formatting 15%），加权总分 compute_weighted_score 代码重算（钳位 1-10、缺失维度按中性 5 计），>= 7.0 通过，只送审前 5 条，temperature=0.1，LLM 失败/解析失败/空列表/iteration 达上限四路 fail-open。KBState 补 plan: str 字段（Python 3.10 无 NotRequired，全必填），同步更新 state.py/graph.py/nodes.py 三处构造点。新旧 review_node 并存约定：reviewer.py 独立成文件，graph.py 不动，待课程接线节再切。
+
+### Testing
+
+- [OK] 离线：compute_weighted_score 单测（空→5.00、满分→10.0、99→10/"abc"→5 钳位）；mock chat_json 抛异常 → fail-open 自动通过
+- [OK] 在线：好条目（Dify 详细摘要+kebab tags）加权 7.15 通过；坏条目（"很好用大家快来看"+tag:good）加权 1.00 拒绝，反馈含代码算的分维明细+模型可执行建议
+- [OK] 回归：state.py 8 字段冒烟、graph.build_graph() 编译不破坏
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- 课程下一节预计重接 graph：review 提前到 organize 前、条件边挂 reviewer.review_node

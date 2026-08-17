@@ -568,6 +568,7 @@ def save_node(state: KBState) -> dict:
 def _run_smoke(limit: int) -> None:
     """端到端串联：collect → analyze → organize ⇄ review → save。"""
     state: KBState = {
+        "plan": "",
         "sources": [],
         "analyses": [],
         "articles": [],

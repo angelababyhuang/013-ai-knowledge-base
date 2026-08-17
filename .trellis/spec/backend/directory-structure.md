@@ -65,3 +65,4 @@
 
 - `workflows/graph.py` — StateGraph 组装、条件边路由（`_route_after_review` + path_map）、updates 流式打印的标准写法
 - `workflows/nodes.py` — 纯函数节点（返回部分状态更新、不抛错中断图）+ 与 pipeline 契约对齐的注释方式
+- `workflows/reviewer.py` — 加权评分代码重算（`compute_weighted_score`，不信任模型算术）+ fail-open 异常路径的标准写法

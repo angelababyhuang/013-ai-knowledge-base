@@ -30,6 +30,7 @@ LangGraph 语义说明：普通 TypedDict 字段在图中是「最后写入覆�
     from workflows.state import KBState, MAX_REVIEW_ITERATIONS
 
     state: KBState = {
+        "plan": "",
         "sources": [], "analyses": [], "articles": [],
         "review_feedback": "", "review_passed": False,
         "iteration": 0, "cost_tracker": {},
@@ -48,6 +49,10 @@ MAX_REVIEW_ITERATIONS = 3
 
 class KBState(TypedDict):
     """LangGraph 知识库工作流的共享状态（报告式通信契约）。"""
+
+    # 本次运行的任务计划文案：描述采集主题 / 整理目标 / 质量期望，
+    # 供 reviewer 等节点对照审核（"计划是什么"），空字符串表示无约束
+    plan: str
 
     # 采集到的原始数据摘要列表；元素对齐 knowledge/raw/ 的 item 结构：
     # {id, title, url, source, collected_at, ...来源特有字段}
@@ -83,6 +88,7 @@ class KBState(TypedDict):
 # --------------------------------------------------------------------------- #
 if __name__ == "__main__":
     state: KBState = {
+        "plan": "",
         "sources": [],
         "analyses": [],
         "articles": [],

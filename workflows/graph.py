@@ -156,6 +156,7 @@ def run(limit: int) -> KBState:
     app = build_graph()
 
     initial_state: KBState = {
+        "plan": "",
         "sources": [],
         "analyses": [],
         "articles": [],
