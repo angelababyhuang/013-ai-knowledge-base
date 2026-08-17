@@ -263,3 +263,36 @@ workflows/reviewer.py 新版 review_node：审 analyses（organize 之前，区�
 ### Next Steps
 
 - 课程下一节预计重接 graph：review 提前到 organize 前、条件边挂 reviewer.review_node
+
+
+## Session 7: LangGraph 课程第四节：reviewer.py 五维加权审核
+
+**Date**: 2026-08-18
+**Task**: LangGraph 课程第四节：reviewer.py 五维加权审核
+**Branch**: `main`
+
+### Summary
+
+workflows/reviewer.py 新版 review_node：审 analyses（organize 前），五维评分（25/25/20/15/15），compute_weighted_score 代码重算（钳位+中性分兜底），>=7.0 通过，前 5 条送审，temperature=0.1，四路 fail-open（LLM 异常/解析失败/空列表/iteration 达上限）。KBState 补 plan 字段并同步三处构造点。新旧 review_node 并存，graph 接线切换留给课程后续。验证：好条目 7.15 通过、坏条目 1.00 拒绝、mock 断网 fail-open、graph 编译回归。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `754f907` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete

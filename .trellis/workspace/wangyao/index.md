@@ -8,8 +8,8 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 6
-- **Last Active**: 2026-08-17
+- **Total Sessions**: 7
+- **Last Active**: 2026-08-18
 <!-- @@@/auto:current-status -->
 
 ---
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~240 | Active |
+| `journal-1.md` | ~298 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 7 | 2026-08-18 | LangGraph 课程第四节：reviewer.py 五维加权审核 | `754f907` | `main` |
 | 6 | 2026-08-17 | Git 双向同步 + LangGraph 课程三节（state/nodes/graph） | `6a371f1`, `9e19286` | `main` |
 | 5 | 2026-08-13 | 实现 Router/Supervisor Agent 模式并同步分支 | `c59d86b`, `63aaa1e`, `a706764` | `main` |
 | 4 | 2026-08-07 | pipeline --step/--days + 本地 crontab 定时配置 | `a5b16ce` | `main` |
