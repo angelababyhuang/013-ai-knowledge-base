@@ -1,0 +1,23 @@
+{
+  "id": "oai:arXiv.org:2608.14559v1",
+  "title": "When to Communicate: Belief Distributions and KL Divergence for Principled Gating in Multi-Agent RL",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.14559",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-18T08:08:53Z",
+  "analyzed_at": "2026-08-18T08:08:53Z",
+  "organized_at": "2026-08-18T08:12:46Z",
+  "summary": "该论文提出了一种基于KL散度的多智能体强化学习通信门控机制，旨在解决现有方法中通信时机决策的高方差和不稳定问题。每个智能体维护对潜在世界状态的信念分布，仅当信念分歧超过阈值时才进行通信，从而实现了可解释且稳定的门控行为。在Predator-Prey和MPE基准上的实验表明，在较难环境中该方法优于IC3Net，且信念头本身能改善潜在表征，提升协调性能。该工作为MARL中的通信时机提供了新思路，值得关注。",
+  "tags": [
+    "multi-agent-rl",
+    "communication-gating",
+    "kl-divergence",
+    "belief-distributions"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Teoman Kaman",
+    "published": "Tue, 18 Aug 2026 00:00:00 -0400"
+  }
+}

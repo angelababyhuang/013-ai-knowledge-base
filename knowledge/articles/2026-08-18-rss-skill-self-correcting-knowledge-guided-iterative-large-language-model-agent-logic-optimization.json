@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.14579v1",
+  "title": "SKILL: Self-correcting Knowledge-guided Iterative Large Language Model Agent for Logic Optimization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.14579",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-18T08:08:53Z",
+  "analyzed_at": "2026-08-18T08:08:53Z",
+  "organized_at": "2026-08-18T08:12:46Z",
+  "summary": "SKILL 是一个用于逻辑综合优化的自校正知识引导迭代式大语言模型智能体，旨在解决传统专家流程适应性差和强化学习方法样本效率低、可解释性弱的问题。它通过协调多个专用 LLM（GPT-4o 负责规划、Claude Sonnet 4 负责推理、Gemini 2.5 Pro 负责分析）与基于 PPO 的强化学习智能体，实现自动化综合优化，并引入自校正模块监控环境反馈（PDA 指标）以触发恢复策略。在 IWLS、OpenCores 和 EPFL 基准测试中，SKILL 相比专家流程实现了 12.4% 的 PDA 改进，并在高达 50 万门的逻辑系统上达到 86.3% 的成功率。该工作展示了 LLM 与 RL 结合在 EDA 领域的潜力，值得关注其多智能体协作和自校正机制的设计。",
+  "tags": [
+    "llm-agent",
+    "logic-synthesis",
+    "reinforcement-learning",
+    "multi-agent",
+    "eda"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Rui Yang",
+    "published": "Tue, 18 Aug 2026 00:00:00 -0400"
+  }
+}

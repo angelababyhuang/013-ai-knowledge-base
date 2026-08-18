@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.14588v1",
+  "title": "The Hallucination Snowball: Modeling Error Propagation as State Transitions in Multi-Agent LLM Pipelines",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.14588",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-18T08:08:53Z",
+  "analyzed_at": "2026-08-18T08:08:53Z",
+  "organized_at": "2026-08-18T08:12:46Z",
+  "summary": "该论文研究了多智能体LLM流水线中幻觉错误的传播机制，提出“幻觉雪球效应”模型，将错误传播形式化为四状态一阶马尔可夫过程。实验表明，幻觉在流水线各阶段会从原始事实转变为派生计算、叙述性文本和编辑认可的结论，检测难度逐级增加。研究强调验证时机比验证本身更重要，建议在早期阶段投入验证资源，以显著降低幻觉存活率。该工作为多智能体系统的可靠性设计提供了理论依据和实用指导，值得关注。",
+  "tags": [
+    "hallucination-snowball",
+    "multi-agent-llm",
+    "error-propagation",
+    "verification-strategy",
+    "markov-model"
+  ],
+  "relevance_score": 0.74,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Prabhjot Singh, Bhushan Pawar",
+    "published": "Tue, 18 Aug 2026 00:00:00 -0400"
+  }
+}

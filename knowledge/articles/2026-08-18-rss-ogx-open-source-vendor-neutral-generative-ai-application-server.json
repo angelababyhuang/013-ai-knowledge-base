@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.14580v1",
+  "title": "OGX: An Open-Source, Vendor-Neutral Generative AI Application Server",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.14580",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-18T08:08:53Z",
+  "analyzed_at": "2026-08-18T08:08:53Z",
+  "organized_at": "2026-08-18T08:12:46Z",
+  "summary": "OGX 是一个开源的、厂商中立的生成式 AI 应用服务器，旨在统一 OpenAI、Anthropic 和 Google 等主流前沿实验室的 API，使开发者能够通过单一接口构建 agentic AI 应用（如 RAG 流水线、多轮代理和工具调用工作流），并自由组合推理引擎、向量数据库和安全后端，而无需更改应用代码。该项目支持 Responses API、Anthropic Messages API 和 Google GenAI Interactions API，并提供超过 20 个推理提供商、13 个向量存储后端以及 Kubernetes Operator 用于生产部署。OGX 已获得超过 8,400 个 GitHub 星标和 242 名贡献者，是自托管、模型无关的后端，适用于 Claude Code、Codex CLI 等 AI 开发工具。该论文值得关注，因为它解决了 AI 应用开发中的 API 碎片化问题，提供了实用的开源解决方案，并展示了社区活跃度。",
+  "tags": [
+    "open-source",
+    "api-server",
+    "agentic-ai",
+    "vendor-neutral",
+    "kubernetes"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Francisco Javier Arceo, S\\'ebastien Han, Matthew Farrellee, Charlie Doern, Yuan Tang, Derek Higgins, Varsha Prasad Narsing, Gordon Sim, Sumanth Kamenani, Ben Browning, Raghotham Murthy",
+    "published": "Tue, 18 Aug 2026 00:00:00 -0400"
+  }
+}

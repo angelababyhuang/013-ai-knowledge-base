@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.14610v1",
+  "title": "When Do LLMs Apply the Wrong Law? Diagnosing LLM Failures in Temporal Legal Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.14610",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-18T08:08:53Z",
+  "analyzed_at": "2026-08-18T08:08:53Z",
+  "organized_at": "2026-08-18T08:12:46Z",
+  "summary": "该论文针对法律推理中的时间适用法确定任务，构建了基准测试，系统研究了LLM在此任务上的失败原因。研究发现LLM倾向于适用最新法律，且该偏差并非源于对法律时间范围的理解不足或历史知识缺乏，而是与强化学习塑造的显式推理机制有关，该机制降低了推理路径多样性，导致模型收敛于适用当前法律。这造成了反直觉现象：通用推理能力更强的模型在时间法律推理上表现更差。该研究为改进LLM在时间基础法律推理中的性能提供了具体指导，值得关注。",
+  "tags": [
+    "legal-reasoning",
+    "temporal-reasoning",
+    "llm-benchmark",
+    "reinforcement-learning",
+    "law-application"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yiqian Huang, Shuyuan Zheng, Qianying Liu, Shaowen Peng, Yuntao Kong, Kotaro Funakoshi, Chuan Xiao, Manabu Okumura, Yang Cao",
+    "published": "Tue, 18 Aug 2026 00:00:00 -0400"
+  }
+}

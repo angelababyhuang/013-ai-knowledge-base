@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.14569v1",
+  "title": "Position: Certified Correctness in Neural Constraint Reasoning Requires Symbolic Integration",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.14569",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-18T08:08:53Z",
+  "analyzed_at": "2026-08-18T08:08:53Z",
+  "organized_at": "2026-08-18T08:12:46Z",
+  "summary": "本文是一篇立场论文，主张在存在硬约束且验证成本较低时，神经约束求解必须优先考虑符号集成而非纯学习。作者以数独作为NP完全问题的代表测试平台，因其验证与求解复杂度不对称（验证为多项式时间，求解可能指数级）。通过综述确定性算法、元启发式、学习方法和语言条件推理，指出纯神经方法缺乏实例级认证，无法保证可证明的正确性。文章提出双向集成框架：神经方法学习启发式并转换感知为符号，符号方法验证神经输出，并设计多智能体认证推理框架以实现计算效率和可证明正确性。该文对神经符号集成和可信AI推理有重要参考价值。",
+  "tags": [
+    "neural-symbolic",
+    "constraint-satisfaction",
+    "certified-reasoning",
+    "sudoku",
+    "multi-agent"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shufeng Kong, Xiaochuan Zhang, Caihua Liu",
+    "published": "Tue, 18 Aug 2026 00:00:00 -0400"
+  }
+}
