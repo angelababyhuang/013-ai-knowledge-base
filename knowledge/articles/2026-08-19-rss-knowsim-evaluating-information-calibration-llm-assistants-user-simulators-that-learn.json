@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.17150v1",
+  "title": "KnowSim: Evaluating Information Calibration in LLM Assistants with User Simulators that Learn",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.17150",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "KnowSim 是一个用于评估 LLM 助手信息校准能力的框架，其核心是构建一个维护显式知识状态的用户模拟器，该模拟器将用户知识表示为具有先决关系的信息单元图，并依据学习理论更新知识状态。它解决了现有用户模拟器未建模用户知识演化，导致评估不真实的问题。通过知识增益、传递校准和认知过载三个指标，KnowSim 在 705 个人类-AI 会话中验证了其评估结果与人类判断高度一致，并揭示了不同知识水平下最佳模型不同的现象，为 LLM 评估提供了新视角。",
+  "tags": [
+    "information-calibration",
+    "user-simulator",
+    "llm-evaluation",
+    "knowledge-state",
+    "learning-theory"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yoonjoo Lee, Hyoungwook Jin, Tae Soo Kim, Shaoyang Zhang, Philippe Laban, Q. Vera Liao",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.17124v1",
+  "title": "A decodability criterion predicts when hidden-state selection beats majority voting in large language models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.17124",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "本文提出CASE（Correctness-Axis SElection）方法，通过训练线性门控读取答案token的隐藏状态来选择候选答案，替代多数投票。其核心贡献是提出“可解码性”（decodability）指标，该指标无泄漏地衡量门控对正确候选的排序能力，并预测隐藏状态选择是否优于投票。实验表明，传统探针因问题身份泄漏而虚高，而CASE在中等难度问题上比投票提升高达19个百分点，且可解码性预测跨领域迁移良好。该研究为测试时信息融合提供了实用选择准则，值得关注。",
+  "tags": [
+    "hidden-state-selection",
+    "majority-voting",
+    "test-time-computation",
+    "decodability",
+    "llm"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhixiang wang, Ziliang Hong, Ulas Bagci",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

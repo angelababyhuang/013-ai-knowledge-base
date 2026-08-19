@@ -1,0 +1,1873 @@
+{
+  "source": "rss",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:12:20Z",
+  "count": 60,
+  "items": [
+    {
+      "id": "https://lobste.rs/s/ctbbjj",
+      "title": "But what is cross-entropy? | Compression is Intelligence Part 2 - YouTube",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+      "feed_name": "lobsters-ai",
+      "author": "youtube.com via df",
+      "published": "Tue, 18 Aug 2026 23:49:02 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/ctbbjj/what_is_cross_entropy_compression_is\">Comments</a></p>",
+      "summary": "该视频是“压缩即智能”系列的第二部分，深入浅出地解释了交叉熵（cross-entropy）这一信息论核心概念。它从熵的定义出发，逐步推导交叉熵如何衡量两个概率分布之间的差异，并阐明其在机器学习（如分类损失函数）和LLM训练中的关键作用。视频将交叉熵与压缩联系起来，揭示智能与预测的内在关系，适合希望理解AI底层原理的工程师和研究者。",
+      "tags": [
+        "cross-entropy",
+        "information-theory",
+        "llm-training",
+        "compression",
+        "machine-learning"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.48,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.4,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.7 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.5 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/flcpeu",
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+      "feed_name": "lobsters-ai",
+      "author": "simonwillison.net via alcides",
+      "published": "Mon, 17 Aug 2026 12:54:19 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/flcpeu/we_tracked_shipment_rare_books_it_ended_at\">Comments</a></p>",
+      "summary": "这篇报道追踪了一批稀有书籍的物流轨迹，最终发现它们被送往亚马逊的AI训练设施。文章揭示了AI模型训练对高质量文本数据的需求，以及科技公司可能通过非公开渠道获取版权材料。它引发了关于AI训练数据来源、版权合规和透明度的讨论，值得关注AI伦理和数据治理的读者阅读。",
+      "tags": [
+        "ai-training-data",
+        "copyright",
+        "data-ethics",
+        "amazon",
+        "supply-chain"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.48,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.2,
+        "timeliness": 0.8,
+        "community_heat": 0.6,
+        "domain_match": 0.9
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/xculjp",
+      "title": "The Limits of AI (1985)",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://www.youtube.com/watch?v=ePsQksj99LM",
+      "feed_name": "lobsters-ai",
+      "author": "youtube.com via matthewcroughan",
+      "published": "Sun, 16 Aug 2026 19:20:07 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/xculjp/limits_ai_1985\">Comments</a></p>",
+      "summary": "这是一段1985年的视频，探讨了当时人工智能的局限性。它记录了早期AI研究者对技术瓶颈的反思，包括符号推理的脆弱性、知识获取的困难以及计算能力的限制。值得看是因为它提供了历史视角，帮助理解AI发展中的长期挑战，以及当前深度学习突破为何具有革命性。",
+      "tags": [
+        "ai-history",
+        "symbolic-ai",
+        "limitations",
+        "1985",
+        "retrospective"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.21,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.1,
+        "timeliness": 0.1,
+        "community_heat": 0.2,
+        "domain_match": 0.6
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/obo3ie",
+      "title": "Are Latent Reasoning Models Easily Interpretable?",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2604.04902",
+      "feed_name": "lobsters-ai",
+      "author": "arxiv.org via Yogthos",
+      "published": "Sat, 15 Aug 2026 11:17:13 -0500",
+      "summary_raw": "<p>Models normally do all their reasoning in a continuous hidden state instead of spitting out readable text which makes them hard to monitor. The authors tested the Coconut and CODI models and it turns out these models barely even use their hidden reasoning steps for logical tasks like PrOntoQA and ProsQA. You can force the models to stop thinking early and they almost always spit out the same response anyway. It turns out that their high performance on logical tasks actually comes from their specific training data rather than the extra thinking during inference.</p>\n<p>Things get even more interesting when the models actually need those reasoning tokens for math problems. The researchers wanted to know if standard step-by-step math solutions were hidden inside the latent space, and projected the hidden states back into regular vocabulary words to check. And sure enough when the models got the math problem right the researchers found the correct intermediate math steps in their hidden states up to 93% of the time. The finding strongly suggests that the models are basically doing standard math steps in the background.</p>\n<p>They confirmed the exact math operations taking place by tweaking numbers in the prompt and seeing how the hidden states reacted which allowed decoding a verified reasoning path for a large majority of correct predictions. But they could rarely do this for incorrect predictions proving that models are actually way more interpretable than the AI community assumed. And you can even use that interpretability as a signal to guess if the model is about to give a right or wrong answer.</p>\n<p><a href=\"https://lobste.rs/s/obo3ie/are_latent_reasoning_models_easily\">Comments</a></p>",
+      "summary": "这篇论文研究了潜在推理模型（如 Coconut 和 CODI）的可解释性问题。研究发现，这些模型在逻辑任务（如 PrOntoQA）中几乎不使用隐藏推理步骤，其高性能主要来自训练数据而非推理过程；但在数学任务中，模型隐藏状态中确实包含正确的中间步骤（高达93%），且可通过投影验证。该研究挑战了AI社区对潜在推理模型不可解释的普遍假设，并展示了利用可解释性预测答案正确性的可能性。",
+      "tags": [
+        "latent-reasoning",
+        "interpretability",
+        "coconut-model",
+        "codi-model",
+        "hidden-state-analysis"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.71,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.45,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.95
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/ahonc7",
+      "title": "The 'Breaking' News: The OpenAI–Hugging Face Incident",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://youtu.be/87DyyMV0kCY",
+      "feed_name": "lobsters-ai",
+      "author": "youtu.be via jjasghar",
+      "published": "Tue, 11 Aug 2026 11:50:09 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/ahonc7/breaking_news_openai_hugging_face\">Comments</a></p>",
+      "summary": "该视频报道了OpenAI与Hugging Face之间的一次突发事件，可能涉及模型发布、合作或争议。视频旨在快速传递事件核心信息，并引发社区讨论。对于关注AI生态动态的从业者，了解事件背景有助于把握行业趋势和潜在影响。",
+      "tags": [
+        "openai",
+        "hugging-face",
+        "ai-news",
+        "incident",
+        "community-discussion"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.5,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.9
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/hmi3v1",
+      "title": "social media rabbit holes, clusters, and the relative mixing times of random walks",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html",
+      "feed_name": "lobsters-ai",
+      "author": "notes.hella.cheap by bobpoekert",
+      "published": "Fri, 07 Aug 2026 16:22:54 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/hmi3v1/social_media_rabbit_holes_clusters\">Comments</a></p>",
+      "summary": "这篇文章以随机游走（random walk）的数学视角分析社交媒体中的信息传播模式，指出社交平台并非均匀的“城镇广场”，而是由高度聚集的社区簇构成，类似高中食堂的社交圈。作者通过相对混合时间（relative mixing time）的概念，解释了为何用户容易陷入信息茧房和兔子洞：随机游走在簇间转移缓慢，导致跨群体信息流动受阻。文章值得关注，因为它用严谨的数学工具揭示了社交网络的结构性缺陷，为理解AI推荐系统放大极化现象提供了理论依据，对设计更健康的社交算法有启发意义。",
+      "tags": [
+        "random-walk",
+        "social-media",
+        "information-diffusion",
+        "echo-chambers",
+        "network-analysis"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.43,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.5,
+        "community_heat": 0.4,
+        "domain_match": 0.6,
+        "_override": {
+          "tech_depth": "原值 0.7 超出 article-or-news 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/yndrxm",
+      "title": "Categorization with NLP",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+      "feed_name": "lobsters-ai",
+      "author": "softwaremaniacs.org via abareplace",
+      "published": "Mon, 03 Aug 2026 13:10:54 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/yndrxm/categorization_with_nlp\">Comments</a></p>",
+      "summary": "本文探讨了如何利用自然语言处理技术进行文本分类，重点介绍了从传统机器学习方法到现代深度学习模型的演进，并提供了实际应用中的最佳实践。文章旨在帮助开发者理解分类任务的核心挑战，如数据不平衡、特征选择等，并给出了可操作的解决方案。值得关注的是，作者结合了实际案例，展示了NLP分类在内容管理、舆情分析等场景中的落地价值，对于希望快速上手文本分类的工程师具有参考意义。",
+      "tags": [
+        "nlp",
+        "text-classification",
+        "machine-learning",
+        "deep-learning",
+        "practical-guide"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.45,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.5,
+        "community_heat": 0.3,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.6 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.8 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/vytqfi",
+      "title": "Why Do Cognitive Scientists Hate LLMs? (2023)",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/",
+      "feed_name": "lobsters-ai",
+      "author": "minihf.com via markerz",
+      "published": "Mon, 03 Aug 2026 12:45:39 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/vytqfi/why_do_cognitive_scientists_hate_llms\">Comments</a></p>",
+      "summary": "这篇文章探讨了认知科学家对大型语言模型（LLMs）持怀疑或否定态度的深层原因。文章指出，认知科学家批评LLMs缺乏真正的理解、推理能力和具身认知，认为它们只是统计模式匹配器，而非人类认知的忠实模型。作者从认知科学视角分析了LLMs在解释性、泛化能力和因果推理上的根本局限，并讨论了这些批评是否合理，以及LLMs对认知科学理论构建的潜在启发。文章值得一读，因为它提供了跨学科视角，帮助AI从业者理解LLMs在认知建模上的边界与价值。",
+      "tags": [
+        "cognitive-science",
+        "llm-limitations",
+        "reasoning",
+        "embodied-cognition",
+        "interdisciplinary"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.45,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.4,
+        "community_heat": 0.5,
+        "domain_match": 0.8,
+        "_override": {
+          "tech_depth": "原值 0.7 超出 article-or-news 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/vyy2jf",
+      "title": "Categorization with NLP",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+      "feed_name": "lobsters-ai",
+      "author": "softwaremaniacs.org by isagalaev",
+      "published": "Mon, 03 Aug 2026 12:11:41 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/vyy2jf/categorization_with_nlp\">Comments</a></p>",
+      "summary": "这篇文章探讨了如何利用自然语言处理（NLP）技术对文本进行自动分类，重点介绍了从传统机器学习方法（如TF-IDF加分类器）到现代深度学习模型（如Transformer）的演进。作者通过实际案例展示了分类任务中的关键挑战，如类别不平衡、多标签分类和语义理解，并提供了实用的解决方案和工具建议。文章值得一读，因为它不仅涵盖了理论背景，还给出了工程实践中的具体指导，适合希望将NLP应用于文本分类的开发者。",
+      "tags": [
+        "text-classification",
+        "nlp",
+        "machine-learning",
+        "transformers",
+        "practical-guide"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.49,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.3,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.6 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.8 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/t7zdif",
+      "title": "Why we write our own C and C++ inference engines",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://localai.io/blog/why-we-write-our-own-engines/",
+      "feed_name": "lobsters-ai",
+      "author": "localai.io via eatonphil",
+      "published": "Fri, 31 Jul 2026 11:17:44 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/t7zdif/why_we_write_our_own_c_c_inference_engines\">Comments</a></p>",
+      "summary": "这篇文章来自 LocalAI 团队，解释了为什么他们选择自研 C 和 C++ 推理引擎，而不是直接依赖现成的框架。核心原因包括：减少对第三方库的依赖以提升可控性和可维护性，针对特定硬件和模型进行深度优化以获得更好的性能，以及避免外部库的许可证和版本兼容性问题。文章值得关注，因为它揭示了在 AI 推理领域，自研引擎在性能优化和工程灵活性上的实际价值，尤其对于需要定制化部署的团队具有参考意义。",
+      "tags": [
+        "inference-engine",
+        "c-plus-plus",
+        "performance-optimization",
+        "localai",
+        "custom-deployment"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.5,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.5,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.7 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.8 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/jjap0n",
+      "title": "You Could Have Come Up With Kimi Delta Attention",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+      "feed_name": "lobsters-ai",
+      "author": "blog.doubleword.ai via mitsuhiko",
+      "published": "Tue, 28 Jul 2026 12:01:39 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/jjap0n/you_could_have_come_up_with_kimi_delta\">Comments</a></p>",
+      "summary": "这篇文章深入剖析了 Kimi 的 Delta Attention 机制，这是一种针对长上下文场景的注意力优化方案。文章从第一性原理出发，解释了 Delta Attention 如何通过增量计算和状态压缩来降低长序列推理时的计算和内存开销，解决了传统注意力机制在长文本处理中的效率瓶颈。作者以教学式风格推导其核心思想，强调该设计并非高不可攀，而是基于已有概念的巧妙组合，值得关注因为它代表了注意力机制在工程实践中的前沿演进方向。",
+      "tags": [
+        "attention-mechanism",
+        "long-context",
+        "kimi",
+        "efficient-inference",
+        "deep-learning"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.57,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.5,
+        "domain_match": 1.0,
+        "_override": {
+          "tech_depth": "原值 0.85 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/ljg2qr",
+      "title": "Languages as designed latent spaces",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
+      "feed_name": "lobsters-ai",
+      "author": "blog.jsbarretto.com via intarga",
+      "published": "Sat, 25 Jul 2026 10:13:27 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/ljg2qr/languages_as_designed_latent_spaces\">Comments</a></p>",
+      "summary": "这篇文章将编程语言类比为精心设计的潜在空间（latent spaces），探讨语言设计如何影响程序员的思维表达和问题建模。作者认为，编程语言不仅是执行指令的工具，更是塑造开发者认知框架的抽象层，类似于机器学习中的嵌入空间。文章通过对比不同语言的设计哲学，分析语法和类型系统如何引导或限制表达，并讨论这种视角对语言设计和AI辅助编程的启示。值得关注的是，它提供了一种跨领域的思考方式，帮助工程师理解语言选择的深层影响。",
+      "tags": [
+        "programming-languages",
+        "latent-spaces",
+        "language-design",
+        "cognitive-modeling",
+        "ai-assisted-programming"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.43,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.5,
+        "community_heat": 0.3,
+        "domain_match": 0.7,
+        "_override": {
+          "tech_depth": "原值 0.6 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.4 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/wwelib",
+      "title": "What Rose Petals Teach Us about Induction",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://www.oranlooney.com/post/rose-petals/",
+      "feed_name": "lobsters-ai",
+      "author": "oranlooney.com via calvin",
+      "published": "Wed, 22 Jul 2026 23:02:57 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/wwelib/what_rose_petals_teach_us_about_induction\">Comments</a></p>",
+      "summary": "这篇文章通过玫瑰花瓣的排列模式，深入探讨了归纳推理的本质与局限。作者指出，人类倾向于从有限观察中总结规律，但自然界的复杂性和随机性往往打破这些归纳结论。文章以玫瑰花瓣为例，说明归纳推理在科学发现和日常决策中的价值与风险，并讨论了如何通过贝叶斯思维和反事实推理来改进归纳过程。对于AI领域，这篇文章提醒我们，机器学习模型本质上也是归纳系统，其泛化能力受限于训练数据的分布，理解归纳的哲学基础有助于设计更鲁棒的算法。值得一读，因为它将哲学思考与AI实践联系起来，提供了跨学科的洞见。",
+      "tags": [
+        "inductive-reasoning",
+        "bayesian-thinking",
+        "machine-learning",
+        "philosophy-of-ai",
+        "generalization"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.4,
+      "score_breakdown": {
+        "tech_depth": 0.4,
+        "practical_value": 0.3,
+        "timeliness": 0.5,
+        "community_heat": 0.3,
+        "domain_match": 0.6
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/1xbtlo",
+      "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+      "feed_name": "lobsters-ai",
+      "author": "notion.com via JulianWgs",
+      "published": "Wed, 22 Jul 2026 05:09:50 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/1xbtlo/two_years_vector_search_at_notion_10x\">Comments</a></p>",
+      "summary": "Notion 工程团队分享其向量搜索系统两年来的演进历程，从最初简单的向量检索方案扩展到支持 10 倍数据规模，同时将成本降低至原来的 1/10。文章深入探讨了他们在索引策略、存储优化、查询路由和混合搜索（向量+关键词）方面的架构决策，以及如何通过分片、量化和缓存等手段在保证搜索质量的前提下大幅削减基础设施开销。对于正在构建或优化大规模 RAG/语义搜索系统的工程师，这是一份难得的实战经验参考，揭示了生产环境中向量搜索的真实挑战与取舍。",
+      "tags": [
+        "vector-search",
+        "rag",
+        "infrastructure",
+        "cost-optimization",
+        "production-system"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.53,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.6,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.8 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.9 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/qmvc5h",
+      "title": "Human-like Neural Nets by Catapulting",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://gwern.net/llm-catapult",
+      "feed_name": "lobsters-ai",
+      "author": "gwern.net via sunflowerseastar",
+      "published": "Sat, 18 Jul 2026 18:32:44 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/qmvc5h/human_like_neural_nets_by_catapulting\">Comments</a></p>",
+      "summary": "Gwern 的这篇文章探讨了一种名为“Catapulting”的训练技术，通过周期性大幅提升学习率再衰减，使神经网络在训练后期获得类似人类的泛化能力。文章指出，这种技术能有效缓解灾难性遗忘，并提升模型在分布外数据上的表现，尤其在语言模型和图像分类任务中效果显著。文章结合理论分析和实验数据，解释了 Catapulting 如何通过逃离尖锐局部最小值、进入更平坦的损失盆地来改善泛化，并讨论了其与人类学习中的间隔效应和记忆巩固的相似性。值得关注的是，它为提升模型鲁棒性和迁移能力提供了一种简单而有效的训练策略，对实践者具有直接参考价值。",
+      "tags": [
+        "catapulting",
+        "generalization",
+        "learning-rate",
+        "training-technique",
+        "neural-networks"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.5,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.5,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.8 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.7 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/srir6m",
+      "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
+      "feed_name": "lobsters-ai",
+      "author": "upcommons.upc.edu via calvin",
+      "published": "Thu, 16 Jul 2026 10:29:48 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/srir6m/novel_computer_scrabble_engine_based_on\">Comments</a></p>",
+      "summary": "该论文提出了一种基于概率的新型计算机拼字游戏（Scrabble）引擎，其性能达到冠军级别。它通过概率模型优化单词选择和棋盘布局，解决了传统引擎在搜索空间巨大时的效率问题。值得关注的是其将概率推理与游戏策略结合的方法，对AI决策系统有参考价值。",
+      "tags": [
+        "scrabble-engine",
+        "probability",
+        "game-ai",
+        "championship-level"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.47,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.4,
+        "timeliness": 0.3,
+        "community_heat": 0.2,
+        "domain_match": 0.6
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/hquwey",
+      "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
+      "feed_name": "lobsters-ai",
+      "author": "mitpress.mit.edu via adamo",
+      "published": "Wed, 15 Jul 2026 09:12:05 -0500",
+      "summary_raw": "<p>The book \"Inventing ELIZA - How the First Chatbot Shaped the Future of AI\".  It is Open Access so the link to the PDF is <a href=\"https://direct.mit.edu/books/book-pdf/2615293/book_9780262052504.pdf\" rel=\"ugc\">here</a></p>\n<p>The book has a companion <a href=\"findingeliza.org\" rel=\"ugc\">site</a> - I was monitoring this since I first heard the <a href=\"https://corecursive.com/eliza-with-jeff-shrager/\" rel=\"ugc\">episode</a> on CoRecursive.</p>\n<p><a href=\"https://lobste.rs/s/hquwey/inventing_eliza_how_first_chatbot_shaped\">Comments</a></p>",
+      "summary": "《Inventing ELIZA》是一本关于第一个聊天机器人ELIZA的开放获取书籍，由MIT出版社出版，探讨了ELIZA的发明过程及其对人工智能发展的深远影响。该书不仅回顾了ELIZA的历史背景和技术实现，还分析了它如何塑造了现代AI对话系统的设计理念。这本书值得关注，因为它提供了对AI历史根源的深入洞察，帮助理解当前LLM和Agent技术的演进脉络，同时开放获取使得内容易于访问。",
+      "tags": [
+        "eliza",
+        "chatbot-history",
+        "ai-history",
+        "open-access",
+        "conversational-ai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.44,
+      "score_breakdown": {
+        "tech_depth": 0.4,
+        "practical_value": 0.2,
+        "timeliness": 0.6,
+        "community_heat": 0.5,
+        "domain_match": 0.8
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/uhzuf7",
+      "title": "Tensor is the might",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://zserge.com/posts/tensor/",
+      "feed_name": "lobsters-ai",
+      "author": "zserge.com via eatonphil",
+      "published": "Tue, 14 Jul 2026 07:56:11 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/uhzuf7/tensor_is_might\">Comments</a></p>",
+      "summary": "本文探讨了张量（Tensor）作为AI和机器学习核心数据结构的强大之处，从底层原理出发解释了张量如何支撑神经网络的计算。文章可能涉及张量的数学定义、内存布局、以及在现代硬件上的高效实现，旨在帮助开发者理解为何张量是构建AI系统的基石。值得阅读是因为它提供了对AI基础设施的深入洞察，有助于工程师优化模型性能。",
+      "tags": [
+        "tensor",
+        "ai-infrastructure",
+        "deep-learning",
+        "performance"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.47,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.5,
+        "community_heat": 0.4,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.8 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/xgtzrp",
+      "title": "A global workspace in language models",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "feed_name": "lobsters-ai",
+      "author": "anthropic.com via bshanks",
+      "published": "Tue, 07 Jul 2026 13:26:18 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/xgtzrp/global_workspace_language_models\">Comments</a></p>",
+      "summary": "Anthropic 的研究文章，探讨在语言模型中引入“全局工作空间”的概念，类似于认知科学中的全局工作空间理论，旨在解决模型在长上下文或复杂推理中信息整合与访问的问题。文章可能提出一种架构或机制，让模型能更有效地在内部维护和操作全局信息，从而提升推理能力和一致性。值得关注是因为它可能为提升 LLM 的推理深度和可解释性提供新思路，且来自顶级 AI 实验室。",
+      "tags": [
+        "global-workspace",
+        "language-models",
+        "reasoning",
+        "anthropic",
+        "cognitive-architecture"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.58,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 1.0,
+        "_override": {
+          "tech_depth": "原值 0.8 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.4 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://lobste.rs/s/v8hk8q",
+      "title": "Google’s exponential path to climate-wrecking digital bloat",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
+      "feed_name": "lobsters-ai",
+      "author": "ketanjoshi.co via sjamaan",
+      "published": "Tue, 07 Jul 2026 02:33:16 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/v8hk8q/google_s_exponential_path_climate\">Comments</a></p>",
+      "summary": "这篇文章探讨了谷歌在人工智能和数字服务领域的指数级增长如何导致能源消耗和碳排放的急剧上升，从而加剧气候变化。作者通过分析谷歌的数据中心扩张、AI模型训练和日常数字服务的能耗，指出科技巨头的商业模式与气候目标之间存在根本性矛盾。文章值得关注，因为它揭示了AI发展背后的环境代价，并引发对可持续技术发展的思考。",
+      "tags": [
+        "google",
+        "climate-change",
+        "energy-consumption",
+        "ai-sustainability",
+        "digital-bloat"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.43,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.2,
+        "timeliness": 0.8,
+        "community_heat": 0.5,
+        "domain_match": 0.6
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.16890v1",
+      "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.16890",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Jaime Yan",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.16890v1 Announce Type: new \nAbstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissions, yet LLM-based code generation fails catastrophically on this task: across 11 single-shot attempts with five frontier models, none produces a valid subject-level analysis dataset. We introduce GxP-Agent, a multi-agent system that encodes regulatory process ordering as a directed acyclic graph (DAG), decomposing monolithic dataset generation into 15 domain-specific nodes executed by worker agents with pharmaverse skill context, validation gates, and conditional retry. On CDISC-Bench, a new execution-based benchmark built from the FDA pilot submission CDISCPilot01 (254 subjects, 49 ground-truth ADSL variables), GxP-Agent with Claude Sonnet 4.6 achieves 100% structural match (49/49 variables, 254 correct records) across three independent runs, compared to 59.2% for the best retrieval-augmented baseline and 0% for all single-agent and flat multi-agent approaches. The DAG topology also enables weaker models: GPT-4.1 achieves 59.2% mean structural match under the same DAG, where it scores 0% under every other architecture. The approach generalizes to ADAE (adverse events; 9-node branching DAG, 55 variables, 1,191 records), achieving 100% structural match on the first attempt. These results demonstrate that encoding domain process knowledge as graph topology -- rather than relying on LLM reasoning alone -- is a key enabler for reliable, GxP-compliant clinical trial programming.",
+      "summary": "GxP-Agent 是一个用于临床试验编程的多智能体系统，通过将监管流程编码为有向无环图（DAG），将数据集生成分解为15个领域特定节点，由具备 pharmaverse 技能上下文的 worker 智能体执行，并包含验证门和条件重试机制。它解决了 LLM 在 CDISC 标准下生成分析数据集时的高失败率问题，在 CDISC-Bench 基准上实现了100%的结构匹配，远超基线方法。该工作的价值在于证明了将领域过程知识编码为图拓扑，而非仅依赖 LLM 推理，是实现可靠、合规临床试验编程的关键。",
+      "tags": [
+        "clinical-trial",
+        "multi-agent",
+        "dag-topology",
+        "llm-agents",
+        "cdisc"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.68,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.3,
+        "domain_match": 0.95,
+        "_override": {
+          "practical_value": "原值 0.7 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.16891v1",
+      "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.16891",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Adam Mazzocchetti",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.16891v1 Announce Type: new \nAbstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from harmful text generation to harmful operational side effects. Prompt-level governance can shape model behavior, but it does not create an execution boundary. We introduce Aegis, a runtime governance system that treats model outputs as action proposals and mediates them through a trusted decision layer before tool execution. The model proposes; the trusted runtime decides. Aegis evaluates proposals against active policy state, resolves provenance server-side, fails closed under uncertainty, and routes selected cases through Senate-style settlement, a quorum- based non-unilateral authorization path. We evaluate Aegis on a repeated sandbox corpus spanning five run families, 42 tasks, three conditions, and ten repeats per family. Across 6,300 rows, prompt-policy conditioning produced 79 risky comparator-path leakage rows. Across 2,100 Aegis-governed rows, the system recorded zero governed mock-tool applications and zero governed risky side-effect completions. All 1,832 Aegis-attempted governed rows preserved trusted Aegis-resolved provenance, and all 1,019 Senate-settled rows had quorum and final signed tally evidence. These results do not prove general autonomous-agent safety. They support the narrower systems claim that, in this evaluated sandbox corpus, runtime action-boundary governance prevented observed risky proposals from becoming governed side effects.",
+      "summary": "Aegis 是一个针对 Agentic AI 的运行时治理系统，将模型输出视为动作提案，在执行前通过可信决策层进行中介，实现动作边界控制。它解决了提示级治理无法提供执行边界的问题，通过服务端溯源、失败关闭和基于仲裁的 Senate 式结算机制，防止有害操作副作用。在沙箱语料库上的评估显示，Aegis 有效阻止了所有风险提案的执行，并保持了完整的溯源和仲裁证据。该工作为自主智能体的安全执行提供了系统化的架构思路，值得关注。",
+      "tags": [
+        "runtime-governance",
+        "agentic-ai",
+        "action-boundary",
+        "fail-closed",
+        "provenance"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.68,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.3,
+        "domain_match": 1.0,
+        "_override": {
+          "practical_value": "原值 0.6 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.16956v1",
+      "title": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.16956",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Yeabin Moon",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.16956v1 Announce Type: new \nAbstract: API buyers purchase a dated contract, not a model name alone: the contract includes the requested and served model, reasoning-effort term or its omission, output rail, service product, prompt, and price schedule. We study the reasoning-effort term through a registered paired contrast of Sonnet 5 with explicit high effort against the same model with effort omitted, using 30 AIME 2026 items and five calls per item. Every paid attempt was assigned one frozen terminal category, and inference resampled items while retaining their repeated calls. Mean delivered cost was \\$0.01031 per call higher under the explicit-high contract than under the omitted contract [+\\$0.00204, +\\$0.01974]. The corresponding accuracy contrast was +0.0133 [-0.0267, +0.0467]; we did not detect an accuracy difference, and the interval permits a gain of up to 4.67 percentage points that this design cannot rule out. Cost per correct answer was \\$0.08665 under the high-effort contract and \\$0.07662 under the omitted contract, as registered point estimates. A dated contract census, Models-API metadata, and preregistered raw-response probes further documented model-specific omission semantics, including within a provider; claims remained at documentation grade when raw structure was indeterminate. The request registry, parser, terminal taxonomy, statistical plan, and analysis pipeline were frozen before outcomes were examined; the resulting claims are bounded to the model, task, and collection date studied.",
+      "summary": "该论文将API购买视为一份包含模型、推理努力条款、输出轨道等要素的“日期合同”，而非仅购买模型名称。作者通过对比Sonnet 5显式高推理努力与省略该条款的配对实验，发现显式高努力使每次调用成本增加约0.01美元，但未检测到准确率的显著提升（区间允许最多4.67个百分点的增益）。研究还记录了不同提供方对推理努力省略的语义差异，并强调所有分析流程预先冻结以保证可复现性。该工作对API定价和推理成本优化具有实践参考价值，值得关注。",
+      "tags": [
+        "reasoning-effort",
+        "api-contract",
+        "cost-analysis",
+        "llm-evaluation",
+        "arxiv"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.62,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.5,
+        "timeliness": 0.8,
+        "community_heat": 0.3,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.6 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.16971v1",
+      "title": "FedPref: Federated Preference Learning for Structured Radiology Report Extraction",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.16971",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Flint Xiaofeng Fan, Cheston Tan, Yew-Soon Ong, Roger Wattenhofer",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.16971v1 Announce Type: new \nAbstract: Radiology reports describe findings and locations in free text, but downstream search and analysis require these relations in a fixed schema. Learning this extraction requires labels that are unevenly distributed across institutions: smaller hospitals have less local evidence, and pooling data may be infeasible. We introduce FedPref: frozen public language models propose alternative JSON extractions, local annotations rank them, and sites collaboratively train compact Qwen3-8B adapters while sharing only model updates. A heterogeneous teacher pool provides cross-model contrast when repeated single-model samples collapse. On development data from six simulated hospitals with unequal data volume and disease prevalence, FedPref improves client-mean F1 by 2.49 points and worst-site F1 by 9.10 points compared with training each site in isolation, with the largest gains at the sites holding the least data. Central training on the pooled preference-pair union is 2.66 points higher on client-mean F1. On a locked, 400-report manually validated gold test set, FedPref reaches 68.68 F1 and pooled training 71.67, preserving that same ordering. FedPref thus lets institutions with unequal, unpooled data benefit from collaboration without ever sharing reports or annotations.",
+      "summary": "FedPref 是一种联邦偏好学习方法，用于结构化放射学报告提取。它利用冻结的公共语言模型生成候选 JSON 提取结果，由本地标注进行排序，各机构仅共享模型更新，协作训练紧凑的 Qwen3-8B 适配器，从而在不共享报告或标注的情况下，让数据分布不均的机构受益于协作。实验表明，该方法在数据量最少的站点提升最大，且优于各站点独立训练，接近集中式训练效果。该研究解决了医疗数据隐私与数据稀缺的矛盾，为联邦学习在结构化信息提取中的应用提供了新思路，值得关注。",
+      "tags": [
+        "federated-learning",
+        "preference-learning",
+        "radiology-report-extraction",
+        "llm-adapter",
+        "privacy-preserving"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.67,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.3,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.7 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.16977v1",
+      "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.16977",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Zeyu Zheng, Shengtong Zhang, Jeremy Avigad, Prasad Tetali, Sean Welleck",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.16977v1 Announce Type: new \nAbstract: AI systems are increasingly capable of contributing to mathematical research. In research practice, frontier-model reasoning is a limited resource, and expert mathematical review is even more sharply constrained. Allocating these scarce resources well is therefore central to making AI-assisted mathematical discovery efficient. In most current AI-for-math workflows, human effort is concentrated at the beginning and end, in selecting suitable research problems and later reviewing the resulting artifacts. These two stages are becoming bottlenecks for research-level mathematics. We address them by proposing a new human-AI discovery paradigm. The human input is no longer a single problem selected in advance, but a research direction in which the experts have interest and expertise. The system then searches a broad literature corpus for candidate problems in that direction. Inspired by search and recommender systems, we build Find, Attempt, and Recommend (FAR), a literature-to-review cascade that automates the search for suitable problems and focuses human attention on artifacts that have passed several stages of filtering. In a combinatorics pilot, the pipeline starts from 5,245 combinatorics papers, recovers 6,453 candidate conjectures or open problems, and filters them to 4,717 apparently well-posed and still-open conjectures. Subsequent reasoning and automated triage stages surface 598 potential resolutions and select 77 items for author-team review. Among them, we identify many interesting discoveries, including results on conjectures and questions of Davies--Jenssen--Perkins--Roberts, Erd\\H{o}s--Straus, Ikenmeyer--Pak--Panova, and Lund--Saraf--Wolf. These results demonstrate the effectiveness of this new mode of human-AI collaboration for mathematical discovery.",
+      "summary": "本文提出了一种新的人机协作数学发现范式，旨在解决AI辅助数学研究中人类专家注意力分配瓶颈的问题。传统流程中，人类精力集中在起始的问题选择和最终的结果审查，而本文提出的FAR（Find, Attempt, Recommend）系统通过文献检索、候选问题生成、自动推理和分级过滤，将人类审查聚焦于高潜力结果。在组合学试点中，系统从5245篇论文中筛选出4717个开放猜想，并最终选出77项供专家审查，发现了多个已知猜想的新结果。该工作展示了如何将推荐系统思想应用于数学研究，提升AI在科研中的实用效率，值得关注。",
+      "tags": [
+        "ai-for-math",
+        "human-ai-collaboration",
+        "mathematical-discovery",
+        "recommender-system",
+        "literature-mining"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.65,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.5,
+        "timeliness": 0.7,
+        "community_heat": 0.5,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.6 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17007v1",
+      "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17007",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Yinuo Wang, Yiyu Shi",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17007v1 Announce Type: new \nAbstract: Agent Skills can specify procedural and resource obligations for tool use, and language models instantiate them as concrete programs. However, when models turn this guidance into code for existing tool interfaces, even a semantically correct program may load an entire input and exceed the memory available to one tool call. We present SkillEffect, a checked-lowering runtime for computations with a recoverable source relation, an audited bounded implementation, and a registered output postcondition. Before granting execution authority, an independent checker rebuilds each proposed lowering from the submitted program and immutable input. Every relation plugin supplies a source recognizer, input-fact extractor, bounded-IR constructor, arena-bound function, and postcondition; one common runtime provides checked selection, bounded-VM execution, atomic capacity leasing, and staged publication. Generality in SkillEffect is architectural rather than automatic: each supported computation requires an audited relation plugin, while the dispatch, resource-control, execution, and publication mechanisms are shared across plugins. Across six operator families, bounded access substantially reduces peak memory and improves completion under externally fixed caps. Six plugins instantiate the same contract across five execution patterns, from streaming reduction to bounded-heap Top-k. The XLSX onboarding study and Top-k extension show that a new relation and a new retained-state pattern reuse the same trust boundary, while the checker accepts all evaluated legal configurations and rejects all adversarial proposals. Together, these results show that one checked-lowering architecture can enforce heterogeneous registered memory relations at Agent tool dispatch.",
+      "summary": "SkillEffect 提出了一种针对 Agent 工具调用的内存安全运行时，通过“检查降级”机制确保模型生成的程序在资源受限下不会超出内存上限。它引入可恢复源关系、审计的有界实现和输出后置条件，由独立检查器在授权执行前重建并验证降级过程。该架构通过插件化设计支持多种操作族，显著降低峰值内存并提高完成率，为 Agent 工具调度提供了可扩展的信任边界。值得关注的是，它解决了 LLM 生成代码在实际执行中的资源安全问题，兼具理论创新和工程实用性。",
+      "tags": [
+        "agent-tools",
+        "memory-bounded",
+        "checked-lowering",
+        "resource-safety",
+        "llm-runtime"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.66,
+      "score_breakdown": {
+        "tech_depth": 0.9,
+        "practical_value": 0.5,
+        "timeliness": 0.8,
+        "community_heat": 0.2,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.7 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17053v1",
+      "title": "Memory Is Communication: The Frontier Between Remembering and Signaling",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17053",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Yashar Talebirad, Eden Redman, Ali Parsaee, Osmar R. Zaiane",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17053v1 Announce Type: new \nAbstract: A bounded agent may obtain information for a decision from its own past, from peers, or from both sources. Retaining task-relevant history can reduce later communication, while a peer message can supply what memory lacks. Under limits on both resources, how should an agent allocate its information budget? Given a fixed task and decision rule, the memory and message rate pairs attaining a performance threshold form an achievable region under specified rules for using history and peer observations. We call its efficient boundary the remembering--signaling frontier. Across conditions where history permits the same maximum reduction in task loss, we hypothesize that a bounded agent will need less peer communication when it obtains a larger loss reduction from history. In preliminary referential games, target repetition coincided with shorter successful messages, while predictability from a hidden cyclic rule did not shorten them. Experiments varying memory and message rates can estimate the frontier and test this prediction across cooperative tasks.",
+      "summary": "该论文探讨了有界智能体在决策时如何分配信息预算：从自身历史记忆获取信息与从同伴通信获取信息之间的权衡。作者提出了\"记忆-信号前沿\"（remembering-signaling frontier）概念，用于描述在给定任务和决策规则下，达到性能阈值的记忆与消息速率组合的可达区域。初步的指称游戏实验表明，目标重复会缩短成功消息的长度，而隐藏循环规则的可预测性则不会。这项工作为理解多智能体系统中记忆与通信的资源分配提供了理论框架，对设计高效的协作式AI代理具有参考价值。",
+      "tags": [
+        "memory-vs-communication",
+        "bounded-agents",
+        "referential-games",
+        "information-budget",
+        "multi-agent-systems"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.58,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.4,
+        "timeliness": 0.7,
+        "community_heat": 0.3,
+        "domain_match": 0.85
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17067v1",
+      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17067",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Tong Zhang, Motasem Alfarra, Carlos Hinojosa, Christos Louizos, Bernard Ghanem",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17067v1 Announce Type: new \nAbstract: As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Safe-For-Work (NSFW) content such as violence and nudity, further exacerbated by red-teaming adversarial attacks. Existing defenses predominantly operate under white-box assumptions, relying on text encoder optimization, weight editing, or inference-time intervention, and fundamentally cannot scale to proprietary models. Black-box alternatives based on LLM prompt rewriting offer broader applicability, yet fail in a critical regime we identify as the \\textit{benign adversarial} problem: prompts that are linguistically safe but still trigger harmful generation due to the model's learned data distribution. We propose DiSCO, a zero-shot, strictly black-box defense that operates entirely at the prompt level as a plug-and-play module, requiring no model retraining, fine-tuning, or access to model internals. DiSCO performs distribution-guided suffix expansion via beam search, optimized through contrastive scoring over safe and unsafe image pools generated by the target model itself, with iterative adaptive feedback until safe content is produced. We demonstrate that DiSCO consistently enhances the safety of both undefended and defended models on the I2P benchmark under multiple red-teaming attacks, achieving 37.7% and 25.13% ASR reduction, respectively, while maintaining semantic fidelity and improving image coherence. As a black-box, architecture-agnostic module, DiSCO can be readily applied to any text-to-image system without necessitating any changes to the model itself.",
+      "summary": "DiSCO 是一种零样本、纯黑盒的防御方法，用于保护文本到图像生成模型免受 NSFW 内容生成攻击。它针对现有防御依赖白盒假设的局限，以及 LLM 提示改写无法应对的“良性对抗”问题（即提示在语言上安全但仍触发有害生成），通过在提示级别进行分布引导的后缀扩展和对比评分优化，迭代调整提示直至生成安全内容。该方法无需模型重训练或内部访问，可作为即插即用模块应用于任何文本到图像系统，在 I2P 基准上显著降低攻击成功率，同时保持语义保真度。值得关注的是它解决了黑盒场景下的安全防御难题，具有广泛适用性。",
+      "tags": [
+        "text-to-image",
+        "black-box-defense",
+        "prompt-optimization",
+        "nsfw-content",
+        "contrastive-learning"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.67,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.3,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.7 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17071v1",
+      "title": "KernelArc: A Multi-Agent Framework for GPU Kernel Optimization",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17071",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Joyjit Kundu, Ben Stoffelen, Kaili Wang, Peter Vrancx, Ludovic Denoyer",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17071v1 Announce Type: new \nAbstract: We present KernelArc, a multi-agent framework for autonomous GPU kernel optimization across heterogeneous workloads. Strategy-specialized agents run in parallel and coordinate through conclusions-only shared memory, a deterministic benchmark guard, and read-only cross-agent state with plateau-triggered drafting. We evaluate \\kernelarc{} on NVIDIA H100 and B200 GPUs using category-representative SOL-ExecBench workloads. The resulting implementations span custom BF16 GEMM, static cuBLASLt Expert-API configuration tables, fused mixture-of-experts backward, shape-gated decoder-layer fusion, native NVFP4 grouped-query attention, and paged prefill attention. At the public SOL-ExecBench leaderboard snapshot recorded on July~30, 2026, these submissions ranked first on representative L1, L2, Quantization, and FlashInfer tasks. The trajectories support the paper's central motivation: shared multi-agent search can broaden exploration and reach stronger incumbents within a fixed candidate budget, while the value of individual coordination features depends on the kernel and optimization stage.",
+      "summary": "KernelArc 是一个用于 GPU 内核优化的多智能体框架，通过策略特化智能体并行协作，利用结论共享内存、确定性基准守卫和只读跨智能体状态等机制，在固定候选预算内扩大搜索空间，提升优化效果。该框架在 NVIDIA H100 和 B200 上针对多种工作负载（如 BF16 GEMM、MoE 反向、NVFP4 注意力等）取得了领先性能，验证了多智能体协作在硬件优化中的价值。值得关注的是，它展示了如何将 LLM 智能体应用于底层系统优化，为 AI 与高性能计算的交叉领域提供了新思路。",
+      "tags": [
+        "gpu-kernel-optimization",
+        "multi-agent-framework",
+        "llm-agents",
+        "high-performance-computing",
+        "arxiv"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.72,
+      "score_breakdown": {
+        "tech_depth": 0.9,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.5,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.7 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17124v1",
+      "title": "A decodability criterion predicts when hidden-state selection beats majority voting in large language models",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17124",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Zhixiang wang, Ziliang Hong, Ulas Bagci",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17124v1 Announce Type: new \nAbstract: Combining the answers a large language model (LLM) samples for a question into one decision is a test-time information fusion problem, usually solved by majority voting. Voting is unreliable on difficult questions, where the sampled answers share correlated errors, so the wrong answer can win and drawing more samples makes the decision worse. Selecting a candidate by reading a correctness signal from the model's hidden states is a promising alternative, but its accuracy varies across models and tasks, and no measure indicates when it can be trusted. In this paper, we propose CASE (Correctness-Axis SElection), a dynamic selection combiner that trains a linear gate on the answer-token hidden state and selects the highest-scoring candidate. Its main contribution is decodability, a leakage-free measure of how well the gate ranks a question's correct candidates above its incorrect ones, which predicts whether hidden-state selection will outperform voting. A conventional probe appears accurate only because of question-identity leakage, which vanishes under question-grouped evaluation. On held-out data, decodability predicts the accuracy gain of selection over voting with a Pearson correlation r=0.75 and a decision threshold near AUC=0.60. Across general and medical LLMs, CASE improves over voting by up to 19 points on medium-difficulty questions and 16.8 points on hard questions. Decodability depends on the aligned knowledge a model must recall, not on its scale, and its prediction transfers to an unseen scientific domain within 3.8 points. It thus provides a practical criterion, measurable in advance for a given model and task, for choosing between learned selection and majority voting.",
+      "summary": "本文提出CASE（Correctness-Axis SElection）方法，通过训练线性门控读取答案token的隐藏状态来选择候选答案，替代多数投票。其核心贡献是提出“可解码性”（decodability）指标，该指标无泄漏地衡量门控对正确候选的排序能力，并预测隐藏状态选择是否优于投票。实验表明，传统探针因问题身份泄漏而虚高，而CASE在中等难度问题上比投票提升高达19个百分点，且可解码性预测跨领域迁移良好。该研究为测试时信息融合提供了实用选择准则，值得关注。",
+      "tags": [
+        "hidden-state-selection",
+        "majority-voting",
+        "test-time-computation",
+        "decodability",
+        "llm"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.69,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.8,
+        "community_heat": 0.5,
+        "domain_match": 0.95,
+        "_override": {
+          "practical_value": "原值 0.7 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17128v1",
+      "title": "Toward Personal Intelligence Through Cooperative Observation",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17128",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Yashar Talebirad, Osman Jime, Ali Parsaee, Eden Redman, Yongbin Kim, Osmar R. Zaiane",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17128v1 Announce Type: new \nAbstract: A personal AI system needs a model of the user's goals, constraints, and ongoing commitments to plan and act on their behalf, and the quality of that model is bounded by what the system can observe. Broader observation does not by itself improve assistance because a bounded system must select and compress information for the task at hand. We argue that this observation bottleneck has a cooperative structure: the system builds a partial model of the user's changing life, the user evaluates its actions, and the user's consent and control shape what it can observe next. Useful and inspectable behavior can give users a reason to maintain or expand the observation channel, while failures can lead them to correct, narrow, revoke, or abandon it. We use the term cooperative observation for this feedback loop among usefulness, trust, and future access, and propose it as a framework for personal intelligence. We report a preliminary single-subject account from Organizm, a prototype used over six months, and outline evaluation directions for measuring how observation quality shapes personal AI.",
+      "summary": "该论文提出“协作观察”（cooperative observation）框架，用于解决个人AI系统在建模用户目标与约束时面临的观察瓶颈问题。作者认为，系统对用户的观察并非单向采集，而是与用户信任、反馈和授权形成闭环：系统的有用性和可检查性促使用户维持或扩大观察渠道，而失败则导致用户收缩或撤销访问。论文基于Organizm原型六个月的单用户实验，初步验证了该框架，并提出了评估观察质量如何影响个人AI性能的方向。该工作为个人智能体的数据获取与用户信任设计提供了新视角，值得关注。",
+      "tags": [
+        "personal-ai",
+        "cooperative-observation",
+        "user-modeling",
+        "trust",
+        "feedback-loop"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.4,
+        "timeliness": 0.7,
+        "community_heat": 0.3,
+        "domain_match": 0.9
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17150v1",
+      "title": "KnowSim: Evaluating Information Calibration in LLM Assistants with User Simulators that Learn",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17150",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Yoonjoo Lee, Hyoungwook Jin, Tae Soo Kim, Shaoyang Zhang, Philippe Laban, Q. Vera Liao",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17150v1 Announce Type: new \nAbstract: To effectively collaborate with users on knowledge-intensive tasks, Large Language Models (LLMs) must perform information calibration: matching content to a user's evolving understanding and cognitive capacity. Yet user simulators used to evaluate and train LLMs do not explicitly model user knowledge so they neither produce realistic interactions across knowledge levels nor reflect how interactions unfold as that knowledge evolves. To close this gap, we introduce KNOWSIM, an evaluation framework built around a user simulator that maintains explicit knowledge states, represented as a graph of Information Units with prerequisite relationships, that evolve under update rules grounded in learning theory. KNOWSIM computes three metrics (Knowledge Gain, Delivery Calibration, Cognitive Overload) directly from the knowledge state trajectory, reflecting key mechanistic aspects of information calibration. We validate KNOWSIM against 705 human-AI sessions across two domains, stratified by knowledge level: its rankings align significantly with human judgments (73-74% sign agreement), outperforming three baseline simulators. Applied to 9 LLMs, KNOWSIM reveals that the best model shifts by user knowledge level, revealing aptitude-treatment interactions invisible to standard evaluation.",
+      "summary": "KnowSim 是一个用于评估 LLM 助手信息校准能力的框架，其核心是构建一个维护显式知识状态的用户模拟器，该模拟器将用户知识表示为具有先决关系的信息单元图，并依据学习理论更新知识状态。它解决了现有用户模拟器未建模用户知识演化，导致评估不真实的问题。通过知识增益、传递校准和认知过载三个指标，KnowSim 在 705 个人类-AI 会话中验证了其评估结果与人类判断高度一致，并揭示了不同知识水平下最佳模型不同的现象，为 LLM 评估提供了新视角。",
+      "tags": [
+        "information-calibration",
+        "user-simulator",
+        "llm-evaluation",
+        "knowledge-state",
+        "learning-theory"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.68,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.3,
+        "domain_match": 0.95,
+        "_override": {
+          "practical_value": "原值 0.6 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17170v1",
+      "title": "Synthesizing Feature Extractors: An Agentic Approach for Algorithm Selection",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17170",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Hai Xia, Carlos Ans\\'otegui, Stefan Szeider",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17170v1 Announce Type: new \nAbstract: Algorithm selection for constraint satisfaction problems requires extracting features that capture problem structure. Manually designing feature extractors demands deep domain expertise and quickly becomes a bottleneck when new problem classes appear. We present an automated approach that uses Large Language Models (LLMs) in an agentic check--fix--verify loop to synthesize executable Python scripts that act as interpretable, problem-specific feature extractors. Given a high-level MiniZinc model and an instance, the LLM agent generates code that constructs a typed graph representation and computes structural properties such as graph density, variable clustering, and constraint tightness. We evaluate our approach on three combinatorial problems (vehicle routing, car sequencing, fixed-length error-correcting codes) with a portfolio of five state-of-the-art solvers. The synthesized extractors yield algorithm selectors that consistently outperform both expert-curated mzn2feat features (up to $8.3$ percentage points (pp) test-set accuracy on FLECC) and the best transformer-based trans2feat variants. In the meanwhile, the synthesized feature extractors remain inspectable.",
+      "summary": "该论文提出了一种基于LLM智能体的自动化方法，用于为约束满足问题合成特征提取器。它通过check-fix-verify循环生成可解释的Python脚本，自动提取问题结构特征，替代人工设计。在三个组合优化问题上的实验表明，其算法选择准确率优于专家设计的特征和transformer方法，且提取器保持可解释性。值得关注的是，它展示了LLM在自动化算法设计中的潜力，为AI辅助的算法选择提供了新思路。",
+      "tags": [
+        "llm-agent",
+        "algorithm-selection",
+        "feature-extraction",
+        "constraint-satisfaction",
+        "minizinc"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.71,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.5,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.7 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17183v1",
+      "title": "Benchmarking the Benchmarks: Evaluating Automated Safety Benchmarks for Small Language Models",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17183",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Nyamtulla Shaik, Fengjun Li, Bo Luo",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17183v1 Announce Type: new \nAbstract: Small Language Models (SLMs) are increasingly deployed in resource-constrained, privacy-sensitive settings, where safety and bias failures can cause security and societal risks. However, existing AI safety\\slash security\\slash compliance benchmarks are designed for large language models that may not transfer reliably to SLMs. We therefore ask: Can these benchmarks effectively and reliably evaluate SLMs? To answer this question, we conduct a large-scale assessment of the effectiveness and robustness of these automated pipelines by evaluating five widely used benchmark suites across 26 open-source SLMs under a unified judging rubric, which assigns a score of 0, 1, or 0.5 to harmful, safe, or ambiguous/irrelevant responses, respectively. Across the benchmarks, ambiguous judgments dominate and correlate with prompt complexity and model architecture, indicating that {\\em LLM-centric safety benchmarks are insufficient as standalone evidence for SLM safety assessment}. In general, the ambiguity rate increases with lexical density, output perplexity, and output length and decreases with lexical sophistication, self-coherence, and reply-prompt similarity. This reveals a capability-safety confound that mixes model capability with apparent safety. Since ambiguity is prevalent, aggregate mean-score leaderboards are mathematically brittle: model rankings change significantly under reasonable ambiguity treatments, even when the underlying outputs remain unchanged.",
+      "summary": "该论文评估了现有自动化安全基准在小型语言模型（SLM）上的有效性和可靠性。研究发现，针对大型语言模型设计的安全基准在SLM上产生大量模糊判断，且模糊率与提示复杂度、模型架构及输出特征相关，揭示了能力与安全之间的混淆。此外，由于模糊判断普遍存在，基于平均分的排行榜在数学上不稳定，模型排名会因模糊处理方式而显著变化。该研究对依赖现有基准评估SLM安全性的实践提出了重要警示，值得关注。",
+      "tags": [
+        "small-language-models",
+        "safety-benchmarks",
+        "benchmark-evaluation",
+        "model-evaluation",
+        "ai-safety"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.65,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.5,
+        "timeliness": 0.7,
+        "community_heat": 0.5,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.6 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17202v1",
+      "title": "Fool's Gold: Defensive Deception Against Safety-Removal Attacks on Open-Weight Models",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17202",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Mark Russinovich",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17202v1 Announce Type: new \nAbstract: Safety alignment in open-weight language models is trivially removable: abliteration projects a refusal-mediating direction out of the weights in minutes, and no release-time defense we are aware of prevents it durably. What cannot be prevented can be deceived. Our defense, decoy hardening (\"Fool's Gold\"), concedes the refusal strip and poisons its payoff: once refusal is stripped, most answers to hazardous operational requests are confident, fluent decoys whose critical elements are falsified. Decoys are trained inside a differentiable simulation of the attack, expressing only in the attacked state; a refusal pin and benign leash hold clean-state behavior to the original. We instantiate it on seven models from five families (9B-122B, dense and mixture-of-experts). On the six models passing our pre-registered efficacy gate, 0.51-0.90 of attacked-state responses to held-out prompts are decoys, +0.27-0.84 attributable to the defense; all six stay within registered benign-behavior and capability budgets; the seventh (smaller) fails the gate (boundary case). Rates replicate on a frozen test split or untouched strata. The claim is epistemic: without independent ground truth, no observation surface we tested separates falsified answers from correct ones - on external red-team benchmarks' CBRNE-adjacent slice, the defended 122B is fatally wrong on 0.82-0.86 of matched-quality answers vs at most 0.10 undefended. Repeated sampling does not restore trust: element-wise consensus at K=64 reconstructs a fully usable procedure on 0.083-0.625 of prompts where the instrument validates, vs 0.58-0.96 undefended, with no label-free way to tell the regimes apart; on the weakest such model the claim is per-draw only. We evaluate chemical and biological hazards; the defense does not address in-context jailbreaks and protects only the initially released defended weights.",
+      "summary": "该论文提出了一种针对开源权重模型安全对齐被移除（如abliteration）的新型防御策略“诱饵加固”（Fool's Gold）。其核心思想是放弃阻止拒绝机制被剥离，而是通过毒化攻击后的收益：在攻击状态下，模型对危险请求的大多数回答会变成自信但关键信息伪造的诱饵，从而误导攻击者。该防御在七个模型上验证，多数模型在保持正常行为的同时，显著提高了攻击状态下诱饵的比例，且外部红队基准显示防御后模型在危险领域的错误率大幅上升。该工作为开源模型的安全防护提供了新思路，值得关注，但需注意其不针对上下文越狱，且仅保护初始发布的权重。",
+      "tags": [
+        "open-weight-models",
+        "safety-alignment",
+        "abliteration-defense",
+        "decoy-hardening",
+        "red-team"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.71,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.5,
+        "domain_match": 0.95,
+        "_override": {
+          "practical_value": "原值 0.6 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17247v1",
+      "title": "Explicit State Elicitation Is Not Enough: A Controlled Audit of Memory-Policy Classification",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17247",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Yihang Chen, Pin Qian, Su Wang, Chong Peng, Huan Xu, Shuaiting Li, Yiqi Sun",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17247v1 Announce Type: new \nAbstract: Personalized agents must decide whether retrieved user memory should be used, ignored, updated, or queried before it affects a current task. We use this setting to develop an empirical audit protocol for structured intermediate outputs: first audit dataset shortcuts, then isolate bundled prompt changes, check whether intermediate labels are answer-associated, test decomposed semantic evidence, and audit provider-level execution failures. A 480-example synthetic development set initially suggested large gains from a state-structured prompt bundle, but TF-IDF diagnostics showed lexical separability and no positive standalone Ignore cases. We therefore construct a frozen 160-example controlled counterfactual set with 40 matched four-way families and rule-derived reference policies. On this set, exposing the four state definitions improves accuracy, but an isolated explicit state-output field does not significantly improve policy accuracy for Llama-3.3-70B and gives only a marginal, non-significant gain for GPT-OSS-120B. Supplying benchmark-associated state labels shifts policy predictions, but because those labels deterministically map to policies, this is a label-conditioning diagnostic rather than evidence of a faithful internal mechanism. Family-level and seed-stability analyses further show that example-level accuracy overstates counterfactual consistency: complete four-way family success is rare. An exploratory follow-up that elicits decomposed semantic evidence also fails to improve routing for the cleanly evaluated endpoint; the corresponding GPT-OSS condition was unavailable because of provider-side request validation. We evaluate policy classification only, not downstream responses, tool actions, or memory-store mutation.",
+      "summary": "该论文针对个性化Agent中记忆策略分类问题，提出了一套严格的审计协议，用于检验结构化中间输出（如状态标签）是否真正提升策略准确性。研究发现，显式状态定义能提升性能，但单独的状态输出字段对Llama-3.3-70B和GPT-OSS-120B无显著增益，且标签条件化诊断揭示了标签与策略的确定性映射，而非内部机制的忠实性。该工作强调示例级准确率会高估反事实一致性，对评估Agent记忆系统的方法论具有重要参考价值。",
+      "tags": [
+        "memory-policy",
+        "agent-audit",
+        "llm-evaluation",
+        "counterfactual-analysis",
+        "personalized-agents"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.66,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.7,
+        "community_heat": 0.4,
+        "domain_match": 0.95,
+        "_override": {
+          "practical_value": "原值 0.6 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17270v1",
+      "title": "Do LLMs Know a Good Hypothesis When They See One? Logit-Based Energy Scoring Outperforms Prompted LLM-as-Judge for Scientific Hypothesis Ranking",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17270",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Swati Rajwal, Sanjay Das, Tirthankar Ghosal",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17270v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used for scientific hypothesis generation. However, evaluating generated hypotheses remains a challenge for trustworthy AI-enabled scientific workflows. Existing approaches often use LLMs as judges or rely on semantic similarity, which can favor familiar ideas over novel ones. We propose a logit-based energy scoring method that evaluates hypotheses using a language model's intrinsic confidence rather than comparative judgment. We benchmarked seven language models on 1,323 papers across 12 disciplines. Each paper was paired with its hypothesis and fifteen incorrect alternatives. Intrinsic scoring reached 33.0% Hit@1 pooled across both scorers, compared with 16.6% for prompted listwise ranking. The strongest configuration, a 1-billion-parameter model using logit-based energy scoring, reached 53.1%, though this was the maximum across 14 model-by-scorer combinations selected post hoc. Overall, intrinsic model confidence shows potential for scientific hypothesis evaluation. This study also motivates future research on confidence-based methods for trustworthy AI-enabled scientific discovery.",
+      "summary": "该论文提出了一种基于logit能量评分的方法，用于评估LLM生成的科学假设，替代传统的LLM-as-judge或语义相似度方法。该方法利用语言模型的内在置信度而非比较性判断，在1,323篇论文、12个学科上的基准测试中，Hit@1达到33.0%，优于提示式列表排名的16.6%。最强配置（10亿参数模型）达到53.1%，表明内在置信度在科学假设评估中具有潜力。该研究为可信AI驱动的科学发现提供了新方向，值得关注。",
+      "tags": [
+        "scientific-hypothesis",
+        "logit-energy-scoring",
+        "llm-evaluation",
+        "trustworthy-ai",
+        "hypothesis-ranking"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.68,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.6 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17271v1",
+      "title": "ASI-Bench: At the Dawn of Artificial Superintelligence",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17271",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Junwei Zhou, Zhen Sun, Binyu Li, Jiangyu Zhou, Yuexi Pan, Hengyu Wang, Honghe Ren, Xiaohan Jia, Xueyang Zhou, Xiaoyu Cao, Yongchao Chen, Yuanning Feng, Junhao Wu, Cheng Zhang, Sijia Chen, Haoyu Xue, Chengsong You, Huan Wang, Koutian Wu, Peigan Gao, Jiakun Wu, Wenzhe Li, Ergan Shang, Qingyuan Zheng, Jingjing Zhou, Ruixuan Jia, Yan Xu, Hongrui Zhang, Xiao-Han Ma, Zhengxiang Cheng, Yuexing Hao, Liting Mai, Xianglin Ji, Wenjun Zhang, Zhuofan Chen, Yixiao Huang, Chi Wang, Wenyue Hua, Yilun Hao, Yuantao Zhai, Ziyan Zhao, Jingyan Xie",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17271v1 Announce Type: new \nAbstract: Artificial superintelligence (ASI) requires AI to move beyond mastering existing knowledge toward exploring the unknown, creating new knowledge, and turning new ideas into verifiable results. However, the capabilities of today's AI systems are still largely built on learning, compressing, and applying existing human knowledge. Accordingly, existing benchmarks primarily test whether AI can produce correct answers based on learned knowledge, or whether it can complete tasks under extensive human guidance. We therefore introduce ASI-Bench, the first benchmark to jointly evaluate AI systems' capabilities of innovative exploration and autonomous scientific execution across general research domains, and the first to progressively withdraw human methodological guidance within the same research project to test how far AI can proceed on its own. Built by over 40 experts with the cost of 31,000+ human hours, ASI-Bench contains 60 project-level research tasks across 11 scientific domains and progressively reduces methodological guidance to test whether AI can independently select methods, conduct research, and produce verifiable results. All tasks undergo expert review, AI-assisted auditing, sandbox execution, and scorer validation. Across 18 state-of-the-art agent--model configurations, the average score drops from 50.91 with full methodological guidance to 29.10 with only the method specified and 26.62 when agents must determine the method themselves. This sharp decline shows that current systems remain heavily dependent on human guidance and are still far from autonomously conducting end-to-end, project-level scientific research. ASI-Bench is open to the world. We invite researchers and builders everywhere to contribute new tasks, challenge the limits of today's AI, and help accelerate humanity's collective path toward artificial superintelligence at https://asibench.apexin.ai/submit.",
+      "summary": "ASI-Bench 是首个旨在评估 AI 系统在通用研究领域中进行创新探索和自主科学执行能力的基准测试。它包含 60 个跨 11 个科学领域的项目级研究任务，并创新性地在同一研究项目中逐步撤除方法论指导，以测试 AI 在多大程度上能独立完成研究。实验表明，当前最先进的 AI 代理在完全自主时性能显著下降，仍高度依赖人类指导，距离端到端自主科研尚有差距。该基准由 40 多位专家耗时 31,000+ 小时构建，并开放给社区贡献新任务，对于理解 AI 能力的边界和推动自主科研发展具有重要价值。",
+      "tags": [
+        "benchmark",
+        "artificial-superintelligence",
+        "autonomous-research",
+        "scientific-discovery",
+        "agent-evaluation"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.72,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 1.0
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17282v1",
+      "title": "DeAR: Decentralized Agentic Reasoning via Capability Grounding and Collaborative Thought Navigation",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17282",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Xing Wei, Changmeng Zheng, XiaoYong Wei, Xiufen Ye, Qing Li",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17282v1 Announce Type: new \nAbstract: Existing agentic reasoning systems typically rely on centralized protocols. This design introduces routing bottlenecks and static role allocations that often fail when handling complex multimodal queries. We propose DeAR (Decentralized Agentic Reasoning), a framework that shifts from central control to autonomous peer-to-peer collaboration. DeAR is built on three mechanisms: (1) decentralized capability grounding for query-dependent agent specialization, (2) thought map navigation for targeted peer interactions, and (3) topology update for adaptive error correction. Evaluations across 9 diverse multimodal reasoning and text-based QA benchmarks indicate that DeAR consistently outperforms recent baseline methods, validating that decentralized and adaptive collaboration among agents enhances accuracy in knowledge-intensive reasoning tasks. The source code will be available at https://open_upon_acceptance.",
+      "summary": "DeAR 提出了一种去中心化的智能体推理框架，旨在解决现有集中式智能体系统在复杂多模态查询中面临的路由瓶颈和静态角色分配问题。它通过能力接地、思维地图导航和拓扑更新三个机制，实现智能体间的自主点对点协作和自适应错误修正。在9个多模态和文本推理基准上，DeAR 优于现有方法，展示了去中心化协作在知识密集型推理任务中的潜力。该工作为多智能体系统设计提供了新思路，值得关注。",
+      "tags": [
+        "decentralized-agents",
+        "multi-agent-reasoning",
+        "collaborative-reasoning",
+        "multimodal-qa",
+        "adaptive-topology"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.68,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.3,
+        "domain_match": 1.0
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "oai:arXiv.org:2608.17289v1",
+      "title": "PlanPO: Group Planning-Aware Policy Optimization for Multi-Turn Agentic LLMs",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://arxiv.org/abs/2608.17289",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Dayang Liang, Liyuan He, Xuan Feng, Shuxin Li, Bo An, Yunlong Liu",
+      "published": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "summary_raw": "arXiv:2608.17289v1 Announce Type: new \nAbstract: Group-relative policy optimization has emerged as a key paradigm for training agentic large language models (LLMs) on multi-turn interactive tasks. However, most existing variants fail to distinguish advantages among successful trajectories even when these trajectories differ substantially in their interaction efficiency. For instance, circuitous successes are often assigned the identical outcome reward, causing advantage collapse and severe performance bottlenecks. To this end, we propose Group Planning-aware Policy Optimization (PlanPO), a simple yet effective RL method for learning generalizable planning abilities beyond task-specific high-quality behavior patterns. Specifically, PlanPO introduces coarse-to-fine advantage signals, which capture the relative differences in trajectory-level lengths and turn-level response lengths conditioned on successful trajectories sampled for the same task. Within the group-relative optimization structure, this enables agents to actively learn generalizable and deliberate behaviors spanning interaction planning and textual generation from high-quality rollouts, without degenerating into vanilla length minimization. Experimentally, PlanPO improves over GRPO by 27.2\\% on average across the challenging multi-turn benchmarks ALFWorld, WebShop, and SciWorld, outperforming recent powerful baselines while incurring negligible additional training cost.",
+      "summary": "PlanPO 是一种针对多轮交互式智能体 LLM 的强化学习方法，旨在解决现有组相对策略优化（如 GRPO）在成功轨迹中无法区分优势的问题，即不同效率的成功轨迹被赋予相同奖励，导致优势坍缩和性能瓶颈。PlanPO 引入从粗到细的优势信号，基于轨迹长度和回合响应长度的相对差异，使智能体学习通用且深思熟虑的规划能力，而非简单的长度最小化。实验表明，在 ALFWorld、WebShop 和 SciWorld 基准上，PlanPO 相比 GRPO 平均提升 27.2%，且训练成本几乎不变。该工作对提升多轮智能体任务中的规划与生成效率具有重要价值，值得关注。",
+      "tags": [
+        "reinforcement-learning",
+        "multi-turn-agents",
+        "policy-optimization",
+        "llm-training",
+        "planning"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.69,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.5,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.7 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "title": "ChatGPT Ads expands across Europe",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Tue, 18 Aug 2026 22:00:00 GMT",
+      "summary_raw": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "summary": "OpenAI 宣布 ChatGPT Ads 广告平台扩展至 31 个欧洲市场，使广告主能够在用户探索、比较和决策过程中触达受众。这是 OpenAI 商业化战略的重要一步，将 AI 对话场景转化为广告投放渠道，对营销行业和 AI 生态具有参考价值。值得关注的是其广告形式、投放机制及对用户体验的影响。",
+      "tags": [
+        "chatgpt-ads",
+        "openai",
+        "advertising",
+        "europe-expansion",
+        "monetization"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.48,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.7,
+        "_override": {
+          "practical_value": "原值 0.4 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "title": "Strengthening democratic oversight in national security",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Tue, 18 Aug 2026 19:00:00 GMT",
+      "summary_raw": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "summary": "OpenAI 宣布启动一项新计划，旨在加强人工智能在国家安全领域应用的民主监督。该计划将为政府机构提供工具、培训和专业知识，以帮助其理解和监管AI在国家安全中的使用。此举反映了AI技术日益融入国家安全事务后，对透明度和问责制的迫切需求。该倡议值得关注，因为它展示了领先AI公司如何主动与政府合作，构建负责任的AI治理框架，对政策制定者和技术从业者均有参考价值。",
+      "tags": [
+        "ai-governance",
+        "national-security",
+        "democratic-oversight",
+        "openai",
+        "policy"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.51,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.8
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/partnering-with-codeai",
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Tue, 18 Aug 2026 11:00:00 GMT",
+      "summary_raw": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "summary": "OpenAI 与 CodeAI 宣布合作，旨在为“第一代 AI 原住民”学生提供 AI 素养教育。该合作将整合 OpenAI 的技术资源与 CodeAI 的教学平台，帮助学生建立对 AI 的批判性思维，并掌握负责任地使用和塑造 AI 的技能。此举反映了 AI 教育从工具使用向素养培养的转变，值得关注其课程设计与行业影响。",
+      "tags": [
+        "ai-education",
+        "openai-partnership",
+        "ai-literacy",
+        "responsible-ai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.48,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.7
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Tue, 18 Aug 2026 11:00:00 GMT",
+      "summary_raw": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+      "summary": "OpenAI 发布了一篇关于在网络安全关键能力时代如何把控模型开发节奏的文章。文章强调，随着前沿 AI 模型在网络安全领域的潜在应用日益增强，OpenAI 正在加强监控、对齐和安全措施，以确保模型开发的速度与安全性相匹配。文章介绍了新的防护措施如何指导模型开发的节奏，旨在平衡技术进步与风险控制。值得关注的是，它反映了领先 AI 实验室在安全治理上的最新思路，对理解行业安全实践和监管趋势有参考价值。",
+      "tags": [
+        "ai-safety",
+        "cyber-security",
+        "frontier-models",
+        "openai",
+        "model-governance"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.4,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.9
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/chatgpt-for-teens",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Tue, 18 Aug 2026 11:00:00 GMT",
+      "summary_raw": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "summary": "OpenAI 推出了面向青少年的 ChatGPT 版本，旨在帮助青少年学习、批判性思考和自信地使用 AI，同时内置更强的保护措施、健康使用功能和家长控制。该产品解决了未成年用户使用 AI 时的安全性和教育适配问题，体现了 AI 产品在细分人群和合规性上的演进。值得关注的是其如何平衡教育价值与安全防护，以及这对未来 AI 产品设计的影响。",
+      "tags": [
+        "chatgpt",
+        "teen-safety",
+        "parental-controls",
+        "ai-education",
+        "openai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.51,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.8,
+        "_override": {
+          "practical_value": "原值 0.4 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/asana",
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/asana",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Tue, 18 Aug 2026 07:00:00 GMT",
+      "summary_raw": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "summary": "Asana 利用 OpenAI 的 Codex 在两周内完成了原本预计需要五年、成本约 1.2 万美元的工程任务，即替换过时的测试系统。这一案例展示了 AI 编程助手在大型代码库重构中的巨大潜力，不仅大幅缩短了开发周期，还显著降低了成本。值得关注的是，它证明了 AI 在真实企业级项目中的落地价值，为工程团队提供了可借鉴的实践路径。",
+      "tags": [
+        "ai-coding",
+        "codex",
+        "engineering-productivity",
+        "case-study",
+        "openai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.56,
+      "score_breakdown": {
+        "tech_depth": 0.4,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.8 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/nvidia/chatgpt-work",
+      "title": "How NVIDIA scales expertise with ChatGPT Work",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/nvidia/chatgpt-work",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Tue, 18 Aug 2026 00:00:00 GMT",
+      "summary_raw": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+      "summary": "本文是 OpenAI 官方博客发布的一篇案例研究，介绍 NVIDIA 如何在其内部大规模采用 ChatGPT Work（企业版 ChatGPT）来提升团队效率。文章指出，NVIDIA 团队利用 ChatGPT Work 减少重复性手动任务、整合快速变化的业务信号，并将成功的工作流程在全球范围内复制推广。该案例展示了企业级 AI 助手在大型科技公司中的实际落地路径，包括部署策略、员工赋能和流程优化，对于关注 AI 在企业中应用的组织具有参考价值。",
+      "tags": [
+        "chatgpt-work",
+        "enterprise-ai",
+        "nvidia",
+        "workflow-automation",
+        "case-study"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.44,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.5,
+        "domain_match": 0.8,
+        "_override": {
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/the-defenders-window",
+      "title": "The Defender’s Window",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/the-defenders-window",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 17 Aug 2026 05:30:00 GMT",
+      "summary_raw": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "summary": "OpenAI 发布文章，探讨 AI 如何同时赋能攻击者和防御者，重塑网络安全格局。文章重点介绍了 OpenAI 自身如何加强防御体系，并为安全团队提供了可立即采取的行动建议。值得关注的是，它揭示了在 AI 驱动的威胁环境下，防御者需要利用 AI 来缩小与攻击者的不对称优势，具有战略指导意义。",
+      "tags": [
+        "ai-security",
+        "cybersecurity",
+        "defense-strategy",
+        "openai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.4,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.8,
+        "_override": {
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/openai-joins-ports-pike-project",
+      "title": "OpenAI joins PORTS-Pike project",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/openai-joins-ports-pike-project",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 17 Aug 2026 05:00:00 GMT",
+      "summary_raw": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "summary": "OpenAI宣布加入PORTS-Pike项目，这是其社区投资计划的一部分，旨在支持俄亥俄州南部数千个就业岗位。该项目涉及基础设施建设与区域经济发展，OpenAI的参与可能意味着其数据中心或相关AI基础设施的布局。该新闻值得关注，因为它反映了AI巨头在区域经济中的角色扩展，以及AI产业与地方发展的融合趋势，对理解AI产业生态和投资动向有参考价值。",
+      "tags": [
+        "openai",
+        "community-investment",
+        "ports-pike",
+        "regional-development",
+        "ai-infrastructure"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.38,
+      "score_breakdown": {
+        "tech_depth": 0.1,
+        "practical_value": 0.1,
+        "timeliness": 0.9,
+        "community_heat": 0.5,
+        "domain_match": 0.7
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "title": "New policy ideas for the Intelligence Age",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 17 Aug 2026 03:15:00 GMT",
+      "summary_raw": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "summary": "OpenAI 资助了 14 个独立项目，探索面向“智能时代”的新 AI 政策构想，旨在扩大经济机会并增强社会韧性。该文章是 OpenAI 在政策层面的布局信号，表明其从技术研发向治理与公共政策领域延伸，关注 AI 对就业、分配和社会结构的长期影响。值得关注的是，它反映了前沿实验室对 AI 治理议题的主动介入，以及政策研究在 AI 生态中日益重要的地位。",
+      "tags": [
+        "ai-policy",
+        "openai",
+        "economic-opportunity",
+        "societal-resilience",
+        "intelligence-age"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.49,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.8
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "title": "The builder’s guide to GPT‑5.6",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
+      "summary_raw": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "summary": "本文是OpenAI官方发布的面向开发者的GPT-5.6构建指南，重点介绍了初创公司如何利用该模型构建更快、更具成本效益的AI代理。文章深入探讨了智能模型选择策略以及新的Responses API能力，旨在帮助开发者优化代理性能与成本。值得关注的是，它提供了官方视角下的最佳实践，对于正在使用或评估GPT-5.6的工程师具有直接参考价值。",
+      "tags": [
+        "gpt-5-6",
+        "ai-agents",
+        "responses-api",
+        "model-selection",
+        "openai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.59,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.6 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.8 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/previewing-ultrafast",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Thu, 13 Aug 2026 10:00:00 GMT",
+      "summary_raw": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "summary": "OpenAI 推出名为 Ultrafast 的新 API 服务层级，基于 Cerebras 硬件运行 GPT-5.6 Sol 模型，输出速度最高可达每秒 750 tokens，相比标准模式提升最多 14 倍。该服务旨在解决高延迟场景下 LLM 推理的瓶颈，适用于实时交互、大规模生成等对速度敏感的应用。值得关注的是，它展示了模型与专用硬件协同优化的趋势，为开发者提供了更极致的性能选项，但可能伴随成本或可用性权衡。",
+      "tags": [
+        "openai",
+        "gpt-5-6",
+        "ultrafast-mode",
+        "cerebras",
+        "inference-speed"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.4,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.7 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Thu, 13 Aug 2026 09:00:00 GMT",
+      "summary_raw": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+      "summary": "OpenAI 宣布任命 Dali Rajic 为首席营收官（CRO），负责领导全球营收组织，帮助企业充分实现 AI 的价值。这一人事变动表明 OpenAI 正加速商业化进程，强化企业市场布局。值得关注的是，此举反映了 AI 行业从技术竞争向商业落地转型的趋势，对关注 AI 商业化和企业级应用的读者具有参考意义。",
+      "tags": [
+        "openai",
+        "executive-hiring",
+        "revenue-growth",
+        "ai-commercialization"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.41,
+      "score_breakdown": {
+        "tech_depth": 0.1,
+        "practical_value": 0.2,
+        "timeliness": 0.9,
+        "community_heat": 0.5,
+        "domain_match": 0.7
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Wed, 12 Aug 2026 06:00:00 GMT",
+      "summary_raw": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "summary": "OpenAI 发布的企业 AI 采用研究报告，揭示了企业从使用 AI 辅助工作（assistance）向 AI 自主执行任务（execution）转变的趋势。报告基于对使用 ChatGPT 和 Codex 的企业客户数据，分析了前沿企业在 AI 采用上的领先策略，包括如何构建 agentic AI 工作流、如何将 AI 嵌入核心业务流程，以及领先企业与落后企业之间的采用差距。值得关注的是，该报告提供了 OpenAI 官方视角下的企业 AI 落地路径和最佳实践，对制定企业 AI 战略有参考价值。",
+      "tags": [
+        "enterprise-ai",
+        "agentic-ai",
+        "ai-adoption",
+        "openai",
+        "codex"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.35,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.85,
+        "_override": {
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/ringcentral",
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/ringcentral",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Wed, 12 Aug 2026 00:00:00 GMT",
+      "summary_raw": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+      "summary": "本文介绍了 RingCentral 如何利用 OpenAI 的 ChatGPT Work 和 Codex 构建 AI 原生的工程与运营体系。RingCentral 通过将 AI 工具嵌入产品开发流程，加速了 AI 功能的迭代，并集中了跨工程和运营的智能决策。文章展示了企业级 AI 落地的实际案例，对于关注 AI 在大型组织中应用实践的读者具有参考价值。",
+      "tags": [
+        "ai-native",
+        "enterprise-ai",
+        "codex",
+        "chatgpt-work",
+        "engineering-ops"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.51,
+      "score_breakdown": {
+        "tech_depth": 0.4,
+        "practical_value": 0.3,
+        "timeliness": 0.8,
+        "community_heat": 0.5,
+        "domain_match": 0.8,
+        "_override": {
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/testing-ads-in-chatgpt",
+      "title": "Testing ads in ChatGPT",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Tue, 11 Aug 2026 10:00:00 GMT",
+      "summary_raw": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "summary": "OpenAI 宣布开始在 ChatGPT 中测试广告，以支持免费访问。该计划强调广告将明确标注、不影响回答独立性、提供强隐私保护，并赋予用户控制权。此举是 OpenAI 在商业化探索上的重要一步，旨在平衡免费服务与可持续运营，值得关注其对用户体验和 AI 产品商业模式的影响。",
+      "tags": [
+        "chatgpt",
+        "ads",
+        "monetization",
+        "privacy",
+        "openai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.53,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.8,
+        "domain_match": 0.9
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "title": "Daybreak models are now available on AWS",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Tue, 11 Aug 2026 10:00:00 GMT",
+      "summary_raw": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "summary": "OpenAI 与 AWS 合作，将其 Daybreak 网络安全模型集成到 Amazon Bedrock 平台，使企业能够通过 AWS 服务调用这些模型，以支持安全运营工作流。该举措旨在降低企业采用前沿 AI 安全能力的门槛，将模型能力与云基础设施深度整合。值得关注的是，它标志着 AI 安全模型从研究走向商业化落地，并体现了云厂商与 AI 实验室的生态合作趋势。",
+      "tags": [
+        "cybersecurity",
+        "aws-bedrock",
+        "openai",
+        "enterprise-ai",
+        "model-deployment"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.51,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.8,
+        "_override": {
+          "practical_value": "原值 0.7 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/building-an-ai-native-finance-function",
+      "title": "What building an AI-native finance function taught me",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 10 Aug 2026 17:00:00 GMT",
+      "summary_raw": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+      "summary": "OpenAI 首席财务官 Sarah Friar 分享了构建 AI 原生财务职能的五个经验教训，涵盖自动化预测、强化财务控制以及衡量 AI 投资回报率等方面。文章旨在为财务领导者提供实践指导，展示如何将 AI 深度融入财务流程，以提升效率与决策质量。值得关注的是，它来自 OpenAI 内部实践，具有较高的行业参考价值。",
+      "tags": [
+        "ai-native-finance",
+        "financial-automation",
+        "ai-roi",
+        "openai-insights",
+        "enterprise-ai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.5,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.3,
+        "timeliness": 0.8,
+        "community_heat": 0.6,
+        "domain_match": 0.8,
+        "_override": {
+          "practical_value": "原值 0.7 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 10 Aug 2026 14:00:00 GMT",
+      "summary_raw": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "summary": "OpenAI 致信德克萨斯州州长 Greg Abbott，阐述其在该州建设负责任 AI 基础设施的承诺。信件强调支持可靠、透明的增长，以造福德州居民，并可能涉及数据中心、能源消耗、就业机会及监管框架等议题。该信反映了 AI 巨头在州级层面主动参与政策对话、争取社会许可的趋势，值得关注其背后对 AI 基础设施扩张的战略布局。",
+      "tags": [
+        "openai",
+        "ai-infrastructure",
+        "policy",
+        "texas",
+        "responsible-ai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.4,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.1,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.8
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    },
+    {
+      "id": "https://openai.com/index/model-ml",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "source": "rss",
+      "collected_at": "2026-08-19T08:09:07Z",
+      "url": "https://openai.com/index/model-ml",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 10 Aug 2026 12:00:00 GMT",
+      "summary_raw": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "summary": "OpenAI 官方博客宣布，Model ML 公司利用 GPT-5.6 Sol 模型将金融工作流程从研究和分析阶段，直接延伸到可编辑、可追溯的 PowerPoint 演示文稿和 Excel 工作簿的生成。该案例展示了 GPT-5.6 Sol 在金融领域的端到端自动化能力，不仅提升效率，还保证了输出的可追溯性，对于关注 LLM 在垂直行业落地的读者具有参考价值。",
+      "tags": [
+        "gpt-5-6-sol",
+        "finance-automation",
+        "llm-workflow",
+        "openai-case-study"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.54,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-08-19T08:09:07Z"
+    }
+  ]
+}

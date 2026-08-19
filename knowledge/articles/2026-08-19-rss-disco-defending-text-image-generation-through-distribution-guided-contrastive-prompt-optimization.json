@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.17067v1",
+  "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.17067",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "DiSCO 是一种零样本、纯黑盒的防御方法，用于保护文本到图像生成模型免受 NSFW 内容生成攻击。它针对现有防御依赖白盒假设的局限，以及 LLM 提示改写无法应对的“良性对抗”问题（即提示在语言上安全但仍触发有害生成），通过在提示级别进行分布引导的后缀扩展和对比评分优化，迭代调整提示直至生成安全内容。该方法无需模型重训练或内部访问，可作为即插即用模块应用于任何文本到图像系统，在 I2P 基准上显著降低攻击成功率，同时保持语义保真度。值得关注的是它解决了黑盒场景下的安全防御难题，具有广泛适用性。",
+  "tags": [
+    "text-to-image",
+    "black-box-defense",
+    "prompt-optimization",
+    "nsfw-content",
+    "contrastive-learning"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tong Zhang, Motasem Alfarra, Carlos Hinojosa, Christos Louizos, Bernard Ghanem",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

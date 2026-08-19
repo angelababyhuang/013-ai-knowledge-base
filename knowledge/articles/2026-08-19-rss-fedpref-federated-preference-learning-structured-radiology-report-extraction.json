@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.16971v1",
+  "title": "FedPref: Federated Preference Learning for Structured Radiology Report Extraction",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.16971",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "FedPref 是一种联邦偏好学习方法，用于结构化放射学报告提取。它利用冻结的公共语言模型生成候选 JSON 提取结果，由本地标注进行排序，各机构仅共享模型更新，协作训练紧凑的 Qwen3-8B 适配器，从而在不共享报告或标注的情况下，让数据分布不均的机构受益于协作。实验表明，该方法在数据量最少的站点提升最大，且优于各站点独立训练，接近集中式训练效果。该研究解决了医疗数据隐私与数据稀缺的矛盾，为联邦学习在结构化信息提取中的应用提供了新思路，值得关注。",
+  "tags": [
+    "federated-learning",
+    "preference-learning",
+    "radiology-report-extraction",
+    "llm-adapter",
+    "privacy-preserving"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Flint Xiaofeng Fan, Cheston Tan, Yew-Soon Ong, Roger Wattenhofer",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

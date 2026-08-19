@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.17289v1",
+  "title": "PlanPO: Group Planning-Aware Policy Optimization for Multi-Turn Agentic LLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.17289",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "PlanPO 是一种针对多轮交互式智能体 LLM 的强化学习方法，旨在解决现有组相对策略优化（如 GRPO）在成功轨迹中无法区分优势的问题，即不同效率的成功轨迹被赋予相同奖励，导致优势坍缩和性能瓶颈。PlanPO 引入从粗到细的优势信号，基于轨迹长度和回合响应长度的相对差异，使智能体学习通用且深思熟虑的规划能力，而非简单的长度最小化。实验表明，在 ALFWorld、WebShop 和 SciWorld 基准上，PlanPO 相比 GRPO 平均提升 27.2%，且训练成本几乎不变。该工作对提升多轮智能体任务中的规划与生成效率具有重要价值，值得关注。",
+  "tags": [
+    "reinforcement-learning",
+    "multi-turn-agents",
+    "policy-optimization",
+    "llm-training",
+    "planning"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dayang Liang, Liyuan He, Xuan Feng, Shuxin Li, Bo An, Yunlong Liu",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

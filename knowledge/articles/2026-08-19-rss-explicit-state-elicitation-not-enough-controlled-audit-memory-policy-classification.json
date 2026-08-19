@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.17247v1",
+  "title": "Explicit State Elicitation Is Not Enough: A Controlled Audit of Memory-Policy Classification",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.17247",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "该论文针对个性化Agent中记忆策略分类问题，提出了一套严格的审计协议，用于检验结构化中间输出（如状态标签）是否真正提升策略准确性。研究发现，显式状态定义能提升性能，但单独的状态输出字段对Llama-3.3-70B和GPT-OSS-120B无显著增益，且标签条件化诊断揭示了标签与策略的确定性映射，而非内部机制的忠实性。该工作强调示例级准确率会高估反事实一致性，对评估Agent记忆系统的方法论具有重要参考价值。",
+  "tags": [
+    "memory-policy",
+    "agent-audit",
+    "llm-evaluation",
+    "counterfactual-analysis",
+    "personalized-agents"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yihang Chen, Pin Qian, Su Wang, Chong Peng, Huan Xu, Shuaiting Li, Yiqi Sun",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

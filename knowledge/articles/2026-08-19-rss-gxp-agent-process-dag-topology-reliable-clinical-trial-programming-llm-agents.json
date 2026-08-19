@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.16890v1",
+  "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.16890",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "GxP-Agent 是一个用于临床试验编程的多智能体系统，通过将监管流程编码为有向无环图（DAG），将数据集生成分解为15个领域特定节点，由具备 pharmaverse 技能上下文的 worker 智能体执行，并包含验证门和条件重试机制。它解决了 LLM 在 CDISC 标准下生成分析数据集时的高失败率问题，在 CDISC-Bench 基准上实现了100%的结构匹配，远超基线方法。该工作的价值在于证明了将领域过程知识编码为图拓扑，而非仅依赖 LLM 推理，是实现可靠、合规临床试验编程的关键。",
+  "tags": [
+    "clinical-trial",
+    "multi-agent",
+    "dag-topology",
+    "llm-agents",
+    "cdisc"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jaime Yan",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.17071v1",
+  "title": "KernelArc: A Multi-Agent Framework for GPU Kernel Optimization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.17071",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "KernelArc 是一个用于 GPU 内核优化的多智能体框架，通过策略特化智能体并行协作，利用结论共享内存、确定性基准守卫和只读跨智能体状态等机制，在固定候选预算内扩大搜索空间，提升优化效果。该框架在 NVIDIA H100 和 B200 上针对多种工作负载（如 BF16 GEMM、MoE 反向、NVFP4 注意力等）取得了领先性能，验证了多智能体协作在硬件优化中的价值。值得关注的是，它展示了如何将 LLM 智能体应用于底层系统优化，为 AI 与高性能计算的交叉领域提供了新思路。",
+  "tags": [
+    "gpu-kernel-optimization",
+    "multi-agent-framework",
+    "llm-agents",
+    "high-performance-computing",
+    "arxiv"
+  ],
+  "relevance_score": 0.72,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Joyjit Kundu, Ben Stoffelen, Kaili Wang, Peter Vrancx, Ludovic Denoyer",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

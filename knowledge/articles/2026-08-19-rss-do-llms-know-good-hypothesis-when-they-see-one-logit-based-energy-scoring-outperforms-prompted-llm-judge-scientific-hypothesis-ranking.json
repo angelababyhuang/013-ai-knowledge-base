@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.17270v1",
+  "title": "Do LLMs Know a Good Hypothesis When They See One? Logit-Based Energy Scoring Outperforms Prompted LLM-as-Judge for Scientific Hypothesis Ranking",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.17270",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "该论文提出了一种基于logit能量评分的方法，用于评估LLM生成的科学假设，替代传统的LLM-as-judge或语义相似度方法。该方法利用语言模型的内在置信度而非比较性判断，在1,323篇论文、12个学科上的基准测试中，Hit@1达到33.0%，优于提示式列表排名的16.6%。最强配置（10亿参数模型）达到53.1%，表明内在置信度在科学假设评估中具有潜力。该研究为可信AI驱动的科学发现提供了新方向，值得关注。",
+  "tags": [
+    "scientific-hypothesis",
+    "logit-energy-scoring",
+    "llm-evaluation",
+    "trustworthy-ai",
+    "hypothesis-ranking"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Swati Rajwal, Sanjay Das, Tirthankar Ghosal",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.17007v1",
+  "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.17007",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "SkillEffect 提出了一种针对 Agent 工具调用的内存安全运行时，通过“检查降级”机制确保模型生成的程序在资源受限下不会超出内存上限。它引入可恢复源关系、审计的有界实现和输出后置条件，由独立检查器在授权执行前重建并验证降级过程。该架构通过插件化设计支持多种操作族，显著降低峰值内存并提高完成率，为 Agent 工具调度提供了可扩展的信任边界。值得关注的是，它解决了 LLM 生成代码在实际执行中的资源安全问题，兼具理论创新和工程实用性。",
+  "tags": [
+    "agent-tools",
+    "memory-bounded",
+    "checked-lowering",
+    "resource-safety",
+    "llm-runtime"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yinuo Wang, Yiyu Shi",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

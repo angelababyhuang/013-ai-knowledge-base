@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.17202v1",
+  "title": "Fool's Gold: Defensive Deception Against Safety-Removal Attacks on Open-Weight Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.17202",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "该论文提出了一种针对开源权重模型安全对齐被移除（如abliteration）的新型防御策略“诱饵加固”（Fool's Gold）。其核心思想是放弃阻止拒绝机制被剥离，而是通过毒化攻击后的收益：在攻击状态下，模型对危险请求的大多数回答会变成自信但关键信息伪造的诱饵，从而误导攻击者。该防御在七个模型上验证，多数模型在保持正常行为的同时，显著提高了攻击状态下诱饵的比例，且外部红队基准显示防御后模型在危险领域的错误率大幅上升。该工作为开源模型的安全防护提供了新思路，值得关注，但需注意其不针对上下文越狱，且仅保护初始发布的权重。",
+  "tags": [
+    "open-weight-models",
+    "safety-alignment",
+    "abliteration-defense",
+    "decoy-hardening",
+    "red-team"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mark Russinovich",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

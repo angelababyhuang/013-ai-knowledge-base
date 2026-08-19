@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.16891v1",
+  "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.16891",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "Aegis 是一个针对 Agentic AI 的运行时治理系统，将模型输出视为动作提案，在执行前通过可信决策层进行中介，实现动作边界控制。它解决了提示级治理无法提供执行边界的问题，通过服务端溯源、失败关闭和基于仲裁的 Senate 式结算机制，防止有害操作副作用。在沙箱语料库上的评估显示，Aegis 有效阻止了所有风险提案的执行，并保持了完整的溯源和仲裁证据。该工作为自主智能体的安全执行提供了系统化的架构思路，值得关注。",
+  "tags": [
+    "runtime-governance",
+    "agentic-ai",
+    "action-boundary",
+    "fail-closed",
+    "provenance"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Adam Mazzocchetti",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.17170v1",
+  "title": "Synthesizing Feature Extractors: An Agentic Approach for Algorithm Selection",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.17170",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-19T08:09:07Z",
+  "analyzed_at": "2026-08-19T08:09:07Z",
+  "organized_at": "2026-08-19T08:12:20Z",
+  "summary": "该论文提出了一种基于LLM智能体的自动化方法，用于为约束满足问题合成特征提取器。它通过check-fix-verify循环生成可解释的Python脚本，自动提取问题结构特征，替代人工设计。在三个组合优化问题上的实验表明，其算法选择准确率优于专家设计的特征和transformer方法，且提取器保持可解释性。值得关注的是，它展示了LLM在自动化算法设计中的潜力，为AI辅助的算法选择提供了新思路。",
+  "tags": [
+    "llm-agent",
+    "algorithm-selection",
+    "feature-extraction",
+    "constraint-satisfaction",
+    "minizinc"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hai Xia, Carlos Ans\\'otegui, Stefan Szeider",
+    "published": "Wed, 19 Aug 2026 00:00:00 -0400"
+  }
+}
