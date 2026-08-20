@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.18111v1",
+  "title": "Solving Is Not Drawing: A Benchmark for Diagrammatic Reasoning in Olympiad Geometry",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.18111",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-20T08:11:31Z",
+  "analyzed_at": "2026-08-20T08:11:32Z",
+  "organized_at": "2026-08-20T08:14:44Z",
+  "summary": "该论文提出了一个全新的基准测试，专门评估基础模型在奥林匹克几何问题中的“图解推理”能力，即根据问题构建准确几何图形的能力，而非仅仅求解答案。它包含954个自包含的几何问题（其中297个为困难子集），每个问题都配有解决方案和人类编写的高保真Asymptote代码图形，并提供文本、代码、图像、VLM和基于约束的多种评估指标。实验发现，当前模型（如GPT和Claude）在求解几何问题上表现优异，但生成图形的编译成功率平均仅为36.14%，表明数学推理能力与图形构建能力之间存在显著差距。该基准填补了现有评估（如MathVista、MathVerse）只关注答案正确性而忽略图形构建能力的空白，对于理解多模态模型在几何领域的综合能力具有重要意义，值得关注。",
+  "tags": [
+    "diagrammatic-reasoning",
+    "olympiad-geometry",
+    "benchmark",
+    "foundation-models",
+    "asymptote"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hsien Xin Peng, Anthony Kim, Alvin Li, Calvin Supasanya, Shivank Garg, Kevin Zhu",
+    "published": "Thu, 20 Aug 2026 00:00:00 -0400"
+  }
+}

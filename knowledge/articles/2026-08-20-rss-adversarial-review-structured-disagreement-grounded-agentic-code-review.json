@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.18167v1",
+  "title": "Adversarial Review: Structured Disagreement for Grounded Agentic Code Review",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.18167",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-20T08:11:31Z",
+  "analyzed_at": "2026-08-20T08:11:32Z",
+  "organized_at": "2026-08-20T08:14:44Z",
+  "summary": "该论文提出了一种名为 Adversarial Review (AR) 的极简协作式代码审查协议，旨在解决多智能体LLM系统中智能体数量增加但收益递减的问题。AR 仅使用三个智能体（主编码、审查者、批评者），通过结构化分歧机制让批评者审计审查意见，在 LiveCodeBench、SWE-PRBench 和 SWE-bench Verified 等基准上取得了优于五智能体基线的性能。该研究揭示了“虚假共识”失败模式，并强调分歧应最小化、结构化且基于证据，为构建高效、轻量的多智能体协作系统提供了新思路。值得关注，因为它挑战了“更多智能体更好”的直觉，为实际工程应用提供了更经济的方案。",
+  "tags": [
+    "multi-agent",
+    "code-review",
+    "adversarial",
+    "llm-agents",
+    "structured-disagreement"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Eric S. Qiu, Joyce Gill",
+    "published": "Thu, 20 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.18171v1",
+  "title": "Looped Language Models Improve Compositional Tool Calling",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.18171",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-20T08:11:31Z",
+  "analyzed_at": "2026-08-20T08:11:32Z",
+  "organized_at": "2026-08-20T08:14:44Z",
+  "summary": "该论文研究循环语言模型（Looped Language Models）在组合工具调用任务中的表现，这是智能体系统的重要能力。作者在API-Bank、BFCL和NESTful等基准上，对比了循环与非循环模型在监督微调下的性能，发现循环计算在组合和依赖感知的工具使用中普遍有益，且多步工具调用的准确率随循环深度增加而提升。自适应推理能通过按需分配计算资源，实现更优的计算-性能权衡。该研究为智能体架构设计提供了新思路，值得关注。",
+  "tags": [
+    "looped-language-models",
+    "tool-calling",
+    "agentic-systems",
+    "compositional-reasoning",
+    "adaptive-inference"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Andrei Cristian Popescu, Haitz S\\'aez de Oc\\'ariz Borde, Pietro Li\\`o",
+    "published": "Thu, 20 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.18092v1",
+  "title": "Position: Multi-Agent Systems Should Prioritize Concurrency Control",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.18092",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-20T08:11:31Z",
+  "analyzed_at": "2026-08-20T08:11:32Z",
+  "organized_at": "2026-08-20T08:14:44Z",
+  "summary": "这篇立场论文指出，基于LLM的多智能体系统（MAS）在扩展时往往可靠性下降，其根本原因常被归咎于协调或通信问题，但作者认为这些失败本质上是并发控制问题。智能体并发读写共享状态，而LLM推理窗口较长，加剧了脏读、丢失更新和不一致结果的风险。论文主张MAS框架应将并发控制作为一等设计关注点，通过冲突检测、隔离保证和结构化共享资源访问来提升系统可靠性。该观点为MAS设计提供了新视角，值得关注。",
+  "tags": [
+    "multi-agent-systems",
+    "concurrency-control",
+    "llm-agents",
+    "distributed-systems",
+    "reliability"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xin Yang, Letian Li, Zimo Ji, Terry Jingchen Zhang, Wenyuan Jiang",
+    "published": "Thu, 20 Aug 2026 00:00:00 -0400"
+  }
+}
