@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.20518v1",
+  "title": "FL-MAESTRO: Multi-Agent LLM Orchestration for Resource-Constrained Federated Learning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.20518",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-24T08:14:57Z",
+  "analyzed_at": "2026-08-24T08:14:58Z",
+  "organized_at": "2026-08-24T08:18:15Z",
+  "summary": "FL-MAESTRO 是一个面向资源受限联邦学习（FL）场景的多智能体 LLM 编排框架，旨在解决 FL 中通信拓扑、客户端资源分配和聚合规则三个运行时决策的联合优化问题。现有方法要么在设置时操作，要么只处理单一维度（如客户端选择），而 FL-MAESTRO 通过三个专业 LLM 智能体分别负责一个决策维度，并由协调器整合决策，再经非 LLM 可行性检查后执行。该框架利用服务器预测的故障列表，避免聚合可能掉线的客户端更新，从而显著减少浪费的轮次能量；同时通过自然文本配置文件支持异构设备。在非 IID CIFAR-10 基准上，FL-MAESTRO 在保持与最强能量感知基线相同精度的同时，将浪费能量从超过三分之一降至接近零。该工作将 LLM 智能体引入 FL 运行时决策，展示了多智能体系统在资源受限环境中的潜力，值得关注。",
+  "tags": [
+    "federated-learning",
+    "multi-agent",
+    "llm-orchestration",
+    "resource-constrained",
+    "runtime-decision"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiajun Wu, Zirui Wang, Jiayu Zhou, Qiang Ye, Steve Drew",
+    "published": "Mon, 24 Aug 2026 00:00:00 -0400"
+  }
+}

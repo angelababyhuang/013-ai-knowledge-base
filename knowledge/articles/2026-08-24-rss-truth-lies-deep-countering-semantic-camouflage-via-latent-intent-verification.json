@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.20378v1",
+  "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.20378",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-24T08:14:57Z",
+  "analyzed_at": "2026-08-24T08:14:58Z",
+  "organized_at": "2026-08-24T08:18:15Z",
+  "summary": "该研究揭示了大语言模型安全对齐的深层缺陷：模型在预训练阶段习得的危险知识并未被真正抹除，仅靠生成末期的拒绝机制无法抵御“语义伪装”攻击——即把有害意图包装在良性叙事（如创意写作）中绕过防护。通过分析Phi-3、Qwen2.5和Gemma-2b等小语言模型在对抗压力下的潜在激活轨迹，作者发现了“意图视界”（Intent Horizon）现象：在约15%-20%的层深度处，模型对有害意图的独特表征会坍缩为“安全”叙事，导致后期层表征与安全查询难以区分（检测率低于20%），而早期层仍保留可检测的“危害签名”。基于此，论文提出轻量级探针防御“潜在意图验证”（LIV），在PKU-SafeRLHF数据集上相比标准护栏提升20%-50%的检测率，且无需重训练模型。该工作为理解LLM安全机制和设计高效防御提供了新视角，值得关注。",
+  "tags": [
+    "llm-safety",
+    "semantic-camouflage",
+    "latent-intent-verification",
+    "adversarial-attacks",
+    "probing-defense"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Md. Hasib Ur Rahman",
+    "published": "Mon, 24 Aug 2026 00:00:00 -0400"
+  }
+}

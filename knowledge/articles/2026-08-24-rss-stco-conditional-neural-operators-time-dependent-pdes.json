@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.20477v1",
+  "title": "STCO: Conditional Neural Operators for Time-Dependent PDEs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.20477",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-24T08:14:57Z",
+  "analyzed_at": "2026-08-24T08:14:58Z",
+  "organized_at": "2026-08-24T08:18:15Z",
+  "summary": "STCO（时空条件算子）是一种用于时间相关偏微分方程（PDE）的神经算子框架，解决现有神经算子仅依赖观测状态和静态描述符、无法处理控制或优化中显式指定条件（如物体运动、流入、力）的问题。它通过Flow-Aware Graph Leaf（FAGL）和Dual-Site Feature-wise Linear Modulation（DSFiLM）接口，将目标时刻的条件场注入不同骨干架构，在12种匹配架构的CFD基准上平均降低相对L2误差31.1%，并提升长时预测精度。该工作为条件算子学习提供了通用接口，具有较高的架构兼容性和实际工程价值。",
+  "tags": [
+    "neural-operator",
+    "pde-surrogate",
+    "conditional-learning",
+    "cfd",
+    "feature-modulation"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xingxin Yang, Zhan Zhang, Juan Li",
+    "published": "Mon, 24 Aug 2026 00:00:00 -0400"
+  }
+}

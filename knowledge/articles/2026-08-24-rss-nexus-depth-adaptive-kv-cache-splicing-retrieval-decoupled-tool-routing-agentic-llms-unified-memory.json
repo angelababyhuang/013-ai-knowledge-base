@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.20397v1",
+  "title": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.20397",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-24T08:14:57Z",
+  "analyzed_at": "2026-08-24T08:14:58Z",
+  "organized_at": "2026-08-24T08:18:15Z",
+  "summary": "Nexus 针对基于 MCP 的智能体 LLM 在工具注册表增长时，因重复编码冗长工具模式导致预填充成本（TTFT）过高的问题，提出两种优化机制：一是通过 INT8 语义旁路缓冲（SLB）和校准的交叉编码器边际门实现检索与模式预填充的解耦，工具选择基于检索，参数生成基于压缩文本签名（中位数 19 个 token），从而在 250 个工具规模下保持约 89% 的路由准确率，并实现 1.66 倍的首参数 token 加速和约 80% 的主上下文 token 节省；二是将编译好的模式 KV 块移植到实时上下文，但受限于 RoPE 相位漂移，在锚点外放置会破坏注意力，因此采用深度自适应后缀重解码修复，保证输出保真度（top-1 一致，KL 散度约 0）。该工作提供了两个负面结果：锚点外 RoPE 保真度边界和参考无关漂移门的失效（Spearman rho=0.193）。所有测量基于 Qwen2.5-14B-Instruct Q4_K_M 模型在 Apple 统一内存上完成，定量结果具有模型特异性，但定性边界具有普适性。值得关注的是其深度自适应机制和检索-预填充解耦思路，对工具密集型智能体系统有重要参考价值。",
+  "tags": [
+    "kv-cache",
+    "tool-routing",
+    "agentic-llm",
+    "rope",
+    "unified-memory"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mustafa Arslan",
+    "published": "Mon, 24 Aug 2026 00:00:00 -0400"
+  }
+}

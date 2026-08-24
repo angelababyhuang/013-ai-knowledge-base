@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.20414v1",
+  "title": "StateSight: Benchmarking Latent Spatial-State Reconstruction in Vision-Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.20414",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-24T08:14:57Z",
+  "analyzed_at": "2026-08-24T08:14:58Z",
+  "organized_at": "2026-08-24T08:18:15Z",
+  "summary": "StateSight 是一个程序化生成的基准测试，专门用于评估视觉语言模型从单张图像中重建潜在空间结构的能力，涵盖立方体网络对面推理、遮挡立方体塔计数和四邻域连通分量计数三个任务。该基准通过确定性标签和精确匹配评分，避免了传统多模态基准中感知、OCR、语言先验和推理混杂的问题。实验显示 GPT-5.5 和 Claude Sonnet 5 在这些任务上准确率显著低于人类基线，且格式有效的回答可能掩盖空间结构恢复的失败。该工作为诊断 VLM 的空间推理缺陷提供了可复现的测试工具，并附带 StateSight-Steps 数据集，对研究多模态推理的局限性具有重要参考价值。",
+  "tags": [
+    "vision-language-model",
+    "spatial-reasoning",
+    "benchmark",
+    "multimodal-qa",
+    "latent-state"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Michelle Lin",
+    "published": "Mon, 24 Aug 2026 00:00:00 -0400"
+  }
+}
