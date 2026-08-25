@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.21362v1",
+  "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.21362",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-25T08:13:55Z",
+  "analyzed_at": "2026-08-25T08:13:56Z",
+  "organized_at": "2026-08-25T08:17:02Z",
+  "summary": "KVBoost 是一种面向 Transformer 大语言模型的块级 KV 缓存复用系统，旨在解决传统前缀缓存仅能复用连续前缀、无法处理任意位置共享内容的问题。它通过双哈希键控方案区分位置身份和内容身份，支持精确与近似缓存匹配，并采用选择性重计算和基于偏差的重计算策略修复注意力边界误差，同时引入非对称量化、自适应块分割和重要性加权淘汰机制。在 Qwen2.5-3B 模型上，KVBoost 将首 token 延迟降低 4.49 倍，且不损失精度，为 RoPE 模型提供了无需架构修改的推理加速层。该工作对提升 LLM 推理效率、降低预填充延迟具有实际意义，值得关注。",
+  "tags": [
+    "kv-cache",
+    "inference-optimization",
+    "prefix-caching",
+    "llm-inference",
+    "cache-reuse"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Srihari Unnikrishnan",
+    "published": "Tue, 25 Aug 2026 00:00:00 -0400"
+  }
+}

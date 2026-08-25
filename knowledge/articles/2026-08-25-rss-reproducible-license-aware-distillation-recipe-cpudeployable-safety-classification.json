@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.21570v1",
+  "title": "A Reproducible, License-Aware Distillation Recipe for CPUDeployable Safety Classification",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.21570",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-25T08:13:55Z",
+  "analyzed_at": "2026-08-25T08:13:56Z",
+  "organized_at": "2026-08-25T08:17:02Z",
+  "summary": "该论文提出了一种可复现、许可证感知的知识蒸馏方法，用于在CPU上部署大语言模型的安全分类层。现有开源安全模型参数规模大、面向GPU，在CPU上推理慢，该工作通过蒸馏一个强教师模型到多种小型学生架构（包括词法、浅层、编码器和生成式），在约9.7万条提示上训练，并严格按许可证边界划分数据，使可部署模型与研究模型仅训练数据不同，从而量化许可证限制的成本。学生在对抗性文本上匹配教师性能，在无害提示上误报率更低（最小生成式学生3.8% vs 教师4.8%），编码器在CPU上每请求约24毫秒。该配方仅类别重平衡是关键因素，且不声称超越教师。",
+  "tags": [
+    "knowledge-distillation",
+    "safety-classification",
+    "cpu-deployment",
+    "license-aware",
+    "llm-safety"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Edson Rodrigues da Cruz Filho, Paulo Ricardo Ferreira Neves, Paulo Henrique Eleuterio Falsetti, Jo\\~ao Vitor Pavan, Ian Degaspari, Henrique Vieira Laturrague, Patrick Vieira Laturrague, Guilherme Nielsen Dias, Marccello Wilson Perez Berto, Gustavo Voltani Von Atzingen",
+    "published": "Tue, 25 Aug 2026 00:00:00 -0400"
+  }
+}

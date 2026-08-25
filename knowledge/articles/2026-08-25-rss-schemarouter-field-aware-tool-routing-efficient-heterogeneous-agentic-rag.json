@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.21375v1",
+  "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.21375",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-25T08:13:55Z",
+  "analyzed_at": "2026-08-25T08:13:56Z",
+  "organized_at": "2026-08-25T08:17:02Z",
+  "summary": "SchemaRouter 是一个面向异构 Agentic RAG 系统的轻量级工具路由层，通过将工具、端点、参数、响应字段等表示为模式图，实现字段感知的确定性选择，避免过度获取和欠获取问题。它使用小型 LLM 提取意图和概念，并通过图投影和别名匹配确定字段，在材料科学基准上以更低的 token 消耗和延迟达到与全量获取相当的准确率，同时提供可验证的来源和许可信息。该工作为解决多工具 RAG 中的效率与准确性权衡提供了新思路，值得关注。",
+  "tags": [
+    "agentic-rag",
+    "tool-routing",
+    "schema-graph",
+    "field-selection",
+    "efficiency"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yong-eun Cho",
+    "published": "Tue, 25 Aug 2026 00:00:00 -0400"
+  }
+}

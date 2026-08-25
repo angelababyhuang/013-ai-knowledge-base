@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.21393v1",
+  "title": "Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.21393",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-25T08:13:55Z",
+  "analyzed_at": "2026-08-25T08:13:56Z",
+  "organized_at": "2026-08-25T08:17:02Z",
+  "summary": "本文提出了一种完全运行在 IBM LinuxONE 上的六子系统 RAG 架构，利用 Spyre PCIe 推理卡进行生成式推理，Telum II 芯片加速轻量分类任务，并通过 Red Hat OpenShift 进行容器编排。该架构旨在解决企业环境中数据与 AI 算力分离带来的延迟、安全和合规问题，使敏感数据无需离开硬件边界。文章详细介绍了各子系统的设计、Spyre 编译与推理栈、LinuxONE 安全执行技术对 AI 工作负载的机密计算保障，并给出了与云 GPU 和本地替代方案的基准对比，显示端到端 RAG 延迟低于 2 秒，相比平台外推理可降低 20 倍延迟，同时保持强加密和审计能力。该工作对受监管行业的企业 AI 部署具有重要参考价值，展示了专用硬件与机密计算结合的新趋势。",
+  "tags": [
+    "rag",
+    "confidential-computing",
+    "enterprise-ai",
+    "ibm-linuxone",
+    "spyre-accelerator"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sandeep Bokkasam, Pankaj D",
+    "published": "Tue, 25 Aug 2026 00:00:00 -0400"
+  }
+}

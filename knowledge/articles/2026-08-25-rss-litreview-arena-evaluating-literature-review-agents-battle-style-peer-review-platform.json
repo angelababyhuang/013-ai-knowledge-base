@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.21374v1",
+  "title": "LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.21374",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-25T08:13:55Z",
+  "analyzed_at": "2026-08-25T08:13:56Z",
+  "organized_at": "2026-08-25T08:17:02Z",
+  "summary": "LitReview Arena 是一个用于评估文献综述生成 Agent 的战斗式评测平台。它针对现有自动评估指标（如参考重叠度）无法反映专家判断的问题，设计了由领域专家对匿名草稿进行多维比较的协议，并收集了约 3000 条专家判断。研究发现当前最强系统在整体效用上仅以 23% 的胜率击败人类草稿，而 Agentic LLM（如 Sonar Deep Research）显著优于基础模型；同时，LLM-as-a-judge 与人类专家对齐度低（Spearman rho=0.467），作者提出的 LitJudge 校准评估器将对齐度提升至 0.78，接近专家间一致性。该工作为文献综述生成评估提供了新基准和校准工具，值得关注。",
+  "tags": [
+    "literature-review",
+    "evaluation-platform",
+    "llm-as-judge",
+    "agentic-llm",
+    "battle-style"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ruotong Zhao, Zhiyu Chen, Xurui Liu, Haidong Xue, Dong Liang, Jigao Fu, Wu YanBiao, Yuanyi Zhen, Fengli Xu, Yong Li",
+    "published": "Tue, 25 Aug 2026 00:00:00 -0400"
+  }
+}

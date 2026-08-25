@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.21501v1",
+  "title": "Let Credit Follow Computation: Architecture-Aware Credit Transport for Large Language Model Reinforcement Learning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.21501",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-25T08:13:55Z",
+  "analyzed_at": "2026-08-25T08:13:56Z",
+  "organized_at": "2026-08-25T08:17:02Z",
+  "summary": "该论文提出计算条件信用传输（CCT）框架，针对LLM强化学习中信用分配问题，指出传统GAE和GRPO等传输算子与Transformer架构无关，未能利用策略内部计算信息。作者设计CompPO算法，将注意力集中度映射为逐token保留门控，用于自举和路径依赖的广义优势估计（Comp-GAE），并协同设计传输对齐评论家（TAC）复用actor隐藏状态。实验表明CompPO在Qwen3-4B和Llama-3.1-8B上显著优于GRPO，且训练稳定性更高。该工作为LLM RL的信用分配提供了架构感知的新视角，具有理论创新和实际性能提升，值得关注。",
+  "tags": [
+    "credit-assignment",
+    "reinforcement-learning",
+    "transformer-architecture",
+    "advantage-estimation",
+    "llm-rl"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Qifan Shi, Zhaolu Kang, Chenghua Zhu",
+    "published": "Tue, 25 Aug 2026 00:00:00 -0400"
+  }
+}

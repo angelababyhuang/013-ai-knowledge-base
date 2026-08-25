@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.21382v1",
+  "title": "There Is No Neutral Harness: Modern LLM Leaderboards Are Manufactured by Config-Fragile Items",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.21382",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-25T08:13:55Z",
+  "analyzed_at": "2026-08-25T08:13:56Z",
+  "organized_at": "2026-08-25T08:17:02Z",
+  "summary": "这篇论文揭示了LLM评测中一个被忽视的关键问题：评测框架（harness）的配置——如选项顺序、提示措辞、答案提取方式（生成文本或似然）——会显著影响模型得分，甚至改变排名。作者引入“脆弱性网格”（fragility grid），对12个开源模型在4个基准的3679个条目下测试26种配置，发现模型得分是一个区间而非点值（如gemma4-31b得分在31%到89%之间波动），且配置脆弱性条目承载了模型间差距的95.7%。该研究对基准压缩方法提出质疑，并提供了可复现的分析脚本，对评测实践有重要指导意义。",
+  "tags": [
+    "llm-evaluation",
+    "benchmark-fragility",
+    "harness-sensitivity",
+    "leaderboard-reliability",
+    "evaluation-methodology"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "V. S. Raghu Parupudi",
+    "published": "Tue, 25 Aug 2026 00:00:00 -0400"
+  }
+}

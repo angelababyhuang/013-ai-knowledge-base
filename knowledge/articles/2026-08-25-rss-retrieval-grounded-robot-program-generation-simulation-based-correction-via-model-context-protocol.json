@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.21417v1",
+  "title": "Retrieval-grounded robot program generation and simulation-based correction via Model Context Protocol",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.21417",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-25T08:13:55Z",
+  "analyzed_at": "2026-08-25T08:13:56Z",
+  "organized_at": "2026-08-25T08:17:02Z",
+  "summary": "本文提出了一种基于语言模型的工作流，用于从自然语言任务描述生成、验证和迭代修正ABB RAPID机器人程序，以应对柔性制造中快速重编程的需求。其核心创新在于双流检索增强生成（RAG）管道，将代码生成锚定在已验证的技术文档和生产模板上，减少领域特定错误；同时通过自定义Model Context Protocol（MCP）服务器连接语言模型客户端与ABB RobotStudio，实现自动化代码上传、仿真执行和诊断反馈。评估结合了检索基准、代码生成检查和仿真案例，展示了仿真循环能捕获静态检查无法发现的执行错误，如吸盘释放高度错误和不可达放置目标。该工作展示了RAG和MCP在连接生成代码与工业仿真反馈方面的潜力，但专家设置和最终监督仍不可完全消除。",
+  "tags": [
+    "retrieval-augmented-generation",
+    "model-context-protocol",
+    "robot-programming",
+    "industrial-automation",
+    "code-generation"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhichao Zhou, Siyuan Chen, Omkar Salunkhe, Ebru Turanoglu Bekar, Johan Stahre, Anders Skoogh",
+    "published": "Tue, 25 Aug 2026 00:00:00 -0400"
+  }
+}
