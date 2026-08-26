@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.23640v1",
+  "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.23640",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-26T08:13:41Z",
+  "analyzed_at": "2026-08-26T08:13:42Z",
+  "organized_at": "2026-08-26T08:17:04Z",
+  "summary": "该论文首次对LLM生成的自传进行了场景级量化审计，以作者本人366天的日记为基准，发现96.7%的生成内容无法被独立语料证实，主要失败模式为“接地漂移”（真实人物、雇主和场景被嵌入虚构情节）。研究还发现，使用当前模型重新生成仍100%失败，而将生成过程锚定在主体语料上可将失败率降至83.3%。该工作提供了可复用的审计工具和量化补救措施，对评估LLM事实性、幻觉及记忆可靠性具有重要参考价值。",
+  "tags": [
+    "llm-factuality",
+    "confabulation-audit",
+    "autobiography-generation",
+    "grounding",
+    "evaluation-methodology"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Heather Renze",
+    "published": "Wed, 26 Aug 2026 00:00:00 -0400"
+  }
+}

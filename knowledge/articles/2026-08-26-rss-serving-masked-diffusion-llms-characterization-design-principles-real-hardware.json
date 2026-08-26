@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.23807v1",
+  "title": "Serving Masked Diffusion LLMs: Characterization and Design Principles from Real Hardware",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.23807",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-26T08:13:41Z",
+  "analyzed_at": "2026-08-26T08:13:42Z",
+  "organized_at": "2026-08-26T08:17:04Z",
+  "summary": "该论文首次对掩码扩散语言模型（dLLM）在真实并发服务负载下的行为进行了系统表征，使用LLaDA-8B-Instruct和D2F LoRA适配器在单块H200 GPU上评估。研究发现请求难度是离散的（11个固定步数级别），且无法在生成前预测；短生成预算会低估服务方差；单请求墙钟时间中仅24%为GPU计算，其余为CPU调度开销，批处理主要通过摊销该开销提升吞吐量。论文还推导了泊松到达下的批超时规则，并论证了服务质量不随批大小下降的结构性假设。该工作为构建dLLM服务系统提供了设计原则，强调需要在每个去噪步骤级别实现并行，这与AR模型服务不同，值得关注。",
+  "tags": [
+    "masked-diffusion-llm",
+    "serving-system",
+    "llm-inference",
+    "batch-scheduling",
+    "hardware-characterization"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Farhana Amin, Sabiha Afroz, Mona Moghadampanah, Dimitrios S. Nikolopoulos",
+    "published": "Wed, 26 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.23568v1",
+  "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.23568",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-26T08:13:41Z",
+  "analyzed_at": "2026-08-26T08:13:42Z",
+  "organized_at": "2026-08-26T08:17:04Z",
+  "summary": "RENDER 是一个用于评估 LLM 记忆与 RAG 系统的新基准控制方法，它揭示了“面向读者的证据呈现形式”（如原始对话、摘要、类型化记录等）对模型回答准确性的显著影响。通过五级数据包阶梯和确定性模板，作者在 LongMemEval 和 HotpotQA 上证明，匹配预算的解析数据包比截断的原始对话提升 42.4-72.6 分，且不同模板间差异巨大。该研究强调记忆/RAG 评估必须报告或控制呈现形式，否则结果可能失真，对评估方法论有重要启示。",
+  "tags": [
+    "llm-memory",
+    "rag-evaluation",
+    "benchmark",
+    "evidence-rendering",
+    "prompt-format"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yuan Si, Simeng Han, Daming Li, Jialu Zhang",
+    "published": "Wed, 26 Aug 2026 00:00:00 -0400"
+  }
+}

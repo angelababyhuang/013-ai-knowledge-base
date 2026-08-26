@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.23632v1",
+  "title": "Function-Level Execution Feedback for Code Preference Optimization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.23632",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-26T08:13:41Z",
+  "analyzed_at": "2026-08-26T08:13:42Z",
+  "organized_at": "2026-08-26T08:17:04Z",
+  "summary": "STEP-KTODER 提出了一种针对代码生成任务的偏好优化框架，将过程监督引入代码领域。它通过将多函数程序分解为模块级函数作为步骤，并利用自动生成的单元测试为每个步骤分配二元正确性标签，从而结合函数级过程反馈与整体程序的结果反馈，实现代码特定的逐步 KTO 优化。实验表明，该方法在多个基准上优于仅使用结果反馈的 KTO 和 DPO，并揭示了 LLM 作为评判者标注的局限性。该工作为代码生成中的过程监督提供了新思路，值得关注。",
+  "tags": [
+    "code-generation",
+    "preference-optimization",
+    "process-supervision",
+    "kto",
+    "llm"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Idris Nechnech, Sehwan Kim, Jimin Seo, Yeongoon Kim, Minhae Oh, Sangwoo Hong, Jungwoo Lee",
+    "published": "Wed, 26 Aug 2026 00:00:00 -0400"
+  }
+}

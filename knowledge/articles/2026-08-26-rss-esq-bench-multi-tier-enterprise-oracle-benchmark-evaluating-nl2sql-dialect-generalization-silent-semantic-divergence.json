@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.23569v1",
+  "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.23569",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-26T08:13:41Z",
+  "analyzed_at": "2026-08-26T08:13:42Z",
+  "organized_at": "2026-08-26T08:17:04Z",
+  "summary": "ESQ-Bench 是一个面向企业级 Oracle 数据库的 NL2SQL 基准测试，旨在评估模型在复杂企业模式下的方言泛化能力和静默语义分歧。它构建了 465 张表、16 万行数据的多数据库模式，并提供 550 个金标准问答对，通过 EM、EX、SR、SD 四个指标评测。结果显示 GPT-4o 和 Claude 等闭源模型在高层级上表现显著优于开源模型，且执行通过率与语义正确性存在巨大差距。该基准填补了现有 Spider/BIRD 等学术基准与企业实际场景之间的空白，对评估和提升 NL2SQL 模型的实用性具有重要参考价值。",
+  "tags": [
+    "nl2sql",
+    "benchmark",
+    "oracle",
+    "enterprise-database",
+    "semantic-divergence"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sanjay Mishra, Divya Chukkapalli, Ganesh R. Naik",
+    "published": "Wed, 26 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.23626v1",
+  "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.23626",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-26T08:13:41Z",
+  "analyzed_at": "2026-08-26T08:13:42Z",
+  "organized_at": "2026-08-26T08:17:04Z",
+  "summary": "该论文对天文基础模型 AION-1 进行了因果审计，发现模型在推理时过度依赖调查分割图（detection channel）而非图像像素本身，导致系统性地继承目录不完整性。通过因果干预，仅编辑分割图就能显著改变模型输出的通量、大小、椭圆率和红移等物理量，且该偏差随模型规模增大而增强。研究还发现，这种偏差会传播到断层扫描平均红移估计，使其偏移量中位数达到 LSST DESC 要求的 0.71 倍，部分情况下超标。论文揭示了基础模型在科学应用中可能存在的隐藏系统性偏差，对天文 AI 模型的可靠部署具有重要警示意义。",
+  "tags": [
+    "astronomical-foundation-model",
+    "causal-intervention",
+    "systematic-bias",
+    "redshift-estimation",
+    "model-audit"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ihor Kendiukhov",
+    "published": "Wed, 26 Aug 2026 00:00:00 -0400"
+  }
+}

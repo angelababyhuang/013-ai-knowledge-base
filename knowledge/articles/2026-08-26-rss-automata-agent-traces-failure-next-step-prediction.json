@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.23670v1",
+  "title": "Automata from Agent Traces: Failure and Next-Step Prediction",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.23670",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-26T08:13:41Z",
+  "analyzed_at": "2026-08-26T08:13:42Z",
+  "organized_at": "2026-08-26T08:17:04Z",
+  "summary": "该论文提出将LLM智能体的轨迹语料库压缩为单个紧凑的有限状态机（FSM），以揭示跨运行的行为拓扑结构，用于失败预测和下一步预测。它解决了现有方法仅关注单次轨迹或成功案例、忽略跨运行结构的问题。实验表明FSM紧凑且高保真，在下一步预测上优于Agent Workflow Memory，在失败预测上达到0.94的AUROC，并支持在线监控提前停止。值得关注的是，它发现行为拓扑主要由部署环境而非LLM本身塑造，为安全审计和运行时监控提供了模型无关的结构化基础。",
+  "tags": [
+    "finite-state-machine",
+    "agent-traces",
+    "failure-prediction",
+    "next-step-prediction",
+    "runtime-monitoring"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Seonglae Cho, Franklin Cardenoso Fernandez, Umar Mohammed, Zekun Wu, Kleyton Da Costa, Ilham Wicaksono, Adriano Koshiyama",
+    "published": "Wed, 26 Aug 2026 00:00:00 -0400"
+  }
+}

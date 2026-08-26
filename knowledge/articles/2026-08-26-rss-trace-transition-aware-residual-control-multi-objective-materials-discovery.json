@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.23631v1",
+  "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.23631",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-26T08:13:41Z",
+  "analyzed_at": "2026-08-26T08:13:42Z",
+  "organized_at": "2026-08-26T08:17:04Z",
+  "summary": "TRACE 是一个面向多目标材料发现的过渡感知残差控制框架，旨在解决 LLM 智能体在材料发现中因属性评估昂贵而难以有效利用反馈的问题。现有智能体仅存储评估结果，无法关联具体编辑操作与属性变化，导致局部优化困难。TRACE 将每次编辑视为反馈单元，记录父子编辑转换及属性增量，聚合证据以估计可复用的编辑效果，并据此排序未来编辑，以在满足已达成目标的同时减少约束违规。在相同骨干网络对比中，TRACE 将宏平均命中率从 18.13% 提升至 25.96%，显著优于 SOTA 基线 LLEMA。该工作对 LLM 智能体的决策机制有创新贡献，值得关注。",
+  "tags": [
+    "multi-objective-optimization",
+    "llm-agent",
+    "materials-discovery",
+    "residual-control",
+    "transition-aware"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Kang Zhou, Yujia Tong, Yong Tao, Jingling Yuan",
+    "published": "Wed, 26 Aug 2026 00:00:00 -0400"
+  }
+}

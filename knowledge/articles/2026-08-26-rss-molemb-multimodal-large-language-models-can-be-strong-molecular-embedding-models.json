@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.23646v1",
+  "title": "MolEmb: Multimodal Large Language Models Can Be Strong Molecular Embedding Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.23646",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-26T08:13:41Z",
+  "analyzed_at": "2026-08-26T08:13:42Z",
+  "organized_at": "2026-08-26T08:17:04Z",
+  "summary": "MolEmb 提出利用多模态大语言模型（MLLM）作为通用的分子嵌入模型，通过双向对比学习将分子结构与文本描述对齐到共享嵌入空间，从而生成受自然语言语义上下文条件化的分子向量表示。该框架解决了传统分子编码器仅基于单一视图、无法根据语言上下文调整表示的问题，在分子性质预测和跨模态分子-文本检索上表现优异，并引入诊断基准 MolCAR 揭示上下文感知嵌入主要依赖于监督数据。这项工作为计算化学和药物发现提供了可扩展的通用分子表示基础设施，值得关注。",
+  "tags": [
+    "molecular-embedding",
+    "multimodal-llm",
+    "drug-discovery",
+    "contrastive-learning",
+    "context-aware-retrieval"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xinjian Zhao, Xiangru Jian, Yaoyao Xu, Xiaozhuang Song, Wei Pang, Lei Bai, Tianshu Yu",
+    "published": "Wed, 26 Aug 2026 00:00:00 -0400"
+  }
+}

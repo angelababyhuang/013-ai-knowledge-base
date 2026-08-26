@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.23666v1",
+  "title": "Gated Activation Steering for Reducing Sycophancy & Hallucination in Medical Question Answering",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.23666",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-26T08:13:41Z",
+  "analyzed_at": "2026-08-26T08:13:42Z",
+  "organized_at": "2026-08-26T08:17:04Z",
+  "summary": "该论文提出了一种基于门控激活引导（Gated Activation Steering）的推理时干预框架，用于同时缓解医疗问答中大型语言模型的谄媚行为和幻觉问题。通过从对比临床样本中学习独立的引导方向，并应用于因果验证的注意力头，在运行时根据行为特定门控决定是否干预，避免了全时干预对正确回答的负面影响。实验表明，在冻结模型权重的情况下，该方法使40亿参数模型在600条压力轨迹中551条上比未引导模型更持久，其抗压能力可与千亿参数模型媲美。该研究为医疗等高风险场景下的模型鲁棒性提供了低成本、精准的解决方案，值得关注。",
+  "tags": [
+    "inference-time-intervention",
+    "activation-steering",
+    "sycophancy",
+    "hallucination",
+    "medical-qa"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Himanshu Tripathi, Subash Neupane, Shaswata Mitra, Sudip Mittal, Noorbakhsh Amiri Golilarz, Shahram Rahimi",
+    "published": "Wed, 26 Aug 2026 00:00:00 -0400"
+  }
+}
