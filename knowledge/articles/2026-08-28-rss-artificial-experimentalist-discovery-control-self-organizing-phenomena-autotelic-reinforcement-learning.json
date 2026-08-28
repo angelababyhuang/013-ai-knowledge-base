@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.26116v1",
+  "title": "The Artificial Experimentalist: Discovery and Control of Self-Organizing Phenomena with Autotelic Reinforcement Learning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.26116",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-28T11:45:35Z",
+  "analyzed_at": "2026-08-28T11:45:36Z",
+  "organized_at": "2026-08-28T11:49:07Z",
+  "summary": "该论文提出了一种基于自决强化学习（autotelic RL）的闭环框架，用于发现和控制复杂系统中的自组织现象。传统方法通常以开环方式运行，即设置初始条件后执行完整模拟，无法在过程中干预。作者将该框架应用于连续元胞自动机Lenia，构建了名为CARL的智能体系统，能够自主采样多样化目标并学习目标条件策略，通过最小局部扰动干预系统。实验表明，CARL能高效发现稳定孤子、控制已有孤子的运动方向，并支持人类通过高层指令实时引导孤子穿越迷宫。该工作为构建人工实验者智能体提供了新路径，具有较高的学术价值。",
+  "tags": [
+    "autotelic-rl",
+    "cellular-automata",
+    "lenia",
+    "self-organization",
+    "agent-control"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Marko Cvjetko, Benedikt Hartl, Michael Levin, Cl\\'ement Moulin-Frier, Pierre-Yves Oudeyer",
+    "published": "Fri, 28 Aug 2026 00:00:00 -0400"
+  }
+}

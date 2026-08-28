@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.26167v1",
+  "title": "Refusal Is Not Robustness: Auditing Confident Fabrication in Large Language Models on a Provably Uninformative Clinical Pain Speech Transcript",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.26167",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-28T11:45:35Z",
+  "analyzed_at": "2026-08-28T11:45:36Z",
+  "organized_at": "2026-08-28T11:49:07Z",
+  "summary": "该论文指出，现有幻觉与弃权基准测试很少能证明模型确实无法得知正确答案，因此难以区分合理弃权与无依据预测。研究在TAME疼痛语音语料库上评估了七个大语言模型，利用自动语音识别去除声学疼痛线索后，任何仅基于转录本的疼痛评分都缺乏证据支持。结果显示，在权威框架提示下，模型的弃权行为变得依赖提示措辞，且Gemini 2.5 Flash和Llama 3.1 8B在被迫回答时持续产生高置信度的虚构疼痛评分，虚构率分别达0.53和0.76。该研究为审计LLM的自信虚构提供了新方法，强调拒绝能力不等于鲁棒性，对评估模型可靠性和安全部署具有重要价值。",
+  "tags": [
+    "hallucination-audit",
+    "abstention-benchmark",
+    "clinical-nlp",
+    "confidence-calibration",
+    "llm-robustness"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sagnik De, Sreenija Pavuluri",
+    "published": "Fri, 28 Aug 2026 00:00:00 -0400"
+  }
+}

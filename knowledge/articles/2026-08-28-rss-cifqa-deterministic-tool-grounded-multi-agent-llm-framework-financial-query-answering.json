@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.26114v1",
+  "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.26114",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-28T11:45:35Z",
+  "analyzed_at": "2026-08-28T11:45:36Z",
+  "organized_at": "2026-08-28T11:49:07Z",
+  "summary": "CIFQA 是一个面向计算密集型金融问答的确定性工具驱动多智能体 LLM 框架，旨在解决 LLM 在多步金融计算中产生数值错误但看似合理答案的问题。该框架将语言理解与数值执行分离，通过专门的智能体负责查询解释、路由、参数提取、计算规划和响应生成，而确定性的 Python 工具负责金融计算和规则应用。在定期存款查询基准上，CIFQA 在计算密集型查询上达到 95.54% 的准确率，整体准确率 90.87%，显著优于直接使用 LLM 的基线，且使用 17B 开源模型即可超越更大规模的闭源模型，表明架构设计比模型规模更能决定数值可靠性。该框架虽在定期存款场景验证，但可推广至其他计算密集型金融推理任务。",
+  "tags": [
+    "multi-agent",
+    "financial-qa",
+    "tool-grounded",
+    "deterministic-computation",
+    "llm-framework"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Kunjesh Parekh, Anil Kumar Tiwari, Divya Saxena",
+    "published": "Fri, 28 Aug 2026 00:00:00 -0400"
+  }
+}

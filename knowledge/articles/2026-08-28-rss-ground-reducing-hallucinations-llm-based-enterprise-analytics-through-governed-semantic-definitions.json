@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.26157v1",
+  "title": "GROUND: Reducing Hallucinations in LLM-Based Enterprise Analytics Through Governed Semantic Definitions",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.26157",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-28T11:45:35Z",
+  "analyzed_at": "2026-08-28T11:45:36Z",
+  "organized_at": "2026-08-28T11:49:07Z",
+  "summary": "GROUND 是一个针对企业数据仓库自然语言分析中幻觉问题的框架，通过引入受治理的语义层（包括批准的指标、维度、连接路径、过滤器和行级安全）来约束 LLM 生成的 SQL。它解决了现有 text-to-SQL 系统仅依赖数据库模式或文档检索而缺乏业务语义治理的问题，在生成前后进行多规则验证，并在违规时重试或放弃。该论文在合成基准和真实数据上验证了 GROUND 在消除幻觉和保证安全方面的有效性，强调了治理不能仅靠指标定义精确性替代，值得关注因为它为企业级 LLM 分析提供了可落地的安全方案。",
+  "tags": [
+    "llm-hallucination",
+    "text-to-sql",
+    "semantic-layer",
+    "enterprise-analytics",
+    "data-governance"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aravind Sasidharan Pillai",
+    "published": "Fri, 28 Aug 2026 00:00:00 -0400"
+  }
+}

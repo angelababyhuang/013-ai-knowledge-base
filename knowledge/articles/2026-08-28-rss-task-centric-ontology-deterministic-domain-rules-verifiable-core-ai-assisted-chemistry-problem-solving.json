@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.26164v1",
+  "title": "A Task-Centric Ontology and Deterministic Domain Rules as a Verifiable Core for AI-Assisted Chemistry Problem Solving",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.26164",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-28T11:45:35Z",
+  "analyzed_at": "2026-08-28T11:45:36Z",
+  "organized_at": "2026-08-28T11:49:07Z",
+  "summary": "本文提出 ChemOntoRule，一个以任务为中心的本体论和确定性规则系统，作为 AI 辅助化学问题求解的可验证核心。它解决 LLM 在化学推理中难以检查、约束和验证的问题，通过构建围绕特定问题集合的本体，并用 Python 规则实现电子结构、周期趋势等推理。在 300 道题上达到 98.67% 的匹配率，但作者强调这是覆盖率和内部一致性，而非泛化能力。值得关注的是其未来架构：LLM 仅作为用户语言到规范化任务框架的翻译器，并提出了 token 效率的可测试假设。",
+  "tags": [
+    "chemistry-ai",
+    "ontology",
+    "symbolic-reasoning",
+    "llm-validation",
+    "task-centric"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ibrokhimsho Abduchaborov",
+    "published": "Fri, 28 Aug 2026 00:00:00 -0400"
+  }
+}

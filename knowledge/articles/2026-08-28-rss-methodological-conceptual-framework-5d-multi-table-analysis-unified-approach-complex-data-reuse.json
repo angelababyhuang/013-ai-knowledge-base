@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.26149v1",
+  "title": "Methodological and Conceptual Framework for 5D Multi-Table Analysis: A Unified Approach for Complex Data Reuse",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.26149",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-28T11:45:35Z",
+  "analyzed_at": "2026-08-28T11:45:36Z",
+  "organized_at": "2026-08-28T11:49:07Z",
+  "summary": "本文提出了一种用于多表关系数据学习的统一框架，称为关系超图变换器（RHT）。它通过将关系数据库表示为超图，学习五维嵌入（PentE），并采用稀疏关系注意力机制，解决了传统方法在处理高基数类别特征和复杂表间依赖时的计算瓶颈。在Synthea合成电子健康记录数据集上的实验表明，RHT在嵌入语义一致性上优于基线，但罕见代码召回率不及XGBoost。该工作为医疗等复杂信息系统的数据复用提供了新思路，值得关注其后续的MIMIC-IV临床验证。",
+  "tags": [
+    "relational-learning",
+    "hypergraph-transformer",
+    "multi-table",
+    "healthcare-ai",
+    "sparse-attention"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Edouard Lansiaux, Hugo Kazzi, Aur\\'elien Loison, Slim Hammadi, Emmanuel Chazard",
+    "published": "Fri, 28 Aug 2026 00:00:00 -0400"
+  }
+}
