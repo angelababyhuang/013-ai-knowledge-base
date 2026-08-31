@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.27459v1",
+  "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.27459",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-31T08:07:58Z",
+  "analyzed_at": "2026-08-31T08:07:59Z",
+  "organized_at": "2026-08-31T08:11:25Z",
+  "summary": "本文评估了单个9GB的开源模型（Qwen2.5-14B 4-bit）在完整Jeopardy!题目数据集上的表现，该数据集包含1984年至2025年41个赛季的529,939条线索。模型在严格强制回答协议下准确率达到67.0%，在事实型类别上超过85%，且对训练截止日期后的线索仍保持65%的准确率，而Watson因构建时冻结知识得分为零。文章强调知识快照的可移植性和低成本，认为训练数据暴露是共享特性而非缺陷，展示了现代开源模型在通用知识问答上的强大能力。值得关注的是其大规模评估方法和模型泛化能力的验证。",
+  "tags": [
+    "jeopardy",
+    "open-weights",
+    "knowledge-benchmark",
+    "qwen",
+    "general-knowledge"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "David Noever, Forrest McKee",
+    "published": "Mon, 31 Aug 2026 00:00:00 -0400"
+  }
+}

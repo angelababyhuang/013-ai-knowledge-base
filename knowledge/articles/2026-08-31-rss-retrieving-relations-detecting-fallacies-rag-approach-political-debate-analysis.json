@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.27471v1",
+  "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.27471",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-31T08:07:58Z",
+  "analyzed_at": "2026-08-31T08:07:59Z",
+  "organized_at": "2026-08-31T08:11:25Z",
+  "summary": "该论文提出一种基于检索增强生成（RAG）的谬误检测与分类方法，用于政治辩论分析。它利用论证结构中的支持与攻击关系动态引导文档检索，以获取外部知识，从而提升对谬误的识别能力。在ElecDeb60to20基准上，该方法在42种检索配置和14个模型下，将谬误检测的macro-F1提升至0.864，分类提升至0.725，显著优于非检索基线。该研究解决了传统方法将论证结构仅作为静态特征、缺乏灵活性的问题，展示了论证引导检索在复杂文本分析中的价值，值得关注。",
+  "tags": [
+    "retrieval-augmented-generation",
+    "fallacy-detection",
+    "argument-mining",
+    "political-debate",
+    "knowledge-retrieval"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Deborah Dore, Greta Damo, Elena Cabrio, Serena Villata",
+    "published": "Mon, 31 Aug 2026 00:00:00 -0400"
+  }
+}

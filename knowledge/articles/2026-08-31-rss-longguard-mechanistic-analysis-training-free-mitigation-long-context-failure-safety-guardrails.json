@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.27580v1",
+  "title": "LongGuard: Mechanistic Analysis and Training-Free Mitigation of Long-Context Failure in Safety Guardrails",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.27580",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-31T08:07:58Z",
+  "analyzed_at": "2026-08-31T08:07:59Z",
+  "organized_at": "2026-08-31T08:11:25Z",
+  "summary": "LongGuard 是一个针对大语言模型安全护栏在长上下文场景下失效问题的分析框架与缓解方案。它通过 SafetyNIAH 任务在 0.25k-32k 长度网格上评估了 15 种主流护栏，发现不安全内容召回率平均下降超过 50%，并归因于不安全内容的比例稀释而非绝对长度。通过三层注意力-逻辑-行为分析，定位了注意力稀释导致检测决策崩溃的机制，并提出了两种免训练缓解方法（分块检测和注意力头锐化）以及上下文感知的超参数路由协议，在多个基准上显著提升了护栏性能。该工作对理解长上下文安全挑战和实际部署具有重要价值。",
+  "tags": [
+    "safety-guardrails",
+    "long-context",
+    "mechanistic-analysis",
+    "training-free-mitigation",
+    "llm-safety"
+  ],
+  "relevance_score": 0.74,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ziyang Chen, Xing Wu, Songlin Hu",
+    "published": "Mon, 31 Aug 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.27472v1",
+  "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.27472",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-31T08:07:58Z",
+  "analyzed_at": "2026-08-31T08:07:59Z",
+  "organized_at": "2026-08-31T08:11:25Z",
+  "summary": "本文提出一种将贝叶斯网络结构学习（BNSL）与大型语言模型（LLM）的因果知识进行概率融合的新方法。通过引入概率依赖图（PDG）表示，每条边关联一个关于有向、无向和不存在状态的分布，并采用加权平均实现融合。在26个基准网络上的实验表明，简单的50/50融合在22个网络中优于单一来源，F1平均提升0.056。分析显示BNSL提供高召回率的边骨架，而LLM提供高准确率的边方向，两者互补。该研究为利用LLM辅助因果发现提供了实用且有效的框架，值得关注。",
+  "tags": [
+    "causal-discovery",
+    "bayesian-network",
+    "llm-fusion",
+    "probabilistic-graph",
+    "structure-learning"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Neville K. Kitson, Anthony Constantinou",
+    "published": "Mon, 31 Aug 2026 00:00:00 -0400"
+  }
+}

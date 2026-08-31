@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.27476v1",
+  "title": "Class-Based Heuristic Selection for Solving the Flying Block Puzzle",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.27476",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-31T08:07:58Z",
+  "analyzed_at": "2026-08-31T08:07:59Z",
+  "organized_at": "2026-08-31T08:11:25Z",
+  "summary": "本文针对空间规划中通用启发式算法在硬实例上性能退化的问题，以双列飞行块拼图（NP完全问题）为研究平台，提出了基于类别的启发式选择算法CBHA*。该算法通过引入通用移动约束、形式化运动学分类（将状态空间划分为七类）以及类条件平局打破机制，实现了自适应启发式搜索。在146个基准实例上，CBHA*的成功率达93.4%，节点扩展数比标准A*减少87.98%，显著优于其他基线。该研究为受物理约束的空间规划问题提供了一种可泛化的高效求解机制，对多智能体路径规划、自主导航等领域具有参考价值。",
+  "tags": [
+    "heuristic-search",
+    "a-star",
+    "spatial-planning",
+    "np-complete",
+    "adaptive-heuristics"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sanyar Ahmadi, Pedram Asadzadeh, Amanj Khorramian",
+    "published": "Mon, 31 Aug 2026 00:00:00 -0400"
+  }
+}

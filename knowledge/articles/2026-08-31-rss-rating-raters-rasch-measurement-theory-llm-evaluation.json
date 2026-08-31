@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.27463v1",
+  "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.27463",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-31T08:07:58Z",
+  "analyzed_at": "2026-08-31T08:07:59Z",
+  "organized_at": "2026-08-31T08:11:25Z",
+  "summary": "本文提出将Rasch测量理论（RMT）应用于大语言模型（LLM）评估，以解决标准评估实践中忽视测量组件贡献的问题。RMT能将序数评分分解为共同尺度上的可分离方面，并提供诊断工具识别校准误差和评分者偏差。作者以LLM作为评分者为例，使用仇恨言论语料库对九个LLM的注释进行多面Rasch模型拟合，发现LLM在严重性、项目校准、问题顺序鲁棒性、目标身份敏感性和评分量表使用方面与人类评分者存在系统性差异。该研究为LLM评估提供了更严谨的测量框架，值得关注。",
+  "tags": [
+    "rasch-measurement-theory",
+    "llm-evaluation",
+    "rater-bias",
+    "measurement-model",
+    "llm-as-judge"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Pratik S. Sachdeva, Nathan Boudol",
+    "published": "Mon, 31 Aug 2026 00:00:00 -0400"
+  }
+}

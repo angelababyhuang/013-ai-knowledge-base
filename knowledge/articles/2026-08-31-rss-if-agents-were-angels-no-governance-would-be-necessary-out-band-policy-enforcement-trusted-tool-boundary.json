@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.27646v1",
+  "title": "If Agents Were Angels, No Governance Would Be Necessary: Out-of-Band Policy Enforcement at a Trusted Tool Boundary",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.27646",
+  "category": "paper-or-talk",
+  "collected_at": "2026-08-31T08:07:58Z",
+  "analyzed_at": "2026-08-31T08:07:59Z",
+  "organized_at": "2026-08-31T08:11:25Z",
+  "summary": "本文提出了一种名为带外策略执行（OBPE）的机制，在代理推理之外建立一个可信边界，通过类型化操作和资源授权、查询收窄、响应过滤/掩码以及语义门控来强制执行数据策略，解决了提示词作为护栏的脆弱性问题。作者证明了策略计划的顺序无关性，且代理策略不能扩大数据所有者的最大授权。实验表明，在3,621次试验中，受保护数据进入代理上下文的失败率从57.6%降至0.2%，同时安全有用完成率提升21.8个百分点。该工作为AI代理的安全治理提供了可验证的架构方案，值得关注。",
+  "tags": [
+    "agent-governance",
+    "policy-enforcement",
+    "trusted-boundary",
+    "cedar-policy",
+    "ai-safety"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Marc Millstone, Tyler Akidau, Johannes Br\\\"uderl, Marat Pekker",
+    "published": "Mon, 31 Aug 2026 00:00:00 -0400"
+  }
+}
