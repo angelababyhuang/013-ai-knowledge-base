@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2608.27506v1",
+  "title": "Thinking Costs Tokens: When More Structure is Worth the Price",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2608.27506",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-01T08:07:34Z",
+  "analyzed_at": "2026-09-01T08:07:35Z",
+  "organized_at": "2026-09-01T08:11:07Z",
+  "summary": "该论文研究了在语言模型中增加推理结构（如搜索、验证、修订）时，存在一个token预算阈值，低于该阈值时规划与验证的开销会损害性能，高于则有益。通过在FinQA和TAT-QA金融推理任务上对比单体模型与验证搜索架构，发现交叉点位于1000-1500输出等价token之间，验证搜索在高预算下优势明显。该研究为设计推理增强型LLM系统提供了预算权衡的实证依据，对资源受限场景下的Agent架构选择有参考价值。",
+  "tags": [
+    "token-budget",
+    "inference-structure",
+    "verified-search",
+    "financial-reasoning",
+    "llm-evaluation"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Thomas Nolasque, John Grey, Calista Pham, Ankit Vani",
+    "published": "Tue, 01 Sep 2026 00:00:00 -0400"
+  }
+}
