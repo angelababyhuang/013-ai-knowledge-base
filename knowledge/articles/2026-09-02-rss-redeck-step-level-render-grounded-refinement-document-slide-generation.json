@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.00194v1",
+  "title": "ReDeck: Step-Level Render-Grounded Refinement for Document-to-Slide Generation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.00194",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-02T08:07:16Z",
+  "analyzed_at": "2026-09-02T08:07:17Z",
+  "organized_at": "2026-09-02T08:10:32Z",
+  "summary": "ReDeck 提出了一种面向文档转幻灯片生成任务的逐步渲染接地细化框架。现有方法采用整体式“一次生成、一次反馈”的循环，导致溢出、重叠等局部空间错误难以定位和修复。ReDeck 将修订过程分解为原子编辑动作，并在每一步后返回渲染器观测结果，实现“一次编辑、一次观察”，同时结合多粒度反馈（步骤级渲染反馈、回合级语义批评和提交级验证）来平衡局部修复与全局质量。该论文还引入了 DeckQuiz 基准，实验表明 ReDeck 在多个模型上优于现有智能体，并验证了反馈时机和粒度的重要性。该工作对提升文档生成类 Agent 的可靠性和精细控制具有参考价值。",
+  "tags": [
+    "document-to-slide",
+    "render-grounded-refinement",
+    "multi-granular-feedback",
+    "slide-agent",
+    "benchmark"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Muzhao Tian, Zezi Zeng, Yifan Yang, Xin Gao, Yan Li, Zisu Huang, Xiaohua Wang, Changze Lv, Mingxi Cheng, Bei Liu, Kai Qiu, Qi Dai, Dong Chen, Yue Dong, Xiaoqing Zheng, Ji Li, Chong Luo",
+    "published": "Wed, 02 Sep 2026 00:00:00 -0400"
+  }
+}

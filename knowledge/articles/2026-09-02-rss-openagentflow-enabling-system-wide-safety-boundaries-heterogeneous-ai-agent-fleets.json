@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.00015v1",
+  "title": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.00015",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-02T08:07:16Z",
+  "analyzed_at": "2026-09-02T08:07:17Z",
+  "organized_at": "2026-09-02T08:10:32Z",
+  "summary": "OpenAgentFlow 提出了一种控制面/动作面架构，用于在异构 AI Agent 系统中建立系统级安全边界。它通过将 GUI 动作、API 调用、工具调用等统一为 AgentEvent 流，并在执行前经过共享的策略执行点，解决了现有安全机制碎片化、难以审计和策略更新困难的问题。在 Android 上的实验表明，该方法在动作事件基准上达到 94% 的准确率和 95.3% 的攻击拦截率，并支持动态策略更新。该工作为多 Agent 系统的安全治理提供了实用方案，值得关注。",
+  "tags": [
+    "ai-agent-safety",
+    "action-governance",
+    "policy-enforcement",
+    "android-agent",
+    "control-plane"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dongsheng Chen, Xiangyu Zhao, Xin Yao, Xuetao Wei",
+    "published": "Wed, 02 Sep 2026 00:00:00 -0400"
+  }
+}
