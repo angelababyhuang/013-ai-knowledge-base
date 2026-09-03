@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.01924v1",
+  "title": "Looped Transformers under the Jacobian Lens: Does the Global Workspace Survive Recurrence?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.01924",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-03T08:07:02Z",
+  "analyzed_at": "2026-09-03T08:07:03Z",
+  "organized_at": "2026-09-03T08:10:16Z",
+  "summary": "该论文通过雅可比透镜（Jacobian lens）扩展研究了循环变压器（looped transformers）中是否会出现类似全局工作区（global workspace）的功能。作者提出虚拟展开适配器，对Ouro-2.6B和Huginn-0125两种循环架构进行系统分析，发现工作区在循环部分形成，但访问方式因架构而异：Ouro在每个循环重建内容，线性传输无法跨循环边界；Huginn则能跨所有循环传递内容，但读写操作仅作用于约两个循环的滑动窗口。该研究揭示了循环深度与标准前馈深度在表征可访问性上的本质差异，对理解循环架构的认知机制和设计可干预的循环模型具有重要参考价值。",
+  "tags": [
+    "looped-transformers",
+    "jacobian-lens",
+    "global-workspace",
+    "interpretability",
+    "recurrence"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Wenlong Wang, Fergal Reid",
+    "published": "Thu, 03 Sep 2026 00:00:00 -0400"
+  }
+}

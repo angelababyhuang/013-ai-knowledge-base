@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.02029v1",
+  "title": "HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.02029",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-03T08:07:02Z",
+  "analyzed_at": "2026-09-03T08:07:03Z",
+  "organized_at": "2026-09-03T08:10:16Z",
+  "summary": "HeadWiseKV 是一种针对混合长上下文语言模型的免训练 KV 缓存压缩框架，旨在解决长上下文推理中全局注意力层导致的 GPU 内存瓶颈。它通过为每个物理 KV 头分配静态的多级历史窗口，使缓存需求在服务前可预测，并将分配问题建模为受限率失真问题，提出 SeqCalib 算法按层序生成策略。实验表明，在 Qwen3.6-27B 等模型上，HeadWiseKV 在保持接近全量 KV 质量的同时，将峰值内存降低 8.59%，并将最大成功上下文从 114K 扩展到 161K。该工作为混合架构模型的长上下文部署提供了实用的内存优化方案，值得关注。",
+  "tags": [
+    "kv-cache-compression",
+    "long-context-inference",
+    "hybrid-language-models",
+    "memory-optimization",
+    "rate-distortion"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Renjie Xie, Juncheng Yang, Aoting Hu, Mingxi Zhang, Liyao Wu, Zheheng Hong, Wei Xu",
+    "published": "Thu, 03 Sep 2026 00:00:00 -0400"
+  }
+}

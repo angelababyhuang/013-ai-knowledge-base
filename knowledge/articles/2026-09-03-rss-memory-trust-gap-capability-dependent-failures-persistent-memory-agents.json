@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.01852v1",
+  "title": "The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.01852",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-03T08:07:02Z",
+  "analyzed_at": "2026-09-03T08:07:03Z",
+  "organized_at": "2026-09-03T08:10:16Z",
+  "summary": "该研究探讨了持久记忆在个性化AI代理中的信任缺口问题，即过时的存储事实可能覆盖当前权威证据。通过在不同规模的Qwen3模型上评估，发现模型对陈旧记忆的过度信任具有能力依赖性：在安全套件中，较大模型更容易被看似最新的陈旧笔记欺骗，而较小模型则需预先解决冲突才能恢复准确性。研究通过因子实验揭示了标签移除、时间戳等特征对不同规模模型的影响差异，并验证了缓解措施（如暴露元数据）的效果也依赖模型能力。该工作为理解记忆系统在不同能力模型中的风险提供了实证基础，对设计安全的持久记忆代理具有参考价值。",
+  "tags": [
+    "persistent-memory",
+    "trust-gap",
+    "agent-safety",
+    "capability-scaling",
+    "over-trust"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jundong Hu, Shekar Ramachandran",
+    "published": "Thu, 03 Sep 2026 00:00:00 -0400"
+  }
+}

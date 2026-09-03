@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.01962v1",
+  "title": "Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.01962",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-03T08:07:02Z",
+  "analyzed_at": "2026-09-03T08:07:03Z",
+  "organized_at": "2026-09-03T08:10:16Z",
+  "summary": "该论文研究了将Qwen3-4B指令微调模型进行端到端后训练三值化（ternarization）的过程，采用KOTMS旋转、E2M-ATQ三值化和GPTQ风格误差补偿，权重仅量化，激活保持16位精度。最终有效位宽为1.641比特/权重，模型大小从8.29 GiB压缩至3.96 GiB，但任务准确率从64.5%降至54.7%，且不同任务退化不均。论文强调名义上的“1.58位”标签并不能完全反映存储表示、能力保留和运行时行为，并指出压缩并不必然带来推理加速（Triton GEMV微基准比FP16 cuBLAS慢4.6倍）。该工作为超低位宽模型的实际部署提供了细致的量化分析和警示，值得关注其方法细节与评估框架。",
+  "tags": [
+    "ternarization",
+    "post-training-quantization",
+    "qwen3",
+    "llm-compression",
+    "deployment"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Anirudh Malik, M Sparsh Mehra, Poojith Devan",
+    "published": "Thu, 03 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.02059v1",
+  "title": "DocHop: Benchmarking Out-of-domain Multi-hop Reasoning in Information-Dense Documents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.02059",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-03T08:07:02Z",
+  "analyzed_at": "2026-09-03T08:07:03Z",
+  "organized_at": "2026-09-03T08:10:16Z",
+  "summary": "DocHop 是一个用于评估多模态大语言模型（MLLMs）在信息密集文档中进行跨领域多跳推理能力的基准测试。现有基准通常孤立地评估图表或文档问答，而 DocHop 要求模型结合文档叙述中的语义约束，从多个图表中选取并聚合证据，以完成多步推理。该基准通过随机逻辑优先生成流程构建了 2074 个示例，覆盖六类任务，并发现当前最佳模型准确率仅 62.83%，远低于人类 90% 以上的水平，揭示了 MLLMs 在复杂文档推理上的显著短板。该研究为评估和提升模型的多跳文档理解能力提供了受控测试平台，值得关注。",
+  "tags": [
+    "multimodal-llm",
+    "benchmark",
+    "multi-hop-reasoning",
+    "document-understanding",
+    "chart-qa"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhuoran Yu, Le Thien Phuc Nguyen, Jaden Park, Xinyi Gu, Zexue He, Soochahn Lee, Rogerio Feris, Yong Jae Lee",
+    "published": "Thu, 03 Sep 2026 00:00:00 -0400"
+  }
+}

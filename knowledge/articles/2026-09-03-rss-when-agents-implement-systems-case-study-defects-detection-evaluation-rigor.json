@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.01985v1",
+  "title": "When Agents Implement Systems: A Case Study in Defects, Detection, and Evaluation Rigor",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.01985",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-03T08:07:02Z",
+  "analyzed_at": "2026-09-03T08:07:03Z",
+  "organized_at": "2026-09-03T08:10:16Z",
+  "summary": "本文通过一个案例研究，考察了LLM编码代理在实现多组件数据系统时的行为，该系统有详细的预定义规格。代理在实现过程中引入了五类缺陷，文章按违反的约束和检测方法进行了分类。此外，作者在HotpotQA基准上评估了检索过滤策略的权衡，发现过滤检索在预算为3时达到上限，而未过滤检索在预算为10时仅恢复69%的证据，差异显著。文章还讨论了代理自主性的成功与需要纠正之处，包括一个声称的性能修复未在回归测试中重新测量的实例。该研究为评估LLM代理在系统级任务中的可靠性提供了实证方法，对开发者和研究者有参考价值。",
+  "tags": [
+    "llm-coding-agents",
+    "systems-engineering",
+    "defect-analysis",
+    "retrieval-evaluation",
+    "case-study"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Phanindra Reddy Madduru",
+    "published": "Thu, 03 Sep 2026 00:00:00 -0400"
+  }
+}

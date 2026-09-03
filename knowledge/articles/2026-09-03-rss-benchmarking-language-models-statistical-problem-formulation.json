@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.01982v1",
+  "title": "Benchmarking Language Models for Statistical Problem Formulation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.01982",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-03T08:07:02Z",
+  "analyzed_at": "2026-09-03T08:07:03Z",
+  "organized_at": "2026-09-03T08:10:16Z",
+  "summary": "本文针对大语言模型在统计与数据科学辅助中的上游环节——统计问题公式化——提出评估基准。现有评测假设分析目标已明确，而实际用户常以非正式目标和不规范数据开始，模型需自行推断统计任务并识别相关变量。作者将这一过程分解为统计问题分类与变量识别及角色分配两个子任务，并构建了包含1013个样本、覆盖20个粗粒度和85个细粒度类别的StatFormBench基准。测试14个开源与闭源模型，最佳零样本模型在细粒度分类准确率仅72.0%，变量集合重叠度63.2%，且无模型在两个子任务上均最优，提示策略提升有限。该工作填补了LLM统计任务理解评估的空白，对数据科学自动化有重要参考价值。",
+  "tags": [
+    "llm-evaluation",
+    "statistical-problem-formulation",
+    "benchmark",
+    "data-science",
+    "task-understanding"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chen Wang, Junzhe Zhao, Xin Cong, Wanlu Deng, Ke Deng",
+    "published": "Thu, 03 Sep 2026 00:00:00 -0400"
+  }
+}

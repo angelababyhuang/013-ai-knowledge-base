@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.01611v1",
+  "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.01611",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-03T08:07:02Z",
+  "analyzed_at": "2026-09-03T08:07:03Z",
+  "organized_at": "2026-09-03T08:10:16Z",
+  "summary": "EvalDetectBench 是一个用于衡量前沿大语言模型“评估意识”的基准测试，即模型能否识别自己正在被评估。该能力若存在，模型在评估和部署中的行为差异会削弱评估结果的有效性，对 AI 安全框架构成威胁。该基准提供开放流程，兼容任何 Inspect 兼容的评估，并附带新策划的转录套件，覆盖前沿系统卡评估和多种部署来源。它既能测量模型识别评估的可靠性，也能评估单个基准作为评估的可检测性。研究还识别了现有文献中的两个系统性偏差：生成部署转录的模型身份占测量方差的 11.25% 并可能改变模型排名，以及针对某模型的高性能提示在其他模型上可能接近随机。EvalDetectBench 通过每模型探针校准和分层生成者协调程序修正这些偏差。",
+  "tags": [
+    "evaluation-awareness",
+    "llm-benchmark",
+    "ai-safety",
+    "frontier-models",
+    "inspect-compatible"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xinning Li, Kemunto Ochwang'i, Aryasomayajula Ram Bharadwaj, Alexandra Souly, Robert Kirk",
+    "published": "Thu, 03 Sep 2026 00:00:00 -0400"
+  }
+}

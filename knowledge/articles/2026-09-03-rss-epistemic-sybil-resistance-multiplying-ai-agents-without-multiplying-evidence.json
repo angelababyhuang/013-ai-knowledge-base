@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.01873v1",
+  "title": "Epistemic Sybil Resistance: Multiplying AI Agents Without Multiplying Evidence",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.01873",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-03T08:07:02Z",
+  "analyzed_at": "2026-09-03T08:07:03Z",
+  "organized_at": "2026-09-03T08:10:16Z",
+  "summary": "这篇论文提出了“认知女巫攻击”问题：多智能体AI系统通过增加智能体数量来提升推理能力，但新增智能体并不等于新增独立证据，因为不同智能体的报告可能源自同一证据，或独立证据产生相似报告。作者形式化了该问题，并通过高斯共享根模型和超过2万次LLM智能体实验证明，仅靠报告聚合无法区分复制与独立确证，报告数量增加会严重破坏后验校准，而证据根数量增加则能恢复校准。论文还发现智能体提取错误存在相关性，并提出了相关提取聚合器以改善校准。该研究对设计多智能体推理系统具有重要指导意义，值得关注。",
+  "tags": [
+    "multi-agent-systems",
+    "epistemic-sybil",
+    "evidence-aggregation",
+    "llm-inference",
+    "calibration"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Marc Bara",
+    "published": "Thu, 03 Sep 2026 00:00:00 -0400"
+  }
+}

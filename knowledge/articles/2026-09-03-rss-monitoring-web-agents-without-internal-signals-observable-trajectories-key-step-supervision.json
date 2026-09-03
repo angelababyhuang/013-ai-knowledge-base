@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.02057v1",
+  "title": "Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.02057",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-03T08:07:02Z",
+  "analyzed_at": "2026-09-03T08:07:03Z",
+  "organized_at": "2026-09-03T08:10:16Z",
+  "summary": "本文针对网页代理（web agent）在缺乏模型内部不确定性信号（如token logits）时难以监控的问题，提出利用可观测的轨迹信号进行前缀级风险预测。作者设计了宏观特征（跨步骤的代理-环境行为与反馈）和微观特征（通过重复黑盒查询衡量意图、动作与预期状态变化的一致性），并引入关键步骤标注方法，将首个未被纠正且导致最终失败的错误作为边界，从而保留失败轨迹的有效早期前缀作为正常样本。在WebArena-Lite和Online Mind2Web基准上，使用五种开源和闭源骨干模型验证，可观测信号与内部信号基线相当，且支持固定误切预算下的早期干预，并跨网站类别泛化。该研究为无内部信号的代理监控提供了可行方案，值得关注。",
+  "tags": [
+    "web-agent-monitoring",
+    "observable-trajectories",
+    "risk-prediction",
+    "key-step-supervision",
+    "black-box-queries"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sitong Pan, Yipeng Shen, Yilin Lu, Caiwen Ding, Lu Cheng, Qianwen Wang",
+    "published": "Thu, 03 Sep 2026 00:00:00 -0400"
+  }
+}
