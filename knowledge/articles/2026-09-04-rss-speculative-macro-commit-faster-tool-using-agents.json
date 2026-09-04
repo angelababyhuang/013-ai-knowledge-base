@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.03236v1",
+  "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.03236",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-04T08:07:07Z",
+  "analyzed_at": "2026-09-04T08:07:08Z",
+  "organized_at": "2026-09-04T08:10:06Z",
+  "summary": "SMC 是一种针对工具使用型 LLM Agent 的运行时加速机制，解决串行 action-observation 循环带来的高延迟问题。它采用双模型架构：权威 actor 模型生成正式轨迹，快速 drafter 模型在隔离环境快照上预执行未来动作链，并通过从训练轨迹挖掘的宏库匹配动作骨架，当 actor 的下一步动作与预执行动作匹配时，直接提交预执行结果。实验表明，在 tau^2-Bench 和 AppWorld 上相比顺序执行分别降低 18.59% 和 44.9% 延迟，同时保持准确率。该工作将推测执行从单步扩展到多步宏提交，为 Agent 延迟优化提供了新思路，值得关注。",
+  "tags": [
+    "speculative-execution",
+    "agent-latency",
+    "tool-using-agents",
+    "runtime-optimization",
+    "llm-inference"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zeyu Liu, Souvik Kundu, Peter A. Beerel",
+    "published": "Fri, 04 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.03515v1",
+  "title": "What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.03515",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-04T08:07:07Z",
+  "analyzed_at": "2026-09-04T08:07:08Z",
+  "organized_at": "2026-09-04T08:10:06Z",
+  "summary": "该论文研究了解码时KV缓存压缩中时间聚合规则（如EMA）对激进压缩效果的影响，发现EMA使评分函数的排序变化在驱逐集层面几乎不可区分，而KeyDiff等评分器则显著降级。基于此提出InertiaKV及其惰性变体，提升解码吞吐1.34-1.46倍，并探索了无评分解码。论文强调时间聚合和排序保持是独立且重要的设计因素，为KV压缩提供了新视角，值得关注。",
+  "tags": [
+    "kv-cache",
+    "decoding-time-eviction",
+    "temporal-aggregation",
+    "llm-inference",
+    "efficiency"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bo Zeng, Yu Zhao, Yefeng Liu, Zhihong Lu, Xuanfan Ni, Xintong Wang",
+    "published": "Fri, 04 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.03553v1",
+  "title": "GPS-Bench: A Governance Policy Benchmark for Automating Policy Analysis",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.03553",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-04T08:07:07Z",
+  "analyzed_at": "2026-09-04T08:07:08Z",
+  "organized_at": "2026-09-04T08:10:06Z",
+  "summary": "GPS-Bench 是一个用于治理政策模拟的基准测试，旨在解决 LLM 政策分析中缺乏与真实结果对比验证的问题。它通过将政策与相关行为者、行动及下游影响关联起来，利用立法记录、游说披露等公共证据构建基于证据的行为者模型，并提供人工标注的 Gold 集和 LLM 标注的 Silver 集。该基准支持多种推理模式（如联合推理、多智能体通信等），用于评估不同方法在预测政策影响和解释机制上的表现。值得关注的是，它提供了一个受控的实验环境，以研究证据、行为者建模和多智能体交互何时能提升政策结果预测与解释能力。",
+  "tags": [
+    "governance-policy",
+    "benchmark",
+    "multi-agent-simulation",
+    "llm-evaluation",
+    "evidence-grounded"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Linh Le, Melanie Bui, My Chiffon Nguyen, Zachary Schlosser, David Williams-King",
+    "published": "Fri, 04 Sep 2026 00:00:00 -0400"
+  }
+}

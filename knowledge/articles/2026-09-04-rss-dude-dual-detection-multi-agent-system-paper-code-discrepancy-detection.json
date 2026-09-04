@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.03416v1",
+  "title": "Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.03416",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-04T08:07:07Z",
+  "analyzed_at": "2026-09-04T08:07:08Z",
+  "organized_at": "2026-09-04T08:10:06Z",
+  "summary": "Dude 是一个用于检测论文与代码之间不一致性的双检测多智能体系统。它解决了现有单智能体 LLM 范式在上下文容量有限和检测视角单一导致的召回率低的问题，并针对多智能体设计中因语言粒度不对称引发的过度解释和过度报告（假阳性）问题，提出了粒度对齐协商和两阶段显著性过滤机制。实验表明，Dude 在真实数据集上相比基线方法将召回率提升高达 22.8%，F1 分数提升 18.7%。该系统对科研复现和学术诚信审查具有实用价值，展示了多智能体协作在细粒度文本-代码比对任务中的潜力。",
+  "tags": [
+    "multi-agent-system",
+    "paper-code-discrepancy",
+    "llm",
+    "scientific-reproducibility",
+    "negotiation-mechanism"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Weijie Liu, Running Zhao, Wenhao Yuan, Jinfeng Xu, Zhanfeng Xu, Xiaoxi Zhang, Edith Cheuk-Han Ngai",
+    "published": "Fri, 04 Sep 2026 00:00:00 -0400"
+  }
+}

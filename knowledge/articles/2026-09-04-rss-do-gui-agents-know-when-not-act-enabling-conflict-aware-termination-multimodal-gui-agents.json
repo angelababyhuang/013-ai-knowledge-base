@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.03438v1",
+  "title": "Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.03438",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-04T08:07:07Z",
+  "analyzed_at": "2026-09-04T08:07:08Z",
+  "organized_at": "2026-09-04T08:10:06Z",
+  "summary": "本文针对多模态 GUI 智能体在用户指令不可行时仍盲目执行的问题，提出了 CONFLICTGUI 基准和 CONFLICTGUARD 框架。CONFLICTGUI 覆盖指令内部冲突和指令与 GUI 上下文冲突两类场景，揭示了智能体普遍存在的过度顺从行为。CONFLICTGUARD 通过可行性验证协议和条件动作调制机制，在推理时引导智能体先评估指令逻辑与界面证据，再决定是否执行，从而显著提升冲突任务成功率，同时保持正常任务性能。该工作为构建更可靠的 GUI 智能体提供了轻量级干预方案，值得关注。",
+  "tags": [
+    "gui-agent",
+    "conflict-aware",
+    "termination",
+    "multimodal",
+    "inference-time"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhaoyuan Huang, Tianjie Ju, Pengzhou Cheng, Zheng Wu, Yansi Li, Chuanbiao Song, Jun Lan, Huijia Zhu, Weiqiang Wang, Zhuosheng Zhang",
+    "published": "Fri, 04 Sep 2026 00:00:00 -0400"
+  }
+}

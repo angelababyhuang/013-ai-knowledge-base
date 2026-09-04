@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.03493v1",
+  "title": "Making Every Tool Call Count: Necessary Tool-Evidence Path Rewards for Agentic Vision-Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.03493",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-04T08:07:07Z",
+  "analyzed_at": "2026-09-04T08:07:08Z",
+  "organized_at": "2026-09-04T08:10:06Z",
+  "summary": "该论文针对视觉语言模型（VLM）在复杂图像问答中工具调用效率低下的问题，提出了一种新的标注方案NTEP，用于明确每个查询所需的外部证据和工具调用路径，并基于此设计了NTEP-R奖励机制，确保每次工具调用都能推进推理过程。该方法通过奖励预调用意图与必要证据目标的对齐、后调用观察总结与必要证据的对齐，并引入非重复目标正则化器来惩罚冗余调用。实验表明，8B参数的NTEP-8B模型在七个基准上显著提升了搜索准确率和工具使用效率，强调了细粒度工具证据路径监督对训练鲁棒Agentic VLM的重要性。该研究为Agent工具使用的训练提供了新思路，值得关注。",
+  "tags": [
+    "agentic-vlm",
+    "tool-use",
+    "reward-modeling",
+    "vision-language-model",
+    "evidence-path"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xingming Long, Yu Liu, Zhiwei Yang, Hanqi Feng, Shaojie Zhang, Barnabas Poczos, Chao Jiang, Zhenbo Luo, Lei Jiang, Pei Fu",
+    "published": "Fri, 04 Sep 2026 00:00:00 -0400"
+  }
+}

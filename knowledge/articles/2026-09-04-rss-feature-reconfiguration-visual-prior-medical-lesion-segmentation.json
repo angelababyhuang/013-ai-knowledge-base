@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.03535v1",
+  "title": "Feature Reconfiguration With Visual Prior for Medical Lesion Segmentation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.03535",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-04T08:07:07Z",
+  "analyzed_at": "2026-09-04T08:07:08Z",
+  "organized_at": "2026-09-04T08:10:06Z",
+  "summary": "FreNet 是一个用于医学图像病灶分割的特征重配置框架，针对复杂背景干扰和病灶形态多样两大挑战，在编码前利用视觉先验（SAM）进行像素级重配置，在编码中通过双域特征重配置模块（DFR）逐步优化特征。其核心创新包括隐式先验神经网络（IPNN）建模连续空间场以抑制背景，以及频域解耦和空间定位模块增强前景背景判别力。在 9 个基准数据集上显著优于现有方法，尤其 ETIS 数据集 Dice 提升 5.0%，展示了将通用视觉先验与医学分割结合的有效性，值得关注。",
+  "tags": [
+    "medical-image-segmentation",
+    "feature-reconfiguration",
+    "visual-prior",
+    "sam",
+    "frequency-domain"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yinan Liu, Jiankang Hong, Zhen Gao, Ye Lu",
+    "published": "Fri, 04 Sep 2026 00:00:00 -0400"
+  }
+}
