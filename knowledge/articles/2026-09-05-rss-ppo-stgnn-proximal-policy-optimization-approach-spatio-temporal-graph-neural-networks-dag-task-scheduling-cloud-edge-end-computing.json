@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.03503v1",
+  "title": "PPO-STGNN: A Proximal Policy Optimization Approach with Spatio-Temporal Graph Neural Networks for DAG Task Scheduling in Cloud-Edge-End Computing",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.03503",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-05T08:06:10Z",
+  "analyzed_at": "2026-09-05T08:06:11Z",
+  "organized_at": "2026-09-05T08:09:22Z",
+  "summary": "PPO-STGNN 是一种面向云-边-端协同环境中 DAG 任务调度的算法，结合近端策略优化（PPO）与时空图神经网络（STGNN），以应对计算、网络和能耗高度异构带来的 NP-hard 调度问题。它通过 STGNN 同时提取任务拓扑和物理资源图的时空特征，并利用 PPO 优化调度策略，以最小化完成时间和调度长度比，同时改善 CPU 和内存负载均衡。此外，引入多教师行为克隆机制加速收敛。实验表明该方法在动态异构场景下能显著提升负载均衡并保持低完成时间，值得关注是因为它融合了强化学习与图神经网络的先进思路，为资源调度领域提供了新范式。",
+  "tags": [
+    "dag-scheduling",
+    "reinforcement-learning",
+    "graph-neural-network",
+    "cloud-edge-end",
+    "ppo"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yangshuo Qi, Chenwei Wang, Zihan Shen, Songlin Sun",
+    "published": "Sat, 05 Sep 2026 00:00:00 -0400"
+  }
+}
