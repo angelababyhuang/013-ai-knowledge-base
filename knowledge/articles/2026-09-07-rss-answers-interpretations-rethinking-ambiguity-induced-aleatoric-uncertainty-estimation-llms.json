@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.04543v1",
+  "title": "From Answers to Interpretations: Rethinking Ambiguity-Induced Aleatoric Uncertainty Estimation in LLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.04543",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-07T08:09:05Z",
+  "analyzed_at": "2026-09-07T08:09:06Z",
+  "organized_at": "2026-09-07T08:12:13Z",
+  "summary": "该论文重新审视了LLM中由输入歧义引起的偶然不确定性（aleatoric uncertainty）的估计方法。传统方法通过生成多个澄清问题并获取对应答案来估计不确定性，但作者认为答案并非必要，且会引入额外成本和认知泄漏。他们提出了一种仅基于澄清（clarification-only）的方法，直接从可能的解释空间中估计不确定性，无需生成答案。实验表明，该方法在歧义检测任务上AUROC更高（63.34 vs 60.85），计算成本降低4-26倍（输出token）和2.2-3.5倍（API调用），且与认知不确定性的相关性更低。该工作为不确定性量化提供了新视角，有助于提升LLM部署的可靠性。",
+  "tags": [
+    "uncertainty-estimation",
+    "aleatoric-uncertainty",
+    "ambiguity-detection",
+    "llm-reliability",
+    "clarification"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Omer Nahum, Niv Nayman, Jonathan Fhima, Alon Zolfi, Jeremy Levy, Shai Mazor, Paolo Favaro",
+    "published": "Mon, 07 Sep 2026 00:00:00 -0400"
+  }
+}

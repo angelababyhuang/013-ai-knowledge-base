@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.04523v1",
+  "title": "MaxKernel: Agentic Kernel Generation for TPUs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.04523",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-07T08:09:05Z",
+  "analyzed_at": "2026-09-07T08:09:06Z",
+  "organized_at": "2026-09-07T08:12:13Z",
+  "summary": "MaxKernel 是一个面向 TPU 的多智能体内核生成系统，利用 LLM 结合实时编译器反馈，实现高性能自定义内核的自动化开发。该系统提出三种范式：人机协同的 HITL 代理、全自动的指标/追踪驱动优化代理，以及用于全局设计空间探索的图搜索代理，共享规划、实现、调试、测试和硬件剖析等专用子代理。在包含 50 个 TPU 内核任务的 JaxBench 基准及真实开源模型负载上，MaxKernel 生成的实现可媲美专家手工调优基线。该工作展示了 LLM 智能体在硬件加速器底层优化中的巨大潜力，对 AI 编译器与自动化性能工程领域具有重要参考价值。",
+  "tags": [
+    "tpu-kernel",
+    "multi-agent-system",
+    "llm-codegen",
+    "compiler-optimization",
+    "jaxbench"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shangkun Wang, Nina Cai, Charles Hoong, Julian Walker, Gerson Kroiz, George Vanica, Deepak Patil, Andi Gavrilescu, Hassan Sipra, Sethu Sankaran",
+    "published": "Mon, 07 Sep 2026 00:00:00 -0400"
+  }
+}

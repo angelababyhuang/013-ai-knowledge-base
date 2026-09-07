@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.04239v1",
+  "title": "EXAONE Forecast for Finance",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.04239",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-07T08:09:05Z",
+  "analyzed_at": "2026-09-07T08:09:06Z",
+  "organized_at": "2026-09-07T08:12:13Z",
+  "summary": "EXAONE Finance 是 LG AI 研究院提出的金融时间序列基础模型，针对金融预测任务设计。它采用无注意力架构，用因果 1D 卷积和分组感知池化 MLP 替代自注意力，实现线性时间复杂度，并处理长序列、多变量和间歇性缺失数据。模型在包含股票、外汇、商品、加密资产等的大规模金融语料上预训练，在 FinVerse 基准上达到 SOTA。该工作解决了通用时间序列模型在金融领域计算成本高、对缺失数据鲁棒性差的问题，值得关注。",
+  "tags": [
+    "financial-forecasting",
+    "time-series-foundation-model",
+    "attention-free",
+    "linear-time",
+    "missing-data"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Seunghan Lee, Jaehoon Lee, Jun Seo, Tae Yoon Lim, Dongwan Kang, Hwanil Choi, Minjae Kim, Sungdong Yoo, Junhyeok Kang, Sangjun Han, Soonyoung Lee, Wonbin Ahn",
+    "published": "Mon, 07 Sep 2026 00:00:00 -0400"
+  }
+}

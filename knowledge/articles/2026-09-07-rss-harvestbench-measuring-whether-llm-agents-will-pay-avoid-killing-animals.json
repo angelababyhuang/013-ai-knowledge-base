@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.04444v1",
+  "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.04444",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-07T08:09:05Z",
+  "analyzed_at": "2026-09-07T08:09:06Z",
+  "organized_at": "2026-09-07T08:12:13Z",
+  "summary": "HarvestBench 是一个全新的基准测试，首次将\"避免伤害\"量化为可支付的价格，并明确将伤害对象命名为活体动物。它构建了一个农场收割模拟环境，LLM 子代理需要驾驶拖拉机在田地里收割玉米，途中会遇到动物、岩石和干草堆。模型可以选择碾压动物（无燃料成本）或绕行（支付燃料费），通过对比模型对动物与无生命物体的行为差异，以及在不同道德提示下的表现，来衡量模型在目标导向行为中是否愿意为道德付出代价。该基准无需 LLM 评分器，完全基于游戏日志统计，可复现性强，揭示了模型能力与道德决策之间的非相关性，值得关注。",
+  "tags": [
+    "llm-benchmark",
+    "agent-safety",
+    "moral-decision-making",
+    "reinforcement-learning",
+    "side-effects"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jasmine Brazilek, Miles Tidmarsh, Matthias Endres, Anshuman Singh, Jeremiah Miller",
+    "published": "Mon, 07 Sep 2026 00:00:00 -0400"
+  }
+}

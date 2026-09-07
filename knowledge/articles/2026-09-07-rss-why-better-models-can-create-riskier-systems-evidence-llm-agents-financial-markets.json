@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.04373v1",
+  "title": "Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.04373",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-07T08:09:05Z",
+  "analyzed_at": "2026-09-07T08:09:06Z",
+  "organized_at": "2026-09-07T08:12:13Z",
+  "summary": "该论文提出并验证了一个“能力悖论”：在金融等高风险系统中，提升单个LLM的能力反而可能增加系统级风险。作者认为，共享训练数据和架构导致更强大的模型行为更相似，产生无法分散的相关性风险。通过基于LLM交易员的智能体模拟，发现前沿模型行为相关性随能力增强而增加；当共享推理准确时，增加智能体参与降低市场风险，但在共同错误信息环境下，相关性成为负担。该研究对AI系统部署的安全性和可靠性具有重要警示意义。",
+  "tags": [
+    "llm-agents",
+    "systemic-risk",
+    "financial-markets",
+    "correlated-behavior",
+    "capability-paradox"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jillian Ross, Eric So, Zoe De Simone, Charles Pozniak, Andrew W. Lo",
+    "published": "Mon, 07 Sep 2026 00:00:00 -0400"
+  }
+}

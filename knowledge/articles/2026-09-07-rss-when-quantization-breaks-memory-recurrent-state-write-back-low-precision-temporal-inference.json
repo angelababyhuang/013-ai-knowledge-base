@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.04490v1",
+  "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.04490",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-07T08:09:05Z",
+  "analyzed_at": "2026-09-07T08:09:06Z",
+  "organized_at": "2026-09-07T08:12:13Z",
+  "summary": "该论文研究了低精度量化在循环神经网络（RNN）推理中的影响，提出了“循环状态写回”（recurrent-state write-back）概念，即量化后的状态存储规则会改变后续计算。作者在荧光寿命成像的GRU编码器-解码器中，发现用4位状态存储替代连续传播会导致参数估计误差增加70倍和300倍，原因是微小更新低于写阈值导致状态停滞。他们提出误差反馈、残差记忆和方向记忆等无需重训的干预方法可恢复精度，并在LSTM中验证了该现象及干预效果。该研究揭示了状态存储接口是量化循环推理的关键设计因素，对低精度RNN部署具有重要指导意义。",
+  "tags": [
+    "quantization",
+    "recurrent-neural-networks",
+    "low-precision-inference",
+    "state-write-back",
+    "error-feedback"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ismail Erbas, Xavier Intes, Vikas Pandey",
+    "published": "Mon, 07 Sep 2026 00:00:00 -0400"
+  }
+}

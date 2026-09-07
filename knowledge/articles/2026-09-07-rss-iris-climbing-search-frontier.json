@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.04304v1",
+  "title": "Iris: Climbing to the Search Frontier",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.04304",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-07T08:09:05Z",
+  "analyzed_at": "2026-09-07T08:09:06Z",
+  "organized_at": "2026-09-07T08:12:13Z",
+  "summary": "Iris 是两代搜索智能体（Iris-mini 和 Iris-pro），分别基于 35B-A3B 和 397B-A17B 规模的模型训练。其核心创新在于从网络超链接结构反向构造多跳任务，避免字符串匹配，并通过 SFT 与 RL 交替的“SFT-RL climbing”流程优化策略。在 BrowseComp、DeepSearchQA 等基准上取得了开源搜索智能体的最强结果，并计划开源模型权重和完整训练配方。该工作对搜索增强的 LLM 智能体训练具有重要参考价值，展示了数据构造和训练流程设计的系统性方法。",
+  "tags": [
+    "search-agent",
+    "reinforcement-learning",
+    "sft-rl-climbing",
+    "multi-hop-reasoning",
+    "open-source"
+  ],
+  "relevance_score": 0.74,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ziyuan Liu, Hengqi Liu, Zichuan Wang, Yang Qin, Jiachen Liang, Xu Chu, Shaowei Chen, Yuantao Gu, Mu Chuan",
+    "published": "Mon, 07 Sep 2026 00:00:00 -0400"
+  }
+}

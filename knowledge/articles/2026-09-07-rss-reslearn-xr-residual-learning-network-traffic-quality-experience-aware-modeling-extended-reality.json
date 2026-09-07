@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.04493v1",
+  "title": "ResLearn-XR: Residual Learning for Network Traffic and Quality-of-Experience-Aware Modeling in Extended Reality",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.04493",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-07T08:09:05Z",
+  "analyzed_at": "2026-09-07T08:09:06Z",
+  "organized_at": "2026-09-07T08:12:13Z",
+  "summary": "ResLearn-XR 是一个用于扩展现实（XR）网络流量预测与体验质量（QoE）风险评估的残差学习框架。它采用两阶段时序学习结构，在基础序列预测模型之上增加任务特定的残差学习组件，以应对 XR 流量的突发性和非平稳性。该框架在值空间进行连续流量预测，在 logit 空间进行概率性 QoE 风险估计，并引入数据描述符算法（DDA）将加密流量中的包级观测转换为帧时序感知特征。实验表明，相比单阶段基线，其在帧数、帧大小和到达间隔预测上 SMAPE 降低达 17.84%，QoE 风险估计 SMAPE 降低达 87.8%。该工作对网络智能和 XR 应用优化具有参考价值，但需注意其发布时间为 2026 年，可能属于未来或虚构条目。",
+  "tags": [
+    "residual-learning",
+    "xr-traffic",
+    "qoe-estimation",
+    "network-modeling",
+    "time-series"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yoga Suhas Kuruba Manjunath, Jie Gao, Lian Zhao",
+    "published": "Mon, 07 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.04518v1",
+  "title": "What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.04518",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-07T08:09:05Z",
+  "analyzed_at": "2026-09-07T08:09:06Z",
+  "organized_at": "2026-09-07T08:12:13Z",
+  "summary": "该论文研究了多环境强化学习（multi-harness RL）在代码智能体训练中的效果，重点区分了两种因素：暴露策略给多个执行环境（harness），以及在组相对策略优化（GRPO）中如何分组奖励（组内 vs 跨组）。实验基于Qwen3-8B模型，在Aider、OpenHands等四个环境上训练，并用SWE-bench Verified评估。结果发现，评估环境的选择对求解率影响巨大（从2.14%到9.27%），而分组规则的影响不显著，跨组训练并未带来更强的泛化能力。该研究对多环境RL训练的设计和报告有重要启示，值得关注。",
+  "tags": [
+    "multi-harness-rl",
+    "credit-assignment",
+    "coding-agents",
+    "grpo",
+    "generalization"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chenqian Le, Jiayi Cheng, Qijia He, Runhao Li, Yinghao Li, Xupeng Chen",
+    "published": "Mon, 07 Sep 2026 00:00:00 -0400"
+  }
+}

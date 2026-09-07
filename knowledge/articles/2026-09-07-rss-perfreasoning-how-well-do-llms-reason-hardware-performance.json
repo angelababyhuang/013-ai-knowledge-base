@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.04476v1",
+  "title": "PerfReasoning: How Well Do LLMs Reason on Hardware Performance?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.04476",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-07T08:09:05Z",
+  "analyzed_at": "2026-09-07T08:09:06Z",
+  "organized_at": "2026-09-07T08:12:13Z",
+  "summary": "PerfReasoning 是一个用于评估 LLM 在硬件性能建模领域推理能力的基准测试。它针对硬件设计和软件优化中的性能模型构建难题，要求模型既作为直接推理者回答关于映射选择、片外流量和缓冲区需求的问题，又作为代码生成器编写分析性性能模型代码。该基准揭示了当前 LLM 在架构推理上的高准确率（最强闭源模型超90%）与可靠性能模型构建之间的巨大差距（多数配置通过率低于15%），并发现任务特定强化学习能显著提升小模型的推理能力，而自修正提示则效果不稳定。该工作为评估 LLM 在专业工程领域的深度推理提供了新视角，值得关注。",
+  "tags": [
+    "llm-reasoning",
+    "hardware-performance",
+    "benchmark",
+    "performance-modeling",
+    "reinforcement-learning"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dan Zhao, Karthikeyan Sankaralingam, Christos Kozyrakis, Qijing Huang",
+    "published": "Mon, 07 Sep 2026 00:00:00 -0400"
+  }
+}
