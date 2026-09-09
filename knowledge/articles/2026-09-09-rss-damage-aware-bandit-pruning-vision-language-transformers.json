@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05448v1",
+  "title": "Damage-Aware Bandit Pruning for Vision and Language Transformers",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05448",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "该论文提出了一种面向视觉和语言Transformer的结构化剪枝方法，将剪枝单元（注意力头和MLP通道组）的选择建模为损伤感知的多臂老虎机问题。通过在固定评估预算下，利用配对损伤（掩码损失与基础损失之差）作为奖励，采用UCB或分数Beta汤普森采样策略逐步选择要抑制的单元。实验覆盖多种模型和数据集，表明该方法相比预算贪婪选择通常能减少性能退化。该工作为结构化剪枝提供了新的决策框架，值得关注。",
+  "tags": [
+    "structured-pruning",
+    "multi-armed-bandit",
+    "transformer-compression",
+    "vision-language",
+    "post-training"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Salem Ameen, Sunil Vadera",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

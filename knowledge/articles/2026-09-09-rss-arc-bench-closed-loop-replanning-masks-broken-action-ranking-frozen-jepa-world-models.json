@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05461v1",
+  "title": "ARC-Bench: Closed-Loop Replanning Masks Broken Action Ranking in Frozen JEPA World Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05461",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "ARC-Bench 是一个用于审计冻结 JEPA 世界模型中动作排序能力的基准协议。它通过无泄漏的固定候选集，直接测量潜在空间距离排序与真实代价排序的一致性，发现官方 JEPA-WM 检查点在导航和操作任务中普遍存在严重的排序失败。该缺陷在替换视觉骨干（如 V-JEPA）后依然存在，且被闭环重规划机制掩盖：频繁重规划能挽救任务成功率，但掩盖了首次规划的质量问题。该工作揭示了闭环评估的误导性，为潜在空间规划器的改进提供了测量工具和理论解释，值得关注。",
+  "tags": [
+    "jepa",
+    "world-models",
+    "planning",
+    "benchmark",
+    "latent-space"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhengshu Zhang, Zhiyuan Li",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

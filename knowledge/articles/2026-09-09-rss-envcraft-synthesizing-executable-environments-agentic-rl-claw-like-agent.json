@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05576v1",
+  "title": "EnvCraft: Synthesizing Executable Environments in Agentic RL for Claw-like Agent",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05576",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "EnvCraft 是一个自动化框架，用于为 Claw-like 智能体（执行长周期任务的状态化工作区智能体）合成可执行的交互式训练环境。它解决了 Agentic RL 训练中交互环境严重稀缺的瓶颈问题，通过环境合成引擎构建沙箱隔离的工作区，并利用拓扑感知的数据生成引擎产生连贯的任务轨迹。实验表明，该方法在 Claw 风格基准和通用工具使用基准上分别带来最高 +11.9% 和 +8.0% 的性能提升，同时降低推理 token 成本。该工作值得关注，因为它突破了传统合成环境仅限于工具调用端点的局限，为端到端真实世界智能体训练提供了可扩展的解决方案。",
+  "tags": [
+    "agentic-rl",
+    "environment-synthesis",
+    "claw-agent",
+    "training-data-generation",
+    "sandbox-workspace"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yirong Zeng, Shen You, Jinhang Feng, Yufei Liu, Xiao Ding, Yutai Hou, Hao Cong, Yuxian Wang, Wu Ning, Wang Xu, Bibo Cai",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

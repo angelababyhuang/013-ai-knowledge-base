@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05527v1",
+  "title": "Beyond \"AI Helps Humans\": Decision-Targeted Evaluation Design for Human-Agent Teams in the Agentic Era",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05527",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "本文提出 TEAM-Design 规则，用于在固定回放预算下决定哪些任务应优先进行人类单独或智能体单独的回放评估，以判断人机协作工作流是否优于任一单独方案。它解决了现有方法（如智能体基准、方差采样、贝叶斯信息法）不直接针对部署决策的问题。该规则通过为每个任务分配两种回放概率，平衡预测难度、比较难度和回放成本，并证明能控制错误决策概率。在临床和编码基准上的实验表明，当两个比较难度差异明显时效果最佳。值得关注的是其将评估设计视为决策问题的视角，对实际部署人机团队有指导意义。",
+  "tags": [
+    "human-agent-teams",
+    "evaluation-design",
+    "decision-making",
+    "replay-budget",
+    "agentic-era"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hamed Khosravi, Xiaoming Huo",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05446v1",
+  "title": "AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05446",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "AutoFyn 是一个受 Expert Iteration 算法启发的智能体框架，通过更新持久状态而非模型权重来迭代改进冻结模型的表现。每轮从全新会话开始，仅通过持久记忆文件、报告和仓库状态等显式接口传递信息，由编排器协调多个专业智能体探索多种方案，并由任务验证器提供客观奖励信号，将奖励蒸馏回持久状态以更新下一轮策略。该框架在奥林匹克数学、数据科学和网络安全三个领域展示了显著效果，包括在 2026 年 IMO 新题上超越各模型原生产商编码智能体，以及在 Spider 2.0 dbt 基准上取得第一名，并产出多个维护者确认的漏洞公告。其核心价值在于提供了一种不修改模型权重即可提升长时程任务性能的通用范式，对智能体架构设计具有重要参考意义。",
+  "tags": [
+    "expert-iteration",
+    "agent-harness",
+    "long-horizon-agents",
+    "persistent-state",
+    "reward-signal"
+  ],
+  "relevance_score": 0.74,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Adib Hasan, Daniel Schaffield, Akashnil Dutta, Tarik Adnan Moon",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

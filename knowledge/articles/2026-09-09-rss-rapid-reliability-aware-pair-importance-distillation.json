@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05481v1",
+  "title": "RAPID: Reliability-Aware Pair Importance Distillation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05481",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "RAPID 是一种用于知识蒸馏的可靠性感知对重要性蒸馏方法，旨在解决关系蒸馏中全对计算复杂度高和均匀子采样效率低的问题。它通过分离可靠性门控的关系目标和自适应的对提议，利用校准的教师熵和分离的学生-教师残差来评估关系，并通过精确的逆提议校正保证估计的无偏性。实验表明，在文本分类任务上，该方法在有限关系预算下能提升学生模型的准确率，并揭示了目标可靠性和评估优先级是可分离的设计维度。该研究对知识蒸馏领域具有理论和方法上的参考价值。",
+  "tags": [
+    "knowledge-distillation",
+    "pair-importance",
+    "reliability-aware",
+    "relation-distillation",
+    "text-classification"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ali Mahdavi, Azadeh Zamanifar, Amirfarhad Farhadi, Omid Kashefi",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

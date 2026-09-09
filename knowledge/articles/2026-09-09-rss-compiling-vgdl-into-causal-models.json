@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05459v1",
+  "title": "Compiling VGDL into Causal Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05459",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "本文提出一种将视频游戏描述语言（VGDL）编译为动态结构因果模型的确定性框架，旨在解决强化学习智能体依赖虚假相关、大语言模型幻觉游戏规则的问题。该方法不依赖从游戏轨迹或LLM输出中推断因果结构，而是直接将游戏组件（如精灵动态、交互规则、终止条件）转化为显式结构方程，每个游戏tick表示从t到t+1的因果转移，从而保证因果保真度。该框架支持反事实推理、因果强化学习智能体训练和程序化内容验证，为符号游戏描述与因果游戏AI之间建立了原则性桥梁。值得关注的是，它提供了一种从符号规则到因果模型的确定性映射方法，对游戏AI和因果推理研究有参考价值。",
+  "tags": [
+    "causal-model",
+    "reinforcement-learning",
+    "game-ai",
+    "vgdl",
+    "structural-causal-model"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mohit Jiwatode, Bodo Rosenhahn, Alexander Dockhorn",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

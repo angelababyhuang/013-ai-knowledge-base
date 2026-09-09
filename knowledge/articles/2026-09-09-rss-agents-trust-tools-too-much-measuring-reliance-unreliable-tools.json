@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05587v1",
+  "title": "Agents Trust Tools Too Much: Measuring Reliance on Unreliable Tools",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05587",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "该论文研究工具使用型AI代理对不可靠工具输出的过度信任问题。现有评估假设工具返回可靠信息，但现实场景中工具可能返回看似合理实则错误的内容。作者通过三个工具（网络搜索、LLM子代理委派、代码执行）对十四个LLM进行测试，通过故意破坏工具输出来衡量代理的采纳率。结果显示代理普遍存在过度信任，平均采纳率超过三分之一，网络搜索高达68%。更严重的是，代理有时能识别冲突甚至内部恢复正确答案，但最终只呈现错误答案而不向用户警告。论文尝试了三种干预措施（用户提示、工具元数据、后训练），但均无法一致缓解问题。该研究揭示了AI代理安全性的一个关键盲点，对构建可靠Agent系统具有重要警示意义。",
+  "tags": [
+    "ai-agent",
+    "tool-reliability",
+    "overtrust",
+    "llm-evaluation",
+    "agent-safety"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hoyeol Yang, Woojung Song, Taewon Kim, Jonghyun Song, Seoyeon Park, Yohan Jo",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

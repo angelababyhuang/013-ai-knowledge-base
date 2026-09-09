@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05441v1",
+  "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05441",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "该论文提出MERIT基准，用于评估长期记忆对工具使用型LLM代理的边际效用，并显式核算成本。现有记忆基准仅衡量对话回忆，而MERIT通过防泄漏检查、难度阶梯、记忆损坏和token/美元计量，在三个领域进行测试。实验表明，记忆能显著提升依赖任务成功率，但嵌入检索在更新事实场景下不稳定，而结构化存储或LLM摘要等更新时写入的方法更可靠。该研究为记忆系统的成本效益分析提供了新视角，值得关注。",
+  "tags": [
+    "llm-agents",
+    "long-term-memory",
+    "benchmark",
+    "cost-aware",
+    "tool-use"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shweta Mishra, Shashank Mishra",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

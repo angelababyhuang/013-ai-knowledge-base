@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05439v1",
+  "title": "CriticGen: Generation-Aware Evaluation as Actionable Feedback",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05439",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "CriticGen 是一个面向大语言模型的细粒度、生成感知的评估框架，旨在解决现有评估方法粗粒度且与生成过程脱节、无法提供可操作反馈的问题。它首先生成样本特定的评估维度和评分标准，然后基于这些动态标准联合生成分数、理由、可执行的改进建议和精炼后的答案，从而实现针对性的答案改进。实验表明，CriticGen 在评分相关性、理由和建议的质量以及答案改进率上均显著优于基线，证明了细粒度评估应兼具实例特异性和可操作性。该工作为 LLM 的自我评估与优化提供了新思路，值得关注。",
+  "tags": [
+    "llm-evaluation",
+    "fine-grained-evaluation",
+    "actionable-feedback",
+    "self-refinement",
+    "generation-aware"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Huifang Du, Zecheng Zuo, Sen Wang, Chenghao Fan, Haofen Wang, Yehui Yang",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05553v1",
+  "title": "EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05553",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "EdgeMem 提出了一种无需生成式 LLM 调用的 Agent 记忆构建与检索方法。现有方法通常将交互历史压缩为摘要等 LLM 生成表示，这增加了成本并可能丢失未来查询所需的细节。EdgeMem 通过保留原始交互轮次，并利用轻量级本地处理构建多锚点超图，以内容、时间和情景线索进行组织，检索时直接返回源证据，仅在最终答案生成时使用 LLM。在 LoCoMo 和 LongMemEval-S 基准上，EdgeMem 在严格评估下取得最高分（LoCoMo 上 61.01 vs 58.70），且构建和检索无需生成式 LLM，展示了高效且保真的记忆管理新思路。",
+  "tags": [
+    "agent-memory",
+    "hypergraph",
+    "retrieval",
+    "llm-agents",
+    "memory-construction"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zeyang Cui, Jiannong Cao, Zhiyuan Wen, Bo Yuan, Junlan Feng, Shengyuan Chen",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

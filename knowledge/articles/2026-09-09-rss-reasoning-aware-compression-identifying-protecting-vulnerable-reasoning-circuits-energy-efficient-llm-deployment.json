@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05512v1",
+  "title": "Reasoning-Aware Compression: Identifying and Protecting Vulnerable Reasoning Circuits for Energy-Efficient LLM Deployment",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05512",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "该论文针对大型推理模型（LRM）部署中的高能耗问题，提出了一种推理感知的压缩框架。传统量化方法对所有组件统一处理，可能破坏关键的推理电路。该框架通过硬件级GPU能量测量，在五个推理基准上评估量化条件，并识别每个模块的INT4脆弱性，然后选择性地将最敏感的电路恢复为FP16精度。研究发现，INT4量化可能因延长推理链而增加能耗，且脆弱性具有任务依赖性。选择性压缩能达到均匀方法无法实现的帕累托最优，例如在ProofWriter上R1-Qwen-7B Top-10%相比FP16提升12个百分点，同时能耗降低9.7%。该工作为节能型LLM部署提供了新思路，值得关注。",
+  "tags": [
+    "model-compression",
+    "energy-efficiency",
+    "reasoning-models",
+    "quantization",
+    "llm-deployment"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Leonard Twagirayezu, Prasenjit Mitra",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}

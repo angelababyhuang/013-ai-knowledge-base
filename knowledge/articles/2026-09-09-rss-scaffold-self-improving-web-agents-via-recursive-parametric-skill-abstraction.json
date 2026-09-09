@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.05511v1",
+  "title": "SCAFFOLD: Self-Improving Web Agents via Recursive Parametric Skill Abstraction",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.05511",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-09T08:06:56Z",
+  "analyzed_at": "2026-09-09T08:06:57Z",
+  "organized_at": "2026-09-09T08:10:15Z",
+  "summary": "SCAFFOLD 是一个面向视觉 Web 代理的自我改进框架，解决现有代理在跨站点长任务中无法积累和复用程序性知识的问题。它通过多实例抽象约束从成功轨迹中诱导参数化可执行技能，构建递归技能层级，并利用最小描述长度准则和行为等价性检查压缩冗余技能，最后通过蒸馏将技能增强轨迹内化到模型权重中。在 WebArena、VisualWebArena 和 Online-Mind2Web 上，SCAFFOLD 相比最强技能增强基线提升了 11.1-17.2 个绝对成功率点，且经过五轮自我改进仍保持单调增益，展示了其鲁棒性和可扩展性。该工作对 Web 代理的长期学习和技能组合提供了新思路，值得关注。",
+  "tags": [
+    "web-agent",
+    "self-improving",
+    "skill-abstraction",
+    "recursive-hierarchy",
+    "mdl"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bowei He, Xiaokun Zhang, Meng Ding, Xue Liu",
+    "published": "Wed, 09 Sep 2026 00:00:00 -0400"
+  }
+}
