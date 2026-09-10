@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.09578v1",
+  "title": "CityPlanner: A Sandbox Agent for Executable Urban Planning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.09578",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-10T08:07:05Z",
+  "analyzed_at": "2026-09-10T08:07:06Z",
+  "organized_at": "2026-09-10T08:09:48Z",
+  "summary": "CityPlanner 提出一个面向城市空间规划的沙盒智能体框架，核心是 UrbanSandbox——一个基于文件的统一环境，让智能体读取任务文件、生成规划方案、运行评估器并根据可执行反馈迭代修正决策。为解决长轨迹学习困难，作者进一步提出原子任务强化学习，将流程拆分为 BuildPlan（初始构建）与 ImprovePlan（基于反馈的改进）两个子任务。在真实基准上，该方法优于启发式、任务专用 RL 和通用 LLM 智能体基线，展示了 LLM Agent 在可执行、可验证的真实优化任务中的落地潜力。",
+  "tags": [
+    "llm-agent",
+    "urban-planning",
+    "reinforcement-learning",
+    "sandbox-environment",
+    "spatial-optimization"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Wentao Zhang, Jingyuan Wang, Zetong Zhou, Yifan Yang, Wenrui Wang",
+    "published": "Thu, 10 Sep 2026 00:00:00 -0400"
+  }
+}

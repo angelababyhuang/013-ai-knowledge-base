@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.09646v1",
+  "title": "RobustSGPO: Search-Space Control for Agent Harness Evolution",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.09646",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-10T08:07:05Z",
+  "analyzed_at": "2026-09-10T08:07:06Z",
+  "organized_at": "2026-09-10T08:09:48Z",
+  "summary": "该论文针对语义梯度提示优化（SGPO）在智能体 harness 演化中编辑范围与操作选择不明确的问题，提出 RobustSGPO：显式指定编辑请求、构造并校验补丁，并可从当前解或保留快照继续搜索。作者在 AgentX 头脑风暴工作流上用 120 个任务、95 次运行、7350 次候选尝试评估了权限调度、累积控制与任务族迁移，发现周期性 1→2→3 调度优于固定最大权限，且 RobustSGPO 在 2000 万 token 预算下将留出任务完成率从 60% 提升到 80%、测试质量从 3.77 提升到 4.14。该工作为智能体 harness 的自动化提示优化提供了可执行编辑与搜索空间控制的新思路，对做 Agent 自演化和提示工程的团队有参考价值。",
+  "tags": [
+    "prompt-optimization",
+    "agent-harness",
+    "search-space-control",
+    "self-evolution",
+    "llm-agents"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zibo Zhao, Jijun Shi, Mo Zhou, Zhongyuan Wang, Shifu Bie, Yunfei Zhang, Xuanting Zhou, Xiangyu Wu, Bin Liu, Ruiming Tang, Wenwu Ou, Kun Gai",
+    "published": "Thu, 10 Sep 2026 00:00:00 -0400"
+  }
+}

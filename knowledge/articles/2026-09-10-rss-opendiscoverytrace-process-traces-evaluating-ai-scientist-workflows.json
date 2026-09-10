@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.09203v1",
+  "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.09203",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-10T08:07:05Z",
+  "analyzed_at": "2026-09-10T08:07:06Z",
+  "organized_at": "2026-09-10T08:09:48Z",
+  "summary": "OpenDiscoveryTrace 是一个面向自主 AI 科学家工作流的公开数据集，包含 558 条完整科学智能体轨迹，覆盖药物发现、材料科学、基因组学和文献分析等 124 项任务，并记录每步 9 个结构化字段（思考、工具调用、观察、错误、修正触发、自报置信度等）。它针对现有基准只看最终输出、无法审计推理过程与失败模式的缺陷，首次系统性地暴露过程级行为差异：三个前沿模型成功率相近（84–89%），但 Claude Opus 4.6 的每轨迹错误数达 GPT-5.4 的 30 倍，且错误类型分布截然不同。数据集还给出五个基准任务及逻辑回归、随机森林、LSTM、Transformer 基线，并以 CC BY 4.0 开放，对过程级评估、科学智能体审计与 AI 治理研究具有直接价值。",
+  "tags": [
+    "ai-scientist",
+    "agent-trajectories",
+    "process-evaluation",
+    "benchmark-dataset",
+    "scientific-agents"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aayam Bansal, Keertan Balaji",
+    "published": "Thu, 10 Sep 2026 00:00:00 -0400"
+  }
+}

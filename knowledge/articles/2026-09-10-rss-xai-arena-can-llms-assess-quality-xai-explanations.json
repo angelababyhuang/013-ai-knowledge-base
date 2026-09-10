@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.09428v1",
+  "title": "XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.09428",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-10T08:07:05Z",
+  "analyzed_at": "2026-09-10T08:07:06Z",
+  "organized_at": "2026-09-10T08:09:48Z",
+  "summary": "该论文提出 XAI-Arena，一个基于 LLM-as-a-judge 的框架，用于对可解释 AI（XAI）生成的解释质量进行可复现、可扩展的多维度评估。它针对现有 XAI 评估依赖主观人工判断、难以复现和横向比较的痛点，从简洁性、清晰度、任务适配性、信任校准、可操作性、透明度、忠实度和整体可解释性八个维度打分，并支持不同利益相关者角色。人类验证显示 LLM 评分与人工评分显著正相关（Spearman rho=0.693），说明 LLM 可作为 XAI 评估的规模化替代方案，对做可解释性和评估研究的团队有参考价值。",
+  "tags": [
+    "llm-as-a-judge",
+    "explainable-ai",
+    "evaluation-framework",
+    "xai",
+    "interpretability"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yanfei Hu Fleischhauer, Alona Zharova, Nadja Klein, Stefan Feuerriegel",
+    "published": "Thu, 10 Sep 2026 00:00:00 -0400"
+  }
+}

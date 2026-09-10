@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.09647v1",
+  "title": "Black-Box Red Teaming of Agentic AI: A Taxonomy-Driven Framework for Automated Risk Discovery",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.09647",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-10T08:07:05Z",
+  "analyzed_at": "2026-09-10T08:07:06Z",
+  "organized_at": "2026-09-10T08:09:48Z",
+  "summary": "该论文提出了一套面向 Agentic AI 的黑盒红队测试框架，针对多步自主智能体在读取不可信输入、调用真实权限工具时暴露的安全风险。核心贡献包括七域风险分类法、全自动 SAGE-RT 红队场景生成（每域 120 个对抗场景）以及基于 LLM 评判的人工验证评估。在 CrewAI 与 AutoGen 两种架构、四种基座模型上的实验揭示了治理风险 56.25%、多智能体隐私风险 65%、行为漏洞高达 85% 等严峻问题，为无需特权访问的规模化 Agent 安全评估提供了可落地路径。",
+  "tags": [
+    "red-teaming",
+    "agentic-ai",
+    "ai-safety",
+    "llm-evaluation",
+    "security"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Divyanshu Kumar, Nitin Aravind Birur, Tanay Baswa, Sahil Agarwal, Prashanth Harshangi",
+    "published": "Thu, 10 Sep 2026 00:00:00 -0400"
+  }
+}

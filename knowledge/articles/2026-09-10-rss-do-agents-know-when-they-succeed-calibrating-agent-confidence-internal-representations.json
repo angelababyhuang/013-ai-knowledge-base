@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.09448v1",
+  "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.09448",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-10T08:07:05Z",
+  "analyzed_at": "2026-09-10T08:07:06Z",
+  "organized_at": "2026-09-10T08:09:48Z",
+  "summary": "该论文研究多轮智能体（Agent）任务中如何判断其最终能否成功，提出两种基于模型内部表征的置信度校准方法：LTD（Latent Trajectory Dynamics）通过汇总残差流表征在交互轨迹中的变化，ARP（Action Representation Probe）则从动作决策时刻的表征预测成功概率。在 Bash、SQL、Python 三个交互基准和 Qwen14B、Qwen7B、DeepSeek6.7B 三个模型上，方法均优于表层生成与序列校准基线，且无需修改提示或多次采样，为零开销可靠性监控提供了新思路，对安全关键场景下的 Agent 部署有直接价值。",
+  "tags": [
+    "agent-reliability",
+    "confidence-calibration",
+    "internal-representations",
+    "llm-agents",
+    "uncertainty-estimation"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Priyanka Mary Mammen, Emil Joswin, Srujananjali Medicherla",
+    "published": "Thu, 10 Sep 2026 00:00:00 -0400"
+  }
+}
