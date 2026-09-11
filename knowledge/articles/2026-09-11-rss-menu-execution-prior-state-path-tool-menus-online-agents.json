@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.09395v1",
+  "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.09395",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-11T08:07:04Z",
+  "analyzed_at": "2026-09-11T08:07:04Z",
+  "organized_at": "2026-09-11T08:09:41Z",
+  "summary": "该论文提出将 Agent 可用的工具菜单视为一种「执行先验」（execution prior），而非简单的请求相关性排序。作者引入「状态路径」（state path）概念，即从当前可观测状态到目标结果的执行前路径，并据此学习 State-Path Tool Menu：编码器判断哪些工具可从当前状态运行、其输出如何满足后续输入，检索器覆盖可执行入口与缺失输入的生成工具，重排器确保生产者先于消费者。在 ToolBench 上，在线成功率从 0.737 提升至 0.898，且用 32 个工具的菜单即可覆盖官方 128 工具列表更完整的调用链，跨不同执行器模型均有效。",
+  "tags": [
+    "tool-use",
+    "agent-planning",
+    "tool-retrieval",
+    "execution-prior",
+    "state-path"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bo Yan, Weikai Lin, Song Wang",
+    "published": "Fri, 11 Sep 2026 00:00:00 -0400"
+  }
+}

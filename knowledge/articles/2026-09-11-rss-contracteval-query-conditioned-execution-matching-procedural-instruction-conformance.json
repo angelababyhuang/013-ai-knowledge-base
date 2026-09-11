@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.09458v1",
+  "title": "ContractEval: Query-Conditioned Execution Matching for Procedural Instruction Conformance",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.09458",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-11T08:07:04Z",
+  "analyzed_at": "2026-09-11T08:07:04Z",
+  "organized_at": "2026-09-11T08:09:41Z",
+  "summary": "ContractEval 针对 LLM Agent 执行流程性任务时的隐性失败问题：最终回答看似合理，但系统跳过了必要的检查、分支、依赖或不变式。该框架将程序性指令表示为「查询激活的义务」，并与回答或执行轨迹证据进行匹配，从而把遗漏、错误分支、顺序错误、多余动作、不变式违反和输出契约违规区分为不同的合规失败类型。在受控审计套件上，仅看输出或看轨迹的 LLM 评判器会漏掉大量注入的结构性失败，而 ContractEval 能全部检测并定位。它使程序合规性变得可审计，而非隐含在最终答案质量中，对构建可靠 Agent 工作流的团队有直接参考价值。",
+  "tags": [
+    "agent-evaluation",
+    "procedural-conformance",
+    "llm-agents",
+    "execution-tracing",
+    "reliability"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Praphul Singh, Shanu Kumar, Akshat Agarwal, Ganesh Kumar",
+    "published": "Fri, 11 Sep 2026 00:00:00 -0400"
+  }
+}
