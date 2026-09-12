@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.10654v1",
+  "title": "A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.10654",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-12T08:06:02Z",
+  "analyzed_at": "2026-09-12T08:06:03Z",
+  "organized_at": "2026-09-12T08:08:34Z",
+  "summary": "该论文提出一个多阶段规则链式框架，用于解决 ARC（抽象与推理语料库）这类需要从少量样例中归纳抽象规则的认知泛化任务。框架由三个互补求解器组成：确定性规则发现模块（基于几何、颜色、物体分析归纳原子变换）、模式组合引擎（通过块合并、重复与空间启发式重建输出）以及结构抽象层（推断网格间的层次与嵌套关系），三者按渐进式回退层级顺序运行并复用先前推理轨迹。作者报告在 ARC-AGI-2 的 240 个测试任务中解决 230 个，整体准确率超过 95%，且不依赖任务特定调优，为符号推理与模式合成的结合提供了可解释路径。",
+  "tags": [
+    "arc-agi",
+    "neuro-symbolic-reasoning",
+    "rule-chaining",
+    "compositional-reasoning",
+    "interpretability"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Deblina Kar",
+    "published": "Sat, 12 Sep 2026 00:00:00 -0400"
+  }
+}

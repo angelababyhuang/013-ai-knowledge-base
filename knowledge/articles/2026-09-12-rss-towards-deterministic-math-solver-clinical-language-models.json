@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.10728v1",
+  "title": "Towards a Deterministic Math Solver for Clinical Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.10728",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-12T08:06:02Z",
+  "analyzed_at": "2026-09-12T08:06:03Z",
+  "organized_at": "2026-09-12T08:08:34Z",
+  "summary": "该论文针对临床计算器中 LLM 算术不可靠的问题，提出 Program-Solve 接口：模型不直接计算，而是生成针对具体病例的 Python 代码，由受限本地执行器作为确定性求解器运行，模型只负责决定如何使用。作者在 MedCalc-Bench Verified（1100 例、55 个计算器）上，用 Qwen2.5-7B 与 32B-AWQ 对比直接算术、手写 22 计算器库，并审计出 16 个公式存在版本或系数问题。结果显示执行器在 7B 上无显著优势，在 32B 上有显著提升（90.53% vs 83.47%），说明收益依赖模型能力，且不能替代已验证公式与变量抽取。",
+  "tags": [
+    "clinical-llm",
+    "program-synthesis",
+    "deterministic-execution",
+    "math-reasoning",
+    "benchmark-evaluation"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Felipe Ocampo Osorio, Sebasti\\'an Andr\\'es Cajas Ordo\\~nez, Maximin Lange, Rafi Al Attrach, Sahil Kapadia, Zakaria Laouabdia Sellami, Angelo Antonio Talio, Leo Anthony Celi",
+    "published": "Sat, 12 Sep 2026 00:00:00 -0400"
+  }
+}

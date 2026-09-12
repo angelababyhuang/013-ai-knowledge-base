@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.10629v1",
+  "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.10629",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-12T08:06:02Z",
+  "analyzed_at": "2026-09-12T08:06:03Z",
+  "organized_at": "2026-09-12T08:08:34Z",
+  "summary": "该论文提出一个端到端多智能体框架，将自然语言描述的组合优化问题自动转化为 QUBO（二次无约束二值优化）形式，涵盖变量识别、约束建模、目标函数与惩罚项设计等步骤。作者同时发布 QUBOBench 基准，包含 12 个应用领域的 100 道组合优化题，框架准确率达 68%，比单次调用基线高 22%，并发现迭代自修复是性能提升的关键。对量子计算与 LLM 交叉方向的研究者具有参考价值。",
+  "tags": [
+    "qubo",
+    "multi-agent",
+    "llm-reasoning",
+    "combinatorial-optimization",
+    "benchmark"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Niloy Kumar Mondal, Md Rizwan Parvez",
+    "published": "Sat, 12 Sep 2026 00:00:00 -0400"
+  }
+}

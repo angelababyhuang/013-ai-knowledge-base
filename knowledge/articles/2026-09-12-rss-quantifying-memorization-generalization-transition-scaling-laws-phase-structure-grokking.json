@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.10657v1",
+  "title": "Quantifying the Memorization-to-Generalization Transition: Scaling Laws and Phase Structure in Grokking",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.10657",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-12T08:06:02Z",
+  "analyzed_at": "2026-09-12T08:06:03Z",
+  "organized_at": "2026-09-12T08:08:34Z",
+  "summary": "该论文系统刻画了神经网络从记忆到泛化的延迟转变（grokking）在超参数空间中的定量结构。作者在模运算任务上训练 384 组双隐层 MLP 配置，拟合出泛化起始时间的幂律缩放关系 T_grok ∝ H^-0.27 D^-2.04 η^-0.50 λ^-0.64，发现数据复杂度（D 指数 -2.04）而非模型容量是主导因素，并在权重衰减 λ≳1.0 处发现尖锐相边界。该工作为预测和控制过参数化网络中的训练阶段转变提供了可量化的经验基础，对理解 LLM 训练中的相变与正则化选择有参考价值。",
+  "tags": [
+    "grokking",
+    "scaling-laws",
+    "phase-transition",
+    "regularization",
+    "training-dynamics"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Anish Kataria",
+    "published": "Sat, 12 Sep 2026 00:00:00 -0400"
+  }
+}

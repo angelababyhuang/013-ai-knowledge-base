@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.11060v1",
+  "title": "Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.11060",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-12T08:06:02Z",
+  "analyzed_at": "2026-09-12T08:06:03Z",
+  "organized_at": "2026-09-12T08:08:34Z",
+  "summary": "该论文提出「环境探测式记忆策展」（environment-probing curation），让异步记忆策展 agent 在任务结束后拥有最小权限的只读世界工具，用于校验、限定范围并刷新候选记忆，从而避免仅凭已完成轨迹策展时固化错误、过度泛化或保留过期知识。方法无需重训模型，也不改动任务 agent、检索器、记忆表示与生产写入权限。在类生产的 GitHub Copilot 测试环境中，CLBench 通过率从 39% 提升至 73%，查询数与任务成本显著下降，APEX 六个场景全部正向。",
+  "tags": [
+    "agent-memory",
+    "memory-curation",
+    "enterprise-agents",
+    "tool-use",
+    "long-horizon-agents"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Susheel Suresh, Hazel Mak, Sahil Bhatnagar, Chhaya Methani, Alejandro Gutierrez Munoz",
+    "published": "Sat, 12 Sep 2026 00:00:00 -0400"
+  }
+}

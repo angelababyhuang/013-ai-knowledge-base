@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.10992v1",
+  "title": "Demystifying the Privacy-Utility Trade-off in LLM Interactions",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.10992",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-12T08:06:02Z",
+  "analyzed_at": "2026-09-12T08:06:03Z",
+  "organized_at": "2026-09-12T08:08:34Z",
+  "summary": "该论文系统拆解了 LLM 交互中的隐私-效用权衡，提出三个机制：上下文相关效用（依据用户意图判断何时脱敏）、策略性适配（依据任务对事实完整性还是结构一致性的依赖决定删除还是替换）、组合交互（属性间语义依赖与冗余关系扩展保护范围）。基于此提出意图驱动的本地保护框架，蒸馏出轻量模型 Veilmind-4B 驱动动态抽取-脱敏-恢复流水线，在低泄漏的同时显著优于现有隐私基线，推动权衡向帕累托前沿移动。",
+  "tags": [
+    "privacy-preserving",
+    "llm-interaction",
+    "pii-sanitization",
+    "model-distillation",
+    "pareto-frontier"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhenhua Liu, Zhanxu Xie, Junjie Yu, Tong Zhu, Lijun Li, Wenliang Chen",
+    "published": "Sat, 12 Sep 2026 00:00:00 -0400"
+  }
+}

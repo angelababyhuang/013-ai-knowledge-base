@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.11127v1",
+  "title": "KuaiRP Series Role-playing Models Technical Report",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.11127",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-12T08:06:02Z",
+  "analyzed_at": "2026-09-12T08:06:03Z",
+  "organized_at": "2026-09-12T08:08:34Z",
+  "summary": "KuaiRP 系列角色扮演模型技术报告，针对专用角色扮演模型提出完整训练方案。核心矛盾在于注入深度领域知识会严重损害模型的通用 Agent 能力（灾难性遗忘）。作者设计多阶段流水线：标准化角色模板与基于用户行为模拟、反向画像过滤的 SFT 数据管线；RL 阶段用规则化复合奖励函数抑制长度膨胀与重复生成；最后提出两阶段 On-Policy Distillation（OPD）配合累积散度衰减（CDD）的自蒸馏范式，以领域适配模型为教师、原始基座为学生，恢复通用能力。实验显示其在目标领域角色扮演保真度上媲美 SOTA 闭源模型，同时保留通用 Agent 能力且部署成本极低。",
+  "tags": [
+    "role-playing-model",
+    "catastrophic-forgetting",
+    "on-policy-distillation",
+    "reinforcement-learning",
+    "llm-training"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yipeng Wang, Ziwei Zhang, Jiahui Zhang, Qi Gan, Kai Sheng",
+    "published": "Sat, 12 Sep 2026 00:00:00 -0400"
+  }
+}

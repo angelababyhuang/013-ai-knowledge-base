@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.11065v1",
+  "title": "MOSAIC: Query-Aware Exploration Policy Adaptation for GraphRAG",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.11065",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-12T08:06:02Z",
+  "analyzed_at": "2026-09-12T08:06:03Z",
+  "organized_at": "2026-09-12T08:08:34Z",
+  "summary": "MOSAIC 针对 GraphRAG 中所有查询共用同一套图探索流程的结构性错配问题，提出免训练框架，把检索建模为逐查询的控制问题：由 LLM 分析器将查询的证据需求转译为对种子选择、图遍历、停止条件和证据筛选的有界策略，而语料图、索引、打分函数与答案生成器保持共享。在 GraphRAG-Bench 上，Medical 与 Novel 的加权答案正确率分别达 76.97 和 64.33，较此前最佳提升 5.13 与 4.43 分，并比最强固定策略高 9.96 分，同时减少 81.9% 的路径评估与 47.2% 的证据保留，且在 HotpotQA 等多跳基准上可零训练迁移。",
+  "tags": [
+    "graphrag",
+    "retrieval-augmented-generation",
+    "query-adaptive-retrieval",
+    "graph-traversal",
+    "llm-agent"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "EunKyeong Lee, Kyeong-Jin Oh, Jinwon Kim, Hye Woo Lee, Minsang Song, Hyeongjun Jang, Junyoung Youn",
+    "published": "Sat, 12 Sep 2026 00:00:00 -0400"
+  }
+}

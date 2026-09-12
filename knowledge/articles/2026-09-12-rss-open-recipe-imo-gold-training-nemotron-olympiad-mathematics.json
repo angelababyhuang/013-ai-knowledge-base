@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.10712v1",
+  "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.10712",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-12T08:06:02Z",
+  "analyzed_at": "2026-09-12T08:06:03Z",
+  "organized_at": "2026-09-12T08:08:34Z",
+  "summary": "该工作基于 Nemotron 3 Ultra 训练了两个数学奥赛专用检查点（SFT + RL），并系统研究了检查点选择、验证与精修对自然语言证明生成的影响，最终构建出一套完全依赖自然语言、无需形式化证明器或外部工具的测试时计算流水线。系统在 IMO 2026 上取得 42 分中的 30 分，达到金牌线，并开源了检查点、训练数据、代码、提交解答及 200 道新题的 Nemotron-IMO-Bench。对关注 LLM 推理、测试时扩展与数学能力后训练的团队而言，这是一份难得的端到端可复现配方。",
+  "tags": [
+    "olympiad-math",
+    "test-time-compute",
+    "reinforcement-learning",
+    "llm-reasoning",
+    "open-model"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ivan Moshkov, Stephen Ge, George Armstrong, Wei Du, Sadegh Mahdavi, Igor Gitman",
+    "published": "Sat, 12 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.10873v1",
+  "title": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.10873",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-12T08:06:02Z",
+  "analyzed_at": "2026-09-12T08:06:03Z",
+  "organized_at": "2026-09-12T08:08:34Z",
+  "summary": "该论文研究具身智能体持续学习中的\"更新准入\"问题：独立评估虽能拒绝有害策略更新，却也可能扼杀有价值的持续学习机会。作者指出基于区间置信度的门控在给定交互预算下无法证明旧任务行为未变，并提出配对二项检验、认证历史参考提升及轮级错失机会指标来降低验证负担。在一维推动诊断任务（32 个随机种子）中，新方法在每阶段 2000 回合预算下可接纳 31.6% 的更新流，而区间门控为零。该工作为持续学习的安全更新准入提供了可审计协议，但物理机器人与 VLA 验证仍待完成。",
+  "tags": [
+    "continual-learning",
+    "embodied-agents",
+    "update-admission",
+    "evaluation-protocol",
+    "safety"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Qinzhen Ma, Ruihai Wu",
+    "published": "Sat, 12 Sep 2026 00:00:00 -0400"
+  }
+}

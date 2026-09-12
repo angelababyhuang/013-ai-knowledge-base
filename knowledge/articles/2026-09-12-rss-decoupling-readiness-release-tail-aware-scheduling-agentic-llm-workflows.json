@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.10964v1",
+  "title": "Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.10964",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-12T08:06:02Z",
+  "analyzed_at": "2026-09-12T08:06:03Z",
+  "organized_at": "2026-09-12T08:08:34Z",
+  "summary": "该论文针对 Agentic LLM 工作流（模型推理与工具调用交替的多轮序列）提出了一种尾部风险感知的 turn 释放调度方法。现有运行时通常在某个 turn 就绪后立即提交执行，在资源竞争下会积累大量已释放但未完成的工作，导致工作流级调度器失去重排能力，尾延迟恶化。作者用均值-CVaR 目标刻画未完成工作流的尾部风险，结合在线工作量估计与自适应释放预算，在轻载下与即时释放相当，在拥塞下将 P95 流时间最多降低 3.50 倍。对构建 Agent 推理服务与调度系统的工程师有直接参考价值。",
+  "tags": [
+    "llm-serving",
+    "agent-workflows",
+    "scheduling",
+    "tail-latency",
+    "cvar"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bochao Feng, Jianjiang Li, Haojie Wang, Lin Qiao, Yinghui Li, Yukun Yan, Jidong Zhai",
+    "published": "Sat, 12 Sep 2026 00:00:00 -0400"
+  }
+}
