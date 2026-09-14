@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.12105v1",
+  "title": "Language Is an Insufficient Substrate for Quantitative Reasoning, and Consequential Domains Need Large Quantitative Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.12105",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "该论文提出一个根本性论点：语言是人类对世界的\"有损编码\"，任何规模的 LLM 都无法从描述中恢复未被编码的定量信息，因此高风险定量决策（风险定价、资本配置、患者分诊、入侵检测）不应寄望于 LLM 的持续进步。作者将问题形式化为训练表示本身的属性而非模型容量问题，并指出后果性场景还要求可复现性、输出到源记录的完整血缘、以及校准的不确定性，这些是语言基座在构造上无法提供的。据此提出\"大型定量模型（LQM）\"这一独立模型类别，为 AI 在金融、医疗、安全等领域的落地提供了批判性视角与替代路线。",
+  "tags": [
+    "quantitative-reasoning",
+    "llm-limitations",
+    "calibrated-uncertainty",
+    "model-architecture",
+    "high-stakes-ai"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Reuben Vandeventer, David Imrem, David J. Wild",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}

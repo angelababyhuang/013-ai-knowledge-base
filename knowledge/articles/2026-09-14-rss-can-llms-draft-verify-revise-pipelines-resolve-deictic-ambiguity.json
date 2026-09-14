@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.12162v1",
+  "title": "Can LLMs in Draft-Verify-Revise Pipelines Resolve Deictic Ambiguity?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.12162",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "该论文研究 draft-verify-revise（草稿-验证-修订）多阶段 LLM 编排模式中的指代歧义问题：当上下文在阶段间级联传递时，不同阶段的模型可能对\"previous\"这类依赖语境的表达产生不同的指代解读，即发生\"指示转移\"（deictic shift），导致验证与修订阶段基于错误前提工作。作者用 10 个基础样例、3 种条件构造合成数据集，测试 3 家厂商 6 个模型、21 种推理强度配置，并用 e-values 做序贯检验。结果显示平衡准确率跨度极大（0.156 至接近完美），GPT-5.2 从无推理的 0.156 升至最高推理强度的 0.942，而 Gemini 3 Pro 在所有强度下均保持 0.94 以上，且低推理强度即超过 GPT-5.2 的 xhigh 且成本仅约 5%。对构建多智能体流水线的工程师而言，这是一份关于上下文传递隐性失效模式的实证警示。",
+  "tags": [
+    "draft-verify-revise",
+    "deictic-ambiguity",
+    "multi-agent-pipeline",
+    "context-engineering",
+    "llm-evaluation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Obinna I. Ekekezie",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.12265v1",
+  "title": "GTA: Graph Theory Agent and Benchmark for Algorithmic Graph Reasoning with LLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.12265",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "该论文针对 LLM 在图上执行多步算法推理的可靠性问题，提出 GT Bench 基准，覆盖 24 类经典图问题、44 种任务-结构组合、超 10 万样本，并采用自然语言、结构化语言、邻接表、邻接矩阵四种表示。评测八个 LLM 后发现准确率高度依赖输入表示，且最优表示随图密度、规模、拓扑和模型而变。作者进一步提出 GTA 智能体，用偏好训练的表示选择器配合 plan-and-decompose 脚手架驱动冻结的执行 LLM，在 easy/hard 划分上分别将 Phi-4 从 53.5%/33.0% 提升至 69.1%/41.5%，并可零重训迁移到 GraCoRe 与 NLGraph。",
+  "tags": [
+    "graph-reasoning",
+    "llm-agent",
+    "benchmark",
+    "representation-learning",
+    "plan-and-decompose"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zixiang Xu, Yanbo Wang, Chenxi Wang, Lang Gao, Zirui Song, Yue Huang, Zhaorun Chen, Xiangliang Zhang, Xiuying Chen",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}

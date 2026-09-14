@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.11987v1",
+  "title": "Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.11987",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "该论文通过一个私有、防污染的 256 任务套件，对同一模型在不同 agent harness（如 claude-agent-sdk 与 deepagents、openai-codex SDK 与 deepagents）下的表现做配对对比，检验“厂商原生 harness 更优”这一普遍假设。结果显示两种 harness 的平均优势均不显著（Opus 4.8 为 -1.25pp，GPT-5.5 为 +1.25pp），但 Opus 上出现仓库任务与竞赛任务方向相反的分层效应，且中立 harness 每解决一任务的成本高出 1.2–1.6 倍。研究还公开了编排器、评分 oracle 与重分析代码，对 agent 评测方法论和 harness 选型有直接参考价值。",
+  "tags": [
+    "agentic-coding",
+    "harness-evaluation",
+    "benchmark-contamination",
+    "llm-agents",
+    "cost-analysis"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mohsen Arjmandi",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}

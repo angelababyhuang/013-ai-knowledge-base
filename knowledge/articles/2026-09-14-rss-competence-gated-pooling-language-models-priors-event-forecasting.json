@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.12101v1",
+  "title": "Competence-Gated Pooling of Language Models and Priors for Event Forecasting",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.12101",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "该论文研究混合预测中语言模型与外部信号（市场、群体、统计预测）的融合问题，提出应以\"相对能力\"（模型在已有外部预测之上的边际价值）而非独立准确率作为使用依据。作者在 Brier 损失下推导了模型分歧何时能改进外部预测，并设计了一个\"能力门控\"机制：从已解决结果中估计领域级源权重，将不确定估计向全局权重收缩，再对融合预测做重校准。在 2357 个已解决二元问题和五个语言模型上，该方法将主基线 Brier 从 0.0771 降至 0.0732，显著优于全局融合，但在 ForecastBench 市场子集上基本让位于市场；同时发现语言模型的言语置信度无法可靠识别其相对优势。",
+  "tags": [
+    "llm-forecasting",
+    "hybrid-forecasting",
+    "model-ensembling",
+    "calibration",
+    "uncertainty-quantification"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aditi Tiwari, Aashrith Bandaru, Heng Ji",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}

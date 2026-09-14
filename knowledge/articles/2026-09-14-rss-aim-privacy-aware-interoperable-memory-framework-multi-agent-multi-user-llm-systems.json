@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.12320v1",
+  "title": "AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.12320",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "AIM 提出面向多智能体、多用户 LLM 系统的隐私感知互操作记忆框架，通过动态将信息分类为私有（仅所有者可检索）或公共（所有用户可访问），并在索引层实施访问控制，从而在保护敏感数据的同时实现跨用户知识共享。论文同时发布 MUMBench，首个覆盖检索、创建、更新、删除四类记忆操作的多用户记忆基准，含四个领域数据。实验显示可见性分类准确率 96.0%，严格操作准确率 58.8%，状态感知操作准确率 70.5%，为多用户 Agent 记忆的隐私与共享平衡提供了可评估的基线。",
+  "tags": [
+    "multi-agent-memory",
+    "privacy-preserving",
+    "llm-agents",
+    "access-control",
+    "benchmark"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zachary Johnson, Nigel Boachie Kumankumah, Somya Chatterjee, Tejas Sathyamurthi, Min Chen, Xinyi Alice Li, Xiao Wang, Emily Morgan Gelchie, Jessica Lin, Sadid A. Hasan, Sulaiman Vesal",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}

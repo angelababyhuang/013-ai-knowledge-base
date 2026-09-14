@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.11977v1",
+  "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.11977",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "Occamy-1.0 是在 Qwen3.6-35B-A3B 后训练检查点基础上继续训练得到的 35B 级 co-work（协同工作）智能体模型，针对多轮模型调用中信息收集、工具使用、编码与文件操作等长程工作流。其核心洞察是日常办公任务更依赖状态跟踪、协调、错误恢复与任务跟进，而非前沿级推理，因此成本与延迟的累积效率比峰值能力更关键。团队构建了执行落地的数据与环境，采集可回放的长程轨迹，并采用分阶段后训练巩固互补的执行能力。该模型在多个 co-work 基准上处于同规模最强之列，并在成本-性能帕累托前沿的低成本拐点处，同时开源了模型权重与部分训练数据。",
+  "tags": [
+    "co-work-agents",
+    "agentic-post-training",
+    "long-horizon-tasks",
+    "cost-efficiency",
+    "open-weights"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Wenhui Chen, Shiwen Cheng, Hao Dong, Chenda Duan, Ruixiang Feng, Zhong Guan, Boqiang Guo, Xueyuan Han, Haojie Hao, Liangmeng Huang, Zhelong Huang, Xinke Kong, Hongyu Li, Jiazheng Li, Junbo Li, Qingchuan Li, Yukun Lian, Chang Liu, Tianyu Liu, Zicheng Liu, Shuyi Ouyang, Yijun Pan, Kunyu Shi, Xiaojun Tang, Bingquan Wang, Kesu Wang, Yuchen Wang, Sibo Wei, Sicong Xie, Xiaoying Xing, Yi Xu, Zhijun Xu, Hongwei Xue, Qingcheng Zeng, Di Zhang, Guannan Zhang, Haochen Zhang, Tianlong Zhang, Tianyu Zhao, Tianyu Zhao, Yanjun Zheng, Jialong Zhu, Zijian Zou",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}

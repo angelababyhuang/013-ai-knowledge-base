@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.12247v1",
+  "title": "Soft Symbol Grounding for Prototypical Concepts",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.12247",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "该论文提出 Soft-PNet，针对神经符号模型中因仅监督最终标签而导致的\"推理捷径\"问题——即模型能预测正确标签却学到错误中间概念。现有原型网络方法依赖手工设计、任务特定的可微损失来耦合感知与推理，迁移成本高。Soft-PNet 将概念接地重构为在预计算可行符号解缓存上的 Metropolis 游走，用每个概念单个标注锚点构建的原型分布引导，并以统一的 KL 目标训练，跨任务无需重新设计损失，在 MNIST-EvenOdd、Visual Sudoku 和 Kand-Logic 上以更少监督和训练时间达到与损失工程方法相当的效果。",
+  "tags": [
+    "neuro-symbolic",
+    "concept-grounding",
+    "prototypical-networks",
+    "reasoning-shortcuts",
+    "weak-supervision"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Marcos Galv\\'an-L\\'opez, Nijesh Upreti, Hiram Calvo, Carlos Aguilar-Ib\\'a\\~nez, Vaishak Belle",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}

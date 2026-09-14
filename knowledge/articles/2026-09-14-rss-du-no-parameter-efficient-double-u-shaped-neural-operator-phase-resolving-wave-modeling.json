@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.12115v1",
+  "title": "DU-NO: A Parameter-Efficient Double U-Shaped Neural Operator for Phase-Resolving Wave Modeling",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.12115",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "DU-NO 是一种参数高效的双 U 形神经算子，用于相位解析波浪建模。它针对 FUNWAVE-TVD 等传统求解器精度高但计算昂贵、难以支撑集合预报与实时预警的问题，在谱算子基础上仅在编码器和解码器最浅的两层接入轻量卷积 U-Net 分支，以捕捉只存在于细网格上的高波数成分，并用深度衰减模态调度将参数量压到 3.64M。在公开基准上，其自回归 rollout 误差比 U-FNO 低 14.9%，参数少 10.8 倍，并在 Navier-Stokes 与 PDEBench 浅水任务上保持竞争力，对科学计算与算子学习方向有参考价值。",
+  "tags": [
+    "neural-operator",
+    "pde-solver",
+    "wave-modeling",
+    "parameter-efficient",
+    "scientific-machine-learning"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Enrique Hernandez Noguera, Md Meftahul Ferdaus, Nathan Cooper, Elias Ioup, Mahdi Abdelguerfi",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}

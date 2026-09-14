@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.12313v1",
+  "title": "Do Influence-Derived Data Perturbations Enable Machine Unlearning? A Controlled Study of Three Plausible Roles",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.12313",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "该论文对 Deep Perturbation Learning（DPL）在机器遗忘中的三种角色（直接删除信号、保效用正则项、对抗遗忘热启动）做了受控对照实验。作者审计公开实现时发现两个正确性缺陷：图像扰动方向在增强归一化张量上计算却作用于原始图像，标签扰动低于 float32 精度导致标签实际未变。修正后在 CIFAR-10/ResNet-18 上 DPL 在三个配对种子下均未通过直接删除判据，效用影响符号不一致，计入方向计算时间后还不如简单热启动基线。论文同时发布了角色匹配评估协议与审计清单，对机器遗忘领域的方法声称与复现具有警示价值。",
+  "tags": [
+    "machine-unlearning",
+    "influence-functions",
+    "data-perturbation",
+    "reproducibility",
+    "evaluation-protocol"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chenkai Wu, Chrispine Kambimbi, Qinyang Zeng, Jun Yan",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.12116v1",
+  "title": "When Successful Knowledge Graph Edits Displace Correct Answers: Rank-Level Locality beyond Parameter Support",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.12116",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "本文研究知识图谱嵌入（KGE）模型编辑中的\"排序位移\"问题：即使编辑成功提升了目标答案，也可能把原本正确的答案挤出返回列表，而仅基于复用被编辑参数的事实做局部性测试会漏掉这种排序层面的副作用。作者提出覆盖三种范围的通用排序位移审计方法，并推导了在精确保持选定分数不变的前提下改进目标答案的维度与几何条件。在 FB15k-237 上用 DistMult 和 ComplEx 实验表明，直接提升虽总能把目标推入前十，但仅约 23% 的编辑不造成损害；严格保持仅 1.3-1.4% 成功，而支持正则化实体编辑联合成功率最高（36.3-37.7%），排序截断保持可将平均被位移答案数从约 14 降到 1.2。该工作提示 KGE 编辑评估应同时报告修正成功率与排序位移的发生率和严重程度。",
+  "tags": [
+    "knowledge-graph-embedding",
+    "model-editing",
+    "rank-displacement",
+    "locality",
+    "evaluation-metrics"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yi-Cheng Lai, Jerry Wang, Hsin-Ling Hsu, Li-Chu Chi, Ya-Wen Teng, Hen-Hsen Huang",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.12165v1",
+  "title": "GLARE: Generative Learning via Adversarial Reward Estimation For Social Dynamics Forecasting",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.12165",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-14T08:07:33Z",
+  "analyzed_at": "2026-09-14T08:07:34Z",
+  "organized_at": "2026-09-14T08:10:21Z",
+  "summary": "该论文提出 MDFB（Meeting Dynamic Forecasting Benchmark），基于 2,207 场真实会议与 24,794 条前瞻性查询，评测模型在给定对话前缀与当前问题下一次性生成多轮会议续写的能力，关注任务效用与拟人度而非精确复现未来。作者进一步提出 GLARE，将对抗模仿学习引入条件语言生成：判别器将真实续写排在当前策略采样之上，其分数经 KL 正则化后作为策略奖励，并用当前策略负样本重训使奖励景观随策略演化。实验显示 GLARE 在效用与拟人度上的人类评估胜率分别达 0.66 与 0.70，优于 SFT 与 SPIN，但仍低于真实人类续写。",
+  "tags": [
+    "adversarial-imitation-learning",
+    "meeting-forecasting",
+    "benchmark",
+    "social-dynamics",
+    "reward-modeling"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tenghao Huang, Zhaoxuan Tan, Muhao Chen, Jonathan May, Mengting Wan, Longqi Yang, Pei Zhou, Sihao Chen",
+    "published": "Mon, 14 Sep 2026 00:00:00 -0400"
+  }
+}
