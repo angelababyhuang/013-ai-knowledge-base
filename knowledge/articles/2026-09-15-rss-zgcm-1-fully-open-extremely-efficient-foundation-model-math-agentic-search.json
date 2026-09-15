@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.13356v1",
+  "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.13356",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-15T08:07:32Z",
+  "analyzed_at": "2026-09-15T08:07:33Z",
+  "organized_at": "2026-09-15T08:10:28Z",
+  "summary": "ZGCM-1 是一个完全开源的 7B 稠密基础模型，从零训练，主打数据、系统与算法三个层面的极致效率。其核心思路是让紧凑模型不靠被动记忆开放网络，而是通过内部思考与外部工具调用结合来突破参数容量限制，支持 256K 上下文。技术上采用交错门控滑窗与全注意力、稳定的 FP8 Muon 优化器、16K/64K/256K 渐进式课程与 MDP 式中训练，并用 agent 集群自主管理集群运维与数据治理。在数学推理与 agentic search 上可与 Qwen3-235B-A22B、GLM-5.1 等大数十倍的模型竞争，预训练 time-to-loss 效率提升约 4.2 倍，且开源权重、检查点、训练代码与数据配方。",
+  "tags": [
+    "foundation-model",
+    "math-reasoning",
+    "agentic-search",
+    "long-context",
+    "open-weights"
+  ],
+  "relevance_score": 0.73,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiyan He, Guang Liang, Hao Liu, Haoxiang Guan, Jinbo Sun, Junyi Guo, Wenjun Feng, Yantai Xie, Yifei Shen, Bin Shao, Chuyang Wei, Kai Chen, Kexin Zhou, Minghang Zhu, Shuxin Zheng, Tie-Yan Liu, Taine Zhao, Wenhui Zhu, Xueyin Xu, Xiaoqing Zhang, Yatao Li, Yuxuan Ren",
+    "published": "Tue, 15 Sep 2026 00:00:00 -0400"
+  }
+}

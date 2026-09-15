@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.13457v1",
+  "title": "TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.13457",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-15T08:07:32Z",
+  "analyzed_at": "2026-09-15T08:07:33Z",
+  "organized_at": "2026-09-15T08:10:28Z",
+  "summary": "TimeThink 针对时序多模态大模型（TS-MLLM）在问答中难以捕捉动态时序模式、只给出隐式推理而缺乏可解释依据的问题，提出一套合成数据驱动的组合式时序推理框架。其核心洞察是趋势、季节性等时序基元与领域无关且可确定性生成，因此先用合成生成器产出原子与组合问答对及带推理链的客观真值，再用可验证奖励强化学习（RLVR）训练模型显式推理，使其学到组合逻辑而非模仿模板。仅用合成数据训练即在合成与真实基准上显著超越强基线，对医疗等高风险时序应用有参考价值。",
+  "tags": [
+    "timeseries-llm",
+    "compositional-reasoning",
+    "rlvr",
+    "synthetic-data",
+    "multimodal-llm"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sudarshan Regmi, Arvind Pillai, Yu Yvonne Wu, Yuliang Chen, Bibek Panthi, Tess Z. Griffin, Michael V. Heinz, Lisa Marsch, Nicholas C. Jacobson, Andrew Campbell",
+    "published": "Tue, 15 Sep 2026 00:00:00 -0400"
+  }
+}

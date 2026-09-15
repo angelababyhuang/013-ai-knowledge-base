@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.13463v1",
+  "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.13463",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-15T08:07:32Z",
+  "analyzed_at": "2026-09-15T08:07:33Z",
+  "organized_at": "2026-09-15T08:10:28Z",
+  "summary": "该论文将长时程 AI Agent 失败诊断重新定义为「搜索问题」：执行轨迹中根因证据稀疏、分散且与可见失败脱节，导致现有基于 LLM 的一次性判断方法在长轨迹上准确率骤降。作者提出 Continual Search 迭代框架，通过多轮引导让诊断器持续搜寻未解决的证据，并构建 MegaRCA-Mix 大规模基准（50 条人工标注的长时程失败轨迹）。实验显示该方法在多个基准和模型家族上稳定提升归因性能，MegaRCA-Mix 上 GPT-5.5 的 F1 从 0.349 提升到 0.498（+40%），且低阶模型可借有效搜索反超高阶模型，说明搜索策略比模型规模更关键。",
+  "tags": [
+    "agent-reliability",
+    "root-cause-analysis",
+    "long-horizon-tasks",
+    "llm-diagnosis",
+    "iterative-search"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Harsh Raj, David Lee, Anas Mahmoud, Renxiong Wang, Razvan-Gabriel Dumitru, Chenguang Wang, Tong Zhao, Yunzhong He, Darvin Yi, Vipul Gupta",
+    "published": "Tue, 15 Sep 2026 00:00:00 -0400"
+  }
+}

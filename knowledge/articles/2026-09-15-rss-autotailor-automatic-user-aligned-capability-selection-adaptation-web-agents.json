@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.13548v1",
+  "title": "AutoTailor: Automatic, User-Aligned Capability Selection and Adaptation for Web Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.13548",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-15T08:07:32Z",
+  "analyzed_at": "2026-09-15T08:07:33Z",
+  "organized_at": "2026-09-15T08:10:28Z",
+  "summary": "AutoTailor 是一个面向 Web Agent 的元代理框架，用于自动构建和维护精简、与用户需求对齐的 MCP 工具集。它把网页轨迹转化为参数化浏览器自动化程序，先经质量过滤剔除粒度过粗/过细及冗余 API，再用使用可能性过滤保留高通用性能力；线上通过动态重选监控任务结果与 API 使用情况，补充覆盖缺口并剪除长期闲置能力。在 WebArena Postmill 的 106 个任务上，API 从 1283 个压缩到 87 个、再动态收敛到 33 个，配合 ReAct 回退达到 90.6% 正确率，同时请求 token 成本降低 57.8%、延迟降低 29.4%，展示了工具集精简对 Web Agent 效率与成本的实际收益。",
+  "tags": [
+    "web-agents",
+    "mcp",
+    "tool-selection",
+    "agent-efficiency",
+    "context-optimization"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xinyun Cao, Adriana Szekeres, Fazle Elahi Faisal",
+    "published": "Tue, 15 Sep 2026 00:00:00 -0400"
+  }
+}

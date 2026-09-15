@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.13422v1",
+  "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.13422",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-15T08:07:32Z",
+  "analyzed_at": "2026-09-15T08:07:33Z",
+  "organized_at": "2026-09-15T08:10:28Z",
+  "summary": "该论文构建了 Vibe Patenting 端到端专利撰写测试平台，用独立调用的 LLM 评审员对 AI 生成的专利草稿进行结构化打分并驱动迭代修改。实验发现评审引导的迭代能持续提升评审打分质量，且能让低成本低推理模型逼近昂贵高推理模型的表现，但评审与专业专利律师的独立评估仅呈中等且高度依赖指标的一致性，存在系统性校准偏差。该工作为 LLM-as-judge 在专业工作流中的可靠性与优化信号价值提供了实证证据，对构建 Agent 评估体系有参考意义。",
+  "tags": [
+    "llm-as-judge",
+    "agent-evaluation",
+    "patent-drafting",
+    "iterative-refinement",
+    "professional-workflow"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Toshiaki Koike-Akino, Vlad Blaykhman, Ye Wang, Jing Liu, Gene V. Vinokur",
+    "published": "Tue, 15 Sep 2026 00:00:00 -0400"
+  }
+}

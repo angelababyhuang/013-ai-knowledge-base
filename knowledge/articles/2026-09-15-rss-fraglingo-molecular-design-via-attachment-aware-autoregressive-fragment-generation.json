@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.13519v1",
+  "title": "Fraglingo: Molecular Design via Attachment-Aware Autoregressive Fragment Generation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.13519",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-15T08:07:32Z",
+  "analyzed_at": "2026-09-15T08:07:33Z",
+  "organized_at": "2026-09-15T08:10:28Z",
+  "summary": "Fraglingo 是一种基于片段的分子生成模型，将片段身份与连接方式统一建模在连续隐空间中，通过预测「带连接感知的片段嵌入」并用最近邻检索选出下一个片段，解决了传统方法把片段选择与连接预测拆开、受限于固定词表的问题。其 wildcard-anchored readout 从当前活性连接位点视角编码分子上下文，使生成可覆盖骨架延伸、取代基替换、指定位点修饰等化学家常用编辑操作。亮点在于推理时无需重训练即可扩展片段库（最高 4 倍），并在性质条件生成基准上取得更强的联合性质控制。",
+  "tags": [
+    "molecular-design",
+    "fragment-based-generation",
+    "autoregressive-model",
+    "latent-space-retrieval",
+    "drug-discovery"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Thao Nguyen, Jeonghwan Kim, Zhenhailong Wang, Heng Ji",
+    "published": "Tue, 15 Sep 2026 00:00:00 -0400"
+  }
+}

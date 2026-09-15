@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.13543v1",
+  "title": "Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.13543",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-15T08:07:32Z",
+  "analyzed_at": "2026-09-15T08:07:33Z",
+  "organized_at": "2026-09-15T08:10:28Z",
+  "summary": "该论文针对 LLM Agent 在长时程任务（如急诊科整班次管理）中暴露的执行失败问题，提出 Clinical Environment Simulator（CES）测试床，并归纳出三类失败模式：指令遵循漂移、治疗不完整、及时性上的严重度公平性差距。作者提出 Asclepius——一种自适应 Agent 脚手架，包含可在班次间根据轨迹反馈自我演化的操作手册、外部化临床技能库，以及三个隔离子 Agent 分担患者队列决策。在未见批次上关键动作正确率提升 22%，全量十批次上提升 25%，及时性提升 13%，且三类失败模式构成耦合瓶颈，需三组件协同才见效。",
+  "tags": [
+    "long-horizon-agents",
+    "agent-scaffolding",
+    "clinical-agents",
+    "self-evolving-harness",
+    "multi-agent"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Grace Chang Yuan, Xiaoman Zhang, Sung Eun Kim, Luyang Luo, Pranav Rajpurkar",
+    "published": "Tue, 15 Sep 2026 00:00:00 -0400"
+  }
+}

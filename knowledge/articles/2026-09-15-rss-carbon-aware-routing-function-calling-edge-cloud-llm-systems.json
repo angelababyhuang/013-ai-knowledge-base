@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.13559v1",
+  "title": "Carbon-Aware Routing for Function Calling in Edge-Cloud LLM Systems",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.13559",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-15T08:07:32Z",
+  "analyzed_at": "2026-09-15T08:07:33Z",
+  "organized_at": "2026-09-15T08:10:28Z",
+  "summary": "该论文提出面向函数调用（function calling）的碳感知路由框架，将查询在边缘-云三层异构硬件上分发，用轻量 k-NN 预测器在统一语义-词汇嵌入空间中估计各边缘层的准确率、延迟与功耗，再结合实时电网碳强度选择最低排放且能成功执行的层级。在主流函数调用基准与 LLM 家族上，它达到与纯云端相当的准确率，同时平均减少 4 倍运营碳排放。对关注 Agent 推理成本、绿色 AI 与边缘部署的工程师有参考价值。",
+  "tags": [
+    "carbon-aware-routing",
+    "function-calling",
+    "edge-cloud",
+    "llm-serving",
+    "green-ai"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aikaterini Maria Panteleaki, Varatheepan Paramanayakam, Spyros Tragoudas, Iraklis Anagnostopoulos",
+    "published": "Tue, 15 Sep 2026 00:00:00 -0400"
+  }
+}

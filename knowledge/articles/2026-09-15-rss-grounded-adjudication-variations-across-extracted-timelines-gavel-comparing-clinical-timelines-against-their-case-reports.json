@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.13475v1",
+  "title": "Grounded Adjudication of Variations across Extracted TimeLines (GAVEL): Comparing Clinical Timelines Against Their Case Reports",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.13475",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-15T08:07:32Z",
+  "analyzed_at": "2026-09-15T08:07:33Z",
+  "organized_at": "2026-09-15T08:10:28Z",
+  "summary": "GAVEL 提出一种基于 LLM 评判的临床时间线对比协议，将两条从病例报告中抽取的事件时间线与原始报告三方对照，为每处差异输出差异类型、裁决和对应报告原文段落，从而避免把任一抽取结果当作绝对真值。作者用 GPT-5.6sol 与 DeepSeek V3.2 审查了 2,738 条发现，对六个 LLM 抽取器和两名人工标注者排序，并验证了引导式合并。结果显示合并后时间线在 77% 的对比中更受偏好，每条报告的差异数从 7.63 降至 0.85，为临床信息抽取评估提供了不依赖完美参考标注的新范式。",
+  "tags": [
+    "llm-as-judge",
+    "clinical-nlp",
+    "information-extraction",
+    "evaluation-methodology",
+    "timeline-extraction"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jack Cummins, Sayantan Kumar, Ketan Tamirisa, Jeremy C. Weiss",
+    "published": "Tue, 15 Sep 2026 00:00:00 -0400"
+  }
+}
