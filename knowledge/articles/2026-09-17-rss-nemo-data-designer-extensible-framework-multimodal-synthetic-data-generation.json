@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.17699v1",
+  "title": "NeMo Data Designer: An Extensible Framework for Multimodal Synthetic Data Generation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.17699",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-17T08:07:23Z",
+  "analyzed_at": "2026-09-17T08:07:24Z",
+  "organized_at": "2026-09-17T08:09:59Z",
+  "summary": "NeMo Data Designer 是 NVIDIA 开源的通用多模态合成数据生成框架，通过声明式配置定义数据集的每一列，支持文本、代码、结构化输出、图像、嵌入及统计采样器等列类型，并可用插件系统扩展。它把合成数据生成视为迭代过程，内置预览-修订循环，运行时自动解析依赖、调度模型端点调用并重试失败请求，配置本身是可检查、可复现的工件。该框架已用于 Nemotron 模型开发和生产级企业部署，对需要大规模构建高质量训练/评测数据集的团队具有直接参考价值。",
+  "tags": [
+    "synthetic-data",
+    "multimodal",
+    "data-generation",
+    "nemo",
+    "framework"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Johnny Greco, Nabin Mulepati, Andre Manoel, Eric Tramel, Kirit Thadaka, Mike Knepper, Dhruv Nathawani, Dane Corneil, Yev Meyer, Alex Watson, Maarten Van Segbroeck",
+    "published": "Thu, 17 Sep 2026 00:00:00 -0400"
+  }
+}

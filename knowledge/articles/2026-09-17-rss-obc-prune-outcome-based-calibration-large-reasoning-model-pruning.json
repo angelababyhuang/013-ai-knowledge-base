@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.17890v1",
+  "title": "OBC-Prune: Outcome-Based Calibration for Large Reasoning Model Pruning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.17890",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-17T08:07:23Z",
+  "analyzed_at": "2026-09-17T08:07:24Z",
+  "organized_at": "2026-09-17T08:09:59Z",
+  "summary": "OBC-Prune 针对大型推理模型（LRM）剪枝中的校准数据问题提出改进：现有方法用模型自身 rollout 做校准，但把所有推理 token 一视同仁，导致错误推理路径的权重也被保留，剪枝后准确率下降且推理链变长。该工作构造难度匹配的正确/错误 rollout 对，通过干预分析估计每句推理的因果重要性，再转化为 per-token 权重去缩放 SparseGPT、Wanda、ALPS 等一次性剪枝方法的校准激活，不改变剪枝算法本身。在 DeepSeek-R1-Distill-Qwen 1.5B/7B/14B 上 40%/50% 稀疏度下于 MATH500、LiveCodeBench、AIME 2025 取得一致提升，为推理模型压缩提供了新思路。",
+  "tags": [
+    "model-pruning",
+    "reasoning-models",
+    "calibration",
+    "causal-importance",
+    "llm-compression"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ha Lan Nguyen, Huy Hoang Tran, Trac-Duy Tran, Dung D. Le",
+    "published": "Thu, 17 Sep 2026 00:00:00 -0400"
+  }
+}

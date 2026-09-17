@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.17632v1",
+  "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.17632",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-17T08:07:23Z",
+  "analyzed_at": "2026-09-17T08:07:24Z",
+  "organized_at": "2026-09-17T08:09:59Z",
+  "summary": "EvolveTrade 提出一种自演化框架，把工具调用型 LLM 交易代理的系统提示词视为可文本参数化的策略，在固定底层 LLM 的前提下，由 Policy Agent 依据累积的决策轨迹与真实组合收益反馈定期改写该策略，用于下一批交易决策。实验覆盖多种市场状态与两个 LLM 骨干，多数设置下夏普比率与累计收益优于固定策略基线，并通过行为分析显示自演化策略增加了代码化分析与行情相关计算。该工作为 LLM Agent 在动态环境中持续优化可复用工具使用流程提供了可借鉴的范式。",
+  "tags": [
+    "llm-agents",
+    "self-evolving-agents",
+    "prompt-optimization",
+    "trading-agents",
+    "tool-use"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sehee Kim, Yumin Choi, Minki Kang, Sung Ju Hwang",
+    "published": "Thu, 17 Sep 2026 00:00:00 -0400"
+  }
+}

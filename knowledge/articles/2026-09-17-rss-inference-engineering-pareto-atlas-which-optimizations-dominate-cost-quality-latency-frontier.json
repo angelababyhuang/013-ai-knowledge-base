@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.17863v1",
+  "title": "The Inference Engineering Pareto Atlas: Which Optimizations Dominate the Cost, Quality, and Latency Frontier?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.17863",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-17T08:07:23Z",
+  "analyzed_at": "2026-09-17T08:07:24Z",
+  "organized_at": "2026-09-17T08:09:59Z",
+  "summary": "该论文构建了 LLM 推理优化的成本-质量-延迟帕累托图谱，针对不同部署约束识别最优配置。作者在 L4、A100、H100 三种 GPU 上测量了 Qwen2.5-7B-Instruct 在 vLLM 0.12 下的 54 种配置，并用这些锚点校准模拟器，跨批次漂移低于 1.5%。质量评估覆盖 FP16、AWQ 4bit、FP8 权重和 FP8 KV cache，发现 AWQ 4bit 虽将每 token 延迟降至 0.34 倍但损失 5.9% GSM8K 严格准确率，而 FP8 权重保留 99.4% 准确率且延迟降至 0.61-0.65 倍；朴素 FP8 KV cache 吞吐正常但 200 题全错。该工作为推理优化选型提供了可量化的权衡框架，对部署工程师极具参考价值。",
+  "tags": [
+    "llm-inference",
+    "quantization",
+    "pareto-optimization",
+    "vllm",
+    "benchmarking"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Srikanta Datta Tumkur, Jay Iyer, Mehar Simhadri, Sai Pavan Kumar, Sai Kapil Kumar, Ramesh Nampelly",
+    "published": "Thu, 17 Sep 2026 00:00:00 -0400"
+  }
+}

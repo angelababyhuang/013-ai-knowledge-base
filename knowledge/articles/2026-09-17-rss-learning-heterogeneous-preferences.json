@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.17847v1",
+  "title": "Learning Heterogeneous Preferences",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.17847",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-17T08:07:23Z",
+  "analyzed_at": "2026-09-17T08:07:24Z",
+  "organized_at": "2026-09-17T08:09:59Z",
+  "summary": "该论文研究主观偏好学习问题，指出传统 RLHF 假设全体人群共享一个通用效用函数、将标注者分歧视为随机噪声的做法在主观领域（如审美）会失效。作者基于理性选择理论提出「个体化效用函数」，同时以个体及其决策上下文为条件，并设计多阶段架构从多模态数据中估计该函数。他们在新采集的 57.5 万条汽车轮毂设计成对美学判断（2398 名参与者）上验证，个体化效用模型显著优于通用效用模型及基础模型基线，说明分歧反映的是有意义的偏好异质性而非标注噪声。",
+  "tags": [
+    "rlhf",
+    "preference-learning",
+    "reward-model",
+    "personalization",
+    "human-feedback"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shiwali Mohan, Matt Hong, Dule Shu, Aniek Fransen, Shabnam Hakimi, Matt Klenk",
+    "published": "Thu, 17 Sep 2026 00:00:00 -0400"
+  }
+}

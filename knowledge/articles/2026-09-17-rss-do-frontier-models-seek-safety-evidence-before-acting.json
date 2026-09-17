@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.17865v1",
+  "title": "Do Frontier Models Seek Safety Evidence Before Acting?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.17865",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-17T08:07:23Z",
+  "analyzed_at": "2026-09-17T08:07:24Z",
+  "organized_at": "2026-09-17T08:09:59Z",
+  "summary": "该论文研究前沿模型在行动前是否主动获取安全证据这一更早的决策点，提出 SAFE 基准，让模型在检索成本、概率、严重性和呈现方式可变的条件下做部署决策。实验覆盖 GPT-5.5、o3、Claude Opus 4.8 与 Sonnet 4.6，发现各模型形成截然不同的取证策略：Opus 近乎默认检查，o3 最倾向跳过且对阈值敏感，另两者居中。研究还揭示行为与解释的错位——证据框架能显著改变决策却很少被提及，而概率常被引用却影响微弱，说明部署期安全不仅取决于模型如何应对已知风险，还取决于它是否愿意获取判断安全所需的证据。",
+  "tags": [
+    "safety-evaluation",
+    "agent-decision-making",
+    "benchmark",
+    "frontier-models",
+    "evidence-acquisition"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Omer Tafveez",
+    "published": "Thu, 17 Sep 2026 00:00:00 -0400"
+  }
+}

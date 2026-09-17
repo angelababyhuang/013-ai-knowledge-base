@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.17688v1",
+  "title": "CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.17688",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-17T08:07:23Z",
+  "analyzed_at": "2026-09-17T08:07:24Z",
+  "organized_at": "2026-09-17T08:09:59Z",
+  "summary": "CapMem 提出用文本字幕（caption）作为可复用的情景记忆，以解决可穿戴助手在自我中心视频中面临的帧预算受限、视觉 token 成本高和长上下文检索失败问题。作者定义了 Episodic Memory Video Caption QA 任务，并构建了包含 75 个视频（33.7 小时）和 1000 道多选题的人工标注基准。实验显示，在超过 20 分钟的长视频上，30 秒/60 秒窗口的全覆盖 CaptionQA 在多数模型上优于直接 VideoQA，配合检索-验证框架还能再提升最多 5.3 个百分点，为长视频情景推理提供了低成本替代路径。",
+  "tags": [
+    "egocentric-video",
+    "episodic-memory",
+    "video-qa",
+    "benchmark",
+    "caption-based-retrieval"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dingli Liang, Yiqiao Xie, Yukai Huang, Zhaokai Wang, Weitong Cai, Guangwen Feng, Jifei Song, Zhensong Zhang, Hang Zhang",
+    "published": "Thu, 17 Sep 2026 00:00:00 -0400"
+  }
+}

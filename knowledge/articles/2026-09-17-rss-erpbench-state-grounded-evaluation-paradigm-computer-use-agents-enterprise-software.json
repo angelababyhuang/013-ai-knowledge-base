@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.17885v1",
+  "title": "ERPBench: A State-Grounded Evaluation Paradigm for Computer-Use Agents in Enterprise Software",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.17885",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-17T08:07:23Z",
+  "analyzed_at": "2026-09-17T08:07:24Z",
+  "organized_at": "2026-09-17T08:09:59Z",
+  "summary": "ERPBench 是面向企业软件中计算机使用代理（computer-use agents）的评测基准，针对 ERP 系统（财务、采购、库存、客户运营）的密集界面、多步协同操作和持久化数据写入错误等挑战，在可复现的真实 ERP 系统上以数据库真值对纯截图代理打分。评测六个闭源与开源代理后发现，通用 GUI 能力无法迁移到企业级可靠性：部分代理保存成功率高达 85%，但写入正确值仅 3%。该工作揭示了企业工作流特有的失败模式，对构建可落地、需人工审批的代理部署框架有重要参考价值。",
+  "tags": [
+    "computer-use-agents",
+    "benchmark",
+    "erp",
+    "gui-agents",
+    "agent-evaluation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Kratika Bhagtani, Kusha Sridhar, Maziyar Baran Pouyan, Yuying Zhao, Eugene Siow",
+    "published": "Thu, 17 Sep 2026 00:00:00 -0400"
+  }
+}
