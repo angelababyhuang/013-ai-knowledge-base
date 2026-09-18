@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.19387v1",
+  "title": "Do AI Agents Understand Computer Architecture?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.19387",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-18T08:06:50Z",
+  "analyzed_at": "2026-09-18T08:06:50Z",
+  "organized_at": "2026-09-18T08:09:20Z",
+  "summary": "该论文提出 AutoTuring 评测框架，用同一智能体、同一 15 维加速器设计空间做对照实验：一次以具名架构旋钮加模拟器计数器呈现，一次以 [0,1] 匿名变量呈现，评估器、合法空间与可达最优完全相同，从而把\"智能体是否真正理解计算机体系结构\"从\"设计是否变好\"中剥离出来。在九个 FP16 GEMM 内核上，有语义的架构师版本比建模的 H200 高 5.4%、比盲搜版本高 12.3%，且模拟器调用少 70.1%；但引入批评循环后盲搜版本几乎追平，说明架构知识与结构化自我批评是替代关系而非互补。其贡献在于评测方法论本身，对评估 Agent 的推理迁移能力有启发。",
+  "tags": [
+    "agent-evaluation",
+    "computer-architecture",
+    "llm-reasoning",
+    "hardware-design",
+    "benchmark-methodology"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ambika Sharan, Grigory Chirkov, Soheil Abbasloo",
+    "published": "Fri, 18 Sep 2026 00:00:00 -0400"
+  }
+}

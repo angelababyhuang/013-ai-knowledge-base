@@ -1,0 +1,32 @@
+[
+  {
+    "source": "rss",
+    "url": "https://taggart-tech.com/lying/",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"本文从工程责任视角批评当前大模型训练中频繁出现的\"事故\"（如数据泄漏、评测污染、模型行为失控），认为这些并非不可预见的技术意外，而是团队在流程、测试与治理上的疏忽（negligence）。作者主张把 ML 训练当作严肃的软件工程对待，建立类似 SRE 的事故复盘、审计与责任机制。对从事 LLM 训练与部署的团队有警示和方法论参考价值。\", \"tags\": [\"ml-eng'",
+    "timestamp": "2026-09-18T08:07:30Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"比尔·盖茨在 Gates Notes 发表的文章，讨论 AI 快速发展带来的\"动荡时代\"以及社会需要做出的关键选择。文章从宏观视角审视 AI 对就业、教育、医疗和公平性的冲击，呼吁让 AI 惠及所有人而非加剧不平等。适合关注 AI 社会影响、政策与治理议题的读者，作为技术圈外的权威声音提供非工程视角的判断框架。\", \"tags\": [\"ai-society\", \"ai-g'",
+    "timestamp": "2026-09-18T08:07:57Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://arxiv.org/abs/2609.19465",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"该论文研究强化学习后训练对语言模型组合推理能力的影响，提出基于依赖图的框架将组合性形式化为三个复杂度递增的层级，并用数据结构任务（奖励确定、组合结构清晰）进行实证。核心发现是\"分解到组合的不对称性\"：分解技能训练难以迁移到组合任务，而组合任务训练却能较好回迁到分解任务，并给出理论解释，还评估了长度外推、结构分布偏移与未见技能迁移，初步验证该不对称性可延伸至真实工具调用场景'",
+    "timestamp": "2026-09-18T08:08:26Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://arxiv.org/abs/2609.19519",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"该论文针对语言模型智能体执行跨天/跨周长时任务时受限于上下文窗口、进程生命周期与人类注意力间隔的问题，提出长时智能体必须先能\"持续运行而不遗忘\"才能持续学习，且关键不在模型本身而在其外围 harness。作者从长时设定推导出七个瓶颈，并给出三层架构：按时间尺度分层的 levels（每层用有界文件总结下层）、作为自主行动单元的 clocked tick、以及仅在评审失败后才'",
+    "timestamp": "2026-09-18T08:08:35Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"OpenAI 发布案例，介绍 Cognition 如何用 GPT‑6 Astra 增强 Devin 的自我测试能力：让 AI 编码代理在提交代码前自行验证软件是否真正可用，从而减少工程师逐行审查代码的负担。这反映了编码代理从\"生成代码\"向\"闭环验证、自证正确\"演进的关键趋势，对关注 Agent 可靠性与软件工程自动化的读者有参考价值。\", \"tags\": [\"coding'",
+    "timestamp": "2026-09-18T08:09:02Z"
+  }
+]

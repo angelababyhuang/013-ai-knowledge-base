@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.19425v1",
+  "title": "Closed-World Resolution Against Tool Hallucination in LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.19425",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-18T08:06:50Z",
+  "analyzed_at": "2026-09-18T08:06:50Z",
+  "organized_at": "2026-09-18T08:09:20Z",
+  "summary": "该论文聚焦 LLM Agent 工具调用中的\"工具幻觉\"问题：模型会调用根本不存在的工具或传入 schema 未声明的参数，而现有的工具选择与安全门控方法都默认调用指向真实工具，因此无法拦截这类幻觉。作者提出五类幻觉分类（H1-H5），并给出免训练的闭世界解析器 Resolution Rung（注册表成员校验+签名检查），证明幻觉防御必须前置于任何因果门控。论文在十款托管模型上测得 322 次真实幻觉，并扩展到 MCP 多服务器命名空间合并场景（M1-M5 分类、154 次幻觉），发布 HTB 基准供后续解析器对比。",
+  "tags": [
+    "tool-hallucination",
+    "llm-agents",
+    "model-context-protocol",
+    "benchmark",
+    "tool-calling"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Laxmipriya Ganesh Iyer",
+    "published": "Fri, 18 Sep 2026 00:00:00 -0400"
+  }
+}

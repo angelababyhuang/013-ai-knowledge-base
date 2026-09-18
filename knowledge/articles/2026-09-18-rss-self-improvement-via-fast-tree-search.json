@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.19526v1",
+  "title": "Self Improvement via Fast Tree-search",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.19526",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-18T08:06:50Z",
+  "analyzed_at": "2026-09-18T08:06:50Z",
+  "organized_at": "2026-09-18T08:09:20Z",
+  "summary": "SIFT 提出一种样本高效的自改进框架，让编码智能体在严格算力预算下递归修改自身实现。其核心洞察是：候选自我修改的评估（重跑基准任务）是主要瓶颈，因此引入 LLM-as-a-judge 对候选补丁做成对比较，用正则化 Bradley-Terry 模型聚合胜负记录得到强度分数，驱动轻量级解耦树搜索中的基于排名的父节点采样，仅对最有希望的节点执行昂贵的下游任务评估。相比既有树搜索自进化框架，SIFT 在 Polyglot 基准上性能更优，且 CPU 小时、墙钟时间和 API 成本显著降低。",
+  "tags": [
+    "self-improvement",
+    "tree-search",
+    "coding-agents",
+    "llm-as-a-judge",
+    "sample-efficiency"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xinghong Fu, Aravinth Kulanthaivelu, Yutaro Yamada",
+    "published": "Fri, 18 Sep 2026 00:00:00 -0400"
+  }
+}

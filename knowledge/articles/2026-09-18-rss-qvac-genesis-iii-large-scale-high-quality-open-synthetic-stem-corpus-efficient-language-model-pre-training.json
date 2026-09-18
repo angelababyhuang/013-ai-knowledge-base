@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.19513v1",
+  "title": "QVAC Genesis III: A Large-Scale, High-Quality Open Synthetic STEM Corpus for Efficient Language Model Pre-Training",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.19513",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-18T08:06:50Z",
+  "analyzed_at": "2026-09-18T08:06:50Z",
+  "organized_at": "2026-09-18T08:09:20Z",
+  "summary": "QVAC Genesis III 是一个面向 STEM 教育场景的 1914.3 亿 token 大规模开源合成语料库，覆盖 19 个领域、多难度与多教学风格，专为边缘端小模型预训练设计。其核心创新是双生成策略：以弱小的边缘学生模型作为信号源，将其失败样本转化为纠错解释、成功样本扩展为对比式选项级推理，从而高效蒸馏教师模型知识。作者用 1.7B 参数模型从零训练验证，在 ARC、GPQA Diamond、MMLU STEM 上均超越 Cosmopedia-v2 与 Cosmo-1B，ARC-E 最高提升 28.57%，答案有效率高达 99.45%。对关注小模型预训练数据构建与边缘 AI 的研究者具有直接参考价值。",
+  "tags": [
+    "synthetic-data",
+    "stem-education",
+    "pre-training-corpus",
+    "edge-ai",
+    "knowledge-distillation"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Davide Vitabile, N. Ranjan, Akshay Nambiar, Kamal K. Gupta, Amril Nazir",
+    "published": "Fri, 18 Sep 2026 00:00:00 -0400"
+  }
+}

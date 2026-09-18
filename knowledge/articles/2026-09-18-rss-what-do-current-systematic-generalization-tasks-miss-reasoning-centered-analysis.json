@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.19212v1",
+  "title": "What Do Current Systematic Generalization Tasks Miss? A Reasoning-Centered Analysis",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.19212",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-18T08:06:50Z",
+  "analyzed_at": "2026-09-18T08:06:50Z",
+  "organized_at": "2026-09-18T08:09:20Z",
+  "summary": "该论文质疑现有系统性泛化（systematic generalization）评测任务的简化假设，指出线性动作组合、基于产出性的测试和动作显式目标这三类简化掩盖了该能力的核心难点。作者提出 TranSGrid 测试平台，将演绎、归纳与溯因三种推理统一到同一任务中，并用七个 Transformer 在 4800 个实例上验证：最大模型在常规测试集上达 79.6%，但在 TranSGrid 上仅 55.3%，最难子集仅 15.8%。进一步实验表明，只要重新引入任一简化，解决率就回升至测试集水平，说明现有基准普遍削弱了归纳或溯因需求，全面评测需同时覆盖三种推理。",
+  "tags": [
+    "systematic-generalization",
+    "reasoning-benchmark",
+    "transformer-limits",
+    "abductive-reasoning",
+    "evaluation"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chengwen Qi, Deheng Ye, Yatao Bian",
+    "published": "Fri, 18 Sep 2026 00:00:00 -0400"
+  }
+}

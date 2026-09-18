@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.19391v1",
+  "title": "MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.19391",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-18T08:06:50Z",
+  "analyzed_at": "2026-09-18T08:06:50Z",
+  "organized_at": "2026-09-18T08:09:20Z",
+  "summary": "MAGS 是一个多智能体框架，旨在为 LLM 编码智能体生成的程序提供可机器验证的形式化安全保证。它利用 Dafny 作为验证感知的中间表示，将人工审计过的 API 与安全需求冻结为规范，自动将生成代码翻译为 Dafny、依据验证器反馈修复违规，再编译回可执行代码。在 100 个 CUDA 内核、100 个终端脚本和 20 个机械臂任务共 220 个样例上达到 100% 成功率，为智能体输出的安全性提供了超越模糊测试与 LLM 验证器的新路径。",
+  "tags": [
+    "formal-verification",
+    "multi-agent",
+    "code-generation",
+    "dafny",
+    "safety-guarantees"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Albert Wu, Nicholas Roberts, Tzu-Heng Huang, Haoran Lin, Gil Friedman, Sungjun Cho, Gabriel Orlanski, Frederic Sala",
+    "published": "Fri, 18 Sep 2026 00:00:00 -0400"
+  }
+}

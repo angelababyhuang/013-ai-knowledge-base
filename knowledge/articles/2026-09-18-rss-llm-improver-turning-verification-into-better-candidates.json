@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.19515v1",
+  "title": "LLM-as-an-Improver: Turning Verification into Better Candidates",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.19515",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-18T08:06:50Z",
+  "analyzed_at": "2026-09-18T08:06:50Z",
+  "organized_at": "2026-09-18T08:09:20Z",
+  "summary": "该论文提出 LLM-as-an-Improver 框架与 Verify-Repair-Reselect（VRR）方法，将验证器从单纯的候选排序工具升级为候选生成器：在保留初始最优解的同时，条件性地生成修复版最优解、修复版次优解以及全新思路的解法，再用推理时信息过滤无效与重复候选并重新选择。在代码生成与推理基准上，VRR 在多种模型下优于固定候选池的验证选择，甚至能在初始候选全错时恢复正确答案，为 test-time scaling 与 self-refinement 提供了新思路。",
+  "tags": [
+    "llm-as-a-judge",
+    "verifier-feedback",
+    "test-time-scaling",
+    "self-repair",
+    "code-generation"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Akiyoshi Tomihari, Yuma Ichikawa",
+    "published": "Fri, 18 Sep 2026 00:00:00 -0400"
+  }
+}

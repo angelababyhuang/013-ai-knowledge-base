@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.19180v1",
+  "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.19180",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-18T08:06:50Z",
+  "analyzed_at": "2026-09-18T08:06:50Z",
+  "organized_at": "2026-09-18T08:09:20Z",
+  "summary": "BioPhys-Bridge 是一个面向生物物理交叉学科文献的评测基准，要求模型在回答问题时把观测数据锚定到源证据、用定量物理模型解释、再关联到生物机制。数据集首版含 500 个案例、1517 个面向 agent 的任务，覆盖 6 个生物领域与 9 类物理模型，并提供证据 ID、数值、单位、方程、假设等结构化标注。初步评测显示最强模型证据 ID F1 仅 0.36，说明当前 LLM 在跨学科证据溯源与忠实推理上仍有巨大缺口，适合做 RAG 与幻觉抑制研究。",
+  "tags": [
+    "benchmark",
+    "scientific-reasoning",
+    "rag",
+    "biophysics",
+    "evidence-grounding"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Qingyang Xu",
+    "published": "Fri, 18 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.19170v1",
+  "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.19170",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-18T08:06:50Z",
+  "analyzed_at": "2026-09-18T08:06:50Z",
+  "organized_at": "2026-09-18T08:09:20Z",
+  "summary": "该论文研究强调式时序差分学习（ETD）在恒定步长下的稳定性问题。作者构造了一个遍历两状态反例，证明ETD均值映射收缩时采样乘积仍可能具有正的最大Lyapunov指数，从而揭示期望层面的稳定性无法保证实际采样动态的稳定。为此提出正则化强调式TD（RETD），通过泄漏标量状态存储强调信号并释放延迟校正，在不改变迹与重要性比率的前提下修复冲击后动态，证明了几乎必然收敛与条件矩收缩，并在万次配对实验中验证了固定点恢复与非单调稳定域。",
+  "tags": [
+    "reinforcement-learning",
+    "temporal-difference-learning",
+    "off-policy-learning",
+    "stability-analysis",
+    "lyapunov-exponent"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xingguo Chen, Zhaohui Wu, Jinguo Ye, Chao Li, Shangdong Yang, Guang Yang, Skylar Liang, Wenhao Wang",
+    "published": "Fri, 18 Sep 2026 00:00:00 -0400"
+  }
+}

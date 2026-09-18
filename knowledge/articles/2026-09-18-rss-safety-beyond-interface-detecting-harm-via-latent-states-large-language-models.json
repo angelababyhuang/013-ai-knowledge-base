@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.19472v1",
+  "title": "Safety Beyond the Interface: Detecting Harm via Latent States in Large Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.19472",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-18T08:06:50Z",
+  "analyzed_at": "2026-09-18T08:06:50Z",
+  "organized_at": "2026-09-18T08:09:20Z",
+  "summary": "该论文提出一种基于模型内部隐状态的安全检测方法：从 LLaMA-3.1-8B 提取激活值，训练仅 1260 万参数的轻量 MLP 探针来识别有害提示，在 WildJailbreak、Beavertails、AEGIS 2.0 上分别取得 99%、83%、84% 的 F1，性能可与参数量大 1000 倍的外部护栏模型竞争，同时显著降低延迟与算力开销。其核心洞见是模型内部表征本身已编码危害信息，无需依赖外部独立护栏，从而弥补了外部模型对模型内部机制不可见的保障缺口，对资源受限、时延敏感的自主智能体安全部署有直接价值。",
+  "tags": [
+    "llm-safety",
+    "activation-probing",
+    "guardrails",
+    "jailbreak-detection",
+    "interpretability"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Alizishaan Khatri, Chiquita Prabhu, Omkar Neogi",
+    "published": "Fri, 18 Sep 2026 00:00:00 -0400"
+  }
+}
