@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.21263v1",
+  "title": "PlaceReasoner-Beta: Reasoning-Driven Macro Placement and Benchmarking",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.21263",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "该论文提出 PlaceReasoner-Beta，将 VLSI 宏单元布局从一次性黑盒数值优化重构为闭环推理问题：由视觉语言模型（VLM）规划器基于版图图像、宏规格与连接关系生成候选布局，再经几何验证器保证物理合法性与专家布局原则、物理验证器利用早期实现反馈精修、布线后优化器依据最终 PPA 进一步改进。同时发布全开源端到端基准 PlaceReasoner-Bench（8 个设计×2 种长宽比共 16 个任务，以布线后 PPA 与 DRC 评估）。在 DRC 干净方法中，其布线后 TNS 相对经典基线在 1:1 下降低 61.2%、2:1 下降低 53.0%，且未显式优化线长却缩短了多数设计的布线线长，展示了多智能体推理在 EDA 物理设计中的潜力。",
+  "tags": [
+    "macro-placement",
+    "vlsi-eda",
+    "multi-agent",
+    "vision-language-model",
+    "benchmark"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Qiufeng Li, Chengxuan Wang, Rongqian Chen, Quan Cheng, Yihui Ren, Chia-Tung Ho, David Z. Pan, Tian Lan, Weidong Cao",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}

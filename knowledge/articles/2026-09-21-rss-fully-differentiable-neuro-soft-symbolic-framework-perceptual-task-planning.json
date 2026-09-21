@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.21221v1",
+  "title": "A Fully Differentiable Neuro-Soft-Symbolic Framework for Perceptual Task Planning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.21221",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "该论文提出一个完全可微的神经-软符号框架，将视觉感知与任务规划统一到单一计算图中。它用连续软符号状态替代传统离散符号化，把领域规则提升为可微的软 T_P 转移算子，并对短规划时域内的动作 logits 做优化，使规划目标的梯度能反传更新感知参数，从而保留感知不确定性并实现任务级反馈。在 Blocksworld 上解决 40/40 LatPlan-40 与 596/600 PlanBench-600 任务，感知不确定性消融中成功率从冻结感知的 59% 提升到 83%，且计算与时间开销更低，并给出任务与运动仿真验证。",
+  "tags": [
+    "neuro-symbolic",
+    "task-planning",
+    "differentiable-planning",
+    "soft-symbolic",
+    "robot-manipulation"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hongyan Wei, Wael AbdAlmageed",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}

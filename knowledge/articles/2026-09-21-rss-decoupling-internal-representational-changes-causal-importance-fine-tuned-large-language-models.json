@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.21113v1",
+  "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.21113",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "该论文研究微调如何改变大语言模型的内部机制，重点对比注意力模式与逐层激活的变化，以及 EAP（基于因果重要性的归因方法）识别出的任务关键组件（注意力头、logit 级激活）。作者发现 EAP 组件集中在特定层，呈现功能局部化，但其层级分布与微调中表征变化最大的层几乎不相关；跨任务 EAP 组件重叠并不能带来性能迁移，反而在分类与生成等异质任务间可能导致性能下降。该工作为理解微调的可解释性与多任务干扰提供了新视角，对做模型编辑、任务适配与持续学习的工程师有参考价值。",
+  "tags": [
+    "fine-tuning",
+    "interpretability",
+    "mechanistic-interpretability",
+    "attention-heads",
+    "transfer-learning"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Lingfang Li, Procheta Sen, Shubham Das, Danushka Bollegala",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}

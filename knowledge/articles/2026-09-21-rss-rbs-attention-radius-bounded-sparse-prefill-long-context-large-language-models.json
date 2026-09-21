@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.20971v1",
+  "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.20971",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "RBS-Attention 针对长上下文 LLM 推理中 prefill 阶段稠密自注意力开销过大的问题，提出一种免训练的稀疏 prefill 方法。它指出传统块稀疏选择中\"块质心\"会掩盖块内高相关 token（称为 mean dilution），因此设计双分支选择：质心基分支捕捉平均相关性，救援分支利用最大 key 块半径及其随 prompt、层、头变化的分布来识别被低估的块，两分支独立阈值化后合并掩码，同时保持规则块稀疏 FlashAttention 执行。在 H100 上实现 128K 上下文下 20.65 倍独立 prefill 注意力加速、11.92 倍 vLLM 加速和 5.97 倍端到端 TTFT 加速，且 RULER 精度接近稠密注意力，对长上下文推理优化有直接参考价值。",
+  "tags": [
+    "sparse-attention",
+    "long-context",
+    "prefill-optimization",
+    "inference-efficiency",
+    "flash-attention"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chuxu Song, Jiuqi Wei, Zhencan Peng",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}

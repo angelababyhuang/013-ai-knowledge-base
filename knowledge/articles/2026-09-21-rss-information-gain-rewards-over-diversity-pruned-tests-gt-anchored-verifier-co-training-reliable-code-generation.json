@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.21208v1",
+  "title": "Information-Gain Rewards over Diversity-Pruned Tests: GT-Anchored Verifier Co-Training for Reliable Code Generation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.21208",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "该论文针对代码生成强化学习中「自博弈」方法（同一模型既当程序员又当测试作者）的两个缺陷——测试过于宽松导致通过率奖励被平凡测试刷满，以及独立同分布采样测试集中在常见输入上造成估计方差膨胀——提出 CoVer 框架。它用信息增益奖励对自生成测试打分，以测试通过/失败向量与真值锚定正确性信号之间的互信息为依据，并用协方差符号门控只奖励有正向区分度的测试；再用三阶段多样性剪枝（无效性、输入字符串、执行剖面过滤）压缩候选测试集。在五个基准上 7B/14B 模型 pass@1 分别提升 5.8/7.1 分，作为 CodeT 排序骨干还能再加 3.5 分。对做代码 RL 与验证器共训练的研究者值得一看。",
+  "tags": [
+    "code-generation",
+    "rlvr",
+    "self-play",
+    "verifier-training",
+    "test-selection"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ana Nunez, Peyman Najafirad",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}

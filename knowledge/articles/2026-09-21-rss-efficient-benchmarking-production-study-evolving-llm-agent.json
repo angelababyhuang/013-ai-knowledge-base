@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.21267v1",
+  "title": "Efficient Benchmarking in Production: A Study of an Evolving LLM Agent",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.21267",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "本文基于一个服务数万月活用户的生产级分析 Agent，利用 574 次历史基准运行数据，系统比较了随机采样、历史缓存、固定代表性子集与基于 IRT 的自适应测试四种高效复评策略。结果显示多维 2PL 自适应测试保真度最高（仅跑 38.5% 题目即可将 MAE 控制在 1.03pp），但作者最终因运维简单性选择了难度分层固定子集，并验证其可跨五种 Agent 家族迁移、最短一天校准窗口仍稳定。对需要持续迭代 LLM Agent 的团队而言，这是一份难得的真实部署经验与可操作建议。",
+  "tags": [
+    "llm-agent-evaluation",
+    "adaptive-testing",
+    "item-response-theory",
+    "production-deployment",
+    "benchmark-efficiency"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yining She, Lei Lin",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.21259v1",
+  "title": "CogGym: Towards Large-Scale Comparative Evaluation of Human and Machine Cognition",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.21259",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "CogGym 是一个面向认知科学的可扩展统一评测框架，旨在系统比较人类与大语言模型在匹配实验条件下的行为差异。它通过半自动、人在回路的流水线，将多样化的认知实验范式标准化为任务无关的 Experiment Markup Language（EML），首版收录来自 100 篇论文的 258 个常识推理认知实验，并对 50 个 LLM 与人类反应进行对比。研究发现模型规模越大、越新，越能复现人类判断，但在常识推理上的提升远慢于数学与编程等形式推理基准，最佳模型与人类的拟合度（文本 R²=0.59、图像 0.58、视频 0.43）仍远低于人类自身的折半信度（0.92-0.95）。该工作为持续追踪模型行为与人类认知的相似与分歧提供了可生长的评测基础设施。",
+  "tags": [
+    "cognitive-science",
+    "llm-evaluation",
+    "human-model-comparison",
+    "benchmark",
+    "commonsense-reasoning"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Lance Ying, Jinzhou Wu, Yingshan Susan Wang, Shivam Aarya, Luca M. Schulze Buschoff, Harry Chen, Katherine M. Collins, Andrea de Varda, Shuhao Fu, Sean Dae Houlihan, Akshay K. Jagadish, Guangyuan Jiang, Samuel Kiegeland, Tetsu Kurumisawa, Rongzhi Liu, Ryan Liu, Ningshan Ma, Kathryn McGregor, Younes Strittmatter, Polina Tsvilodub, Jacob Hoover Vigly, Sarah Wu, Enjie Xu, Yiling Yun, Kelsey Allen, Tyler Brooke-Wilson, Brian Christian, Evelina Fedorenko, Michael C. Frank, Michael Franke, Tao Gao, Samuel J. Gershman, Robert D. Hawkins, Jennifer Hu, Julian Jara-Ettinger, Max Kleiman-Weiner, Sydney Levine, Tal Linzen, Hongjing Lu, Timothy O'Donnell, Desmond C. Ong, Steven T. Piantadosi, Rebecca Saxe, Eric Schulz, Tianmin Shu, Felix A. Sosa, Ilia Sucholutsky, Tan Zhi-Xuan, Tomer Ullman, Fei Xu, Ilker Yildirim, Jian-Qiao Zhu, Thomas L. Griffiths, Tobias Gerstenberg, Kevin Smith, Joshua B. Tenenbaum",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}

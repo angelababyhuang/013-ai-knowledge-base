@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.20974v1",
+  "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.20974",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "该论文提出 Attention-Aware Routing (AAR)，在 MoE 语言模型中把注意力权重的滑动窗口统计（时序与频谱特征）作为路由器的额外输入，从而让专家选择不再只依赖当前 token 的隐状态。实验在 OLMoE 上冻结整个基座 Transformer、仅训练路由参数，GSM8K 相比 routing-only SFT 基线提升 3.37 个百分点，并揭示路由与注意力构成耦合回路：某层路由变化会经残差流放大下一层注意力汇。该工作把路由作为唯一变量进行隔离研究，对理解 MoE 内部信息流、以及按深度选择性应用路由改进推理而非检索，具有方法论和工程双重参考价值。",
+  "tags": [
+    "mixture-of-experts",
+    "attention-mechanism",
+    "routing",
+    "llm-architecture",
+    "parameter-efficient-tuning"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Despoina Kosmopoulou, Anastasios Tsetsilas, Efthymios Georgiou, Giannis Karamanolakis, Swastik Roy, Alexandros Potamianos",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}

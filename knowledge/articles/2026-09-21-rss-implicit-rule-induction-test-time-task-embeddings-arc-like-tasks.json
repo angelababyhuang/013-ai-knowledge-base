@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.21181v1",
+  "title": "Implicit Rule Induction with Test-Time Task Embeddings in ARC-like Tasks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.21181",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "该论文研究 ARC 类抽象推理任务中模型究竟是在真正归纳规则还是依赖捷径的问题。作者在 VARC 模型基础上提出两步测试时训练协议 Embed-TTT：先只微调代表变换规则的任务嵌入，再冻结嵌入微调骨干网络。实验表明，仅优化不到 0.01% 参数的任务嵌入就能解出相当比例的 ARC-AGI-1、ConceptARC 和 Mini-ARC 任务，且嵌入能对齐真实规则、支持线性探测与规则插值，但无法外推。该工作为区分规则归纳与规则执行提供了新视角，对理解推理模型的泛化边界有参考价值。",
+  "tags": [
+    "arc-agi",
+    "test-time-training",
+    "task-embeddings",
+    "rule-induction",
+    "abstract-reasoning"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Adrien Deli\\`ege, Claas Beger, Marc Van Droogenbroeck, Melanie Mitchell",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}

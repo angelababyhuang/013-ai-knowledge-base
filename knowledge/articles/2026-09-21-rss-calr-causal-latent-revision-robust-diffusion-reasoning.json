@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.20981v1",
+  "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.20981",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "CaLR 提出一种将推理重构为受约束隐空间优化的框架，试图融合自回归模型的局部贪心优势与扩散语言模型的并行生成能力。它从专家模型提取因果拓扑矩阵（CTM），结合隐式微分进行梯度引导的\"思维修正\"，从而在并行生成过程中动态自纠中间步骤、保证逻辑一致性。在 Sudoku 等强约束任务上取得扩散语言模型 SOTA 并超越强 AR 基线，对关注扩散式推理与自纠错机制的研究者有参考价值。",
+  "tags": [
+    "diffusion-language-models",
+    "reasoning",
+    "causal-structure",
+    "implicit-differentiation",
+    "self-correction"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Wei Cai, Jian Zhao, Yuchen Yuan, Xuelong Li",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}

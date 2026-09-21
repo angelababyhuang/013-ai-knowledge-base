@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.21157v1",
+  "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.21157",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "该论文探讨 LLM Agent 能否通过更高层次抽象来设计芯片，而非直接操作 RTL。作者提出 AHRR 工作流，将基于 Agent 的 HLS 设计与 HLS 后的 RTL 精修相结合，在 FPGA 上对 11 个任务进行端到端评测，相比直接 RTL 设计取得 2.6 倍几何平均加速。研究揭示了 HLS 抽象能帮助 Agent 复用设计知识、RTL 精修则补足底层优化机会，为 agentic 芯片设计提供了可复用的工作流范式。",
+  "tags": [
+    "llm-agents",
+    "chip-design",
+    "high-level-synthesis",
+    "fpga",
+    "rtl"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zijian Ding, Yang Zou, Yizhou Sun, Jason Cong",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}

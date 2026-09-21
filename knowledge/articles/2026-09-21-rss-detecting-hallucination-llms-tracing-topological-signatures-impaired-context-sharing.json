@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.21096v1",
+  "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.21096",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-21T08:07:39Z",
+  "analyzed_at": "2026-09-21T08:07:39Z",
+  "organized_at": "2026-09-21T08:10:02Z",
+  "summary": "该论文从注意力图的信息流拓扑结构入手，利用 Forman-Ricci 曲率刻画注意力头中的信息瓶颈，提出一种单次前向传播即可检测幻觉的方法，同时捕捉半局部与全局信息流特征。在多个 LLM 与两个幻觉检测基准上，该方法优于现有基于注意力及多响应采样的基线，并揭示幻觉与 token 间上下文共享受损（过度依赖自注意力、上下文检索弥散、信息过度压缩，尤其在最后一层）强相关。对关注 LLM 可解释性与幻觉检测的研究者与工程师有较高参考价值。",
+  "tags": [
+    "hallucination-detection",
+    "attention-analysis",
+    "topological-data-analysis",
+    "llm-interpretability",
+    "forman-ricci-curvature"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Amir Jalilifard, Anderson Rocha, Eric Wong, Marcos Medeiros Raimundo",
+    "published": "Mon, 21 Sep 2026 00:00:00 -0400"
+  }
+}
