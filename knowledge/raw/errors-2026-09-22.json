@@ -1,0 +1,38 @@
+[
+  {
+    "source": "rss",
+    "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"比尔·盖茨在 Gates Notes 发表的文章，讨论 AI 高速发展带来的\"动荡时代\"以及社会需要做出的关键抉择。文章并非技术实现细节，而是从政策、教育、公平分配等宏观视角审视 AI 对就业、医疗、教育等领域的影响，呼吁让 AI 惠及所有人。对于关注 AI 社会影响、治理与长期战略的从业者和决策者，这是一份来自重量级人物的观点性参考。\", \"tags\": [\"ai-go'",
+    "timestamp": "2026-09-22T08:08:25Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://arxiv.org/abs/2609.21139",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"该论文提出 TinyCeNN-LM，一种将预训练语言模型中的注意力层替换为受细胞神经网络（CeNN）启发的细胞循环层的后训练转换框架。核心思路是\"质量门控\"：只有当表示保真度和 NLL 指标同时通过阈值时才接受该层转换，否则回滚，从而避免破坏后续层所依赖的表示。在 SmolLM2-135M 和 Qwen3.5-0.8B 上验证，部分层可接受且 NLL 增幅很小，缓存最多减'",
+    "timestamp": "2026-09-22T08:08:39Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://arxiv.org/abs/2609.21157",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"该论文探讨 LLM Agent 能否通过更高层次抽象来设计芯片，而非直接在 RTL 层面操作。作者提出 AHRR 工作流，将基于 Agent 的 HLS 设计与 HLS 后的 RTL 精修相结合，在 11 项任务的 FPGA 基准上相比直接 RTL 设计取得 2.6 倍几何平均加速。其价值在于验证了\"高层抽象蒸馏设计知识 + 低层精修恢复优化机会\"的混合范式，为 agen'",
+    "timestamp": "2026-09-22T08:08:43Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://arxiv.org/abs/2609.21293",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"GameASG-Bench 是一个面向游戏开发的自主软件生成（ASG）基准测试，核心创新在于把\"行为可测试性\"前置到生成任务中：生成前先声明评估接口规范（合法初始场景、玩家级动作、稳定快照、拒绝行为与不变量），再通过静态 L1 源码检查与浏览器执行的 L2 语义/运行时检查双重验证。它包含 47 个浏览器原生游戏生成任务，覆盖 12 个主要类型与 2D/3D 交互，并配有'",
+    "timestamp": "2026-09-22T08:09:03Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://openai.com/index/hex-gpt-6-astra",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\":\"OpenAI 官方博客介绍 Hex 如何借助 GPT-6 Astra 将复杂数据分析转化为可交互的可视化报告：Hex 的数据智能体不再只输出文字答案，而是自动生成图表与仪表盘，让员工能直接分享给同事。这体现了 LLM 从\"回答问题\"向\"交付成品分析产物\"演进的趋势，对做数据 Agent、BI 工具和报告自动化的团队有参考价值，也展示了模型厂商与垂直数据产品深度集成的落地范式'",
+    "timestamp": "2026-09-22T08:09:27Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"OpenAI 官方博客介绍 Cognition 如何利用 GPT‑6 Astra 增强 Devin 的自我测试能力，让 AI 编程代理在提交代码前自行验证功能是否真正可用。核心价值在于减少人工审查代码的负担，把工程师从逐行 review 中解放出来，推动 agent 从\"能写代码\"走向\"能证明代码可用\"，是 AI 编程代理可靠性方向的重要进展。\", \"tags\": [\"a'",
+    "timestamp": "2026-09-22T08:09:36Z"
+  }
+]

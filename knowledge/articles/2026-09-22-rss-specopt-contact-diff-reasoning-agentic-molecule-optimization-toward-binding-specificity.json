@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.21165v1",
+  "title": "SpecOpt: Contact-Diff Reasoning for Agentic Molecule Optimization Toward Binding Specificity",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.21165",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-22T08:07:12Z",
+  "analyzed_at": "2026-09-22T08:07:12Z",
+  "organized_at": "2026-09-22T08:09:41Z",
+  "summary": "SpecOpt 提出了一种新的分子设计任务：对已有小分子药物做受限结构修饰，提升其对目标蛋白相对脱靶蛋白的结合选择性，而非从头生成新化合物。作者构建了基于 ChEMBL 的基准（915 个化合物），并设计了一个 agentic 框架：将化合物分别对接目标与脱靶蛋白，用残基感知的原子-蛋白接触做差异比较，再把差异信息交给 LLM 提出定点结构修改，最后用相似度、ADMET 和对接选择性筛选候选。结果显示 84.8% 的化合物结合间隙得到改善，消融实验表明残基级接触信息是关键信号。",
+  "tags": [
+    "agentic-workflow",
+    "molecule-optimization",
+    "llm-for-science",
+    "drug-discovery",
+    "binding-specificity"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Thao Nguyen, Heng Ji",
+    "published": "Tue, 22 Sep 2026 00:00:00 -0400"
+  }
+}
