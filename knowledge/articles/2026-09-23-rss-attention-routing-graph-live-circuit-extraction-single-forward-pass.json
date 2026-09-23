@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.25285v1",
+  "title": "Attention as a Routing Graph: Live Circuit Extraction from a Single Forward Pass",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.25285",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-23T08:06:53Z",
+  "analyzed_at": "2026-09-23T08:06:54Z",
+  "organized_at": "2026-09-23T08:09:24Z",
+  "summary": "该论文提出将注意力机制视为一次前向传播中的路由图，从中提取指向答案的少量路由边，从而以极低成本近似定位语言模型中的因果电路。在归纳头和 IOI 等已知电路的任务上，消融这些提取边对模型的损害显著大于同规模随机边，验证了其因果信号。相比逐头 patch sweep 约快两个数量级，为机械可解释性提供了一种廉价的电路草图方法，适合需要快速探查模型内部结构的场景。",
+  "tags": [
+    "mechanistic-interpretability",
+    "attention-circuits",
+    "circuit-extraction",
+    "causal-ablation",
+    "transformer-interpretability"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ash Manvi, Samreena Tajreen",
+    "published": "Wed, 23 Sep 2026 00:00:00 -0400"
+  }
+}

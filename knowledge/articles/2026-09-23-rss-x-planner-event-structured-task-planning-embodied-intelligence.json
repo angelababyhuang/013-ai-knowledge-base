@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.25187v1",
+  "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.25187",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-23T08:06:53Z",
+  "analyzed_at": "2026-09-23T08:06:54Z",
+  "organized_at": "2026-09-23T08:09:24Z",
+  "summary": "X-Planner 是面向具身智能长程操作任务的规划前端，针对 VLA 系统中任务规划结构隐式化、CoT 规划器依赖粗粒度标注和逐 token 串行推理的问题，提出事件结构化的事件状态表示。它融合 Ego、UMI 与遥操作数据构建分层粒度的规划数据，并用接管时刻标注与人工设计失败样本监督错误识别；模型侧共享 VLM 主干输出离散事件状态接口与基于 Staircase Decoding 的连续隐式 CoT 接口，辅以冻结的隐式到文本重建目标作为语义锚点。离线两步规划评测中 BERTScore-F1 与评委 Overall 分数均列四模型第二，真机实验优于基线，对研究具身规划表示与监督信号设计的团队有参考价值。",
+  "tags": [
+    "embodied-ai",
+    "task-planning",
+    "vision-language-action",
+    "chain-of-thought",
+    "robot-manipulation"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Howard Lu, Shalfun Li, Porter Pan,  Cris,  Lumen,  Cyril, Eric Hu, Lily Li, Maeve Zhang, Robert Wang, KZ Zheng, Viggo Chen, Tim Ding, Regsis Cheng, YJ Xiao,  Kian, Hai Lin, Alan Song, Elise Ma, Gody Li, Victor Yao, Yohann Tang, Ingrid Yu, Jason He, James Wang, Ryan Yu, Ping Yang, Chris Pan, Vincent Chen, Roy Gan, Hao Wang, Qian Wang",
+    "published": "Wed, 23 Sep 2026 00:00:00 -0400"
+  }
+}

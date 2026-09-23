@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.25337v1",
+  "title": "Clarification Is Not Correction: LLMs Fail to Let Go",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.25337",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-23T08:06:53Z",
+  "analyzed_at": "2026-09-23T08:06:54Z",
+  "organized_at": "2026-09-23T08:09:24Z",
+  "summary": "这篇论文指出 LLM 对话失败常被误归因于记忆问题，但真正的深层原因是「过早后验坍缩」：模型在歧义尚未澄清时就锁定单一隐藏解释，后续澄清信息被当作补充上下文而非纠正信号，无法推翻既有任务状态。作者用写作、规划、编码三类受控对话任务，在 Gemini-2.5-Pro/Flash 上做了数千次试验，发现同一信息以不同顺序出现会导致不同结果，编码任务尤其脆弱，因为早期假设会固化进接口与控制流。标准提示与记忆策略（摘要、思维链）均无法可靠缓解，论文因此呼吁从「保留更多上下文」转向「保留不确定性」的状态管理研究。",
+  "tags": [
+    "llm-dialogue",
+    "uncertainty-preservation",
+    "posterior-collapse",
+    "state-management",
+    "prompting-limitations"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jianzhe Lin, Xiaolin Li, Fei Wang, Robert Douglas, Rajeshkumar Golani, Jubin Chheda",
+    "published": "Wed, 23 Sep 2026 00:00:00 -0400"
+  }
+}

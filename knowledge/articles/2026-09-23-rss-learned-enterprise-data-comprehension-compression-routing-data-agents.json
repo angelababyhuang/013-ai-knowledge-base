@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.25286v1",
+  "title": "Learned Enterprise Data Comprehension: Compression and Routing for Data Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.25286",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-23T08:06:53Z",
+  "analyzed_at": "2026-09-23T08:06:54Z",
+  "organized_at": "2026-09-23T08:09:24Z",
+  "summary": "该论文提出「潜在等价学习」框架，用于企业结构化数据智能体：将任务相关的持久身份（identity）与其在具体数据集中的实现分离，用支持/反对证据塑造高斯原型并保留软隶属度，再用查询原型系统通过可学习兼容函数路由到同一身份结构。这样智能体只需在已组织好的证据状态上做语义推理，无需每次查询重建跨 schema 结构。在 Data Agent Benchmark（12 个异构数据集、54 条查询）上取得 94.67% Pass@1，远超 Claude Opus 4.6 参考智能体的 55.51%，值得关注其「学习系统负责结构、LLM 负责语义」的分工思路。",
+  "tags": [
+    "data-agents",
+    "structured-data",
+    "prototype-learning",
+    "query-routing",
+    "enterprise-llm"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ethan Torres, Eric Mills",
+    "published": "Wed, 23 Sep 2026 00:00:00 -0400"
+  }
+}

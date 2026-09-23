@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.25405v1",
+  "title": "Efficient Iterative Retrieval with Heterogeneous Batching",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.25405",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-23T08:06:53Z",
+  "analyzed_at": "2026-09-23T08:06:54Z",
+  "organized_at": "2026-09-23T08:09:24Z",
+  "summary": "Orthrus 是伊利诺伊大学等机构提出的检索服务系统，针对现代 RAG 场景中 embedding 模型与生成模型被隔离部署、导致 GPU 利用率低和吞吐瓶颈的问题，在统一推理循环内实现异构批处理。它通过分块嵌入与增量池化、以及工作负载感知的批次组合调整，化解两类模型计算模式冲突。在 4 张 A100 上，受控负载吞吐提升 1.28-4.52 倍，迭代式 RAG 基准端到端 p99 延迟最多降低 55.8%，对构建高吞吐 RAG 推理服务的工程师有直接参考价值。",
+  "tags": [
+    "rag",
+    "inference-serving",
+    "heterogeneous-batching",
+    "embedding",
+    "gpu-optimization"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dohyun Park, Hubertus Franke, Daniel G. Waddington, Swaminathan Sundararaman, Yongjoo Park",
+    "published": "Wed, 23 Sep 2026 00:00:00 -0400"
+  }
+}

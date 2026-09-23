@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.25366v1",
+  "title": "From Decorative to Load-Bearing: Task Difficulty Shapes the Causal Role of Chain-of-Thought",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.25366",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-23T08:06:53Z",
+  "analyzed_at": "2026-09-23T08:06:54Z",
+  "organized_at": "2026-09-23T08:09:24Z",
+  "summary": "该论文提出「基于续写的因果测试」方法，通过消融-补丁干预扰动单步推理、截断思维链并强制模型从被破坏的前缀继续生成，从而量化 CoT 对最终答案的「承重性」。在 Gemma-2-9B-IT、Llama-3.1-8B-Instruct、DeepSeek-R1-Distill-Qwen-7B 上跨 GSM8K、MMLU、BBH 的实验显示：任务越难，CoT 越承重——简单任务模型会静默绕过自身推理，困难任务则跟随被污染步骤并传播错误，任务难度解释了 98.8% 的偏差。该工作对 CoT 监控与 AI 安全监督提出结构性警示：可读的推理链信号弱，关键的推理链错误又会在监控介入前传播，且激活引导仅能翻转约 25% 的错误传播案例。",
+  "tags": [
+    "chain-of-thought",
+    "interpretability",
+    "ai-safety",
+    "reasoning-faithfulness",
+    "llm-monitoring"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Renee Jia, Di Mu",
+    "published": "Wed, 23 Sep 2026 00:00:00 -0400"
+  }
+}

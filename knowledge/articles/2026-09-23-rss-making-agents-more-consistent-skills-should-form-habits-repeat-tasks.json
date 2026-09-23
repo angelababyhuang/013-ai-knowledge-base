@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.25299v1",
+  "title": "Making Agents More Consistent: Skills Should Form Habits for Repeat Tasks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.25299",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-23T08:06:53Z",
+  "analyzed_at": "2026-09-23T08:06:54Z",
+  "organized_at": "2026-09-23T08:09:24Z",
+  "summary": "该论文针对 LLM Agent 在重复任务上输出不一致、且大量 token 浪费在重复推导计划的问题，提出「技能习惯化」（skill habit formation）机制：Agent 从自身执行历史中挖掘确定性技能候选，候选需声明其覆盖的输入空间区域，常见情况走脚本、其余回退到推理，并通过四级递增成本的准入闸门（核心是执行轨迹与保留参考的容差比对）进行筛选。在 text-to-SQL 上，习惯化变体在全部 456 次重复调度中复现自身输出，且不劣于被替换的推理方案，token 消耗降低 14%–56%，7–53 次复用后转为净收益。论文还诚实量化了代价：错误习惯同样会被稳定复现，边界附近 26% 的输入被错误准入，这为可审计 Agent 系统的设计提供了重要权衡视角。",
+  "tags": [
+    "agent-consistency",
+    "skill-acquisition",
+    "text-to-sql",
+    "deterministic-execution",
+    "auditability"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Travis Weber, Rohit Taneja",
+    "published": "Wed, 23 Sep 2026 00:00:00 -0400"
+  }
+}

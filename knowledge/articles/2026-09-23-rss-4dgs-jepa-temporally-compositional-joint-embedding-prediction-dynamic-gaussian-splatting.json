@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.25036v1",
+  "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.25036",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-23T08:06:53Z",
+  "analyzed_at": "2026-09-23T08:06:54Z",
+  "organized_at": "2026-09-23T08:09:24Z",
+  "summary": "该论文提出 4DGS-JEPA，将 JEPA（联合嵌入预测架构）思想引入动态高斯泼溅（4D Gaussian Splatting），目标是学习可复用的预测性动态而非仅做重建或渲染。核心创新是\"时间组合性\"原则：不同时间路径到达同一未来端点应产生兼容的预测状态，并配以场景/运动组/高斯三级层次表示、horizon 条件转移算子、混合对应机制（持久规范身份 + 残差最优传输匹配）。作者还给出零损失路径一致性与有限误差 rollout 累积的理论刻画，并用三组受控实验验证机制有效性。对关注世界模型、动态场景预测与 3D 表示学习的读者有参考价值。",
+  "tags": [
+    "jepa",
+    "gaussian-splatting",
+    "world-model",
+    "dynamic-scene",
+    "self-supervised"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yongchao Huang",
+    "published": "Wed, 23 Sep 2026 00:00:00 -0400"
+  }
+}

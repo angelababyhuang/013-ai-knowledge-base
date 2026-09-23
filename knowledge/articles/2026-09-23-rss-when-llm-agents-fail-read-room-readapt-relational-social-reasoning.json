@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.25284v1",
+  "title": "When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.25284",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-23T08:06:53Z",
+  "analyzed_at": "2026-09-23T08:06:54Z",
+  "organized_at": "2026-09-23T08:09:24Z",
+  "summary": "该论文指出 LLM Agent 在社交场景中的决策失败源于缺乏对人际关系的显式建模：当内容线索与关系线索冲突时，标准 ReAct 循环倾向于选择表面显著的选项。作者构建了包含 500 个合成社交世界、1000 条查询的关系推理基准（反应选择与暖介绍两任务），其中约 53% 的查询正确答案与表面直觉相悖。提出的 ReAdapt 在 ReAct 循环中引入结构化社会状态 z=(G,B,R,N,D)，并在每次工具观测后执行类型化 Adapt 步骤更新状态并输出策略操作，在 Gemini-3-Flash 上将暖介绍准确率从 37% 提升至 51%、反应选择从 69% 提升至 77%。",
+  "tags": [
+    "llm-agents",
+    "social-reasoning",
+    "react-loop",
+    "benchmark",
+    "state-tracking"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jianzhe Lin, Xiaolin Li, Yunda Liu, Fei Wang, Jubin Chheda",
+    "published": "Wed, 23 Sep 2026 00:00:00 -0400"
+  }
+}

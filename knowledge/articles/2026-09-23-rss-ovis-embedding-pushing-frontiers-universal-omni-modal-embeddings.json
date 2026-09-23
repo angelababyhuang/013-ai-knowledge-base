@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.25165v1",
+  "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.25165",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-23T08:06:53Z",
+  "analyzed_at": "2026-09-23T08:06:54Z",
+  "organized_at": "2026-09-23T08:09:24Z",
+  "summary": "Ovis-Embedding 是阿里 Embedding 团队提出的全模态统一嵌入模型家族，用单一共享多模态骨干（基于 Qwen-omni）替代传统的多塔拼接方案，将文本、图像、视频、音频编码到同一表示空间。其三项关键设计包括原生全模态初始化与低秩对比训练、同源采样构建任务一致批次以提升数据效率、以及 focal loss 与相似度蒸馏的嵌入专用优化，推理时还支持低秩分解实现可变维度紧凑嵌入。该工作在 MMEB-v3、MMEB-v2、MVEB、MAEB、RTEB 等多个基准上取得 SOTA，对构建任意模态互检索系统具有直接参考价值。",
+  "tags": [
+    "omni-modal-embedding",
+    "multimodal-retrieval",
+    "contrastive-learning",
+    "embedding-distillation",
+    "qwen-omni"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Embedding Team",
+    "published": "Wed, 23 Sep 2026 00:00:00 -0400"
+  }
+}
