@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.25443v1",
+  "title": "ZeroGate: Trust-Preserving Fast Paths for Governed AI Agent Runtimes",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.25443",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-24T08:07:26Z",
+  "analyzed_at": "2026-09-24T08:07:26Z",
+  "organized_at": "2026-09-24T08:09:40Z",
+  "summary": "ZeroGate 提出一种面向受治理 AI Agent 运行时的授权架构，将「精确动作审批」与「持久化本地准入」分离：签发方签署短时 ActionPass，受信运行时适配器在本地门控前重建最终动作并校验绑定、原子消费 nonce。它用 SQLite 事务把 nonce 消费、配额更新与准入回执耦合，并给出条件性决策保持命题。值得关注的是它明确承认边界延迟改善不等于整体加速，并提供了可审计的授权成本对比，而非宣称新的密码学原语。",
+  "tags": [
+    "ai-agent-security",
+    "authorization",
+    "agent-runtime",
+    "policy-enforcement",
+    "auditability"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zexun Wang",
+    "published": "Thu, 24 Sep 2026 00:00:00 -0400"
+  }
+}
