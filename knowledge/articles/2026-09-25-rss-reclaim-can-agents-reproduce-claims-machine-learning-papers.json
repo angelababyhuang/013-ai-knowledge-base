@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28850v1",
+  "title": "RECLAIM: Can Agents Reproduce the Claims of Machine Learning Papers?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28850",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "RECLAIM 是一个评估 AI Agent 复现机器学习论文能力的基准，涵盖 100 篇 NeurIPS 2025 论文，并可按年从新会议重建。它预先固定待复现结果、成功标准和 GPU 小时预算，并按作者发布物的完整度划分难度层级：Run（有代码/数据/权重）、Retrain（缺权重需重训）、Reimplement（缺代码需重写）。评测由独立语言模型依据日志和输出打分，而非 Agent 自述。结果显示最佳 Agent 在三个层级仅复现 41%、27%、15%，且失败常因未对照论文数值验证方法，揭示了当前 Agent 自主科研能力的显著短板。",
+  "tags": [
+    "agent-benchmark",
+    "reproducibility",
+    "ml-research-agents",
+    "autonomous-agents",
+    "evaluation"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mithil Salunkhe, Haochen Ding, Samridhi Verma, Volodymyr Kindratenko",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

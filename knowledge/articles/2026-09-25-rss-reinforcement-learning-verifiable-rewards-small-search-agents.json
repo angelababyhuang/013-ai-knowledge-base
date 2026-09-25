@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28765v1",
+  "title": "Reinforcement Learning with Verifiable Rewards for Small Search Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28765",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "该论文研究 RLVR（可验证奖励强化学习）在十亿参数以下小模型上的适用性，用 GRPO 训练 Qwen3.5-0.8B 并接入交错式 Wikipedia 搜索工具，在 MuSiQue 上仅改变奖励函数形状做对比实验。结果显示最佳配置在七个问答基准上平均精确匹配达 0.352，相比未训练基线 0.092 提升 3.8 倍，且无需蒸馏教师模型。关键发现是：数学/代码领域默认的稀疏精确匹配奖励在小模型搜索场景中表现最差，说明小模型 RLVR 需要专门的奖励设计而非直接套用大模型配方。",
+  "tags": [
+    "rlvr",
+    "grpo",
+    "search-agent",
+    "small-language-models",
+    "reward-design"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Gaurisankar Jayadas, Aske Plaat, \\'Alvaro Serra-G\\'omez, Sandheep P",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

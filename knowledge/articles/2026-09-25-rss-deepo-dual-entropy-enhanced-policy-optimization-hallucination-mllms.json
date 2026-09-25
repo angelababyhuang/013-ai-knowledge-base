@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28570v1",
+  "title": "DEEPO: Dual-Entropy Enhanced Policy Optimization for Hallucination in MLLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28570",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "该论文针对多模态大模型（MLLM）强化学习训练中幻觉改善不稳定的问题，定位出奖励到参数更新链条上的两个薄弱点：高语义熵的困难查询常产生全错样本组，使组相对优势归零；而自信但错误的 token 因分布尖锐化导致梯度范数消失，得不到有效纠正。作者提出 DEEPO 双阶段增强方法，结合语义熵触发的专家前缀注入与优势符号感知的 Renyi 梯度预处理，在 VideoMMMU 等任务上显著降低幻觉且保持准确率与训练稳定性。",
+  "tags": [
+    "mllm-hallucination",
+    "reinforcement-learning",
+    "grpo",
+    "entropy-regularization",
+    "multimodal-reasoning"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yingxuan Zhuang, Miao Pan, Wangjie Gan, Jingxiao Yang, Fan Wang, Weiming Liu, Cheng Tan, Xuhong Zhang, Jintao Chen",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

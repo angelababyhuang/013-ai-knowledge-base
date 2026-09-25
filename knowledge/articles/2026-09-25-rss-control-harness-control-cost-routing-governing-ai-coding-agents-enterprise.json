@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28919v1",
+  "title": "Control the Harness, Control the Cost: Routing and Governing AI Coding Agents in the Enterprise",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28919",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "本文聚焦企业大规模部署 AI 编码代理（如 Claude Code、Codex）时的成本治理问题，指出 harness（运行代理的产品）在模型选择、上下文读取、提示缓存与子代理调度上的默认决策直接决定了企业的账单。作者构建了一个可定制路由器，用带校准概率的分类器 Jev 对每个提示按企业自定义分类体系打标，并只在会话开始、侧路和子代理启动等不破坏提示缓存的时机切换模型。基于公开数据集约 1 万次真实会话的重新定价，论文推导出中途切换的收益临界点，并发现长工具密集型会话中最高价模型反而比次档更便宜；在 1 万座席的模拟企业中可节省 14%–21% 的模型支出（按 2026 年 9 月 Anthropic 标价约合每年 330 万至 500 万美元）。论文还梳理了 20 种 harness 的风险、量化对单一供应商模型的依赖，并提出企业可自建的控制平面与是否自研 harness 的决策阶梯，对企业 AI 成本治理与架构选型有直接参考价值。",
+  "tags": [
+    "ai-coding-agents",
+    "llm-routing",
+    "cost-optimization",
+    "prompt-caching",
+    "enterprise-ai"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Arian Abbasi, Alan Aqrawi, Ted Kwartler",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

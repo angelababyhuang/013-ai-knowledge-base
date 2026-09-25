@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28771v1",
+  "title": "Agent Memory with Episodic Retrieval for Financial Decision-Making",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28771",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "该论文提出 META（Memory Enhanced Trading Agent），一个将情景记忆（episodic memory）引入多智能体金融决策的框架。它由多个技术指标智能体（Trend、MACD、RSI、SMA 等）与一个融合决策智能体组成，并额外配备记忆模块，把历史交易情景编码为市场状态嵌入，连同结果与反思进行检索和更新，从而在相似市场状态下自适应地重新加权信号。相比以往只做长周期预测或无状态分析的交易智能体，META 强调短周期、regime-aware、可解释且低延迟的决策，为 LLM Agent 的记忆机制在金融场景落地提供了可参考的工程范式。",
+  "tags": [
+    "agent-memory",
+    "episodic-retrieval",
+    "multi-agent",
+    "financial-trading",
+    "rag"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Nuoyue Xu, Jiang Liu, Wenxuan Huang, Xiang Zhang, Juntai Cao, Jiaqi Wei",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

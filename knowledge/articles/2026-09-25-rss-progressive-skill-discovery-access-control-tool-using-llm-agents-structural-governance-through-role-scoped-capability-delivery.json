@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28693v1",
+  "title": "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28693",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "该论文提出 skilder 框架，将 LLM Agent 的企业工具能力封装为\"角色\"（role），每个角色捆绑技能、工具、指令及其边界限制，Agent 从最小角色目录起步，按任务需要动态学习并获取角色能力，所有工具通过单一 MCP server 下发。其核心创新在于把访问控制从提示词中的概率性建议转变为系统级的确定性约束——工具只在已学习的技能范围内可达，从而杜绝越权调用与参数违规（如超预算）。相比多智能体域委派方案，它避免了审计日志分散和跨会话策略不一致的问题，在 13 个任务、6 个模型上验证了治理边界的强制执行，同时保留跨角色动态获取能力的灵活性。",
+  "tags": [
+    "llm-agents",
+    "access-control",
+    "tool-use",
+    "mcp",
+    "agent-governance"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Michael Stettler, Benjamin Girardet, Jonas Canton, Nicolas Corod",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

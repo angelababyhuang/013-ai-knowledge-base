@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28876v1",
+  "title": "Forecast-Dojo: Replayable Environments for Benchmarking and Training LLM Forecasting Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28876",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "Forecast-Dojo 是一个可重放（replayable）的评测与训练环境，用于研究 LLM 预测智能体。它把已结算的 Polymarket 预测市场事件与带日期的新闻语料结合，让智能体在历史时间线上反复检索证据、更新预测，从而无需等待新事件结算即可获得反馈。数据集包含 1,568 个事件和 1,880 万篇带日期新闻，按时间划分训练/评测集。对 12 个模型的评测显示研究工具能普遍降低 Brier 分数，但所有模型仍落后于历史市场预测，且跨日期携带的信念笔记本只降低成本、未稳定提升质量。",
+  "tags": [
+    "llm-agents",
+    "forecasting",
+    "benchmark",
+    "agent-training",
+    "prediction-markets"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Liqin Ye, Haorui Wang, Fardin Ahmed, Rongzhi Zhang, Yuan He, Ziyuan Lin, Yanbin Yin, Jing Peng, Michael Galarnyk, Sudheer Chava, Chao Zhang",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28654v1",
+  "title": "Training Object Permanence in World Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28654",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "该论文研究视频生成模型（当前世界模型的典型代表）是否具备「客体永久性」这一人类核心认知先验，并尝试通过认知科学启发的数据来训练它。作者构建了 WROP 数据基础设施，包含 150 个手工设计的认知科学任务（分六类），用 Blender 生成器随机化速度、光照、视角等干扰参数，每任务产出 1 万+ 样本，发布 150 万样本训练语料和 300 题评测集。在评测中，其 16B 世界模型 PWM-WROP 在盲测 Elo 对比中位列 continuation 模型第一、总体第三。该工作把认知科学与世界模型训练结合，为构建类人物理智能提供了数据、评测与训练栈的完整开源方案。",
+  "tags": [
+    "world-models",
+    "object-permanence",
+    "video-generation",
+    "cognitive-science",
+    "benchmark"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Haotian Zhang, Fengyuan Yu, Dezhi Luo, Haoran Sun, Zehong Zhao, Qingying Gao, Yihan Li, Siyuan An, Huayi Qin, Yilan Zhang, Zhengze Jiang, Pinyuan Feng, Renrui Zhang, Ziyu Guo, Letian Wang, Mengyue Yang, Kangfu Mei, Maijunxian Wang, Ran Ji, Vikash Kumar, Freda Shi, Chandra Sripada, Vincent C. Muller, Philip Torr, Alan Yuille, Nikolaus Kriegeskorte, Felix Juefei-Xu, Lvmin Zhang, Jieneng Chen, Yilun Du, Hokin Deng",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

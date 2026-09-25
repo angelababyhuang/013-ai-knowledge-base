@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28690v1",
+  "title": "Beyond Surface Style: Aligning Multi-Turn User Simulators with Behavioral Consistency",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28690",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "该论文提出 TRACER，一个多轮用户模拟器，核心观点是单轮回复看似合理并不代表模拟用户能复现真实交互中的意图演化与最终结果。TRACER 采用两阶段训练：先在有真实用户对话上做监督微调，再用多轮强化学习，结合结果级与轨迹级的层次化奖励以及偏差感知的优势调制，缓解长对话中的奖励稀疏与信用分配问题。在真实客服会话上，TRACER-7B 的转化 F1 比最强基线高 11.4，并给出 Dynamic Marketing Benchmark，揭示回复质量高并不必然带来更高转化率。",
+  "tags": [
+    "user-simulation",
+    "multi-turn-dialogue",
+    "reinforcement-learning",
+    "llm-evaluation",
+    "benchmark"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Geng Chen, Ruotong Pan, Zhirui Yang, Qiqi He, Jiawei Chen, Zhang Yunfei, Chongyuan Chen, Minxuan Lv, Zheng Yang, Win-Bin Huang, Xiangyu Wu, Wenwu Ou",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

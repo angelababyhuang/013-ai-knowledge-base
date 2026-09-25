@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28575v1",
+  "title": "TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28575",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "TWIST 是一个针对对话记忆系统「干预质量」的基准测试提案，填补了现有长对话记忆评测只关注召回与知识更新的空白。它基于 LoCoMo 语料与测试框架扩展出四条赛道，覆盖无提示张力检测、对外发草稿的核验、以当前信念作答并保留被取代历史、以及敏感召回治理，并为每个检测指标配备表面匹配的硬负样本控制，防止「全部报警」式刷分。基准本身先经人工双盲标注与裁决验证（Track B v1.0 共 161 项，kappa=0.85），实验显示扁平 RAG 与一致性导向系统在矛盾召回与误报之间存在无法用单一召回分数体现的权衡，为记忆系统的「何时该干预、何时不该」提供了可量化的评估维度。",
+  "tags": [
+    "conversational-memory",
+    "benchmark",
+    "llm-agents",
+    "evaluation",
+    "retrieval-augmented-generation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Subrat Panda",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

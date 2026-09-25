@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28859v1",
+  "title": "Human-AI-Powered Hypothesis Testing: Cost-Aware Selective AI Scoring and Sequential Human Escalation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28859",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "该论文研究如何将大语言模型作为廉价评判者用于正式统计假设检验，而非简单当作真值标签。作者提出在隐藏二元标签的样本群上，通过选择性 AI 打分与自适应人工升级（escalation）来在控制第一类与第二类错误的前提下最小化成本，并给出信息论下界刻画 AI 信息与人工验证的价值。据此设计的 SCALE 策略在有限样本下有效，且当目标错误率趋零时一阶匹配下界，为 AI 评估的可靠性提供了统计保证。",
+  "tags": [
+    "llm-as-judge",
+    "hypothesis-testing",
+    "human-in-the-loop",
+    "cost-aware-inference",
+    "sequential-decision"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dae Woong (David),  Ham, Xuejun Zhao, Stefanus Jasin, Fenghua Yang",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

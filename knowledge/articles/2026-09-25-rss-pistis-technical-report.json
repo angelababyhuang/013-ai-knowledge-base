@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28554v1",
+  "title": "Pistis Technical Report",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28554",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "Pistis 是一个多模态大模型家族技术报告，基于 Qwen3.6/Qwen3.5 构建 27B 与 9B 两个规模，核心创新是 IDRL 后训练范式——在单一训练循环中交替进行 on-policy 蒸馏与强化学习，而非静态联合损失，从而提升知识迁移效率、优化稳定性与长程 agent 轨迹的信用分配精度。模型分 Thinking 与 Agentic 两个变体，后者在多模态搜索与工具调用上表现突出；此外提出 Pistis-Auto-Harnessing（PAH），在不更新参数、不增加交互预算的前提下自动优化推理 harness。对关注多模态 Agent 后训练与推理侧优化的研究者有参考价值。",
+  "tags": [
+    "multimodal-llm",
+    "post-training",
+    "reinforcement-learning",
+    "on-policy-distillation",
+    "agentic-reasoning"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Heyun Chen, Xiaohan Lan, Jiaxi Li, Zhilin Lu, Qi She, Weiwen Xu, Fei Yu, Yujie Zhong, Jinghuan Chen, Zijian Feng, Siyu Jiao, Yiheng Lin, Xinhao Wang, Sihan Yang, Jieyu You, Changbin Zhang, Hengyu Zhang, Xudong Zhang, Yunqing Zhao, Shuai Zheng",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

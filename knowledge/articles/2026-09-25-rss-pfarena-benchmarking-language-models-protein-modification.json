@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28921v1",
+  "title": "PFArena: Benchmarking Language Models for Protein Modification",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28921",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "PFArena 是一个面向蛋白质改造（定向进化）的语言模型基准，设计了四个受控任务接口，覆盖单突变体生成与多突变体排序，并按可用突变适应度数据量划分出四种代表性实验情境。作者系统评测了 6 个蛋白质语言模型（PLM）、6 个通用 LLM 和 5 个 LLM Agent，发现性能随目标特异性实验证据的多少发生系统性迁移：PLM 在开放式单突变生成上凭借蛋白先验占优，而 LLM 与 Agent 在多突变排序、尤其是有适应度数据时表现更强；但所有模型在搜索空间增大和突变深度提高时都面临根本性困难。该工作为「LLM/Agent 能否用于真实湿实验决策」提供了可复现的量化对照，对生物+AI 交叉方向的研究者与工程落地都有参考价值。",
+  "tags": [
+    "protein-engineering",
+    "benchmark",
+    "llm-agents",
+    "protein-language-models",
+    "directed-evolution"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yawen Ouyang, Xinbo Zhang, Ziyuan Ma, Yixin Wu, Wenbin Liao, Feiran Zhang, Wenjie Li, Lihao Wang, Hao Wang, Xiaoqing Zheng, Xuefeng Yan, Lei Bai, Ya-Qin Zhang, Shuyi Zhang, Wei-Ying Ma, Dahua Lin, Bowen Zhou, Hao Zhou",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}

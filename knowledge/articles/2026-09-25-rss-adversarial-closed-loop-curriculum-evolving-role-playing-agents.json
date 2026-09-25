@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.28609v1",
+  "title": "Adversarial Closed-Loop Curriculum for Evolving Role-Playing Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.28609",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-25T08:07:12Z",
+  "analyzed_at": "2026-09-25T08:07:13Z",
+  "organized_at": "2026-09-25T08:09:26Z",
+  "summary": "该论文提出 AdvRole，一个面向角色扮演智能体的对抗式闭环课程学习框架。针对现有 RL 方法在固定场景池上训练导致的分布瓶颈——智能体能力提升后薄弱场景已变化但训练分布不变——AdvRole 让 Actor（角色扮演者）与 Rewriter（场景改写者）交替训练，Rewriter 以性能差距奖励为目标，将角色设定与对话上下文改写成针对当前 Actor 的困难场景，使场景池随 Actor 共同演化并持续瞄准未掌握区域。在三个中英文角色扮演基准及新发布的多语言基准上均优于基线，对做 LLM 角色扮演与 RL 训练的研究者有参考价值。",
+  "tags": [
+    "role-playing-agents",
+    "reinforcement-learning",
+    "curriculum-learning",
+    "adversarial-training",
+    "llm-agents"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zheng Zhang, Liu Liu, Qi Chai, Deheng Ye, Peilin Zhao, Mao Zheng, Hao Wang",
+    "published": "Fri, 25 Sep 2026 00:00:00 -0400"
+  }
+}
