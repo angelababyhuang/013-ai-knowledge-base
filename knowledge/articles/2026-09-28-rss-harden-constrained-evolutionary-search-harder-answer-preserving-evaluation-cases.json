@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.30571v1",
+  "title": "HARDEN: Constrained Evolutionary Search for Harder, Answer-Preserving Evaluation Cases",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.30571",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-28T08:13:52Z",
+  "analyzed_at": "2026-09-28T08:13:53Z",
+  "organized_at": "2026-09-28T08:16:18Z",
+  "summary": "HARDEN 提出一种受约束的进化搜索方法，用于把现有评测用例的输入改写成更难但答案不变的变体，从而暴露语言模型在企业级复杂场景下的真实能力缺口。它在 FinQA、PubMedQA、ContractNLI 三个数据集和三种 Qwen3.5 规模上平均降低准确率 22.7%，最高达 49.9%，且保持语义、真实性与可执行性等可行性约束。对做 LLM 评测、基准构建与红队测试的团队有直接参考价值。",
+  "tags": [
+    "llm-evaluation",
+    "evolutionary-search",
+    "benchmark-hardening",
+    "constrained-generation",
+    "data-augmentation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aditya Kumaran, Rahul Singhal, Karime Maamari, Amine Mhedhbi, Pradyumna Tambwekar",
+    "published": "Mon, 28 Sep 2026 00:00:00 -0400"
+  }
+}

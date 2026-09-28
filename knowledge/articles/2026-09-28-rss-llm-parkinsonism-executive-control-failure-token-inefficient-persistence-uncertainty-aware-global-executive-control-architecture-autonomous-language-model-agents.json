@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.30662v1",
+  "title": "LLM Parkinsonism: Executive-Control Failure, Token-Inefficient Persistence, and an Uncertainty-Aware Global Executive Control Architecture for Autonomous Language-Model Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.30662",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-28T08:13:52Z",
+  "analyzed_at": "2026-09-28T08:13:53Z",
+  "organized_at": "2026-09-28T08:16:18Z",
+  "summary": "该论文提出「LLM Parkinsonism」概念，描述 LLM Agent 在目标已达成后仍持续行动、反复验证、修复自造复杂度的现象，并将其归因于提议生成、范围解释、进度评估与停止权集中于同一自条件循环。作者提出不确定性感知的全局执行控制架构 GEC v0.2，将行动生成与项目级控制分离，在 24,000 回合基准上把平均 token 消耗从 19,782 降至 12,574（36.4%），同时保持 96.57% 硬目标成功率。该工作为 Agent 的停止决策与资源治理提供了可量化的架构思路，但结论基于机制仿真，尚需真实模型验证。",
+  "tags": [
+    "llm-agents",
+    "agent-governance",
+    "stopping-criteria",
+    "token-efficiency",
+    "uncertainty-aware"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dongsheng Xiao, Zeyuan Wang, Xuzhe Xia, Bo Zhao, Yankai Cao",
+    "published": "Mon, 28 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.30383v1",
+  "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.30383",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-28T08:13:52Z",
+  "analyzed_at": "2026-09-28T08:13:53Z",
+  "organized_at": "2026-09-28T08:16:18Z",
+  "summary": "本文提出「技能级联攻击」（Skill Cascading Attacks）这一新型威胁范式：恶意目标被拆分到多个独立技能中，每个技能单独看都无害，但组合执行后产生危害（如处方审核流程中三级技能配合让严重药物相互作用警告静默消失）。作者构建了自动化多智能体红队框架 SkillCascade 并发布含 213 个验证用例的 SkillCascade-Bench，在 OpenClaw、Claude Code、Codex 等系统上验证了现有单技能扫描器和运行时监控均无法拦截。该工作揭示了组件级完整性与系统级安全之间的鸿沟，对技能生态的 Agent 安全设计有直接指导意义。",
+  "tags": [
+    "agent-security",
+    "multi-agent-red-teaming",
+    "skill-ecosystem",
+    "prompt-injection",
+    "benchmark"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zihao Zhu, Siwei Lyu, Adel Bibi, Baoyuan Wu",
+    "published": "Mon, 28 Sep 2026 00:00:00 -0400"
+  }
+}

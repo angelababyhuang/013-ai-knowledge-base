@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.30569v1",
+  "title": "Atelier: Learning Local Self-Supervised Features for CryoEM Volumes via Hypernetworks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.30569",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-28T08:13:52Z",
+  "analyzed_at": "2026-09-28T08:13:53Z",
+  "organized_at": "2026-09-28T08:16:18Z",
+  "summary": "Atelier 提出一种基于超网络（hypernetwork）的自监督框架，将隐式神经表示（INR）的拟合过程摊销到大规模冷冻电镜（CryoEM）密度图上，预训练于 5439 个 EMDB 图谱。它用 transformer 超网络为任意坐标生成高保真重建，并暴露连续、局部化的特征场，作为 3D U-Net 标注头的辅助通道，在八项体素级属性预测任务上优于仅用体素的基线。该工作把摊销 INR 作为几何感知分析原语，为结构生物学中的大规模图谱注释提供了新思路。",
+  "tags": [
+    "cryoem",
+    "implicit-neural-representations",
+    "hypernetworks",
+    "self-supervised-learning",
+    "structural-biology"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Phillip Lo, Sudarshan Babu, Dari Kimanius, Aly A. Khan",
+    "published": "Mon, 28 Sep 2026 00:00:00 -0400"
+  }
+}

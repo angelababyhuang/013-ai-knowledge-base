@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.30576v1",
+  "title": "T-RoPE: Time-Aware Rotary Position Embedding for Sequential Recommendation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.30576",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-28T08:13:52Z",
+  "analyzed_at": "2026-09-28T08:13:53Z",
+  "organized_at": "2026-09-28T08:16:18Z",
+  "summary": "该论文针对生成式推荐中直接沿用 LLM 的 RoPE 位置编码提出质疑：交互索引只记录事件顺序，无法表达真实时间间隔、多尺度行为周期与日历相位。作者提出 T-RoPE，用时间戳角度、可学习时间系数、多尺度频率库、偏移查询对齐与非平稳键旋转替代纯索引旋转，并从理论上证明标准 RoPE 即使输入时间戳仍具时间平移不变性、无法区分季节上下文。在五个公开基准、60 亿交互工业电商数据及 Shop 应用线上 A/B 测试中均取得提升，且额外计算开销对序列长度与头维度线性，对做推荐系统与长序列建模的工程师有直接参考价值。",
+  "tags": [
+    "rotary-position-embedding",
+    "sequential-recommendation",
+    "generative-recommender",
+    "transformer",
+    "time-aware-modeling"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yang Liu, Noel Loo, Ali Khanafer, Shuying Sun, Akshay Soni, Zhong Wu, Linjun Yang",
+    "published": "Mon, 28 Sep 2026 00:00:00 -0400"
+  }
+}

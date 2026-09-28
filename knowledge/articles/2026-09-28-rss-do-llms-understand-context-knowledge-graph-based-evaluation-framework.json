@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.30484v1",
+  "title": "Do LLMs Understand Context? A Knowledge Graph-Based Evaluation Framework",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.30484",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-28T08:13:52Z",
+  "analyzed_at": "2026-09-28T08:13:53Z",
+  "organized_at": "2026-09-28T08:16:18Z",
+  "summary": "该论文针对 LLM 是否真正理解上下文这一核心问题，指出现有 BLEU、困惑度等指标只能衡量表层表现，无法判断回答是否真正基于上下文而非记忆关联。作者提出基于知识图谱的评估框架，核心是 S3KG 混合相似度指标，融合结构与语义信号给出单一评分，并配套三元组级别的诊断分析框架以定位推理错误。在九个基准上 F1 最高提升 7.6 分、AUROC 达 0.973，为 QA 场景下的上下文忠实度评估提供了更细粒度的可解释方案。",
+  "tags": [
+    "llm-evaluation",
+    "knowledge-graph",
+    "context-understanding",
+    "question-answering",
+    "faithfulness"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Subavarshana Arumugam, Mamta Nallaretnam, Kithuni Wickramasinghe, Chamath Gunapala, Pragatheeswaran Vipulanandan, Kamal Premaratne, Uthayasanker Thayasivam",
+    "published": "Mon, 28 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.30625v1",
+  "title": "Audio LLMs Know When They Can't Hear You",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.30625",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-28T08:13:52Z",
+  "analyzed_at": "2026-09-28T08:13:53Z",
+  "organized_at": "2026-09-28T08:16:18Z",
+  "summary": "该论文研究音频大语言模型（Audio LLM）能否识别自身转录的不可靠性。作者发现模型自评转录可靠性能力很差，且语音质量预测器、生成不确定性、转录条件 WER 估计等现有方法信号有限；而可靠性信息强烈编码在冻结音频编码器的表示中。基于此提出轻量级可靠性预测器，在生成前预测可靠性类别，不可靠时触发澄清请求，域内/跨域 macro-F1 达 81.10%/78.09%，显著超越基线，且标签可跨模型家族迁移。",
+  "tags": [
+    "audio-llm",
+    "transcription-reliability",
+    "uncertainty-estimation",
+    "speech-recognition",
+    "clarification"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Amirhosein Javadi, Richa Dixit, Mehrdad Farajtabar, Minsik Cho, Devang Naik, Mohammad Samragh",
+    "published": "Mon, 28 Sep 2026 00:00:00 -0400"
+  }
+}
