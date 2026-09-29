@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.32000v1",
+  "title": "SenseAgent: An LLM Agent for Adaptive Cross-Domain IMU Sensing",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.32000",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-29T08:08:05Z",
+  "analyzed_at": "2026-09-29T08:08:06Z",
+  "organized_at": "2026-09-29T08:10:22Z",
+  "summary": "SenseAgent 将 LLM 用作跨域 IMU 人体活动识别的运行时规划器，而非直接对原始信号分类。它通过无标签诊断报告判断目标域偏移类型，再决定保留原始推理或调用重力感知、原型迁移、风格归一化等工具，并用验证器把关源域校准、目标记忆可靠性与无损害准则。该工作把固定推理流水线转为闭环感知过程，在穿戴设备跨用户、跨设备、跨佩戴位置场景下提升鲁棒性，并支持少量反馈而不重训骨干。",
+  "tags": [
+    "llm-agent",
+    "imu-sensing",
+    "cross-domain-adaptation",
+    "wearable-computing",
+    "tool-use"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tianya Zhao, Chuan Liu, Xuyu Wang",
+    "published": "Tue, 29 Sep 2026 00:00:00 -0400"
+  }
+}

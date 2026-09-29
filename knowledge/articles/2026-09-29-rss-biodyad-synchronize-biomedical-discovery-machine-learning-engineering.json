@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.31939v1",
+  "title": "BioDyad: Synchronize Biomedical Discovery and Machine Learning Engineering",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.31939",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-29T08:08:05Z",
+  "analyzed_at": "2026-09-29T08:08:06Z",
+  "organized_at": "2026-09-29T08:10:22Z",
+  "summary": "BioDyad 是一个面向生物医学机器学习任务的智能体系统，核心创新在于用蒙特卡洛图搜索（Monte Carlo graph search）中的双层结构同时协调「生物医学证据发现」与「ML 工程实现」。科学层将先验生物医学知识与迭代发现结合，并把生物医学方案与执行结果关联存入记忆以供跨候选复用；工程层则让候选程序经历 smoke 执行、训练/验证评估到全量数据重训的渐进流程。在 BioXArena 的 76 个任务、每任务两小时预算、三种匹配 LLM 后端下，它取得最高惩罚总分与任务成功率，说明将外部知识整合进可执行程序对异构生物医学任务有实际增益。",
+  "tags": [
+    "biomedical-ml",
+    "agentic-search",
+    "monte-carlo-tree-search",
+    "program-synthesis",
+    "llm-agents"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xingbo Du, Fadli Aulawi Al Ghiffari, Leonard Song, Loka Li, Duzhen Zhang, Zixiao Wang, Xiuying Chen, Le Song",
+    "published": "Tue, 29 Sep 2026 00:00:00 -0400"
+  }
+}

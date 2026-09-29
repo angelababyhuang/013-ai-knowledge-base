@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.31908v1",
+  "title": "Improving Medical Calculation of LLMs with Embedded Coding",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.31908",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-29T08:08:05Z",
+  "analyzed_at": "2026-09-29T08:08:06Z",
+  "organized_at": "2026-09-29T08:10:22Z",
+  "summary": "MedCode 是一个针对医疗计算任务的框架，训练 LLM 生成嵌入式可执行代码，将算术运算委托给确定性解释器执行，从而避免 LLM 直接心算带来的数值错误。作者基于 MedCalc 基准构建了 SFT 与偏好数据集，并新增 ICU 场景计算数据，同时提出加权 DPO（wDPO）自适应强化难以区分的偏好对。在 LLaMA3-8B、Qwen2.5-7B、Mistral-7B 上取得 20-30 个百分点的绝对准确率提升，对药物剂量、器官功能评估等高风险临床场景有直接意义。",
+  "tags": [
+    "medical-llm",
+    "code-generation",
+    "tool-use",
+    "preference-optimization",
+    "clinical-decision-support"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tianshi Ming, Yingying Zhang, Xian Wu",
+    "published": "Tue, 29 Sep 2026 00:00:00 -0400"
+  }
+}

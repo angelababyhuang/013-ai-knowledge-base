@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.32002v1",
+  "title": "What Does the Rank Buy? A Spectral and Distributional Analysis of Low-Rank Adaptation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.32002",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-29T08:08:05Z",
+  "analyzed_at": "2026-09-29T08:08:06Z",
+  "organized_at": "2026-09-29T08:10:22Z",
+  "summary": "本文从理论与谱分析角度重新审视 LoRA 中秩 r 的作用，指出在逐因子范数预算（即权重衰减与范数控制的理想化）下，LoRA 可达的更新恰为核范数球内秩不超过 r 的矩阵，而所有复杂度与位移泛函都在秩一更新处取最大，因此秩上限从不真正生效。作者进一步指出秩真正起作用的地方：统计上需将逐因子预算改为乘积联合预算才能恢复依赖数据的秩敏感复杂度界；谱上秩决定适配的代价，即抵消预训练权重主奇异方向所需的最小秩与预算。该工作挑战了“低秩即低容量”的普遍直觉，对理解 LoRA 的泛化与容量控制具有理论指导意义。",
+  "tags": [
+    "lora",
+    "low-rank-adaptation",
+    "generalization-theory",
+    "spectral-analysis",
+    "fine-tuning"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Babak Barazandeh",
+    "published": "Tue, 29 Sep 2026 00:00:00 -0400"
+  }
+}

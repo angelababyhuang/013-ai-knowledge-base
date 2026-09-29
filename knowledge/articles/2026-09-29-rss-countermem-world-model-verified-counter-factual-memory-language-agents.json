@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.31874v1",
+  "title": "COUNTERMEM: World-Model Verified Counter-Factual Memory for Language Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.31874",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-29T08:08:05Z",
+  "analyzed_at": "2026-09-29T08:08:06Z",
+  "organized_at": "2026-09-29T08:10:22Z",
+  "summary": "COUNTERMEM 提出一种面向语言智能体的反事实记忆框架，核心是在动作失败后借助可执行世界模型（测试、证明器、求解器）从原始状态的副本或重置中评估局部替代动作，从而构建经过验证的\"如果当时换一种做法会怎样\"的记忆。它用强化学习训练记忆使用策略，在任务成功率与交互成本之间权衡，且基础 LLM 保持冻结。在六个领域 12 个基准上，配合 gpt-oss-120b 使 ReAct 与 Reflexion 平均提升 12.6 个百分点，同时任务 token 消耗下降 7.7%-42.0%，为智能体记忆构建提供了可验证、可复用的新范式。",
+  "tags": [
+    "agent-memory",
+    "counterfactual-reasoning",
+    "world-models",
+    "reinforcement-learning",
+    "llm-agents"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hongji Pu, Ruixiang Tang, Yongfeng Zhang",
+    "published": "Tue, 29 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.31897v1",
+  "title": "Context-dependent agent evaluation with orthogonal equilibrium learning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.31897",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-29T08:08:05Z",
+  "analyzed_at": "2026-09-29T08:08:06Z",
+  "organized_at": "2026-09-29T08:10:22Z",
+  "summary": "该论文研究如何在给定上下文（如提示词、任务或用户群体）下评估 AI Agent 的表现。传统 Bradley-Terry 等评分模型假设偏好具有传递性，难以刻画人类判断异质时的集体偏好。作者借鉴社会选择理论，将评估建模为两个玩家选择 Agent 分布以获取更高集体偏好的上下文博弈，Nash 均衡的支撑集即为该上下文下的胜者集合。针对离线日志中每个上下文仅覆盖部分 Agent 导致的偏差，提出 NashEval 框架，通过去偏估计收益矩阵并用正交损失学习上下文到均衡的映射，理论上证明干扰函数估计误差仅以高阶项影响均衡的可利用度。",
+  "tags": [
+    "agent-evaluation",
+    "nash-equilibrium",
+    "social-choice",
+    "offline-learning",
+    "debiased-estimation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Haorui Ma, Zehua Zang, Jiangmeng Li, Yi Li, Fanjing Xu, Stefan Feuerriegel",
+    "published": "Tue, 29 Sep 2026 00:00:00 -0400"
+  }
+}

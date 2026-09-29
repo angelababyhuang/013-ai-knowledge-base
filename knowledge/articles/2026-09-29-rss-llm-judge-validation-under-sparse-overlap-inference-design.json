@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.31857v1",
+  "title": "LLM Judge Validation Under Sparse Overlap: From Inference to Design",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.31857",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-29T08:08:05Z",
+  "analyzed_at": "2026-09-29T08:08:06Z",
+  "organized_at": "2026-09-29T08:10:22Z",
+  "summary": "该论文研究 LLM-as-a-judge 验证中的「重叠稀疏」问题：当人工标注预算不足以对每个样本进行多次标注时，评估 LLM 评判者与人类一致性的可靠性会急剧下降。作者证明在 5% 成对重叠率下，错误部署决策率可达 25%，从十个候选中选出错误最佳评判者的概率高达 65%。论文给出两个可操作杠杆：推导出最小重叠量公式（ρ≥0.25 对非边界评判者足够），以及零成本分层分配方案可将错误拒绝率减半。在 10 个 LLM 评判者、四个评估矩阵上验证，覆盖视觉评估、因果推理和摘要任务。",
+  "tags": [
+    "llm-as-a-judge",
+    "evaluation-methodology",
+    "annotation-overlap",
+    "human-agreement",
+    "statistical-validation"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Junxuan Li, Arko Mukherjee, Soumyabrata Pal",
+    "published": "Tue, 29 Sep 2026 00:00:00 -0400"
+  }
+}

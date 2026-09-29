@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.31871v1",
+  "title": "IndustryLLM: Failure-Driven LLM Training for Industrial Procurement",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.31871",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-29T08:08:05Z",
+  "analyzed_at": "2026-09-29T08:08:06Z",
+  "organized_at": "2026-09-29T08:10:22Z",
+  "summary": "IndustryLLM 是阿里团队面向工业采购场景训练的开源权重领域大模型，基于 Qwen3.5-35B-A3B-Base（35B 总参数、每 token 约激活 3B）继续预训练与微调。其核心创新是\"失败驱动\"的适配配方：用约 100B token 语料（含国标 GB/T 技术档案、脱敏真实交易询价记录与通用回放数据），并通过多语体改写、置信度路由的最小事实编辑和错误定向 QA 合成，解决口语化行话（如\"42-luo-mu\"→42CrMo）、模糊编码（\"16674\"→GB/T 16674）与规格冲突问题。部署侧提出证据门控的三值逻辑约束评估接口，未验证证据保持 unknown 而非 satisfied。离线采购查询结构化精确匹配提升 2.97 个百分点，线上 A/B 实验 GMV +4.25%、满意询盘 +8.3%，延迟从 6-7 秒降至 1.5 秒，权重已开源。",
+  "tags": [
+    "industrial-llm",
+    "domain-adaptation",
+    "continued-pretraining",
+    "procurement",
+    "open-weights"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Liang Ding (Project Lead), Zhiang Xu, Yuyang Sheng, Bin Chen, Songlin Bai, Run Zhu, Dingjun Wu, Hui Xu, Yandi Wang, Fulin Shi, Leilei Gan, Linlin Yu, Qihuang Zhong, Keqin Peng, Yalong Li, Chengfu Huo",
+    "published": "Tue, 29 Sep 2026 00:00:00 -0400"
+  }
+}

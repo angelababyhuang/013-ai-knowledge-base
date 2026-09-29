@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.31990v1",
+  "title": "CSI-Agent: LLM-Assisted Few-Shot Adaptation for Cross-Domain Wi-Fi CSI Sensing",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.31990",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-29T08:08:05Z",
+  "analyzed_at": "2026-09-29T08:08:06Z",
+  "organized_at": "2026-09-29T08:10:22Z",
+  "summary": "该论文提出 CSI-Agent，将跨域 Wi-Fi CSI 感知的自适应问题从离线模型设计重新表述为部署时的决策问题。它不直接处理原始 CSI 或做样本级预测，而是把目标域行为总结为基于感知的类级证据，先建立强目标自适应默认模型，再由 LLM 规划器逐类判断是保留默认还是调用专门动作，并用确定性验证与有界执行降低不可靠干预。在四个公开数据集、五种跨域划分、1-shot 设定下，平均 Macro-F1 较最强基线提升约 16%，展示了 LLM 作为决策规划器在无线感知领域的实用潜力。",
+  "tags": [
+    "wifi-csi-sensing",
+    "llm-agent",
+    "few-shot-adaptation",
+    "cross-domain",
+    "human-activity-recognition"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tianya Zhao, Chuan Liu, Xuyu Wang",
+    "published": "Tue, 29 Sep 2026 00:00:00 -0400"
+  }
+}

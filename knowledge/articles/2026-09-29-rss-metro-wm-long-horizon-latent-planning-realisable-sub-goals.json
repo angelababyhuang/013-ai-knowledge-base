@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.31868v1",
+  "title": "Metro-WM: Long-Horizon Latent Planning with Realisable Sub-Goals",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.31868",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-29T08:08:05Z",
+  "analyzed_at": "2026-09-29T08:08:06Z",
+  "organized_at": "2026-09-29T08:10:22Z",
+  "summary": "Metro-WM 针对 JEPA 模型预测控制在长时程规划上的短板提出改进方案。作者指出，现有分层方法让宏观规划器直接生成潜在子目标存在根本缺陷——这些子目标往往物理上不可实现。Metro-WM 转而从离线专家演示或随机轨迹中检索真实观测帧，构建可跨回合拼接的图结构，并在此图上做路径规划，从而在微观规划器偏离时快速重规划。实验显示其长时程成功率比次优分层方法高最多 37.33 个百分点，速度快 10.9 倍，离线算力需求降低 13-56 倍，且超参数更少。",
+  "tags": [
+    "hierarchical-planning",
+    "jepa",
+    "model-predictive-control",
+    "long-horizon",
+    "latent-planning"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Royson Lee, Fady Rezk, Titouan Parcollet, Timothy Hospedales, Cristina Cornelio",
+    "published": "Tue, 29 Sep 2026 00:00:00 -0400"
+  }
+}

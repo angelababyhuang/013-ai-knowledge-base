@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.31792v1",
+  "title": "ConflictVLA-Bench: Benchmarking Behavioral Responses of Vision-Language-Action Models to Premise Conflicts",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.31792",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-29T08:08:05Z",
+  "analyzed_at": "2026-09-29T08:08:06Z",
+  "organized_at": "2026-09-29T08:10:22Z",
+  "summary": "该论文提出 ConflictVLA-Bench，一个基于 LIBERO 构建的基准，用于评测视觉-语言-动作（VLA）模型在任务前提无效（premise conflict）时的行为反应。作者指出仅看任务最终成败无法区分「行为脱离」与「继续执行原目标但最终失败」两种模式，并将后者命名为 Failed Persistence。基准包含 2,826 个冲突任务，覆盖四类冲突家族、四种结构配置和两种提示条件，对八个 VLA 模型测试发现无效前提使原目标完成率至少下降 17.3 个百分点（OpenVLA 达 56.2），且模型仍会朝原目标移动、保留早期轨迹结构，显式前提检查也无法带来一致的选择性行为调整。",
+  "tags": [
+    "vla-models",
+    "benchmark",
+    "embodied-ai",
+    "robot-manipulation",
+    "behavioral-evaluation"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Liyu Hou, Yuan Wu, Yi Chang",
+    "published": "Tue, 29 Sep 2026 00:00:00 -0400"
+  }
+}
