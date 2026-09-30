@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.36062v1",
+  "title": "SMat-Attention: Structured Long-Context Sequence Modeling",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.36062",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "SMat-Attention 提出用 VC 维度 d 作为可调旋钮，在 softmax 全注意力与线性注意力之间建立连续谱系：d=1 退化为标准因果掩码，d 增大则允许更丰富的子集路由模式。作者给出分块前向/反向算法，硬路由下工作量 O(T^{2-3/d}+T)，流式解码每 token 常数时间、缓存 O(T^{1-1/d})，并把该结构扩展到 Mamba-2 与 Gated DeltaNet。对长上下文建模的研究者而言，它提供了显式控制访问模式复杂度、预填充成本与解码内存的理论框架。",
+  "tags": [
+    "long-context",
+    "attention-mechanism",
+    "linear-attention",
+    "vc-dimension",
+    "efficient-inference"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Emile Anand, Abdullah Ateyeh, Archer Wang, Marin Solja\\v{c}i\\'c",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

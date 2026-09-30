@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.35874v1",
+  "title": "Risk-Averse Online POMDP Planning via CVaR of the Immediate Cost with Performance Guarantees",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.35874",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "该论文针对在线 POMDP 规划中期望累积代价会掩盖高代价危险状态的问题，提出将 CVaR 直接作用于每一步信念上的即时代价，而非修改价值函数。这样既捕捉了信念内部的状态不确定性风险，又保留了标准 MDP 结构，使任何基于期望的 POMDP 规划器只需替换代价计算即可获得风险敏感能力。作者给出了策略评估与稀疏采样的有限时间保证，并证明粒子信念 MDP 代理与原始 POMDP 之间的有限时间误差界，形成端到端理论保证，对安全关键场景下的决策规划有参考价值。",
+  "tags": [
+    "pomdp",
+    "risk-averse-planning",
+    "cvar",
+    "reinforcement-learning",
+    "safety"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yaacov Pariente, Vadim Indelman",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

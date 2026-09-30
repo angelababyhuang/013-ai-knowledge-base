@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.35890v1",
+  "title": "Representational Simplicity and Circuit Size Dissociate in a Threshold-Dependent Way: A Controlled Test via Adversarial Training",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.35890",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "该论文用对抗训练作为受控工具，检验一个被广泛假设但缺乏实证的问题：稀疏自编码器（SAE）可分解性与特征归因集中度这类\"表示简洁性\"，是否真能预测更小、更易逆向的因果电路。作者从同一 GPT-2 Small 检查点出发，做匹配的标准与对抗持续训练，在间接宾语识别（IOI）任务上保持同等能力后，沿 SAE 可分解性、SAE 特征参与度、忠实电路边数三条轴比较。结果发现两者出现分离：鲁棒模型表示更简洁，但电路大小依赖忠实度阈值——低忠实度下标准模型不差，高忠实度（90%、95%）下鲁棒模型所需边数显著更少。这提示可解释性指标不能简单等同于机制简洁性，对机械可解释性研究有方法论警示意义。",
+  "tags": [
+    "mechanistic-interpretability",
+    "sparse-autoencoders",
+    "adversarial-training",
+    "circuit-analysis",
+    "gpt-2"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Adam Elimadi",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

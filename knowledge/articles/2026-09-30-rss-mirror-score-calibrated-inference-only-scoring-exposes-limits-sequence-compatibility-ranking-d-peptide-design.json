@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.36057v1",
+  "title": "Mirror-Score: Calibrated, Inference-only Scoring Exposes the Limits of Sequence-compatibility Ranking in D-peptide Design",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.36057",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "该论文针对 D-肽（镜像肽）计算设计中的评分难题，提出 Mirror-Score 框架：指出 ProteinMPNN 原始 NLL 无法作为亲和力排序依据（跨靶标相关性甚至反转），转而采用 Boltz-2 镜像空间共折叠置信度（界面 pLDDT）进行校准评分。作者构建了含 31 个晶体复合物、覆盖四个靶标家族的公开基准，其中 18 个有文献验证亲和力，并给出针对 LasR/LecB 的前瞻性设计协议。值得关注的是它揭示了序列兼容性排序在异手性复合物中的根本局限，为 D-肽 binder 设计提供了可复用的评测基准与评分思路。",
+  "tags": [
+    "d-peptide-design",
+    "proteinmpnn",
+    "boltz-2",
+    "protein-structure-prediction",
+    "benchmark"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiada Li",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

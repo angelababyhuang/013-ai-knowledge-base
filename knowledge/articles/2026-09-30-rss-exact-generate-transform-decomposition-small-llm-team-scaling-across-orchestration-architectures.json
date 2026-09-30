@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.36104v1",
+  "title": "An Exact Generate - Transform Decomposition of Small-LLM Team Scaling Across Orchestration Architectures",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.36104",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "该论文系统性地评测了 8 种多智能体编排架构在 5 个 7-9B 指令微调模型、5 个短答案基准及一个可执行代码基准上的团队扩展效果，发现增加调用次数带来的收益高度依赖任务类型：算术应用题（GSM8K/GSMHard）可提升最多 17 分，而 ARC、GPQA、MMLU 最多仅 4 分。作者提出精确的生成-变换分解，将准确率变化拆分为覆盖广度红利与变换强度变化，解释了不同任务下团队扩展为何有效或失效，并指出同等调用预算下 token 成本仍相差 2.1 倍。该工作为多智能体系统设计提供了可诊断的理论框架与实证依据。",
+  "tags": [
+    "multi-agent-orchestration",
+    "llm-scaling",
+    "agent-architecture",
+    "benchmark-evaluation",
+    "generate-transform-decomposition"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Blaz Bertalanic, Carolina Fortuna",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

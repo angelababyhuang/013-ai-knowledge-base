@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.35873v1",
+  "title": "More Programs or More Rolls? Separating Coverage from Specialization in LLM Harnesses",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.35873",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "该论文针对 LLM harness（为特定任务自动生成的推理程序/脚手架）的评估方法提出质疑：额外答案覆盖率可能仅来自同一程序的重复执行，而非真正的任务特化。作者在 MATH-500 的 386 个任务上，用 8 个生成 harness 加 9 个字节完全相同的基线副本、每个执行 3 次做受控对比，发现相同程序本身就有 2.16 个百分点的重复平均 oracle 余量，生成程序的\"稳定优势\"多表现为持续弱点，冻结选择器增益为 0。结论是覆盖率与可重复性不足以证明特化有效，并据此提出 harness 多样性的评估标准。",
+  "tags": [
+    "llm-harness",
+    "evaluation-methodology",
+    "inference-optimization",
+    "task-specialization",
+    "benchmark"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ziyang Xu, Haitian Zhong, Hao Zhou, Hao Qin, Chenhan Jin, Te Qi, Shengze Xu, Tieyong Zeng",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.35875v1",
+  "title": "Beyond Symmetric Agents: Cognitive Diversity and Multi-Agent Debate in Small Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.35875",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "这篇论文系统性地挑战了多智能体辩论（MAD）优于单模型推理的普遍认知。作者在 23 个小规模开源模型、5 个任务、5500+ 次实验上，沿人格设定、采样温度和模型身份三个维度操纵智能体多样性，并与预算匹配的多数投票/自一致性采样对照。结论是：辩论的收益主要来自集成采样效应而非认知多样性，人格提示反而带来\"人格税\"，且辩论在同等预算下耗时 1.6 倍、token 成本 3.4 倍却未必更优。论文还揭示辩论记录溢出上下文窗口的测量陷阱，为未来 MAD 研究设立了预算匹配的基线门槛。",
+  "tags": [
+    "multi-agent-debate",
+    "llm-reasoning",
+    "ensemble-sampling",
+    "small-language-models",
+    "evaluation-methodology"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Leonardo Ferreira, Gardenia Liu, Kaden Zheng",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

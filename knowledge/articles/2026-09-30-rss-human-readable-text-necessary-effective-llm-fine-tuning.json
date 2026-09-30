@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.35868v1",
+  "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.35868",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "该论文提出 DASA（Desired-Update-Aligned Synthetic Data），探索微调大模型时训练数据是否必须为人类可读文本。它利用冻结参考模型的激活梯度反馈，直接优化连续合成输入嵌入，使数据对齐到有用的参数更新方向，而非重建源文本或追求语言流畅。在 Llama 与 Qwen 系列 1B–32B 六个模型、六个基准上，DASA 性能与自然语言数据相当甚至更优，并比 GRADMM 快 3.6–4.9 倍。",
+  "tags": [
+    "llm-fine-tuning",
+    "synthetic-data",
+    "embedding-optimization",
+    "activation-gradient",
+    "lora"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jinhao Zhang, Zeyu Liu, Zicheng Yan, Yunquan Zhang, Daning Cheng, Song Tang",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

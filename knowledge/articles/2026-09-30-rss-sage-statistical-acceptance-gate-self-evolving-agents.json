@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.36043v1",
+  "title": "SAGE: A Statistical Acceptance Gate for Self-Evolving Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.36043",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "该论文针对 LLM 智能体自我进化循环中的\"接受门\"环节提出改进方案 SAGE。现有做法仅凭聚合验证分数提升就接受技能文档编辑，存在两个缺陷：一是平均分上升却破坏已解决条目造成永久性回退，二是有限噪声验证集上的最优观测分数存在向上偏差（Optimizer's Curse）。SAGE 采用逐条目配对比较与单侧配对统计检验，仅在收益统计可靠时才提交编辑，否则弃权。在五个基准、四个骨干 LLM 的等预算实验中，20 个设置里 19 个显著降低回退率（如 LiveMath 从 36.5% 降至 0%），并全部取得最高最终分数。",
+  "tags": [
+    "self-evolving-agents",
+    "statistical-testing",
+    "llm-agents",
+    "skill-document",
+    "acceptance-gate"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yihao Wang, Linhan Xia, Rui Liu, Zhaofeng Zhang, Hongyu Wu, Yang Yang, Jinglu He, Yu Guo, Kai Lei",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.35924v1",
+  "title": "Grab a Coffee: Future-Aware Guidance for Discrete Diffusion with Compiled Objectives",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.35924",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "COFFEE 是一个针对离散扩散模型的即插即用引导框架，解决序列级目标难以指导并行去噪的问题。由于未解析 token 的取值依赖其他 token，穷举所有补全组合会导致计算量随未解析位置指数增长。COFFEE 将序列依赖与目标函数解耦：用无目标载体吸收去噪器预测的边缘分布构建联合模型，再用编译的有限状态模型记录 token 组合对序列级偏好的影响，从而把全局偏好传递给未解析位置，无需重训练即可采样。该工作让目标函数从仅用于评估变为可用于推理，支持硬约束与学习式软目标，在符号、语言和生物基准上验证了神经-符号方法在扩散引导中的潜力。",
+  "tags": [
+    "discrete-diffusion",
+    "guidance",
+    "neuro-symbolic",
+    "constrained-generation",
+    "sequence-modeling"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hua (Edward),  Xu, Dongxin Li, Gwen Yidou-Weng, Guy Van den Broeck, Wei Wang, Anji Liu",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

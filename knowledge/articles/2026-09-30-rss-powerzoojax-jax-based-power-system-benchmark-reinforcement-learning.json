@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.36052v1",
+  "title": "PowerZooJax: A JAX-based Power System Benchmark for Reinforcement Learning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.36052",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "PowerZooJax 是一个基于 JAX 的电力系统强化学习基准套件，将潮流计算、经济调度、市场出清和设备动态等物理仿真全部改写为 JAX 计算图，使训练与评估循环完全运行在 GPU 上。它提供覆盖发电、输电、配电、分布式能源和数据中心微电网的五类约束马尔可夫决策过程任务，并标准化评估策略回报、安全违规和分布外压力场景。相比传统 CPU 仿真环境，它显著加速了大规模 RL 评估，为安全关键型电力系统决策研究提供了统一、可扩展的测试平台。",
+  "tags": [
+    "jax",
+    "reinforcement-learning",
+    "power-systems",
+    "benchmark",
+    "constrained-mdp"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhanhua Pan, Xiao Liu, Zhilong Cao, Jianhong Wang, Dawei Qiu",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

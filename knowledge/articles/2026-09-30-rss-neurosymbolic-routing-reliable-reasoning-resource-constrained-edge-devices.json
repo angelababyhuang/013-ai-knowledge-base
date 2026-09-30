@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.35833v1",
+  "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.35833",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "该论文提出一种神经符号路由器，用于在树莓派等资源受限边缘设备上提升小语言模型（SLM）推理的可靠性。核心洞察是：许多看似需要推理的查询（算术、代数、形式逻辑）本质是结构确定性的，可用符号引擎精确求解，无需让概率模型去近似。作者用 L* 语法推断算法学习一个确定性有限自动机（DFA）作为路由策略，以 SLM 作为成员查询预言机、标注数据作为等价预言机，将结构化任务分派给最便宜的确定性求解器，仅把开放式应用题留给 SLM。在 Raspberry Pi 4B 上，路由准确率达 100%，整体准确率 98.3%，显著优于 Program-of-Thought（72.0%）和工具调用智能体（58.7%），且速度提升 8.8 倍、能效提升 2.8 倍。",
+  "tags": [
+    "neurosymbolic",
+    "edge-inference",
+    "llm-routing",
+    "grammatical-inference",
+    "small-language-models"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Avyay Sadhu, Alvaro Velasquez, Lekai Chen",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

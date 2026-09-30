@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.35897v1",
+  "title": "Self-discovering RL in the Era of Experience: Is Learning History an Asset or a Burden?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.35897",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "该论文对自我发现的强化学习规则 Disco103 进行了首个因果机制审计，围绕「经验时代」五大支柱（长时程、接地奖励尺度、持续流、生命周期内变化、探索深度）设计实验，通过固定、冻结与移植循环状态来检验学习历史何时是资产、何时是负担。三项发现：循环历史可将可用奖励尺度窗口从三代扩展到六代；历史惩罚源于持续钳制而非历史内容本身；环境变化下重放保留策略会反转相对 DQN 的适应优势。它为下一代自演化 RL 算法建立了微观层面的审计标准，对关注递归自我改进与元学习的研究者具有参考价值。",
+  "tags": [
+    "reinforcement-learning",
+    "self-improvement",
+    "meta-learning",
+    "mechanistic-interpretability",
+    "recurrent-networks"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Haomin Luo (University of Cambridge, Models2 AI)",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}

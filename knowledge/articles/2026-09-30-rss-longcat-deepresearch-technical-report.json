@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.36071v1",
+  "title": "LongCat-DeepResearch Technical Report",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.36071",
+  "category": "paper-or-talk",
+  "collected_at": "2026-09-30T08:07:38Z",
+  "analyzed_at": "2026-09-30T08:07:40Z",
+  "organized_at": "2026-09-30T08:09:56Z",
+  "summary": "美团 LongCat 团队发布的深度研究（Deep Research）系统技术报告，将增强版 LongCat 模型与多智能体工作流结合，用于生成有证据支撑的长篇研究报告。其核心设计是把全局规划与细节调研解耦：多个规划智能体先探索外部信源并产出可执行的研究计划 ResearchSpec，再由研究智能体并行调研与撰写各自章节，最后通过全局审阅驱动局部定向修订，避免整篇报告反复重写。该工作流还用于构造中训练与后训练数据，在 DeepResearchBench 等基准上取得 55.25/51.35/79.83 的成绩，对关注多智能体 Agent 架构与深度研究产品化的团队有直接参考价值。",
+  "tags": [
+    "deep-research",
+    "multi-agent",
+    "longcat",
+    "agent-workflow",
+    "report-generation"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Meituan LongCat Team, He Zhu, Yue Xu, Wanli Wu, Haolin Ren, Yuxin Bian, Jiarui Zhao, Rongzhi Zhang, Quanchi Weng, Jinghao Cui, Yu Fan, Yuhan Liu, Yunhu Ye, Jiyuan Ren, Fengcheng Yuan, Zhao Yang, Jiacheng Zhang, Yuchuan Dai, Ruixuan Xiao, Haozhe Sun, Xiangyuan Liu, Cheng Sun, Yao Du, Yiming Hao, Hongbo Guo, Shuo He, Lei Wang, Xunliang Cai, Yan Chen, Fan Yang, Lingchuan Liu",
+    "published": "Wed, 30 Sep 2026 00:00:00 -0400"
+  }
+}
