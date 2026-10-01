@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38458v1",
+  "title": "PrivMeSA: Privacy-Aware Self-Evolving Multi-Agent System for Medicine via Local-Remote LLM Collaboration",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38458",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "PrivMeSA 针对本地临床 LLM 智能体向远程更强模型咨询时患者隐私泄露的问题，指出仅去除显式标识符不够，因为准标识符可在多轮咨询和重复就诊中累积导致重识别。该系统用强化学习在任务准确率与直接披露、基于登记库的重识别风险之间做权衡，并引入本地经验记忆将已完成咨询蒸馏为通用临床指导，使后续病例无需再次远程交互即可复用专家知识。在 MIMIC-IV-ED 急诊基准上，准确率最高提升 15.8 个百分点，个人细节披露率从 98.0% 降至 0.2%，可被缩小到十名以内登记患者的比例从 74% 降至 0%。",
+  "tags": [
+    "multi-agent-system",
+    "privacy-preserving",
+    "llm-agent",
+    "reinforcement-learning",
+    "clinical-ai"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dannong Wang, Yuran Zhang, Bian Sun, Alex Stinard, Yuzhang Shang, Song Wang, Yu Tian",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}

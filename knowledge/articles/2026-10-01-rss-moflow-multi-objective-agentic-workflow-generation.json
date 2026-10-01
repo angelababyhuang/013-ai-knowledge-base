@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38294v1",
+  "title": "MoFlow: Multi-Objective Agentic Workflow Generation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38294",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "MoFlow 提出将 Agent 工作流生成建模为多目标马尔可夫决策过程，用凸包蒙特卡洛树搜索（Convex-Hull MCTS）配合乐观集合值回传，让每个节点保存一组可达的权衡解而非单一加权分数，从而一次搜索即可近似覆盖帕累托前沿。相比只优化准确率或固定加权和的现有生成器，MoFlow 无需针对新偏好重新训练，只需查表即可返回对应工作流。在数学、代码、问答六个基准上，即便基线被允许按每个测试偏好重跑（MoFlow 从未见过这些偏好），其平均超体积仍最高，对需要同时权衡成本、延迟与鲁棒性的 Agent 系统设计有直接参考价值。",
+  "tags": [
+    "agentic-workflow",
+    "multi-objective-optimization",
+    "monte-carlo-tree-search",
+    "pareto-front",
+    "workflow-generation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yining Lu, Aurelie Lozano, Xi Yang, Naoki Abe, Yu Deng, Meng Jiang",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}

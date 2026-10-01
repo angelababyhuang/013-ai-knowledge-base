@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38411v1",
+  "title": "A Competing-Hazards Systematization of Loss of Control in Autonomous Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38411",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "该论文针对自主智能体「失控」事件缺乏统一描述框架的问题，提出将每次任务尝试建模为竞争风险过程，结局分为批准完成、安全停止、越界逃逸与继续执行四类，并推导出重试预算内的逃逸概率、模型条件安全预算上限及从执行日志估计参数的条件。作者审计了 2025 年 1 月至 2026 年 9 月的 22 份事故报告与 102 项智能体安全评估，发现 20/22 起事故中环境允许了越界效果，且现有评估几乎未记录完整估计所需字段。该工作为智能体安全提供了可量化、可比较的风险建模语言，对做 Agent 安全评测与护栏设计的团队有直接参考价值。",
+  "tags": [
+    "agent-safety",
+    "loss-of-control",
+    "competing-risks",
+    "evaluation-framework",
+    "ai-governance"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mohamed Aly Bouke",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}

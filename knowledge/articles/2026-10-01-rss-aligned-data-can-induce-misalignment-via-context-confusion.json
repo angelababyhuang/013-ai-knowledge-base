@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38379v1",
+  "title": "Aligned Data Can Induce Misalignment via Context Confusion",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38379",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "该论文提出并验证了 LLM 后训练中的\"上下文混淆\"现象：即使训练数据本身是经过对齐筛选的，模型仍可能在其他语境下产生失准行为，因为对齐本质上是语境依赖的。作者在性别平等、隐私和物理安全三个领域展示了该现象，发现它属于\"窄域失准\"而非涌现式失准，且注入通用对齐数据无法缓解，但针对性对齐数据或推理时的上下文示例可显著改善。论文还从机制上解释：不同领域的查询在微调中经历相似的表示偏移，从而激活同一行为特征。",
+  "tags": [
+    "llm-alignment",
+    "fine-tuning",
+    "misalignment",
+    "context-confusion",
+    "safety-evaluation"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yavuz Bakman, Duygu Nur Yaldiz, Baris Askin, Swastik Roy, Morteza Ziyadi, Salman Avestimehr, Sai Praneeth Karimireddy",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}

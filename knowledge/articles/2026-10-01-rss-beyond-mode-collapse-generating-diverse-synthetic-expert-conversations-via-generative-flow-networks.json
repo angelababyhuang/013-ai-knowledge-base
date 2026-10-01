@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38359v1",
+  "title": "Beyond Mode Collapse: Generating Diverse Synthetic Expert Conversations via Generative Flow Networks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38359",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "该论文针对 LLM 合成对话数据容易模式坍缩、多样性不足的问题，提出用生成流网络（GFlowNet）在潜在对话结构空间上采样，以高斯混合密度建模关键交互特征（如困惑片段动态、脚手架指令平衡），从而按训练数据中的真实分布比例生成多样化的专家策略对话。在辅导与情感支持两个结构迥异的领域上，该方法在保真度、模式覆盖与真实性之间取得更好平衡，且不复制训练数据；下游三个结果预测任务显示，基于 GFlowNet 合成对话训练的分类器信号强于 RL 与端到端 LLM 基线。",
+  "tags": [
+    "gflownet",
+    "synthetic-data",
+    "dialogue-generation",
+    "mode-collapse",
+    "llm-post-training"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sumit Asthana, Michael Ion, Kevyn Collins Thompson",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}

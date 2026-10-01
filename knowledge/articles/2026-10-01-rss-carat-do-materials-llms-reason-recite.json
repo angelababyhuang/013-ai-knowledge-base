@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38340v1",
+  "title": "CARAT: Do Materials LLMs Reason or Recite?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38340",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "CARAT 是一套针对材料科学大模型的评测框架，用来区分模型是在真正推理晶体结构，还是仅仅复述输入中已印出的答案字段。它固定问题与标准答案，构造八种匹配视图，并在 GraphSpace 中显式命名每种结构关系，配合微调、答案掩码、证据注入与配对推理等对照实验。核心发现是：模型常引用结构关系却并不真正使用它（95.6% 配对案例中重定向后答案不变），经匹配监督后可达 99.8%，删除链接则跌至 23.4%，说明「引用」与「使用」都是可学习的独立能力。该工作对 LLM 评测方法论、科学领域基准设计具有警示意义。",
+  "tags": [
+    "materials-llm",
+    "benchmark-evaluation",
+    "reasoning-vs-recall",
+    "graph-representation",
+    "scientific-llm"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiajun Wu, Jian Yang, Zixiang Ni, Zhenzhu Li, Bin Chong",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}

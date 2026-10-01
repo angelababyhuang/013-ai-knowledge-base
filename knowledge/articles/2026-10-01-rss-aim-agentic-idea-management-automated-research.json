@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38445v1",
+  "title": "AIM: Agentic Idea Management for Automated Research",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38445",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "AIM 是面向自动化科研的智能体式想法管理框架，将「想法驱动搜索」与「方案驱动搜索」区分开，用类似贝叶斯优化的 Agentic Surrogate 与 Agentic Acquisition 机制组织并筛选研究想法，并配以 Solution Auditor 保证想法与实现一致、Resource Planner 动态分配实验预算。在 AutoLab 的 10 项任务上，它在系统优化任务上超过最强基线 1.6 个百分点，在长周期模型开发与 CUDA 任务上超过 4.9 个百分点，且达到基线最佳性能的墙钟时间最快缩短 3.1 倍。该工作值得关注之处在于把科研自动化的优化对象从「解」上移到「想法」，并给出何时搜索想法更有利的理论分析，为长周期 Agent 科研系统提供了可复用的调度与审计设计范式。",
+  "tags": [
+    "agentic-research",
+    "automated-research",
+    "bayesian-optimization",
+    "llm-agents",
+    "idea-management"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hyeong Kyu Choi, Bhavana Dalvi Mishra, Jiefeng Chen, Mihir Parmar, Rui Meng, Chun-Liang Li, Xiangru Tang, Sharon Li, Jinsung Yoon, Tomas Pfister",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38460v1",
+  "title": "NAQD Env: A benchmark for selective withdrawal in language agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38460",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "NAQD-Env 是一个合成基准环境，用于评估语言智能体在证据变化、权限撤销或收到停止指令时能否做出\"选择性撤回\"——即暂停受影响动作、保留未受影响工作、并在修复充分后恢复执行。它通过 11 类依赖结构、确定性参考策略和门控回放机制，将策略一致性、任务价值、撤回、恢复与事件报告分开度量。作者在 350 个冻结场景上测试了三个开源指令微调模型，发现撤回召回率最高仅 0.06、无有效恢复、仅 1 个 episode 完全符合参考策略，说明选择性撤回是当前智能体可靠性的独立短板，值得单独研究。",
+  "tags": [
+    "agent-reliability",
+    "benchmark",
+    "selective-withdrawal",
+    "policy-compliance",
+    "llm-agents"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mohamed Abouzahra",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}

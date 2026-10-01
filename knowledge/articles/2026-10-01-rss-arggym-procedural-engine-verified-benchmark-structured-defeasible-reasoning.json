@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38409v1",
+  "title": "ArgGYM: A Procedural, Engine-Verified Benchmark for Structured Defeasible Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38409",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "ArgGYM 是一个面向结构化可废止推理（defeasible reasoning）的程序化基准与 RLVR 训练环境，将此类推理拆解为十二项任务，并用符号论证引擎计算的形式状态来对模型输出打分。它包含 1440 条经引擎验证的冻结实例，覆盖十五种课程配置、两种论证偏好序与两种集合序，且生成器与验证器可产出新实例，降低对静态测试集的依赖。其价值在于把「信息不完整、结论可被反驳与修正」这一现实推理场景纳入可自动验证的奖励体系，弥补数学、代码、形式逻辑之外评测的空白，并揭示前沿模型与开源模型在长依赖、多结构交互任务上的性能衰减差异。",
+  "tags": [
+    "defeasible-reasoning",
+    "benchmark",
+    "rlvr",
+    "argumentation",
+    "llm-reasoning"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "\\.Ibrahim Ethem Deveci, Funda Tan \\c{C}al{\\i}k, Bar{\\i}\\c{s} Deniz Sa\\u{g}lam, Duygu Ataman",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}

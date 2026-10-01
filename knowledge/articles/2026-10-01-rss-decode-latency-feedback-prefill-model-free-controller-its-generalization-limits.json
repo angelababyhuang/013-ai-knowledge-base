@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38386v1",
+  "title": "Decode-Latency Feedback Prefill: A Model-Free Controller and Its Generalization Limits",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38386",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "本文提出 Decode-Latency Feedback Prefill（DLFP），一种无模型控制器，通过观测解码延迟反馈动态调整与活跃解码重叠的 prefill 分块大小，以缓解并发自回归推理中长提示 prefill 对已解码请求的干扰。在 vLLM 上以 Qwen3-0.6B/A100 验证，P99 令牌间隔延迟降低约 27.7%，但首令牌延迟上升 34.8%。关键负面结果是该机制无法泛化到 Qwen3-8B、32B 及双卡张量并行配置，作者将失败归因于异步调度器调用间隔只是 GPU 迭代完成时间的代理，为后续基于完成时间的控制器研究划定了边界。",
+  "tags": [
+    "llm-inference",
+    "prefill-decode-disaggregation",
+    "latency-optimization",
+    "vllm",
+    "scheduling"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Gaurav Agarwal, Ashish Garg, Isha Singhal",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}

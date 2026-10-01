@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38372v1",
+  "title": "Self-Evolving Harness on Multiple Tasks with the Agent as Its Own Optimizer",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38372",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "该论文提出一种接近递归自我改进的「自演化 harness」框架：同一个冻结模型在同一版本 harness 上先作为 solver 解题，再作为 proposer 读取完整运行记录并直接改写运行自己的 harness，无需额外人工设计的 proposer。训练任务来自五个不同领域基准，并严格划分训练/留出集，另在五个分布外基准上评估泛化。从 49 行种子 harness 出发，第一阶段平均分提升 4.48（分布内）与 12.64（分布外），超过或追平 Codex；第二阶段在 Claw-Eval 上继续演化至 68.06 分。论文还分析了演化中涌现的截断输出、历史压缩、独立审查等机制，对研究 agent 自动优化与泛化能力有参考价值。",
+  "tags": [
+    "self-evolving-agents",
+    "agent-harness",
+    "recursive-self-improvement",
+    "llm-agents",
+    "generalization"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Qiankai Xu",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}

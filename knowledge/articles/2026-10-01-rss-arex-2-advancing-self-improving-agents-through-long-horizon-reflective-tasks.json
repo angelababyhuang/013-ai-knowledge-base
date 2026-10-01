@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2609.38288v1",
+  "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2609.38288",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-01T08:07:38Z",
+  "analyzed_at": "2026-10-01T08:07:39Z",
+  "organized_at": "2026-10-01T08:09:59Z",
+  "summary": "AREX-2 提出通过长时程反思任务提升 LLM Agent 的自改进能力，即测试时迭代优化解的能力。作者认为反思与长时程执行是领域无关的，于是从机器学习与算法编程任务中合成可验证的长时程改进轨迹，训练基于 Qwen3.8-27B 的 Agent。该 Agent 在 MLE-bench Lite、Frontier-CS 上取得高分，并迁移到 BrowseComp、HLE、GAIA 等深度研究任务，且随迭代轮数增加持续提升，为自改进 Agent 提供了一条数据驱动的可行路径。",
+  "tags": [
+    "self-improving-agents",
+    "long-horizon-reasoning",
+    "reflection",
+    "llm-agents",
+    "test-time-scaling"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hongjin Qian, Chaofan Li, Kun Luo, Wenqing Wei, Jianlyu Chen, Shuqi Lu, Yuyang Hu, Hongwang Xiao, Hui Wang, Chaozhuo Li, Qiwei Ye, Zhicheng Dou, Defu Lian, Zheng Liu",
+    "published": "Thu, 01 Oct 2026 00:00:00 -0400"
+  }
+}
