@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00084v1",
+  "title": "Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00084",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "该论文系统评估了 503 个职业专属 AGENTS.md 系统提示（Scientific Agents 语料）在科学任务上的实际效果。作者用 Gemini 3.8 Flash 在 Pi agent harness 中对比了匹配档案与四种对照（极简基线、角色句、通用科学严谨指南、跨域档案），覆盖九个文本科学基准（4,531 题）和 60 个需工具调用的 BioMysteryBench 生物信息学问题。结果显示：完整职业档案平均准确率反而低 0.6 个百分点，工具任务上低 10 个百分点，但输出 token 增加 1.5-2.3 倍、成本增加 2.2-4.5 倍；唯一优势是长提示在 API 频繁中断时首答正确率更高（54% vs 71.6%），说明收益来自长度/格式而非领域知识。该结论对当前流行的'给 agent 加载详细角色提示'实践提出了有力的反证，值得所有做 agent 提示工程的人参考。",
+  "tags": [
+    "system-prompts",
+    "agent-evaluation",
+    "prompt-engineering",
+    "scientific-reasoning",
+    "cost-efficiency"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Timothy Kassis",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

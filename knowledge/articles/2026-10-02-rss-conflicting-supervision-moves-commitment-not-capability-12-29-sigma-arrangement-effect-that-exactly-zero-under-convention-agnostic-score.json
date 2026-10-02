@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00234v1",
+  "title": "Conflicting Supervision Moves Commitment, Not Capability: A 12.29{\\sigma} arrangement effect that is exactly zero under a convention-agnostic score",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00234",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "这篇论文研究训练数据中同一问题以两种互不兼容但都正确的约定书写时，数据排列顺序会把哪种约定写入模型参数。作者证明排列效应与学习率调度是两个相乘的独立因子：衰减调度会抑制顺序效应，恒定学习率则在最后一步放大它。实验用同一语料十种排列、仅改变 lr_scheduler_type，发现恒定速率下分配份额跨度达 0.2221、对比度下限 11.63，而常用余弦调度下十种排列只落在两个可区分状态。关键结论是顺序决定的是模型承诺哪种约定而非能力，在约定无关的精确匹配指标下这个 12.29σ 的排列切换恰好为零，提示词中标注约定可消除该切换。",
+  "tags": [
+    "training-dynamics",
+    "learning-rate-schedule",
+    "data-ordering",
+    "supervision-conflict",
+    "evaluation-metrics"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Wenhui Chen",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

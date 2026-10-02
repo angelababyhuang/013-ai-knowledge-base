@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00010v1",
+  "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00010",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "这篇论文关注长程语言智能体的外部记忆使用形态，指出仅用任务成功率或 token 成本评估记忆系统会遗漏关键问题：在有限上下文和重复检索下，记忆会集中于少数核心状态，而稀有状态落入长尾并累积预测误差。作者通过保守的尾部审计发现这种集中现象可复现但依赖策略，随机游走智能体产生对数正态式检索痕迹，语义 LLM 策略则呈现截断幂律式的核心-尾部分布。据此提出基于秩的记忆控制器 CTWM，用单一指数 τ 分配提示预算并保留摘要化尾部，在多个基准上实现 token 节省与尾部预测误差下降。",
+  "tags": [
+    "agent-memory",
+    "long-horizon-agents",
+    "heavy-tailed-distribution",
+    "context-management",
+    "token-efficiency"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xinyuan Song, Zekun Cai",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00074v1",
+  "title": "K-Dense BYOK: An Open-Source AI Research Assistant That Runs Locally and Keeps a Hash-Chained Lab Notebook",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00074",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "K-Dense BYOK 是一款面向科研人员的开源本地 AI 研究助手，用户自带模型密钥（云端或本地模型均可），项目以普通文件夹形式保存在研究者自己的机器上，数据、代码、结果与记录均可脱离应用长期读取。其核心创新在于三点：内置科学流程库与审稿/写作角色、不可删除且相互链接的 Living Lab Notebook、以及独立于 agent 自述的观测式日志（agent 无写入权限），专门针对模型过度声称（overclaiming）这一常见失败模式。在 20 个跨学科研究提示的预注册评分中，它在科学质量与执行上超过两个托管平台，且唯一记录了所运行软件并附带可复现命令。",
+  "tags": [
+    "ai-research-assistant",
+    "local-first",
+    "reproducibility",
+    "lab-notebook",
+    "agent-observability"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aubrey M. Brueckner, Darshil Patel, Yuhuan He, Timothy Kassis",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

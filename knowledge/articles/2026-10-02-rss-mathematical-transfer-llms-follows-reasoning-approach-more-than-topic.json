@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00331v1",
+  "title": "Mathematical Transfer in LLMs Follows Reasoning Approach More Than Topic",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00331",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "该论文通过两个平衡的 2×2 实验设计（概率/组合数学 × 不变推理/双重计数，数论/几何 × 补集/鸽巢推理），系统比较了微调数据选择中「同主题」与「同推理方法」两种匹配准则的迁移效果。在五个基座模型、三个随机种子上，同方法（SA）在全部 40 组模型-目标对比中均优于同主题（ST），优势达 8.2–16.2 个百分点，且所有置信区间均不含零。值得注意的是，ST 源在嵌入和词法相似度上更接近目标，说明推理方法匹配的收益与表层相似度无关，为数学训练数据筛选提供了反直觉但可操作的准则。",
+  "tags": [
+    "llm-fine-tuning",
+    "mathematical-reasoning",
+    "data-selection",
+    "transfer-learning",
+    "training-data-curation"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sajad Goudarzi, Samaneh Zamanifard, Seyed Amin Seyed Haeri, Moloud Nasiri, Hamed Rahimian",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00047v1",
+  "title": "Characterizing a Configuration Where Inference-Time PRM-Pruned Fragment Grafting Is Inert: Evidence from Three Reasoning LMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00047",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "该论文系统性地检验了一种推理时干预机制 PRM-Pruned Fragment Grafting（PPFG）：当过程奖励模型（PRM）剪枝某条思维链时，将其高 PRM 前缀作为上下文示例移植到仍在解码的兄弟链中。作者在 Qwen2.5-7B-Instruct + Math-Shepherd 的 MATH500 全量测试上发现，PPFG 与独立并行 CoT 基线在所有指标上统计不可区分，并通过四桶分类揭示 86% 的注入事件落在无法被挽救的链上。该工作提供了推理时机制零假设的等价性检验模板，对研究 PRM 引导解码和并行 CoT 多样性的研究者有重要参考价值。",
+  "tags": [
+    "process-reward-model",
+    "chain-of-thought",
+    "inference-time-intervention",
+    "equivalence-testing",
+    "llm-reasoning"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Khawaja Murad ul Hassan, Mehran Ebrahimi",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

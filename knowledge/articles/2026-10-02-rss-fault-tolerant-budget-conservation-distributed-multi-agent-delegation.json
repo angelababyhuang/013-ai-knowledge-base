@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00349v1",
+  "title": "Fault-Tolerant Budget Conservation in Distributed Multi-Agent Delegation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00349",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "本文形式化定义了分布式多智能体委派场景下的容错预算守恒问题：当父代理向并发、易失败的子代理分配资源时，消息丢失、超时后副作用仍完成、消息重复、网络分区、DAG 汇合别名等故障会导致超支。作者提出基于独占托管信用（escrow credit）与带隔离的签名派发许可机制，将预算量化为资源向量并在委派 DAG 中流转，证明所有权划分、账本与效果守恒、后代不放大、至多一次结算等性质，并用 TLA+ 模型检验、独立 JS 探索器与崩溃注入的 SQLite 双进程实验验证。该工作为 Agent 资源授权边界提供了可证明的安全基础，对构建多智能体预算/权限系统有直接参考价值。",
+  "tags": [
+    "multi-agent-systems",
+    "budget-conservation",
+    "fault-tolerance",
+    "formal-verification",
+    "distributed-systems"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Genliang Zhu, Chu Wang",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

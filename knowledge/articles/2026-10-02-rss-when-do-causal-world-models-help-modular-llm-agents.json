@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00012v1",
+  "title": "When Do Causal World Models Help Modular LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00012",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "这篇论文研究模块化 LLM Agent 中因果世界模型何时真正有用。作者指出标准世界模型只拟合观测轨迹，无法回答干预式规划所需的问题（如支付是授权发货还是仅先后发生），并提出 FedCausalCompose 框架，用局部动作作为跨模块接口的干预-响应证据。实验表明因果接口在结构化工具环境中收益最大，而对话/叙事环境需短注意力锚点才能利用因果信息，给出了因果结构生效的两个具体条件：可统计识别且以 Agent 可用的形式呈现。",
+  "tags": [
+    "causal-world-model",
+    "llm-agents",
+    "modular-systems",
+    "intervention-planning",
+    "tool-use"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xinyuan Song, Zekun Cai",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

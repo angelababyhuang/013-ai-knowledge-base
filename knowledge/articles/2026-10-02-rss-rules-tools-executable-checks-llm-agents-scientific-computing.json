@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00313v1",
+  "title": "Rules to Tools: Executable Checks for LLM Agents in Scientific Computing",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00313",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "该论文提出 Rules to Tools (R2T) 方法，将科学计算中原本以自然语言书写的方程、边界条件和输出要求，转化为可执行检查工具，供 LLM 编程智能体在修复 SciCode 任务时直接调用。在匹配的修复任务组中，使用可执行检查的完成率（29/30）高于纯文本规则（26/30），PDE 对比中也以 24/24 略胜 23/24，并减少约 31% 的模型输出量。研究揭示了工具化验证对智能体修复效果的任务依赖性，为科学计算智能体的验证机制设计提供了实证依据。",
+  "tags": [
+    "llm-agents",
+    "scientific-computing",
+    "code-repair",
+    "executable-checks",
+    "agent-verification"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jingjie Ning, Guojiang Zhao, Chen Xu, Shanshan Zhong, Xiaochuan Li, Ji Zeng, Guolin Ke",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

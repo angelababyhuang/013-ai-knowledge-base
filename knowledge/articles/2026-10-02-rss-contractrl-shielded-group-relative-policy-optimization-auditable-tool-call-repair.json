@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00328v1",
+  "title": "ContractRL: Shielded Group-Relative Policy Optimization for Auditable Tool-Call Repair",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00328",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "ContractRL 提出一种受合约约束的序列化修复协议，将验证器引导的 JSON 工具调用修复建模为有界决策过程：每步策略观察候选对象、类型化验证反馈、JSON Pointer、不可变修复历史与剩余预算，并通过合约派生的动作掩码过滤非法 RFC-6902 操作。它用组相对策略优化（GRPO 式）在 patch/retry/abstain 三类决策上训练，在相同验证信息下语义成功率 0.9362、仅生成 34.4 token，显著优于 Patch-SFT 与整体重生成，且修复过程可审计。对做 Agent 工具调用可靠性、结构化输出纠错与 RL 微调的工程师有直接参考价值。",
+  "tags": [
+    "tool-call-repair",
+    "json-schema",
+    "reinforcement-learning",
+    "grpo",
+    "agent-reliability"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Miaobo Hu, Shuhao Hu, Xiaobo Guo, Xin Wang, Bokun Wang, Yina Sa, Daren Zha, Jun Xiao",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

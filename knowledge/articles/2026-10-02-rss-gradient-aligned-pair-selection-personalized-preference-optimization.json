@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00061v1",
+  "title": "Gradient-Aligned Pair Selection for Personalized Preference Optimization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00061",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "本文针对个性化 LLM 偏好对齐中 DPO 偏好对选择依赖启发式准则（如基于似然的极端样本）的问题，从梯度几何角度形式化个性化偏好学习，分析期望用户效用梯度与 DPO 更新方向的一阶交互，揭示当偏好边际与效用梯度方向对齐时，DPO 更新会从纯纠错信号转变为类强化学习更新。据此提出 GAP-DPO 算法，通过效用感知、几何对齐的偏好对选择并配合逐轮重采样控制分布偏移，在个性化文本生成基准上提升风格保真度与偏好对齐效果。",
+  "tags": [
+    "dpo",
+    "personalization",
+    "preference-optimization",
+    "llm-alignment",
+    "gradient-alignment"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ruoming Jin, Xinyu Li, Hao Zhou, Jianfeng Zhu, Ruixin Guo, Feodor Dragan, Lei Xu, Haixun Wang, Yang Zhou",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00025v1",
+  "title": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00025",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "该论文针对 agent harness 中让小型语言模型（SLM）承担微任务（如自动批准 shell 命令、写记忆、选工具、排序历史轮次）的实践，构建了 4 个固定提示与自动指标的基准，并预设了锚定非 LLM 基线的阈值 τ 与置信区间合格规则。作者扫描 Qwen3 0.6/1.7/4/8B（FP16、贪心、无微调），发现 16 种配置全部不合格，并用 logprob 决策阈值诊断将失败分为能力缺陷与解码阈值可调两类（4 种情形）；4-bit 量化（RTN/GPTQ/AWQ）不改变合格性，差距更多随模型规模而非精度变化，且在 Llama-3.x 与改写提示下复现。其价值在于给出可操作的工程结论：SLM 应放在满足 CI 阈值的基线之后，仅在基线不达标处使用，例如 4B 重排器在 BM25 候选上可带来 +0.047 的提升。",
+  "tags": [
+    "small-language-models",
+    "agent-harness",
+    "quantization",
+    "benchmark",
+    "model-evaluation"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jundong Hu, Shekar Ramachandran",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}

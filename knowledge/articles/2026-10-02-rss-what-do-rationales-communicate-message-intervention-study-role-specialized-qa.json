@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.00018v1",
+  "title": "What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.00018",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-02T08:06:58Z",
+  "analyzed_at": "2026-10-02T08:06:58Z",
+  "organized_at": "2026-10-02T08:09:25Z",
+  "summary": "本文研究角色分工式问答流水线中，推理者向验证者传递的 rationale（推理依据）究竟起到了什么作用。作者设计了消息干预诊断方法，在固定证据与候选答案的前提下，仅改变跨边界传递的 rationale，在 MuSiQue、HotpotQA、2WikiMultiHopQA 的 400 个样本上以 DeepSeek 作为生成器与验证器进行实验。结果发现忠实 rationale 几乎不提升答案准确率，但被污染的 rationale 会显著改变验证者的支持判断（10-22%，加显式检查提示后达 34-55%），且人类审计显示模型会过度信任被污染的 rationale。该工作提示多智能体验证机制应被当作消息传递机制来评估，而非仅追求答案准确率。",
+  "tags": [
+    "multi-agent-qa",
+    "rationale-verification",
+    "llm-reliability",
+    "message-intervention",
+    "verifier-overtrust"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiameng Zhang, Hongqiu Wu",
+    "published": "Fri, 02 Oct 2026 00:00:00 -0400"
+  }
+}
