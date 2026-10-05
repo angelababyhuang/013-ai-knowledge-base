@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02267v1",
+  "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02267",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "该论文对 LLM Agent 框架中的 System-1 决策模型（单次前向传播输出类别概率，用于模型路由、工具选择、RAG 相关性判断、注入检测等）进行了配对评估，覆盖 11 个决策点、7283 个基础用例与 6640 个鲁棒性变体，对比开源权重模型 Laya 与托管模型 Jev。结果显示 Jev 在 9/11 决策点上显著更优，两者在零样本模型路由上均未超过随机水平，Laya 对选项顺序敏感（30% 答案翻转）且在多候选场景下严重退化。论文还自我审计出三处分析错误与一处设计混淆，修正了此前夸大的部署收益结论（如成本节省从 23.9% 降至 4.3%）。其价值在于提供了可复现的评测方法论与诚实的自我纠错示范，对 Agent 工程中是否用轻量决策模型替代 LLM 调用具有直接参考意义。",
+  "tags": [
+    "llm-agents",
+    "system-1-models",
+    "evaluation-benchmark",
+    "model-routing",
+    "prompt-injection"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiawei Li",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02508v1",
+  "title": "World Action Modeling with Progressive Visual Planning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02508",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "ProWAM 提出一种渐进式世界动作模型（WAM），针对现有方法在长时程机器人控制中要么生成密集视频效率低、要么只预测单帧而缺乏目标导向的问题，联合预测动作与有序的稀疏视觉子目标序列，为动作生成提供显式视觉锚点。其关键设计是子目标预测可从大规模无动作视频中学习，将复杂视觉规划从动作策略中解耦，且推理时只需一次视频骨干前向缓存子目标特征，重规划时仅做轻量动作去噪。在 LIBERO-Plus、RoboTwin、RoboCasa365 及零样本真实场景中均取得领先或 SOTA 结果，展示了进度索引式视觉前瞻对闭环控制的价值。",
+  "tags": [
+    "world-action-model",
+    "robotic-control",
+    "visual-planning",
+    "video-prediction",
+    "embodied-ai"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Fei Zhang, Zhaochong An, Duncan Frost, Yikai Wang, Pengfei Liu, Ya Zhang, Michal Drozdzal, Amir Bar",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}

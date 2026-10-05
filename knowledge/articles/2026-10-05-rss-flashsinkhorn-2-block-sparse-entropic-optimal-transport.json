@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02395v1",
+  "title": "FlashSinkhorn 2: Block-Sparse Entropic Optimal Transport",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02395",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "FlashSinkhorn 2 是面向熵正则最优传输（EOT）的 GPU 流式求解器，针对低维点云上的平方欧氏代价问题。它通过粗粒度质心求解加块稀疏精修的两阶段设计，避免逐点更新全部 n×m 点对，并用 Morton 排序块做筛选与张量核融合执行，从而在单张 A100 上以低于 0.01 的边缘残差求解 1.34 亿粒子的宇宙学 N 体模拟 EOT 问题，耗时不到 2.5 小时。该工作把可解 EOT 规模推向新高度，并开源实现，对大规模生成建模、分布对齐与科学计算有直接参考价值。",
+  "tags": [
+    "optimal-transport",
+    "sinkhorn",
+    "gpu-kernel",
+    "block-sparse",
+    "scientific-computing"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Felix X. -F. Ye, Yu Chin Fabian Lim, Naigang Wang, Davis Wertheimer",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}

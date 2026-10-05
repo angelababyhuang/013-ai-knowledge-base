@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02478v1",
+  "title": "Tropical Reinforcement Learning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02478",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "该论文提出 Tropical Reinforcement Learning，用热带半环（tropical semiring）中的 max 运算替代传统 RL 的期望回报求和，使状态价值变为最可能被验证解的对数概率，并保留可重放、可复用的显式路径。这解决了经典期望回报无法区分\"哪个解真正有效\"、以及强化一个解会遗忘其他解的问题，从而支持组合式推理。作者进一步提出 TROPIC 训练算法，在 Sokoban、Countdown、FrozenLake、WebShop 四个智能体任务上比最强 on-policy 基线最高提升 16 个百分点，表明改变 RL 的代数结构而非仅改进估计器可显著提升语言模型的组合推理能力。",
+  "tags": [
+    "reinforcement-learning",
+    "llm-reasoning",
+    "tropical-semiring",
+    "compositional-reasoning",
+    "agentic-tasks"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Arip Asadulaev, Aladin Djuhera, Karim Salta, Holger Boche, Fakhri Karray, Martin Takac",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}

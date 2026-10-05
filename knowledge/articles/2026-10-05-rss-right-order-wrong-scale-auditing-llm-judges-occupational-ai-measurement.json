@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02492v1",
+  "title": "Right Order, Wrong Scale: Auditing LLM Judges for Occupational AI Measurement",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02492",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "该论文提出 O*NET-BENCH 审计套件，基于 45,796 份工人评分调查，系统评估 33 种 LLM 评判配置在职业场景下衡量 AI 输出可接受度的可靠性。核心发现是：评判模型在响应排序上高度一致（25 种配置配对准确率≥0.60），但估计的可接受率却从 3.0% 到 97.9% 剧烈波动，而职业匹配工人的真实值为 61.1%。研究揭示排序一致性不等于测量一致性，呼吁评判模型应针对其实际用途的接受率与聚合指标进行验证，对用 LLM-as-judge 做评估的团队具有重要警示意义。",
+  "tags": [
+    "llm-as-judge",
+    "evaluation",
+    "benchmark",
+    "calibration",
+    "occupational-ai"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Harry Lyu, Neil Thompson",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}

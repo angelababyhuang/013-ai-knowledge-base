@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02300v1",
+  "title": "Keep It CALM: Analyzing the Limits of Global Unsafety in Text-to-Image Generation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02300",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "该论文针对文本到图像生成中的免训练安全防护机制，系统分析了「全局不安全假设」的几何局限：紧凑的不安全子空间无法覆盖多样化的不安全语义，而扩大聚合范围又会扭曲安全边缘的良性提示，形成覆盖度与选择性的固有权衡。作者据此提出 CALM（反事实自适应局部调制），用提示局部的反事实校正替代统一的全局不安全方向移除，通过匹配的不安全-良性锚点将每个提示路由到活跃的不安全类别，仅对违规 token 表示做最小化安全侧编辑，并抑制正向对齐的不安全残差。该工作为扩散模型安全对齐提供了更细粒度的免训练方案，对内容安全与生成质量平衡有直接参考价值。",
+  "tags": [
+    "text-to-image",
+    "safety-alignment",
+    "diffusion-models",
+    "training-free",
+    "content-moderation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "NaHyeon Park, Minhyun Lee, Hyunjung Shim",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02480v1",
+  "title": "MEA: A Reward-Driven Multi-Agent System for Faithful Model Explanations",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02480",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "MEA 是一个面向机器学习可解释性的多智能体框架，通过 Proposer 智能体自动选择并配置解释工具、Actor 智能体以忠实度奖励端到端优化，将高维解释输出转化为自然语言解释，覆盖表格、文本、视觉三种模态。论文还提出涵盖特征归因、反事实推理与虚假特征检测的多样化问题类型及基于扰动的忠实度指标，发现前沿 LLM 生成的解释系统性不忠实，而奖励驱动优化相比未训练主干在三种模态上分别提升 28%、21%、34% 的忠实度。该工作值得关注之处在于把 Agent 本身作为可扩展的 ML 可解释性接口，突破了传统固定单一用途解释工具的局限。",
+  "tags": [
+    "multi-agent",
+    "explainability",
+    "faithfulness",
+    "reward-optimization",
+    "llm-agents"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yuyang Cheng, Raghav Kaushik Ravi, Srivarshinee Sridhar, Sriparna Saha, Akash Ghosh, Chirag Agarwal",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}

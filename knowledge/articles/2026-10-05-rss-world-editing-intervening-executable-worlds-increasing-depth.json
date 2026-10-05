@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02331v1",
+  "title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02331",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "该论文提出「世界编辑」（World Editing）这一新任务范式，即在已有可执行世界模型上进行干预，同时保留不应改变的性质，并引入「干预深度」轴来刻画编辑对实体、动力学与系统耦合的强度。作者基于 Minecraft 与 Terraria 的工业级游戏模组构建了 IGMWorld 与 IGMBench 基准（110 个任务、超 1.1K 条可执行状态与行为判据），通过确定性可执行性、行为、保持性与视觉检查进行评估。结果显示前沿编码智能体已具备较强世界编辑能力（最强配置任务级 78.2%、判据级 94.8%），但可靠性随干预深度下降，且视觉一致性普遍不足 50%，表明世界编辑是与世界生成、交互不同的独立能力。",
+  "tags": [
+    "world-models",
+    "agent-benchmark",
+    "code-agents",
+    "game-modding",
+    "executable-environments"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Max Ku, Nok-Kan Law, Yu-Chien Tang, Shih-Ying Yeh, Ping Nie, Andy Zheng, Tat Hei Lai, Fei-Yueh Chen, Nikko Yu, Wei-Chieh Sun, Suzy Huang, Chiao-Wei Hsu, Chih-Chuan Huang, Chak-Wing Mak, Ho Yin Sam Ng, Edisy Kin Wai Chan, Min-Hung Chen, Ho Kei Cheng",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}

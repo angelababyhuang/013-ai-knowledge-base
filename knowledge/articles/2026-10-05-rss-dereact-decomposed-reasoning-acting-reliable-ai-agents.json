@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02351v1",
+  "title": "DeReAct: Decomposed Reasoning and Acting for Reliable AI Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02351",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "DeReAct 针对 ReAct 式智能体将动作提议、环境交互与任务完成判定耦合在单一 LLM 策略中的问题，提出模块化架构：把两个门控策略外置——Critic 在执行前校验提议动作，Context Manager 重建有环境证据支撑的状态并认证任务完成。在 GAIA 与 SWE-bench Verified 上，该方法对较弱 Brain 模型提升显著（Qwen3-Coder-480B 提升 6.5–7.0 分，Claude Sonnet 4.5 提升 4.2–5.2 分），模型越强增益越小；对 Claude Opus 4.5 则 Pass@1 持平但轨迹证据更完整、更满足约束。其价值在于揭示外部门控的有效边界，为构建可靠、可验证的智能体提供可复用的架构思路。",
+  "tags": [
+    "react-agents",
+    "agent-architecture",
+    "action-gating",
+    "task-completion",
+    "llm-reliability"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ajay Vohra, Tao Chen, Neeti Narayan, Caron Zhang",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}

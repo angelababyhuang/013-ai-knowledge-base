@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02330v1",
+  "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02330",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "这篇论文针对长程工具调用智能体（long-horizon tool-use agents）中的信用分配难题，提出 CITA 方法：在执行下一步工具调用前，先估计该调用的长程价值。由于日志轨迹只记录实际执行的动作，缺少反事实对比监督，作者训练了一个比较推理模型（CIM），融合观测到的工具行为、基于贝叶斯工具图模拟器的可扩展监督以及 LLM 语义比较判断，学习在当前上下文下某候选工具调用支持最终任务成功的概率。在三个工具使用基准和多个基座 LLM 上，CITA 一致提升 Tool F1 与任务成功率，为工具智能体的决策前评估提供了新思路。",
+  "tags": [
+    "tool-use-agents",
+    "credit-assignment",
+    "long-horizon-planning",
+    "value-estimation",
+    "llm-agents"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yu Li, Zheng Zhang, Xin Liu, Shengtian Yang, Guangfeng Cai, Lei Feng",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}

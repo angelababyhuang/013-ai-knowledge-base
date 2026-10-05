@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02260v1",
+  "title": "MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02260",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "MintFlow 提出一种免训练的约束采样框架，用于流匹配（Flow Matching）生成模型。现有约束采样器在满足观测测量、物理定律等约束时，往往会让样本大幅偏离预训练数据分布。MintFlow 将约束施加建模为对预训练流轨迹的最小干预：通过伴随（adjoint）公式推导出中间流状态扰动的闭式解，无需昂贵的迭代优化，并自适应选择干预时刻以平衡扰动幅度与其后续放大效应。在生成视觉与物理系统建模任务上，它在保持预训练分布方面显著优于现有方法，对需要物理一致性的生成式建模研究者有参考价值。",
+  "tags": [
+    "flow-matching",
+    "constrained-sampling",
+    "generative-models",
+    "training-free",
+    "physics-informed"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yesom Park, Kelvin Kan, Qifan Chen, Thomas Flynn, Hayden Schaeffer. Xihaier Luo",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}

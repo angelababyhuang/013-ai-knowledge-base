@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.02405v1",
+  "title": "When Terminal-Agent Training Stalls: Demystifying Data Generation and Verification Challenge",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.02405",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-05T08:15:01Z",
+  "analyzed_at": "2026-10-05T08:15:02Z",
+  "organized_at": "2026-10-05T08:17:21Z",
+  "summary": "这篇论文聚焦于用前沿模型（如 Claude Opus）作为元智能体自动生成终端任务与验证器来训练 RL 智能体时，训练容易停滞的问题。作者指出可运行的 Docker 镜像和可执行测试套件并不等于可靠的端到端训练管线，并系统诊断出三类失败：基准无效、执行框架脆弱、奖励错配。实验显示提示重设计与上下文扩展可将基线可解性提升 5.6 倍，但 9B 模型在 20 步内平均 pass@2 饱和于 81.3%，加入困难任务后骤降至 20.6%，说明可解性区间是模型特定的。该工作为终端智能体训练的数据生成与验证提供了可复用的诊断框架。",
+  "tags": [
+    "terminal-agent",
+    "rl-training",
+    "data-generation",
+    "verifier-audit",
+    "meta-agent"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xi Qin, Isabel Kurth, Xin Cui, Elin Park, Alexander Schaefer, Yaad Oren",
+    "published": "Mon, 05 Oct 2026 00:00:00 -0400"
+  }
+}
