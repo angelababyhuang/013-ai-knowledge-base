@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.03872v1",
+  "title": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.03872",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-06T08:07:21Z",
+  "analyzed_at": "2026-10-06T08:07:22Z",
+  "organized_at": "2026-10-06T08:09:41Z",
+  "summary": "该论文提出 ADSD 框架，让 AI Agent 在生成科学计算代码时不再依赖试错式编辑，而是先诊断数值求解器性能不佳的根本原因，再据此发现并封装可复用的求解器技能。在潮流方程、交流最优潮流控制、刚性常微分方程和异质扩散偏微分方程四类任务上，ADSD 显著提升精度、鲁棒性与效率，GOC-500 潮流问题上平均误差降低近 71 倍，并能迁移到未见过的电网拓扑与运行工况。它把数值求解器的自我改进从盲目调参变成结构化的诊断—发现—实现流程，对做科学计算 Agent 与自动化算法优化的研究者很有参考价值。",
+  "tags": [
+    "numerical-solvers",
+    "agent-self-improvement",
+    "scientific-computing",
+    "skill-discovery",
+    "auto-diagnosis"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Peter Chen, Wotao Yin",
+    "published": "Tue, 06 Oct 2026 00:00:00 -0400"
+  }
+}

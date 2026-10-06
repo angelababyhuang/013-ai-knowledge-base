@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.03894v1",
+  "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.03894",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-06T08:07:21Z",
+  "analyzed_at": "2026-10-06T08:07:22Z",
+  "organized_at": "2026-10-06T08:09:41Z",
+  "summary": "该论文针对黑盒 LLM Agent 工具调用可能静默出错的问题，提出用低成本开源权重代理模型（surrogate）并行读取相同上下文与候选动作，通过其 log-probabilities 构建多种读出方式（teacher forcing、request-PMI、判别式裁决、工具选择竞争）来估计调用可信度。方法无需训练、无需访问 Agent 内部，仅增加一次 prefill 开销，在编码任务上 AUROC 达 0.825，远超 Agent 自报置信度（0.598），并支持实时门控与置信反馈两种部署模式，显著提升任务成功率。",
+  "tags": [
+    "llm-agent",
+    "uncertainty-estimation",
+    "black-box-auditing",
+    "tool-calling",
+    "log-probabilities"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yikai Zhao, Saurabh Pandey, Pradeep Kumar Misra",
+    "published": "Tue, 06 Oct 2026 00:00:00 -0400"
+  }
+}

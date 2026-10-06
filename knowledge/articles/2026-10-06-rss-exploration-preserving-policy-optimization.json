@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.04011v1",
+  "title": "Exploration-Preserving Policy Optimization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.04011",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-06T08:07:21Z",
+  "analyzed_at": "2026-10-06T08:07:22Z",
+  "organized_at": "2026-10-06T08:09:41Z",
+  "summary": "ExPPO 针对带可验证奖励的强化学习（如 RLVR 训练推理模型）中组相对目标（GRPO 类）的缺陷：等奖励响应获得等优势，导致信用分配与采样模式频率成正比，反复采样后解空间收缩、探索能力下降。该工作提出一种轻量级优势塑形规则，利用提示相对、长度归一化的响应惊奇度与提示通过率重新分配信用，并通过有界塑形与共享归一化保持验证器极性及每组绝对优势质量近似守恒。理论分析给出了熵增与正确模式发现的局部条件，实验显示域内外推理覆盖率、聚合准确率及大采样预算下的覆盖度均有提升，多答案评测中正确模式产出与多样性也增强。",
+  "tags": [
+    "reinforcement-learning",
+    "policy-optimization",
+    "llm-reasoning",
+    "exploration",
+    "grpo"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hangzhan jin, Mohammad Hamdaqa, Doina Precup",
+    "published": "Tue, 06 Oct 2026 00:00:00 -0400"
+  }
+}

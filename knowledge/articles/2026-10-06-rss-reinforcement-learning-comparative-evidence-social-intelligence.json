@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.04072v1",
+  "title": "Reinforcement Learning with Comparative Evidence for Social Intelligence",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.04072",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-06T08:07:21Z",
+  "analyzed_at": "2026-10-06T08:07:22Z",
+  "organized_at": "2026-10-06T08:09:41Z",
+  "summary": "该论文提出 RLCE（Reinforcement Learning with Comparative Evidence），一种无需人工标注或真值奖励即可训练社交智能模型的强化学习方法。针对情感、意图、偏好、语用等社交目标本身具有歧义、缺乏可验证 oracle 的难题，RLCE 在 rollout 组内对答案两两构造\"证据测试\"，用输入样本验证哪些可观察证据支持某一答案优于另一答案，再聚合测试结果选出最受支持的解读，且测试随策略更新而演化。在四个基准上超越共识、LLM 评判、多模态协同演化、rubric 奖励等七种无真值方法，最高提升 18.93 分，为摆脱人工标注依赖、扩展社交理解规模提供了新思路。",
+  "tags": [
+    "reinforcement-learning",
+    "social-intelligence",
+    "unlabeled-data",
+    "reward-modeling",
+    "llm-alignment"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Keane Ong, Yuriel Ryan, Sabri Boughorbel, Vladimir Necula, Jack Wei Lun Shi, Rui Mao, Roy Ka-Wei Lee, Adriel Kuek, Nancy F. Chen, Erik Cambria, Gianmarco Mengaldo, Paul Pu Liang",
+    "published": "Tue, 06 Oct 2026 00:00:00 -0400"
+  }
+}

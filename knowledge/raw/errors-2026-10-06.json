@@ -1,0 +1,20 @@
+[
+  {
+    "source": "rss",
+    "url": "https://spectrum.ieee.org/llms-for-chip-design",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"IEEE Spectrum 报道 OpenAI 如何用自家 LLM 辅助设计代号 Jalapeño 的自研芯片。核心看点在于把大模型从\"写代码\"延伸到硬件设计流程（如 RTL 生成、验证、优化），是 LLM 进入 EDA 与芯片设计这一高门槛领域的标志性案例。对关注 LLM 落地边界、AI for EDA 方向的工程师有参考价值，但报道偏叙事，缺少可复现的方法细节。\", '",
+    "timestamp": "2026-10-06T08:08:11Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://arxiv.org/abs/2610.04040",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\":\"这篇论文指出金融 LLM Agent 的常见评估方式（比较端到端收益与基线并做配对显著性检验）无法区分\"事件选择能力\"与\"被动暴露于上涨事件池\"带来的收益。作者提出 Agent Policy-Value Audit：固定各类有序动作变更的观测次数，将其随机重分配到合格事件上，得到\"组合基准\"，观测部署价值与基准之差即为\"选择价值\"。在半合成真实财报事件数据上，零中心配对检验'",
+    "timestamp": "2026-10-06T08:09:00Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"OpenAI 发布的关于前沿 AI 训练安全案例（safety cases）的早期指南，系统性地提出在训练超大规模模型时如何构建可论证的安全保障框架，涵盖技术防护措施、运营实践规范以及对失准（misalignment）事件的调查流程。该文将传统高安全行业（如航空、核能）的\"安全案例\"方法论引入前沿 AI 训练场景，试图为模型能力快速提升过程中的风险提供可审计、可追责的结构'",
+    "timestamp": "2026-10-06T08:09:31Z"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.03934v1",
+  "title": "SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.03934",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-06T08:07:21Z",
+  "analyzed_at": "2026-10-06T08:07:22Z",
+  "organized_at": "2026-10-06T08:09:41Z",
+  "summary": "该论文提出 SGAnalog，一个基于 Tiny Tapeout 开源流片项目构建的端到端模拟电路基准，包含 273 个拓扑各异的设计，覆盖原理图到网表转录与器件尺寸两个任务。它解决现有基准难以判断模型是否学到可迁移电路技能、以及输出能否在真实工艺与测试条件下工作的问题。评测显示最强模型仅达 56.1% 精确图同构，且尺寸任务中 Claude 模型出现拒答，揭示了视觉与设计能力差异及策略性限制。",
+  "tags": [
+    "analog-circuit",
+    "benchmark",
+    "llm-evaluation",
+    "schematic-transcription",
+    "eda"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yueting Li, Weihang Ding",
+    "published": "Tue, 06 Oct 2026 00:00:00 -0400"
+  }
+}

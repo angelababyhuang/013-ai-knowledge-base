@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.04008v1",
+  "title": "SkillScriptBench: Benchmarking Self-Evolution of Executable Agent Skill Packages Beyond Markdown",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.04008",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-06T08:07:21Z",
+  "analyzed_at": "2026-10-06T08:07:22Z",
+  "organized_at": "2026-10-06T08:09:41Z",
+  "summary": "SkillScriptBench 是首个系统区分「文档修复」「脚本修复」「行为保持」三类能力的可执行 Agent Skill 自演化基准，从 35,000+ GitHub Skill 仓库中筛选 100 个包构建 350 个任务，并设计了 clean/文档故障/脚本故障/双重故障四态对照轨道。论文同时提出 AST-Guided Skill Revision 方法，利用抽象语法树与调用关系将维护需求定位到具体代码位置，限制脚本改动范围并同步更新文档，在多个模型上平均将修复成功率提升 21.9%–27.7%，三次运行全部通过的比例提升 20.8%–31.5%。对做 Agent 技能自动维护、代码修复与自演化系统的研究者与工程师有直接参考价值。",
+  "tags": [
+    "agent-skills",
+    "self-evolution",
+    "benchmark",
+    "code-repair",
+    "ast"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yuxuan Liu, Haoran Li, Yuhao Zhang, Jiahe Guo, Hongyu Luo, Wenbin Hu, Huihao Jing, Kawai Chung, Junle Chen, Changxuan Fan, Qing Zong, Lingyun Xie, Yangqiu Song",
+    "published": "Tue, 06 Oct 2026 00:00:00 -0400"
+  }
+}

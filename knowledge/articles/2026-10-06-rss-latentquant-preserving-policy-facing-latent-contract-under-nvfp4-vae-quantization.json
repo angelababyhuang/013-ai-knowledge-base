@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.03959v1",
+  "title": "LatentQuant: Preserving the Policy-Facing Latent Contract under NVFP4 VAE Quantization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.03959",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-06T08:07:21Z",
+  "analyzed_at": "2026-10-06T08:07:22Z",
+  "organized_at": "2026-10-06T08:09:41Z",
+  "summary": "该论文研究世界动作模型（WAM）中预训练视频 VAE 的 NVFP4 量化问题：量化不仅要保重建质量，还要保住冻结策略所依赖的编码器潜表示契约。作者发现联合 QAT 虽能恢复 VBench-7 重建指标，却使 LIBERO 成功率从 95.5% 崩到 10.5%，原因是激活量化-反量化改变了重建信号与解码器雅可比，导致编码器潜表示持续漂移。为此提出两阶段 LatentQuant：先对齐量化编码器与高精度版本，再冻结编码器微调解码器，在 Wan2.1/2.2 上保持接近基线的控制性能（LIBERO 95.75%、RoboTwin 68.8%），并在 B300 上取得 1.17-1.26 倍 VAE 加速。",
+  "tags": [
+    "nvfp4-quantization",
+    "video-vae",
+    "world-action-models",
+    "quantization-aware-training",
+    "latent-representation"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ziye Deng, Lufang Chen, Shuyu Feng, Zhenwei Duan, Zicong Ye, Yu Sun, Xiaofan Li, Ruyi Gan, Hao Wang, Hao Zhang",
+    "published": "Tue, 06 Oct 2026 00:00:00 -0400"
+  }
+}

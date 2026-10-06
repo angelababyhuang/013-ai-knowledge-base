@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.04056v1",
+  "title": "Discrete Diffusion for Large Graph Generation via Structural Candidate Restriction",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.04056",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-06T08:07:21Z",
+  "analyzed_at": "2026-10-06T08:07:22Z",
+  "organized_at": "2026-10-06T08:09:41Z",
+  "summary": "该论文针对大规模图生成中扩散模型计算复杂度为二次方、难以扩展到 3k 节点以上的瓶颈，提出一种离散图扩散模型。其核心创新是仅对结构上有意义的节点对（已观测边及其楔形非边）进行训练，将复杂度降至亚二次方，并设计三分类吸收式前向过程与度数感知、带下限的余弦噪声调度，使含噪图在正反向轨迹中始终保持结构信息。实验表明该方法在结构保真度上优于现有离散扩散基线，适合关注可扩展图生成与离散扩散的研究者。",
+  "tags": [
+    "discrete-diffusion",
+    "graph-generation",
+    "large-scale-graphs",
+    "noise-schedule",
+    "sparse-graphs"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yassin Mohamadi, Zeno Geradts, Marcel Worring",
+    "published": "Tue, 06 Oct 2026 00:00:00 -0400"
+  }
+}

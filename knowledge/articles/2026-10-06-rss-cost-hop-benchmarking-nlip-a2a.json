@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.04053v1",
+  "title": "The Cost of a Hop: Benchmarking NLIP and A2A",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.04053",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-06T08:07:21Z",
+  "analyzed_at": "2026-10-06T08:07:22Z",
+  "organized_at": "2026-10-06T08:09:41Z",
+  "summary": "该论文首次对 LLM 智能体互操作协议进行受控性能基准测试，重点比较了此前缺乏性能研究的 NLIP 与主流的 A2A 协议，并将延迟拆解为消息创建、连接建立和发送三个阶段，在三种独立硬件环境下测量。结果显示，在轻量级协调场景下 NLIP 比 A2A SDK 快 8.4-9.6 倍（另一环境约 4 倍），优势几乎全部来自连接建立阶段；但在 LLM 推理主导的端到端流水线中两者接近持平。作者还测试了启用连接缓存的 A2A，发现缓存可显著缩小差距，并给出按工作负载特征选择协议的指南。对构建多智能体系统的工程师而言，这是少有的协议层性能量化参考。",
+  "tags": [
+    "agent-protocols",
+    "benchmarking",
+    "a2a",
+    "latency-optimization",
+    "multi-agent-systems"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ranjan Sinha, Anindita Das, Ashika Anand Babu, Hari Palleti",
+    "published": "Tue, 06 Oct 2026 00:00:00 -0400"
+  }
+}

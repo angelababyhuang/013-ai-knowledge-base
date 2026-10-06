@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.03984v1",
+  "title": "Teaching Agents to Code Reliably",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.03984",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-06T08:07:21Z",
+  "analyzed_at": "2026-10-06T08:07:22Z",
+  "organized_at": "2026-10-06T08:09:41Z",
+  "summary": "该论文研究自主编码智能体修复仓库 issue 的可靠性问题，指出额外推理算力只有在产生有效修复并提供可靠选择证据时才有收益。作者提出三种可训练行为：位置多样性、编辑多样性和验证可靠性，通过执行反馈引导搜索、对每个补丁在其回退树上打分，并用加权 SFT 与强化学习训练验证器。在 SWE-bench Verified 上以不到一半的 agent 步数解决 52.8% 问题，RL 后 pass@1 从 31.9% 提升至 43.0%，验证器精度从 26.8% 升至 41.7%，并在 7B/14B/30B 规模上均优于已发布基线。",
+  "tags": [
+    "coding-agents",
+    "swe-bench",
+    "reinforcement-learning",
+    "verifier-training",
+    "test-time-compute"
+  ],
+  "relevance_score": 0.72,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Muhammad Ahmed Mohsin, Myeongsoo Kim, Kangrui Ruan, Shweta Garg, Varun Kumar, Murali Krishna Ramanathan",
+    "published": "Tue, 06 Oct 2026 00:00:00 -0400"
+  }
+}
