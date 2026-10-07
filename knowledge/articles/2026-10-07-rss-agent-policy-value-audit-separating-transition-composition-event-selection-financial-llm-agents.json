@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.04040v1",
+  "title": "Agent Policy-Value Audit: Separating Transition Composition from Event Selection in Financial LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.04040",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-07T08:08:01Z",
+  "analyzed_at": "2026-10-07T08:08:02Z",
+  "organized_at": "2026-10-07T08:10:34Z",
+  "summary": "该论文针对金融 LLM Agent 的评估方法提出改进，指出仅比较端到端收益与基线无法区分「事件选择能力」与「被动暴露于趋势性事件池」带来的收益。作者提出 Agent Policy-Value Audit，通过固定各有序动作变化类型的观测次数并随机重分配到合格事件上，构造组成基准（composition benchmark），将部署价值分解为组成价值与选择价值。在基于真实财报事件收益的半合成基准上，零中心配对检验在 11.6% 的无技能重复中误判被动暴露为选择技能，而转移匹配审计将误判率降至 5.3%；对 44 家美国消费类公司 723 个财报事件回溯分析显示，Agent 总部署价值 +15.2 bps/事件中，组成基准为 +25.8 bps，选择价值为 -10.6 bps，即 Agent 并未显著优于匹配随机分配。该工作为金融 Agent 评估提供了更严谨的因果分解框架，值得关注 Agent 评测方法论的研究者阅读。",
+  "tags": [
+    "llm-agent-evaluation",
+    "financial-agents",
+    "causal-inference",
+    "benchmark-methodology",
+    "policy-audit"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mingyang (Alex),  Chen (Andrew),  Yida (Andrew),  Xu (Aurora),  Huiwen (Aurora),  Chen, Yiming Lu, Wei Jin",
+    "published": "Wed, 07 Oct 2026 00:00:00 -0400"
+  }
+}
