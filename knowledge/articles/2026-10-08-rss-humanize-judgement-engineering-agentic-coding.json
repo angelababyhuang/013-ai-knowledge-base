@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.08900v1",
+  "title": "Humanize: Judgement Engineering for Agentic Coding",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.08900",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "Humanize 提出「判断工程」（judgement engineering）这一概念，针对 agentic coding 中「写代码的 agent 无法可靠判断任务是否完成」的核心痛点，设计了一套多 agent 编排工作流：人类审批计划契约，builder agent 分轮实现，来自不同厂商的 reviewer agent 决定是否完成，中间由确定性 hooks（而非模型）路由并执行 72 道机械门禁。作者将其建模为仓库状态上的马尔可夫链，builder 与 reviewer 交替采样两个模型，缺陷只有在双方都漏检时才能存活。论文通过 108 天 68 个版本、1468 stars 的部署数据、118 份公开复盘，以及在 gem5 迁移、MLSys 2026 FlashInfer 竞赛、IOI/IMO/IPhO/IChO 等奥赛和 PutnamBench、Lean-Eval 上的成绩，验证了独立评审能抓住 builder 的虚假声明，但「何时停止」仍是主要弱点。",
+  "tags": [
+    "agentic-coding",
+    "multi-agent-orchestration",
+    "code-review",
+    "judgement-engineering",
+    "llm-agents"
+  ],
+  "relevance_score": 0.73,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sihao Liu, Ligeng Zhu, Zijian Zhang, Dongyun Zou, Zhengyang Zhang, Changye Li, Song Bian, Song Han, Tony Nowatzki",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

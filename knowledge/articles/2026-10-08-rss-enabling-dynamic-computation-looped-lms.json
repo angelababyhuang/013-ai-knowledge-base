@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.09013v1",
+  "title": "Enabling Dynamic Computation in Looped LMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.09013",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "该论文针对循环语言模型（Looped LMs）在动态计算上的落地难题提出改进。现有开源 Ouro 模型虽宣称可按 token 难度节省算力，但每次循环深度都需独立 KV-cache，导致无法真正跳过计算，且早退先验对所有 token 一视同仁，退化为静态低深度处理。作者提出即插即用的“best-available”KV 缓存策略，在保持全深度性能的前提下减少约 30% 的 FLOPs 与 KV 内存，并让训练阶段感知该策略以进一步提升效率，同时修正早退目标使 token 按难度在异质深度退出。",
+  "tags": [
+    "looped-language-models",
+    "dynamic-computation",
+    "kv-cache",
+    "early-exit",
+    "efficient-inference"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aayush Mishra, Arnau Padr\\'es Masdemont, Victor Conchello Vendrell, Jordi Ros Giralt, Arash Behboodi, Fabio Valerio Massoli",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

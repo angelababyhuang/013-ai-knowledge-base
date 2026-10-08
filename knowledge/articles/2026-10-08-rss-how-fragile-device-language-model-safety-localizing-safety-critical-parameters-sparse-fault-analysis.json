@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.09000v1",
+  "title": "How Fragile Is On-Device Language Model Safety? Localizing Safety-Critical Parameters for Sparse Fault Analysis",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.09000",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "该论文研究端侧小语言模型（SLM）的安全行为是否集中在稀疏参数子集上，从而形成可被定向攻击的\"故障面\"。作者在 LLaMA-2-7B-Chat 上采用低秩安全子空间分析与参数级安全-效用重要性过滤两种方法，发现安全敏感性在网络中高度不均匀，MLP 的 down_proj 层最为关键。仅修改 0.19% 的 down_proj 权重即可将 Basic ASR 提升至 53%、GCG ASR 提升至 56%，而基准准确率几乎不变（51.6% vs 52.2%）。这为端侧与 Agent 场景下的模型完整性保护提供了靶向依据。",
+  "tags": [
+    "on-device-llm",
+    "model-safety",
+    "parameter-localization",
+    "fault-injection",
+    "llm-security"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Muhammad Zeeshan Karamat, Christiana Chamon Garcia",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

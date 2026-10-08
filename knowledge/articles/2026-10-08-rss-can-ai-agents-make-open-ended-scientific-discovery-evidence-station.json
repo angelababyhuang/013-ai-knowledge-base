@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.08927v1",
+  "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.08927",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "该论文研究 AI 智能体能否自主完成开放式科学发现，而非仅在指标明确的封闭任务上表现良好。作者在开放世界模拟环境 Station 中引入 Supervisor 监督机制与周期性 Meta Reflection 元反思，以在缺乏中间指标时维持持续探索。实验以三篇 ICLR 口头论文为基准，隐藏结果并禁用联网，Station 平均复现 62.7% 的原始发现标准，远高于 Codex Multiagent-v2 的 15.4% 和 AI Scientist-v2 的 14.4-20.6%，并在无参考论文任务中复现了知识截止后的研究者发现，说明合适的环境设计可显著提升智能体自主科研能力。",
+  "tags": [
+    "ai-agents",
+    "scientific-discovery",
+    "multi-agent",
+    "autonomous-research",
+    "benchmark"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Wenyu Du, Stephen Chung",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

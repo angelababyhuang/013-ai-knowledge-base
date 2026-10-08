@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.08875v1",
+  "title": "An Empirical Study of Agent Skills' Downstream Utility",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.08875",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "该论文对 Agent Skills 的下游效用做了系统性实证研究，基于 87 个 SkillsBench 任务，将效用定义为同一模型-执行框架下相对无 Skill 基线的通过率差值。研究发现同一 Skill 在 36.78% 的任务上会因配置不同而帮助或损害性能，推荐流程反而可能成为执行负担，且相关性排序会漏掉更有用的候选。作者提出按所需操作支持度重排序可提升首选通过率 4.35–5.80 个百分点，并总结出 17 条编写实践，指出 Stage Plan 与 Dependency DAG 组织方式优于单纯使用顺序。",
+  "tags": [
+    "agent-skills",
+    "empirical-study",
+    "skill-retrieval",
+    "llm-agents",
+    "benchmark-evaluation"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yu Cheng, Dehai Zhao, Zhongxin Liu, Qing Huang, Zhenchang Xing, Xiaoxue Ren",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

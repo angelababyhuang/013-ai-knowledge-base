@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.09008v1",
+  "title": "Whose Memory Is It? Scope-Aware Commit Rules for Long-Term LLM Memory",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.09008",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "本文针对 LLM 长期记忆的一个关键缺陷：智能体在推理过程中产生的假设、模拟工具结果、他人信念等临时性内容，一旦被写入持久记忆就会脱离原始语境，日后被当作事实复用。作者提出「话语归属」（discourse ownership）概念，即命题所属的世界、分支或说话者，并发现语言模型内部已存在可因果激活的归属信号，只是被传统记忆接口丢弃。为此提出 CASK（因果锚定作用域键）提交规则，保留归属的稳定关系而非内部坐标，使共享世界的事实进入长期记忆、临时内容仅限原作用域可见，从而让智能体在探索更多可能性的同时避免污染后续回答。",
+  "tags": [
+    "llm-memory",
+    "agent-memory",
+    "long-term-memory",
+    "discourse-ownership",
+    "memory-commit"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hongyu Gu, Xinchang Li",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

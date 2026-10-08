@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.09021v1",
+  "title": "Not Every Call Needs a Frontier Model: Per-Call-Site Evaluation of Small Language Models in a Deployed Agentic Home-Automation System",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.09021",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "本文针对一个已部署的开源家庭自动化 Agent 框架（Wactorz），系统评估了 9 个从 0.8B 到前沿托管模型的 LLM 在五类不同调用点（意图路由、动作分类、设备注册表接地、多智能体流水线规划、Python 代码生成）上的表现，共 280 个用例、2520 次打分调用。核心发现是：能力在不同调用点并非同序排列，大模型并非处处更优（4B 模型在接地执行上反而不如 2B 版本），最佳本地模型在五个调用点中的四个与托管模型统计上无差异，仅代码生成存在显著差距；同时聚合准确率掩盖了执行环节特有的安全失败（如对非自有设备误触发或全拒绝）。该工作为 Agent 系统中按调用点选型小模型、降低推理成本提供了可复现的实证依据与基准。",
+  "tags": [
+    "small-language-models",
+    "agentic-systems",
+    "model-routing",
+    "home-automation",
+    "evaluation-benchmark"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Panagiotis Kasnesis, Christos Chatzigeorgiou, Lazaros Toumanidis, Amalia Contiero Syropoulou",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.09002v1",
+  "title": "Learning to Report Unsafe Tasks in a Multi-Agent Game",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.09002",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "这篇论文研究多智能体协作中的安全报告激励问题：当多个智能体共享任务奖励时，举报不安全行为会终止任务并损害自身收益，导致团队集体沉默。作者用博弈论刻画了共享策略下沉默概率的梯度偏差（k 个见证者使任务收益被重复计数 k 次），给出审计条件使策略梯度能收敛到普遍举报，并用 PPO 在 24 个见证图上验证：拆分共同见证者可将不安全完成率降低约 33.6 个百分点。该工作对多智能体安全对齐、审计机制设计和 RL 激励兼容性有直接参考价值。",
+  "tags": [
+    "multi-agent-safety",
+    "reward-hacking",
+    "policy-gradient",
+    "mechanism-design",
+    "reinforcement-learning"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Avyay M. Casheekar, Hariganesh Tangirala",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

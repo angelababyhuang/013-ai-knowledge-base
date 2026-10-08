@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.08901v1",
+  "title": "Sequential Probabilistic Uncertainty Estimation for Parallel Multi-Agent Reasoning Systems",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.08901",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "该论文针对并行多智能体推理系统（多个 agent 多轮求解同一问题并聚合答案）中不确定性估计被忽视的问题，提出 SAUCE 方法。SAUCE 将 MAS 不确定性建模为对潜在系统级信念的序贯推断，通过滤波式更新融合每轮的一致性信号与生成不确定性信号，无需训练即可轻量部署。在五个骨干模型、五个基准和两种 MAS 协议上，SAUCE 在误分类检测、选择性预测和校准方面均优于标准对数似然方法及 MAS 专用估计器，为多智能体系统的可靠性评估提供了实用方案。",
+  "tags": [
+    "multi-agent-systems",
+    "uncertainty-estimation",
+    "llm-reasoning",
+    "calibration",
+    "training-free"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tunyu Zhang, Zihao Zhao, Yusong Zhao, Haizhou Shi, Zhuohang Li, Haoxian Chen, Hao Wang, Dimitris N. Metaxas",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.08967v1",
+  "title": "Socio-Foundation: A Model for Generalizable Individual Behavior Simulation via Hierarchical Capability Distillation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.08967",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "该论文提出 Socio-Foundation，一个用于通用个体行为模拟的 LLM 训练框架。作者首先构建 FONTS 分类体系（人格保真、结果实现、行为自然度、轨迹连贯、社会接地），并据此整理约 1000 万条、覆盖 14 个数据集的训练语料。模型采用三阶段流水线：DAPO 训练任务专家、离策略蒸馏整合为能力专家、多教师在线策略蒸馏（MOPD）统一能力，同时提出 IndiEval 评测集（29 项指标）。实验显示其较 Qwen3-8B 基线提升 11.0 分，接近 GLM-5.2 等前沿模型，为角色扮演与社会模拟提供了可复用的能力解耦与整合范式。",
+  "tags": [
+    "llm-agents",
+    "social-simulation",
+    "persona-modeling",
+    "knowledge-distillation",
+    "reinforcement-learning"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Liang Wang, Wenxuan Xie, Xinyi Mou, Yixin Luo, Zhongyu Wei",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

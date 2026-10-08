@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.08902v1",
+  "title": "Agent Plasticity: Measuring Self-Improvement Through Experience",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.08902",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "该论文提出「Agent 可塑性（Agent Plasticity）」这一新指标，用于衡量智能体将过往经验转化为未来在留出环境上性能提升的效率，而非仅评估某一时刻的静态能力。作者在受控环境中让智能体把经验摊销为可复用产物并传递给后续实例，在多个环境上对比前沿模型，发现不同模型的学习轨迹差异显著：有的持续大幅提升，有的几乎原地踏步，且训练域内的收益往往只能部分迁移到分布外场景。论文还通过追踪改进回路定位瓶颈，区分出「未能复用产物」与「复用后仍失败」两类问题，为自改进智能体的评估提供了新范式。",
+  "tags": [
+    "self-improvement",
+    "agent-evaluation",
+    "agent-plasticity",
+    "experience-learning",
+    "generalization"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Harman Singh, Anton Bakhtin, Rulin Shao, Gabriel Synnaeve, Ilia Kulikov, Rob Fergus, Sanjeev Arora, Kurt Keutzer, Jason Weston, Anuj Mahajan, Anirudh Goyal",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

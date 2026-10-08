@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.08923v1",
+  "title": "AdaGuard: Enhancing Safety and Policy Compliance with Reasoning-Enabled LLM-As-A-Judge Guardrails",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.08923",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "AdaGuard 是一个面向企业生成式 AI 的自适应 LLM-as-a-Judge 护栏框架，通过 SFT 加 GRPO 强化学习训练，可在运行时泛化到用户自定义的安全与合规策略，无需频繁更新模型。其核心创新是动态推断输入-策略对的复杂度，自动在高速黑盒推理与可解释的推理式审核之间切换，从而在严格延迟约束下兼顾透明度。该工作值得关注，因为它让中小规模模型在护栏任务上媲美数倍于己的前沿模型，并显著降低推理延迟。",
+  "tags": [
+    "llm-as-a-judge",
+    "guardrails",
+    "reinforcement-learning",
+    "policy-compliance",
+    "adaptive-reasoning"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Melissa Kazemi Rad, Sihui Dai, Isha Slavin, Kushal Chawla, Mann Patel, Jian Ni, William M. Campbell, Stephen Rawls, Sambit Sahu",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

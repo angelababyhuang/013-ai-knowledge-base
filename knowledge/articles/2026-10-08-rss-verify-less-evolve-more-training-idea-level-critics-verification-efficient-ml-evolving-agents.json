@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.08993v1",
+  "title": "Verify Less, Evolve More: Training Idea-Level Critics for Verification-Efficient ML Evolving Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.08993",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "该论文针对 AI4ML 场景中自进化智能体面临的验证瓶颈——每次验证都需昂贵的模型训练与评估——提出训练专门的 idea-level critic 模型，用于预测某个 ML 修改提案能否超越当前方案，从而让智能体先筛选想法、把有限验证预算集中在最有希望的候选上。critic 通过 Gemini-3.1-Pro 合成的高质量评论做监督微调，再用 GRPO 强化预测准确率，在静态评估、推理时进化、持续学习和策略训练中均超越 Gemini-3.1-Pro。其价值在于把验证效率作为一等目标，为受算力约束的 ML 智能体提供可复用的奖励模型与筛选机制。",
+  "tags": [
+    "self-evolving-agents",
+    "ai4ml",
+    "critic-models",
+    "grpo",
+    "verification-efficiency"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiamu Bai, Lizhu Zhang, Xin Yu, Yanhong Wu, Zellux Wang, Serena Li, Weiwei Li, Zhuokai Zhao, Lingzhou Xue, Kiwan Maeng, Xiangjun Fan, Bo Peng",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}

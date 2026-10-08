@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.09016v1",
+  "title": "PAIR: Bridging Perception and Action in Vision-Language-Action Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.09016",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-08T08:09:04Z",
+  "analyzed_at": "2026-10-08T08:09:09Z",
+  "organized_at": "2026-10-08T08:11:35Z",
+  "summary": "PAIR 针对连续动作视觉-语言-动作（VLA）模型的一个核心缺陷：从视觉语言表征到动作生成之间的过渡长期是隐式的，仅靠最终动作预测损失监督。该工作训练一个掩码动作自编码器把专家动作块编码为与时间对齐的 Action Latent Tokens，再用 Bridge Module 从当前视觉语言表征中抽取任务相关特征，与之对齐形成 Bridge Tokens，并注入初始 Action Tokens 作为动作专家精修的起点；推理时去掉自编码器。在 LIBERO-Plus、CALVIN 及七个真实任务上，OpenVLA-OFT 与 VLA-Adapter 成功率均有提升（真实任务 51.4%→65.0%），为感知-动作接口设计提供了可复用的中间表征思路。",
+  "tags": [
+    "vision-language-action",
+    "robot-manipulation",
+    "representation-alignment",
+    "action-tokenization",
+    "embodied-ai"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Kaixi Feng, Guoheng Sun, Ang li",
+    "published": "Thu, 08 Oct 2026 00:00:00 -0400"
+  }
+}
