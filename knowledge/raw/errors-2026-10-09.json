@@ -1,0 +1,20 @@
+[
+  {
+    "source": "rss",
+    "url": "https://arxiv.org/abs/2610.10805",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"这是一篇立场论文（position paper），质疑传统机器学习中\"唯一真值\"（single ground truth）的假设，指出在以人为本的 AI 任务中，人类标注的歧义往往是有意义的多元解读而非噪声。作者主张从\"聚合消歧\"转向建模\"合理解释空间\"，并区分真实歧义与标注噪声，进而影响 AI 系统的表示、学习、评估、部署与治理全流程。对从事数据标注、RLHF、主观任务'",
+    "timestamp": "2026-10-09T08:10:18Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://arxiv.org/abs/2610.10954",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"该论文提出用语言模型学习\"索引式策略\"（indexical policy）来替代传统启发式搜索，通过引入 choose 规则在寄存器中加载对象并标记回溯点，使结构终止性同时保证执行步数是对象数的多项式，从而在多项式空间内完成规划，无需存储访问状态列表。作者用反例引导循环训练 LLM 并认证终止性、控制选择深度，在 IPC 2023 Learning Track 与 Aut'",
+    "timestamp": "2026-10-09T08:10:29Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://arxiv.org/abs/2610.11007",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"该论文将 LLM Agent 的常驻上下文文件（如 AGENTS.md）的维护问题形式化为带容量约束的选品问题（capacitated assortment problem）：每条指令占用有限的注意力预算，且每轮会话都要重复计费，因此文件越大性能反而越差。作者证明了最优文件规模的上界，并指出\"凡有正价值就追加\"的策略可能远劣于选择最优子集；同时分析了反馈被截断（censo'",
+    "timestamp": "2026-10-09T08:10:33Z"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.11118v1",
+  "title": "OpenProblemBench: Benchmarking AI on Open Problems in the Foundational Theoretical Sciences",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.11118",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "OpenProblemBench 是一个面向基础理论科学的 AI 基准，收录 82 个来自数学与理论物理文献的未解决问题，每题附带研究背景、假设与已有进展，并选取其解法可对关键数学或计算主张进行较清晰验证的问题。评测采用四个评估模型独立判断提交的正确性、完整性与推进程度，无需参考答案。在七种配置中，GPT-6-Astra 平均判定解决率最高为 14.0%，全尺寸开源模型为 5.5-6.7%，Flash 类模型仅 2.4-3.7%。该基准把评测从已有知识转向真正未解问题，为衡量 AI 作为理论科学贡献者的能力与边界提供了新标尺。",
+  "tags": [
+    "benchmark",
+    "theoretical-science",
+    "llm-evaluation",
+    "reasoning",
+    "open-problems"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhiyi Li, Sihan Hu, Tianning Xiao, Xiansheng Cai, Xiaojun Tan, Youjin Deng, Kun Chen",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}

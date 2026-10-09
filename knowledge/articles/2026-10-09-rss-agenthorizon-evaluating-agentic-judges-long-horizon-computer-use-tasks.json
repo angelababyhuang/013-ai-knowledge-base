@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.11050v1",
+  "title": "AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Tasks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.11050",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "AgentHorizon 是面向计算机使用智能体（computer-use agents）的评测基准，包含 1,373 个指令-轨迹对，来自 166 小时跨三大操作系统的真人操作记录。它通过配对设计（将相近指令互换构造负样本）来检验自动评判器能否区分真正完成任务的轨迹与看似完成但实际违背约束的轨迹。研究评测了 11 个评判器，发现最佳智能体评判器 GPT-5.5 在 AH 子集上仅达 80.9% 平衡准确率，且工具使用对开源权重模型反而有害，凸显长交互历史中隐藏证据定位与验证的难题。",
+  "tags": [
+    "agent-evaluation",
+    "computer-use-agents",
+    "llm-as-judge",
+    "benchmark",
+    "long-horizon-tasks"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xing Han L\\`u, Dheeraj Vattikonda, Sina Hajimiri, Fatemeh Pesaran Zadeh, Parishad BehnamGhader, Ghazwa Darwiche, Amirhossein Kazemnejad, Christopher Pal, Alexandre Drouin, Siva Reddy",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}

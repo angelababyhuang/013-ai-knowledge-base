@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.11005v1",
+  "title": "How Narrative Wrapping Affects LLM Refusal: A Cross-Language Benchmark and Defense",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.11005",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "该论文研究安全对齐语言模型在角色扮演或叙事包装下绕过拒绝机制的现象，构建了跨语言基准 GUISE，涵盖英语、现代汉语和文言文的平行有害/良性请求对，并发现文言文攻击成功率高达 95.7%。通过表征分析揭示叙事包装比语言和语域更能使有害请求表征偏离拒绝方向，进而提出 AXIS 方法，结合偏好优化、旋转目标和承诺目标，在多个模型上实现安全性与可用性的最佳平衡。",
+  "tags": [
+    "llm-safety",
+    "jailbreak",
+    "cross-lingual",
+    "benchmark",
+    "alignment"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhankai Ye, Yanning Wang, Yukai Jin, Bo Mei, Fangyi Li, Wei Wang, Shangqian Gao, Xin Liu",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}

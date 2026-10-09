@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.10942v1",
+  "title": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.10942",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "StoreBench 是一个面向 LLM 智能体的实时电商运营环境，让智能体通过 29 个商家工具经营一家中型服装网店，在客户全天候下单、供应商调价与违约、市场冲击无预警等条件下考察长程规划与经济决策能力。它针对现有智能体基准静态化、奖励为终局判定、通过阈值随意设定等缺陷，采用动作驱动的时间预算、脚本锚定策略校准阈值、抗奖励黑客的奖励设计，并保证动作序列可复现。七个前沿模型平均均未超过脚本启发式策略（最佳 DeepSeek-V4-Pro 通过率 49% 对 97%），人类专家略高于所有模型；GRPO 后训练显示仅用五个任务即可将 Qwen3.5-27B 的复合得分从 0.136 提升到 0.373，说明该环境兼具评测与训练价值。",
+  "tags": [
+    "agent-benchmark",
+    "reinforcement-learning",
+    "llm-agents",
+    "long-horizon-planning",
+    "simulation-environment"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Daksh Raghuvanshi, Ved Vedere, Yifan Wang",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}

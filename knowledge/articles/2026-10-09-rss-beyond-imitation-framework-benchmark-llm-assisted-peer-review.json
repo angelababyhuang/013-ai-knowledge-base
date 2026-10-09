@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.11087v1",
+  "title": "Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.11087",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "该论文提出以「错误检测」为核心的 LLM 辅助同行评审评估框架，而非让模型模仿人类评审文本。作者通过向会议论文中合成插入逻辑矛盾等错误，构建可扩展基准，为评审系统提供无歧义的评测目标；同时提出 Multi-Layered Review（MLR）框架，先深入理解稿件再生成评审意见，兼顾人类评审习惯与 token 效率。实验显示该方法与人类评审分数高度一致、错误检测表现优异，但也暴露了对对抗性操纵的脆弱性，为 LLM 在科研工作流中的负责任部署提供了评估思路。",
+  "tags": [
+    "llm-peer-review",
+    "benchmark",
+    "error-detection",
+    "evaluation",
+    "scientific-workflow"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Rachel S. Y. Teo, Yutaro Yamada, Shashank Kotyan, Yuki Imajuku, Tarin Clanuwat",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}

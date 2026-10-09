@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.11123v1",
+  "title": "When Interfaces Speak: Data-Aware Generative UI Harness for Active Interaction",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.11123",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "该论文提出 GenUI-Harness，一个多智能体框架，将工具调用智能体与生成前端界面的 GUI 编码智能体配对，用动态生成的 UI 替代纯文本交互，以缓解复杂任务中的认知过载与歧义。针对 RL 训练中可验证奖励昂贵、LLM 评判易被 reward hacking 的问题，作者设计了 Dynamic UX 沙箱与 Reward Auditor 元奖励机制，并发布 UI-TAU Bench 基准（300/1000 任务）。实验显示 4B 模型 Pass@3 从 9.33% 提升到 58.00%，超过 Claude Opus 5，且对话轮次从 3.4 降至 1.2，对生成式 UI 与 Agent 交互研究有较强参考价值。",
+  "tags": [
+    "generative-ui",
+    "multi-agent",
+    "reinforcement-learning",
+    "tool-use",
+    "benchmark"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xiaolong Li, Xiaohan Xu, Jinyang Li, Xinnuo Xu, Ge Qu, Nan Huo, Jack Williams, Reynold Cheng",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}

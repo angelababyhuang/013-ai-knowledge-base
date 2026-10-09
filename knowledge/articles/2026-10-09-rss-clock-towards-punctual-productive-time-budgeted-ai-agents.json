@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.10833v1",
+  "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.10833",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "本文研究小型 LLM 智能体能否在明确的墙钟时间预算下既遵守时限又高效利用时间，在 MLE-Bench Lite 与 Zork I 两个基准上评估 Qwen3.6-27B 和 Qwen3-4B。作者发现仅靠提示词声明预算时智能体无法有效控制时间，于是提出两类干预：通过执行框架注入计时信息并强制截止，以及带预算感知奖励的 GRPO 强化学习。结果显示框架计时可显著提升预算遵守率且不损失性能，RL 在 Zork I 上接近完美但无法把额外时间转化为任务收益，揭示了时间遵守与有效时间分配之间的鸿沟。",
+  "tags": [
+    "time-budgeted-agents",
+    "llm-agents",
+    "reinforcement-learning",
+    "grpo",
+    "agent-evaluation"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aaron Wang, Neelabh Madan, Vlad Sobal, Matthew Trager, Michael Kleinman, Elman Mansimov, Wei Xia, Stefano Soatto",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}

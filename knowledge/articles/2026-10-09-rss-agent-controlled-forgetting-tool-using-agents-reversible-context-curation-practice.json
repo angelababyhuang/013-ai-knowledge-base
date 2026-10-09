@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.10590v1",
+  "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.10590",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "该论文研究工具调用型 Agent 的\"可控遗忘\"机制：由模型自身选择已观察到的工具结果，用简短摘要替换原位置内容，同时将完整原文存入可恢复归档，且不修改用户指令与助手消息。作者用 Python harness 实现批量归档与显式恢复，无需任务特定训练。在 OpenTelemetry 调试案例中，prompt token 从 912,492 降至 231,951，累计输入 token 减少 50%，API 成本从约 4.38 美元降至 1.28-1.44 美元，但请求数增加、耗时延长 17%，且在另一应用开发场景中无收益。其价值在于揭示可逆上下文管理对工作负载的高度依赖性，为长轨迹 Agent 的上下文压缩提供了可复现的实践证据。",
+  "tags": [
+    "context-management",
+    "tool-use-agents",
+    "agent-memory",
+    "token-efficiency",
+    "reversible-forgetting"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jan-Peter Franke",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}

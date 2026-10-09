@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.10549v1",
+  "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.10549",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "本文提出 Synthesis Through Simulation（STS），一种无需数据库 schema 的企业数据合成范式：让 LLM Agent 在模拟企业环境中调用带策略约束的 API 来生成数据，从而在构造上保证结构有效性，并将有效性约束与分布建模解耦。其通用填充 Agent（Generalist Populator）在十个环境中实现 0.88 平均边际保真度和 100% 约束满足，且无需访问 DB schema，而传统统计合成器在七个环境中因缺少种子数据而不可用。该工作直击企业级工具调用 Agent 训练与评测受数据合规限制的痛点，并开源了完整框架、十个环境与生成数据集，对做 Agent 训练数据合成与评测的团队很有参考价值。",
+  "tags": [
+    "data-synthesis",
+    "tool-calling-agents",
+    "enterprise-ai",
+    "simulation-environment",
+    "schema-free"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yipeng Li, Ashutosh Hathidara, Jane Lo, Harshavardhan Abichandani, Gunraj Singh, Atin Ghosh",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.10786v1",
+  "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.10786",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "该论文提出 Plan-and-Patch 框架，用扩散语言模型（dLLM）生成程序化结构化计划，并通过并行去掩码只重写受影响区域、保留前后步骤不变，从而修复计划而非整体重生成。实验显示在 Natural Plan 上扩散规划器修复成功率达 53.7%，是自回归模型 27.0% 的近两倍，且训练后计划生成延迟降低 39-46%。它把扩散生成范式引入长程 Agent 规划与修复，为提升 Agent 鲁棒性和效率提供了新思路。",
+  "tags": [
+    "diffusion-language-model",
+    "agentic-planning",
+    "plan-repair",
+    "long-horizon-agents",
+    "llm-reasoning"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Syamantak Kumar, Jiang Guo, Hassan Hamad, Hideo Kobayashi, Yi Xiang, Yezhou Yang, Yanjun Qi, Daniele Bonadiman, Jiarong Jiang",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}

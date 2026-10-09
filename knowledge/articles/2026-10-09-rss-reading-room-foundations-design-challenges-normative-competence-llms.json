@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.10906v1",
+  "title": "Reading the Room: Foundations, Design, and Challenges of Normative Competence in LLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.10906",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "该论文提出并首次系统化评估 LLM 的「规范能力」（normative competence），即仅通过交互推断某个社群实际执行的社会规范，而非依赖预训练中的静态知识。作者设计了一个多智能体辩论环境，用合成规范控制参与权限，从而将规范学习与预训练暴露隔离。实验发现基线 LLM 智能体即使在学习规范能提升准确率时也学不会，且规范遵循对规范风格和模块模型能力高度敏感，缺乏泛化性；更关键的是，当真实规范伴随个体化噪声行为时，模型会不加区分地模仿噪声，即便被明确惩罚也难以纠正，说明当前模型擅长行为模仿却无法辨别社会强制秩序。",
+  "tags": [
+    "llm-alignment",
+    "multi-agent",
+    "social-norms",
+    "normative-competence",
+    "agent-behavior"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Andrea Wynn (Nathan), Harsh Satija (Nathan),  Seokhyun (Nathan),  Baek, Anqi Liu, Eric Nalisnick, Gillian K. Hadfield",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}

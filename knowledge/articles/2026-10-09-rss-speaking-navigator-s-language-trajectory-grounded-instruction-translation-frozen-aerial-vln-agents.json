@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.10635v1",
+  "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.10635",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-09T08:08:50Z",
+  "analyzed_at": "2026-10-09T08:08:51Z",
+  "organized_at": "2026-10-09T08:11:19Z",
+  "summary": "该论文针对空中视觉语言导航（Aerial VLN）中的\"指令鸿沟\"问题：导航器在训练时使用细节丰富、与轨迹对齐的指令，而用户实际发出的是简短、意图驱动的指令，导致冻结的 OpenFly 导航器成功率从 31.03% 骤降至 11.33%。作者提出轨迹接地指令翻译器（TGIT），在不微调导航器的前提下，利用导航器的轨迹执行结果学习将弱指令翻译为可执行指令，将弱输入成功率提升至 37.93%，并零样本迁移到真实人类指令（11.33%→32.51%）。该工作为冻结智能体的指令适配提供了低成本前端方案，对具身导航与 Agent 接口设计有参考价值。",
+  "tags": [
+    "aerial-vln",
+    "instruction-translation",
+    "embodied-agent",
+    "frozen-model-adaptation",
+    "vision-language-navigation"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xi Chen, Zhe Liu, Xiaogang Xu, Jiafei Xu, Chunyi Zhou, Yuan Su, Rui Zeng, Tianyu Du, Kelu Yao, Chao Li, Shouling Ji",
+    "published": "Fri, 09 Oct 2026 00:00:00 -0400"
+  }
+}
