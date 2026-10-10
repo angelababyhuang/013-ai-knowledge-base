@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.10954v1",
+  "title": "Learning How to Search for Plans with Exponentially Less Space",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.10954",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-10T08:06:47Z",
+  "analyzed_at": "2026-10-10T08:06:48Z",
+  "organized_at": "2026-10-10T08:09:08Z",
+  "summary": "该论文提出一种用语言模型学习「索引式策略」（indexical policy）的方法，把规划搜索控制写成带寄存器和模式序列的泛化策略，并引入 choose 规则标记回溯点。核心结论是结构终止性可将每次执行限制在对象数的多项式空间内，从而在多项式空间下用深度优先搜索找到规划，无需访问状态列表，时间开销仅随真实选择深度指数增长。在 IPC 2023 Learning Track 与 Autoscale Agile 上解出 1890 题中的 1709 题，超过 LAMA、BFWS 和 Levitron，多数在一秒和 100 MiB 内完成，对 AI 规划与 LLM 结合方向有较强参考价值。",
+  "tags": [
+    "automated-planning",
+    "heuristic-search",
+    "llm-reasoning",
+    "policy-learning",
+    "polynomial-space"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dominik Drexler, Simon St{\\aa}hlberg, Markus Fritzsche, Blai Bonet",
+    "published": "Sat, 10 Oct 2026 00:00:00 -0400"
+  }
+}
