@@ -1,0 +1,24 @@
+{
+  "id": "https://lobste.rs/s/t2fxpt",
+  "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+  "source": "rss",
+  "url": "https://arxiv.org/html/2610.05978v1",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-11T08:06:51Z",
+  "analyzed_at": "2026-10-11T08:06:52Z",
+  "organized_at": "2026-10-11T08:08:38Z",
+  "summary": "这篇论文挑战了语言模型必须依赖子词分词器的传统假设，证明标准扁平 Transformer 直接处理原始字节序列，在参数量增大时可超越子词模型。作者通过 token-superposition 训练与哈希嵌入，让字节模型在同等参数预算下达到更低最优损失，并发现模型会自发形成局部抽象结构，注意力集中在特定分段位置。字节级损失分布高度不均，大量位置近乎零损失，为推测解码带来约 3.4 倍的接受率提升，并在 CUTE、OCRBench 等细粒度任务上大幅领先。",
+  "tags": [
+    "byte-level-modeling",
+    "tokenizer-free",
+    "transformer-architecture",
+    "speculative-decoding",
+    "emergent-abstractions"
+  ],
+  "relevance_score": 0.71,
+  "meta": {
+    "feed_name": "lobsters-ai",
+    "author": "arxiv.org via Yogthos",
+    "published": "Sat, 10 Oct 2026 17:25:14 -0500"
+  }
+}
