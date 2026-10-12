@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12598v1",
+  "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12598",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "该论文针对软件工程智能体强化学习中的可验证奖励（RLVR）问题，指出二元通过/失败奖励无法区分调试质量差异巨大的轨迹。作者提出行为自奖励（BSR）方法，复用当前策略对同一任务、同一验证结果下的轨迹进行成对比较，聚合成任务局部偏好分数并转化为有界辅助奖励，在保持验证器通过/失败排序的同时引入奖励对比。在 SWE-bench Verified 与 SWE-bench-Live 上，Qwen3-14B 和 Qwen3-32B 配置均取得一致提升，且无需额外环境交互或单独训练奖励模型，为 SWE 智能体训练提供了低成本、可复用的补充监督信号。",
+  "tags": [
+    "rlvr",
+    "swe-agents",
+    "self-rewarding",
+    "reward-modeling",
+    "llm-reinforcement-learning"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yiran Wu, Andrew Zhao, Yurui Chang, Qingyun Wu, Xuan Feng",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

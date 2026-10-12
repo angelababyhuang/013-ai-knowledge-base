@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12855v1",
+  "title": "Mitigating Capability Degradation in LLM Self-Improvement via Representation Geometry Regularization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12855",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "该论文针对 LLM 自改进中的 On-Policy Self-distillation（OPSD）方法，发现其在整体性能提升的同时会逐步遗忘早期已掌握的能力，即出现能力退化现象。作者通过分析隐藏表示几何结构，发现退化与簇内紧致度下降、簇间分离度减弱相关，据此提出表示几何正则化（RGR），在训练中保持簇内紧凑与簇间分离。RGR 可无缝集成到现有 OPSD 流程中，实验表明能缓解能力退化并保留性能提升，对研究 LLM 持续学习与自蒸馏稳定性有参考价值。",
+  "tags": [
+    "llm-self-improvement",
+    "representation-geometry",
+    "knowledge-distillation",
+    "catastrophic-forgetting",
+    "regularization"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiaqi Tian, Ting Long",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

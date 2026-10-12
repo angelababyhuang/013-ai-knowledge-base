@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12881v1",
+  "title": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12881",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "GeoSpatialBench 是一个面向多模态大模型空间推理能力的评测基准，基于六个真实城市的城市数据构建，覆盖 28 种拓扑、方向、度量与排序关系，并同时提供结构化 GeoJSON 与地图图像两种模态。它首次把评测从静态问答推进到带几何约束的空间编辑任务，要求模型在满足显式约束的前提下修改空间配置。实验揭示出明显的\"空间鸿沟\"：GeoJSON 显著优于地图图像，多模态组合并无增益，度量类定量关系表现差，且编辑任务比问答更易失败并违反约束。",
+  "tags": [
+    "spatial-reasoning",
+    "multimodal-llm",
+    "benchmark",
+    "geospatial",
+    "embodied-ai"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zheng Ren, Yanning Wang, Ziheng Huang, Fei Huang, Shiqi Wang, Ziqian Ye, Yang Yue",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

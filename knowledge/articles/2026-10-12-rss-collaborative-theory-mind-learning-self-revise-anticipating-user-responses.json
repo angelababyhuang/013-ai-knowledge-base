@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12872v1",
+  "title": "Collaborative Theory of Mind: Learning to Self-Revise by Anticipating User Responses",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12872",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "该论文提出 Collaborative Theory of Mind (CToM) 框架，针对 LLM 在多轮协作中过早给出方案、收到反馈后不修正假设的问题，让模型在输出前先草拟回复、预测用户将如何回应，并据此进行内部自我修订。训练时以用户真实回复作为预测目标，结合负对数似然与 GRPO 联合优化任务表现和交互效率。在数学推理、编程、写作任务上均优于基线，数学协作准确率从 74.1% 提升至 79.6%，同时减少 8%-17% 的用户回复轮数，为多轮人机协作提供了可训练的「心智理论」思路。",
+  "tags": [
+    "theory-of-mind",
+    "multi-turn-dialogue",
+    "grpo",
+    "self-revision",
+    "human-ai-collaboration"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Fanzhi Zeng, Anubrata Das, Maytal Saar-Tsechansky, Liu Leqi",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

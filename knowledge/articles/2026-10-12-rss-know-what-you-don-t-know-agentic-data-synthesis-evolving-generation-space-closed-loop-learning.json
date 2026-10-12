@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12593v1",
+  "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12593",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "EvoSyn 是一个面向交互式智能体的多智能体数据合成框架，针对现有合成方法中\"反馈到决策\"的断层问题——即观察到学习者的弱点后，无法直接转化为合成策略的调整。它引入可修订的合成状态，明确\"哪些交互因素可被刻意生成\"以及\"合成算力应投向何处\"，通过 Designer 分配合成方向、Planner 落地为可执行经验，实现合成空间内的自适应与空间扩展。在 τ²-Bench 和 CAR-Bench 上平均任务成功率提升 13.3 个百分点，且合成数据质量与结构多样性更优。",
+  "tags": [
+    "agentic-data-synthesis",
+    "multi-agent",
+    "closed-loop-learning",
+    "llm-agents",
+    "synthetic-data"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Wei Yang, Qing Ping, Youzhi Luo, Yawei Wang, Abhishek Kumar, Panpan Xu, Jun Huan",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

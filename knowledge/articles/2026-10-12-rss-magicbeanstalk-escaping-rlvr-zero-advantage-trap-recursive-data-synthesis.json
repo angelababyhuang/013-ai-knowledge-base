@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12659v1",
+  "title": "MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12659",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "该论文针对 RLVR（可验证奖励强化学习）训练数据效率问题，提出数据集有效性取决于问题、目标策略与 rollout 预算三者的匹配关系。作者发现常用开源数学语料中约 88% 的问题落入\"零优势陷阱\"——每次 rollout 都成功或都失败，无法提供梯度信号，而过滤只能丢弃难题。为此提出 MagicBeanStalk，通过自顶向下分解与自底向上递归合成，将种子问题扩展为策略与预算校准的新训练问题族，同时保留原推理蓝图。在 8 个数学基准上，gpt-oss-120b 提升 8.6 分，远超全量 78K 语料训练的 +1.1 分，金融领域仅用 340 个解即合成 14K 可验证问题。",
+  "tags": [
+    "rlvr",
+    "data-synthesis",
+    "reinforcement-learning",
+    "llm-reasoning",
+    "training-data"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ximing Lu, Aviral Kumar, Jan Kautz, Yejin Choi, David Acuna",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12879v1",
+  "title": "One-Step Text Generation by Seq-Drifting",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12879",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "Seq-Drifting 提出一种让语言模型在单次前向传播中生成整段文本的框架，将 drifting 方法从图像生成迁移到连续 token 表示序列上，直接学习从高斯噪声到文本的映射。与现有扩散语言模型（DLM）逐位置从观测 token 取监督不同，它构建的漂移场中每个位置的目标会随当前生成上下文自适应调整，通过吸引力引导输出趋向上下文合理的 token 表示，用排斥力防止样本坍缩和序列内重复。在 LM1B 上单步生成困惑度达 36.01，并在翻译、摘要、推理等任务上验证了通用性，为一步式文本生成提供了可行路径。",
+  "tags": [
+    "diffusion-language-model",
+    "one-step-generation",
+    "text-generation",
+    "drifting",
+    "non-autoregressive"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiayu Liu, Ruizhi Zhao, Tianyun Ji, Yee Whye Teh, Zhenya Huang, Ning Miao",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

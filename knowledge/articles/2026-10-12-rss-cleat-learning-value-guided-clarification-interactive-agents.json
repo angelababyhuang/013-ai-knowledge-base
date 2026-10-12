@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12655v1",
+  "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12655",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "CLEAT 针对 LLM Agent 在用户意图未明说时如何主动提问澄清的问题，提出价值引导的协同训练框架。它用同一交互历史下的成对 rollout 估计「残差查询价值」，即提问相比直接行动带来的任务效用增益，并用该信号同时训练澄清价值控制器与任务策略，使提问指导能随策略演化而自适应。在 Qwen3-4B 上于四个基准十个设置中均取得最高分，Travel 与 IN3 分别领先最强基线 13.2 和 6.5 个百分点，对做交互式 Agent 意图对齐的研究者与工程师有直接参考价值。",
+  "tags": [
+    "interactive-agents",
+    "clarification",
+    "intent-alignment",
+    "reinforcement-learning",
+    "co-training"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiatan Huang, Zheyuan Zhang, Ziming Li, Tianyi Ma, Mingchen Li, Yanfang Ye, Chuxu Zhang",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

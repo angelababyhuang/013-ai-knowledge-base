@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12813v1",
+  "title": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12813",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "VEPA 提出一种面向 LLM Agent 的运行时护栏框架，将安全策略表示为对类型化 Agent 事件的可执行符号规则，而非依赖 LLM 推理来判定，从而保证决策可检查、可复现且确定。部署过程中，它用 LLM 根据反馈提出策略补丁以修复新出现的失败，再由确定性验证器只接受结构合法且无冲突的策略，并通过证据感知的授权层在证据充分时才激活规则。该工作解决了自适应护栏不一致与形式化护栏无法演化之间的矛盾，在多个安全基准上优于基线，对构建生产级 Agent 安全系统有参考价值。",
+  "tags": [
+    "llm-agent",
+    "guardrails",
+    "formal-verification",
+    "agent-safety",
+    "policy-evolution"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Duy Nguyen, Lesly Miculicich, Bhavana Dalvi Mishra, Shuo Li, Krishnamurthy Dj Dvijotham, Mohit Bansal, Tomas Pfister, Long T. Le",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12789v1",
+  "title": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12789",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "EvoBelief 提出了一种让 LLM Agent 在部署阶段自我进化的新思路：不更新模型参数，而是把环境动态知识表示为可证伪的假设规则。当出现意外结果或决策相关未知时触发假设生成，再通过后续观察和受控实验独立验证，规则才被允许用于预测与规划；反例会收窄或淘汰过时规则。在 ALFWorld、MiniGrid、DiscoveryWorld 等四个基准上，该方法显著优于冻结世界模型基线，尤其在 Reactor Lab 中完成率从 0% 提升到 83.3%。其价值在于把 Agent 的自我改进从'改行为'扩展到'改信念'，且规则可追溯、可复用、可撤销，为构建可信赖、可审计的自主 Agent 提供了新范式。",
+  "tags": [
+    "world-model",
+    "self-improving-agents",
+    "llm-agents",
+    "falsifiable-hypotheses",
+    "agent-memory"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Janet Wang, Jiang Guo, Yi Xiang, Jiaqing Yuan, Mingwen Dong, Hideo Kobayashi, Shuaichen Chang, Chandan K. Reddy, Jiarong Jiang",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12842v1",
+  "title": "Neural networks are more modular than single neurons suggest",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12842",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "该论文挑战了「神经网络缺乏模块化」的流行观点，提出一个形式化的嵌套模块化层级：单元级（不同计算占据不相交神经元）、正交级（旋转后是否存在功能独立子空间）和线性级（有界线性映射能否分离任务相关计算）。作者开发统一框架学习各层分解，并通过选择性消融进行因果评估。在视觉、语言模型和多任务 RNN 上发现，缺乏单元级模块化的网络常在子空间层面展现清晰功能模块化，如内容与风格、句法与语义可分离，且这些子空间与大脑数据有差异化对齐。该工作对机制可解释性和理解生物/人工神经网络功能组织有广泛意义。",
+  "tags": [
+    "mechanistic-interpretability",
+    "modularity",
+    "subspace-decomposition",
+    "neural-networks",
+    "cognitive-neuroscience"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shreya Saha, Benjamin Bergen, Meenakshi Khosla",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

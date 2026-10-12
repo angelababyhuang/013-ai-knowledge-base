@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12914v1",
+  "title": "OGPO: Offline Goal-conditioned Policy Optimization for Recoverable Vision-Language-Action Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12914",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "OGPO 针对视觉-语言-动作（VLA）模型后训练过度依赖轨迹级监督模仿的问题，提出离线目标条件策略优化框架。它不再把示范数据仅当作逐步动作标签，而是用语义关键状态重新标注轨迹并构建目标条件过程奖励，将训练从动作模仿转向关键状态可达性学习，使策略在偏离示范轨迹后仍能恢复至任务进展状态。在 LIBERO、MetaWorld 及新提出的扰动基准 LIBERO-ReAct 上验证了鲁棒性与可恢复性提升，且无需额外在线交互，对机器人操作策略的离线后训练有直接参考价值。",
+  "tags": [
+    "vision-language-action",
+    "offline-rl",
+    "robot-manipulation",
+    "policy-optimization",
+    "goal-conditioned"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xule Gao, Xi Wang, Zehua Zang, Rui Wang, Changwen Zheng, Chuxiong Sun",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}

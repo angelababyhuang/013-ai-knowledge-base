@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.12781v1",
+  "title": "Representation Alignment from a Few Paired Data via Distilled Optimal Transport",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.12781",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-12T08:21:18Z",
+  "analyzed_at": "2026-10-12T08:21:19Z",
+  "organized_at": "2026-10-12T08:24:04Z",
+  "summary": "该论文研究在仅有 N≈100–500 对配对样本、但两侧无配对数据充足的条件下，如何对齐两个独立预训练的单模态编码器。方法将每个表示表达为与 N 个配对锚点的相似度，从而把两模态放入统一坐标系，并用一个熵最优传输问题在全池上匹配两个点云，其边缘约束可缓解导致最近邻匹配失效的 hubness 问题，最后将传输方案蒸馏为两个轻量编码器使对应关系具备归纳能力。在 Flickr30k、MS-COCO 和 ChEBI-20 上，相同锚点预算下优于现有方法，对少样本跨模态对齐与多模态检索有参考价值。",
+  "tags": [
+    "optimal-transport",
+    "representation-alignment",
+    "multimodal-learning",
+    "few-shot",
+    "knowledge-distillation"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Julien Kordes, Reuben Dorent",
+    "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+  }
+}
