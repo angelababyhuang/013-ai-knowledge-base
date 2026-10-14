@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14186v1",
+  "title": "Visualizing the World Model in an Agent's Value Function",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14186",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "该论文研究无模型强化学习算法是否隐式学到了环境的世界模型。作者对 PPO 智能体在 Crafter 环境中的价值函数施加反事实干预（固定状态其余部分，只改变目标变量），可视化发现价值函数自发编码了钻石可采集规则、水与食物对生命值的影响、库存启发式等概念。这项工作为理解 RL 智能体的内部表征提供了可解释性工具，并讨论了相关安全启示，对关注智能体世界模型与可解释性的研究者有参考价值。",
+  "tags": [
+    "world-model",
+    "reinforcement-learning",
+    "value-function",
+    "interpretability",
+    "counterfactual"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shawheen Naderi, Fatemeh Akherati, Yubei Chen",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

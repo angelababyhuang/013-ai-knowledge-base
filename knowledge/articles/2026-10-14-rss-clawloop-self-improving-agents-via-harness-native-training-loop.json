@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14118v1",
+  "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14118",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "ClawLoop 提出一种无需外部教师模型的自改进智能体训练框架，针对基于 harness 环境（沙箱工作区、文件系统与 shell 交互）的 LLM 智能体。现有后训练流程多为一次性、依赖更强模型合成任务与轨迹，且评估结果不回流，导致能力上限受制于外部模型与人类先验。ClawLoop 将任务合成、训练（SFT/RL）与诊断反馈组成自循环，通过诊断驱动的难度增长和双重任务验证实现持续自我提升，并在多个基准上验证了迭代任务可迁移至更小模型。",
+  "tags": [
+    "self-improving-agents",
+    "agent-training",
+    "reinforcement-learning",
+    "task-synthesis",
+    "harness-environments"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hansi Yang, Linji Hao, Hongyan Hao, An Wang, Han Wu, Qi Gu, Xunliang Cai",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

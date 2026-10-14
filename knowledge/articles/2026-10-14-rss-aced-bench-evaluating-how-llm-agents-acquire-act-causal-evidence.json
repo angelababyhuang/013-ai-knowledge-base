@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14381v1",
+  "title": "ACED-Bench: Evaluating How LLM Agents Acquire and Act on Causal Evidence",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14381",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "ACED-Bench 是一个面向 LLM Agent 的神经符号因果推理评测基准，核心创新在于将可读的科学场景（由 LLM 生成）与隐藏的概率图模型分离，后者定义因果图、数据生成过程、干预语义与标准答案，从而既能自然地被 Agent 探索，又能程序化精确评分。主榜 ACED-CORE 含 180 个任务（因果祖先/后代集合判断与约束决策），另有 ACED-QUAL 资格测试。评测揭示 Agent 的典型失败模式：选错干预、丢失已有证据、证据充分后仍不停止，为构建可靠的 AI 科研助手指明实验设计、证据保留与停止决策等改进方向。",
+  "tags": [
+    "llm-agents",
+    "causal-inference",
+    "benchmark",
+    "neuro-symbolic",
+    "evaluation"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yiwei Chen, Amila Weerasinghe, Siddharth Biswal, Utkrisht Rajkumar, Olcay Boz, Taylor Berg-Kirkpatrick, Rose Yu",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

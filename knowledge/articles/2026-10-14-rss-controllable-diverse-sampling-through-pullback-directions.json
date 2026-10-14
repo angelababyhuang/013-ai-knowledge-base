@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14294v1",
+  "title": "Controllable Diverse Sampling through Pullback Directions",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14294",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "该论文针对条件扩散模型在不同随机种子下生成图像高度相似、缺乏创意多样性的问题，提出一种无需训练的可控多样化采样方法。作者利用条件嵌入空间到图像空间的映射所诱导的局部拉回几何，识别输出敏感度最大的方向，并沿这些方向引导不同采样轨迹，从而在保持与条件信号一致的前提下提升生成多样性。方法无需额外优化或采样开销，在 MS-COCO 和 BrushNet 上验证了其在条件图像生成与修复任务中的有效性，对关注扩散模型可控生成与多样性探索的研究者有参考价值。",
+  "tags": [
+    "diffusion-models",
+    "controllable-generation",
+    "sampling-diversity",
+    "pullback-geometry",
+    "training-free"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sylvain Dehayem Kenfouo, Aaron Zweig, Mingxuan Zhang, Elham Azizi",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

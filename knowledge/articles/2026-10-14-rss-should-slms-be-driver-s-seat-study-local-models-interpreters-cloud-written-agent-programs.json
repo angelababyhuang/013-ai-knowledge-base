@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14209v1",
+  "title": "Should SLMs be in the Driver's Seat? A Study of Local Models as Interpreters in Cloud-Written Agent Programs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14209",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "该论文提出一种混合架构：由云端大模型编写 Agent 程序，但将涉及用户私有数据的受限查询通过普通函数调用委托给本地小模型（SLM）执行，从而在数据不出设备的前提下提升任务成功率。在 AppWorld 基准上，六种骨干模型与测试分区组合下代码型 Agent 成功率均提升，最高 +14.9pp，缩小了与云端 ReAct 循环的差距。对关注端侧隐私、Agent 架构分层与云边协同的工程师有参考价值。",
+  "tags": [
+    "small-language-models",
+    "agent-architecture",
+    "privacy-preserving",
+    "cloud-edge-collaboration",
+    "code-agents"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Boris Radovi\\v{c}, Marco Canini, Veljko Pejovi\\'c",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

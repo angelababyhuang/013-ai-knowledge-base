@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14136v1",
+  "title": "Correction Training for Diffusion Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14136",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "该论文针对扩散模型迭代采样中的暴露偏差（exposure bias）问题提出修正训练框架：去噪器训练时输入是真实图像加噪，推理时却依赖自身不完美预测，导致误差累积。作者引入一个独立的 corrector 模块，以基础模型预测为输入、以同一真值为目标进行显式训练，并在每个去噪步迭代精炼干净样本预测。在 DiT、SiT、JiT 上验证，无引导生成 FID 显著提升，性能可与 CFG 竞争，且与 CFG 结合能缓解过饱和、提升多样性；还通过蒸馏将修正能力回灌基础模型以摊薄推理开销。",
+  "tags": [
+    "diffusion-models",
+    "exposure-bias",
+    "sampling",
+    "classifier-free-guidance",
+    "distillation"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Donghoon Ahn, Runqian Wang, Alexei A. Efros, Taesung Park, Yash Belhe",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

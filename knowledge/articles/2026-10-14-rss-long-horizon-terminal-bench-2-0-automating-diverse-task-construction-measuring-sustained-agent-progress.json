@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14146v1",
+  "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14146",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "LHTB 2.0 是长时程终端智能体基准的升级版，在保留原有 46 个任务的基础上修复缺陷并扩展至 77 个任务，覆盖 13 个领域和 8 种任务类型。其核心创新在于用参数化参考实现自动构建重建任务，通过密集进度阶梯奖励部分进展，并将评测时长从 90 分钟延长至 3 小时、每 30 分钟记录验证检查点。对 15 个前沿模型的 1145 次评测显示，仅看最终结果的二值验证平均得分 0.221，而密集阶梯得分达 0.653，说明传统结果导向评测会丢弃大量中间进展，为研究智能体长时程可靠执行提供了更严谨的过程感知测试平台。",
+  "tags": [
+    "agent-benchmark",
+    "long-horizon",
+    "process-reward",
+    "terminal-agent",
+    "evaluation"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zongxia Li, Zhongzhi Li, Yucheng Shi, Ruhan Wang, Junyao Yang, Chengsong Huang, Zhichao Liu, Xiyang Wu, Anhao Li, Yue Yu, Ergan Shang, Fuxiao Liu, Tong Zheng, Ninghao Liu, Lichao Sun, Haitao Mi, Leowei Liang",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

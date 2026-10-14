@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14180v1",
+  "title": "Unconstrained CTI-REALM with Open-Weights",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14180",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "该论文在 CTI-REALM 基准上系统评测了 26 个模型（19 个开放权重、7 个闭源），任务是让 Agent 把威胁情报报告转化为可用的检测规则。核心发现是开放权重模型在放宽对话轮数限制后能追平最强闭源模型，成本却不到十分之一；同时指出基准原有的消息数上限会造成评分混淆，并引入按阶段执行检测查询的细粒度指标，主张按工作流阶段路由不同模型而非选单一最优模型。",
+  "tags": [
+    "llm-agents",
+    "open-weights",
+    "security-benchmark",
+    "model-routing",
+    "evaluation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sahil Garg, Ruhi Gottumukkala, Vishal Agarwal, Shubham Vishwakarma",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14307v1",
+  "title": "ConicFlow: constrained Inference-time optimal control for flow matching models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14307",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "ConicFlow 将流匹配（flow matching）模型在推理阶段的约束采样问题建模为最优控制问题，在硬性终端约束下平衡对预训练轨迹的偏离与奖励最大化。方法采用滚动时域控制（receding-horizon control），每步只优化短窗口轨迹以保证计算可行性，并用滚动时域原始-对偶算法求解，对偶乘子动态反映约束满足难度。作者还提出终端估计变体以减少局部截断误差，并在标准正则假设下给出有限时域次优性保证。实验表明该方法在低维和高维设置下均能兼顾高奖励与强约束满足，且比近期基线更贴近预训练流。",
+  "tags": [
+    "flow-matching",
+    "constrained-sampling",
+    "optimal-control",
+    "inference-time",
+    "generative-models"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shervin Khalafi, Kasra Fallah, Sung Cho, Dongsheng Ding, James Anderson, Alejandro Ribeiro",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

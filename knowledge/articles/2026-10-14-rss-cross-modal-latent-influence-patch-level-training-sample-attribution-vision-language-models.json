@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14190v1",
+  "title": "Cross-Modal Latent Influence: Patch-Level Training Sample Attribution for Vision-Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14190",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "MOSAIC 针对视觉语言模型（VLM）预测难以追溯到具体训练样本与多模态证据的问题，提出一种跨模态潜在影响归因方法。它学习共享的稀疏图文潜在空间，使概念在单模态内稀疏、对应连续图像区域、与描述短语对齐且近似去相关，再用 EK-FAC 将训练样本影响分解到这些概念上，从而定位到具体文本短语和图像区域。在 Qwen、Gemma 上的图像描述、胸片理解和 VQA 任务中，其学到的特征更局部化且不损害任务表现，按影响排序的潜在变量消融对输出的改变更大，为可解释性和数据归因提供了新工具。",
+  "tags": [
+    "vision-language-models",
+    "influence-attribution",
+    "sparse-autoencoders",
+    "interpretability",
+    "multimodal"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Laura Yao, Shixing Yu, Jie Peng, Promit Ghosal, Kyra Gan, Tianlong Chen",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

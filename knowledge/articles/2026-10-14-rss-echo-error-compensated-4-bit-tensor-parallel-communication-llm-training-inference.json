@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14277v1",
+  "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14277",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "Echo 针对张量并行中每层末尾 all-reduce 通信无法被计算掩盖、且随互联带宽瓶颈日益突出的问题，提出一种 4-bit 通信、高精度求和的误差补偿式 all-reduce。其核心创新在于把每次量化注入的误差显式反馈到后续调用中，使旧误差相互抵消而非逐层累积，并证明累积误差与模型深度无关。在 A100 上，1GB 消息比 16-bit NCCL 快 2.09 倍，Qwen3-8B 七项基准平均精度仅差 0.4 分，10B token 预训练最终 loss 高出不到 0.9%，且无需 FP8/FP4 硬件。",
+  "tags": [
+    "tensor-parallelism",
+    "quantized-communication",
+    "all-reduce",
+    "llm-training",
+    "error-compensation"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xingyu Xie, Xiaoyong Xie, Zhouchen Lin, Kim-Chuan Toh",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

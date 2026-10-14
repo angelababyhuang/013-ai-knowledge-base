@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14115v1",
+  "title": "The Silent Failures in Agentic Data Science",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14115",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "这篇论文指出当前对数据科学智能体（agentic DS）的评测只关注预测性能和代码正确性，忽视了数据科学方法论与领域知识，从而掩盖了数据泄漏、验证不当等\"沉默失败\"。作者在 220 个数据科学任务上大规模分析常见智能体框架的失败模式，构建了可复用的测试套件覆盖六类特定失败，并对 Kaggle 竞赛中的智能体流程与专家方案做定性对比。关键发现是多数智能体方案至少存在一种失败模式，且数据泄漏与预测性能呈正相关，说明仅看准确率会误导评测，对构建可信智能体流水线有重要警示意义。",
+  "tags": [
+    "agentic-data-science",
+    "evaluation-benchmark",
+    "data-leakage",
+    "llm-agents",
+    "trustworthy-ai"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xue Li, Hongqian Xia, Daniel Gomm, A\\'ecio Santos, Cornelius Wolff, Madelon Hulsebos",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

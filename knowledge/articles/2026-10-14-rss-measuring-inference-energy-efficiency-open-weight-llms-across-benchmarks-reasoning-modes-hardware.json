@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14389v1",
+  "title": "Measuring the Inference Energy Efficiency of Open-Weight LLMs across Benchmarks, Reasoning Modes, and Hardware",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14389",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "该论文对 86 个开放权重模型检查点在 7 个基准、6 种硬件（从消费级 GPU 到八卡服务器）上直接测量推理能耗，揭示能力相近的模型间能效差异巨大，多数配置偏离分数-能耗帕累托前沿，中位数多耗 2.6-4.8 倍能量，极端达 27 倍。研究还量化了推理模式（开启思考平均增耗约 3.7 倍）、FP8 量化（省约四分之一能耗且分数基本不变）以及生成 token 数作为能耗代理的不可靠性（18-24% 模型对排序错误）。其价值在于呼吁基准分数应与实测能耗、服务配置和输出预算一同报告，为 LLM 部署的能效评估提供实证依据。",
+  "tags": [
+    "llm-inference",
+    "energy-efficiency",
+    "benchmarking",
+    "quantization",
+    "reasoning-models"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zeyu Yang, Wes Armour",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}

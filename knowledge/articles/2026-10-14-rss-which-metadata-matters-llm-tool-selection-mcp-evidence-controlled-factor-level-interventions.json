@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.14334v1",
+  "title": "Which Metadata Matters for LLM Tool Selection in MCP? Evidence from Controlled Factor-Level Interventions",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.14334",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-14T08:06:43Z",
+  "analyzed_at": "2026-10-14T08:06:43Z",
+  "organized_at": "2026-10-14T08:09:24Z",
+  "summary": "该论文针对 MCP（Model Context Protocol）生态中 LLM 工具选择问题展开实证研究，分析了 367,174 个 MCP 工具的元数据，发现功能相似的工具在参数 schema 上存在巨大差异。作者通过控制变量实验（每次只改服务器名、工具名、描述或参数 schema 之一），在 5 个 LLM 和 5 类任务上做条件逻辑回归，发现参数 schema 对工具选择的影响最大且最稳定，模型偏好独立的顶层参数而非分组/复合形式，描述中解释参数也能提升被选概率。这项研究揭示了 schema 设计不仅影响工具调用方式，还直接决定工具是否被选中，对 MCP 开发者和评测者具有直接的工程指导意义。",
+  "tags": [
+    "mcp",
+    "tool-selection",
+    "llm-agents",
+    "metadata-design",
+    "schema"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xiaofan Li, Fengchun Qiao, Xing Gao",
+    "published": "Wed, 14 Oct 2026 00:00:00 -0400"
+  }
+}
