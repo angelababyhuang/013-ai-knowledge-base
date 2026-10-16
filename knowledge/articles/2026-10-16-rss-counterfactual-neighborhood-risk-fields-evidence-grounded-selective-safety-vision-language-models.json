@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20679v1",
+  "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20679",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "该论文提出反事实邻域风险场（CNRF），一种面向视觉语言模型（VLM）的选择性安全防御框架。传统基于表示的安全方法只学习区分有害与良性输入，却无法解释风险分数的含义与可信度。CNRF 通过构建上下文匹配的良性-有害反事实对，将表示差异作为与能力相关的风险方向，并将邻域支持度与风险分开估计，从而避免把陌生输入误判为有害，实现选择性干预而非一刀切拒绝。在三种 VLM 和五类多模态越狱攻击上，宏观防御成功率达 86.06%-89.30%，同时保留良性任务效用。",
+  "tags": [
+    "vision-language-models",
+    "ai-safety",
+    "jailbreak-defense",
+    "counterfactual-reasoning",
+    "representation-learning"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tianshi Wang, Jingsong Wang, Fengling Li, Jingjing Li, Xin Li, Lei Zhu",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}

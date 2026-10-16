@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20822v1",
+  "title": "Temporal Specification Guidance for Text-to-Video Generation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20822",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "该论文提出将文本到视频生成中的时序需求（顺序、时机、持续性）形式化为时序逻辑规范，并给出免训练推理框架 TSG。TSG 利用可微的定量语义对视觉概念证据轨迹打分，用其梯度构造规范引导的去噪方向，实例化时借助视频-文本注意力轨迹与 Metric Temporal Logic 的可微分数生成注意力偏置，无需外部概念分类器或对视频 Transformer 反向传播，可与 CFG 叠加。在 220 条覆盖 11 类时序约束的提示上，五个模型规范满足准确率提升 9.5-20 个百分点，内存开销极小，为可控视频生成提供了灵活接口。",
+  "tags": [
+    "text-to-video",
+    "temporal-logic",
+    "controllable-generation",
+    "training-free",
+    "diffusion-guidance"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Avishree Khare, Hideki Okamoto, Bardh Hoxha, Georgios Fainekos, Rajeev Alur",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}

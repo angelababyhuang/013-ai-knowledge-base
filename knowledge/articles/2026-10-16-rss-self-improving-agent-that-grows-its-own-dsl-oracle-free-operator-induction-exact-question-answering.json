@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20809v1",
+  "title": "A Self-Improving Agent that Grows its Own DSL: Oracle-Free Operator Induction for Exact Question Answering",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20809",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "该论文提出一种无需奖励模型、评判器或标准答案的自改进 Agent 机制：单个冻结模型在小型精确 DSL 上运行内外双层循环，内层仅在两个独立编写的表达式对每条记录结果一致时才作答，外层在检测到能力缺口时自创算子，且仅当独立第二实现一致并满足守恒律时才接纳。实验显示内层将可答问题集扩大约三倍，外层可跨不相交起始集自扩展，在业务账本与临床问诊两个无关 schema 上分别将可答集扩大十倍与近二十倍，且接纳规则拒绝了全部 138 个有缺陷算子变体，远优于自洽性与压缩等常用信号。",
+  "tags": [
+    "self-improving-agents",
+    "dsl-induction",
+    "exact-question-answering",
+    "oracle-free-learning",
+    "program-synthesis"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yun-Shiuan Chuang, Yirou Ge, Yixi Li, Yiming Bian, Zijie Pan, Jenna L. Ballard, Uma Kona, Linsey Pang, Prakhar Mehrotra",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}

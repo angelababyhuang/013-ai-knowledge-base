@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20669v1",
+  "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20669",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "VISTA 是一种免训练方法，用于在离散扩散模型的奖励引导生成中自动选择稀疏引导时间步。它把稀疏引导建模为对理想全引导概率路径的近似，推导出可估计的 l1 路径偏差上界，并利用少量全引导预热生成得到的价值统计，通过动态规划精确优化经验代理目标。在文本、生物序列和图像任务上，VISTA 能发现任务相关的时间表，多数设置下优于手工稀疏时间表，并在毒性文本生成中实现 5.35 倍加速（204.23s 降至 38.16s），同时保持接近全引导的效果。",
+  "tags": [
+    "discrete-diffusion",
+    "sequential-monte-carlo",
+    "test-time-alignment",
+    "reward-guidance",
+    "dynamic-programming"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jaehyeon Kim, Ziseok Lee, Siyoung Choi, Kyungsu Kim",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}

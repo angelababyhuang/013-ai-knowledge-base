@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20780v1",
+  "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20780",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "ARIA 针对 LLM 多智能体系统（MAS）中局部错误会沿执行链传播、导致任务失败的问题，提出一种可在执行过程中进行运行时检查与修复的框架。其核心思路是把经过执行验证的修复动作转化为可复用的监督数据，从而将修复搜索前移到数据构建与训练阶段，让一个小模型在运行时直接判断何时干预、如何纠正，而无需反复试错重跑。作者收集了跨 4 个 MAS 框架、6 个基准、8 个宿主模型的 24000+ 条轨迹，构建了首个大规模失败轨迹-验证修复配对数据集（3953 对），并展示了在未见框架与模型上的泛化能力，对多智能体可靠性与自愈研究有较高参考价值。",
+  "tags": [
+    "multi-agent-systems",
+    "runtime-repair",
+    "llm-agents",
+    "failure-recovery",
+    "dataset"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bolin Shen, Yushun Dong",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}

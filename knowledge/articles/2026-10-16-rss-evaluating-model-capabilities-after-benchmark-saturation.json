@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20667v1",
+  "title": "Evaluating Model Capabilities After Benchmark Saturation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20667",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "该论文针对 AI 基准测试饱和后失去区分度的问题，提出利用模型解题的完整 transcript（而非仅分数）来继续评估模型能力。作者通过历史基准与模型版本回溯模拟饱和场景，比较了成对评判、单 transcript 绝对评分以及基于确定性特征或嵌入的预测三类方法。结果显示饱和 transcript 仍保留超出准确率的能力信息，成对评判预测误差比仅用饱和分数降低 5.3 倍，但跨分布偏移时泛化性有限，例如会低估 2025 年初首批推理模型的能力。",
+  "tags": [
+    "benchmark-saturation",
+    "model-evaluation",
+    "transcript-analysis",
+    "llm-capabilities",
+    "ai-safety"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Morio Hamada, Jehyeok Yeon, Matteo Migliarini, Justin Olive, Magda Dubois",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}

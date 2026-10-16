@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20675v1",
+  "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20675",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "AlphaDiana 是一个面向可验证推理任务的 Agent 评测系统，通过模块化接口统一数据集、Agent、环境与评分器，并保留 harness 原生控制循环，同时将文件复用与记忆保留作为独立变量加以控制。它支持对完整 Agent 的宏观分析与对工具、技能、记忆等组件的微观干预实验。研究发现 harness 并不总能提升推理准确率——在模型原本答对的问题上的损失可能抵消其带来的增益，技能指导与历史记忆也未必稳定提升准确率；此外低 token 熵可能伴随错误答案，单次输出更少反而可能意味着每个正确答案消耗更多 token。该工作为 Agent 评测提供了可复现、可归因的测量框架，对做 Agent 系统与评测的研究者与工程师有直接参考价值。",
+  "tags": [
+    "agent-evaluation",
+    "reasoning-benchmarks",
+    "llm-agents",
+    "harness",
+    "measurement-system"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhanke Zhou, Zongze Li, Weikai Huang, Xuan Li, Chentao Cao, Xiao Feng, Xiangyu Lu, Jinbo Hu, Yi Xie, Nico Pelleriti, Shiyang Liu, Menghan Lu, Max Zimmer, Brando Miranda, Jiangchao Yao, Bo Liu, Sanmi Koyejo, Sebastian Pokutta, Bo Han",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}

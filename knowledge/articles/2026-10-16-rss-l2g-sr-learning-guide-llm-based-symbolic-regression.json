@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20685v1",
+  "title": "L2G-SR: Learning to Guide LLM-based Symbolic Regression",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20685",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "L2G-SR 提出一种用学习到的结构验证器来引导 LLM 符号回归搜索的框架。传统方法仅靠数值误差指导搜索，容易偏向数值拟合好但结构错误的代理公式。该工作利用树编辑距离（TED）构建结构监督信号，并处理交换律与等价表达式形式，训练验证器评估候选公式与目标公式的结构相似度，在搜索时与数值误差互补用于父代选择，再由分析器与生成器迭代修正表达式。在 LLM-SRBench 上取得数值拟合、方程级准确率与 TED 的 SOTA。",
+  "tags": [
+    "symbolic-regression",
+    "llm-reasoning",
+    "tree-edit-distance",
+    "search-guidance",
+    "verifier"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Letian Huang, Xiangyu Wang, Haowei Lin, Di He",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}

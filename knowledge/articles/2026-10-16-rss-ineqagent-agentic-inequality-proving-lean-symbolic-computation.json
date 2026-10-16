@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20681v1",
+  "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20681",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "IneqAgent 是一个面向 Lean4 的不等式形式化证明智能体框架，将 LLM 推理与符号计算后端（平方和、Bernstein、逐次差分代换）结合，通过引理级蒙特卡洛树搜索协调引理构造、目标改写与后端选择，生成可被 Lean 校验的完整证明。它在四个基准上以 DeepSeek-V4-Flash 解决 186 题中的 175 题（94.09%），并在低推理成本下优于直接 Agent 基线，还给出了 Dittert 猜想四、五维的 Lean 验证强化结果。该工作展示了神经-符号混合方法在形式化数学中的实用潜力，对自动定理证明与数学 Agent 研究有参考价值。",
+  "tags": [
+    "lean4",
+    "theorem-proving",
+    "symbolic-computation",
+    "llm-agent",
+    "monte-carlo-tree-search"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Gaolei He, Jinhui Li, Ruobing Zuo, Xia Zeng, Zhengfeng Yang",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}

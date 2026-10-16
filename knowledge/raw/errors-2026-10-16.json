@@ -1,0 +1,20 @@
+[
+  {
+    "source": "rss",
+    "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"该文披露 ChatGPT 通过广告采集器（ad collector）获取用户在其他网站上的浏览行为数据，从而让模型\"知道\"用户站外活动。核心问题在于大模型产品与广告追踪技术的结合，模糊了对话助手与广告画像之间的边界，引发隐私与数据合规担忧。对关注 LLM 产品隐私设计、数据来源透明度及监管趋势的从业者值得一读。\", \"tags\": [\"privacy\", \"chatgpt'",
+    "timestamp": "2026-10-16T08:07:41Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://arxiv.org/abs/2610.20805",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"该论文研究推理轨迹（reasoning trace）在答案生成时的双重角色：既能提升准确率，又会在与当前证据冲突时干扰模型对证据的遵循。作者通过交叉验证证据版本与对应轨迹，在三种模型家族（gpt-oss、Gemma4、Qwen3）和两个多跳问答数据集上对比\"延续自身思考\"与\"独立答案调用\"两种配置，发现独立调用使证据遵循率提升29.9至60.6个百分点。研究揭示\"从轨迹中'",
+    "timestamp": "2026-10-16T08:08:20Z"
+  },
+  {
+    "source": "rss",
+    "url": "https://arxiv.org/abs/2610.20836",
+    "error": "LLM 返回 JSON 解析失败: '{\"summary\": \"该论文将评估器引导的推理（evaluator-guided reasoning）重新定义为不确定性下的资源分配问题：每一步在\"信任当前答案、回退、继续扩展推理\"三个动作间做选择，并用预测答案成功率、基于 rollout 的续推成功率代理以及显式计算的算力成本来打分。作者通过局部动作间隙分析刻画分数误差何时会改变决策，并给出期望遗憾界，进而学习并校准动作级置信度、对模糊决策'",
+    "timestamp": "2026-10-16T08:08:27Z"
+  }
+]

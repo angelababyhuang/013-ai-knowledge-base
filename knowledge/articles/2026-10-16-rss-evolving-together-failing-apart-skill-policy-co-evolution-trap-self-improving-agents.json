@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20845v1",
+  "title": "Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20845",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "该论文指出自改进 Agent 中「技能-策略协同进化」范式存在被忽视的脆弱性：现有评估只在训练所用的最终技能库（delivered bank）上打分，而部署后技能库的增删改频率远高于策略模型重训，导致策略运行在漂移的技能库上。作者从理论与实证两方面证明，这类方法共用的「协作式接受规则」把策略能力绑定在协同进化的技能库上，技能漂移后必然脆弱，且随训练推进敏感性上升。为此提出面向部署的评估协议 CODA，模拟技能漂移并引入一致性率与抗损坏率两个新指标；在四种方法与五个基准上，最坏情况成功率比峰值低 5-13 分，抹去 52-93% 的增益。",
+  "tags": [
+    "self-improving-agents",
+    "skill-policy-coevolution",
+    "agent-evaluation",
+    "distribution-shift",
+    "llm-agents"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yujie Feng, Xiaobin Wang, Jinluan Yang, Xiaonan Shi, Pengjun Xie, Philip S. Yu, Xiaoming Wu, Jieping Ye",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}

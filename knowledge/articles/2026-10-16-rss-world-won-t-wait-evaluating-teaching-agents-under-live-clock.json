@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20665v1",
+  "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20665",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "该论文提出 RealtimeBench 基准，包含六类游戏共 180 个任务，在推理持续进行、游戏不暂停的条件下评估 LLM Agent，揭示了「慢而强」模型在实时环境中反而落后于「快而弱」模型的现象。作者进一步提出 TORSI 双时间尺度离线递归自我改进框架：慢速教师模型在暂停环境中分析失败并验证修正，再为快速学生模型编写可复用指令，学生无需调用教师即可实时行动。两轮迭代将 Jev 平均分从 13.51 提升至 24.19，并零调优迁移到其他三个模型，为实时智能体的「思考-学习-行动」跨时间尺度组织提供了新范式。",
+  "tags": [
+    "llm-agents",
+    "real-time-inference",
+    "agent-benchmark",
+    "self-improvement",
+    "latency-aware"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ningxin Pan, Hanyu Li, Yeqing Shen, Ning Ding, Yehui Tang, Wentao Zhang",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}

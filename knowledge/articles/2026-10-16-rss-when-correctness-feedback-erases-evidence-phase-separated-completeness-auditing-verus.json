@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20676v1",
+  "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20676",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-16T08:06:25Z",
+  "analyzed_at": "2026-10-16T08:06:25Z",
+  "organized_at": "2026-10-16T08:09:17Z",
+  "summary": "本文研究形式化验证中一个反直觉现象：正确性反馈会抑制规格完整性审计所需的证据。作者在 12 个 Verus/Rust 任务、四个模型家族上对比发现，无反馈的独立发现产生的认证见证率（59.0%）远高于带纠正反馈的 IntentShield 循环（27.1%），且差距主要来自反馈内容而非独立重启。作者提出阶段分离执行策略，先保留并认证被承认的失败再修复规格，使实现成功率从 62.5% 提升到 81.3%。该效应在 Dafny 和 Lean 上未复现，界定了其适用边界。",
+  "tags": [
+    "formal-verification",
+    "llm-code-generation",
+    "specification-completeness",
+    "verus-rust",
+    "feedback-loops"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Adarsh Agrawal (Independent Researcher)",
+    "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+  }
+}
