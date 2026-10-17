@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20805v1",
+  "title": "When Reasoning Traces Conflict with Evidence: How Answer Configuration Shapes Evidence Following",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20805",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-17T08:05:29Z",
+  "analyzed_at": "2026-10-17T08:05:30Z",
+  "organized_at": "2026-10-17T08:08:04Z",
+  "summary": "该论文研究推理轨迹（reasoning trace）在回答阶段的双重角色：既能提升准确率，也会在轨迹结论与当前证据冲突时干扰模型对证据的采纳。作者通过交叉实验，将已验证证据版本与各自生成的轨迹配对，在“延续模型自身思考”与“独立回答调用”两种配置下对比 gpt-oss、Gemma4、Qwen3 在 HotpotQA 和 MuSiQue 上的表现，发现独立调用使证据遵循率提升 29.9 至 60.6 个百分点，而延续配置在冲突时多重复过时结论。结论是“受益于轨迹”与“服从轨迹”是两种可分离属性，评测应同时报告二者及回答配置。",
+  "tags": [
+    "reasoning-traces",
+    "evidence-following",
+    "faithfulness",
+    "evaluation-methodology",
+    "llm-reasoning"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shaoang Li, Yanhang Shi, Jian Li",
+    "published": "Sat, 17 Oct 2026 00:00:00 -0400"
+  }
+}

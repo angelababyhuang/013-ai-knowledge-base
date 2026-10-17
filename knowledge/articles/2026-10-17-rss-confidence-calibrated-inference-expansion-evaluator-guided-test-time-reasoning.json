@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.20836v1",
+  "title": "Confidence-Calibrated Inference Expansion for Evaluator-Guided Test-Time Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.20836",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-17T08:05:29Z",
+  "analyzed_at": "2026-10-17T08:05:30Z",
+  "organized_at": "2026-10-17T08:08:04Z",
+  "summary": "该论文把评估器引导的推理重新表述为每一步的三动作决策问题：信任当前答案、回退到备选、或继续花算力扩展推理，并用预测成功率和基于 rollout 的延续成功代理来打分，同时显式计入算力成本。作者通过局部动作间隔分析和期望遗憾界，刻画了评分误差何时会改变决策，进而学习并校准动作级置信度，对模糊决策施加局部不确定性惩罚。在宽度扩展和修订任务上，该控制器相比校准选出的固定策略提升了效用，并将在线归一化算力分别降低约30%和16%。其价值在于把测试时推理扩展从“更强推理器”的视角转为不确定性下的资源分配问题，为自适应算力调度提供了可分析、可校准的框架。",
+  "tags": [
+    "test-time-compute",
+    "evaluator-guided-reasoning",
+    "confidence-calibration",
+    "compute-allocation",
+    "llm-reasoning"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Weida Liang, Kenji Kawaguchi",
+    "published": "Sat, 17 Oct 2026 00:00:00 -0400"
+  }
+}
