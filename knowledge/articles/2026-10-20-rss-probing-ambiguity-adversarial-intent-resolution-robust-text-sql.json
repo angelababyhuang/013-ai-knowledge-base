@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.24248v1",
+  "title": "Probing Ambiguity: Adversarial Intent Resolution for Robust Text-to-SQL",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.24248",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-20T08:06:36Z",
+  "analyzed_at": "2026-10-20T08:06:36Z",
+  "organized_at": "2026-10-20T08:09:13Z",
+  "summary": "该论文针对 Text-to-SQL 中自然语言查询天然存在歧义、可对应多个合法 SQL 的问题，提出 Adversarial Intent Resolution（AIR）多智能体框架：先构造相互竞争的多种语义解释，通过实际执行 SQL 验证结果是否真正不同，再基于数据差异生成有针对性的澄清问题，无需任务特定训练。在 AMBROSIA 仅给 schema 的生产级设定下，AIR 的 F1 达 0.679，优于 SOTA 强化学习模型 IntentRL 的 0.618，且缺少完整数据库时性能仅下降约 7%（IntentRL 约 20%）；在 AmbiQT 上同样无需适配即取得更高 F1。其价值在于把歧义从被动假设转为主动探测与消解，为实际部署中无法暴露全库的 Text-to-SQL 场景提供了更鲁棒的方案。",
+  "tags": [
+    "text-to-sql",
+    "ambiguity-resolution",
+    "multi-agent",
+    "clarification-question",
+    "nl2sql"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Youbing Yin, Xujun Peng, Muhammad S. Uddin, Erin Babinsky, Daben Liu, Anoop Kumar",
+    "published": "Tue, 20 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.24194v1",
+  "title": "Agents' Last Doubt: Knowing When to Act and When to Step Back in Tool-Using Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.24194",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-20T08:06:36Z",
+  "analyzed_at": "2026-10-20T08:06:36Z",
+  "organized_at": "2026-10-20T08:09:13Z",
+  "summary": "该论文研究工具调用型 LLM Agent 在不确定情境下的关键决策：自主行动、继续收集信息还是升级给人类，需在任务成功率、交互成本与不可逆错误风险之间权衡。现有轨迹只记录已执行动作的结果，无法学习反事实后果，作者因此在 ToolSandbox 中构建了含 1036 个决策点、3115 条动作结果的反事实数据集，并训练推理时控制器 SURE-Act 为冻结主干模型选择动作。实验显示排序式学习优于回归基线，Qwen3-4B 端到端 Overall Score 提升最高 0.0575，并显著超过 SAGE-Agent 与 Calibrate-Then-Act 的规则变体。",
+  "tags": [
+    "tool-use-agents",
+    "decision-making-under-uncertainty",
+    "counterfactual-dataset",
+    "human-escalation",
+    "agent-controller"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Qisai Liu, Qingyue Jiao, Bangwei Guo, Wenxi Dai, Changyi Yang, Jiahe Liu, Dimitris N. Metaxas, Yiyu Shi, Zhanhong Jiang, Minghao Guo",
+    "published": "Tue, 20 Oct 2026 00:00:00 -0400"
+  }
+}

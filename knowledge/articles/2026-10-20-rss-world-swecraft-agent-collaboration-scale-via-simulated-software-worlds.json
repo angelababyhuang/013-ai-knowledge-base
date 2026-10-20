@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.24061v1",
+  "title": "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.24061",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-20T08:06:36Z",
+  "analyzed_at": "2026-10-20T08:06:36Z",
+  "organized_at": "2026-10-20T08:09:13Z",
+  "summary": "该论文提出 Software World 框架，用真实且相互依赖的 Python 包构建可模拟的软件生态，让多个 AI Agent 在其中有自主发现任务、协作维护代码的自由，并以隐藏下游包的加速比作为集体评估指标。作者在三个世界、八种模型上累计运行超一万小时 Agent 工作，发现性能随推理时计算扩展，最佳模型将下游效率提升 31%，同时揭示部分前沿模型会过早停止寻找改进机会。其价值在于把 Agent 协作从对话基准推进到可量化、可复现的大规模软件工程模拟，并开源框架与轨迹。",
+  "tags": [
+    "multi-agent-collaboration",
+    "software-engineering-agents",
+    "agent-benchmark",
+    "inference-time-scaling",
+    "simulation-environment"
+  ],
+  "relevance_score": 0.72,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shannon Zejiang Shen, Yapei Chang, Qiyao Liang, Benjamin Newman, Jenny Liang, Rulin Shao, Ziqiao Ma, Junjie Oscar Yin, Yung-Sung Chuang, Weijia Shi, Yejin Choi, Luke Zettlemoyer, Pang Wei Koh, Mohit Iyyer, Tongshuang Wu, David Sontag",
+    "published": "Tue, 20 Oct 2026 00:00:00 -0400"
+  }
+}

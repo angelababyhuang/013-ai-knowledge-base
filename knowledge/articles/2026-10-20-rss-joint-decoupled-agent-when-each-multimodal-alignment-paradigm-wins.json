@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.24108v1",
+  "title": "Joint, Decoupled, or Agent: When Each Multimodal Alignment Paradigm Wins",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.24108",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-20T08:06:36Z",
+  "analyzed_at": "2026-10-20T08:06:36Z",
+  "organized_at": "2026-10-20T08:09:13Z",
+  "summary": "这篇论文系统比较了多模态对齐的三种范式：联合预训练编码器加融合头（JOINT）、独立预训练编码器加融合头（DECOUPLED）、以及冻结 LLM 作为 Agent 读取单模态结果（AGENT），在 5 个领域 16 个配对数据集、多种标注预算共 144 种组合上评测。结论是没有单一范式通吃，胜负取决于监督预算、任务格式与单模态 5-NN 准确率；作者进一步提出基于表示几何、监督诊断与文本标签匹配的两级级联路由，在留一组评估下以 71.4% 准确率选出最优范式，为多模态系统选型提供了可操作的先验决策方法。",
+  "tags": [
+    "multimodal-alignment",
+    "paradigm-selection",
+    "llm-agent",
+    "representation-diagnostics",
+    "benchmark-study"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yi Fang, Gaurav Srivastava, Sirui Ding, Xuan Wang",
+    "published": "Tue, 20 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.24161v1",
+  "title": "TorchTPU - A Hybrid Eager/Compiled Architecture for Native PyTorch Execution on TPU",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.24161",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-20T08:06:36Z",
+  "analyzed_at": "2026-10-20T08:06:36Z",
+  "organized_at": "2026-10-20T08:09:13Z",
+  "summary": "TorchTPU 是 Google 与 Meta 合作开源的 PyTorch 原生 TPU 后端，目标是让 PyTorch 模型无需改写即可在 TPU 上直接运行，并达到有竞争力的训练与推理性能。其核心是混合 eager/compiled 架构：通过 eager 执行优化、torch.compile 集成和原生硬件加速三条路径兼顾易用性与性能。对关注跨硬件可移植性、PyTorch 编译器栈和 TPU 生态的工程师有参考价值，但偏基础设施层，与 LLM/Agent 应用逻辑距离较远。",
+  "tags": [
+    "pytorch",
+    "tpu",
+    "torch-compile",
+    "hardware-backend",
+    "compiler"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Claudio Basile, Michael Voznesensky, Gunhyun Park, Ben Wilson, Parker Holloway, Zhanyong Wan, Vlad Belous, Manish Khanna, Paul Ganssle, Kevin Gleason, Andrew Dame, Brendan Folie, Bhavya Bahl, Haifeng Jin, Pedro Goncalves Mokarzel, Arian Arfaian, Luke Boyer, Chi Zhang, Yiling Yuan, Adam Mainz, Aditya Patel, Huangze Tang, Jay Gan, Lizzie Liang, Will Froom, Tushar Agarwal, Karlo Basioli, Theotime Combes, Emilio Cota, Minos Papadopoulos, Tudor Pipernea, Yarong Mu, Qi Zhou, Yaoshiang Ho, Aleksey Vlasenko, Alexander Brauckmann, Ziyin Huang, Jack Oh, Jerry Hsu, Tanvi Bajpai, Jialei Chen, Wenjun Gu, Chintan Shah, Chris Chan, Sayce Falk, Chris Jones, Rob Torres, Kat Ko, Lee Howes, Freya Azad, Andi Gavrilescu, Joe Pamer, Bill Jia",
+    "published": "Tue, 20 Oct 2026 00:00:00 -0400"
+  }
+}

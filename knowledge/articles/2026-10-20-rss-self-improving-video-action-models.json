@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.24177v1",
+  "title": "Self-Improving Video-to-Action Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.24177",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-20T08:06:36Z",
+  "analyzed_at": "2026-10-20T08:06:36Z",
+  "organized_at": "2026-10-20T08:09:13Z",
+  "summary": "该论文提出 Mirror，一种自监督的视频到动作（逆动力学）学习方法：智能体先按视觉规划视频尝试执行自己猜测的动作，再把产生的视频-动作对用于训练，从而在无专家动作标签、无手工奖励的情况下迭代自我提升。它在 Atari、OGBench、DeepMind Control 上超过现有从观察学习的方法，并在 Minecraft 中首次仅靠自我改进获得铁镐。其价值在于打通了视频生成模型与具身执行之间的数据瓶颈，让视频模型的进步可直接转化为更强的智能体。",
+  "tags": [
+    "video-to-action",
+    "self-supervised-learning",
+    "embodied-agents",
+    "inverse-dynamics",
+    "video-generation"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hyunwoo Ryu, Eric Ming Chen, Max Wilcoxson, Vincent Sitzmann",
+    "published": "Tue, 20 Oct 2026 00:00:00 -0400"
+  }
+}

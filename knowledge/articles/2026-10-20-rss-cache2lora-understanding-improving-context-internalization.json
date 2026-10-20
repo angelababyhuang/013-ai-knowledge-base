@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.24107v1",
+  "title": "Cache2LoRA: Understanding and Improving Context Internalization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.24107",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-20T08:06:36Z",
+  "analyzed_at": "2026-10-20T08:06:36Z",
+  "organized_at": "2026-10-20T08:09:13Z",
+  "summary": "该论文系统诊断了 context-to-LoRA 方法（将文档编码为低秩参数更新、使模型无需在上下文中保留原文即可作答）在事实判别、目标保持和响应适配三个环节的可靠性缺陷，并提出 Cache2LoRA：用查询从可复用的冻结文档缓存中聚合证据，再生成 LoRA 更新，且仅对查询与 memory-token 后缀做可训练编码，并用多风格监督同时学习证据保留与答案表达。在 17 个任务上 macro F1 达 0.663，接近全上下文 ICL 的 0.671，而 32K 文档、256 token 输出、batch 16 时解码吞吐为全上下文 ICL 的 5.9 倍。值得关注的是它把\"上下文内化\"从概念验证推进到可量化对比的工程方案，并给出与 learned-KV 记忆方案的直接比较。",
+  "tags": [
+    "context-to-lora",
+    "kv-cache",
+    "long-context",
+    "parameter-efficient-tuning",
+    "in-context-learning"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yi Fang, Gaurav Srivastava, Zhenyu Bi, Sirui Ding, Xuan Wang",
+    "published": "Tue, 20 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.24229v1",
+  "title": "Training-Free Prompt Selection for Efficient Reinforcement Learning With Partial Rollouts",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.24229",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-20T08:06:36Z",
+  "analyzed_at": "2026-10-20T08:06:36Z",
+  "organized_at": "2026-10-20T08:09:13Z",
+  "summary": "该论文针对 RLVR（可验证奖励强化学习）训练中数据选择成本高的问题，提出 LIFT——一种无需训练的数据选择器。现有方法依赖完整贪心 rollout 的隐状态来估计 prompt 价值，但作者发现 26–32% 的 rollout 在生成预算内无法终止，导致成本浪费。LIFT 提出 Partial Rollout Context Lift（PRCL）分数，基于逐点 V-信息思想，累加问题条件上下文与去除问题的空上下文之间的 token 级对数似然比，从而仅用短前缀即可打分。在 Qwen2.5-Math-1.5B 与 DeepSeek-R1-Distill-1.5B 上，保留 90%/95% 分数仅需 26%/4.7% token，选择成本降低 3.7–9.1 倍且下游性能有竞争力。",
+  "tags": [
+    "rlvr",
+    "data-selection",
+    "prompt-selection",
+    "reinforcement-learning",
+    "efficient-training"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Lei Jiang, Honghui Bao, Yue Zhou, Zhengyao Gu, Langzhou He, Natalie Parde",
+    "published": "Tue, 20 Oct 2026 00:00:00 -0400"
+  }
+}

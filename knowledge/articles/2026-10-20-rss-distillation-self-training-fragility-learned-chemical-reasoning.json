@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.24199v1",
+  "title": "Distillation, Self-Training, and the Fragility of Learned Chemical Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.24199",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-20T08:06:36Z",
+  "analyzed_at": "2026-10-20T08:06:36Z",
+  "organized_at": "2026-10-20T08:09:13Z",
+  "summary": "该论文研究小分子药物合成规划中的化学反应预测，提出 Resonance 模型：先蒸馏开放权重教师的推理轨迹，再用自身已验证输出做自训练，使近乎零准确率的小基座模型变成可用的反应预测器，强学生甚至仅靠蒸馏就超过教师。但作者强调准确率不等于稳健推理：小模型继承教师单遍风格，自训练只强化已有答案，遇到反驳易放弃正确答案，因此化学推理模型应同时评估推理稳健性。",
+  "tags": [
+    "knowledge-distillation",
+    "self-training",
+    "chemical-reasoning",
+    "reasoning-robustness",
+    "small-language-models"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Anagha Aneesh, Sebastian Ibarraran, Frank Hu, Jason Liu, Grant Rotskoff",
+    "published": "Tue, 20 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.24133v1",
+  "title": "A Conditional No-Hair Theorem for Transformers: How Language Models Forget Their Prompt",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.24133",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-20T08:06:36Z",
+  "analyzed_at": "2026-10-20T08:06:36Z",
+  "organized_at": "2026-10-20T08:09:13Z",
+  "summary": "该论文研究自回归 Transformer 在生成 t 个 token 后对 prompt 的保留程度，提出「条件无毛定理」：给定已生成文本，prompt 对下一 token 的影响随 t 增大而消失，隐藏状态距离按幂律 t^{-α} 衰减。作者证明有限深度 pre-LN softmax Transformer 的偏移上界为 O(P(log t)^{L-1}/t)，并发现训练后模型遗忘更快（α≈0.55-0.7），未训练模型更慢（α≈0.2-0.5）。该工作为理解 LLM 长上下文记忆机制提供了理论工具，对 prompt 工程与上下文窗口设计有启示。",
+  "tags": [
+    "transformer-theory",
+    "prompt-influence",
+    "attention-dilution",
+    "long-context",
+    "forgetting-mechanism"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shuyang Xiang",
+    "published": "Tue, 20 Oct 2026 00:00:00 -0400"
+  }
+}
