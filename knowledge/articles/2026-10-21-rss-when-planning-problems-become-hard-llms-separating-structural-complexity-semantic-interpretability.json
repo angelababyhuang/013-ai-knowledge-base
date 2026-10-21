@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.26964v1",
+  "title": "When Planning Problems Become Hard for LLMs: Separating Structural Complexity from Semantic Interpretability",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.26964",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "该论文研究 LLM 在经典规划任务上的失败原因，将结构复杂度与语义可解释性分离。作者在七个 STRIPS 域上发现，零训练的 delete-relaxation 启发式 h_add 预测结构难度的 Spearman 相关达 0.931，远超学习方法和 ARC 架构；而逐步重命名谓词（保持状态与最优计划不变）会使 LLM 规划成功率从 67.5% 降至 40.0%。结论是符号启发式已能很好估计结构难度，改进 LLM 与符号规划器的混合路由应聚焦建模 LLM 对谓词语义的敏感性，而非开发更强的结构预测器。",
+  "tags": [
+    "llm-planning",
+    "strips-planning",
+    "symbolic-reasoning",
+    "hybrid-planning",
+    "benchmark-analysis"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mayukh Debnath, Adeyinka Adedigba, Rammohan Mallipeddi",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

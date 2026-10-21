@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.27027v1",
+  "title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.27027",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "该论文质疑了多智能体协作提升临床任务表现即意味着更可信的常见假设，指出多数评测只看最终答案，而临床决策依赖推理过程。作者用事实性与忠实性分类法，在四种模型、三种临床任务、四种系统拓扑（单LLM基线加三种多智能体）下，对推理链内部幻觉打分。结论是协作能提升任务指标但不必然降低幻觉，效果主要由模型本身而非拓扑或智能体数量决定；协作只是重新分配模型已有能力，不能补足其缺失能力。对多智能体系统设计与评测方法论有直接警示价值。",
+  "tags": [
+    "multi-agent",
+    "hallucination",
+    "clinical-nlp",
+    "llm-evaluation",
+    "reasoning-faithfulness"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Won Seok Jang, Harry Bhaskar Joshi, Hong Yu",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

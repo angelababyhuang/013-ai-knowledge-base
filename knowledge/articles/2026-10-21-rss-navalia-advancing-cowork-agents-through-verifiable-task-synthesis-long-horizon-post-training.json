@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.26887v1",
+  "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.26887",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "Navalia 是一个面向 Cowork Agent（协作型智能体）的训练框架，核心创新在于用可验证的任务合成替代昂贵的人工标注：以企业财报为数据源，从完整事实集中语义筛选证据并构建可执行计算链，生成带可追溯证据与步骤间真实数据依赖的多步分析任务，再用独立 LLM 审核与程序化校验保证答案正确性。验证后的任务用于轨迹采集、冷启动 SFT 与强化学习，基于 Qwen3.6-35B-A3B 在五个基准上均取得稳定提升，并泛化到通用办公场景。值得关注的是它把「数据合成—验证—长程后训练」串成闭环，为长程工具使用智能体提供了可复用的训练范式。",
+  "tags": [
+    "cowork-agents",
+    "task-synthesis",
+    "long-horizon-training",
+    "reinforcement-learning",
+    "financial-analysis"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hengqi Liu, Ziyuan Liu, Yang Qin, Wanting Zhou, Zichuan Wang, Jiachen Liang, Xu Chu, Shaowei Chen, Zhaokai Luo, Mu Chuan",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.27032v1",
+  "title": "M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.27032",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "M-Plan 提出一种闭环多智能体框架，将长期记忆与短期记忆结合，用于解决 LLM Agent 在长程多轮任务中难以持续决策的问题。它通过全局里程碑与局部提示构成短期记忆，并在任务完成后对信息进行优化重组再存入长期记忆，避免直接检索带来的历史噪声。在 ALFWorld、Webshop、PDDL 等基准上，该方法在准确率和效率上均优于基线，且采用即插即用设计，对 Agent 记忆架构研究有参考价值。",
+  "tags": [
+    "llm-agents",
+    "long-term-memory",
+    "multi-agent-systems",
+    "task-planning",
+    "long-horizon"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ziyang Liu, Jiakang Yuan, Jiayuan Fan, Tao Chen",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

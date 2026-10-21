@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.27115v1",
+  "title": "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.27115",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "PROVISO 针对 LLM Agent 通过工具和第三方技能执行动作时可能造成不可逆伤害的安全问题，提出一种在动作执行前介入的控制器。其核心创新是引入来源类型（provenance）记忆：区分用户可信输入与工具输出等外部观测，并将候选动作与备选动作一并编码，通过角色特定查询比较后选择校准价值最高的动作提交。相比只孤立判断单个动作的现有防御，它在安全与效用之间取得更好平衡，在 SkillsBench 和 ToolSafe 上 F1 分别提升 13.84 和 7.07 点。",
+  "tags": [
+    "llm-agent-security",
+    "provenance-tracking",
+    "action-selection",
+    "prompt-injection-defense",
+    "agent-safety"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bo Yan, Qi Zhang, Ziwen Kan, Fnu Suya, Song Wang",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

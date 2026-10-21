@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.26995v1",
+  "title": "SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.26995",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "SPEM 针对 LLM Agent 技能库规模扩大后，全量加载技能带来的 token 与运行时开销，以及扁平语义检索忽略技能依赖、执行顺序、状态转移和数据流约束的问题，提出结构化程序性记忆框架。它维护原子技能记忆与从成功执行中提炼的可复用 Skill-DAG 模板，新任务优先复用高置信模板，否则检索原子技能并用 Skill-GNN 做状态与结构感知的选择，成功轨迹再写回为新 DAG 实现记忆累积。在 ALFWorld 与 SkillsBench 上取得更优的效果-效率权衡，对做 Agent 技能复用与记忆系统的工作有直接参考价值。",
+  "tags": [
+    "procedural-memory",
+    "skill-selection",
+    "llm-agents",
+    "graph-neural-networks",
+    "skill-reuse"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ran Zhou, Zehui Kong, Fanyu Lin, Jiaheng Liu, Zhen Zhang, Yuxiang Ren",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

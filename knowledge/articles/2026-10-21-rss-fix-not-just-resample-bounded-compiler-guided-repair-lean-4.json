@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.26942v1",
+  "title": "Fix, Not Just Resample: Bounded Compiler-Guided Repair in Lean 4",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.26942",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "该论文提出一种有界在线修复模块，用于 Lean 4 自动定理证明：在每步采样 K 个策略候选，失败时最多修复 R 次，将编译器精确错误信息反馈给预训练修复模型，就地修正被拒策略而非丢弃重采样。在 LeanDojo 1990 定理子集上，所有候选预算下均优于纯采样基线，最高相对提升 32%、多解 82 个定理；收益主要来自浅层策略执行错误而非类型不匹配等结构性错误，首次修复即捕获 84–96% 增益，并在 Lean Workbook 上复现且零回退。其价值在于把编译器反馈这一被采样丢弃的信号转化为可预测的推理时算力投入，为 LLM 形式化证明提供了低成本、可复现的改进范式。",
+  "tags": [
+    "lean4",
+    "theorem-proving",
+    "compiler-feedback",
+    "llm-repair",
+    "search"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Haotian Deng, Chris Farber, Sonal Narasimha, Samskrithi Sivakumar, Yexiang Xue",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

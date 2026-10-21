@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.27119v1",
+  "title": "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.27119",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "PORA 针对 LLM Agent 多步任务中推理预算分配问题，提出在每一步动作前动态决定使用短推理还是长推理。其核心创新是在训练阶段从同一交互状态分别用短、长推理各跑一次任务，比较最终质量与总开销，从而学习长推理的下游价值；推理阶段则用控制器结合剩余预算压力做单次决策，无需并行跑两条路径。在 BFCL 记忆任务上比最强基线高 17.4–32.9 个百分点，且在代码与数学任务上以少 50% 以上 token 达到或超过始终长推理的效果，对做 Agent 成本优化的工程团队有直接参考价值。",
+  "tags": [
+    "reasoning-budget",
+    "llm-agents",
+    "adaptive-compute",
+    "reinforcement-learning",
+    "inference-efficiency"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bo Yan, Qi Zhang, Zhen Tan, Tianlong Chen, Song Wang",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

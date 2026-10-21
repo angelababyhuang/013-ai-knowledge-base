@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.27099v1",
+  "title": "A general-purpose System One decision model for clinical records",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.27099",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "该论文提出 Clinical System One（CS1-4B），一个 40 亿参数、面向电子病历的“快思考”决策模型，可在单次前向传播中对多类临床问题给出带概率的类型化判断，无需针对具体任务重新训练。它基于 360 万患者、1240 万问答对训练，在 96 万留出患者上于 14 项任务中的 13 项超越 270 亿参数开放模型，推理速度提升 6.4 倍。论文还设计两种与通用 LLM 协作的 agent 框架，用小型模型批量读取病历、用大模型提问与综合，在临床试验筛选等场景显著降低 token 消耗。其价值在于提出“小决策模型+大生成模型”的临床 AI 分工范式。",
+  "tags": [
+    "clinical-records",
+    "decision-model",
+    "agent-harness",
+    "ehr",
+    "small-language-model"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Andrew Zhang, Trinh T. L. Vuong, Sophia J. Wagner, Dongmin Bang, Tong Ding, Yuchang Su, Mary Cipperman, Christina S. Chen, Judith Lefkes, Ramin Kahidi, Ming Y. Lu, Caiwei Tian, Tianhao Luo, Jingnan Ma, Rowland Pettit, Long Phi Le, Faisal Mahmood",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

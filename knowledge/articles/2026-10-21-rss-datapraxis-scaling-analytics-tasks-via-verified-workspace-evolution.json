@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.26924v1",
+  "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.26924",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "DataPraxis 是一个面向专业数据分析任务的合成框架，核心思路是通过“已验证的工作区演化”逐步积累经过校验的发现与产物，再继承、组合这些工作区以挖掘更深层的分析问题，并在演化过程和任务组装后双重验证结果。基于该框架构建的 DataPraxis-5K 数据集包含 5000 条跨领域、多输出格式的验证轨迹，用于训练 DataPraxis-27B 与 DataPraxis-35B-A3B，其中 27B 模型在 DABStep 和 JobBench 上分别取得 55.11 与 51.9，追平或超过 GLM-5.2 等前沿模型。该工作值得关注之处在于它把“任务合成”与“可验证性”结合，为训练具备持续推理与证据链能力的分析型 Agent 提供了可复用的数据构造范式。",
+  "tags": [
+    "data-analysis-agents",
+    "task-synthesis",
+    "agent-training",
+    "verifiable-reasoning",
+    "benchmark"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Nan Jia, Wenxuan Shi, Jingqing Ruan, Zhizhao Zeng, Tianyi Zhai, Zhongda Su, Feng Hong, Zhengyu Chen, Wenhao Yan, Haojin Yang, Siqi Dai, Weipeng Zhang, Ke Zeng, Xunliang Cai",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

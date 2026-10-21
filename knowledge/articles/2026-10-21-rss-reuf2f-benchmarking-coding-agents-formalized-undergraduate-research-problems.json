@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.27046v1",
+  "title": "ReuF2F: Benchmarking Coding Agents on Formalized Undergraduate Research Problems",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.27046",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "ReuF2F 是面向编码智能体的 Lean 4 形式化基准，包含 244 道来自本科生科研训练（REU）的开放数学问题，覆盖多个数学分支的入门级未解问题。它针对现有形式数学基准依赖已知结果或少数著名开放问题、易因解法传播而失效的问题，改用关注度低、可能长期未解的题目做留出评测；同时把每个问题及其逻辑否定放入 Docker 中的 Lean 工程，并基于 mini-SWE-agent 构建 Leanimum-agent 统一评测框架。实验显示最强模型仅解出约 40%，说明形式化开放研究问题仍是明显短板，值得关注智能体评测与形式化推理方向的研究者阅读。",
+  "tags": [
+    "lean4",
+    "coding-agents",
+    "benchmark",
+    "formal-math",
+    "open-problems"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zeyu Zheng, Yiyang Liu, Yuyang Zhao, Congmin Zheng, Jiachen Zhu, Jianian Chen, Kangning Zhang, Kayue Daniel Wong, Lingyu Yang, Rong Shan, Shihao Chen, Thomas Zhu, Wentao Zhang, Xiaopeng Li, Yan Hu, Yongxi Lin, Yuxiang Chen, Zhuoying Ou, Jianghao Lin, Jeremy Avigad, Prasad Tetali, Jingbang Chen, Sean Welleck",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

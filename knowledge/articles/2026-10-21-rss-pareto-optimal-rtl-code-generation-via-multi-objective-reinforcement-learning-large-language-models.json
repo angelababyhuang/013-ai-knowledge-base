@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.26904v1",
+  "title": "Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.26904",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "该论文针对 LLM 生成 RTL 电路时现有 RLVR 方法把功耗、性能、面积（PPA）聚合成单一标量奖励、只能产出单一折中方案的问题，提出多目标强化学习框架：将整个 Pareto 解集的覆盖度提升重构为序列化电路生成任务，并用超体积贡献（HVC）作为奖励，鼓励模型在多次生成中产出多样且高质量的候选电路，供设计者事后按需挑选。在 RTLLM v2 上相对无 PPA 优化基线提升 13.3 个百分点超体积，较单目标 RL 提升 14.4 个百分点，并显著改善多样性。这是把多目标优化思想引入 LLM 硬件代码生成的一个有代表性的尝试。",
+  "tags": [
+    "rtl-code-generation",
+    "multi-objective-rl",
+    "pareto-optimality",
+    "llm-for-eda",
+    "reinforcement-learning"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Koki Takeshita, Kenji Uebayashi, Hikaru Tomonari, Masaya Tsunokake, Koichiro Yawata, Tatsuya Sasaki, Yusuke Ohtsubo, Kota Dohi, Yasuhiro Sogawa",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}

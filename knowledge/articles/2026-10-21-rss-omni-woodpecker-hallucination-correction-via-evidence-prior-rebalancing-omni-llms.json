@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.27103v1",
+  "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.27103",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-21T08:06:45Z",
+  "analyzed_at": "2026-10-21T08:06:46Z",
+  "organized_at": "2026-10-21T08:09:29Z",
+  "summary": "该论文针对全模态大模型（OLLM）在音视频联合推理中的跨模态幻觉问题，提出免训练框架 Omni-Woodpecker（OWP）。作者认为现有方法只在输出层做修正，忽略了融合表示中 grounding 证据与学习先验的纠缠，因此改为在解码前对隐状态做正交分解，分离证据与误导性先验，并按跨模态冲突自适应重加权。在 Qwen2.5-Omni-7B 上 CMM 提升 12.9 分、AVHBench 提升 8.6 分，且可迁移到 VideoLLaMA2-AV，属于表示层幻觉缓解的可复用思路。",
+  "tags": [
+    "multimodal-hallucination",
+    "omni-llm",
+    "representation-editing",
+    "training-free",
+    "audio-visual-reasoning"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zijian Liu, Chaoyou Fu, Yan Yang, Caifeng Shan, Ran He",
+    "published": "Wed, 21 Oct 2026 00:00:00 -0400"
+  }
+}
