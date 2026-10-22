@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.28934v1",
+  "title": "Back Up Before You Regret: Measuring Backup Awareness and Automating Backup in Coding Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.28934",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-22T08:07:00Z",
+  "analyzed_at": "2026-10-22T08:07:00Z",
+  "organized_at": "2026-10-22T08:09:52Z",
+  "summary": "论文指出现有编码智能体虽能自主完成任务，却普遍缺乏“备份意识”——在修改可能日后需要的状态前不会主动保存。作者构建了 RegretBench 基准（205 个来自真实用户后悔案例的可执行任务），发现六个前沿模型平均完成率 86.1%，但仅在 15.2% 的后悔时刻前做了备份。为此提出 BackUpper：一个拦截每次工具调用、在修改前自动保存受影响状态的插件层，结合规则与轻量子代理，恢复相似度达 92.2%，每任务仅 0.014 美元、token 消耗比主代理自备份少 7 倍。",
+  "tags": [
+    "coding-agents",
+    "agent-safety",
+    "benchmark",
+    "state-backup",
+    "tool-use"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xu Li, Simon Yu, Minzhou Pan, Yiyou Sun, Zhaorun Chen, Bo Li, Weiyan Shi",
+    "published": "Thu, 22 Oct 2026 00:00:00 -0400"
+  }
+}

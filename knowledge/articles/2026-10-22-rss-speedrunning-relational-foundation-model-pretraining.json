@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.28855v1",
+  "title": "Speedrunning Relational Foundation Model Pretraining",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.28855",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-22T08:07:00Z",
+  "analyzed_at": "2026-10-22T08:07:00Z",
+  "organized_at": "2026-10-22T08:09:52Z",
+  "summary": "该论文提出 modded-nanoRT，首个面向关系型 Transformer（Relational Transformer）的\"速通\"排行榜：固定问题、开放技术栈，以单卡达到质量目标所需的墙钟时间排名，从而把预训练配方搜索去中心化，让单个实验室之外的研究者也能参与并累积成果。作者通过校准六个候选留出数据库，选出能区分改进与随机种子噪声的基准，并以类型化三线性注意力（按外键条件化注意力分数与值）结合 Muon 与 SIGReg 作为首个纪录配方，在单张 H200 上 305.63 秒达标，比参考实现快 8.11 倍。值得关注的是它把\"可复现的竞速基准\"引入关系型基础模型预训练，为表格/多表数据上的架构与优化器创新提供低成本试验场。",
+  "tags": [
+    "relational-transformers",
+    "pretraining",
+    "benchmark-leaderboard",
+    "tabular-data",
+    "efficient-training"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Gabriel Wedson Mendon\\c{c}a de Souza Veloso, Luan Borges Teodoro Reis Sena, Denis Oliveira Correa, Francisco Galuppo Azevedo",
+    "published": "Thu, 22 Oct 2026 00:00:00 -0400"
+  }
+}

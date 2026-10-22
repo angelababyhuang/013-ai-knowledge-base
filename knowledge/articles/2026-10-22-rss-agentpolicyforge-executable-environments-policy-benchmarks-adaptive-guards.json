@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.28989v1",
+  "title": "AgentPolicyForge: From Executable Environments to Policy Benchmarks and Adaptive Guards",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.28989",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-22T08:07:00Z",
+  "analyzed_at": "2026-10-22T08:07:00Z",
+  "organized_at": "2026-10-22T08:09:52Z",
+  "summary": "AgentPolicyForge 针对自定义 Agent 部署中策略（工具、资源、执行条件约束）难以通过提示词可靠执行的问题，提出用可执行环境自动构造策略基准并迭代训练策略守卫（guard）。其核心贡献是 PolicyGym 数据集：覆盖 10 类策略族、698 个训练场景与 254 个人工复核的留出测试场景，且所有违规样本都使用被允许的工具，迫使检测器必须检查参数、资源与上下文而非仅凭工具名判断。实验显示，基于训练守卫的配置相比纯策略提示将攻击成功率相对降低 40-44%，同时减少对良性请求的误拒，为 Agent 安全护栏提供了可复现的评测与训练闭环。",
+  "tags": [
+    "agent-security",
+    "policy-enforcement",
+    "guardrails",
+    "benchmark-dataset",
+    "tool-use"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chao Shang, Wanyu Du, Yi Zhang, Sandesh Swamy",
+    "published": "Thu, 22 Oct 2026 00:00:00 -0400"
+  }
+}

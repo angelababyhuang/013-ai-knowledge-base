@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.28698v1",
+  "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.28698",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-22T08:07:00Z",
+  "analyzed_at": "2026-10-22T08:07:00Z",
+  "organized_at": "2026-10-22T08:09:52Z",
+  "summary": "该论文系统研究了持续预训练（CPT）能否把物理世界中的规模化收益迁移到视觉风格、动力学、操作与目标各异的虚拟世界。作者用 120 组训练配置（0.8B–27B 四个模型规模、50–1600 小时六档数据量、从纯 Minecraft 到多世界混合的五种数据配比）做受控实验，发现数据量提升域内表现、多样性主要促进相近世界迁移、单世界训练下大模型数据效率高但对远域泛化更差，并拟合出验证损失与数据量、多样性、模型规模的经验缩放律。工作还揭示早期\"接口阶段\"与后期\"世界阶段\"的阶段性差异，模型在 3D 实时环境中可与 Minecraft 专家模型及前沿模型竞争。对关注具身智能体规模化训练与泛化边界的工程师和研究者有直接参考价值。",
+  "tags": [
+    "embodied-agents",
+    "continued-pre-training",
+    "scaling-laws",
+    "virtual-worlds",
+    "generalization"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Kuan Zhang, Yukun Chen, Zhihao Yang, Yue Su, Xiangnan Wu, Zirong Chen, Run Luo, Jinkun Hou, Tao Tan, Yinhe Zheng, Yiming Li",
+    "published": "Thu, 22 Oct 2026 00:00:00 -0400"
+  }
+}

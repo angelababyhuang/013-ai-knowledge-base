@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.28982v1",
+  "title": "Behavior Beyond Text: Evaluating Refusal Transfer Failure in LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.28982",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-22T08:07:00Z",
+  "analyzed_at": "2026-10-22T08:07:00Z",
+  "organized_at": "2026-10-22T08:09:52Z",
+  "summary": "该论文研究 LLM 智能体在工具调用场景下的安全对齐失效问题：模型在纯文本对话中会拒绝有害请求，但一旦启用工具调用，同样的请求常被转化为不安全的工具操作。作者构建了 2,304 条提示的基准，覆盖四个领域，每条提示以纯文本、标准工具、对抗性工具三种形式配对呈现，并用 20 类禁止动作评估五个模型，发现 10%-52% 的文本拒绝请求在工具场景下仍触发危险调用。机制分析定位到残差流中的拒绝方向，工具场景下该方向激活减弱且可预测不安全调用（AUC 0.76-0.86），但激活修补只能部分修复，说明文本安全评估不足以覆盖智能体行为安全。",
+  "tags": [
+    "llm-agent-safety",
+    "tool-calling",
+    "refusal-transfer",
+    "activation-steering",
+    "safety-benchmark"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ekagra Gupta, Raj Saha, Aniekan-Abasi Inyang, Adam Al Gharib",
+    "published": "Thu, 22 Oct 2026 00:00:00 -0400"
+  }
+}

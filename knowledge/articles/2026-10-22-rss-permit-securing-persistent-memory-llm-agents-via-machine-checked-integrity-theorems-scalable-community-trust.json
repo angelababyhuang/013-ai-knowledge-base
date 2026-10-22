@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.28987v1",
+  "title": "PerMIT: Securing Persistent Memory for LLM Agents via Machine-Checked Integrity Theorems and Scalable Community Trust",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.28987",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-22T08:07:00Z",
+  "analyzed_at": "2026-10-22T08:07:00Z",
+  "organized_at": "2026-10-22T08:09:52Z",
+  "summary": "PerMIT 针对 LLM Agent 持久记忆这一几乎未设防的攻击面（注入与投毒），提出一种带可证明完整性保证的记忆架构：仅信任用户键入的输入与在门控处确认的值，环境派生值必须经有限记忆接口中介才能进入敏感动作。作者在 Lean 4 中机器验证了两条完整性定理，使威胁模型中的每种攻击都归约为一次可审计的门控决策；在 Trojan Hippo 上零攻击成功，并在 τ²-bench 上让最多 90 个 Agent 共建共享知识库且无注入被提升。其亮点是把形式化验证、人类/LLM 双重确认与社区信任累积结合，给出随社区扩大而风险下降、人均验证成本不升的协同扩展性质，为 Agent 安全自进化提供了一条可审计路径。",
+  "tags": [
+    "agent-memory",
+    "memory-poisoning",
+    "formal-verification",
+    "lean4",
+    "multi-agent-security"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tanqiu Jiang, Min Bai, Sadat Shahriar, Wanyu Du, Sandesh Swamy",
+    "published": "Thu, 22 Oct 2026 00:00:00 -0400"
+  }
+}

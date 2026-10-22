@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.28815v1",
+  "title": "Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.28815",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-22T08:07:00Z",
+  "analyzed_at": "2026-10-22T08:07:00Z",
+  "organized_at": "2026-10-22T08:09:52Z",
+  "summary": "该论文研究 agentic harness（智能体的指令、工具与控制流）的自动演化问题，发现一个反直觉现象：演化任务池越大，现有方法的性能反而越差，原因是优化过程中证据选择次优。作者提出 Successive Scale Racing (SSR)，在每轮演化中按任务质量与覆盖度构造多样化证据组合，并在小算力预算下对候选 harness 进行竞速筛选。在三个基准的六个配置上均达 SOTA，任务池从 40 扩到 200 时通过率从 64.3% 稳步升至 68.3%，而基线全部下降，且验证执行减少 60%。",
+  "tags": [
+    "agent-harness",
+    "agent-evolution",
+    "evidence-selection",
+    "prompt-optimization",
+    "compute-efficient"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jingzhe Liu, Jiliang Tang, Tong Zhao, Neil Shah, Clark Mingxuan Ju",
+    "published": "Thu, 22 Oct 2026 00:00:00 -0400"
+  }
+}

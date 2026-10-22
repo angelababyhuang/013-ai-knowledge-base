@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.28909v1",
+  "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.28909",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-22T08:07:00Z",
+  "analyzed_at": "2026-10-22T08:07:00Z",
+  "organized_at": "2026-10-22T08:09:52Z",
+  "summary": "DiffResearch 提出用扩散语言模型（dLLM）替换深度研究多智能体框架中每个阶段的自回归骨干，在保持脚手架、检索代码、提示和评测不变的前提下做受控对比。在 100 个 Deep Research Bench 任务上，扩散骨干端到端约快 6 倍，规划与写作阶段提速达数量级；其 dFast 分解模式读取中间去噪状态提前抽取子查询，单独分解中位加速 1.99 倍且报告质量不降，RACE 评分最优。该工作首次系统量化扩散骨干对深度研究延迟与质量的影响，并开源 Apache-2.0 框架，对关注长流程 Agent 推理效率的团队有直接参考价值。",
+  "tags": [
+    "diffusion-language-model",
+    "deep-research",
+    "multi-agent",
+    "inference-latency",
+    "llm-efficiency"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Alan-Barsag Gazzaev, Alexey Gavrilov, Mikhail Mozikov, Sergey Muravyov",
+    "published": "Thu, 22 Oct 2026 00:00:00 -0400"
+  }
+}

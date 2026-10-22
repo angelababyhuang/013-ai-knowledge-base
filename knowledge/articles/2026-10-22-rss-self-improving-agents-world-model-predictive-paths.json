@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.28945v1",
+  "title": "Self-Improving Agents with World Model Predictive Paths",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.28945",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-22T08:07:00Z",
+  "analyzed_at": "2026-10-22T08:07:00Z",
+  "organized_at": "2026-10-22T08:09:52Z",
+  "summary": "该论文提出一种测试时框架，借鉴 MPPI 控制思想，让 LLM Agent 在每一步生成多个候选动作，并用世界模型“想象”各动作的未来结果，从而在不实际执行的情况下比较备选方案。由于语言环境缺乏显式动力学与代价函数，作者用任务进度与风险评估预测结果，并以 MPPI 式加权引导决策；同时设计双分支经验记忆，分别改进规划器的候选生成与世界模型的下一观测预测，实现自我改进。在 ALFWorld 与 ScienceWorld 上跨三个骨干模型的实验验证了其有效性，对关注 Agent 规划与世界模型结合的研究者有参考价值。",
+  "tags": [
+    "world-model",
+    "llm-agent",
+    "mppi",
+    "test-time-planning",
+    "experience-memory"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Haori Lu, Tianyu Gao, Yaoyao Liu, Yingying Li",
+    "published": "Thu, 22 Oct 2026 00:00:00 -0400"
+  }
+}
