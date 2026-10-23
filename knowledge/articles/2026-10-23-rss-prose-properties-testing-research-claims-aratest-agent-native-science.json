@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30495v1",
+  "title": "From Prose to Properties: Testing Research Claims with ARATest for Agent-Native Science",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30495",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "ARATest 是一个面向 agent 原生科研（agent-native science）的属性测试库，用于把论文中以自然语言表述的经验性论断转成可执行测试。它通过抽象出参数化的\"属性骨架\"，用类型化声明绑定论断的比较量、案例、范围与数值策略，并以三值语义（成立/违反/不确定）给出判定，违反时附带可重放证据。在 33 个 ARA 产物的 243 条论断中，54 条被忠实声明，发现 8 条违反（其中 2 条被原作者确认是论文错误），并在 553 个注入故障上全部检出且无误报，优于两个 LLM 评判器。值得关注的是它把\"论断可证伪性\"工程化，为 AI 生成科研成果的自动验证提供了可复用范式。",
+  "tags": [
+    "property-based-testing",
+    "research-verification",
+    "agent-native-science",
+    "claim-validation",
+    "llm-evaluation"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yifeng He, Jiachen Liu, Hao Chen",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

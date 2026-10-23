@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30429v1",
+  "title": "RoleFlow: Self-Evolving Multi-Role Agentic Collaboration via Structural Adaptation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30429",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "RoleFlow 提出一种自演化的多角色 Agent 协作框架，针对现有 LLM 多智能体系统依赖预定义协作结构、难以适应任务变化的问题，通过反馈驱动的原子编辑和按需角色合成来动态调整协作拓扑。其核心创新是 SECPO（单编辑反事实策略优化），在同一链状态下对比“编辑”与“不编辑”的反事实结果，把信用精确分配给编辑相关 token，解决了轨迹级奖励难以归因单个结构改动贡献的痛点。在四个领域七个基准上平均性能领先最强基线 4.7 分，多跳 QA 提升 3.2-7.5 F1，并具备跨基准迁移与跨执行器泛化能力，对多智能体编排与强化学习训练方向有较高参考价值。",
+  "tags": [
+    "multi-agent",
+    "self-evolving",
+    "credit-assignment",
+    "reinforcement-learning",
+    "agent-orchestration"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yi Ge, Pan Wang, Xuehao Cui, Zian Zeng, Xu Hu, Heng Huang, Furong Huang",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

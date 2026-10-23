@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30485v1",
+  "title": "Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30485",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "MemPABench 是首个针对个人智能体「交互偏好记忆」的评测环境，要求智能体在长周期任务中自行判断何时澄清、确认或自主行动，而非仅回忆事实。它构建了 4 个模拟用户、14 项偏好、99 个会话、跨四个月并含 5 次事件驱动偏好变更的基准，从偏好选择、实际行为、上下文与变更敏感性三方面评估。结果显示 Mem0、MemOS、RAG 等检索式记忆并不优于无记忆，文件式记忆虽提升准确率却会跨场景误用偏好，揭示当前记忆系统在交互偏好上的根本短板，对做个人助理与记忆模块的团队有直接参考价值。",
+  "tags": [
+    "agent-memory",
+    "personal-agent",
+    "benchmark",
+    "interaction-preferences",
+    "long-horizon"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jialin Li, Zhenhao Chen, Hanjun Luo, Hanan Salam",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

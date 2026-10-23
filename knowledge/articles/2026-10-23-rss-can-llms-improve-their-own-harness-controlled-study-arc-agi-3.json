@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30499v1",
+  "title": "Can LLMs Improve Their Own Harness? A Controlled Study on ARC-AGI-3",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30499",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "该论文研究前沿 LLM 能否自主构建并迭代改进用于 ARC-AGI-3 交互式基准的符号化 harness（负责感知、记忆、工具调用、恢复与推理分配的外壳程序）。实验让每个模型通过固定编码引导构建完整 harness，在 5 个开发游戏上运行并两次修订代码库，再用 20 个从未参与适应的游戏以 RHAE 指标和推理成本评估，共 27 条谱系。结果显示性能跨度从零到接近上限，但两次修订仅将留出集平均 RHAE 提升 2.80 分且置信区间跨零，开发集增益明显高估泛化，降本可能牺牲任务表现，说明自主 harness 构建与可靠自我改进之间仍有显著鸿沟。",
+  "tags": [
+    "self-improving-agents",
+    "arc-agi",
+    "agent-harness",
+    "benchmark-evaluation",
+    "llm-agents"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jens Lehmann, Sahar Vahdati",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

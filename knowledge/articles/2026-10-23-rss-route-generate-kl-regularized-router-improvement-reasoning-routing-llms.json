@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30351v1",
+  "title": "Route-and-Generate: KL-Regularized Router Improvement for Reasoning Routing in LLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30351",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "该论文提出 Route-and-Generate（Rouge）分层训练框架，让 LLM 按输入难度自适应决定推理格式与推理量，缓解简单题过度思考、难题思考不足的问题。其核心是将推理预算分配与答案生成解耦：路由策略在多种推理格式间分配固定采样预算，基座模型用 GRPO 与逐样本奖励优化，并以偏好更短正确解的 rank-based 奖励促进高效推理；路由策略通过闭式 KL 正则化策略改进步骤更新，再蒸馏进神经路由器。该工作为推理长度控制与准确率-效率权衡提供了可训练、可部署的两阶段方案，对构建成本敏感型推理系统有参考价值。",
+  "tags": [
+    "reasoning-routing",
+    "grpo",
+    "kl-regularization",
+    "adaptive-compute",
+    "llm-reasoning"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tien-Phat Nguyen, Truong Nguyen, Thanh-Thien Le, Hoang Phan, Thien Huu Nguyen, Linh Ngo Van, Trung Le",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

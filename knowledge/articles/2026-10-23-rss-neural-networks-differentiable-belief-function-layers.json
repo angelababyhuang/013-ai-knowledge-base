@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30173v1",
+  "title": "Neural Networks with Differentiable Belief-Function Layers",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30173",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "该论文指出 Dempster 组合规则的归一化因子 (1-κ)^{-1} 会在梯度中引入 (1-κ)^{-2} 项，当证据源冲突时梯度发散；而 Yager 1987 年的组合规则是双线性的，没有这一项。作者据此构建深度证据管道，使从各 head 到输出的每个 mass 都是合法的 Dempster-Shafer 质量函数，并以 Yager 规则组合，输出在全集 Θ 上的 mass 作为网络表达“我不知道”的信号。网络只用硬标签训练，却能在视觉和语言两种模态上对标注者分歧进行排序，且用于 OOD 检测时与强单遍基线相当。",
+  "tags": [
+    "evidential-deep-learning",
+    "dempster-shafer",
+    "uncertainty-estimation",
+    "out-of-distribution-detection",
+    "gradient-stability"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Antonin Sulc",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

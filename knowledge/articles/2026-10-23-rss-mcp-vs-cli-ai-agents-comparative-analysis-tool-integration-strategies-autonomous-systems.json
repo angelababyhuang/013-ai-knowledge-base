@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30157v1",
+  "title": "MCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30157",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "该论文系统比较了 AI Agent 工具集成的两大范式：直接执行 shell 命令的 CLI 与基于 JSON-RPC 的结构化协议 MCP，从 14 个维度展开分析，并结合 NSA 指南、OWASP 标准及 BCG/Gartner 经济模型评估安全与成本。核心结论是 CLI 在单用户本地场景效率更优，而 MCP 在细粒度访问控制、凭证隔离、结构化审计与多租户治理上具备 CLI 无法替代的能力；同时指出渐进式披露可消除 MCP 的上下文窗口开销短板。对正在设计 Agent 工具层架构的团队具有直接参考价值。",
+  "tags": [
+    "mcp",
+    "agent-tooling",
+    "cli",
+    "security-governance",
+    "protocol-design"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Arun Malik, Nitish Talasu, Bradley Klemick, Vineet Tushar Trivedi, Prachi Shah, Sanay Devi, Junjie Zhang, Kunal Sonawane",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

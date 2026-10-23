@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30391v1",
+  "title": "Soft Ontology Priors over Latent Concept Posteriors for Weakly Supervised Neuro-Symbolic Learning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30391",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "该论文针对弱监督神经符号（NeSy）学习中的\"推理捷径\"问题：仅用任务标签监督时，不同概念映射可达到相同最大似然，导致概念不可辨识、下游复用不安全。作者将潜在概念上的软本体先验注入训练目标，并与任务约束一起编译为平滑可分解的概率电路；在独立伯努利感知下，结构化概念后验的归一化项化为与电路规模线性的加权模型计数。软编译把专家公理放入电路权重而非支撑集，使含噪公理只重新分配先验质量而不会清空支撑，并给出有界噪声下的对数密度扰动界，证明硬支撑版本可被单条错误公理退化。在真实 BDD-OIA 驾驶基准与受控任务上验证。",
+  "tags": [
+    "neuro-symbolic",
+    "weak-supervision",
+    "probabilistic-circuits",
+    "ontology-priors",
+    "reasoning-shortcuts"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tengwei Song, Robert Hoehndorf",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

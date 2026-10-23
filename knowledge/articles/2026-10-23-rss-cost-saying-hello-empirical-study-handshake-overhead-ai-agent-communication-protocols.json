@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30151v1",
+  "title": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30151",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "该论文首次对主流 AI Agent 通信协议（MCP 2025/2026 两代、A2A、ACP）的握手开销做分阶段实证基准测试，用官方 SDK 在冷启动、热重连、能力不匹配、元数据降级等场景下测量往返次数、各阶段延迟、线上字节与 token 成本。核心发现是往返次数主导握手成本（旧版 MCP 需 3 次往返、50ms RTT 下 230ms，A2A 仅 1 次往返 61ms），且 LLM 读取对端能力清单时 token 开销随能力数量线性增长（每能力 24-107 token），200 个能力的对端会吃掉 200k 上下文的 11%。价值在于把业界只当作定性效率指标的握手开销首次量化，并公开了完整测试框架与数据，对设计多 Agent 系统的工程师有直接参考意义。",
+  "tags": [
+    "agent-protocols",
+    "mcp",
+    "a2a",
+    "benchmarking",
+    "latency-analysis"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Pranav Varshney",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30450v1",
+  "title": "Same Beliefs, Different Policies: Learning Reusable Representations for Early Stopping in LLM Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30450",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "BELT 针对推理型 LLM 在得出正确答案后仍继续推理、浪费算力甚至改错答案的问题，提出将“结果预测”与“停止控制”解耦：从冻结 LLM 的隐状态学习关于当前与未来答案的信念表示，再在其上拟合线性停止策略。由于预测目标与 token 价格无关，一个探针即可通过 CPU 重拟合或阈值调整支持不同精度-成本权衡。在五个 OOD 数学基准上减少 41%-51% 生成 token 且不掉精度，并可零样本迁移到代码与 agent 任务，参数量与训练成本远低于 OS-Pruner。",
+  "tags": [
+    "early-stopping",
+    "llm-reasoning",
+    "metareasoning",
+    "representation-learning",
+    "inference-efficiency"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jingwei Ni, Dmitry Abulkhanov, Vladislav Smirnov, Markus Leippold, Elliott Ash, Timothy Baldwin, Artem Shelmanov, Mrinmaya Sachan",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

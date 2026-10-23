@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30205v1",
+  "title": "Feedback That Backfires in Games: Do LLM Players Repeat the Move They Just Watched Fail?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30205",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "该论文研究 LLM 智能体在游戏（推箱子、四子棋、黑白棋）中收到失败反馈后是否会重复失败动作。作者发现，把失败动作及其错误信息写入对话记录后，8 个指令微调小模型（135M-1.7B）反而更倾向于重复该动作，且这种反向效果主要通过动作的表面形式起作用，对非法动作明显，对合法但致败的动作不明显。研究还揭示：失败动作的对数概率几乎不再依赖此前的偏好，DPO 阶段可大幅消除该反转，而“不要重复”指令无效、干净重试是最差 harness。该工作对 agent 反馈循环设计有直接警示价值。",
+  "tags": [
+    "llm-agents",
+    "feedback-loop",
+    "game-playing",
+    "instruction-tuning",
+    "prompt-engineering"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Esmail Gumaan",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

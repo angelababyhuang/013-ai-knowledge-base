@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30488v1",
+  "title": "From Single-Actor Environments to Multi-Actor Event Worlds: Can LLMs Be Event World Models?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30488",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "该论文将多主体、部分可观测且通过事件日志呈现的系统形式化为「事件世界」，并基于《外交》桌游与 Polymarket 真实交易数据构建基准，检验 LLM 能否从日志与自身拟采取的动作预测未来观测。核心发现是：当提供所有主体的记录动作时，微调与更多数据能提升预测；但仅给出智能体自身动作时，模型在他人影响主导结果的情形下明显失效，且更大模型与更长历史帮助有限，导致多步推演与决策高估计划成功率。论文揭示了「预测他人行为」是事件世界建模的关键瓶颈，对多智能体仿真与决策规划研究有直接参考价值。",
+  "tags": [
+    "world-models",
+    "multi-agent",
+    "event-prediction",
+    "llm-evaluation",
+    "benchmark"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Juntong Ni, Zewen Liu, Bohan Wang, Lige Zhang, Wei Jin",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}

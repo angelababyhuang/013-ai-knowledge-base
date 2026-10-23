@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.30443v1",
+  "title": "SpecMAGIC: Specification-Guided Multi-Task Generalization in Multi-Agent Reinforcement Learning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.30443",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-23T08:06:52Z",
+  "analyzed_at": "2026-10-23T08:06:53Z",
+  "organized_at": "2026-10-23T08:09:41Z",
+  "summary": "SpecMAGIC 针对多智能体强化学习（MARL）中多任务泛化能力不足的问题，提出一种结合时序逻辑与协调算子的任务规约语言，并基于规约自动机的结构做子任务分解：高层集中式规划器为各智能体分配兼容的子任务序列，低层分散策略执行具体子任务，从而在新规约下通过组合可复用子任务策略实现零样本泛化，无需重新训练。作者还给出了高层规划器的可靠性与概率完备性证明，并在多智能体导航任务上验证其显著优于基线且随智能体数量增加仍保持稳健。该工作把形式化方法与分层 MARL 结合，对需要可验证、可组合多智能体决策的研究者有参考价值。",
+  "tags": [
+    "multi-agent-rl",
+    "temporal-logic",
+    "hierarchical-rl",
+    "zero-shot-generalization",
+    "task-specification"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zijian Guo, \\.Ilker I\\c{s}{\\i}k, H. M. Sabbir Ahmad, Wenchao Li",
+    "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+  }
+}
