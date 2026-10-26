@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.31882v1",
+  "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.31882",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "TACS-RF 提出让 LLM 编码智能体（Claude Opus 4.8）直接驱动 Cadence Virtuoso/Spectre、Calibre、EMX、Ansys HFSS 等工业级 EDA 工具，完成射频与毫米波模块的电路综合。作者以 90nm SiGe BiCMOS 工艺下的 240-251 GHz 亚太赫兹发射机为验证案例，智能体半自主设计了 push-push Colpitts VCO、多级差分 cascode 功率驱动、倍频器、差分蝶形天线及级间匹配网络，最终链路在 11 GHz 调谐范围内输出 +5.1~+6.3 dBm，1 MHz 偏移相位噪声 -80~-88 dBc/Hz，功耗 361 mW。该工作把 Agent 工具调用从软件工程延伸到专业 EDA 闭环，是迈向\"text-to-ASIC\"的重要实证，对关注 LLM Agent 落地垂直工程领域的读者有参考价值。",
+  "tags": [
+    "llm-agent",
+    "eda-tools",
+    "rf-circuit-design",
+    "tool-use",
+    "text-to-asic"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tristan Liang, Aravind Nagulu",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.32057v1",
+  "title": "HyScale: Scaling Long-Context Training for Learned Sparse Attention",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.32057",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "HyScale 是面向学习型稀疏注意力（learned sparse attention）的长上下文训练系统，针对百万级 token 场景下 top-k 选择成为训练瓶颈的问题。其核心洞察是选择输出并非激活值而是索引集合，据此提出 HyTopK（无需物化完整分数表即可在线精确求 top-k）与 selection replay（重计算时复用前向选择结果），并配合端到端系统优化。在 512 张 H20 上训练 GLM-5.1 的 1M token 序列较 Megatron-LM 提速 2.07 倍，对 DeepSeek-V4-Flash 的 CSA 层与 Qwen3.8-Flash-Next 的 QSA 层也有 1.57-2.01 倍加速，对训练超长上下文稀疏注意力模型的团队有直接参考价值。",
+  "tags": [
+    "sparse-attention",
+    "long-context",
+    "training-systems",
+    "top-k-selection",
+    "kernel-optimization"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yangsheng Deng, Xinjing Huang, Yulong Wang, Yunzhuo Liu, Jun Hu, Shuyong Tang, Junchi Zeng, Mingji Han, Ray Ying, Key Zhang, Luo Mai",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

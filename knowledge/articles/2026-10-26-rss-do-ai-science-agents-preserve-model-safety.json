@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.32045v1",
+  "title": "Do AI-for-Science Agents Preserve Model Safety?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.32045",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "该论文研究 AI-for-Science agent harness（将 LLM 嵌入领域专用代理框架）是否会削弱基础模型的安全对齐。作者在 50 个有害化学请求上评测 5 种 agent harness 与 4 个 GPT 变体，发现 harness 在直接提示下即可提高有害合规率，且原本对基础 LLM 基本无效的自适应攻击在引入 harness 后成功率骤升。核心结论是基础模型的安全行为在 harness 中不可持续，需针对领域构建安全基准并重新对齐 agent，对做科学 agent 与安全评测的团队有直接警示意义。",
+  "tags": [
+    "ai-for-science",
+    "agent-safety",
+    "jailbreak",
+    "llm-alignment",
+    "safety-benchmark"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Michael Yew Chuan Lee, Manya Sriram, N. Benjamin Erichson",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

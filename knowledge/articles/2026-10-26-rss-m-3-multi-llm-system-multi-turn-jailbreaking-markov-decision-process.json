@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.31937v1",
+  "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.31937",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "该论文提出 M³ 框架，将多轮越狱攻击形式化为有限时域马尔可夫决策过程（MDP），由攻击者 LLM 与目标 LLM 交互，并通过状态 LLM 将对话压缩为紧凑内部状态，从而在完全黑盒条件下实现自动化红队测试。相比依赖启发式或强假设的现有方法，M³ 在两个基准、六个目标模型上 ASR@5 最高提升 53%，即使使用轻量攻击者也能超过更强基线，且风险随轮次升级更陡、跨风险类别更均衡。其价值在于为多轮安全评估提供了可扩展的原理化框架，对 LLM 安全对齐与红队研究有直接参考意义。",
+  "tags": [
+    "multi-turn-jailbreak",
+    "red-teaming",
+    "markov-decision-process",
+    "llm-safety",
+    "black-box-attack"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yuqing Huang, Jack Ji, Jithin Pradeep, Sagarika Suresh, Jekaterina Novikova",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

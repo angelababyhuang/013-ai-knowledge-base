@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.31789v1",
+  "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.31789",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "Phronix 提出一种以能力为中心（capability-centric）的 Agent 学习范式，针对科学计算场景中 Agent 依赖人工编写技能与精选记忆、无法从历史执行中积累知识的问题。其核心是 predictor-validator-corrector 闭环：MCP 工具与技能提出方案，工具执行验证，观测结果反过来精炼能力库，并把每次交互蒸馏为可复用能力。实验显示，学习到的能力首次尝试即解决重复任务的比例达 93-95%，每任务自动产生 7.6-30.8 个持久能力，热启动 token 消耗降至基线的 1/3-1/4，还能把廉价模型在 SWE-bench 上的解决率从约 28% 提升到 87-91%。值得关注的是它把 Agent 的自我改进落到可验证、可存储的工程机制上，而非仅靠提示或记忆。",
+  "tags": [
+    "agent-learning",
+    "capability-store",
+    "self-improvement",
+    "scientific-computing",
+    "mcp"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hariharan Devarajan, Neeraj Rajesh, Aniruddha Marathe, Nikoli Dryden, Kin Ng, Michela Taufer",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

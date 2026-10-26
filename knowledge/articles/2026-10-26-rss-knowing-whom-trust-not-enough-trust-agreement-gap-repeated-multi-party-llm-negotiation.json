@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.31971v1",
+  "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.31971",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "该论文研究 LLM 智能体在重复多方谈判中能否从历史交互中形成有效的信任估计，并借此改善谈判结果。作者构建了包含隐蔽破坏者的重复多方多议题谈判框架，让智能体在每轮结束后维护成对信任值，并对比信任感知与无信任智能体。核心发现是存在“信任—协议鸿沟”：信任感知智能体几轮内即可识别对手，但准确的信任估计并不会自动转化为更好的协议，只有在显式引导智能体在决策中使用信任时，协议率才提升最多 23 个百分点。该工作揭示了信任建模与决策整合之间的脱节，对多智能体 LLM 系统的鲁棒性设计有直接启示。",
+  "tags": [
+    "llm-agents",
+    "multi-agent-negotiation",
+    "trust-modeling",
+    "adversarial-robustness",
+    "repeated-games"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Amit Sarker, Moumita Choudhury, Saaduddin Mahmud, Shlomo Zilberstein",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.31810v1",
+  "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.31810",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "PaperFormalizer 是一个基于 Lean 的 agentic 流水线，用于把研究论文的 LaTeX 源码自动形式化为 Lean 代码并完成证明验证。它先把论文转成陈述依赖图，用自然语言审计每条陈述的忠实性、歧义与正确性，再在 Mathlib 等库上形式化证明；关键创新是 author-in-the-loop：遇到多义陈述或修复方案时暂停并交由作者决策，输出带注释的修订论文、变更报告和与原文陈述关联的 Lean 代码。它运行在 Claude Code 或 Codex 等编码 agent 内，降低了形式化验证论文的生产成本，对 AI 辅助数学与可信科研有参考价值。",
+  "tags": [
+    "autoformalization",
+    "lean-proof-assistant",
+    "human-in-the-loop",
+    "agentic-pipeline",
+    "mathlib"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiyuan Tan, Vasilis Syrgkanis, Jose Blanchet",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

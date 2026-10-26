@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.32024v1",
+  "title": "BARC-Bench: Benign Asks, Risky Consequences",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.32024",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "BARC-Bench 是面向智能体安全边界的评测基准，包含 9 个模拟工作区环境中的 110 个任务，其特点是用户请求本身完全良性，但执行过程中存在触碰安全边界的空间，例如安排离职面谈时不得通过共享日历提前泄露员工辞职信息。它把安全风险从显式恶意指令扩展到指令欠规范与隐含社会规范，评测四类前沿模型配置各 5 次尝试，发现全部尝试均安全完成的任务比例仅 9.1%–72.7%，最强配置仍有 27.3% 任务出现违规，揭示了智能体自主委派中能力与安全不对齐的核心障碍。",
+  "tags": [
+    "agent-safety",
+    "benchmark",
+    "underspecified-instructions",
+    "implicit-norms",
+    "autonomous-agents"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Kangkang Li, Kelvin Luu, Lily Ma, Tu Trinh, Ying Liu, Mohamed Elfeki",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

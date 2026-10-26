@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.31846v1",
+  "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.31846",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "该论文提出 Self-Direction 机制：智能体任务失败后先反思轨迹、提炼教训，再将其蒸馏成约基础模型参数量 0.02% 的低秩适配器，存入持久化教训库，后续按需路由复用。它解决了上下文反思跨会话易遗忘、占上下文，以及全参数微调昂贵且干扰原能力的两难。在 GAIA、Claw-Eval、Terminal-Bench 2.1 上成功率提升 8.9-17.0 个百分点，重复错误显著减少，少量适配器可泛化到数十个新任务，为智能体持续学习提供轻量可落地方案。",
+  "tags": [
+    "agent-self-improvement",
+    "lora-adapters",
+    "experience-replay",
+    "continual-learning",
+    "tool-use-agents"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yuval Kansal, Karen Ullrich, Polina Kirichenko, Ilia Kulikov, Niraj K. Jha, Mohammad Pezeshki, Mark Ibrahim",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

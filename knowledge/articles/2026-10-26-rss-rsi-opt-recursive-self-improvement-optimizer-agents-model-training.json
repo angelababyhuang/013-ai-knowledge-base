@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.32026v1",
+  "title": "RSI-Opt: Recursive Self-Improvement Optimizer Agents For Model Training",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.32026",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "RSI-Opt 提出一种可插拔的递归自我改进优化器智能体：由 LLM 智能体监控训练动态并调整优化器设置，同时引入元智能体，根据历史运行证据重写策略（提示词、流程手册、经测试的优化器代码库、决策节奏），并用策略存档支撑多代演化。在三个训练任务上跨 5 代演化后，智能体可自行设计 CPU 代理实验并积累可复用流程与代码，在 Burgers PDE 上将相对 L2 误差降低约 2.7–8.8 倍，并展示跨模型策略迁移。值得关注的是它把“智能体自我改进”落到训练优化这一可量化场景，并给出可执行工具积累与迁移的受控对比证据。",
+  "tags": [
+    "self-improving-agents",
+    "llm-agent",
+    "hyperparameter-optimization",
+    "meta-learning",
+    "scientific-ml"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Binghang Lu, Yige Sun, Guang Lin",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.31918v1",
+  "title": "Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.31918",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "该论文指出 LLM Agent 蒸馏中 on-policy 与 off-policy 的二分法过于粗糙，提出「层级化」视角：交互历史的生成策略与当前动作 token 前缀的生成策略可以不同。作者构建分层蒸馏框架，通过自蒸馏在 3 个模型、4 个交互环境中做三阶段受控实验，发现「学生生成历史 + 教师生成动作前缀」单独训练信号最强，而两级都跟随学生最差；但全 on-policy 数据混入后仍有增益，且两级配对方式比 on-policy 数据总量更关键，前置教师上下文、后置全 on-policy 的课程安排优于静态混合。为 Agent 蒸馏的数据构造与训练调度提供了可操作的设计原则。",
+  "tags": [
+    "agent-distillation",
+    "on-policy-learning",
+    "self-distillation",
+    "llm-agents",
+    "training-schedule"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ya Gao, Zhengtao Zou, Pekka Marttinen",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

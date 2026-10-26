@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.32046v1",
+  "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.32046",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "该论文提出 Test-Time Memory Evolution（TTME），用外部记忆的持续蒸馏更新替代测试时训练（TTT）的在线权重更新，用于科学发现任务中的 LLM 自适应。在统一的发现框架下仅替换自适应方式，TTME 在五个数学任务上全部优于 TTT，同时 FLOPs 降低 82.8%-84.6%、运行时间缩短 47.7%-58.4%。其价值在于给出了一种免权重更新的高效测试时适应范式，对需要长期探索、算力受限的 LLM 科学发现与 Agent 场景有直接参考意义。",
+  "tags": [
+    "test-time-adaptation",
+    "memory-evolution",
+    "scientific-discovery",
+    "llm-efficiency",
+    "test-time-training"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yepeng Liu, Shengmai Chen, Xuandong Zhao, Chengzhi Liu, Dawn Song, Xin Eric Wang, Yuheng Bu",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

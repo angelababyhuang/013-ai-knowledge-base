@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.31916v1",
+  "title": "Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.31916",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "这篇论文研究工具型 AI Agent 在执行期恢复动作时的可靠性，把恢复决策从语言模型行为中剥离出来，区分检查点状态、派发许可、外部效果证据与对账许可四类独立义务。作者在 LangGraph 与 Temporal 两个宿主上跑 336 条历史，交叉 14 种调度、3 种 provider 契约和 4 种应用策略，并用隐藏的 provider 效果账本做一致性校验，比较缓存重试、重试前重校验、稳定键重试等策略的通过率。它值得关注是因为把 Agent 的“重试/恢复”从提示词层面下沉到可验证的授权与对账机制，为构建高可靠 Agent 工作流提供了可复现的评测框架。",
+  "tags": [
+    "agent-workflows",
+    "retry-recovery",
+    "authorization",
+    "durability",
+    "conformance-testing"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Deekshith Marla, Kushagra Bhatnagar",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.31972v1",
+  "title": "Reproducible Evaluation as the Substrate for Safe Prompt Compression in Production Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.31972",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-26T08:13:09Z",
+  "analyzed_at": "2026-10-26T08:13:10Z",
+  "organized_at": "2026-10-26T08:16:08Z",
+  "summary": "这篇论文针对生产环境对话 Agent 的评估难题提出方案：后端数据持续变化会让回放会话漂移、基准很快过时。作者构建了可离线复现、且能在失效后按需再生的评估 harness，并将其作为 GEPA 提示优化的适应度函数，同时加入正确性门控防止 reward hacking。在面向商户的生产 Agent 上，该门控压缩使提示面缩减 3.5-7.6% 且不损害留出任务正确率，跨三个模型家族一致，其中一个正确率还有提升。值得关注的是它把'可复现评估'当作提示压缩的安全底座，而非单纯追求压缩率。",
+  "tags": [
+    "prompt-compression",
+    "agent-evaluation",
+    "gepa",
+    "reward-hacking",
+    "production-agents"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Prabal Vashisht, Zheng Hu, Ying Yang",
+    "published": "Mon, 26 Oct 2026 00:00:00 -0400"
+  }
+}
