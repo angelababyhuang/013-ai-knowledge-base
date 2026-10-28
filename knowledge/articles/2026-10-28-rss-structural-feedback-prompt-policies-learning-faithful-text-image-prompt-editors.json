@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.36146v1",
+  "title": "From Structural Feedback to Prompt Policies: Learning Faithful Text-to-Image Prompt Editors",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.36146",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-28T08:05:27Z",
+  "analyzed_at": "2026-10-28T08:05:28Z",
+  "organized_at": "2026-10-28T08:08:09Z",
+  "summary": "StruPO 提出一种结构感知的文本到图像提示编辑器，核心是用校准后的场景图作为策略条件与图像监督的共享表示，把删除、重排、插入等操作转化为 token 级编辑动作，从而将外部结构反馈变成可训练信号。针对 grounding 不确定与图像生成随机性，它用平滑奖励塑形保留置信度，并对同一编辑采样多张图做组相对优势估计。相比迭代式 critique-rewrite 循环，它一次前向即可产出可复用优化提示，在关系保真度与美学权衡上稳定提升，适合关注提示优化与可控生成的工程与研究场景。",
+  "tags": [
+    "prompt-optimization",
+    "text-to-image",
+    "scene-graph",
+    "reinforcement-learning",
+    "faithfulness"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Wentao Ye, Yali Ye, Zhiqing Xiao, Ru Peng, Xinpeng Ti, Liyao Li, Zhanming Shen, Peng Lu, Jie Zhang, Haobo Wang",
+    "published": "Wed, 28 Oct 2026 00:00:00 -0400"
+  }
+}

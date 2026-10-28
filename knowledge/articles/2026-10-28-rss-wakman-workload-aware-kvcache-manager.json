@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.36355v1",
+  "title": "WAKMan: Workload Aware KVCache Manager",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.36355",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-28T08:05:27Z",
+  "analyzed_at": "2026-10-28T08:05:28Z",
+  "organized_at": "2026-10-28T08:08:09Z",
+  "summary": "WAKMan 针对 LLM 推理服务中前缀缓存（prefix caching）的 KV cache 淘汰策略问题：生产流量混合单轮、多轮、agentic 请求，不同工作负载对 recency（近期性）与 frequency（频率）偏好相反，实验显示 20 种流量组合下没有单一最优策略，vLLM 默认 LRU 在 agentic 密集场景命中率比 S3FIFO 高 12%，其他场景却低至 22%。WAKMan 无需知道请求类型或读取 prompt，仅从实时流量特征自适应选择淘汰策略，平均命中率比 LRU 提升 5 个百分点，且平均与最坏情况最优性差距最小。对做 LLM serving 与 KV cache 优化的工程师有直接参考价值。",
+  "tags": [
+    "kv-cache",
+    "prefix-caching",
+    "llm-serving",
+    "cache-eviction",
+    "workload-adaptation"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Suhas Kumar Morisetty, Vaibhavi Lokegaonkar, Sachin Mathew Varghese, Wesley Harris",
+    "published": "Wed, 28 Oct 2026 00:00:00 -0400"
+  }
+}

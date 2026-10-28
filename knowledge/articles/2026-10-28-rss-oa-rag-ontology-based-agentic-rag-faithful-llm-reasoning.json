@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.36335v1",
+  "title": "OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.36335",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-28T08:05:27Z",
+  "analyzed_at": "2026-10-28T08:05:28Z",
+  "organized_at": "2026-10-28T08:08:09Z",
+  "summary": "OA-RAG 提出一种将本体论（ontology）形式化推理与 LLM 推理相结合的 Agentic RAG 框架，用于缓解生物医学等高风险领域的幻觉问题。它针对传统 RAG 忽略逻辑关系、过度依赖 LLM 自身推理的缺陷，从领域本体的逻辑结构和非形式化注释中提取证据，并为每个答案标注本体观察证据及模型评估的接地等级（entailed/supported/related/unrelated）。在三个大规模本体基准和六个真实医疗问答任务上，其整体表现优于本体微调方法与主流 RAG，推理密集型任务尤为突出，且接地等级可作为答案可靠性的指示器。",
+  "tags": [
+    "agentic-rag",
+    "ontology-reasoning",
+    "faithfulness",
+    "medical-qa",
+    "hallucination-mitigation"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hui Yang, Jiaoyan Chen, Yongsheng Gao",
+    "published": "Wed, 28 Oct 2026 00:00:00 -0400"
+  }
+}

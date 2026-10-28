@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.36328v1",
+  "title": "How Stable Are LLM-Generated Proofs Under Program Refactoring? A Stress Test for Verifiable Code Generation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.36328",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-28T08:05:27Z",
+  "analyzed_at": "2026-10-28T08:05:28Z",
+  "organized_at": "2026-10-28T08:08:09Z",
+  "summary": "该论文提出 RefactorProof 基准，检验 LLM 生成的 Lean 证明在保持语义的程序重构后是否仍然有效。作者从 VERINA 任务中派生出 458 个经 Lean 认证的重构变体，固定规格与证明逐字节不变，仅改变实现结构。结果显示证明对重构高度脆弱：参考证明的结构化 PSR 仅 4.3%，专用证明器为 13.3-26.8%；但在匹配任务上，专用证明器（如 Goedel-Prover-V2）的未改动证明存活率反而高出参考证明 15-20 个百分点，且失败多可由单标识符编辑修复。该工作揭示了可验证代码生成基准中\"一次实现、一次证明\"的评估盲区，对形式化验证与 LLM 代码生成的鲁棒性研究有直接参考价值。",
+  "tags": [
+    "llm-code-generation",
+    "formal-verification",
+    "lean-theorem-proving",
+    "benchmark-evaluation",
+    "program-refactoring"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aravind Mandiga, Guoming Li",
+    "published": "Wed, 28 Oct 2026 00:00:00 -0400"
+  }
+}

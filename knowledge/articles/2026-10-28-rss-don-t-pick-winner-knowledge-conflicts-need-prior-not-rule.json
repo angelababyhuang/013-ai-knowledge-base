@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.36169v1",
+  "title": "Don't Pick a Winner: Knowledge Conflicts Need a Prior, Not a Rule",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.36169",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-28T08:05:27Z",
+  "analyzed_at": "2026-10-28T08:05:28Z",
+  "organized_at": "2026-10-28T08:08:09Z",
+  "summary": "这篇论文指出，RAG 模型在检索上下文与自身记忆冲突时，现有方法（如优先信任上下文、按影响放大上下文、信任模型记忆）都依赖设计时固定的规则，而决策论分析表明任何固定规则都只在部分场景最优，对称散度信号也无法判断哪一方正确。作者提出需要两类输入：对每个来源的独立证据，以及上下文正确的先验概率；并在 GRACE 基准上构建“笔记—置信度—双声阅读—先验选择”流程，按真实先验设定后全面超越四类基线，最高提升 26 分。",
+  "tags": [
+    "knowledge-conflict",
+    "retrieval-augmented-generation",
+    "decision-theory",
+    "calibration",
+    "benchmark"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Minh Pham Van, Cong Tran",
+    "published": "Wed, 28 Oct 2026 00:00:00 -0400"
+  }
+}
