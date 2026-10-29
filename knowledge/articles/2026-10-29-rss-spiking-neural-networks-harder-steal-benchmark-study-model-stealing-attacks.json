@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.36298v1",
+  "title": "Spiking Neural Networks Are Harder to Steal: A Benchmark Study of Model Stealing Attacks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.36298",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-29T08:05:25Z",
+  "analyzed_at": "2026-10-29T08:05:25Z",
+  "organized_at": "2026-10-29T08:08:30Z",
+  "summary": "该论文首次系统评估脉冲神经网络（SNN）对模型窃取攻击（MSA）的抵抗能力。作者在 MNIST、Fashion-MNIST、CIFAR-10 上，用 Papernot、Tramèr、T-RND 和颜色扰动四种代表性攻击，对比 SNN 与同构 ANN。结果显示 SNN 替代模型与目标的一致率低 10%–20%，对抗迁移性低 15%–25%，且在大查询预算下依然如此。研究把 SNN 的鲁棒性从训练数据攻击扩展到功能复制层面，为神经形态架构在安全敏感场景的应用提供依据，对模型知识产权保护研究有参考价值。",
+  "tags": [
+    "spiking-neural-networks",
+    "model-stealing",
+    "adversarial-robustness",
+    "neuromorphic-computing",
+    "security-benchmark"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ayana Moshruba, Maryam Parsa",
+    "published": "Thu, 29 Oct 2026 00:00:00 -0400"
+  }
+}

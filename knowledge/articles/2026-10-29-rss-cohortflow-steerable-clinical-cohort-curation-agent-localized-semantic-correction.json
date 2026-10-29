@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.36100v1",
+  "title": "CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.36100",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-29T08:05:25Z",
+  "analyzed_at": "2026-10-29T08:05:25Z",
+  "organized_at": "2026-10-29T08:08:30Z",
+  "summary": "CohortFlow 是一个面向临床试验入组标准筛选的可控临床队列构建 Agent：它把自然语言修正转化为对结构化队列规格的局部更新，再与持久化执行图对齐，通过显式记录语义依赖，只让受影响的计算失效并重算，从而保留未变更部分的结果。在 100 个由入组标准衍生的场景、126 轮修正上，局部引导与全量重生成的需求级 micro-F1 基本持平（77.0% vs 76.4%，差异不显著），但修正延迟分别降低 64.8%（完成后）和 44.3%（执行中），模型调用减少 38.1%；MIMIC 概念验证中 13 个队列状态全部执行成功。其价值在于把增量式语义修正与依赖驱动的增量重算结合，为长流程 Agent 降低重复计算成本提供了可借鉴的工程范式。",
+  "tags": [
+    "clinical-cohort",
+    "agent-workflow",
+    "incremental-recomputation",
+    "semantic-dependency",
+    "llm-agent"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Neil Chen, Adrian Serapio, Hanxue Gu, Evan Lee, Kang Wang, Yang Yang",
+    "published": "Thu, 29 Oct 2026 00:00:00 -0400"
+  }
+}
