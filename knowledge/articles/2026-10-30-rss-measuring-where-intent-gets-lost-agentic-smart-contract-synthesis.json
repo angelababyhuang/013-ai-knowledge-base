@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37830v1",
+  "title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37830",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "该论文研究 AI 智能体根据自然语言生成智能合约时，需求意图在何处丢失，并提出以执行结果为准的评测方法：在 AI 生成合约与原始合约上重放相同交易，统计两者行为一致的比例，并用植入错误检验各类评分工具。研究发现，AI 评审和标准静态分析工具会漏掉明显错误，只检查公共函数会掩盖约一半的流水线差异。作者进一步提出“先问后写”架构：生成前向客户询问简短清单，生成后与独立编写的可执行答案键比对，把分歧返回客户而非静默改写；跨三个模型验证，事前提问比事后审查或修补更有效。",
+  "tags": [
+    "smart-contracts",
+    "code-generation",
+    "agent-evaluation",
+    "requirement-elicitation",
+    "execution-based-testing"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Abhinav Goel, Agostino Capponi, Alfio Gliozzo, Chaitya Shah",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37859v1",
+  "title": "Seq@K: Evaluating Language Models Under Sequential Feedback",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37859",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "该论文提出 Seq@K 评测协议，衡量模型在 K 次顺序尝试中、每次失败后获得反馈时能否逐步修正答案，直指现有 Pass@1/Pass@K 指标无法反映的“从反馈中迭代精炼”能力。作者在 7 个基准、16 个前沿模型上评测，发现 Seq@K 下的模型排名与 Pareto 前沿常与 Pass@K 不同，最优配置收益也随之变化，并进一步分析模型对反馈的响应率与答案固执程度。对构建迭代式 agent 工作流的团队而言，这提供了更贴近真实部署的选型与反馈回路设计依据。",
+  "tags": [
+    "evaluation-benchmark",
+    "iterative-refinement",
+    "feedback-loop",
+    "llm-agents",
+    "model-selection"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Thomson Yen, Gilbert Yang, Naimeng Ye, Minghui Chen, Dong Xia, Tianyi Shen, Yechan Jeon, Yaqin Chen, Daksh Mittal, Fangyu Wu, Hongseok Namkoong",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

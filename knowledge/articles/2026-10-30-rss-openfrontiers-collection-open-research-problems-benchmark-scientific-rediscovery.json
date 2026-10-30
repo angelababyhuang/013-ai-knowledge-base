@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37739v1",
+  "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37739",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "OpenFrontiers 构建了一个跨学科开放研究问题语料库（12,151 条，含问题陈述、背景与进展），并配套一个数学领域的回顾性基准：200 道题中 110 道已于 2026 年解决、90 道仍开放，每题带 Lean 4 形式化陈述，经自动探针与双人独立评审，并从中筛出 HQ-50 高质量子集。评测协议在隔离沙箱中用两个独立检查器对形式化证明打分，设置闭卷、冻结检索与实时联网三种条件。对七个 LLM Agent 的测试显示，闭卷条件下真正重新发现解答极为罕见（40 题中至多 7 题），联网成功则多来自检索已发表答案。该工作为衡量研究级科学再发现能力提供了可形式化验证的评测基础。",
+  "tags": [
+    "llm-evaluation",
+    "lean4",
+    "research-benchmark",
+    "mathematical-reasoning",
+    "scientific-discovery"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiarui Yao, Ruida Wang, Tong Zhang",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

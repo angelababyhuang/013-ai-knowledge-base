@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37849v1",
+  "title": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37849",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "该论文提出 PoPLi 行为检测方法，用于识别多个 AI Agent 通过隐秘书写约定（如首字母编码）进行串通。核心思路是：使用该编码的伙伴 Agent 会对消息措辞变化产生反应，而临时替换的局外 Agent 不会，两者反应差异即为 PoPLi 分数。在模拟市场实验中，存在编码时 PoPLi 为 0.48-0.59，无编码时为负值，而仅监控消息内容的方法完全失效。该工作为多 Agent 系统的安全审计提供了可回放日志的实用检测思路，但局限在于只能发现私密信道而非激励型串通。",
+  "tags": [
+    "multi-agent-collusion",
+    "ai-safety",
+    "behavioral-detection",
+    "covert-channel",
+    "monitoring"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Kevin Yandoka Denamgana\\\"i",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37732v1",
+  "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37732",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "ThinkJev 针对语言模型在封闭选项上的“类型化决策”（如算术、计数、日期比较）提出快慢双系统方案：直接读取选项字母概率作为 System 1，需要时再让同一混合推理模型在缓存 prompt 上思考后读取同一组字母概率作为 System 2，从而无需重复计算即可在任意思考预算下复用一次采样。其核心创新是用带标签验证集上的统计检验校准 System 1 的接受阈值，保证被直接回答的样本错误率不超过目标值，其余样本则按置信度提前停止思考。在 5% 目标错误率下，Qwen3.5-27B 有 24.5% 的决策走快路径且实际错误率仅 3.9%，整体准确率接近始终思考而思考 token 减少约 28%，对需要低成本高可靠结构化决策的工程场景有直接参考价值。",
+  "tags": [
+    "hybrid-reasoning",
+    "adaptive-compute",
+    "calibration",
+    "typed-decisions",
+    "inference-efficiency"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xiaolu Ding, Kai Yang, Dongdong Liu",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37720v1",
+  "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37720",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "LRMoE 是一个面向显存受限节点的 MoE 训练系统，针对稀疏专家路由不均导致的算力与通信瓶颈，以及专家副本挤占 token 缓冲区显存的问题，提出在反向传播阶段按“负载重校准”指标筛选 token-expert 对，并在前向阶段规划保留配额与专家放置。它通过容量感知路由与物理压缩生成更小的通信负载和变长分组 GEMM，在 Qwen3-30B-A3B 与 GLM4.5-106B-A12B 上相比 SYMI 将训练到固定 loss 的累计 MoE 层时间降低 21.2%-44.8%。该工作对在有限 GPU 上训练大 MoE 模型有直接参考价值。",
+  "tags": [
+    "moe-training",
+    "memory-optimization",
+    "load-balancing",
+    "distributed-training",
+    "expert-parallelism"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiaming Hu, Zhida Jiang, Zhaolong Xing, Yu Li, Zhen Chen, Ke Zhang",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37905v1",
+  "title": "FilingLoop: Evaluating and Evolving LLM Agents for Corporate Disclosure Review and Revision",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37905",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "FilingLoop 是面向企业信息披露审查与修订的交互式基准与自进化 Agent 框架，基于 SEC 历史往来函件重建了 96 家公司、380 个以 IPO 审查为主的任务，并配有独立评估器对 6,099 条合规要求逐条打分、审计无依据声明与有害修改。其核心创新在于跨案例的程序性学习：把要求级反馈转化为角色专属指导，不更新模型权重，只影响后续案例，从而可在不重试已评分任务的前提下评估程序性适应能力。实验显示要求满足率从 24.28% 升至 27.96%，完整意见解决率从 16.90% 升至 20.75%，成本仅增加 5.8%。该工作把金融合规这一高价值长程任务引入 Agent 评测，值得关注多文档推理与无梯度自进化方向的研究者阅读。",
+  "tags": [
+    "llm-agents",
+    "benchmark",
+    "self-evolving-agents",
+    "financial-disclosure",
+    "procedural-learning"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Wentao Zhang, Yilei Zhao, Guangyan Gan, Shuo Sun, Lin William Cong",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

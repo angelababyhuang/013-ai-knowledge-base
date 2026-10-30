@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37935v1",
+  "title": "SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37935",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "SkillMem 提出将可复用技能压缩为小型外部潜在记忆（8×256 配置，每个技能仅需 9.6KB 存储），并通过角色条件交叉注意力读取器在潜在多智能体推理过程中直接调用，避免文本技能重复处理或逐技能 KV/参数存储的开销。训练采用行为蒸馏，在冻结主干的前提下匹配文本技能引起的 token 预测变化。在六个基准和 Qwen3 4B-14B 上验证，小模型收益显著，100 技能库存储降低 38 倍以上、端到端推理加速最高 4.23 倍，对多智能体系统与技能复用方向有较强参考价值。",
+  "tags": [
+    "latent-multi-agent",
+    "skill-memory",
+    "behavioral-distillation",
+    "cross-attention",
+    "inference-efficiency"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yuxuan Zhu, Mohammad Mohammadi Amiri, Pin-Yu Chen, Keerthiram Murugesan",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

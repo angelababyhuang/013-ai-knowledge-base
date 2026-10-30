@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37809v1",
+  "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37809",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "该论文把「本体检查器」本身作为研究对象，系统评估了人工整理、LLM 生成、数据挖掘三类本体在知识图谱问答 Agent 中的判错效果。作者在公开图谱和近十亿三元组的私有图谱上，对比开源与闭源 Agent，量化了各类本体能捕获的错误与误报的正确回答，并发现人工本体在 UniProt 上误报正确回答多于另两类，其真实 Agent 回答上的精确率仅略高于随机。价值在于提醒：把形式化 schema 当可靠裁判的假设并不成立，需权衡查错与误报。",
+  "tags": [
+    "ontology-checking",
+    "llm-agents",
+    "knowledge-graph",
+    "evaluation",
+    "schema-validation"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Michal Orzechowski, Rund Tawfiq, Tomasz Kosciolek",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

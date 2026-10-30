@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37926v1",
+  "title": "GARDEN: Generalist Autonomous Reward Design Through Evidence Navigation for Cooperative Multi-Agent Reinforcement Learning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37926",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "GARDEN 提出用 LLM 充当\"奖励工程师\"，为合作式多智能体强化学习自动设计可跨场景复用的奖励函数。它让 LLM 综合环境代码、训练记录与智能体行为证据，迭代生成并试训奖励程序，最终只保留一个奖励程序，并将其原样迁移到设计阶段未见过的场景。在 Overcooked 与 SMAX 的未见场景上，任务回报分别提升 58.2% 和 52.5%，战斗场景胜率从 51.0% 升至 89.9%，优于固定诊断反馈与 Eureka 式奖励反思。其价值在于把\"奖励工程\"从单场景手工调参升级为可迁移的自动化流程。",
+  "tags": [
+    "reward-design",
+    "multi-agent-rl",
+    "llm-code-generation",
+    "reward-shaping",
+    "generalization"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dogan Urgun",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

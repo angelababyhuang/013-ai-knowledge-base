@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37919v1",
+  "title": "SciGame: Let Agents Play the Scientific Discovery Games in the Real and Counterfactual World",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37919",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "SciGame 是一个面向 LLM 智能体的受控科学发现基准，把科学文献转成结构化“科学卡片”，每张卡片生成原始环境与维度一致的反事实环境，并区分历史经典定律与模型知识截止后发表的时效性论文。它针对现有基准混淆定律推断与编程、以拟合数据代替对未见输入的预测、未分离先验与实证证据等问题，设计了候选引导识别与开放式发现两类任务及三种实验协议。实验发现：熟悉的先验在规律被改动后反而有害；自适应实验对强模型有益却拖累弱模型；解释看似合理可能掩盖定量失败，恢复精确符号形式仍是主要瓶颈。",
+  "tags": [
+    "scientific-discovery",
+    "llm-agents",
+    "benchmark",
+    "counterfactual-reasoning",
+    "symbolic-regression"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yusheng Zhao, Bowei He, Xue Liu, Mingxiao Li",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

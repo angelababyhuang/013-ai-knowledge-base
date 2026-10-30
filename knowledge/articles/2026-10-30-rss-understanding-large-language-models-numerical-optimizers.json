@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37932v1",
+  "title": "Understanding Large Language Models as Numerical Optimizers",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37932",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "该论文系统评估 LLM 作为数值优化器的能力边界，构建了区分解质量与执行失败（数值误差、约束违反、格式错误）的评测框架，覆盖凸优化、分式规划与约束投影等代表性任务，并与确定性求解器对比。核心发现是 LLM 能捕捉有用的优化结构并给出近最优解，但可靠性随问题维度升高而显著下降，且强依赖问题结构；引入迭代精炼反馈可大幅提升可靠性并扩展可用维度范围，但持续存在的数值与结构错误使其难以独立作为优化器。该工作为 LLM 推理与确定性数值验证的混合方案提供了实证依据。",
+  "tags": [
+    "llm-reasoning",
+    "numerical-optimization",
+    "evaluation-benchmark",
+    "iterative-refinement",
+    "hybrid-solver"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Lingyun Guo, Ali Bereyhi",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}

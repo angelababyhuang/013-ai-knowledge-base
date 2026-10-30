@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.37786v1",
+  "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.37786",
+  "category": "paper-or-talk",
+  "collected_at": "2026-10-30T08:05:04Z",
+  "analyzed_at": "2026-10-30T08:05:05Z",
+  "organized_at": "2026-10-30T08:08:11Z",
+  "summary": "WebAnything 提出全自动框架，从真实 URL 重建可复用、可重置的网站环境，用于 Web Agent 的可复现训练与评测。它通过 Explorer-Builder 采集浏览器可观测结构、资源与交互结果，再由独立验证器检查冻结候选并引导局部修复或定向重采集，避免逐站人工镜像和生成式构建偏离真实站点。作者构建 244 个网站工件、覆盖 14 个领域，支撑 12,984 个任务，并在盲审中优于 WebHarbor；用 5,856 条轨迹微调 Qwen3.5-9B 后，REAL、Odysseys-Easy 与 WebArena-Verified 指标均有明显提升，对做 Web Agent 训练环境的人有直接参考价值。",
+  "tags": [
+    "web-agents",
+    "agent-environments",
+    "benchmark-construction",
+    "browser-automation",
+    "training-data"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tianci Xie, Zikun Cai, Chaoyun Zhang, Pinxue Guo, Bingxuan Li, Rui Zheng, Hang Yan",
+    "published": "Fri, 30 Oct 2026 00:00:00 -0400"
+  }
+}
