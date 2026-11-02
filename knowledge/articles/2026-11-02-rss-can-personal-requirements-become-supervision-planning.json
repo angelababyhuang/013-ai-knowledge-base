@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.40992v1",
+  "title": "Can Personal Requirements Become Supervision for Planning?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.40992",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "论文提出 Noura 框架，解决 LLM 智能体难以将公开临床指南和用药标签转化为个体可执行多日饮食计划的问题。其核心洞察是：能拒绝计划的规格说明也能决定从失败轨迹中学什么，从而把执行计划与修订转化为紧凑模型的监督信号。在 NHANES 构建的评估中，13 个模型直接生成完整计划通过率不足 3%，而 Noura-SFT 将 Qwen3-14B 通过率从 24.0% 提升至 72.5%，规则违规减少 97.5%，且本地 14B 模型违规少于 GPT-6 Luna 教师。值得关注的是它展示了用可执行规格作为监督信号、从失败中学习并实现小模型超越大模型教师的路径。",
+  "tags": [
+    "llm-planning",
+    "specification-guided",
+    "self-training",
+    "personalization",
+    "healthcare"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Junwei Wu, Runze Yan, Yuzhang Xie, Hanqi Luo, Ziwei Dong, Jiaying Lu, Xiao Hu, Carl Yang",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}

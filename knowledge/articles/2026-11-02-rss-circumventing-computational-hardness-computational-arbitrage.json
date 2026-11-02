@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.40831v1",
+  "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.40831",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "该论文将 AI 模型市场中的「计算套利」形式化为一个分配问题：中间商从异构模型池中购买推理能力，再转售给用户以获利。作者证明该问题一般情形下是 NP-hard，但在模型性能随推理支出呈边际收益递减的自然条件下，最优分配可高效求解；同时提出样本高效的方法，用有限数据估计模型性能，降低识别套利策略的前期成本。分析还给出经济学洞见：最优时每个被资助模型的每美元边际效用相等，套利会挤压性价比低的供应商收入，并奖励互补性专精。对关注 AI 市场机制、模型路由与推理成本优化的研究者有参考价值。",
+  "tags": [
+    "computational-arbitrage",
+    "model-marketplace",
+    "resource-allocation",
+    "inference-economics",
+    "optimization"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Nastaran Okati, Ricardo Olmedo, Moritz Hardt",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}

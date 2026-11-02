@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.40927v1",
+  "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.40927",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "该论文针对 LLM Agent 测试时扩展（TTS）中多轨迹并行执行依赖环境可复制的痛点，提出 Agentic World Modeling（AWM）：将下一观测预测重构为多轮证据获取任务，由 agentic simulator 通过安全只读接口自适应查询真实环境、推理返回证据并用可执行计算构造假设动作的结果观测，从而在单一共享、不可重置环境中实现并行轨迹探索。在 τ-bench、AppWorld、OfficeBench 上平均超越单次模拟基线 40.07%、超越训练式世界模型基线 12.36%，为共享持久环境下的安全可扩展 TTS 提供了新范式。",
+  "tags": [
+    "agentic-world-model",
+    "test-time-scaling",
+    "environment-simulation",
+    "llm-agents",
+    "read-only-interaction"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Wendi Li, Huseyin A. Inan, Wei-Ning Chen, Yanzhi Chen, Chetan Bansal, Saravan Rajmohan, Sharon Li",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}

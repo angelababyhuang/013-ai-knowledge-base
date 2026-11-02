@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.41025v1",
+  "title": "ReplayRCA: Measuring Post-hoc Diagnosis and Live Oversight of Agent Failures by Counterfactual Replay",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.41025",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "ReplayRCA 提出一种以干预效果而非标注一致性来评估 agent 失败诊断的新基准：把环境回滚到出错步骤之前，用诊断模型给出的动作替换原动作，再让同一 agent 继续执行，以相对安慰剂回放的续跑成功率差值（causal repair）作为得分。它区分事后复盘与在线监督两种场景，并构建了确定性、程序化生成的 OpsWorld 后台任务环境（含多模态难度级）。实验显示前沿模型间差距不显著、事后诊断强不等于在线监督强，对 agent 可观测性与失败归因研究有参考价值。",
+  "tags": [
+    "agent-failure-diagnosis",
+    "counterfactual-replay",
+    "benchmark",
+    "live-oversight",
+    "causal-evaluation"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jeremy Canale, Fabien Soulis",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}

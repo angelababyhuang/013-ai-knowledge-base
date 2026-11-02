@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.40883v1",
+  "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.40883",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "该论文研究音频大语言模型在语音情感识别中，当文本内容与语音语调不一致时性能是否下降。作者将文本和音频映射到统一的效价-唤醒-支配（VAD）空间，用双分量高斯混合模型把两者距离转成连续、无需阈值的\"不一致分数\"，并用人类判断验证。在 eNTERFACE'05、MELD、CMU-MOSEI 三个语料上测试三个音频模型，发现只要音频存在，不一致性在所有语料中都显著提高出错几率，而传统监督分类器反而表现相反，说明问题出在模型融合原始证据的方式而非信号本身。值得关注的是它提供了首个跨语料稳健的无标签错误预测指标，并开源代码与提示词。",
+  "tags": [
+    "speech-emotion-recognition",
+    "multimodal-llm",
+    "audio-language-model",
+    "evaluation-benchmark",
+    "valence-arousal-dominance"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Fengji Jing, Guy Laban",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}

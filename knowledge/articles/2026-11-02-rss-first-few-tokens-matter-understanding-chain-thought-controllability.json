@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.40939v1",
+  "title": "The First Few Tokens Matter: Understanding Chain-of-Thought Controllability",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.40939",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "该论文研究思维链（CoT）监控为何有效，并将模型对推理内容的可控性局限归因于 thinking 标签后最初几个 token 的熵坍缩。作者通过 prefilling（预填充）和禁用高频开头 token 两种推理时干预，将平均合规率提升 34-41 个百分点，并发现“添加/风格控制”与“抑制控制”是两种独立能力，前者与可监控性正相关、后者常呈负相关。这项工作对 CoT 监控、Agent 可解释性与安全评估有直接启示，值得关注推理可控性评测设计的研究者阅读。",
+  "tags": [
+    "chain-of-thought",
+    "monitorability",
+    "inference-time-intervention",
+    "llm-safety",
+    "controllability"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hugh Van Deventer, Dmitrii Troitskii, Laura Ruis",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}

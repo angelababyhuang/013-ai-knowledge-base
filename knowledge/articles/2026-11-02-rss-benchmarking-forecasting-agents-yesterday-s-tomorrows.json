@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.40940v1",
+  "title": "Benchmarking Forecasting Agents on Yesterday's Tomorrows",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.40940",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "FABench 是一个面向预测型 Agent 的可扩展回测基准环境，解决现有预测基准的两难：实时基准要等事件揭晓才能反馈，固定语料基准又受限于预收集文档。它通过自动化流水线发现历史事件、生成问题并解析结果，可随时刷新以规避模型训练截止带来的数据泄漏，首版含 9 个领域 287 道题，并提供离线档案加时间过滤实时搜索的研究环境。在 8 个近期模型上验证检索普遍提升 Brier 分数，最佳 Agent 在 Polymarket 关联题上略超市场共识，同时揭示证据加权与应用上的系统性失败模式，对 Agent 评测与预测研究有直接参考价值。",
+  "tags": [
+    "forecasting-agents",
+    "agent-benchmark",
+    "backtesting",
+    "retrieval-augmented",
+    "evaluation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yuxuan Wang, Yishu Wang, Jiaqi Deng",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}

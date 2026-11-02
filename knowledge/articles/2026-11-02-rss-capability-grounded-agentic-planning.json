@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.41040v1",
+  "title": "Capability-Grounded Agentic Planning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.41040",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "该论文提出 CGAP 框架，用经典规划器替代 LLM 试错式工具调用：先将工具目录确定性地编译为抽象 PDDL 模型，由 LLM 把用户请求转成目标，再交给经典规划器求解可执行计划；执行阶段 LLM 补充实体级调用，确定性检查拒绝破坏计划的调用，参数须有引用来源，结果由 LLM 验证器核验。在 ToolSandbox、ComplexFuncBench、BFCL 多轮与 τ²-bench 零售四个基准上，三种 LLM 均比标准工具调用代理最高提升 28.9 分，为多步工具编排提供了可验证、可解释的规划范式。",
+  "tags": [
+    "agent-planning",
+    "pddl",
+    "tool-use",
+    "llm-agents",
+    "classical-planning"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shikha Shrestha, William Yeoh, Ning Zhang, Yevgeniy Vorobeychik",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}

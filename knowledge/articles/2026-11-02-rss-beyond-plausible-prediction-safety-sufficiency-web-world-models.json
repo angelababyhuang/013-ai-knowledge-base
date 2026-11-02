@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.40798v1",
+  "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.40798",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "该论文指出，网页世界模型（web world model）虽然能预测智能体动作的后果，但预测结果“语义上合理”并不等于能支撑正确的安全决策。作者对十个冻结的开源模型生成的 3000 条预测做了配对人工评估，发现 86.1% 的预测在语义上合理，但多个模型在授权行为上严重不对称：它们很少误判为可执行（false-safe），却对需要澄清的 ASK 情形召回很差，并且强烈倾向于 BLOCK。为此，论文提出“安全充分性”（safety sufficiency）概念，并构建 SafeWebWorld 基准，覆盖五类网页安全域，从动作条件化未来、策略决定性证据和策略条件化决策三个层面评估模型。实验显示，在受控的安全对齐监督微调下，证据保留能力可以显著提升，但授权敏感决策反而变差；作者进一步提出 Latent Authorisation Recovery（LAR）来区分这种退化是源于授权敏感评分结构的丢失，还是决策读出环节的失效。该工作对智能体安全评估与网页世界模型的可信部署有直接参考价值。",
+  "tags": [
+    "world-models",
+    "agent-safety",
+    "benchmark",
+    "authorization",
+    "web-agents"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhifei Hu, Alexandra I. Cristea, Adel Bibi, Jialin Yu",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}

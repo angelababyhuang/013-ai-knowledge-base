@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.40906v1",
+  "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.40906",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "该论文研究科学 agent 如何通过递归知识构建来验证科学共识类声明，提出将证据状态持久化在模型上下文之外的设计，并区分'递归构建什么'与'由什么控制停止'两个设计轴。作者构建了 ProClaim-eval 数据集（718 条跨分子生物学、核物理、天文学的 SUPPORT/REFUTE 标注声明），并实现 ProClaim 系统。结果显示结构化外部证据状态优于上下文内累积，训练过的 judge 优于固定轮数停止，为科学 agent 的可解释设计提供了实证依据。",
+  "tags": [
+    "scientific-agents",
+    "claim-verification",
+    "recursive-retrieval",
+    "evidence-state",
+    "agent-evaluation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Lun Ai, Yu-Heng Wu, Jonathan Schaul, Leonie K\\\"uchenhoff, Denes Turei, Francesco Carli, Fabio Petroni, Aurelien Dugourd, Julio Saez-Rodriguez",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}

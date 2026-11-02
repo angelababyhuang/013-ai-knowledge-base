@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.40758v1",
+  "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.40758",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "CLR-Bench 是一个评估自进化智能体能否从反馈中归纳隐藏规则的基准：每条任务链逐层叠加一条未明示的规则，规则作用于一个不透明标签，该标签对应网络上公开的命名分组（如航空联盟创始成员）。任务只给一个示例值，练习反馈再揭示一个成员和一个非成员，测试则考察未见过的成员与相似的非成员。作者用认证探针确保基础模型知道这些分组、但在无反馈时不会猜出，并自动构建了覆盖 10 个领域的 20 条链，评测六种自进化方法。结果显示，多数方法几乎学不会，只是把每次纠正记为特例，导致列表越来越长；而给出命名分组约定的固定提示可提升 14.5-16.5 分，更强的 GPT-6-Sol 上 ACE 与 Dynamic Cheatsheet 能仅凭反馈达到 78% 准确率。该基准揭示了“记忆特例”与“归纳规则”的本质差距，对自进化 Agent 的状态设计有直接指导意义。",
+  "tags": [
+    "self-evolving-agents",
+    "benchmark",
+    "latent-rule-learning",
+    "agent-memory",
+    "curriculum-learning"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chenjie Qiu, Boyan Xu, Shaobin Shi, Bingfeng Chen, Ruichu Cai, Dongsheng Luo",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}

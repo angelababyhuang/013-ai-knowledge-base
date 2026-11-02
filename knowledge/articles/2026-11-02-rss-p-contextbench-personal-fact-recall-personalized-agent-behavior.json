@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2610.40959v1",
+  "title": "P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2610.40959",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-02T08:05:42Z",
+  "analyzed_at": "2026-11-02T08:05:43Z",
+  "organized_at": "2026-11-02T08:08:39Z",
+  "summary": "P-ContextBench 是一个面向个人上下文理解与个性化 Agent 行为的可验证基准。它用人口统计种子构建以人生故事为基础的合成数字人，把性格、习惯、目标与约束隐含地分散在碎片化、持续演化的手机 App 记录中，而非使用静态显式画像，并评测五类能力：单源事实回溯、多源事实回溯、时序状态追踪、从日常行为推断高层个人模式，以及在与人物约束冲突时安全地合规、警告、澄清或拒绝。实验显示，当前 SOTA 模型在时序追踪、模式推断和约束感知的行动边界上准确率不足 60%，三项能力同时答对的用例不到 10%，说明个性化 Agent 的可靠性与安全性仍有明显缺口，值得研究者与产品团队关注。",
+  "tags": [
+    "personalization",
+    "agent-benchmark",
+    "long-context",
+    "safety-alignment",
+    "synthetic-data"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Grant Nasir Brown, Abdul Basir Bari, Anmol Tadikonda, Isabel Song",
+    "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+  }
+}
