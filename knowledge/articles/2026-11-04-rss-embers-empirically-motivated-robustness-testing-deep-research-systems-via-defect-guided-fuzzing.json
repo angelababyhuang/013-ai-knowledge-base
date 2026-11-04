@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.03723v1",
+  "title": "EMBERS: Empirically Motivated Robustness Testing of Deep Research Systems via Defect-Guided Fuzzing",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.03723",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-04T08:04:16Z",
+  "analyzed_at": "2026-11-04T08:04:17Z",
+  "organized_at": "2026-11-04T08:07:06Z",
+  "summary": "该论文针对 Deep Research（DR）智能体系统提出鲁棒性测试框架 EMBERS。作者先对三个代表性 DR 系统的 1932 条执行轨迹做实证分析，归纳出子问题生成、在线搜索、最终推理三个阶段的九类缺陷；再以正确回答的种子问题为起点，用缺陷引导变异、网络搜索辅助保真和多样性感知种子维护生成阶段定向测试输入。在 16 种框架-模型-数据集组合上，其失败发现吞吐为最强基线的 3.21 倍，且多数生成输入保留原信息需求，微调后一致回答性能提升。",
+  "tags": [
+    "deep-research",
+    "robustness-testing",
+    "fuzzing",
+    "llm-agents",
+    "evaluation"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shuochuan Li, Zan Wang, Dong Wang, Yuhang Jiang, Huajin Cui, Chen Zhang, Gang Wang, Junjie Chen",
+    "published": "Wed, 04 Nov 2026 00:00:00 -0500"
+  }
+}

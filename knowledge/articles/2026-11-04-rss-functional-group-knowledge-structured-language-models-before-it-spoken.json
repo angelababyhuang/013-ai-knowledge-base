@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.03684v1",
+  "title": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.03684",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-04T08:04:16Z",
+  "analyzed_at": "2026-11-04T08:04:17Z",
+  "organized_at": "2026-11-04T08:07:06Z",
+  "summary": "该论文研究化学与材料科学智能体所用语言模型的内部表征，针对 92 个分子、20 个官能团，读取五个开源模型的隐藏层表示。发现即使未经化学训练，模型也在中间层突然形成按化学家族组织的官能团结构，并将化学差异编码为一致方向（如硫醚→硫醇的位移最接近醇）。基础模型仅 58.5% 正确命名官能团，但内部已保留化学信息，错误多为不回答而非答错。这提示仅凭输出评估化学 LLM 会低估其知识，表征分析可区分“不知道”与“说不出”，对化学智能体选型与微调有指导意义。",
+  "tags": [
+    "representation-analysis",
+    "chemistry-llm",
+    "functional-groups",
+    "model-interpretability",
+    "agent-reasoning"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tran Nhat Khang Nguyen, Anh Nguyen, Obed Issakah, Janghoon Ock",
+    "published": "Wed, 04 Nov 2026 00:00:00 -0500"
+  }
+}

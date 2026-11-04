@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.03698v1",
+  "title": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.03698",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-04T08:04:16Z",
+  "analyzed_at": "2026-11-04T08:04:17Z",
+  "organized_at": "2026-11-04T08:07:06Z",
+  "summary": "该论文提出 RSI-Dojo，一套可执行的模型训练环境集合，用于训练 LLM Agent 自主完成 LLM 后训练（选数据、训练、诊断失败、迭代改进）。作者构建 RSI-Craft 自动流水线，将顶会论文转化为统一接口的可执行训练任务，经数据规模、执行可靠性和区分度过滤后得到 281 个种子任务，并采集前沿模型的高质量训练轨迹微调 Qwen 系列模型。其价值在于把后训练能力内化进模型本身，而非停留在工作流层面，RSI-Dojo-35B-A3B 在 PostTrainBench 上接近 GLM-5.2、GPT 5.5 等前沿模型。",
+  "tags": [
+    "recursive-self-improvement",
+    "post-training",
+    "agent-training",
+    "executable-environments",
+    "trajectory-finetuning"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shuzheng Gao, Zhaojian Yu, Penghao Yin, Yuling Shi, Kai Cai, Shilin He, Michael R. Lyu",
+    "published": "Wed, 04 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.03662v1",
+  "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.03662",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-04T08:04:16Z",
+  "analyzed_at": "2026-11-04T08:04:17Z",
+  "organized_at": "2026-11-04T08:07:06Z",
+  "summary": "MCPGuard 是面向 Model Context Protocol 官方 SDK 的自动化一致性检测框架，针对现有 MCP 一致性工具只测试运行端点、无法判断 SDK 模型是否落实规范约束的盲区。它采用双轨分析：结构轨将 JSON Schema 约束与规范化 SDK 模型对齐，行为轨用 LLM 审计规范散文规则对应的函数切片，再由证据感知裁决器构造 PoC 验证。在 Python 1.26.0 与 TypeScript 1.29.0 SDK 上分别确认 13 和 19 个缺陷，且黑盒基线均未发现，并证明这些缺口会向下游 MCP 服务器传播。",
+  "tags": [
+    "mcp",
+    "conformance-testing",
+    "sdk-validation",
+    "llm-code-audit",
+    "protocol-spec"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xikai Sun, Kebin Liu, Fan Dang, Yawen Zheng, Zihao Yang, Yunhao Liu",
+    "published": "Wed, 04 Nov 2026 00:00:00 -0500"
+  }
+}

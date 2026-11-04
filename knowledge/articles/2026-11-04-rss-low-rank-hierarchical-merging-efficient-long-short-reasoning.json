@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.03834v1",
+  "title": "Low-Rank Hierarchical Merging for Efficient Long-to-Short Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.03834",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-04T08:04:16Z",
+  "analyzed_at": "2026-11-04T08:04:17Z",
+  "organized_at": "2026-11-04T08:07:06Z",
+  "summary": "该论文提出 Low-Rank Hierarchical Merging（LHM），一种免训练的长链思维模型与基础模型合并框架，用于把强推理能力与简洁输出风格结合。针对线性插值和一阶激活统计无法反映损失曲面对参数位移响应的问题，LHM 用 Hutchinson 估计器在随机输入上低秩近似逐层 Hessian 迹，构造层二阶敏感度指标，并通过双约束系数映射生成层自适应合并系数。在 1.5B/7B 模型六个数学基准上，准确率提升超 4%，输出长度最多缩减 93.1%，优于 ACM-TIES 与 ORCA，对模型压缩与推理成本优化有参考价值。",
+  "tags": [
+    "model-merging",
+    "long-cot",
+    "hessian-approximation",
+    "reasoning-compression",
+    "training-free"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zeqiu Yu, Xuesheng Zhang, Wenxiao Zhao, Shixiao Wang",
+    "published": "Wed, 04 Nov 2026 00:00:00 -0500"
+  }
+}

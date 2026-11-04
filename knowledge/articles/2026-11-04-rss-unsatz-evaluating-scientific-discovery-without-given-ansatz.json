@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.03713v1",
+  "title": "Unsatz: Evaluating Scientific Discovery Without a Given Ansatz",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.03713",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-04T08:04:16Z",
+  "analyzed_at": "2026-11-04T08:04:17Z",
+  "organized_at": "2026-11-04T08:07:06Z",
+  "summary": "Unsatz 是一个面向 LLM Agent 的科学发现基准，要求智能体在没有任何预设 ansatz（变量、候选项库或待修改定律）的情况下，自行构建模型结构。任务由私有种子生成，涵盖常微分、延迟、偏微分方程、离散映射、静态与因果模型及随机过程，并可能含隐藏状态、传感器失真和无信息测量通道；Agent 需在预算内购买实验、用小型建模语言写候选程序，并仅以对未见实验（外推条件、干预、更长运行）的预测表现评分。在 20 个领域 80 个系统上，九个语言模型仅解出 21%–60%，且经典方程发现方法在 44 个系统上几乎全败，说明难点在结构发现而非系数估计，对评估 Agent 的科学推理能力有参考价值。",
+  "tags": [
+    "llm-agents",
+    "scientific-discovery",
+    "equation-discovery",
+    "benchmark",
+    "symbolic-regression"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ethan Ji, Wei Wang, Yizhou Sun",
+    "published": "Wed, 04 Nov 2026 00:00:00 -0500"
+  }
+}

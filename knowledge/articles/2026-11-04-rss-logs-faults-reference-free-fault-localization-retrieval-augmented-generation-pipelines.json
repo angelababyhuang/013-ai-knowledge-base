@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.03725v1",
+  "title": "From Logs to Faults: Reference-Free Fault Localization for Retrieval-Augmented Generation Pipelines",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.03725",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-04T08:04:16Z",
+  "analyzed_at": "2026-11-04T08:04:17Z",
+  "organized_at": "2026-11-04T08:07:06Z",
+  "summary": "RAGLog 提出一种无需参考答案、无需代码埋点的 RAG 流水线故障定位方法：将异构 API 日志统一映射为 RAG schema，再融合规则、embedding 与 LLM 三类检查来判定出错阶段。它针对 RAG 多阶段依赖导致故障向下游传播、掩盖根因的痛点，并发布故障注入器与含 3,134 次运行、阶段级标注的 RAGLog Faults 数据集。实验显示其 F1 达 0.73，优于 Claude Code 与 Codex 等 agent 基线，单次分析约 5 秒、成本 0.005 美元，对 RAG 可观测性工程有直接参考价值。",
+  "tags": [
+    "rag",
+    "fault-localization",
+    "llm-observability",
+    "debugging",
+    "log-analysis"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hira Naveed, Scott Barnett, Stefanus Kurniawan, John Grundy, Chetan Arora, Hourieh Khalajzadeh, Omar Haggag",
+    "published": "Wed, 04 Nov 2026 00:00:00 -0500"
+  }
+}

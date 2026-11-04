@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.03832v1",
+  "title": "El Agente F\\'armaco: A Scalable AI Scientist for Drug Discovery",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.03832",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-04T08:04:16Z",
+  "analyzed_at": "2026-11-04T08:04:17Z",
+  "organized_at": "2026-11-04T08:07:06Z",
+  "summary": "该论文提出 El Agente Fármaco，一个面向计算药物发现的 LLM 驱动 AI 科学家系统，可将自然语言表述的发现目标转化为可扩展的分子筛选工作流。其核心创新是共享科学记忆 Fármaco Atlas，将分子、结构及结果连同来源信息统一存储，使 agent 通过定向数据库查询获取决策证据，而非把全部数据塞入上下文；同时支持对整批分子一次性发起计算，避免逐化合物调用 LLM。在回溯性对比中，其候选分子对接分数具竞争力且成药性更高，22 项任务基准上优于直接工具调用与 Codex，token 消耗与峰值上下文更低。",
+  "tags": [
+    "llm-agent",
+    "drug-discovery",
+    "scientific-workflow",
+    "agent-memory",
+    "tool-use"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Marcel M\\\"uller, Mohammad Ghazi Vakili, Yoshihiro Ogura, Ella Ashoori, Shimeng Wang, Alessandro S. Nascimento, Eddie Calleja, Yutong Zhao, Yimeng Liu, Ella Miray Rajaonson, Aiwei Yin, Jiaru Bai, Yunheng Zou, Abraham C. Stern, Varinia Bernales, Al\\'an Aspuru-Guzik",
+    "published": "Wed, 04 Nov 2026 00:00:00 -0500"
+  }
+}

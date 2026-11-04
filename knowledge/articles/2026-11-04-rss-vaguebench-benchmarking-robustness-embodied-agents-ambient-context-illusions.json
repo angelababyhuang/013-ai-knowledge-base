@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.03765v1",
+  "title": "VagueBench: Benchmarking the Robustness of Embodied Agents on Ambient Context Illusions",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.03765",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-04T08:04:16Z",
+  "analyzed_at": "2026-11-04T08:04:17Z",
+  "organized_at": "2026-11-04T08:07:06Z",
+  "summary": "该论文提出并量化了具身智能体的一种新失效模式——Ambient Context Illusion：当指令语义不变但省略了非必要的上下文细节时，智能体无法正确执行任务。作者基于 AI2-THOR 构建 VagueBench，按实体、流程、约束、先验知识四类九子型系统削减辅助信息，生成 1303 对语义等价指令，并用语义冗余估计与不变性验证保证质量。评测 6 个 SOTA 具身智能体显示任务成功率相对下降 19.65%、空计划率上升 54.10%，且在真实机器人上复现，说明模型过度依赖语言线索而非核心任务语义，对具身 Agent 鲁棒性评测有直接参考价值。",
+  "tags": [
+    "embodied-agents",
+    "benchmark",
+    "robustness",
+    "instruction-following",
+    "ai2-thor"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yang Qu, Qiang Fu, Zonghao Ying, Jiayi Zhao, Yaoyuan Zhang, Jinyang Guo, Jian Yang, Aishan Liu, Yingxun Wang, Xianglong Liu",
+    "published": "Wed, 04 Nov 2026 00:00:00 -0500"
+  }
+}

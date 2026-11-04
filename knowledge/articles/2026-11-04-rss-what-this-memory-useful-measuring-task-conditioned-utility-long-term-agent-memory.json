@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.03930v1",
+  "title": "What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.03930",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-04T08:04:16Z",
+  "analyzed_at": "2026-11-04T08:04:17Z",
+  "organized_at": "2026-11-04T08:07:06Z",
+  "summary": "该论文提出以「任务条件化效用」而非单一重要性分数来评估长期 Agent 记忆：由任务盲写入器存储记忆，冻结读取器在相同填充下带/不带该记忆回答后续任务，并记录形成、存储、暴露的成本。在 LongMemEval-V2 网页 Agent 记忆构建的事实回忆任务上，含答案信息的记忆带来 +0.33 的平均配对奖励增益，而任务盲摘要与结构化记录增益更小；该效应在软件工程与科学编程基准上不成立。价值在于给出可复现的评测协议与公开数据集，提示记忆压缩应按保留的任务效用加成本来比较。",
+  "tags": [
+    "agent-memory",
+    "memory-evaluation",
+    "long-term-memory",
+    "benchmark",
+    "task-utility"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chih-Hsuan Yang, Anjir Ahmed Chowdhury, Feng Yan, Rajeev Thakur",
+    "published": "Wed, 04 Nov 2026 00:00:00 -0500"
+  }
+}
