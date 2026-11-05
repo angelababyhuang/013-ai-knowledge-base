@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05524v1",
+  "title": "MA-SafeDiffuser: Safe Multi-Agent Planning with Diffusion Probabilistic Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05524",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "MA-SafeDiffuser 将单智能体 SafeDiffuser 扩展到多智能体场景，在扩散轨迹规划的反向去噪过程中嵌入控制屏障函数（CBF）约束，为联合智能体的安全规范提供有限时间不变性保证。论文形式化了由单智能体与成对屏障集交集构成的联合安全集，推导了集中式与通信感知的分布式约束去噪流程，并用时变规范与活性 CBF 缓解局部陷阱和死锁，同时提供多智能体 Maze2D 基准。其价值在于把扩散规划器的安全性从单智能体推广到多智能体并给出可证明保证，对多机器人协同与安全关键规划有参考意义。",
+  "tags": [
+    "diffusion-planning",
+    "multi-agent-systems",
+    "control-barrier-function",
+    "safe-reinforcement-learning",
+    "trajectory-optimization"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Kiran Ravish, Ankita Kushwaha,  Preeti, Pawan Kumar",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

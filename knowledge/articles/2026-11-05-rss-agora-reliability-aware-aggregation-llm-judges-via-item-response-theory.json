@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05556v1",
+  "title": "AGORA: Reliability-Aware Aggregation of LLM Judges via Item-Response Theory",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05556",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "AGORA 针对 LLM-as-a-judge 场景中多评委聚合的可靠性问题，提出基于项目反应理论（IRT）的聚合器：将所有待评项目映射到单一潜在质量尺度，并用敏感度参数与有序评分阈值刻画每个评委，从而在无人工标签条件下联合学习评委可靠性。相比 Dawid-Skene 等混淆表方法，它在小样本（数百条）和评委质量参差不齐时优势更明显，并提供无标签离散度指标预判信任加权是否有益。对做 LLM 评测、自动打分与模型选型的团队有直接参考价值。",
+  "tags": [
+    "llm-as-a-judge",
+    "item-response-theory",
+    "judge-aggregation",
+    "evaluation",
+    "reliability-weighting"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Junhyung Ahn",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

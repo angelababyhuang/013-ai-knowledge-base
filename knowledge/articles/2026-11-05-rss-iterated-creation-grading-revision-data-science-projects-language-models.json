@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05548v1",
+  "title": "Iterated creation, grading, and revision of data science projects by language models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05548",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "该论文构建了一个'写作者-评分者-修订'的多轮闭环实验，让7个来自5家厂商的模型（Anthropic、OpenAI、Google、DeepSeek、Z.AI）各自扮演写作者与评分者，完成从下载、清洗数据到分析并撰写短论文的端到端数据科学项目，共49个配对、147次初始提交、三轮迭代。结果显示平均分从59%升至76%，但提升幅度因模型角色差异极大（3至46个百分点），且模型自评普遍高出他人评分约9个百分点，约一半轮次间差异来自评分者自身噪声。其价值在于首次系统量化了'自我评估+迭代修订'智能体范式的真实收益与局限，揭示弱模型无法通过该循环提升强模型、自评偏差与评分噪声等关键问题，对设计多智能体评审与自动科研流水线有直接警示意义。",
+  "tags": [
+    "agentic-ai",
+    "self-evaluation",
+    "iterative-refinement",
+    "data-science-automation",
+    "llm-as-judge"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Rohan Alexander",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

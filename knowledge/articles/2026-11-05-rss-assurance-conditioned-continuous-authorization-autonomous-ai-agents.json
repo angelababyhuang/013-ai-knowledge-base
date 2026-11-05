@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05632v1",
+  "title": "Assurance-Conditioned Continuous Authorization for Autonomous AI Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05632",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "该论文提出 Assurance-Conditioned Continuous Authorization (ACCA) 框架，用于解决自主 AI Agent 在运行中动态更换模型、委派任务或改变执行环境时，原有授权可能失效的问题。其核心是将证据有效性与上下文适用性分离，通过类型化依赖图实现授权相关变更的选择性重评估，并引入 authority epoch 与 effect-time 强制机制在资源变更前拒绝过期动作。论文以交易场景回归测试验证默认拒绝、证据收缩恢复与陈旧动作拦截，属于 Agent 安全治理方向值得关注的实现级探索。",
+  "tags": [
+    "agent-authorization",
+    "continuous-authorization",
+    "agent-security",
+    "policy-enforcement",
+    "autonomous-agents"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mehdi Shajari",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

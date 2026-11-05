@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05590v1",
+  "title": "Verified but Vacuous: Three Failure Surfaces of LLM-Driven Verified Code Generation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05590",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "该论文指出，当前 LLM 生成代码的“验证通过率”被压缩成单一数字，掩盖了三类不同性质的失败：验证器接受（Surface A）、证明义务与形式化规格的语法绑定（Surface B）、规格本身对非形式需求的语义保真（Surface C）。作者用两个实验证明三者可分离：在 HumanEval 上，Dafny-as-IR 流水线达到 99.1% 验证器接受率，但仅 1.9% 的样本带有绑定到规格谓词的证书；即便在强制全可验证输出的 Rust 流水线上，仍有 11.48%–14.82% 结构验证通过的样本无法通过隐藏测试。该工作为评估“verified code generation”提供了更细粒度的审计框架，值得关注形式化验证与 LLM 代码生成交叉方向的研究者阅读。",
+  "tags": [
+    "verified-code-generation",
+    "formal-verification",
+    "llm-code-generation",
+    "specification-fidelity",
+    "benchmark-evaluation"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aditya Vempaty, Himaneesh Sompalle, Manan Tayal, Mowafak Allaham, Prasenjit Dey, Ashish Jagmohan, Ravi Kokku",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

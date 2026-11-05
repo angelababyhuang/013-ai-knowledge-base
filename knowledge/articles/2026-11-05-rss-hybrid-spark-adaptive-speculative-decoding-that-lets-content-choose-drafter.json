@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05611v1",
+  "title": "Hybrid Spark: Adaptive Speculative Decoding That Lets the Content Choose the Drafter",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05611",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "该论文提出 Hybrid Spark 框架，解决投机解码中模型型 drafter（如 DSPark）与无模型 drafter（如 n-gram 查表）难以共存的问题：前者通用但短，后者在代码编辑等重复输入场景下几乎零成本地给出长拷贝，但缺乏逐 token 置信度，无法参与自适应验证的预算分配。作者引入“每个被验证草稿 token 的价格”（即该槽位在批次其他位置可获得的 goodput）作为统一尺度，并用通用文本上一次性拟合的校准接受率给 n-gram token 赋置信度，从而在 vLLM 中同时运行两种 drafter 并逐请求择优，且全程在 GPU 上保持异步调度。实测代码编辑场景吞吐为 DSPark 的 1.10–1.62 倍（batch 4）与 1.04–1.27 倍（batch 128），聊天场景基本无损，使单次部署可同时服务两类负载。",
+  "tags": [
+    "speculative-decoding",
+    "llm-serving",
+    "inference-acceleration",
+    "vllm",
+    "adaptive-verification"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ekagra Ranjan, Bharat Venkitesh",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

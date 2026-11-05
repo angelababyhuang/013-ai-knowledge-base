@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05450v1",
+  "title": "Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05450",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "该论文提出 ReScopeBench，一个覆盖 18 个交互环境的基准，用于评估长生命周期 Agent 的“经验生命周期”——经验如何获取、复用与修订。它区分“结构经验”（环境如何组织与访问）与“规则经验”（跨任务可复用的原则与约束），并采用经验优先的任务流构建方式，在任务流中引入静默环境变更，以检验 Agent 能否保持经验时效性。对 20 个模型的评测显示：保留经验能提升任务表现，但环境变化后 Agent 难以更新经验，且即使经验被正确记录也未必能成功完成任务，揭示了“选择性维护”与“有效使用”两大互补挑战。",
+  "tags": [
+    "agent-benchmark",
+    "long-lived-agents",
+    "experience-reuse",
+    "continual-learning",
+    "environment-adaptation"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shijue Huang, Hangyu Guo, Hengheng Zhang, Guo An, Zhitao He, Qi Tian, Yiren Feng",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

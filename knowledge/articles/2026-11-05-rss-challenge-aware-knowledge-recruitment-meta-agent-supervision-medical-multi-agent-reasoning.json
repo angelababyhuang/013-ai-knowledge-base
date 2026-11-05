@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05393v1",
+  "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05393",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "该论文针对医疗问答中多智能体辩论在难题上不如强单模型提示的问题，提出“挑战感知自适应招募”框架：由外部 CHALLENGER 智能体实时审视推理轨迹，识别具体的事实或专业缺口，再触发针对性知识检索或中途引入专科智能体。在 MEDAGENTSBENCH 困难子集（862 题、9 个生物医学数据集）上，事前检索几乎无收益，而推理中按缺口检索在 8/9 数据集上提升准确率；CHALLENGER 触发的专家招募把 GPT-4.1-mini 的 MedQA 准确率从 46% 提到 54%。值得关注的是它揭示了“何时、为何引入外部资源”比“引入什么”更关键，且简单叠加检索与招募反而会掉点，说明多通道干预需要协调。",
+  "tags": [
+    "multi-agent-reasoning",
+    "medical-qa",
+    "adaptive-retrieval",
+    "meta-agent",
+    "llm-orchestration"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Riccardo Riccio, Haitz S\\'aez de Oc\\'ariz Borde, Pietro Li\\`o",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05620v1",
+  "title": "ViBench 2.0: A Benchmark for Long-Horizon Software Building",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05620",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "ViBench 2.0 是 Replit 团队提出的长程软件构建基准，针对现有编码基准只测单一、完全指定任务且接近饱和的问题。它用 17 个模仿常用软件的全栈 Web 产品，通过 241 个连续功能请求逐步扩展，由浏览器 agent 执行 544 个测试计划，只有全部通过才算构建成功。评测九个模型发现可靠性缺口：最强模型测试计划通过率可达 98%，但完整可用产品交付率仅 65%，开源权重模型无一成功；同时同一模型家族三代间 pass@1 从 3% 升至 53%、成本减半，显示能力快速提升。",
+  "tags": [
+    "long-horizon-tasks",
+    "coding-benchmark",
+    "agentic-engineering",
+    "browser-agent",
+    "full-stack"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Daniel Furman, Preeya Kirani, Ibrahim Sheikh, Zhen Li, Peter Zhong, Michele Catasta",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

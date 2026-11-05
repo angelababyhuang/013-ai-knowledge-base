@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05392v1",
+  "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05392",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "该论文针对由 LLM 驱动的 Agent 系统在调度时资源需求未知的问题，提出不确定性感知的 Agent 编排问题：Agent 流水线在运行中动态调用工具、写入记忆并迭代，其计算、带宽和延迟呈重尾多峰分布，传统依赖固定图或平稳需求模型的调度器不再适用。作者提出 CRO 在线算法，利用共形预测将滑动窗口内的历史执行轨迹转化为调度时的资源预留，并提供有限样本、无分布假设的概率覆盖保证。仿真显示其在满足覆盖目标的同时过预留最低，资源浪费约为 Chebyshev 基线的一半，对 Agent 基础设施调度有参考价值。",
+  "tags": [
+    "agentic-ai",
+    "resource-orchestration",
+    "conformal-prediction",
+    "llm-infrastructure",
+    "scheduling"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Masoud Shokrnezhad, Tarik Taleb",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

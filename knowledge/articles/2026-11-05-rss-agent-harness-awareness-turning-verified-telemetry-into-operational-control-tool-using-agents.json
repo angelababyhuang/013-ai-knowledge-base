@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05391v1",
+  "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05391",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "该论文指出工具型 Agent 存在“操作盲区”：工具描述只说明动作能做什么，却不说明当前是否健康可用，而执行框架掌握的健康状态信息并未传给决策模型。作者提出 Agent Harness Awareness 架构，由宿主在关键动作前注入小份、新鲜、经验证的状态快照，同时保留测量与最终调度权。在 ToolRoute 基准上，验证过的工具健康状态使策略遗憾降低 96.9%，单次调度完成率从 69.4% 升至 95.8%，并用 Toxiproxy 注入故障做了端到端复现。",
+  "tags": [
+    "agent-tool-use",
+    "telemetry",
+    "runtime-reliability",
+    "agent-architecture",
+    "benchmark"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Manu Agrawal, Shrey Nagpal",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

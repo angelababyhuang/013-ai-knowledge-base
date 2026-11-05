@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05390v1",
+  "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05390",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "该论文把多智能体系统中的审稿人机制重新表述为\"制度管辖权\"问题：在提案、任务信息、模型与审稿输出都相同的条件下，审稿人何时有权让建议具有约束力？作者比较了宽泛的覆盖权与\"证据门\"（审稿人必须先给出机械可验证的约束违反记录及合规修复，才允许替换原提案）。在两种本地开源模型、96 个空间政策任务及 96 个任务组合迁移基准上，证据门显著减少对正确提案的破坏，同时保留大部分对违规的修复；但前瞻验证显示，即使给审稿人保留/替换/升级的显式选择，Mistral 仍替换全部 48 个正确提案，说明接口设计能改变行为却非模型无关的安全保障。",
+  "tags": [
+    "multi-agent-review",
+    "llm-institutions",
+    "override-authority",
+    "ai-safety",
+    "benchmark"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Fuad Ali",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

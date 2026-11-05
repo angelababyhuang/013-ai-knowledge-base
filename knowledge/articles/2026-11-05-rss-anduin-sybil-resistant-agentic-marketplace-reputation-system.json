@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05586v1",
+  "title": "Anduin: A sybil-resistant agentic marketplace reputation system",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05586",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "这篇论文研究无许可链上市场中自主 AI Agent 选择服务提供者时的信誉问题：现有信誉系统依赖人工审核、身份凭证或自愿评价等稀缺资源，而单纯按交易量排名容易被 Sybil 攻击操纵。作者用 157 天、覆盖 16 条区块链、6600 万笔（价值 610 万美元）的 Agent 交易数据，把支付流建模为买卖双方二部图，基于买家已有信任网络的图路径推导提供者评分，并提出三种抗 Sybil 评分算法（最大流评分及两种松弛变体）。在 813 个买家与模拟攻击者的评估中，操纵评分需耗费买家总支出约 20%，难度约为协同过滤相似度规则的 23 倍。该工作为 Agent 经济中的去中心化信任机制提供了可量化的实证基础，值得关注 Agent 支付与链上信誉方向的研究者阅读。",
+  "tags": [
+    "sybil-resistance",
+    "agent-marketplace",
+    "reputation-system",
+    "onchain-payments",
+    "graph-algorithms"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Reza Ramji, Preston Vander Vos, Ziming Zeng, Duc V. Le",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}

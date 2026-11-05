@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.05394v1",
+  "title": "A Feasibility Condition for Confidence-Gated Tiered LLM Inference",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.05394",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-05T08:04:40Z",
+  "analyzed_at": "2026-11-05T08:04:40Z",
+  "organized_at": "2026-11-05T08:07:32Z",
+  "summary": "该论文研究分层 LLM 推理（端侧/边缘到数据中心）中基于置信度信号的路由决策，给出一个闭式可行性条件：当路由信号质量落在由无信号下界与完美信号上界构成的区间内时，任何阈值都无法让级联推理优于全部回退到后端。作者将路由建模为二元假设检验，用架构成本比 κ 分离本地与升级成本，并发现条件沿 κ 轴反转：本地算力计费时成本约束主导，本地算力沉没（去中心化硬件）时可行性无条件成立、信号质量只决定收益大小。价值在于为分层推理系统是否值得部署提供可判定的理论判据，并转化为三条设计需求，指出现有训练式原语无法同时满足。",
+  "tags": [
+    "tiered-inference",
+    "confidence-routing",
+    "llm-serving",
+    "edge-cloud",
+    "cost-model"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sumit P. Ahuja",
+    "published": "Thu, 05 Nov 2026 00:00:00 -0500"
+  }
+}
