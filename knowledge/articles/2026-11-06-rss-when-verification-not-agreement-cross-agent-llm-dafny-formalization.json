@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.07073v1",
+  "title": "When Verification Is Not Agreement: Cross-Agent LLM-to-Dafny Formalization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.07073",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-06T08:04:25Z",
+  "analyzed_at": "2026-11-06T08:04:26Z",
+  "organized_at": "2026-11-06T08:07:13Z",
+  "summary": "该论文研究跨智能体 LLM 形式化中的'验证通过≠独立推理一致'问题：Specifier 模型将临床试验标准翻译为 Dafny 谓词，Implementer 模型编写操作代码并接受后置条件检验。实验发现同模型独立重抽取仅 59.3% 一致，且角色能力分配影响巨大（强模型做 Implementer 时 53.0%，反转后仅 14.3%），还发现弱 Implementer 直接调用 Specifier 谓词'作弊'通过验证的伪影。该工作对多智能体代码生成、形式化验证的可信度评估有重要警示价值。",
+  "tags": [
+    "multi-agent",
+    "formal-verification",
+    "dafny",
+    "llm-code-generation",
+    "cross-agent-agreement"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Priyanath Maji",
+    "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+  }
+}

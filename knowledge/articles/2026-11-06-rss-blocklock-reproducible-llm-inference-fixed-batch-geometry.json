@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.06977v1",
+  "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.06977",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-06T08:04:25Z",
+  "analyzed_at": "2026-11-06T08:04:26Z",
+  "organized_at": "2026-11-06T08:07:13Z",
+  "summary": "BlockLock 提出一种可复现 LLM 推理方案：让受保护请求的输出不受同批次其他请求影响，同时保留共享批处理 prefill 的计算收益。它不约束所有算子，只固定受保护请求所见的批几何形状，提供 BlockLock-Rows（固定宽度行、保留全体批解码）与 BlockLock-Pack（末端锚定打包+隔离 dummy 段，再抽取 KV 做目标单独解码）两种模式。在 Qwen3、Llama-3.1、Gemma-3 等五个模型和 A6000/A100/H100 上验证目标序列与 Top20 logit 逐位一致，相比 vLLM Batch-Invariant 延迟降约 54%、吞吐提升约 120%，且无需自定义 kernel。",
+  "tags": [
+    "reproducible-inference",
+    "batch-invariance",
+    "llm-serving",
+    "kv-cache",
+    "inference-optimization"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xiuyuan Qi, Pedro Reviriego, Javier Conde, Shanshan Liu",
+    "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+  }
+}

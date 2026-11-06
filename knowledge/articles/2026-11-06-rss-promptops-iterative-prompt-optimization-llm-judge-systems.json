@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.07123v1",
+  "title": "PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.07123",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-06T08:04:25Z",
+  "analyzed_at": "2026-11-06T08:04:26Z",
+  "organized_at": "2026-11-06T08:07:13Z",
+  "summary": "该论文把部署后的 LLM-as-a-Judge 性能漂移问题形式化为 judge drift，提出 PromptOps 闭环框架，将维护拆解为四个决策：何时优化、用哪种优化流程、用哪些反馈记录、如何更新提示词。作者用 GEPA、SIMBA、Rubric Synthesis 及基于模拟退火/TPE 的示例选择五种方法实例化框架，实验表明迭代优化可在参考分数分布受控偏移后恢复评审性能，但最优算法与更新时机高度依赖具体场景。值得关注的是它把提示词优化从一次性开发集调优转向持续运维问题，为线上评审系统的长期可靠性提供了可操作的抽象。",
+  "tags": [
+    "llm-as-a-judge",
+    "prompt-optimization",
+    "judge-drift",
+    "evaluation",
+    "mlops"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sven Kleinkop, Tam\\'as Janusko, Ricardo Bochnia, Gunnar Hempel, Steffen Tomschke, J\\\"urgen Anke, Maik Thiele",
+    "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+  }
+}

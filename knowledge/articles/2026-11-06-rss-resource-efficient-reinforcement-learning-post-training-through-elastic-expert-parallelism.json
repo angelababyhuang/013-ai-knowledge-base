@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.06984v1",
+  "title": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.06984",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-06T08:04:25Z",
+  "analyzed_at": "2026-11-06T08:04:26Z",
+  "organized_at": "2026-11-06T08:07:13Z",
+  "summary": "该论文针对 MoE 大模型强化学习后训练中响应生成阶段的算力浪费问题提出 FlexFloor 系统。基线中约三分之一被占用的 worker 时间发生在本地响应生成结束之后，原因是这些 worker 的专家仍被处理长响应的其他 worker 依赖，无法提前释放。FlexFloor 联合调整响应调度与活跃 worker 组，利用历史响应长度和显存约束指导批处理与 prompt 放置，在保持专家可用性和通信正确性的前提下渐进释放 worker。相比 verl 基线，单位占用算力时间的响应 token 产出提升约 65.4%，吞吐提升 52.7%，且 rollout reward 基本不变，对 RL 后训练基础设施优化有直接参考价值。",
+  "tags": [
+    "rl-post-training",
+    "mixture-of-experts",
+    "expert-parallelism",
+    "resource-scheduling",
+    "llm-infrastructure"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jia Wei, Ziyi Qiu, Yi Xu, Xuehai Qian",
+    "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+  }
+}

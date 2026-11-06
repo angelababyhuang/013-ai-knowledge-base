@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.07051v1",
+  "title": "Closed-Loop Agent Evaluation: Layered Measurement and Self-Calibration",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.07051",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-06T08:04:25Z",
+  "analyzed_at": "2026-11-06T08:04:26Z",
+  "organized_at": "2026-11-06T08:07:13Z",
+  "summary": "该论文提出\"闭环评估\"（closed-loop evaluation）框架，用于已上线运行的 Agent 效果评估，而非仅检测报错。它将评估建模为\"有偏评分者+截断结果\"下的性能估计问题，要求每层结论可回溯到原子数据并由版本化规则计算；覆盖 span、trace、conversation、engagement 四层分析，沿 Execution、Substance、Trajectory、Results 主轴度量，并以 Conduct 作为约束。通过内环审计证据与规则、外环做组件级回归检查驱动 Agent 改进，还给出自动化流水线。案例显示证据-规则判定比整体打分更可靠（ICC 0.86 vs 0.81，kappa 0.81 vs 0.63），对做 Agent 线上质量监控的团队有直接参考价值。",
+  "tags": [
+    "agent-evaluation",
+    "closed-loop-evaluation",
+    "llm-as-judge",
+    "observability",
+    "self-calibration"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ruifeng Ren, Gun Ahn",
+    "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+  }
+}

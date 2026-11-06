@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.07066v1",
+  "title": "Cooperative Multi-Agent Reinforcement Learning via Epigraph-Form Guided Exploration",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.07066",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-06T08:04:25Z",
+  "analyzed_at": "2026-11-06T08:04:26Z",
+  "organized_at": "2026-11-06T08:07:13Z",
+  "summary": "EFXPLORER 提出一种约束式探索框架，用于合作多智能体强化学习：把内在奖励从团队目标中解耦，通过 epigraph 重构引入自适应探索预算，在保证既有任务性能的约束下最大化探索目标，并用基于 successor distance 的内在奖励捕捉长时程依赖。该方法在 SMAX、VMAS、MPE 三个基准上优于强基线，并能诱导出新的合作策略。值得关注的是它给出了一个可复用的原则——探索不应以牺牲任务性能为代价，而应通过可行性约束来调节。",
+  "tags": [
+    "multi-agent-rl",
+    "exploration",
+    "constrained-optimization",
+    "intrinsic-reward",
+    "cooperative-learning"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sungil Son, Hoseong Jung, Dahyun Oh, H. Jin Kim",
+    "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+  }
+}

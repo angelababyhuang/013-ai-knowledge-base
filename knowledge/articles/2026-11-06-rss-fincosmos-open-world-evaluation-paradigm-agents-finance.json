@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.07464v1",
+  "title": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.07464",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-06T08:04:25Z",
+  "analyzed_at": "2026-11-06T08:04:26Z",
+  "organized_at": "2026-11-06T08:07:13Z",
+  "summary": "FINCOSMOS 提出面向金融领域语言智能体的开放世界评测范式，针对现有基准通过固定任务、数据或时间线而掩盖智能体真实失败的问题。它用组合语法生成隐藏投资策略，由模拟用户按需披露，智能体须自行从 Web 获取数据、在数据截止点下构建回测并交付可验证结果；评分无需参考答案，由程序校验时点正确性、重算指标、比对隐藏策略，并需通过 15 项否决检查。在 150 次会话中，四个编码智能体与一个无工具模型无一被接受，人类专家将 88.33% 的失败归因于智能体，显示该基准对现有智能体构成严峻挑战。",
+  "tags": [
+    "financial-agents",
+    "agent-benchmark",
+    "open-world-evaluation",
+    "backtesting",
+    "tool-use"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yupeng Cao, Xueqing Peng, Lingfei Qian, Haohang Li, Yangyang Yu, Anke Xu, Wenbo Cao, Yan Wang, Yuechen Jiang, Yuyan Wang, Zhuohan Xie, Yankai Chen, Zehan Li, Jimin Huang, Xue Liu, Jian-Yun Nie, Sophia Ananiadou",
+    "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+  }
+}

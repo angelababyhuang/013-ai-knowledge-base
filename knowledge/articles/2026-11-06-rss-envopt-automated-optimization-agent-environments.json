@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.07372v1",
+  "title": "EnvOpt: Automated Optimization for Agent Environments",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.07372",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-06T08:04:25Z",
+  "analyzed_at": "2026-11-06T08:04:26Z",
+  "organized_at": "2026-11-06T08:07:13Z",
+  "summary": "EnvOpt 提出在模型参数与 harness 之外，把「静态环境」（如公司 Slack 工作区、文档/工单集合等被多任务共享的环境）作为第三个可优化维度，用真实或合成任务自动端到端优化环境表示，无需评分器或参考答案。在 AutomationBench 上使 Claude Haiku 4.5 成本降 72.7%、通过率升 14.34%，并可迁移到 Opus 5 与 Meta-Harness 之上继续叠加收益。核心洞见是「信息如何呈现给 agent」同时决定成本与成功率，为 agent 工程提供了参数与 harness 之外的新优化轴。",
+  "tags": [
+    "agent-environment",
+    "prompt-optimization",
+    "cost-reduction",
+    "agent-harness",
+    "automated-optimization"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mingxuan Li, Huanzhi Mao, Qiuyang Mang, Hanchen Li, Joseph E. Gonzalez, Alex Dimakis",
+    "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+  }
+}

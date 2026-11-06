@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.07482v1",
+  "title": "SAVeR$^2$: Reasoning-based Safety Alignment for Large Reasoning Models via Verifiable Rewards",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.07482",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-06T08:04:25Z",
+  "analyzed_at": "2026-11-06T08:04:26Z",
+  "organized_at": "2026-11-06T08:07:13Z",
+  "summary": "该论文针对大型推理模型（LRM）在显式思维链推理中引入的安全风险，提出 SAVeR² 安全对齐方法。它将安全目标拆解为四个细粒度可验证奖励信号，配合难度感知数据选择稳定训练，并用推理保持梯度投影机制解析地消解安全与推理梯度冲突，从而消除“安全税”。在 1.5B 至 671B 模型上的实验显示安全性能提升、过度拒答率下降且不损推理能力，对做 RLHF/安全对齐的团队有直接参考价值。",
+  "tags": [
+    "safety-alignment",
+    "large-reasoning-models",
+    "verifiable-rewards",
+    "gradient-projection",
+    "rlhf"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yichen Sun, Qirui Liu, Yan Wang, Jianan Lin, Linbo Jiang, Shiyu Wang, Zhibo Wang, Zhixuan Chu",
+    "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+  }
+}

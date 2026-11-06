@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.06972v1",
+  "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.06972",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-06T08:04:25Z",
+  "analyzed_at": "2026-11-06T08:04:26Z",
+  "organized_at": "2026-11-06T08:07:13Z",
+  "summary": "KDASO 提出一种知识-数据双驱动的自动化技能库优化框架，用于责任判定类任务（如法律罪名认定、网约车责任划分）。它针对现有 LLM 技能库的三个痛点：技能随现实演化而过时、技能描述与专家执行逻辑存在语义鸿沟、技能规模膨胀超出上下文预算导致关键技能遗漏，分别设计了基于近期判定数据的邻域条件归纳、基于 LLM 轨迹分析的对齐式精炼、以及上下文预算感知的路由选择。实验显示其在多个责任判定与逻辑推理任务上优于通用及领域基线，跨相似场景迁移提升 8.96%，对构建可持续演进的领域 Agent 技能体系有参考价值。",
+  "tags": [
+    "skill-library",
+    "llm-agent",
+    "legal-reasoning",
+    "context-budget",
+    "automated-optimization"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zi-Jian Cheng, Weiming Wu, Jie Meng, Zhen Peng, Shan Huang, Qun Li, Guobing Wu, Lan-Zhe Guo",
+    "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+  }
+}

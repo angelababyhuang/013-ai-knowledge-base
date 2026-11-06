@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.06989v1",
+  "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.06989",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-06T08:04:25Z",
+  "analyzed_at": "2026-11-06T08:04:26Z",
+  "organized_at": "2026-11-06T08:07:13Z",
+  "summary": "该论文针对企业多智能体 AI 系统的成本核算难题，指出财务侧只有按 SKU 和结算周期聚合的账单数据，无法回答\"某笔订单/理赔/工单消耗了多少 AI 成本\"，因为云厂商与模型提供商看不到企业的业务交易边界。作者形式化了这种\"结算粒度 vs 交易粒度\"的错配，提出双账本模型：符合 FOCUS 规范的结算账本 + 基于 OpenTelemetry GenAI 遥测的调用粒度归因账本，通过 trace context、A2A/MCP 元数据、业务键关联与概率匹配构成分层关联脊柱，并用版本化费率卡近实时计价、周期对账识别影子 AI。仿真显示在 trace 传播降为零时成本覆盖率仍超 99%，对账残差可在 0.24 个百分点内恢复未计量支出，中途门控可降低 p99 交易成本达 61%。值得关注的是它把 AI FinOps 从\"账单分摊\"推进到\"按业务结果核算\"，并试图推动调用粒度 FOCUS 标准化。",
+  "tags": [
+    "ai-cost-accounting",
+    "multi-agent-systems",
+    "finops",
+    "opentelemetry",
+    "cost-attribution"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Vivek Acharya",
+    "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+  }
+}
