@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08669v1",
+  "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08669",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "ChainFlow 提出一种新的投机解码范式：以目标模型隐藏状态为条件的流匹配草稿器，把草稿生成视为隐藏状态上的短程传输，只需 1-2 步流匹配而非从噪声做多步去噪。它用 VAE 压缩隐藏状态以控制草稿成本，用轻量反馈头恢复 token 间依赖，并用树状草稿提升接受率。在 Qwen3.5 上同规模同数据下比 EAGLE-3 和 DFlash 分别快 39% 和 11%，代码与草稿模型开源，对 LLM 推理加速有直接参考价值。",
+  "tags": [
+    "speculative-decoding",
+    "flow-matching",
+    "llm-inference",
+    "latent-diffusion",
+    "inference-acceleration"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Selim Aktas, Yusuf Erdem Erdem, Ahmed Zeer, Himmet Toprak Kesgin, Muzaffer Kaan Yuce, Mehmet Fatih Amasyali",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}

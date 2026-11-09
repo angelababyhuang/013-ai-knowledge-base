@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08644v1",
+  "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08644",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "该论文指出 LLM Agent 无法跨会话从用户纠正中学习，现有记忆系统只存事实性偏好而非程序性行为知识。作者提出 Forge Decision Context（forge_dc），从人类纠正和工具调用失败中提取行为信号，编译为祈使式 RULE 指令，并在对应决策点注入。在自建 DC-Bench（71 场景、9 个行为维度）上达到 95% 合规率（朴素检索仅 55%），且每查询注入 token 减少约 10 倍，为 Agent 持久行为记忆的表示、激活与注入位置设计提供了实证依据。",
+  "tags": [
+    "agent-memory",
+    "behavioral-learning",
+    "llm-agents",
+    "prompt-injection",
+    "benchmark"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Nima Vahdat, Pashootan Vaezipoor",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}

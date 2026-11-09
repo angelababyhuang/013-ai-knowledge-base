@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08837v1",
+  "title": "Solver-Admitted Metamorphic Testing of Learned Network Optimization Surrogates",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08837",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "该论文提出一种带显式资格条件、输出对齐和数值阈值的蜕变测试方法，用于审计学习型优化求解器代理在等价编码下预测不一致的问题。作者在 AC-OPF、TSP、CVRP 和 MIS 四类任务上测试 GridSFM-Open、POMO、DIFUSCO 等模型，发现它们在旋转/反射、不相交并等关系上存在大量违反（如 POMO 在 100 城市时违反率高达 89.5%），且随机初始化模型也几乎同样失败，说明问题源于架构而非训练。论文主张将蜕变一致性作为与最优性、可行性并列的评测维度，对可信 AI for Optimization 有方法论价值。",
+  "tags": [
+    "metamorphic-testing",
+    "neural-combinatorial-optimization",
+    "solver-surrogates",
+    "robustness-evaluation",
+    "trustworthy-ai"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Vineet Jagadeesan Nair, Stephen Peng, Arun Ravindran",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}

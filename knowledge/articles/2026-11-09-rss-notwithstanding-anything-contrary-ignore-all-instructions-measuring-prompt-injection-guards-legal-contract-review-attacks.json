@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08834v1",
+  "title": "Notwithstanding Anything to the Contrary, Ignore All Instructions: Measuring Prompt Injection Guards on Legal Contract Review Attacks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08834",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "该论文针对法律合同审查场景，系统评测了11个开源提示注入防护模型，发现现有防护在真实合同文本上误报率高达92.39%，部分模型AUC甚至低于随机水平，而一个仅含五条正则的基线在Pareto意义上未被任何防护模型超越。作者进一步用受控探针定位模型特定与通用失效模式，并提出用LLM级联（中端模型初筛+前沿模型复核）以约1/6.5成本逼近前沿模型效果。这是少见的在垂直高风险领域量化提示注入防护真实可用性的实证研究，对部署文档分析系统的团队有直接警示价值。",
+  "tags": [
+    "prompt-injection",
+    "llm-security",
+    "legal-tech",
+    "guardrails",
+    "evaluation-benchmark"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mark Heimann, Katherine Taylor, Bruno Jacob",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}

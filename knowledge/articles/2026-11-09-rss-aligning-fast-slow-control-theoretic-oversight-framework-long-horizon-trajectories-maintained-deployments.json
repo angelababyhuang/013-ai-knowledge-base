@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08781v1",
+  "title": "Aligning, Fast and Slow: A Control-Theoretic Oversight Framework for Long-Horizon Trajectories and Maintained Deployments",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08781",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "该论文提出一个控制论视角的 AI 智能体监督框架，将监督拆成快慢两个回路：快回路审查智能体提出的每个动作，慢回路审查跨任务持久化的记忆、代码与配置变更，并在模型或工具更新后重新评估。作者在测量误差与检查间变化有界、控制器能强制执行决策的假设下，推导出部署级行为偏离上界和审查预算分配规则。模拟显示，把固定审查预算分给两个回路，比只审查单次运行的平均最大偏离降低约十二倍；编码与交易压力测试也显示组合控制能降低问题严重度。该框架的价值在于为开发者与审计者提供可比较、可执行的监督设计方法，而非只关注单次任务通过率。",
+  "tags": [
+    "ai-safety",
+    "agent-oversight",
+    "control-theory",
+    "long-horizon",
+    "deployment-monitoring"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Stephen Peng, Vineet Jagadeesan Nair, Noah Broestl, Anne Friederike Kleppe, Steven Mills, Adi Zolotov",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}

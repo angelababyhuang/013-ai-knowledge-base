@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08640v1",
+  "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08640",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "APT 提出一种无需训练的测试时选择方法：把 best-of-n 采样得到的候选解组织成单败淘汰赛，每场比赛由多个现成的“方面验证器”分别给出成对偏好投票，再汇总决定胜者。相比二元多维度打分、自洽性和奖励模型验证，它在五个领域、三个生成模型上均更优，开放式任务提升最大，且用户可用自然语言指定关注方面来引导选择。核心价值在于把“比较优于绝对打分、分方面优于笼统判断”的直觉工程化，零训练即可跨域迁移。",
+  "tags": [
+    "test-time-compute",
+    "best-of-n",
+    "pairwise-comparison",
+    "llm-reasoning",
+    "verifier"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hannah Guan, Yilun Du",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}

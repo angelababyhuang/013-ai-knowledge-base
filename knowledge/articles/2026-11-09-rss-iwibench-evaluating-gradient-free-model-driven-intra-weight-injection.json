@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08647v1",
+  "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08647",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "IWIBench 是首个系统评测「权重内注入」（intra-weight injection）能力的基准：让大模型在不使用梯度的情况下，直接读写小模型（如 Gemma 3 4B IT）的权重张量，以实现十类文本编辑目标（如别名习得、输出格式控制、事实更新），同时保持模型其他能力不变。评测限制编辑器只能使用四种读写工具，并设有张量访问范围和 rollout 预算，再由验证器在干净环境中应用补丁并对比原模型。结果显示，不同模型和任务之间的能力差异极大，仅少数前沿模型（如 Astra、GPT-6.1 Sol）明显领先，且这种能力似乎是近期训练才获得的，说明该方向仍处于早期且发展不均衡的前沿。",
+  "tags": [
+    "weight-editing",
+    "model-editing",
+    "benchmark",
+    "gradient-free",
+    "llm-agents"
+  ],
+  "relevance_score": 0.7,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chris von Csefalvay, Pranav Doma, Achyuthan Unni Krishnan, Tam\\'as F\\\"oldi",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}

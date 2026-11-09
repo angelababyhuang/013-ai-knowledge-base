@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08811v1",
+  "title": "I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08811",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "该论文研究针对大型推理模型（LRM）的“思维注入”攻击：将伪装成模型自身推理痕迹的不可信文本回灌给模型，利用其显式思维链阶段开辟的新攻击面。作者先系统评测不同风格、带/不带 thinking 标签的静态注入提示，发现效果高度依赖具体目标模型；随后在容器化智能体网络靶场中，用模仿目标模型自身推理风格的间接注入提示，对反向 shell 外传、仓库后门等操作目标实现最高 50% 的攻击成功率，而同样目标以普通用户口吻注入则从未成功，且 thinking 标签会抑制智能体披露注入行为。结论是模仿推理风格是有效攻击手法，剥离标签并非可靠防御，对构建推理型 Agent 的安全防护有直接警示价值。",
+  "tags": [
+    "thought-injection",
+    "prompt-injection",
+    "reasoning-agents",
+    "llm-security",
+    "agentic-cyber-range"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Parth Illendula, Garik Livingston, Zain Shamsi, Ravi Srinivasan, Alex Liu",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08666v1",
+  "title": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08666",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "该论文在 SWE-bench Verified 全部 500 个实例上，将仅用交互式调试器的编码 agent 与仅用 bash 的 agent 在固定其余 scaffold 的前提下做对照，覆盖 GPT-OSS-120B 与 Nemotron-3-Ultra-550B 两个模型各三次独立运行。作者提出跨 agent 的 pass_X@k 指标，用于区分接口专长与重复采样带来的覆盖扩张。结论是 bash 与调试器 agent 解出的子集看似互补，实则主要源于运行间随机方差，两次 bash rollout 优于一次 bash 加一次调试器，提醒社区评估工具多样性时必须控制随机性。",
+  "tags": [
+    "coding-agents",
+    "debugging",
+    "swe-bench",
+    "evaluation-methodology",
+    "pass-at-k"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ryan Magnuson, Ellie Kitanidis, Ariel Lee",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}

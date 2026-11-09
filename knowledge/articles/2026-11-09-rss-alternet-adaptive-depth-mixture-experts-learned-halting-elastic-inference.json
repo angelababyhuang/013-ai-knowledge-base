@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08741v1",
+  "title": "AlterNet: Adaptive-Depth Mixture-of-Experts with Learned Halting for Elastic Inference",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08741",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "该论文提出 AlterNet，将浅层专家构成的混合专家（MoE）架构与动态深度机制结合，使 LLM 的前向计算量可按任务自适应调整：模型通过专家内部的 halting 机制与序列级深度路由，自动决定迭代计算步数，并引入深度编码跟踪进度、正则化鼓励高效利用算力。其亮点在于训练后无需重训即可按部署环境降级推理，为弹性推理与成本控制提供架构级方案，对关注 MoE 与自适应计算的研究者值得一读。",
+  "tags": [
+    "mixture-of-experts",
+    "adaptive-computation",
+    "dynamic-depth",
+    "elastic-inference",
+    "llm-architecture"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Alexander Kastius",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}

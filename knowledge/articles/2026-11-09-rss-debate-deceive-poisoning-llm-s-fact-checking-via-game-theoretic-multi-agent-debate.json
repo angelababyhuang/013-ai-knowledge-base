@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08756v1",
+  "title": "Debate to Deceive: Poisoning LLM's Fact-Checking via Game-Theoretic Multi-Agent Debate",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08756",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "该论文提出 Debate-to-Deceive (D2D) 框架，利用多智能体辩论机制对 LLM 的事实核查能力实施知识投毒攻击。它将对抗过程建模为进化博弈，让智能体在 Logos/Pathos/Ethos 三种修辞策略空间中自适应演化，并把行为解耦为策略选择层与文本生成层，从而生成语义连贯、修辞有效且能规避早期确认偏误的对抗段落。在 FEVER、HealthVer、CLIMATE-FEVER、SciFact 四个基准上显著超越现有攻击并绕过多数防御，对理解 LLM 事实核查的鲁棒性边界与红队测试有参考价值。",
+  "tags": [
+    "multi-agent-debate",
+    "adversarial-attack",
+    "fact-checking",
+    "game-theory",
+    "llm-robustness"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Liting Huang, Huizhi Liang, Yi Lei, Xingjun Ma, Varun Ojha",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}

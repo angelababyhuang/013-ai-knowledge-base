@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.08684v1",
+  "title": "Cancellation Is Not Enough: What Retries Leave Behind in an Overloaded LLM Engine",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.08684",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-09T08:05:29Z",
+  "analyzed_at": "2026-11-09T08:05:29Z",
+  "organized_at": "2026-11-09T08:08:33Z",
+  "summary": "本文针对 LLM 推理引擎（vLLM）在瞬时过载后难以恢复的问题展开实证研究：客户端重试会持续压垮引擎，即使请求量已低于容量。作者通过三个开源模型的过载实验与调度器追踪发现，仅传播取消（cancellation）无法恢复服务，过载后仅 12-38% 的请求被成功交付；原因是重试请求常在超时前不到 0.5 秒才开始 prefill，被中止的执行浪费了 79-85% 已计算的 prompt token，且 vLLM 的 token 计数器漏计三分之一到一半。重试预算可恢复服务但丢弃大量请求，请求合并（request coalescing）则能交付全部请求。该文为 LLM 服务过载控制的设计与评估指标提供了重要实证依据。",
+  "tags": [
+    "llm-serving",
+    "vllm",
+    "overload-control",
+    "retry-storm",
+    "request-cancellation"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xindan Zhang, Fei Wang",
+    "published": "Mon, 09 Nov 2026 00:00:00 -0500"
+  }
+}
