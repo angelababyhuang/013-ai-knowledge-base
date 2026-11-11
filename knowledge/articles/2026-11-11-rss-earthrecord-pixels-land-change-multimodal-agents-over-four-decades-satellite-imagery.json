@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.12934v1",
+  "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.12934",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-11T08:04:11Z",
+  "analyzed_at": "2026-11-11T08:04:12Z",
+  "organized_at": "2026-11-11T08:07:07Z",
+  "summary": "EarthRecord 是一个面向多模态智能体的基准，用 56 个站点、四十年 Landsat/MODIS/VIIRS/Sentinel-2 原始卫星影像（云掩膜与跨传感器协调都交给智能体）提出 238 个土地变化问题，覆盖十类分析任务。它填补了现有基准只用精选图像或预处理输入的空白，并设计“闭卷”和“仪器配对”两组对照，检验答案究竟来自影像还是先验知识。评测十二个多模态智能体发现：多数能端到端完成分析，但在需要从影像映射答案时失效，且篡改单一卫星数据后约半数正确答案随之改变，说明智能体尚未真正追踪地表变化。",
+  "tags": [
+    "multimodal-agents",
+    "remote-sensing",
+    "benchmark",
+    "earth-observation",
+    "tool-use"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Haoran Zhang, Huizhen Sun, Hanbin Wen, Jie Leng, Jiaxin Zhu, Zhaohua Sun",
+    "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.13006v1",
+  "title": "Seeing Is Not Believing: Counterfactual Lesion Erasure Teaches a Small Medical Vision-Language Agent to Report Only What the Image Shows",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.13006",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-11T08:04:11Z",
+  "analyzed_at": "2026-11-11T08:04:12Z",
+  "organized_at": "2026-11-11T08:07:07Z",
+  "summary": "该论文针对医疗视觉语言模型（VLM）的“证据盲从”问题：模型常因问题中提及某病灶就报告该病灶，而非真正依据图像证据。作者利用公开分割数据集自动构建反事实视图（病灶被修复擦除、同形状对照编辑、无病灶原图），提出证据敏感度差距（ESG）指标，并用标签派生轨迹训练小模型 MedScope-4B（Qwen3.5-4B + LoRA + 图像工具）。结果显示其 ESG 达 0.758，远超前沿模型，但在外部中心对真实病灶（如气胸）的检出能力不足，说明该训练只赋予模型“证据门控”倾向而非提升感知能力，对医疗 AI 可信度评估有参考价值。",
+  "tags": [
+    "medical-vlm",
+    "counterfactual-evaluation",
+    "vision-language-agent",
+    "hallucination-mitigation",
+    "evidence-grounding"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bhaskar Gurram",
+    "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+  }
+}

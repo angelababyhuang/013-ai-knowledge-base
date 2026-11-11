@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.12970v1",
+  "title": "TrustMod-SM: A Multi-Axis Benchmark for Evaluating Trustworthiness of LLMs in Social Media Content Moderation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.12970",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-11T08:04:11Z",
+  "analyzed_at": "2026-11-11T08:04:12Z",
+  "organized_at": "2026-11-11T08:07:07Z",
+  "summary": "TrustMod-SM 是一个面向社交媒体内容审核场景的 LLM 可信度多维度评测基准，覆盖约 2.9 万条样本、8 个数据集，从真实性、公平性、安全性、鲁棒性和上下文完整性五个维度评估模型。作者测试了 16 个开放权重模型（0.5B–284B，含纯文本与视觉语言架构）及一个闭源前沿模型，发现检测准确率越高往往伴随更大的人口统计差异，模型易被诱导配合隐瞒或夸大，对错误预测给出高置信度，很少升级模糊案例，且难以区分仇恨言论与反击言论或群体 reclaimed 用语。该工作揭示了规模扩展并不能统一解决可信度问题，对内容审核系统选型与安全对齐研究有直接参考价值。",
+  "tags": [
+    "llm-evaluation",
+    "content-moderation",
+    "trustworthiness-benchmark",
+    "fairness",
+    "safety-alignment"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Aizan Zafar, Sreekantam Sai Venkata, Gathik Jindal, Ritu Raj Sharma, Zishan Ahmad, Tulika Saha, Srinath Srinivasa",
+    "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+  }
+}

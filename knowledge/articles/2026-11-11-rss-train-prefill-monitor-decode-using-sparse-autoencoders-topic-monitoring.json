@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.12935v1",
+  "title": "Train on prefill, monitor at decode: Using sparse autoencoders for topic monitoring",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.12935",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-11T08:04:11Z",
+  "analyzed_at": "2026-11-11T08:04:12Z",
+  "organized_at": "2026-11-11T08:07:07Z",
+  "summary": "TopicScope 提出一种基于稀疏自编码器（SAE）特征的因果话题分类框架，能在生成过程中为每个 token 打上话题标签，并允许标签在回答中途切换。作者用合成多话题对话训练三种检测器，覆盖七个话题；关键发现是仅在 prefill 阶段隐状态上训练的监控器能泛化到 decode 阶段，且对插入离题内容、删减话题、重排段落等扰动较稳健（macro-F1 最多降 5 点）。消融显示不用 SAE 达到同等性能需大数倍模型，说明 SAE 特征可低成本构建紧凑在线监控器，拓展了 SAE 在安全分类之外的用途。",
+  "tags": [
+    "sparse-autoencoders",
+    "topic-monitoring",
+    "interpretability",
+    "activation-monitoring",
+    "llm-guardrails"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Rishikesh Mallagundla, Pranav Patel",
+    "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+  }
+}

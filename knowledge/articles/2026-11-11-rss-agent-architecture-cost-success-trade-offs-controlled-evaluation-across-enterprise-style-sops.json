@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.12953v1",
+  "title": "Agent Architecture Cost-Success Trade-offs: A Controlled Evaluation across Enterprise-Style SOPs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.12953",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-11T08:04:11Z",
+  "analyzed_at": "2026-11-11T08:04:12Z",
+  "organized_at": "2026-11-11T08:07:07Z",
+  "summary": "该论文在固定模型、任务与工具的前提下，仅改变智能体架构，对13个企业级SOP（标准操作流程）做受控对比，比较函数调用单智能体、技能增强单智能体、集中式多智能体编排与分诊蜂群四类设计共八个实验组。核心结论是：不存在普适最优架构，架构选择依赖具体SOP；多智能体或技能增强方案消耗1.4-4.7倍token和2.6-5.8倍延迟，收益却通常不显著，单智能体是高效默认；实现质量比“单智能体还是多智能体”的选择更重要，经过针对性重设计的多智能体是唯一显著超越基线的方案。其价值在于用受控实验为企业选型提供稀缺的量化证据，而非凭直觉堆叠架构。",
+  "tags": [
+    "multi-agent",
+    "agent-architecture",
+    "enterprise-workflows",
+    "cost-efficiency",
+    "empirical-evaluation"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Subhrangshu Nandi, Hitesh Arora, Yunfei Bai, Udita Patel, Chirag Shah, Hannah Kwon, Wei Zhang, Weian Chen, Chloe Ruoqi Li, Alberto Sconfienza, Ayush Goyal, Yasmine Lee, Ming Xiong, Prathap Ramachandra",
+    "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+  }
+}

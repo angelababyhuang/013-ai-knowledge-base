@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.12966v1",
+  "title": "BuySideFlow: A Point-in-Time Benchmark for LLM Agents in Investment Research",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.12966",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-11T08:04:11Z",
+  "analyzed_at": "2026-11-11T08:04:12Z",
+  "organized_at": "2026-11-11T08:07:07Z",
+  "summary": "BuySideFlow 是面向投资研究场景的 LLM Agent 时点有效性（point-in-time, PIT）基准，包含 408 个由从业者设计的中文任务，覆盖股票、基金、固收与宏观，基于持牌生产金融数据库的固定快照，并提供可执行参考结果与时间错误分类体系。它解决的核心问题是：Agent 生成的 SQL/SQL-Python 工作流即使结果正确，也可能违反披露截止日或选错历史版本。评测九个 Agent 配置准确率仅 16.2%–36.8%，且对 100 个任务 900 次运行的审计发现，通过结果校验的运行中 50.8% 仍存在 PIT 违规，说明仅看输出一致性无法保证时间有效性，对金融 Agent 评测与数据检索可靠性研究有直接参考价值。",
+  "tags": [
+    "llm-agents",
+    "benchmark",
+    "financial-research",
+    "text-to-sql",
+    "temporal-validity"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dong Bo, Fanjin Zhang, Ke Cheng, Xinxin Zhao, Xiaowei Su, Yang Wang, Jinghang Xu, Cuiping Li, Hong Chen, Jing Zhang",
+    "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.12958v1",
+  "title": "Embodied Science Agents: Making Embodied Experimental Design Learnable",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.12958",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-11T08:04:11Z",
+  "analyzed_at": "2026-11-11T08:04:12Z",
+  "organized_at": "2026-11-11T08:07:07Z",
+  "summary": "该论文指出当前自驱动实验室（SDL）存在'具身悖论'：大模型虽提升了语言规划能力，却把模型当作无身体的规划器，输出符号化流程交给独立机器人执行，切断了物理接地，阻碍具身实验直觉的形成。作者提出从认知、实验、具身三个维度嵌入可学习性，并构建具身科学智能体ESA，由数字智能体（记忆推理+贝叶斯优化）、具身智能体（通用仪器控制）和统一接口协同组成。在废水处理自主实验中，ESA在2亿种可能条件中经15轮连续实验将透光率从82%提升至99.7%，残留染料降低98.5%，且学到的视觉运动策略可跨仪器布局泛化，为下一代自主科学发现实验室提供可行路径。",
+  "tags": [
+    "embodied-agents",
+    "self-driving-labs",
+    "ai-for-science",
+    "bayesian-optimization",
+    "robotic-control"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yihang Che, Zhongwei Yu, Yang Li, Xingyu Lu, Hongxia Yu, Jun Wang",
+    "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+  }
+}

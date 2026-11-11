@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.12950v1",
+  "title": "SetPrint: Black-Box LLM Fingerprinting via Setwise Correspondence of Response Changes",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.12950",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-11T08:04:11Z",
+  "analyzed_at": "2026-11-11T08:04:12Z",
+  "organized_at": "2026-11-11T08:07:07Z",
+  "summary": "SetPrint 是一种无需训练的黑盒 LLM 指纹识别方法，用于判断目标模型是否由源模型衍生而来，仅依赖对输入查询的输出响应。它通过扰动查询、对比两模型响应变化集合，同时利用集合内关系与集合间对应性，在 LeaFBench 上优于现有免训练方法。该工作对模型溯源、版权保护与模型窃取检测有参考价值。",
+  "tags": [
+    "llm-fingerprinting",
+    "black-box-model",
+    "model-provenance",
+    "training-free",
+    "model-security"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jinmo Han, Ju Yeon Kang, Jimin Hong, Sunghwan Ahn, Yonghyeon Jun, Nam Soo Kim",
+    "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+  }
+}

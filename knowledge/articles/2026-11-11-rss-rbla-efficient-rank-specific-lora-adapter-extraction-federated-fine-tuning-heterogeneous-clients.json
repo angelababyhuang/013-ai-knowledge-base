@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.12961v1",
+  "title": "RBLA+: Efficient Rank-Specific LoRA Adapter Extraction for Federated Fine-Tuning with Heterogeneous Clients",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.12961",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-11T08:04:11Z",
+  "analyzed_at": "2026-11-11T08:04:12Z",
+  "organized_at": "2026-11-11T08:07:07Z",
+  "summary": "该论文研究联邦微调场景下客户端使用不同 LoRA 秩时的聚合与适配器提取问题。服务器需要从聚合后的全局模型为每个客户端构造其指定秩的 LoRA 适配器，直接截断前缀虽便宜但重建误差大，稠密 SVD 虽最优但计算开销高。RBLA+ 借助紧凑 QR 分解与 core-SVD 在不显式构造稠密更新的前提下最小化 Frobenius 误差，并统一处理客户端与服务端的缩放约定。在视觉与语言任务上优于 RBLA，CPU 基准上提取速度快于稠密部分 SVD 基线，且保持各客户端适配器尺寸与通信负载不变，对异构联邦 LoRA 系统有直接工程参考价值。",
+  "tags": [
+    "federated-learning",
+    "lora",
+    "low-rank-adaptation",
+    "model-aggregation",
+    "svd"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shuaijun Chen, Omid Tavallaie, Xin Chen, Wentao Gao, Nguyen Tran, Albert Y. Zomaya",
+    "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+  }
+}

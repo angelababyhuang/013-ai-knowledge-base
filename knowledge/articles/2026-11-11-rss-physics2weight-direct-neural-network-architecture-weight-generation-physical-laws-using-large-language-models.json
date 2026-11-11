@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.12954v1",
+  "title": "Physics2Weight: Direct Neural Network Architecture and Weight Generation from Physical Laws Using Large Language Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.12954",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-11T08:04:11Z",
+  "analyzed_at": "2026-11-11T08:04:12Z",
+  "organized_at": "2026-11-11T08:07:07Z",
+  "summary": "该论文提出 Physics2Weight（PtW），把 LLM 的权重空间编程（WSP）从通用网络扩展到偏微分方程求解：根据控制方程与初边值条件，直接生成神经网络权重并编辑架构，无需梯度优化。方法引入物理约束提示与物理引导的架构编辑，并结合 WSP 的迭代权重精修，在热传导、平流、Burgers 和 Allen-Cahn 四个 PDE 上取得比 PINN 更低的解误差，但揭示非线性 PDE 下难以严格满足控制方程的局限。值得关注的是它探索了 LLM 直接产出可执行物理求解器这一新范式，同时诚实暴露了物理一致性的瓶颈。",
+  "tags": [
+    "weight-space-programming",
+    "physics-informed-neural-networks",
+    "pde-solving",
+    "llm-for-science",
+    "architecture-editing"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shogo Sato, Tomoyasu Shimada, Kazuhiko Murasaki, Takashi Sano",
+    "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+  }
+}
