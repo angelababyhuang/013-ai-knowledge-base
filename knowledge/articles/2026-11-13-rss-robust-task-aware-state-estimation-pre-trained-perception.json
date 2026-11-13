@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.14781v1",
+  "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.14781",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-13T08:04:03Z",
+  "analyzed_at": "2026-11-13T08:04:04Z",
+  "organized_at": "2026-11-13T08:06:55Z",
+  "summary": "该论文针对使用预训练感知模型（如 VLM）进行状态估计的智能体，指出将不确定预测确定化为单一最佳猜测会导致决策脆弱，而维护完整概率分布又不可行。作者提出折中方案：利用感知模型输出的底层概率（如 VLM 输出层 token 分布）构建 θ-置信最小信念集（MBS_θ），即累计概率达到用户指定阈值的最小状态子集，并设计三层信念系统与 PRaVaSS 算法高效近似状态概率、保证正确性且多项式复杂度。在任务规划流水线中以 VLM 为骨干的验证表明，该方法能提升下游决策的鲁棒性，对构建可靠 LLM/VLM 智能体具有参考价值。",
+  "tags": [
+    "belief-state-estimation",
+    "vision-language-models",
+    "uncertainty-quantification",
+    "task-planning",
+    "robust-decision-making"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Guy Azran, Sarah Keren",
+    "published": "Fri, 13 Nov 2026 00:00:00 -0500"
+  }
+}

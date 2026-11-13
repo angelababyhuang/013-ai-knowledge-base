@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.14769v1",
+  "title": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.14769",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-13T08:04:03Z",
+  "analyzed_at": "2026-11-13T08:04:04Z",
+  "organized_at": "2026-11-13T08:06:55Z",
+  "summary": "该论文系统性地揭示了基于偏好对比的模型排行榜（如 Chatbot Arena 类竞技场排名）存在可被恶意利用的操纵漏洞，提出并验证了三种攻击方式：策略性投票（含对无关模型的投票）、策略性提示词选择以及策略性提名（插入无关模型以抬高目标模型排名）。作者在公开排行榜数据上实证了这些攻击，单个攻击可将模型排名提升 15-20 位，组合使用可提升多达 45 位，并分析了漏洞成因及相应的防御措施。该研究对所有采用 Bradley-Terry 模型且允许开放提示、投票或模型提交的偏好评估体系具有普遍警示意义，对依赖排行榜做模型选型的团队尤为值得关注。",
+  "tags": [
+    "leaderboard-manipulation",
+    "preference-evaluation",
+    "bradley-terry-model",
+    "llm-benchmarking",
+    "evaluation-security"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Eve Fleisig, Joachim Baumann, Dylan Hadfield-Menell, Dirk Hovy",
+    "published": "Fri, 13 Nov 2026 00:00:00 -0500"
+  }
+}

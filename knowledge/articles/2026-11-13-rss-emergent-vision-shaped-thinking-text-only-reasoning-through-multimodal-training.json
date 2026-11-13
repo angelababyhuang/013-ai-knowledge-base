@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.14942v1",
+  "title": "Emergent Vision-Shaped Thinking in Text-Only Reasoning through Multimodal Training",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.14942",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-13T08:04:03Z",
+  "analyzed_at": "2026-11-13T08:04:04Z",
+  "organized_at": "2026-11-13T08:06:55Z",
+  "summary": "该论文通过跨6个模型家族、10种多模态配置的因果消融实验，发现多模态训练会重塑纯文本推理的隐藏状态几何结构：在Chameleon-7B中消融视觉-语言轴投影后，BBH导航任务准确率下降27.6个百分点，而布尔表达式任务反而上升5.6个百分点，形成33.2个百分点的双重分离。作者提出“涌现视觉化思维”（EVT）概念，指纯文本推理会因果性地调用视觉-语言训练引入或强化的表征，但不预设内部格式是图像式的。研究还揭示双路径统一模型中因果手柄位于生成路径的紧凑一维载体，理解路径虽可探测解码空间信息却非因果通道，为行为、探测与干预结果的分歧提供了解释。",
+  "tags": [
+    "multimodal-training",
+    "causal-ablation",
+    "reasoning",
+    "representation-geometry",
+    "vision-language"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Qi Zhang, Bohan Wang, Qianru Sun, Hanwang Zhang",
+    "published": "Fri, 13 Nov 2026 00:00:00 -0500"
+  }
+}

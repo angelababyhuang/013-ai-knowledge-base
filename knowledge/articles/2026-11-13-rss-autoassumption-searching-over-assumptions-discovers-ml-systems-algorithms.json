@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.14844v1",
+  "title": "AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.14844",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-13T08:04:03Z",
+  "analyzed_at": "2026-11-13T08:04:04Z",
+  "organized_at": "2026-11-13T08:06:55Z",
+  "summary": "该论文提出 AutoAssumption：把算法写成 Lean 证明图，使假设显式化，再让 LLM 每次放松一个假设、重新推导并生成代码，从而把算法设计变成可审计的结构化搜索。作者形式化了 KV-cache 淘汰、权重剪枝、投机解码共 89 个算法，在淘汰与剪枝任务上均超越所对比的已发表方法并达到 SOTA，效果与 AlphaEvolve 开源实现 OpenEvolve 相当且方差更小。值得关注的是它把'打破假设'这一发现机制工程化，为 ML 系统算法自动发现提供了可验证的新范式。",
+  "tags": [
+    "llm-algorithm-discovery",
+    "lean-proofs",
+    "kv-cache-eviction",
+    "speculative-decoding",
+    "automated-reasoning"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Igor Sadalski, Minghao Guo, Benjamin Jones, Wojciech Matusik",
+    "published": "Fri, 13 Nov 2026 00:00:00 -0500"
+  }
+}

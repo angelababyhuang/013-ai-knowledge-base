@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.14949v1",
+  "title": "RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.14949",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-13T08:04:03Z",
+  "analyzed_at": "2026-11-13T08:04:04Z",
+  "organized_at": "2026-11-13T08:06:55Z",
+  "summary": "该论文提出 RSI-PDEbench，一个包含 1001 个案例、42 类方程模板的偏微分方程求解基准，覆盖无噪声、强噪声和分布外泛化三种评测设置，用于检验 LLM Agent 能否自动完成方程发现、系数估计与数值求解器配置。作者同时提出 RSI-PDE 递归自改进框架：先用残差损失筛选候选方程，再依据相对 L2 误差反馈迭代优化系数与求解器，并通过验证门控决定是否更新策略与记忆。在四个前沿模型上，该框架相比单次运行基线通过率提升 106.5%–181.9%，相比原生 Agent 框架提升 3.0%–19.6%，同时减少约 47% 的模型调用，为科学计算场景中的可验证递归自我改进提供了实证依据。",
+  "tags": [
+    "llm-agents",
+    "pde-solving",
+    "self-improvement",
+    "scientific-computing",
+    "benchmark"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Binghang Lu, Lang Cao, Changhong Mou, Yige Sun, Cindy Xiangrui Kong, Zheyuan Deng, Tian Yuan, Bing Hu, Runyu Zhang, Na Lu, Guang Lin",
+    "published": "Fri, 13 Nov 2026 00:00:00 -0500"
+  }
+}

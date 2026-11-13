@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.14910v1",
+  "title": "MuEdit: An efficient multi-task editing method towards inter-domain knowledge conflicts",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.14910",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-13T08:04:03Z",
+  "analyzed_at": "2026-11-13T08:04:04Z",
+  "organized_at": "2026-11-13T08:06:55Z",
+  "summary": "MuEdit 针对大模型在异构领域上连续做知识编辑时出现的“多任务崩溃”问题，把原因归结为跨领域零空间错位：不同任务诱导出不同的 Jacobian 几何，使公共零空间急剧收缩，可用于无冲突更新的方向不足。作者提出 Conflict Index 量化这种几何干扰，并用冲突感知排序和动态低秩近似两种手段缓解冲突。该工作为多任务知识编辑提供了可解释的几何视角和可落地的算法，对需要持续更新模型知识的工程场景有参考价值。",
+  "tags": [
+    "knowledge-editing",
+    "multi-task-learning",
+    "null-space",
+    "model-update",
+    "llm"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Songshi Liang, Ting-En Lin, Zixuan Huang, Yuchuan Wu, Yongbin Li, Zihe Wang, Rui Yan",
+    "published": "Fri, 13 Nov 2026 00:00:00 -0500"
+  }
+}

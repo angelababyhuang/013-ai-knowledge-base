@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.14681v1",
+  "title": "Together Compiler: Continual Compilation for AI Inference",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.14681",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-13T08:04:03Z",
+  "analyzed_at": "2026-11-13T08:04:04Z",
+  "organized_at": "2026-11-13T08:06:55Z",
+  "summary": "Together AI 提出 TKCC，一个面向 AI 推理的持续编译系统，用 agent 爬山循环自动把部署编译成优化后的前向计算。它针对现有方案在测量吞吐与保真度之间的权衡，设计分层持久引擎解耦启动开销与计算，并用成本模型选择并行配置作为优化起点。在 Llama 1B 上比手写 Megakernel 快 1.7 倍，在 Kimi K3、DeepSeek v4.1 Flash 等前沿模型上 TPS 最高提升 2.6 倍，batch size 1 下达到 1111/1205 TPS，并已在生产集群服务数万亿 token，展示了 agent 驱动编译器在真实推理场景的落地价值。",
+  "tags": [
+    "inference-optimization",
+    "agent-compiler",
+    "continual-compilation",
+    "llm-serving",
+    "megakernel"
+  ],
+  "relevance_score": 0.74,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Reyna Abhyankar, Dylan Lim, Drew Wadsworth, Venkata Hasith Vattikuti, YuTong Julia Zhang, Jung Hwan Heo, Taeksang Kim, Kesavan Ramakrishnan, Evangelene Stanley, Xinyu Fang, Daniel Y. Fu, Simran Arora",
+    "published": "Fri, 13 Nov 2026 00:00:00 -0500"
+  }
+}

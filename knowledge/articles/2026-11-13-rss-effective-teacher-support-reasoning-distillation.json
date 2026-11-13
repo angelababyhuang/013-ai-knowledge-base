@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.14850v1",
+  "title": "Effective Teacher Support for Reasoning Distillation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.14850",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-13T08:04:03Z",
+  "analyzed_at": "2026-11-13T08:04:04Z",
+  "organized_at": "2026-11-13T08:06:55Z",
+  "summary": "该论文研究前向KL语言模型蒸馏中教师分布支撑集裁剪的问题：传统方法在每个监督位置对全词表计算稠密教师分数，存储与训练开销大。作者提出只保留教师概率最高的词表子集并重新归一化，将支撑集从100%逐步缩减到0.01%，在Qwen3 4B→1.7B主实验及8B→4B、Nemotron Nano 12B→9B上验证。结果显示Qwen3在0.01%支撑下MMLU-Pro无退化，且缓存保留分数使训练步时降低38%、峰值内存降低24%；但Nemotron在更小比例下无法输出结束推理标签，说明可靠截断点依赖模型族。该工作为推理蒸馏提供了低成本、可落地的工程优化思路。",
+  "tags": [
+    "knowledge-distillation",
+    "forward-kl",
+    "reasoning-models",
+    "vocabulary-pruning",
+    "training-efficiency"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Lavinia Ghita, Dhruv Desai",
+    "published": "Fri, 13 Nov 2026 00:00:00 -0500"
+  }
+}

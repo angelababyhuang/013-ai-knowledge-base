@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.14654v1",
+  "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.14654",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-13T08:04:03Z",
+  "analyzed_at": "2026-11-13T08:04:04Z",
+  "organized_at": "2026-11-13T08:06:55Z",
+  "summary": "该论文研究工具型 LLM Agent 的历史清理（压缩、修复、交接）问题，指出历史编辑的效果取决于外部世界状态是否同步修正。作者提出冻结 Agent 于任务中途、分别编辑历史或世界的实验框架，在 AgentCE-Bench 与 AppWorld 上验证：在错误仍留在世界时，添加真实注释可提升恢复率（51%→66%），而伪造已完成动作反而降低表现（50%→44%）；数据库写入场景中成功回执在效果缺失时使任务成功率从 45% 降至 28%，效果存在时则从 38% 升至 49%。核心结论是“看起来干净但世界仍含错误”的历史编辑可能比不编辑更糟，对 Agent 记忆管理与交接系统设计有直接警示。",
+  "tags": [
+    "agent-memory",
+    "history-compaction",
+    "tool-use-agents",
+    "world-state",
+    "agent-handoff"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Egor Pakhomov, Anurag Koul, Hongjun Liu, Bo Pang, Shafiq Joty, Erik Nijkamp",
+    "published": "Fri, 13 Nov 2026 00:00:00 -0500"
+  }
+}

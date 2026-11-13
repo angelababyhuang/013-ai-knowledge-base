@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.14960v1",
+  "title": "Termination Lag: Coding Agents Solve Early but Stop Late",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.14960",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-13T08:04:03Z",
+  "analyzed_at": "2026-11-13T08:04:04Z",
+  "organized_at": "2026-11-13T08:06:55Z",
+  "summary": "该论文提出并量化了编码智能体的“终止滞后”（termination lag）现象：智能体往往在首次生成正确补丁后仍继续运行大量步骤。作者跨 5 个模型、2 个智能体框架和 3 个 SWE-bench 数据集，记录并测试执行过程中产生的每个不同仓库补丁，发现 38–82% 的成功运行在第一次源码编辑时就已正确，但成功运行中解决方案之后的步骤占中位数 35–37%（Qwen3-Coder）乃至 54–60%（Laguna-XS.2），这些额外步骤主要用于自我验证与仓库探索，并有 1–8% 的情况反而撤销了原本正确的补丁导致最终失败。该工作揭示了智能体停止判据与成本控制这一被忽视的失效模式，对设计早停机制、降低 token 开销与提升最终正确率有直接启示。",
+  "tags": [
+    "coding-agents",
+    "termination-lag",
+    "swe-bench",
+    "agent-evaluation",
+    "early-stopping"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Musa Cim, Burak Topcu, Mahmut Taylan Kandemir",
+    "published": "Fri, 13 Nov 2026 00:00:00 -0500"
+  }
+}

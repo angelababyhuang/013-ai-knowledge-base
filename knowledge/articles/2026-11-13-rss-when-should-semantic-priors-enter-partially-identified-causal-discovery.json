@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.14736v1",
+  "title": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.14736",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-13T08:04:03Z",
+  "analyzed_at": "2026-11-13T08:04:04Z",
+  "organized_at": "2026-11-13T08:06:55Z",
+  "summary": "该论文研究在部分可识别的因果发现中，如何安全地引入 LLM 语义先验来定向因果边。作者把问题拆成三个决策：语义查询分配、提案准入、DAG 保留，并区分总体不可识别性与有限样本不稳定性，用统计与随机对照评估语义定向。基准实验显示语义信息优于随机定向，但针对不稳定边分配并无优势，校准准入证书无法支持非平凡准入，且学习到的参考仅覆盖 80 个任务中的 3 个真 DAG，揭示校准规模与参考充分性是关键瓶颈。",
+  "tags": [
+    "causal-discovery",
+    "llm-priors",
+    "identifiability",
+    "calibration",
+    "dag-structure-learning"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Muhammad Ahmed Mohsin, Saad Bin Ather, Valentin Six, Lancelot Da Costa, Tommaso Salvatori, Bernhard Scholkopf",
+    "published": "Fri, 13 Nov 2026 00:00:00 -0500"
+  }
+}
