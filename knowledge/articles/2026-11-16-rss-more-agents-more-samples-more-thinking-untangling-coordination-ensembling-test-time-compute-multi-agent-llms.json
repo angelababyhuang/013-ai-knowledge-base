@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17610v1",
+  "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17610",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "这篇论文系统性地拆解了多智能体 LLM 评测中常见的混淆：把通信架构与单次贪心推理直接对比，实际上混入了样本数量与推理算力的差异。作者汇总九项实证评估、516 种多智能体配置，按资源向量与基线阶梯重新对齐比较，发现当样本数或资源预算匹配后，多智能体平均准确率反而低约 0.042，74% 的对比不优于基线。结论是：智能体共享相同证据时通信不带来新信息，只有证据分区、外部验证或模型间错误多样性才能产生正收益，并给出审稿清单与核算工具。",
+  "tags": [
+    "multi-agent-systems",
+    "evaluation-methodology",
+    "test-time-compute",
+    "llm-ensembling",
+    "agent-coordination"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Seyed Mahmoud Sajjadi Mohammadabadi",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}

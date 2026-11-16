@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17620v1",
+  "title": "Safety Side Effects of Preventative Persona Steering: An Empirical Audit",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17620",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "该论文对「预防性人格向量引导」（preventative persona steering）这一安全对齐方法进行实证审计。Chen 等人此前提出，在微调阶段加入谄媚、幻觉等人格向量、评估时再移除，可在不损失 MMLU 能力的前提下抑制不良特质；本文在三个模型上同时测量特质表达、连贯性、MMLU 与三个安全基准，发现该方法仍会改变拒答行为，且变化幅度随特质而异，因此不能视为安全中性。价值在于提醒对齐实践者：仅用能力指标验证引导方法不够，需多基准评估安全副作用。",
+  "tags": [
+    "persona-vectors",
+    "activation-steering",
+    "safety-alignment",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sabrina Tang, Nikolai Vo, Carson Murillo, Chira Sukumarnpiti, Sarah Wilson",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}

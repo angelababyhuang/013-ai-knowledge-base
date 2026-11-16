@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17632v1",
+  "title": "Generated Evaluation Suites as Diversity-Driven Search for Real Agent Regressions",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17632",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "该论文指出，从 agent 规格生成评测套件本质上是在描述符空间（需求×用户画像×场景类型）中做多样性驱动的搜索，但现有做法只报告套件平均通过率，丢掉了搜索产物本身的信息。作者向 τ²-bench agent 注入 7 个受控缺陷，证明覆盖率构成检测上限：若缺陷足迹内基线通过的场景数为 b，则其对 N 个场景套件的贡献至多 b/N，5 个可追踪缺陷中有 4 个的上限低于检测阈值 0.10。论文据此提出应按单元格（per-cell）评分，并将覆盖率作为一等属性发布，对 agent 评测设计有直接方法论价值。",
+  "tags": [
+    "agent-evaluation",
+    "benchmark-design",
+    "test-generation",
+    "coverage-analysis",
+    "tau-bench"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Pulkit Yadav",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}

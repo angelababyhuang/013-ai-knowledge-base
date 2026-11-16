@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17621v1",
+  "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17621",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "AscendGYM 是面向昇腾 NPU 的核函数优化基准，包含 48 个核函数、分三个难度等级，测试用例的张量形状与数据类型取自真实 LLM 训练和推理负载，因此性能提升可直接映射到实际工作负载。它支持模型评测与模型加 harness 评测两种模式，内置搜索编排与经验积累机制，并提出了兼顾加速比与 token 成本的 Speedup-Token Score 指标。与只关注核函数生成的既有基准不同，它侧重考察 Agent 在真实输入配置下优化已有实现的能力，对研究 NPU 上的 LLM 系统优化与 Agent 自动调优有参考价值。",
+  "tags": [
+    "ascend-npu",
+    "kernel-optimization",
+    "benchmark",
+    "llm-systems",
+    "agent-evaluation"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "AI Training Platform Team, Bingwei Zhang, Jing Li, Amir Abdullin, Sihang Chen, Xin Chen, Liangjun Feng, Yingmeng Gao, Tao Guo, Junjie Huang, Dongfang Li, Zhanglian Lin, Jiajun Liu, Zekun Liu, Zhengxuan Lu, Xiaodong Luo, Jian Meng, Ivan Nosov, Linyuan Qiu, Weijian Sun, Wanrui Yan, Binfan Zheng, Zhicheng Zhou, Baotian Hu, Min Zhang, Haizhou Li, Zhiquan Luo",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}

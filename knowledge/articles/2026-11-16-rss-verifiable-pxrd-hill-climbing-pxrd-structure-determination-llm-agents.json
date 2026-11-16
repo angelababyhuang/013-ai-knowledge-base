@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17539v1",
+  "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17539",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "该论文将粉末X射线衍射（pXRD）晶体结构解析重构为可验证的智能体搜索问题：推理时用正向模拟的衍射图谱一致性评估候选结构，评测时用与已知参考结构的匹配度验证。作者提出 pXRD-Bench（200 个模拟单相问题，覆盖分布内、多晶型及成分/拓扑分布偏移），通过智能体适配将结构恢复率从 27% 提升至 69%，并结合重复采样与验证器引导的推理时扩展。进一步用自生成合成问题构建“反思进化”框架，扩展到实验多相 pXRD，在 15 个实测图谱上提升图谱一致性并迁移出参考库中缺失相位的解析流程。该工作把 LLM 智能体与可验证奖励结合，为自驱动材料实验室的自主表征提供可复现基准与方法。",
+  "tags": [
+    "llm-agents",
+    "materials-science",
+    "agentic-search",
+    "benchmark",
+    "verifier-guided-reasoning"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Samuel Chen, Jiaru Bai, Austin Henry Cheng, Varinia Bernales, Al\\'an Aspuru-Guzik",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}

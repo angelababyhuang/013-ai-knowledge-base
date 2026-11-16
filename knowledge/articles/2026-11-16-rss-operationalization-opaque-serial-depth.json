@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17495v1",
+  "title": "An Operationalization of Opaque Serial Depth",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17495",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "该论文提出 NLS depth（自然语言根节点深度）这一可操作指标，用于量化模型在可解释瓶颈之外能进行多少未言明的串行推理，即'不透明串行深度'。作者将瓶颈定义为由预训练先验初始化、输出空间未扩展、且未被改造为其他数据类型的自然语言根节点，从而可在训练前仅凭架构、训练配方和部署配置判定该指标，且不受提示、蒸馏、RL 等后训练影响。研究发现开放权重模型的 NLS 深度与层数强相关，近年增长缓慢，而全带宽 Transformer 等潜在推理架构可能大幅提升该值。论文建议开发者将 NLS depth 作为 CoT 可监控性的补充指标进行跟踪报告，对 AI 安全与可解释性研究有直接参考价值。",
+  "tags": [
+    "chain-of-thought",
+    "monitorability",
+    "interpretability",
+    "ai-safety",
+    "architecture-analysis"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Nathan Sheffield, Alek Westover, Lukas Finnveden, Alexa Pan, Julian Stastny, Ryan Greenblatt",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}

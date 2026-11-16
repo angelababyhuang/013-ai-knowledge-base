@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17339v1",
+  "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17339",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "这篇论文针对端侧小模型（Phi-3-mini、Llama-3.2-3B、Qwen2.5-3B、Gemma-2-2B，4-bit 量化）做了一次可复现的单卡审计，比较四类幻觉检测器：长度归一化 token-margin 校准、词法 n-gram 基线、语义熵与 SelfCheckGPT-NLI。核心发现是跨模型排名不可迁移（Spearman rho=-0.80，排名甚至反转），且廉价词法基线在统计上与采样一致性方法无显著差异，说明高成本检测器在小模型上未必更优。论文还揭示 TruthfulQA-Generation 的 token 重叠标注器本身近乎随机（AUROC 0.46-0.59），属于标注失败而非检测器失败。对在资源受限设备上部署 LLM 的工程师有直接参考价值。",
+  "tags": [
+    "hallucination-detection",
+    "on-device-llm",
+    "quantization",
+    "uncertainty-estimation",
+    "evaluation-benchmark"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shubhra Mittal, Gaurav Naresh Mittal",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17639v1",
+  "title": "What LLM Agents See and What Users Say",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17639",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "这篇论文研究 LLM Agent 在执行不可逆操作（取消预订、删除文件夹）前，如何判断工具返回的信息与用户陈述是否足以支撑行动。作者借用语言学的预设理论，提出一个安全边界：当查询无法区分一条记录与两条记录时，Agent 在两条记录和一条记录的情况下不问就行动的概率相同。实验发现，仅给出角色提示时，多数模型看到“计数为2”仍会对看到的那条记录行动，而“列出两条”能阻止大多数；用户声称“文件夹是空的”这类被记录反驳的断言也能显著抑制行动。最新 Claude 与 GPT 模型会先打开被计数的第二条记录再决定不动手。在零售基准中加入同名同邮编客户后，约四分之一对话出现错误账户写入。结论是安全写入需要能列出或校验竞争记录的查询设计，以及能变化工具展示内容的评测方法。",
+  "tags": [
+    "llm-agents",
+    "agent-safety",
+    "tool-use",
+    "presupposition",
+    "benchmark-evaluation"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yue Zhao, Angela Huyue Zhang, S. Alex Yang, Hua Wei, Xiyang Hu",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17524v1",
+  "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17524",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "该论文提出 Model Annealing 训练范式：当小数据集被模型记忆后，剩余训练预算不再用于拟合 one-hot 标签，而是转入多轮 reheated episode，从模型自身历史快照的预测记忆与对抗性 dream 中重新学习，以巩固知识。记忆对预测取平均而非对权重取平均，部署时仍用最后一个学生网络，推理零额外开销。在 CIFAR-100、Tiny-ImageNet、Imagewoof 上覆盖四种架构与 5%-100% 标签比例，33 组配置中 28 组优于交叉熵训练，平均提升 1.3 点，且在似然、校准与鲁棒性上优于 snapshot distillation。值得关注的是它把\"训练后期该学什么\"这一被忽视的问题转化为自蒸馏+对抗样本的复习机制，并给出 reheats 与 relearning 的消融分析。",
+  "tags": [
+    "model-annealing",
+    "self-distillation",
+    "data-efficient-learning",
+    "training-schedule",
+    "calibration-robustness"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ali Mohammadi Ruzbahani, Rezvan Abouzadeh",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17340v1",
+  "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17340",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "这篇论文把多 LoRA 适配器的选择问题重新定义为适配器输出空间中的表征对齐问题，提出无需训练的 LoRAWeaver 路由方法：用余弦相似度将适配器条件下的查询表征与任务原型匹配，从而在推理时选出最合适的适配器。它针对的是适配器池不断增长、现有路由器和编码器方法每加新适配器就得重训的痛点，在 LLaMA-2-7B/13B 的 48 任务 FLAN-v2 及 OOD 任务上超过免训练基线，并逼近训练过的检索编码器。对需要动态扩展多任务适配器的工程场景有直接参考价值。",
+  "tags": [
+    "lora",
+    "adapter-routing",
+    "parameter-efficient-finetuning",
+    "representation-alignment",
+    "training-free"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Inish Melroy D Souza, Tom Jackson, Vitor Castro, Rebecca Higginson, Andrea Soltoggio",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17662v1",
+  "title": "Learn then Bet: Learning Interpretable Rules for Reliable Agent Intervention",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17662",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "LeBet 提出一个统计学习框架，用于自动学习可解释的 OR-of-AND 运行时监控规则，决定自主 Agent 运行何时应被停止、升级或介入。它用固定 betting 统计量累积证据，在有限样本与留一稳定性假设下给出假阳性控制与检测功效的训练条件保证，并用随机局部搜索求解布尔规则组合优化。在 SWE-bench Lite 上节省约 34% token 且提升输出精度，值得关注的是它把 Agent 干预从手工启发式转为有统计保证的可学习规则。",
+  "tags": [
+    "agent-monitoring",
+    "runtime-intervention",
+    "interpretable-rules",
+    "statistical-guarantees",
+    "swe-bench"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "You-Lin Chen, Xinyi Lisa Chen, Pedro Herrero-Vidal, Xiaojing Yu, Bingqing Song, Bin Xu",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}

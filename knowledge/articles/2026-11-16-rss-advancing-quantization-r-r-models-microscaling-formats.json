@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17501v1",
+  "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17501",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-16T08:12:19Z",
+  "analyzed_at": "2026-11-16T08:12:20Z",
+  "organized_at": "2026-11-16T08:15:03Z",
+  "summary": "该论文面向数字广告中的推荐与排序（R&R）模型，这类模型对精度损失极其敏感（要求归一化熵 NE 偏差不超过 0.01%），因此长期难以采用激进量化。作者在 AMD MI350X 上系统评测了 MXFP8 与 6-bit MXFP6 微缩放格式，首次报告了原生 MXFP6 GEMM（权重与激活均量化、直接以 6-bit 计算）在不损失模型质量前提下的显著加速，并提出按层选择性应用 MXFP6 以最大化 QPS。实测两个生产级广告排序模型上，MXFP8 相对 FP16 的 GEMM 加速 1.33–1.55x，MXFP6 达 1.73–1.99x（单层最高 2.90x），端到端吞吐提升 1.5%–14.3%。",
+  "tags": [
+    "quantization",
+    "mxfp6",
+    "recommendation-ranking",
+    "gemm-kernels",
+    "inference-optimization"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yavuz Yetim, Bor-Yiing Su, Zhe Wang, Arthur Liu, Pranav Sharma, Ying Wang, Randy Shuai, Luke Pfister, Ruichao Xiao, Bill Zhao, Zihao Liu, Liyuan Li, Jiangyuan Li, Gaoxiang Liu, Nathan Yan, Geonhwa Jeong, Jatin Chhugani, Elias Ellison, Uladzimir Pashkevich",
+    "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+  }
+}
