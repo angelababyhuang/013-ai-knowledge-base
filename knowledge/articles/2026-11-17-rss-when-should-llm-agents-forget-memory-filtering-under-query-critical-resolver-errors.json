@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.17338v1",
+  "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.17338",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-17T08:04:01Z",
+  "analyzed_at": "2026-11-17T08:04:02Z",
+  "organized_at": "2026-11-17T08:06:44Z",
+  "summary": "该论文研究 LLM 记忆系统中「遗忘/删除」策略的风险：当解析器（resolver）把事实误判为过期并硬删除时，若被删的是查询关键事实，下游准确率会显著下降。作者用受控敏感性实验在三个模型上量化了这一点：解析完全可靠时硬删除带来 +0.186~+0.230 的增益，可靠性最低时反而造成 -0.176~-0.181 的损失；配对干预显示误删（false-drop）比误留（false-keep）危害更大。结论是删除应视为代价敏感决策，需在匹配数据上验证查询关键误删风险，否则默认无标签保留。值得关注的是它挑战了「过期即删」的直觉，为记忆管理/遗忘机制设计提供了可操作的部署准则。",
+  "tags": [
+    "llm-memory",
+    "memory-forgetting",
+    "retrieval-augmented-generation",
+    "cost-sensitive-decision",
+    "agent-memory"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Samarth Vinayaka",
+    "published": "Tue, 17 Nov 2026 00:00:00 -0500"
+  }
+}

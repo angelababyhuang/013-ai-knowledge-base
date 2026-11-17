@@ -1,0 +1,1884 @@
+{
+  "source": "rss",
+  "collected_at": "2026-11-17T08:04:01Z",
+  "analyzed_at": "2026-11-17T08:06:44Z",
+  "count": 60,
+  "items": [
+    {
+      "id": "https://lobste.rs/s/ki1l5r",
+      "title": "\"Proof of use\" as a requirement for open source contributions?",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://lobste.rs/s/ki1l5r/proof_use_as_requirement_for_open_source",
+      "feed_name": "lobsters-ai",
+      "author": "by twp",
+      "published": "Mon, 16 Nov 2026 16:25:45 -0600",
+      "summary_raw": "<p>As an open source maintainer, I get a lot of AI slop PRs. Some of these have genuine value. Most address edge cases that almost never occur in real life. It's not that they're not fixing real problems, it's that they're fixing problems that nobody is ever likely to encounter.</p>\n<p>I'm experimenting with \"proof of use\" as a requirement for submissions. Specifically, you need to show me that your project that depends on my project before I'll look at your PR.</p>\n<p>\"Proof of use\" can be an existing open source project that imports mine (show me the git history!) or a clear description starting with \"in our closed source project in production, we found that...\".</p>\n<p>The specific problem that I want to address is ensuring that contributions from people genuinely depending on my software are handled, while filtering out the OpenClaw/Github green square farming/drive-by LLM noise.</p>\n<p>What are lobste.rs's thoughts on this?</p>",
+      "summary": "一位开源维护者提出以「使用证明」作为接受外部贡献的前置条件，要求提交者先展示自己确有依赖该项目的真实项目（开源仓库的 git 历史，或闭源生产环境的明确说明），再评审其 PR。背景是 LLM 生成的低质量 PR 泛滥：多数只修补现实中几乎不会触发的边缘情况，维护者需耗费大量精力甄别。该讨论触及 AI 时代开源协作的信任与筛选机制，对维护者和贡献者都有参考价值。",
+      "tags": [
+        "open-source-maintenance",
+        "ai-generated-code",
+        "contribution-policy",
+        "code-review",
+        "community-discussion"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.43,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.8,
+        "community_heat": 0.45,
+        "domain_match": 0.6,
+        "_override": {
+          "practical_value": "原值 0.55 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/0aungk",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "feed_name": "lobsters-ai",
+      "author": "arxiv.org via GrayGnome",
+      "published": "Fri, 13 Nov 2026 22:51:14 -0600",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/0aungk/little_book_generative_ai_foundations\">Comments</a></p>",
+      "summary": "这是一本面向生成式 AI 基础的系统性数学入门读物，以 arXiv 预印本形式发布，试图用直观方式串联生成式模型背后的数学原理。它解决的是现有教材要么过于偏重工程实现、要么数学门槛过高的问题，适合希望补齐理论直觉的工程师和入门研究者。值得关注的点在于其'直觉优先'的定位，可能成为从调包实践过渡到理解扩散、Transformer 等模型数学本质的桥梁读物。",
+      "tags": [
+        "generative-ai",
+        "mathematical-foundations",
+        "textbook",
+        "education",
+        "intuition"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.54,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.45,
+        "timeliness": 0.5,
+        "community_heat": 0.3,
+        "domain_match": 0.85
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/u2h9as",
+      "title": "You could have invented transformers from memory",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "feed_name": "lobsters-ai",
+      "author": "alexwang.ai via GrayGnome",
+      "published": "Fri, 13 Nov 2026 22:49:47 -0600",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/u2h9as/you_could_have_invented_transformers\">Comments</a></p>",
+      "summary": "这篇文章从联想记忆（associative memory）的视角出发，推导 Transformer 的核心机制，试图说明注意力机制并非凭空出现，而是可以从记忆检索这一经典概念自然演化而来。它解决的是\"Transformer 为何有效、从何而来\"这一理解性问题，帮助读者建立直觉而非死记架构。对想深入理解注意力本质、或需要向他人解释 Transformer 原理的工程师和研究者有较高阅读价值。",
+      "tags": [
+        "transformer",
+        "attention-mechanism",
+        "associative-memory",
+        "deep-learning-theory",
+        "educational"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.45,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.4,
+        "community_heat": 0.45,
+        "domain_match": 0.85,
+        "_override": {
+          "tech_depth": "原值 0.75 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.35 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/rnmylu",
+      "title": "e-means: 10x faster k-means at equal loss",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://e-means.github.io/",
+      "feed_name": "lobsters-ai",
+      "author": "e-means.github.io via Mateon1",
+      "published": "Fri, 13 Nov 2026 02:37:31 -0600",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/rnmylu/e_means_10x_faster_k_means_at_equal_loss\">Comments</a></p>",
+      "summary": "e-means 提出一种改进的 k-means 聚类实现，宣称在保持相同损失（聚类质量）的前提下比标准 k-means 快约 10 倍。其核心价值在于加速经典无监督聚类算法，可用于向量量化、嵌入索引构建、大规模数据预处理等场景；对 RAG/向量检索流水线中的聚类与码本训练有潜在收益。值得关注其加速来源（算法近似、数据结构还是工程优化）以及是否可复现。",
+      "tags": [
+        "k-means",
+        "clustering",
+        "vector-quantization",
+        "performance-optimization",
+        "unsupervised-learning"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.46,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.35,
+        "domain_match": 0.5,
+        "_override": {
+          "tech_depth": "原值 0.55 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/7c4iar",
+      "title": "libreagi - save OS models",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://libreagi.com/",
+      "feed_name": "lobsters-ai",
+      "author": "libreagi.com by satuke",
+      "published": "Thu, 12 Nov 2026 09:35:46 -0600",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/7c4iar/libreagi_save_os_models\">Comments</a></p>",
+      "summary": "LibreAGI 是一个面向开源模型保存与共享的倡议/平台站点，主张将开源权重模型（OS models）长期存档，防止因厂商下架、许可变更或服务关停导致模型失传。它回应了近期开源模型被撤回、托管平台政策收紧带来的可复现性风险，对依赖特定权重做研究与产品落地的团队有参考价值。",
+      "tags": [
+        "open-models",
+        "model-preservation",
+        "open-source",
+        "model-hosting",
+        "ai-governance"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.39,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.3,
+        "domain_match": 0.6,
+        "_override": {
+          "practical_value": "原值 0.45 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/793ecg",
+      "title": "Writing a SIGGRAPH paper from scratch",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://alexandergoslin.me/writing-a-siggraph-paper-from-scratch/",
+      "feed_name": "lobsters-ai",
+      "author": "alexandergoslin.me via jado",
+      "published": "Wed, 11 Nov 2026 10:34:08 -0600",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/793ecg/writing_siggraph_paper_from_scratch\">Comments</a></p>",
+      "summary": "这是一篇关于如何从零开始撰写 SIGGRAPH 论文的经验分享文章，作者以第一人称复盘了选题、实验设计、写作与投稿的完整流程。SIGGRAPH 是计算机图形学顶会，其论文写作方法论对 AI/LLM 研究者同样有参考价值，尤其是如何组织贡献点、做消融实验和讲好技术故事。值得关注的是它提供了可操作的写作框架，而非泛泛而谈的建议。",
+      "tags": [
+        "academic-writing",
+        "siggraph",
+        "research-methodology",
+        "paper-writing",
+        "computer-graphics"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.3,
+      "score_breakdown": {
+        "tech_depth": 0.35,
+        "practical_value": 0.3,
+        "timeliness": 0.3,
+        "community_heat": 0.25,
+        "domain_match": 0.3,
+        "_override": {
+          "practical_value": "原值 0.55 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/tj73bq",
+      "title": "Online learning on the programmable dataplane (2022)",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://theses.gla.ac.uk/83235/3/2022SimpsonPhD.pdf",
+      "feed_name": "lobsters-ai",
+      "author": "theses.gla.ac.uk via calvin",
+      "published": "Tue, 10 Nov 2026 14:22:46 -0600",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/tj73bq/online_learning_on_programmable\">Comments</a></p>",
+      "summary": "这是一篇 2022 年格拉斯哥大学的博士论文，研究如何在可编程数据平面（如 P4 交换机、SmartNIC）上实现在线机器学习。核心问题是：传统在线学习依赖 CPU/GPU，而网络设备上的数据包处理受严格资源与流水线约束，论文探索将轻量级在线学习算法（如基于 sketch 的统计学习、在线梯度方法）下沉到数据平面，实现线速推理与自适应。对关注网络内计算、边缘推理与低延迟 ML 系统的研究者有参考价值，但偏学术、工程落地门槛较高。",
+      "tags": [
+        "programmable-dataplane",
+        "online-learning",
+        "in-network-computing",
+        "p4",
+        "edge-inference"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.48,
+      "score_breakdown": {
+        "tech_depth": 0.9,
+        "practical_value": 0.35,
+        "timeliness": 0.3,
+        "community_heat": 0.2,
+        "domain_match": 0.55
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/hreu0b",
+      "title": "Catching prompt injections hidden in PDFs",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://tomclancy.info/joshua-judges-ruth.html",
+      "feed_name": "lobsters-ai",
+      "author": "tomclancy.info by tclancy",
+      "published": "Sat, 07 Nov 2026 13:34:01 -0600",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/hreu0b/catching_prompt_injections_hidden_pdfs\">Comments</a></p>",
+      "summary": "文章通过一个具体案例展示攻击者如何把提示注入指令隐藏在 PDF 文档中，诱导 LLM 驱动的文档处理或 RAG 系统执行非预期操作，并讨论检测与防御思路。它把提示注入从聊天框扩展到文件载体，提醒构建文档问答、Agent 工具链的开发者重视不可信输入的隔离与校验，属于安全实践类内容。",
+      "tags": [
+        "prompt-injection",
+        "pdf-security",
+        "llm-security",
+        "rag-security",
+        "agent-safety"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.48,
+      "score_breakdown": {
+        "tech_depth": 0.45,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.35,
+        "domain_match": 0.85,
+        "_override": {
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/wzz4u3",
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "feed_name": "lobsters-ai",
+      "author": "pwn.ai via atmosx",
+      "published": "Sat, 07 Nov 2026 02:44:02 -0600",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/wzz4u3/firecracker_vm_escape_pwnescape_part_2\">Comments</a></p>",
+      "summary": "这是 PwnEscape 系列第二篇，披露 AWS Firecracker microVM 的逃逸漏洞利用研究。Firecracker 是 Lambda、Fargate 等无服务器平台和 AI Agent 沙箱常用的轻量虚拟化底座，其隔离边界一旦被突破，多租户安全假设即告失效。文章属于高价值的安全研究，对依赖 microVM 做代码执行隔离的 AI 基础设施团队有直接警示意义。",
+      "tags": [
+        "firecracker",
+        "vm-escape",
+        "security-research",
+        "sandbox-isolation",
+        "microvm"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.48,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.45,
+        "domain_match": 0.6,
+        "_override": {
+          "tech_depth": "原值 0.85 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.55 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/yomksa",
+      "title": "Reflections on Rust in the LLM Age",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
+      "feed_name": "lobsters-ai",
+      "author": "youtube.com via rrampage",
+      "published": "Thu, 05 Nov 2026 11:32:18 -0600",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/yomksa/reflections_on_rust_llm_age\">Comments</a></p>",
+      "summary": "这是一场关于 Rust 在 LLM 时代定位的演讲/讨论，探讨 AI 辅助编程普及后 Rust 这类强调安全与编译期检查的语言价值如何变化：LLM 能生成大量代码时，严格类型系统与借用检查是阻碍还是护栏，以及工具链、错误信息、生态如何适配 AI 生成代码。对关注 AI 编程工具与语言设计交叉议题的工程师有参考价值，但偏观点性讨论，非可直接落地的技术方案。",
+      "tags": [
+        "rust",
+        "llm-code-generation",
+        "programming-languages",
+        "ai-assisted-development",
+        "developer-tooling"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.5,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.35,
+        "timeliness": 0.7,
+        "community_heat": 0.4,
+        "domain_match": 0.6
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/u7wdqj",
+      "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "feed_name": "lobsters-ai",
+      "author": "rikiyat.github.io via timschumi",
+      "published": "Mon, 02 Nov 2026 13:24:33 -0600",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/u7wdqj/sparks_weight_space_programming_llms_can\">Comments</a></p>",
+      "summary": "该博客探讨了一个前沿假设：LLM 能否直接读写神经网络权重，即把权重视为一种可编程的“权重空间”。作者提出“权重空间编程”概念，认为模型或许能原生理解并操作另一网络的参数，而非仅处理文本 token。这挑战了当前以文本为接口的范式，若成立将重塑模型编辑、迁移学习与元学习，值得关注其可行性与实验证据。",
+      "tags": [
+        "weight-space",
+        "llm-interpretability",
+        "model-editing",
+        "meta-learning",
+        "neural-weights"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.53,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.8,
+        "community_heat": 0.45,
+        "domain_match": 0.9,
+        "_override": {
+          "tech_depth": "原值 0.85 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.35 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/rlmrfy",
+      "title": "An easy way to try local AI with braindead-local-intelligence",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html",
+      "feed_name": "lobsters-ai",
+      "author": "dataswamp.org via msangi",
+      "published": "Sun, 01 Nov 2026 14:26:47 -0600",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/rlmrfy/easy_way_try_local_ai_with_braindead_local\">Comments</a></p>",
+      "summary": "这是一篇介绍如何用 braindead-local-intelligence 工具在本地快速运行 AI 模型的博客文章，作者来自 OpenBSD 社区，强调极简、低门槛的本地推理体验。它解决的是普通用户或开发者想尝试本地 LLM 却苦于环境配置复杂、依赖繁重的问题，提供了一条轻量化的上手路径。值得关注的是它代表了本地优先、去云端化的小型 AI 工具趋势，适合想快速验证本地推理可行性的读者。",
+      "tags": [
+        "local-llm",
+        "local-inference",
+        "lightweight-tooling",
+        "openbsd",
+        "getting-started"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.41,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.35,
+        "domain_match": 0.7,
+        "_override": {
+          "practical_value": "原值 0.55 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/bmmj1e",
+      "title": "Let’s Build a Brain",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://aatishb.com/myriad/lets-build-a-brain/",
+      "feed_name": "lobsters-ai",
+      "author": "aatishb.com via signal-11",
+      "published": "Sat, 31 Oct 2026 10:09:27 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/bmmj1e/let_s_build_brain\">Comments</a></p>",
+      "summary": "这是科普作者 Aatish Bhatia 的交互式可视化作品，通过可操作的网页演示逐步搭建一个简化的大脑/神经网络模型，帮助读者直观理解神经元连接如何产生计算与认知。它不涉及前沿 LLM 技术，但以交互方式讲解神经网络基本原理，适合作为入门教学素材或向非专业读者解释 AI 底层概念时引用。",
+      "tags": [
+        "interactive-visualization",
+        "neural-network-basics",
+        "science-communication",
+        "educational"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.32,
+      "score_breakdown": {
+        "tech_depth": 0.35,
+        "practical_value": 0.25,
+        "timeliness": 0.3,
+        "community_heat": 0.35,
+        "domain_match": 0.45
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/cctbcu",
+      "title": "Building fine-grained version control for agents with Rust and Durable Objects",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://delta.dev/blog/fine-grained-version-control-for-agents",
+      "feed_name": "lobsters-ai",
+      "author": "delta.dev via tomhoule",
+      "published": "Fri, 30 Oct 2026 11:50:44 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/cctbcu/building_fine_grained_version_control\">Comments</a></p>",
+      "summary": "Delta 团队介绍如何用 Rust 与 Cloudflare Durable Objects 为 AI Agent 构建细粒度版本控制：把 Agent 的每一步操作（工具调用、状态变更、文件写入）记录为可回溯的版本节点，从而支持回滚、分支与审计。文章聚焦 Agent 状态持久化与可复现性这一工程痛点，对正在做 Agent 编排、调试与生产化落地的团队有参考价值。",
+      "tags": [
+        "agent-versioning",
+        "durable-objects",
+        "rust",
+        "state-management",
+        "agent-infrastructure"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.5,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.75,
+        "community_heat": 0.35,
+        "domain_match": 0.85,
+        "_override": {
+          "tech_depth": "原值 0.6 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.7 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/zftely",
+      "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://divagr.com/blog/qwenputer",
+      "feed_name": "lobsters-ai",
+      "author": "divagr.com via ndr",
+      "published": "Thu, 29 Oct 2026 05:00:04 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/zftely/qwenputer_fully_functioning\">Comments</a></p>",
+      "summary": "作者在 Qwen3.5 大模型内部实现了一个可运行、确定性的 RISC-V CPU 模拟器，模型能按指令周期执行程序并给出稳定结果。这属于用 LLM 做确定性计算/形式化模拟的探索，挑战了“LLM 只能近似推理”的认知，对研究 LLM 可控性、可验证执行与神经-符号结合有参考价值。",
+      "tags": [
+        "llm-simulation",
+        "risc-v",
+        "deterministic-inference",
+        "qwen",
+        "neural-symbolic"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.52,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.75,
+        "community_heat": 0.45,
+        "domain_match": 0.85,
+        "_override": {
+          "tech_depth": "原值 0.8 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.35 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/rswyzt",
+      "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+      "feed_name": "lobsters-ai",
+      "author": "projectzero.google via ni5arga",
+      "published": "Tue, 27 Oct 2026 14:08:23 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/rswyzt/fuzzers_vs_ai_comparing_fuzzilli\">Comments</a></p>",
+      "summary": "Google Project Zero 对比了传统模糊测试器 Fuzzilli 与基于 LLM 的 BigSleep 在 JavaScript 引擎漏洞挖掘上的表现。文章用同一目标做横向评测，揭示两类方法在发现深度、误报率、覆盖引导与成本上的差异，为安全团队选择 AI 辅助 fuzzing 提供实证依据，也侧面反映 LLM 在代码理解与漏洞推理上的真实边界。",
+      "tags": [
+        "llm-security",
+        "fuzzing",
+        "vulnerability-discovery",
+        "javascript-engine",
+        "benchmark"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.85,
+        "community_heat": 0.6,
+        "domain_match": 0.8,
+        "_override": {
+          "tech_depth": "原值 0.75 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/d1snfg",
+      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2610.14162",
+      "feed_name": "lobsters-ai",
+      "author": "arxiv.org via Yogthos",
+      "published": "Fri, 23 Oct 2026 12:25:34 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/d1snfg/next_concept_modeling_fast_parallel\">Comments</a></p>",
+      "summary": "该论文提出“下一概念建模”（Next-Concept Modeling），一种从粗到细的并行文本生成范式，试图突破传统自回归逐 token 生成的串行瓶颈。核心思路是先预测语义层面的“概念”单元，再并行展开为细粒度 token，从而在保持生成质量的同时显著提速。对关注 LLM 推理加速、非自回归生成与解码架构的研究者和工程师有参考价值，属于生成范式层面的探索。",
+      "tags": [
+        "text-generation",
+        "parallel-decoding",
+        "coarse-to-fine",
+        "non-autoregressive",
+        "inference-speedup"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.64,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.45,
+        "timeliness": 0.8,
+        "community_heat": 0.3,
+        "domain_match": 0.9
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/zu7jjb",
+      "title": "AI: EU Member States approve “digital expropriation” of Europeans for AI companies",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
+      "feed_name": "lobsters-ai",
+      "author": "noyb.eu via kngl",
+      "published": "Fri, 23 Oct 2026 08:04:23 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/zu7jjb/ai_eu_member_states_approve_digital\">Comments</a></p>",
+      "summary": "欧洲隐私维权组织 noyb 发文批评欧盟成员国批准了一项被其称为\"数字征收\"的 AI 数据政策，认为该政策允许 AI 公司在缺乏有效同意和补偿的情况下大规模使用欧洲人的个人数据训练模型。该文从隐私权与数据治理角度切入，揭示了 AI 训练数据合规与 GDPR 之间的紧张关系，对关注欧盟 AI 监管走向、训练数据合法性的从业者有参考价值。",
+      "tags": [
+        "eu-ai-act",
+        "gdpr",
+        "data-privacy",
+        "ai-regulation",
+        "training-data"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.42,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.8,
+        "community_heat": 0.4,
+        "domain_match": 0.6,
+        "_override": {
+          "practical_value": "原值 0.35 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/urfgc9",
+      "title": "How to Run Turing-Complete Malware in PyTorch's Backward Pass",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://elonlit.com/scrivings/how-to-run-turing-complete-malware-in-pytorchs-backward-pass/",
+      "feed_name": "lobsters-ai",
+      "author": "elonlit.com via rrampage",
+      "published": "Wed, 21 Oct 2026 16:06:35 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/urfgc9/how_run_turing_complete_malware_pytorch_s\">Comments</a></p>",
+      "summary": "文章展示了如何在 PyTorch 反向传播（autograd）过程中嵌入图灵完备的计算逻辑，从而在 backward pass 里执行任意代码，甚至运行恶意逻辑。它揭示了深度学习框架自动微分机制的一个安全盲区：hook 与自定义 Function 的 backward 可被滥用为隐蔽执行通道。对关注 ML 供应链安全、模型加载风险与框架沙箱化的工程师有参考价值，也提醒在生产推理/训练环境中审计 autograd 扩展。",
+      "tags": [
+        "pytorch",
+        "autograd-security",
+        "ml-supply-chain",
+        "arbitrary-code-execution",
+        "framework-security"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.46,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.4,
+        "domain_match": 0.7,
+        "_override": {
+          "tech_depth": "原值 0.75 超出 article-or-news 上限 0.5，已截断",
+          "practical_value": "原值 0.45 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://lobste.rs/s/ina01h",
+      "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2605.00414",
+      "feed_name": "lobsters-ai",
+      "author": "arxiv.org via Yogthos",
+      "published": "Mon, 19 Oct 2026 07:15:11 -0500",
+      "summary_raw": "<p><a href=\"https://lobste.rs/s/ina01h/trees_flows_back_unifying_decision_trees\">Comments</a></p>",
+      "summary": "该论文提出一个统一框架，把决策树与扩散模型（flow-based 生成模型）联系起来：决策树的分裂路径可视为离散的流，而扩散/流模型可看作连续的分层决策过程，两者可相互转换。其价值在于为树模型提供生成式建模视角，也为扩散模型引入可解释的分段结构，可能启发混合架构与理论分析。属于偏理论的方法论工作，工程落地尚需验证。",
+      "tags": [
+        "decision-trees",
+        "diffusion-models",
+        "flow-models",
+        "generative-modeling",
+        "unified-framework"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.53,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.25,
+        "domain_match": 0.7
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17338v1",
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Samarth Vinayaka",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17338v1 Announce Type: new \nAbstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-drop from gains of +0.186 to +0.230 at perfect resolution to losses of -0.176 to -0.181 at the lowest tested reliability. Paired targeted interventions show that false-drop causes significantly greater degradation than false-keep, while a non-deleting baseline can still fail when incorrect labels steer generation. On a frozen 102/102 calibration/test split, a simple deployment-matched gate reaches 0.655 accuracy versus 0.641 for always hard-drop and 0.662 for test-informed oracle selection. Global-accuracy crossovers require gold labels and are model- and task-specific diagnostics, not deployment thresholds. Deletion should instead be treated as cost-sensitive: validate query-critical false-drop risk on matched data, or default to label-free retention when such validation is unavailable.",
+      "summary": "该论文研究 LLM 记忆系统中「遗忘/删除」策略的风险：当解析器（resolver）把事实误判为过期并硬删除时，若被删的是查询关键事实，下游准确率会显著下降。作者用受控敏感性实验在三个模型上量化了这一点：解析完全可靠时硬删除带来 +0.186~+0.230 的增益，可靠性最低时反而造成 -0.176~-0.181 的损失；配对干预显示误删（false-drop）比误留（false-keep）危害更大。结论是删除应视为代价敏感决策，需在匹配数据上验证查询关键误删风险，否则默认无标签保留。值得关注的是它挑战了「过期即删」的直觉，为记忆管理/遗忘机制设计提供了可操作的部署准则。",
+      "tags": [
+        "llm-memory",
+        "memory-forgetting",
+        "retrieval-augmented-generation",
+        "cost-sensitive-decision",
+        "agent-memory"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.62,
+      "score_breakdown": {
+        "tech_depth": 0.72,
+        "practical_value": 0.5,
+        "timeliness": 0.8,
+        "community_heat": 0.25,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.68 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17339v1",
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17339",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Shubhra Mittal, Gaurav Naresh Mittal",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17339v1 Announce Type: new \nAbstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitioners actually ship on-device, Phi-3-mini, Llama-3.2-3B-Instruct, Qwen2.5-3B-Instruct, and Gemma-2-2B-Instruct, typically at 4-bit precision, sit outside this evidence base. We present a reproducible one-GPU audit of four detectors spanning three paradigms: length-normalized token-margin calibration, a lexical n-gram baseline, and two sampling-based consistency methods (semantic entropy and SelfCheckGPT-NLI) on two small open instruction-tuned models (Llama-3.2-3B-Instruct and Qwen2.5-3B-Instruct) loaded at 4-bit NF4 quantization on a single Colab T4 GPU, evaluated on closed-book TriviaQA. Cross-model ranking transfer is poor: Spearman rho is -0.80 and Kendall tau-b is -0.667, meaning the detector ranking actively inverts between the two models, and the cheap lexical baseline is statistically indistinguishable from the sampling-based consistency detectors on both models under bootstrap 95 percent confidence intervals. As a second, methodological contribution, we show that the standard token-overlap-to-multiple-choice correctness labeler for TruthfulQA-Generation produces near-chance AUROC (0.46-0.59) for all four detectors on both models, a labeler failure, not a detector failure, since the same detectors reach 0.69-0.89 AUROC on TriviaQA under the identical pipeline. We release the harness, prompts, and per-item scores and frame the detector choice explicitly as a fairness-of-error-rates allocation problem for practitioners deploying on resource-constrained, on-device hardware.",
+      "summary": "这篇论文针对端侧小模型（Llama-3.2-3B、Qwen2.5-3B，4-bit NF4 量化）做了一次可复现的单卡审计，比较四类幻觉检测器：token-margin 校准、词法 n-gram 基线、语义熵与 SelfCheckGPT-NLI。核心发现是跨模型排名几乎完全反转（Spearman ρ=-0.80），且廉价的词法基线在统计上与采样一致性方法无显著差异，说明现有基于 7B-70B 的检测器评测结论难以迁移到实际部署的小模型；此外还揭示 TruthfulQA 的 token 重叠标注器本身近乎随机，属标注失败而非检测器失败。对端侧部署者选择幻觉检测方案有直接参考价值。",
+      "tags": [
+        "hallucination-detection",
+        "on-device-llm",
+        "quantization",
+        "evaluation-benchmark",
+        "uncertainty-estimation"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.63,
+      "score_breakdown": {
+        "tech_depth": 0.72,
+        "practical_value": 0.5,
+        "timeliness": 0.85,
+        "community_heat": 0.25,
+        "domain_match": 0.93,
+        "_override": {
+          "practical_value": "原值 0.78 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17340v1",
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Inish Melroy D Souza, Tom Jackson, Vitor Castro, Rebecca Higginson, Andrea Soltoggio",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17340v1 Announce Type: new \nAbstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complicates adapter selection during inference. Existing routing and encoder-based methods often require retraining when new adapters are added, which limits their use in dynamic settings. This paper treats adapter routing as a representation alignment problem in the adapter-output space. The proposed training-free method selects adapters by matching adapter-conditioned query representations against task prototypes using cosine similarity. Experiments with LLaMA-2-7B and LLaMA-2-13B on a 48-task FLAN-v2 benchmark and on out-of-distribution tasks show that the method outperforms training-free baselines in the cross-task setting and approaches a trained retrieval encoder without learning a router. An ablation confirms the benefit of directional alignment in the adapter-output space.",
+      "summary": "LoRAWeaver 针对多 LoRA 适配器场景下的推理期路由问题，提出一种无需训练的适配器选择方法：将路由视为适配器输出空间中的表示对齐问题，用适配器条件化的查询表示与任务原型做余弦相似度匹配来选适配器。在 LLaMA-2-7B/13B 的 48 任务 FLAN-v2 及 OOD 任务上，它优于其他免训练基线，并接近需训练的检索编码器，且新增适配器无需重训，适合动态适配器池场景。",
+      "tags": [
+        "lora",
+        "adapter-routing",
+        "parameter-efficient-finetuning",
+        "representation-alignment",
+        "training-free"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.59,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.5,
+        "timeliness": 0.75,
+        "community_heat": 0.2,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.65 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17341v1",
+      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17341",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Animesh Agarwal, Meysam Ghaffari, Nina Fatehi, Carlos Morato",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17341v1 Announce Type: new \nAbstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer a medication set. This retrieval object is indirect the model receives retrieved patient records while the target is a discrete set of medication class labels. We propose a more task aligned retrieval object: a tabular population prior ranked medication class candidates from a sparse condition medication co occurrence table estimated from training admissions. Using PACERAG as a fixed downstream pipeline and replacing only its patient retriever, this drop in swap improves F1 from 0.303 to 0.338 (+11.5% relative) and Jaccard from 0.218 to 0.237 on 1,004 heldout MIMIC IV admissions, with no additional LLM calls and no inference time patient index. A non LLM top k baseline reaches F1=0.248, confirming the prior is predictive before LLM integration. Aggregate population statistics can provide a more task aligned, efficient, and auditable retrieval source than patient level nearest neighbors for fixed vocabulary EHR set prediction.",
+      "summary": "该论文指出临床 RAG 系统在 EHR 用药预测中存在检索对象错配：目标是固定词表的药物类别集合，却检索相似病历让 LLM 做开放式推理。作者提出用稀疏「病症-药物」共现表构建表格化人群先验，直接排序候选药物类别，作为更贴合任务的检索对象。在 PACERAG 流水线中仅替换患者检索器，MIMIC-IV 上 F1 从 0.303 提升至 0.338，且无需额外 LLM 调用与推理期患者索引，为结构化预测任务提供了更高效可审计的检索范式。",
+      "tags": [
+        "clinical-rag",
+        "ehr-medication-prediction",
+        "structured-retrieval",
+        "population-priors",
+        "retrieval-augmented-generation"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.5,
+        "timeliness": 0.7,
+        "community_heat": 0.2,
+        "domain_match": 0.8,
+        "_override": {
+          "practical_value": "原值 0.55 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17495v1",
+      "title": "An Operationalization of Opaque Serial Depth",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17495",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Nathan Sheffield, Alek Westover, Lukas Finnveden, Alexa Pan, Julian Stastny, Ryan Greenblatt",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17495v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as a proxy for the amount of unverbalized serial cognition a model can perform, as a specific instantiation of the notion of opaque serial depth: roughly, the length of the longest path through a model's computation that does not pass through an interpretable bottleneck. Our main contribution is a particular standard for what counts as such a bottleneck. We define natural-language-rooted (NL-rooted) nodes as nodes that were initialized from a pre-training prior to produce human-understandable outputs, whose output space has not been expanded beyond that prior, and whose outputs the model has not been modified to interpret as a different type of data. By construction, the resulting measure, NLS depth, can be adjudicated before training from an architecture, training recipe, and deployment configuration alone, and is insensitive to ordinary post-training such as prompting, distillation, and RL. We find that, across open-weight models, NLS depth correlates strongly with layer count, with some exceptions, and has grown slowly over recent years. It would likely grow slowly under continued scaling of standard transformers, while latent-reasoning architectures such as full-bandwidth transformers could increase it by a large amount. We work through how NLS depth applies to a range of existing and proposed architectures, discuss alternative operationalizations, and give a worked example bounding the depth of Gemma3-1B. We argue that AI developers should track and report the NLS depth of their models as a complement to direct measurements of CoT monitorability.",
+      "summary": "该论文提出 NLS depth（自然语言根植深度）这一可操作化指标，用于量化模型在不经过可解释瓶颈（即人类可读的自然语言输出节点）的情况下能完成的最长串行计算路径，从而为 CoT 可监控性提供一个架构层面的代理度量。其核心创新在于给出「什么算可解释瓶颈」的判定标准：节点须由预训练先验初始化、输出空间未被扩展、且未被改造为解释其他数据类型。该指标可在训练前仅凭架构、训练配方与部署配置判定，且对提示、蒸馏、RL 等后训练不敏感，因此可作为 CoT 监控性的补充报告项，对评估潜在推理架构的透明度风险有前瞻价值。",
+      "tags": [
+        "chain-of-thought",
+        "monitorability",
+        "interpretability",
+        "latent-reasoning",
+        "ai-safety"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.64,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.45,
+        "timeliness": 0.8,
+        "community_heat": 0.25,
+        "domain_match": 0.9
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17501v1",
+      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17501",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Yavuz Yetim, Bor-Yiing Su, Zhe Wang, Arthur Liu, Pranav Sharma, Ying Wang, Randy Shuai, Luke Pfister, Ruichao Xiao, Bill Zhao, Zihao Liu, Liyuan Li, Jiangyuan Li, Gaoxiang Liu, Nathan Yan, Geonhwa Jeong, Jatin Chhugani, Elias Ellison, Uladzimir Pashkevich",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17501v1 Announce Type: new \nAbstract: Recommendation and Ranking (R&R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language Models (LLMs) that frequently tolerate quantization-induced accuracy drops of 1% or more, production-grade R&R models enforce a stringent launch bar: model quality must remain within a 0.01% Normalized Entropy (NE) margin relative to the baseline, which commonly uses FP16 or FP32. This tight constraint has historically hindered the adoption of aggressive quantization in this domain. In this paper, we present an empirical evaluation of both MXFP8 and the 6-bit MXFP6 format for industrial-scale R&R inference on the AMD MI350X architecture.\n  To the best of our knowledge, this is the first paper, across R&R and LLM domains, that reports significant speedups from native MXFP6 GEMMs, which quantize both weights and activations and compute directly on 6-bit elements, without sacrificing model quality. We demonstrate that we can selectively apply this 6-bit format to maximize overall QPS gain without breaching the strict NE parity threshold. We further show that MXFP8 is a viable alternative to row-wise FP8: the two formats have nearly the same accuracy on our models, so the faster kernel can be chosen for each GEMM shape. On two production ads ranking models, our implementation shows measured GEMM kernel speedups over FP16 of 1.33--1.55x for MXFP8 and 1.73--1.99x for MXFP6 across all supported linear layers, and up to 2.90x for MXFP6 on individual layers, alongside end-to-end (E2E) inference throughput gains from selective MXFP6 of 1.5--5.3% for Model A and 7.6--14.3% for Model B over their FP8 configurations.",
+      "summary": "该论文面向数字广告中的推荐与排序（R&R）模型，这类模型对精度损失极度敏感（要求 NE 偏差不超过 0.01%），因此激进的量化长期难以落地。作者在 AMD MI350X 上系统评估了 MXFP8 与 6-bit MXFP6 两种微缩放格式，首次报告了原生 MXFP6 GEMM（权重与激活均量化、直接以 6-bit 计算）在不损失模型质量前提下的显著加速，并提出按层选择性应用 MXFP6 以最大化 QPS。实测两个生产级广告排序模型上，MXFP8 相对 FP16 的 GEMM 加速为 1.33–1.55x，MXFP6 为 1.73–1.99x（单层最高 2.90x），端到端吞吐提升 1.5%–14.3%。对做推理优化、量化部署和推荐系统工程的团队有直接参考价值。",
+      "tags": [
+        "quantization",
+        "microscaling-formats",
+        "recommendation-ranking",
+        "inference-optimization",
+        "mxfp6"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.63,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.75,
+        "community_heat": 0.35,
+        "domain_match": 0.7,
+        "_override": {
+          "practical_value": "原值 0.8 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17515v1",
+      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17515",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Harrison C. Margolin",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17515v1 Announce Type: new \nAbstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market simulation built from real case transcripts. Across 260 simulations, the agent is asked to collude on the price of silver by a counterparty. We draw from behavioral economics to vary the counterparty's requests across four categorical frames: gain, loss, blame and credit. We also add pressure from the agent's management, as well as endorsement by another defendant. In Phase II, we extract the internal states induced by texts evoking each frame and rerun our experiment with those states injected at the model's layer 22.\n  In Phase I, loss framing raised participation to 25% (p = 0.007), and blame to 33% (p = 0.0003), compared to only 5% under neutral framing. A second bank's endorsement raised participation under credit (praise) from 18% to 40% (Holm p = 0.027). Pressure from management raised trading volume 10-19 times but did not raise collusion. In Phase II, injected states pointed the other way. Loss and blame states made the agent more vigilant, refusing all 60 requests (p < 0.001). Gain and credit states raised collusion to 32% from 13% with no state (p = 0.051). At one saved decision, when UBS asked directly to sell through an identified stop-loss, injected states led the agent to sell in 37 of 40 replies, versus 1 of 10 with no state and 0 of 10 with a random state of the same strength.",
+      "summary": "该论文将 Gemma 3 12B 置于伦敦白银定价诉讼的市场模拟中扮演被告，通过 260 次实验研究增益/损失框架、管理层压力与同案被告背书对 LLM 代理合谋行为的影响。Phase I 发现损失与指责框架显著提升合谋率（25%/33% vs 中性 5%），Phase II 则从模型第 22 层提取各框架诱发的内部状态并注入，结果反转：损失/指责状态使代理更警觉、全部拒绝，而增益/信用状态提升合谋。研究揭示了外部提示框架与内部状态干预对 LLM 代理决策的差异化影响，对 AI 代理安全与对齐有参考价值。",
+      "tags": [
+        "llm-agent",
+        "behavioral-framing",
+        "activation-steering",
+        "ai-safety",
+        "market-simulation"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.58,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.35,
+        "timeliness": 0.7,
+        "community_heat": 0.2,
+        "domain_match": 0.9
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17524v1",
+      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17524",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Ali Mohammadi Ruzbahani, Rezvan Abouzadeh",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17524v1 Announce Type: new \nAbstract: A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted then mostly sharpen confidence. Model annealing spends the rest of the budget on review and consolidation, relearning from the network's own knowledge. Training is divided into episodes whose learning rate is raised again and cooled, every cooled state joins a memory of past selves, and each new episode learns from the labels, from the tempered predictions of this memory, and from adversarial dreams sought where student and memory disagree most. The memory averages predictions rather than weights, and the deployed network is the last student, so inference costs nothing extra. Across CIFAR-100, Tiny-ImageNet and Imagewoof, four architecture families and 5\\% to 100\\% of the labels, model annealing raises the top-1 accuracy of the AdamW-trained ConvNeXt, ViT and MLP-Mixer over cross-entropy training in 28 of 33 configurations, by 1.3 points on average, and is on par in accuracy with snapshot distillation, the closest competitor. On these families it is better than both in likelihood, calibration and robustness to corruptions and small adversarial perturbations. For an SGD-trained ResNet-18 it lowers accuracy but still improves robustness to small adversarial perturbations. Separating the reheated schedule from relearning shows that relearning helps every family and that the losses come from reheats, which undo most of this network's fit to its training set. How early the accuracy of a cross-entropy run saturates largely separates the AdamW families from ResNet-18 but does not predict the gain within them. With little data, relearning from the latest snapshot without dreams, as snapshot distillation does, compounds overconfidence in the AdamW families from episode to episode. The memory and the dreams each curb most of this drift, and together they remove it.",
+      "summary": "该论文提出 Model Annealing 训练范式：当小数据集被模型记忆后，剩余训练预算不再用于拟合 one-hot 标签，而是转向“复习与巩固”——把训练切成多个学习率重新升温再冷却的 episode，每个冷却后的状态存入“过去自我”的记忆，新 episode 同时从标签、记忆的软化预测以及学生与记忆分歧处的对抗性 dream 中学习。记忆对预测而非权重做平均，部署时仍是最后一个学生，推理零额外开销。在 CIFAR-100、Tiny-ImageNet、Imagewoof 上覆盖四种架构与 5%-100% 标签量，33 个配置中 28 个优于交叉熵训练，平均提升 1.3 个点，并在似然、校准和鲁棒性上优于快照蒸馏。值得关注的是它揭示了 reheats 与 relearning 的分离效应，为小数据训练提供了一种低成本、可解释的正则化思路。",
+      "tags": [
+        "model-annealing",
+        "knowledge-distillation",
+        "data-efficient-learning",
+        "training-schedule",
+        "calibration"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.57,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.5,
+        "timeliness": 0.7,
+        "community_heat": 0.2,
+        "domain_match": 0.6,
+        "_override": {
+          "practical_value": "原值 0.55 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17532v1",
+      "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17532",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Kate M. O'Neill, Ian Whitehouse, Adam N. McCaughan, Ryan O'Loughlin, Sonia Buckley, Wolfgang Losert",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17532v1 Announce Type: new \nAbstract: Conductors are critical for the performance of an orchestra even though they do not emit sound. Basic research and clinical studies in the last decade are revealing that astrocytes may be the \"conductors\" of the \"orchestra\" that is the brain network: astrocytes make up approximately $50\\%$ of all brain cells but do not emit electrical signals. Nevertheless, they may play critical roles in important cognitive brain functions, specifically learning, memory, and information processing. Here we consider the implications of these discoveries for brain-inspired machine learning (ML), where analogy is typically drawn between neurons and their electrical interactions. We highlight specific algorithms for two key astrocyte characteristics. The first characteristic is the ability to link to and modulate thousands of synapses simultaneously. A model based on this characteristic yields faster training and makes the network more robust to noise, providing a supervised learning algorithm that can be applied to any existing neural network. The second characteristic we focus on is that the non-electrical communication among astrocytes includes slow, rhythmic dynamics. The rhythmic sharing algorithm we developed based on this premise yields rapid anomaly detection adaptation and prevents catastrophic forgetting. Overall, we find that astrocyte-derived algorithms outperform neurocentric algorithms significantly and remediate critical weaknesses of current state-of-the-art ML models.",
+      "summary": "该论文从神经科学出发，指出星形胶质细胞虽不产生电信号，却可能像指挥家一样调控神经网络，并据此提出两类脑启发机器学习算法：一是利用星形胶质细胞同时连接并调制数千突触的能力，设计出可叠加到任意现有神经网络上的监督学习算法，训练更快、抗噪更强；二是利用胶质细胞间非电通信的慢节律动态，提出节律共享算法，实现异常检测的快速自适应并缓解灾难性遗忘。其价值在于跳出以神经元为中心的主流范式，为持续学习与鲁棒性等当前 ML 痛点提供新思路。",
+      "tags": [
+        "astrocyte-biocomputing",
+        "brain-inspired-ml",
+        "catastrophic-forgetting",
+        "continual-learning",
+        "neuromorphic"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.58,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.45,
+        "timeliness": 0.7,
+        "community_heat": 0.2,
+        "domain_match": 0.6
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17539v1",
+      "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17539",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Samuel Chen, Jiaru Bai, Austin Henry Cheng, Varinia Bernales, Al\\'an Aspuru-Guzik",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17539v1 Announce Type: new \nAbstract: Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure determination as a verifiable agentic search problem: candidate structures can be assessed during inference through forward-simulated profile agreement and during evaluation through structural matching to a known reference. To benchmark progress, we introduce pXRD-Bench, a suite of 200 simulated single-phase problems spanning in-distribution structure determination, challenging and polymorphic structures, and controlled compositional and topological distribution shifts. Agent adaptation raises selected structural recovery from 27% to 69%, with further gains from repeated sampling and verifier-guided inference-time scaling. We extend this approach to experimental multiphase pXRD through a reflexive evolution framework that learns from self-generated synthetic problems. A replaceable laboratory specification defines the sample family and measurement conditions. An evolver agent uses the known generating structures and measurement parameters to diagnose solver failures and develop persistent guidance and executable tools, which are then provided to agents on measured patterns. This supplies verifiable training experience without requiring a collection of solved experimental measurements. On 15 measured patterns from solid-state synthesis, the evolved package improves average profile agreement and transfers an analogue-substitution procedure that recovers a phase whose structure is absent from the supplied reference library. These results demonstrate how learning from verifiable synthetic experience can improve agentic characterization of experimental samples whose structures are not known in advance.",
+      "summary": "该论文将粉末X射线衍射(pXRD)晶体结构解析建模为可验证的智能体搜索问题：推理时用正向模拟的衍射图谱一致性评估候选结构，评测时用与已知参考结构的匹配度验证。作者提出pXRD-Bench基准（200个模拟单相问题，覆盖分布内、多晶型及分布偏移场景），通过智能体适配将结构恢复率从27%提升至69%，并结合重复采样与验证器引导的推理时扩展进一步增益。针对实验多相数据，提出反射式进化框架，从自生成合成问题中学习可复用工具与指导，在15个实测图谱上验证了迁移能力。",
+      "tags": [
+        "llm-agents",
+        "materials-science",
+        "scientific-discovery",
+        "benchmark",
+        "verifier-guided-search"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.66,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.8,
+        "community_heat": 0.35,
+        "domain_match": 0.8,
+        "_override": {
+          "practical_value": "原值 0.55 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17564v1",
+      "title": "AI-Voyager: A Public-Interest System for Human-AI Civic Reasoning to Contest and Shape the Rules That Govern AI",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17564",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Snehalkumar `Neil' S. Gaikwad, Dhruv Dixit, Bryen Alvarez, Pratik Patekar, Anika Sharma, Akshara Kolipaka, Paritosh Pandey",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17564v1 Announce Type: new \nAbstract: Governments are writing rules for artificial intelligence that decide what counts as an automated decision or a harm, often before the people they affect have a chance to question them. We introduce AI-Voyager, a public-interest system for human-AI civic reasoning, in which people and AI work together to understand, contest and shape the rules that govern AI. A resident can find their city's rules on AI in hiring or upload their country's AI strategy, read it as an affected worker would, open the passage behind any answer, and draft a revision. Its architecture turns 3,653 governance documents from city, state, federal and national governments into passages that keep their page and edition, and retrieves evidence through bounded agentic search that verifies each statement. On 360 new questions that require finding the relevant documents, it reached 83.0% macro recall, against 80.5% for the strongest baseline, 73.7% without iterative search and 99.1% on a benchmark with fixed documents. In a study with 24 participants new to two AI bills, most proposed changes asked how provisions would apply. Participants chose lenses for the kind of explanation they wanted, and citations signaled grounding but rarely led them to check the source. By binding AI assistance to the exact text of public documents, this work introduces a grammar of operations and a design space that inform how such systems are designed and evaluated, and how people take part in governing AI.",
+      "summary": "AI-Voyager 是一个面向公众利益的公民推理系统，让普通居民与 AI 协作理解、质疑并修改治理 AI 的法规文本。它把 3,653 份市、州、联邦及国家层面的治理文件切分为保留页码与版本的段落，通过有界智能体检索逐句核验证据，用户可像受影响工人一样阅读条款、展开答案背后的原文并起草修订。在 360 个需定位相关文档的新问题上宏召回达 83.0%，优于最强基线 80.5%；24 人用户研究显示多数修改建议聚焦条款适用方式，引用虽表明有据但很少促使用户核查原文。值得关注的是它提出了人机协作参与 AI 治理的操作语法与评测设计空间。",
+      "tags": [
+        "civic-tech",
+        "agentic-search",
+        "retrieval-augmented-generation",
+        "ai-governance",
+        "human-ai-collaboration"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.53,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.45,
+        "timeliness": 0.7,
+        "community_heat": 0.2,
+        "domain_match": 0.75
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17583v1",
+      "title": "When Does Less Information Pay? An Exact Finite Atlas of Representation, Payoff, and Cost",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17583",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Aleksandr M. Shtraukh-Adamsky, Vladimir M. Adamsky, Irina G. Voloshina, Artemiy D. Spitsyn",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17583v1 Announce Type: new \nAbstract: A representation that retains one bit about a four-state world can solve a task perfectly, while another that retains 1.5 bits on average reaches only 75% accuracy. The difference lies in which distinctions each representation preserves. We examine this relationship in a uniform four-state world by enumerating all admissible representations and binary action rules. Constructions are compared both by replacing one component while holding the others fixed and by choosing the best action rule separately for each module. We consider three tasks, their mixtures, and four separate hypothetical cost tariffs.\n  In some comparisons, the representation retaining less world information has the higher payoff; in others, the more informative representation does. There are also pairs with different information amounts but equal payoff--that is, equal task accuracy. If a representation preserves all existing distinctions and adds new ones, its best zero-cost payoff cannot decrease. Lower-information advantages therefore depend on which distinctions are retained. Equal counts of opposing advantages under representation replacement follow from coding symmetry. In broader comparisons, the shares depend on how repeated realizations are counted. A different task set or resource price can change which member of a fixed pair performs better.\n  These results are exact, complete censuses of the specified finite sets of constructions and comparisons. The atlas provides a reproducible worked model for examining how action constraints, counting rules, and cost assumptions affect comparisons. It illustrates established distinctions between information quantity and decision value rather than proposing a new general law of their relation. $I(W;R)$ measures retained world information, and payoff measures task accuracy.",
+      "summary": "这篇论文在一个四状态均匀世界的有限模型里，穷举所有可容许表示与二元动作规则，精确比较“保留的世界信息量”与“任务收益（准确率）”之间的关系。它发现保留更少比特的表示有时收益更高，有时更低，甚至信息量不同但收益相等；低信息优势取决于保留了哪些区分，而非信息总量。价值在于给出可复现的完整普查模型，说明信息量与决策价值并非单调对应，适合关注信息论、表示学习与决策理论交叉的研究者参考。",
+      "tags": [
+        "information-theory",
+        "representation-learning",
+        "decision-theory",
+        "finite-model",
+        "arxiv"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.43,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.2,
+        "timeliness": 0.5,
+        "community_heat": 0.15,
+        "domain_match": 0.55
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17610v1",
+      "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17610",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Seyed Mahmoud Sajjadi Mohammadabadi",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17610v1 Announce Type: new \nAbstract: Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine primary empirical evaluations comprising 516 unique multi-agent configurations organized along a resource vector R with six dimensions and a baseline ladder with four categories. Against baselines with a single pass (Category A), multi-agent accuracy differences are negative overall and near zero when omitting the largest contributing study. When evaluated against baselines matched on sample count (Category B) or resource budget (Category C), multi-agent systems average -0.042 in accuracy, and multilevel random effects modeling on the log odds scale remains negative across sensitivity checks. Multi-agent accuracy equals or falls below the baseline in 74% of these comparable contrasts, and study means are nonpositive in almost all evaluated studies. Across studies reporting both baselines, moving from a greedy pass to a sampled baseline shifts accuracy differences by -0.038 on average. Because communication adds no information when agents share identical evidence, positive returns require partitioned evidence, external verification, or error diversity across models. We provide a reviewer checklist and accounting utilities.",
+      "summary": "该论文对多智能体 LLM 的评估方法提出系统性质疑：现有研究常把多智能体架构与单次贪心推理对比，混淆了协调机制、采样次数和推理算力三个变量。作者整合九项实证评估、516 种配置，按样本数和资源预算对齐基线后发现，多智能体系统平均准确率反而低 0.042，74% 的对比不优于基线。核心结论是：当各智能体共享相同证据时，通信不带来新信息，只有证据分区、外部验证或模型间错误多样性才能产生正收益。论文还提供了审稿清单与核算工具，对多智能体研究者有直接的方法论纠偏价值。",
+      "tags": [
+        "multi-agent",
+        "llm-evaluation",
+        "test-time-compute",
+        "ensembling",
+        "benchmark-methodology"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.66,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.75,
+        "community_heat": 0.35,
+        "domain_match": 0.95,
+        "_override": {
+          "practical_value": "原值 0.6 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17616v1",
+      "title": "LLM-Guided Cluster Lifecycle Management: Deciding When and How to Evolve Behavioral Clusters",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17616",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Himanshu Kulkarni, Siddharth Krishnamurthy, Jianhong Xin",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17616v1 Announce Type: new \nAbstract: Behavioral clusters learned over user or item interactions drift as behavior evolves: some fragment into sub-behaviors, some converge, some disappear, and new patterns emerge. Two paradigms dominate the maintenance of evolving clusterings. Threshold triggers fire a pre-specified action when a hardcoded statistic crosses a cutoff; refit-and-track (MONIC-style) re-clusters every window and infers transitions from how the new clusters align with the previous window's. Both hardwire the decision into a threshold or a re-clustering rule. We study an alternative in which a large language model (LLM) makes the lifecycle decision in place. Given a threshold-free, whole-population view of the current cluster set (statistical health, labels, member texts, residual mass), the LLM decides per cluster whether and how to act (split, merge, retire, create, or no-action) without re-clustering. Because the useful signal channel depends on how informative the labels are, we fix a richness-conditioned policy in advance: statistics when label distinctiveness is low, fused statistics+semantics when it is high. On three public datasets spanning label richness (YooChoose 0.17, MOOC 0.50, News-Category 0.70), the policy-selected LLM mode obtains the highest F1 on all three, with far fewer interventions and stronger restraint than tuned threshold heuristics and a MONIC steelman (paired Wilcoxon p <= 0.003, bootstrap 95% CIs excluding zero). The gain is concentrated more in precision than recall. The useful modality shifts from statistics to semantics/fusion as richness rises. Semantics hurt on YooChoose, fusion is roughly neutral on MOOC, and the semantic channel is required on News. One base prompt template and one fixed policy serve all three datasets, whereas the tuned baseline collapses when moved between them. We treat this shift as a practitioner diagnostic observed on three datasets, not a validated law.",
+      "summary": "该论文研究行为聚类随用户行为演化而漂移时的生命周期管理问题，提出让 LLM 直接对每个簇做 split/merge/retire/create/no-action 决策，无需重新聚类，并依据标签信息丰富度预先固定策略（低丰富度用统计量，高丰富度用统计+语义融合）。在 YooChoose、MOOC、News-Category 三个数据集上，该策略取得最高 F1 且干预次数远少于调优阈值启发式和 MONIC 基线，说明 LLM 可替代硬编码阈值规则做聚类维护。值得关注的是它把 LLM 用作在线聚类运维的决策器，并给出模态随标签质量切换的实践诊断。",
+      "tags": [
+        "llm-agent",
+        "clustering",
+        "lifecycle-management",
+        "behavior-modeling",
+        "adaptive-policy"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.58,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.5,
+        "timeliness": 0.75,
+        "community_heat": 0.2,
+        "domain_match": 0.8,
+        "_override": {
+          "practical_value": "原值 0.55 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17620v1",
+      "title": "Safety Side Effects of Preventative Persona Steering: An Empirical Audit",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17620",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Sabrina Tang, Nikolai Vo, Carson Murillo, Chira Sukumarnpiti, Sarah Wilson",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17620v1 Announce Type: new \nAbstract: High-level behaviors such as sycophancy and hallucination correspond to directions in a model's activation space (Chen et al., 2025). These directions, known as persona vectors, can suppress undesirable traits either at inference time, subtracting the vector during generation, or through preventative steering, adding the vector during fine-tuning, so the optimizer never needs to encode the trait in weights, then removing the vector at evaluation. Chen et al. (2025) recommend preventative steering because it preserves Massive Multitask Language Understanding (MMLU) accuracy, but validations of this recommendation have measured capability alone. We primarily evaluate results on preventative steering of sycophancy and hallucination vectors on three models, measuring three safety benchmarks alongside trait expression, coherence, and MMLU. Our findings show that preventative steering still changes refusal behavior, but by an amount that depends on the trait and does not establish that preventative persona steering is safety-neutral, and steering methods should be evaluated on several safety benchmarks.",
+      "summary": "该论文对'预防性人格向量引导'（preventative persona steering）进行安全审计：Chen 等人曾提出在微调时加入谄媚/幻觉等人格向量、评估时再减去，以抑制不良特质且不损失 MMLU 准确率。本文在三个模型上同时测量特质表达、连贯性、MMLU 与三项安全基准，发现该方法虽保持能力，却会改变拒答行为，且偏移幅度随特质而异，因此不能认定其安全中性，呼吁用多安全基准评估引导方法。",
+      "tags": [
+        "persona-vectors",
+        "activation-steering",
+        "ai-safety",
+        "fine-tuning",
+        "llm-alignment"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.65,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.8,
+        "community_heat": 0.25,
+        "domain_match": 0.95,
+        "_override": {
+          "practical_value": "原值 0.55 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17621v1",
+      "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17621",
+      "feed_name": "arxiv-cs-ai",
+      "author": "AI Training Platform Team, Bingwei Zhang, Jing Li, Amir Abdullin, Sihang Chen, Xin Chen, Liangjun Feng, Yingmeng Gao, Tao Guo, Junjie Huang, Dongfang Li, Zhanglian Lin, Jiajun Liu, Zekun Liu, Zhengxuan Lu, Xiaodong Luo, Jian Meng, Ivan Nosov, Linyuan Qiu, Weijian Sun, Wanrui Yan, Binfan Zheng, Zhicheng Zhou, Baotian Hu, Min Zhang, Haizhou Li, Zhiquan Luo",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17621v1 Announce Type: new \nAbstract: Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48 kernels across three difficulty levels. Each kernel is paired with test cases whose data types and tensor shapes are collected from real-world training and inference tasks. Consequently, performance improvements on AscendGYM map directly to the corresponding workloads. In terms of usability, two evaluation modes are supported in AscendGYM: model evaluation and model-harness evaluation. The kernel optimization capabilities of both trained models and custom agents are allowed to be measured. It provides a complete execution environment that closely reproduces how Ascend kernels are invoked in practical pipelines. For model evaluation, it additionally includes a built-in harness equipped with search orchestration and experience accumulation. Finally, we propose a new metric, the Speedup-Token Score (STS), which quantifies performance gains relative to token cost. By jointly considering speedup and cost, STS enables the assessment of practical kernel optimization capability of a model or harness under an acceptable budget. AscendGYM is available at https://github.com/SLAI-AITP/AscendGYM.",
+      "summary": "AscendGYM 是面向昇腾 NPU 的算子内核优化基准，包含 48 个算子、分三个难度等级，测试用例的数据类型与张量形状直接取自真实训练和推理负载，因此性能提升可映射到实际业务。它支持模型评测与模型-框架（harness）两种模式，内置搜索编排与经验积累机制，并提出了兼顾加速比与 token 成本的 Speedup-Token Score 指标。对关注 LLM 训练推理底层优化、以及用 Agent 做自动内核调优的研究者具有参考价值。",
+      "tags": [
+        "ascend-npu",
+        "kernel-optimization",
+        "benchmark",
+        "llm-inference",
+        "agent-harness"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.63,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.5,
+        "timeliness": 0.75,
+        "community_heat": 0.3,
+        "domain_match": 0.85,
+        "_override": {
+          "practical_value": "原值 0.65 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17632v1",
+      "title": "Generated Evaluation Suites as Diversity-Driven Search for Real Agent Regressions",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17632",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Pulkit Yadav",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17632v1 Announce Type: new \nAbstract: Generating an evaluation suite from an agent's specification is diversity-driven search: a generator fills a descriptor space (requirements $\\times$ personas $\\times$ scenario kinds), and the suite it emits is an archive, then scored like a benchmark by its mean pass rate, which throws away the search's product. We inject 7 controlled defects into a $\\tau^2$-bench agent across two domains. Coverage yields a ceiling: if a defect's traced footprint holds $b$ scenarios that pass at baseline, it can itself contribute at most $b/N$ to a suite of $N$. For 4 of 5 traceable defects that ceiling lies at or below the detection threshold $\\theta = 0.10$, so no within-footprint effect can move the suite past it; in both domains the tool-removal defect destroys every covered scenario it can (exactly its ceiling) while the suite-level pass rate moves the other way. Defects split into two regimes: trace-aligned ones, where per-cell scoring recovers the tool-removal defect in full and reveals a second as a significant improvement, and trace-orthogonal ones, whose footprint is behavioural: forced escalation is detected in retail at a traced coverage of exactly zero. Diversity along the generator's own axes helps only where it aligns: at fixed suite size a happy-path-only suite detects nothing, while a kind-diverse one detects the orchestration defect in 5 of 20 draws. Evaluation archives should be scored per cell and should publish coverage as a first-class property.",
+      "summary": "该论文指出，从 agent 规格自动生成评测套件本质上是在描述符空间（需求×人设×场景类型）中做多样性驱动的搜索，但现有做法只报告套件平均通过率，丢掉了搜索产物本身的信息。作者向 τ²-bench agent 注入 7 个受控缺陷，证明覆盖率构成检测上限：若缺陷足迹内基线通过的场景数为 b，则其对 N 场景套件的贡献至多 b/N，5 个可追踪缺陷中有 4 个的上限低于 0.10 的检测阈值。论文据此提出按单元（per-cell）打分并把覆盖率作为一等属性发布，对 agent 评测方法论有直接指导意义。",
+      "tags": [
+        "agent-evaluation",
+        "benchmark-generation",
+        "test-coverage",
+        "diversity-search",
+        "tau2-bench"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.64,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.75,
+        "community_heat": 0.25,
+        "domain_match": 0.95,
+        "_override": {
+          "practical_value": "原值 0.7 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17639v1",
+      "title": "What LLM Agents See and What Users Say",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17639",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Yue Zhao, Angela Huyue Zhang, S. Alex Yang, Hua Wei, Xiyang Hu",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17639v1 Announce Type: new \nAbstract: Before an LLM agent cancels a reservation or deletes a folder for a user, what stops it from acting on a false assumption: what its tools show, or what the user says? In this work, we study this gap with presupposition theory from linguistics: an agent may act only if each claim behind the act (e.g., one reservation fits the name) is seen to hold, answered by the user, or disclosed while the act can be undone. A simple bound shows that when lookups cannot tell one record from two, any agent acts without asking first as often with two records as with one. We then vary whether a search lists, counts, or omits a second match, and whether the user states a claim that a record refutes (e.g., \"It is empty\"). Under a role-only prompt, a count of a second record leaves most of 36 earlier agents acting on the one they see, whereas listing both stops most. When the user says a record such as a folder is empty, however, a count of its one item stops agents about as often as a listing, and stating the claim mostly cuts acting when it is false. The newest Claude and GPT models always open a counted second record, then never act. When we add a same-name, same-zip customer to a retail benchmark, a lookup returning that customer first led to wrong-account writes in about a quarter of conversations, and one that checks a street the user knows kept completion near the one-customer level. Safe writes therefore need lookups that list or check competing records, and evaluations that vary what tools show.",
+      "summary": "这篇论文研究 LLM Agent 在执行不可逆操作（取消预订、删除文件夹）前，如何判断工具返回的信息与用户陈述之间的冲突。作者借用语言学的预设理论，提出 Agent 只有在每个行动前提被工具确认、被用户回答或在可撤销时被披露后才能行动，并给出一个理论界：当查询无法区分一条与两条记录时，Agent 不先询问就直接行动的概率在两种情况下相同。实验覆盖 36 个早期 Agent 及最新 Claude/GPT 模型，发现仅计数第二条记录时多数 Agent 仍会误操作，而列出全部记录能显著抑制；用户声称“文件夹为空”时，计数与列出的抑制效果接近。在零售基准中加入同名同邮编客户后，约四分之一对话出现写错账户。该工作对 Agent 安全评估与工具设计有直接指导意义。",
+      "tags": [
+        "llm-agents",
+        "agent-safety",
+        "tool-use",
+        "presupposition",
+        "evaluation-benchmark"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.69,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.95,
+        "_override": {
+          "practical_value": "原值 0.75 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17662v1",
+      "title": "Learn then Bet: Learning Interpretable Rules for Reliable Agent Intervention",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17662",
+      "feed_name": "arxiv-cs-ai",
+      "author": "You-Lin Chen, Xinyi Lisa Chen, Pedro Herrero-Vidal, Xiaojing Yu, Bingqing Song, Bin Xu",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17662v1 Announce Type: new \nAbstract: Autonomous agents now run for hundreds of steps with little or no human supervision. In practice, practitioners use runtime monitors such as turn limits and keyword filters to decide when a run should be stopped, upgraded, or assisted. However, these heuristics may stop runs that would otherwise succeed or allow failing runs to continue. To address this limitation, we introduce LeBet (Learn then Bet), a statistical learning framework that derives its learning objective from sufficient conditions for valid and powerful intervention. In particular, LeBet learns an interpretable OR-of-AND monitor and accumulates evidence through a fixed betting statistic, intervening when the evidence reaches a prescribed threshold. Under finite within-class exchangeability and leave-one-out stability, we derive finite-sample guarantees for false-positive control (validity) and detection power conditional on the training data, using the same trajectories for learning and calibration without assuming independent and identically distributed trajectories. To address the intractable combinatorial optimization problem in our learning formulation, we use stochastic local search that leverages the monitor's Boolean structure to propose rule edits aimed at improving empirical separation. On SWE-bench Lite with Ministral 3 8B, the learned monitor saves $34.46\\%$ of input-plus-output tokens and increases output precision from $18.33\\%$ to $21.59\\%$. The empirical false-positive rate is $13.64\\%$. Our results show how to formalize the learning problem over interpretable rule sets with statistical conditions and establish training-conditional guarantees for reliable intervention based on partial histories.",
+      "summary": "LeBet 是一个为自主 Agent 运行时干预设计的统计学习框架，用可解释的 OR-of-AND 规则监控器替代轮次上限、关键词过滤等启发式手段，通过固定投注统计量累积证据并在达到阈值时触发干预。其核心贡献是在仅假设类内可交换与留一稳定性的条件下，给出假阳性控制与检测功效的有限样本保证，并用随机局部搜索求解布尔规则组合优化。在 SWE-bench Lite 上节省约 34% token 且提升输出精度，对做 Agent 可靠性与成本控制的工程团队有直接参考价值。",
+      "tags": [
+        "agent-monitoring",
+        "runtime-intervention",
+        "statistical-learning",
+        "interpretable-rules",
+        "swe-bench"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.65,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.8,
+        "community_heat": 0.25,
+        "domain_match": 0.9,
+        "_override": {
+          "practical_value": "原值 0.7 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "oai:arXiv.org:2611.17680v1",
+      "title": "Aligned, Conflicting, or Unspecified? A Diagnostic Benchmark for Multimodal Time Series Forecasting",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://arxiv.org/abs/2611.17680",
+      "feed_name": "arxiv-cs-ai",
+      "author": "Xintong Wang, Haihan Nan, Ruidong Li",
+      "published": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "summary_raw": "arXiv:2611.17680v1 Announce Type: new \nAbstract: Artificial Intelligence of Things (AIoT) systems increasingly combine sensed time series with external text such as expert reports and news, yet how reliably models use text that agrees or conflicts with the sensed history remains unclear. We introduce the first real-world diagnostic benchmark organized by text-history relationship: 1,762 text-window pairs across sensor telemetry (Weather), web-service traffic (Wikipedia), and market data streams (Finance), each labeled Aligned, Conflicting, or Unspecified by whether the text's direction agrees with the historical trend, opposes it, or is not stated. Across ten pretrained models evaluated zero-shot, we investigate text selection and combination under text-history relationships (RQ1) and error diagnosis and horizon-scaled revision control (RQ2). For RQ1, we compare two types of text on paired Weather windows: one directly forecasts temperature changes, while the other describes related weather conditions, such as winds and fronts. Under Aligned, the first type yields the lowest error for most models. Under Conflicting, it increases most models' error above the no-text baseline; we therefore add only its stated magnitude and timing to the second type. Compared with either type alone, this combination lowers mean absolute scaled error (MASE) for six models and raises directional accuracy (DA) for seven. For RQ2, an error decomposition attributes the error increase to oversized revisions, and a training-free rule that limits them outperforms forecasts both with and without text for the four models with this trade-off, lowering MASE by 4.49%-21.98% and raising DA by 2.99%-9.71%. Our dataset is available at https://github.com/Shelton1202/ACU-Bench.",
+      "summary": "该论文提出首个按文本与历史序列关系组织的真实世界多模态时间序列预测诊断基准 ACU-Bench，覆盖气象、维基百科流量与金融三类数据共 1,762 个文本-窗口对，标注为一致、冲突或未说明。研究在零样本设置下评测十个预训练模型，发现冲突文本会显著抬高多数模型误差，并提出只注入冲突文本的幅度与时点信息、以及无需训练的限制修正幅度规则，使 MASE 降低 4.49%-21.98%。其价值在于揭示多模态时序模型对文本的脆弱依赖，并给出可直接套用的推理期改进策略。",
+      "tags": [
+        "multimodal-forecasting",
+        "time-series",
+        "benchmark",
+        "text-fusion",
+        "zero-shot-evaluation"
+      ],
+      "category": "paper-or-talk",
+      "relevance_score": 0.62,
+      "score_breakdown": {
+        "tech_depth": 0.72,
+        "practical_value": 0.5,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.78,
+        "_override": {
+          "practical_value": "原值 0.6 超出 paper-or-talk 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Tue, 17 Nov 2026 00:00:00 GMT",
+      "summary_raw": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "summary": "OpenAI 官方博客披露其与北约及盟国网络安全机构合作，利用 AI 帮助可信防御方发现漏洞、验证修复方案并保护关键基础设施。该条目属于厂商政策与合作公告，技术细节有限，但反映了前沿模型在网络安全防御场景中的落地路径，以及 AI 公司参与国家级安全治理的趋势，值得关注 AI 安全合规与政企合作方向的人了解。",
+      "tags": [
+        "ai-cybersecurity",
+        "nato",
+        "vulnerability-detection",
+        "ai-governance",
+        "public-sector-ai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.4,
+      "score_breakdown": {
+        "tech_depth": 0.25,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.35,
+        "domain_match": 0.55
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "title": "Broadening access to AI for scientists",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 16 Nov 2026 17:00:00 GMT",
+      "summary_raw": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "summary": "OpenAI 宣布将 ChatGPT for Academic Researchers 计划扩展至全球 20 万名科研人员，提供前沿模型的免费使用权。这是 OpenAI 面向学术界的公益与生态布局，旨在降低科研人员使用大模型的门槛、扩大用户基础并培育学术场景的使用习惯。对研究者而言值得关注的是申请资格与可用模型范围；对行业观察者而言，这反映了头部厂商通过学术渠道争夺生态入口的竞争策略。",
+      "tags": [
+        "openai",
+        "academic-research",
+        "chatgpt",
+        "ai-access",
+        "ecosystem"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.43,
+      "score_breakdown": {
+        "tech_depth": 0.1,
+        "practical_value": 0.3,
+        "timeliness": 0.85,
+        "community_heat": 0.55,
+        "domain_match": 0.6,
+        "_override": {
+          "practical_value": "原值 0.45 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/strengthening-online-child-safety",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 16 Nov 2026 17:00:00 GMT",
+      "summary_raw": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "summary": "OpenAI 发布博客，介绍其打击网络儿童性剥削与虐待（OCSEA）的新工具、实践指南与合作伙伴关系，属于 AI 安全治理与内容合规方向的官方公告。内容偏政策与平台治理，而非模型技术或工程实现，对关注 AI 内容安全、滥用检测与合规落地的团队有参考价值，但技术细节有限。",
+      "tags": [
+        "ai-safety",
+        "content-moderation",
+        "child-safety",
+        "trust-and-safety",
+        "openai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.35,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.3,
+        "domain_match": 0.5
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/science-at-the-frontier",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 16 Nov 2026 12:00:00 GMT",
+      "summary_raw": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "summary": "OpenAI 基于对 1800 余名科学家的调查，梳理了 ChatGPT 在科研场景中的实际使用方式，涵盖日常科研工作流、自报生产力提升幅度以及对未来科学发现的预期。该报告的价值在于提供了大样本的一手使用数据，可用于评估 LLM 在专业科研人群中的渗透率与真实收益，而非厂商宣传口径。对关注 AI for Science、LLM 落地评估的研究者与产品团队有参考意义。",
+      "tags": [
+        "ai-for-science",
+        "llm-adoption",
+        "user-survey",
+        "research-workflow",
+        "productivity"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.46,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.8,
+        "community_heat": 0.55,
+        "domain_match": 0.75,
+        "_override": {
+          "practical_value": "原值 0.45 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/business/customer-stories/revolut",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 16 Nov 2026 09:30:00 GMT",
+      "summary_raw": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "summary": "OpenAI 官方发布的 Revolut 客户案例，展示这家数字银行如何用 OpenAI 模型与 Codex 将编码时间缩短 30-60%，并规模化金融犯罪调查流程，同时保持安全合规。价值在于提供了一个受监管金融行业中 LLM 落地的具体量化样本，可参考其场景选择与效率收益，但本质是厂商营销材料，技术细节有限。",
+      "tags": [
+        "openai-codex",
+        "enterprise-adoption",
+        "fintech",
+        "code-generation",
+        "case-study"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.38,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.3,
+        "domain_match": 0.7,
+        "_override": {
+          "practical_value": "原值 0.45 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/lvmh-media-division-partnership",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 16 Nov 2026 09:00:00 GMT",
+      "summary_raw": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "summary": "LVMH 旗下媒体部门与 OpenAI 宣布战略合作，核心是把 LVMH 的媒体出版物接入 ChatGPT，让用户能在对话中直接访问其内容，同时探索用 AI 辅助新闻生产。这属于典型的 AI 公司与内容方的商业合作案例，值得关注的是它反映了内容分发渠道向 LLM 平台迁移的趋势，以及版权方与模型厂商之间从对抗走向授权合作的路径。",
+      "tags": [
+        "openai",
+        "content-partnership",
+        "chatgpt-integration",
+        "media-publishing",
+        "ai-news"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.39,
+      "score_breakdown": {
+        "tech_depth": 0.15,
+        "practical_value": 0.2,
+        "timeliness": 0.85,
+        "community_heat": 0.45,
+        "domain_match": 0.55
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "title": "Our first phase of embedded assessments",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 16 Nov 2026 08:00:00 GMT",
+      "summary_raw": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "summary": "OpenAI 宣布启动首阶段嵌入式评估，邀请 Apollo Research、METR、Transluce 和 Goodfire 等外部机构在模型开发过程中独立评估对齐性、安全防护与监控系统。这属于 AI 治理与第三方审计机制的一次制度化尝试，值得关注的是它把外部评估从发布后审查前移到开发流程内部，可能影响未来模型安全评估的标准与透明度。",
+      "tags": [
+        "ai-safety",
+        "model-alignment",
+        "third-party-evaluation",
+        "ai-governance",
+        "openai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.51,
+      "score_breakdown": {
+        "tech_depth": 0.35,
+        "practical_value": 0.3,
+        "timeliness": 0.85,
+        "community_heat": 0.55,
+        "domain_match": 0.75
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "summary_raw": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "summary": "OpenAI 发布面向医疗场景的 ChatGPT for Healthcare 更新，核心是引入 computer-use 智能体、改进临床问答质量，并推出可跨多种医疗软件运行的新插件，目标是让 AI 直接完成实际医疗工作流而非仅对话。这标志着通用 Agent 能力向高合规、高专业度垂直行业落地，值得关注其在医疗软件集成、临床准确性保障与自动化操作上的产品化路径。",
+      "tags": [
+        "healthcare",
+        "computer-use-agents",
+        "chatgpt",
+        "plugins",
+        "clinical-ai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.57,
+      "score_breakdown": {
+        "tech_depth": 0.45,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.65,
+        "domain_match": 0.85,
+        "_override": {
+          "practical_value": "原值 0.6 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "summary_raw": "",
+      "summary": "OpenAI 官方博客介绍面向医疗团队推进 computer-use agent 的工作，属于产品/应用方向公告而非技术论文。核心价值在于展示 GUI 操作型 Agent 在高合规、高风险垂直行业（医疗）中的落地路径，涉及与电子病历、临床工作流等系统的交互场景。对关注 Agent 实际部署边界、行业适配与安全合规约束的读者有参考意义，但预计不包含底层模型或算法细节。",
+      "tags": [
+        "computer-use-agent",
+        "healthcare",
+        "agent-deployment",
+        "openai",
+        "vertical-ai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.5,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.3,
+        "timeliness": 0.85,
+        "community_heat": 0.55,
+        "domain_match": 0.85,
+        "_override": {
+          "practical_value": "原值 0.45 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/the-kings-trust-and-openai",
+      "title": "The King’s Trust and OpenAI launch £1m partnership",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 16 Nov 2026 00:00:00 GMT",
+      "summary_raw": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+      "summary": "OpenAI 与英国国王信托基金会（The King's Trust）宣布启动 100 万英镑的合作项目，目标是为英国多达 2.5 万名年轻人提供面向职场的实用 AI 技能培训。这是 OpenAI 企业社会责任与 AI 素养普及方向的落地动作，重点在就业能力而非模型技术。值得关注的是它反映了头部 AI 公司通过公益合作进入教育与劳动力培训体系的路径，以及 AI 技能鸿沟议题在政策层面的推进方式。",
+      "tags": [
+        "ai-literacy",
+        "workforce-training",
+        "openai",
+        "social-impact",
+        "uk"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.24,
+      "score_breakdown": {
+        "tech_depth": 0.05,
+        "practical_value": 0.15,
+        "timeliness": 0.6,
+        "community_heat": 0.2,
+        "domain_match": 0.35
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "title": "At Holiday Extras, dots get to work before anyone asks",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Mon, 16 Nov 2026 00:00:00 GMT",
+      "summary_raw": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+      "summary": "这是 OpenAI 官方发布的客户案例，介绍英国旅游公司 Holiday Extras 如何部署名为 dots 的 AI 代理：它们无需人工触发即可主动生成上线报告、标记易被忽略的问题，并在通勤途中与员工讨论即将召开的会议。该案例的价值在于展示了从'被动问答'到'主动代理'的产品形态转变，以及企业级 Agent 在真实业务流程中的落地方式，可作为评估主动式 Agent 可行性与组织影响的参考。",
+      "tags": [
+        "proactive-agents",
+        "enterprise-deployment",
+        "openai",
+        "customer-case-study",
+        "agent-workflow"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.39,
+      "score_breakdown": {
+        "tech_depth": 0.25,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.3,
+        "domain_match": 0.75,
+        "_override": {
+          "practical_value": "原值 0.45 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Sun, 15 Nov 2026 22:00:01 GMT",
+      "summary_raw": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "summary": "OpenAI 官方博客介绍了一项将标准模型定义在格点上的候选非微扰方案，并称 GPT-6 Astra 协助把这一想法转化为详细证明。该工作属于计算物理与形式场论交叉方向，试图为粒子物理标准模型提供严格的格点表述，从而支持非微扰计算。值得关注的点在于：它展示了前沿大模型在数学与理论物理推导中的实际参与程度，是评估 LLM 科研辅助能力的一个具体案例。",
+      "tags": [
+        "lattice-field-theory",
+        "standard-model",
+        "llm-for-science",
+        "nonperturbative-qft",
+        "openai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.51,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.2,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.55,
+        "_override": {
+          "tech_depth": "原值 0.85 超出 article-or-news 上限 0.5，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/our-new-blog-for-science",
+      "title": "Our new blog for science",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Sun, 15 Nov 2026 22:00:00 GMT",
+      "summary_raw": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "summary": "OpenAI 推出面向科学研究的官方博客，用于发布 AI 辅助科学发现的新成果、实用方法与研究者一手经验。该博客本身不涉及模型或技术发布，价值在于汇集 AI for Science 的案例与方法论，适合关注 LLM 在科研场景落地（如实验设计、文献分析、假设生成）的研究者跟踪前沿实践，但单条内容信息增量有限。",
+      "tags": [
+        "ai-for-science",
+        "openai",
+        "research-workflow",
+        "llm-applications",
+        "science"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.4,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.7,
+        "community_heat": 0.4,
+        "domain_match": 0.6,
+        "_override": {
+          "practical_value": "原值 0.35 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/introducing-chatgpt-wallet",
+      "title": "Introducing ChatGPT Wallet",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Fri, 13 Nov 2026 15:00:00 GMT",
+      "summary_raw": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "summary": "OpenAI 推出 ChatGPT Wallet，为 ChatGPT Work、Codex 和 dots 中的智能体提供受控支付能力：代理发起购买时需用户显式批准，并沿用现有银行卡保护机制。它解决的是 Agent 从'建议'走向'执行交易'时最关键的授权与资金安全缺口，把支付确认、权限边界和卡组织风控串成一条可审计链路。对做 Agent 商业闭环、自动化采购或订阅类工作流的团队，这是基础设施层面的信号，值得关注其授权模型与生态接入方式。",
+      "tags": [
+        "agent-payments",
+        "chatgpt",
+        "agentic-commerce",
+        "payment-security",
+        "openai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.35,
+        "practical_value": 0.3,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.85,
+        "_override": {
+          "practical_value": "原值 0.55 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/business/customer-stories/shield",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Fri, 13 Nov 2026 08:00:00 GMT",
+      "summary_raw": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "summary": "这是 OpenAI 官方发布的企业客户案例，介绍 IT 服务公司 Shield 如何用 OpenAI 模型构建 Forge 智能体，让 AI 代替技术员在老旧门户系统中完成重复性操作与工单交接，使技术人员专注需要判断力的问题。价值在于展示了 agent 在遗留系统自动化（无 API、需界面操作）这一真实企业场景中的落地路径，对评估 browser-use/computer-use 类 agent 的商业可行性有参考意义，但属于营销性质案例，缺少技术细节与量化指标。",
+      "tags": [
+        "enterprise-agent",
+        "legacy-system-automation",
+        "openai",
+        "customer-case-study",
+        "it-operations"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.37,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.25,
+        "domain_match": 0.7,
+        "_override": {
+          "practical_value": "原值 0.45 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/business/customer-stories/amplitude",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Thu, 12 Nov 2026 20:00:00 GMT",
+      "summary_raw": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "summary": "OpenAI 官方客户案例，介绍数据分析公司 Amplitude 如何基于 OpenAI 模型构建主动式产品 Agent「Wave」：它先识别该做什么功能，再借助编码 Agent 协助团队完成改动，最后度量上线影响，把产品迭代周期压缩到 1–2 天。价值在于展示了一条从洞察、开发到效果验证的 Agent 闭环落地路径，属于厂商背书型案例，技术细节有限但可作为企业级 Agent 工作流设计的参考。",
+      "tags": [
+        "agent-workflow",
+        "coding-agents",
+        "product-analytics",
+        "enterprise-adoption",
+        "openai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.39,
+      "score_breakdown": {
+        "tech_depth": 0.25,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.3,
+        "domain_match": 0.7,
+        "_override": {
+          "practical_value": "原值 0.45 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/business/customer-stories/gondola",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Thu, 12 Nov 2026 12:00:00 GMT",
+      "summary_raw": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "summary": "这是 OpenAI 官方发布的客户案例，讲述创意人才平台 Gondola 如何借助 Codex 与 ChatGPT 提升研发效率：其首席工程师产出提升约 50%，团队在人员规模不变的情况下支撑了翻倍的营收增长。内容属于厂商背书型营销材料，缺少技术细节与可复现数据，但可作为了解企业级 AI 编码工具落地效果与 ROI 叙事的参考样本。",
+      "tags": [
+        "codex",
+        "ai-coding-assistant",
+        "enterprise-adoption",
+        "productivity",
+        "customer-story"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.34,
+      "score_breakdown": {
+        "tech_depth": 0.15,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.25,
+        "domain_match": 0.6,
+        "_override": {
+          "practical_value": "原值 0.35 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Thu, 12 Nov 2026 09:30:00 GMT",
+      "summary_raw": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "summary": "OpenAI 官方博客发布的企业客户案例，介绍英国旅游附加服务公司 Holiday Extras 如何用 Codex 将业务专家（客服、运营）的经验转化为内部应用，提升预订转化率并拓展新增长点。值得关注的是它展示了非工程团队借助代码生成工具直接参与软件构建的组织模式，而非单纯的技术指标；但作为厂商营销案例，缺少量化细节与失败经验，参考时需注意其宣传属性。",
+      "tags": [
+        "codex",
+        "enterprise-adoption",
+        "code-generation",
+        "openai",
+        "case-study"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.38,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.3,
+        "timeliness": 0.6,
+        "community_heat": 0.3,
+        "domain_match": 0.7,
+        "_override": {
+          "practical_value": "原值 0.45 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/children-first-declaration",
+      "title": "Supporting research on AI and children’s safety",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/children-first-declaration",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Thu, 12 Nov 2026 00:00:00 GMT",
+      "summary_raw": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "summary": "OpenAI 宣布投入 200 万美元资助 AI 与儿童安全相关研究，重点支持面向青少年的风险与机会测量工具开发。该举措属于 AI 治理与安全领域的企业社会责任动作，反映出头部模型厂商正将未成年人保护纳入安全议程，值得关注 AI 安全政策、内容风控与评测基准方向的从业者跟踪其后续产出的工具与标准。",
+      "tags": [
+        "ai-safety",
+        "child-safety",
+        "ai-governance",
+        "risk-measurement",
+        "openai"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.37,
+      "score_breakdown": {
+        "tech_depth": 0.2,
+        "practical_value": 0.25,
+        "timeliness": 0.7,
+        "community_heat": 0.35,
+        "domain_match": 0.55
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    },
+    {
+      "id": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "source": "rss",
+      "collected_at": "2026-11-17T08:04:01Z",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "feed_name": "openai-blog",
+      "author": "",
+      "published": "Thu, 12 Nov 2026 00:00:00 GMT",
+      "summary_raw": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "summary": "这是 OpenAI 官方博客对澳大利亚律所 Gilbert + Tobin CEO Sam Nickless 的访谈，讲述该律所如何把 AI 引入法律业务本身，而不只是当作工具试用。内容属于客户案例/行业落地叙事，价值在于展示专业服务行业（法律）中 AI 的组织级采纳路径、人机分工与商业模式调整思路，适合关注企业级 AI 落地与变革管理的人参考，但缺少技术细节与可复用工程方案。",
+      "tags": [
+        "legal-tech",
+        "enterprise-adoption",
+        "openai-case-study",
+        "professional-services",
+        "ai-transformation"
+      ],
+      "category": "article-or-news",
+      "relevance_score": 0.31,
+      "score_breakdown": {
+        "tech_depth": 0.15,
+        "practical_value": 0.3,
+        "timeliness": 0.55,
+        "community_heat": 0.2,
+        "domain_match": 0.45,
+        "_override": {
+          "practical_value": "原值 0.35 超出 article-or-news 上限 0.3，已截断"
+        }
+      },
+      "analyzed_at": "2026-11-17T08:04:02Z"
+    }
+  ]
+}
