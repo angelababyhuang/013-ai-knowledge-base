@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.22017v1",
+  "title": "SkillBuffBench: Measuring What Agent Skills Contribute across Harnesses, Models, Skill Access Modes and Memory",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.22017",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-18T08:04:16Z",
+  "analyzed_at": "2026-11-18T08:04:17Z",
+  "organized_at": "2026-11-18T08:07:21Z",
+  "summary": "SkillBuffBench 是一个针对 Agent Skills 的基准测试与配对评估协议，核心创新在于把 Skill 访问方式作为三级因子（无 Skill、精选 Skill、从已安装库自动调用），并与记忆开关、四种 agent harness、多家模型（Anthropic/Google/OpenAI 及中国开源权重模型）交叉组合，在材料科学与生物学的专家任务上评估。它直击现有证据的偏差：以往评测都假设正确 Skill 被手工指定且 agent 从空白状态开始，而真实部署中 agent 需从任意已装库中选择并携带历史记忆。每个 run 由确定性验证器打分，用任务级配对 bootstrap 报告不确定性，并单独报告成本、轮次与耗时，为理解 Skill 的真实增益提供了更贴近部署的测量框架。",
+  "tags": [
+    "agent-skills",
+    "benchmark",
+    "evaluation-protocol",
+    "agent-memory",
+    "coding-agents"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Gengyue Dong, Ye Wei, Zheng Zhu, Yidong Han, Jiale Miao, Xiaojun Jia, Guanghui Li",
+    "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+  }
+}

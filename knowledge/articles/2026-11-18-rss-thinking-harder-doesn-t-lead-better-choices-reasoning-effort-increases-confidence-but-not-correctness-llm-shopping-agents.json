@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.22033v1",
+  "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.22033",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-18T08:04:16Z",
+  "analyzed_at": "2026-11-18T08:04:17Z",
+  "organized_at": "2026-11-18T08:07:21Z",
+  "summary": "该论文针对多模态 LLM 购物智能体提出反直觉发现：提高推理努力（thinking effort）并不能显著提升商品选择质量，却会显著抬高模型自报的置信度，即\"多想只买到自信，而非正确\"。作者在 WebShop、Amazon SQID、Wayfair WANDS 三个基准上评测十个前沿模型，并测量置信度校准，发现多数模型在各努力档位均校准不佳，且错误高度共享——同一任务上多个模型同时出错，且常选中同一个错误商品。对部署 LLM 决策智能体的工程团队而言，这是对\"加推理预算即提质\"这一默认假设的重要警示。",
+  "tags": [
+    "llm-agents",
+    "reasoning-effort",
+    "calibration",
+    "multimodal-shopping",
+    "benchmark-evaluation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Adi Krishnamoorthy, X. Y. Han",
+    "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+  }
+}

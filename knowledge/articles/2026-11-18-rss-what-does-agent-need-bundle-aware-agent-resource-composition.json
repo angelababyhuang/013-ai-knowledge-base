@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.22030v1",
+  "title": "What Does an Agent Need? Bundle-Aware Agent Resource Composition",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.22030",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-18T08:04:16Z",
+  "analyzed_at": "2026-11-18T08:04:17Z",
+  "organized_at": "2026-11-18T08:07:21Z",
+  "summary": "该论文提出 Task-Conditioned Agent Resource Composition 问题：智能体的实际效用取决于骨干模型与工具技能包的组合，且只有执行后才能知晓，而现有做法要么绑定训练目录、要么独立打分忽略互补性。作者设计检索增强的 bundle-aware 生成方法，用微调生成器结合约束束搜索重组候选资源，并用 LLM 教师与历史成功配置训练 critic 排序，还构建了含 5,060 条真实执行配置的 AgentSelect-Exec 基准。结果显示参考配置恢复率近基线两倍，执行评分从 7.58 提升至 8.78，说明可从任务经验中学习并迁移联合资源组合策略。",
+  "tags": [
+    "agent-composition",
+    "tool-selection",
+    "bundle-aware-retrieval",
+    "llm-critic",
+    "agent-benchmark"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yunxiao Shi (Australian National University), Tingwei Chen (University of Technology Sydney), Dannong Xu (Australian National University), Ahad N. Zehmakan (Australian National University), Jialie Shen (City St George's, University of London), Zhendong Chu (Squirrel Ai Learning), Qingsong Wen (Squirrel Ai Learning)",
+    "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+  }
+}

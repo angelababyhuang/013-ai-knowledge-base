@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.21885v1",
+  "title": "Language Models Can Rewrite Their Own Weights",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.21885",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-18T08:04:16Z",
+  "analyzed_at": "2026-11-18T08:04:17Z",
+  "organized_at": "2026-11-18T08:07:21Z",
+  "summary": "该论文提出「自我重写」：让语言模型仅凭自身推理、无梯度无训练地诊断失败并直接编辑自己的权重。27B 模型在 490 道未见题上自我编辑后准确率提升 6.6 分，且增益固化在权重中、每次推理零额外成本；它还能定位并修复自身损坏矩阵，在六个未见图像基准上从 7% 提升到 70%。能力随规模涌现（2B 无效、4B/9B 自损、仅 27B 成功），暗示模型改进可能从「训练一次」转向「对话式自改」，对权重编辑、自我改进与测试时计算路线均有冲击。",
+  "tags": [
+    "self-improvement",
+    "weight-editing",
+    "model-self-repair",
+    "test-time-compute",
+    "scaling-emergence"
+  ],
+  "relevance_score": 0.75,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiajun Fan, Neil He, Changyi Yang, Andy Mao, Xi Zhu, Chaoran Cheng, Kaiqu Liang, Shuaike Shen, Zetian Li, Ruihan Guo, Ge Liu",
+    "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+  }
+}

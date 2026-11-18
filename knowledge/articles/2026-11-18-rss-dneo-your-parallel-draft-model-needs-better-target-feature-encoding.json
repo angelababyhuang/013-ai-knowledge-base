@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.21925v1",
+  "title": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.21925",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-18T08:04:16Z",
+  "analyzed_at": "2026-11-18T08:04:17Z",
+  "organized_at": "2026-11-18T08:07:21Z",
+  "summary": "DNeo 针对推测扩散解码中并行草稿模型的特征编码缺陷提出改进：标准编码存在残差混合导致的有损投影、无记忆（不记录被拒提案）、目标层特征均匀采样遗漏关键隐状态三大问题。作者提出 MoFA（带工作记忆的轻量特征编码）、拒绝记忆、2-tap 因果卷积、仅前缀交叉注意力与非均匀目标层选择，最终在草稿模型规模与生成质量不变的前提下比 DFlash-2 快 1.3 倍，刷新高质量快速 LLM 推理的 SOTA。值得关注的是它把'被拒草稿'转化为可复用记忆信号，为推测解码的草稿质量优化提供了新思路。",
+  "tags": [
+    "speculative-decoding",
+    "diffusion-drafting",
+    "feature-encoding",
+    "llm-inference",
+    "attention-mechanism"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jameson Sandler, Shane Bergsma, Mostafa Elhoushi, Bin Claire Zhang, Gavia Gray, Joel Hestness, Nolan Dey, Ferdinando Fioretto",
+    "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+  }
+}

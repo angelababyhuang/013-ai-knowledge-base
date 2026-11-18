@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.22069v1",
+  "title": "MedGuardBench: A Patient-Oriented Benchmark for Personalized Guardrail Development",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.22069",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-18T08:04:16Z",
+  "analyzed_at": "2026-11-18T08:04:17Z",
+  "organized_at": "2026-11-18T08:07:21Z",
+  "summary": "MedGuardBench 提出“患者条件化用药守护”任务：同一处方对不同患者的安全性不同，现有 guardrail 只看内容不看受影响的人。作者构建了覆盖 87 种药物、5001 个场景的药物不相交基准，发现标准 guardrail 依赖措辞、是否提供档案等表面线索而非患者事实。方法上提出个性化推理蒸馏、Context Unrolling 与规则奖励引导 GRPO，在提升不安全召回与复杂风险（过敏、不良反应）检测的同时降低误报，并通过移除/交换档案验证增益来自患者信息。",
+  "tags": [
+    "personalized-guardrails",
+    "medical-safety",
+    "benchmark",
+    "llm-reasoning",
+    "grpo"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sara Khosravi, Xiaofei Wen, Majid Sarrafzadeh, Muhao Chen",
+    "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+  }
+}

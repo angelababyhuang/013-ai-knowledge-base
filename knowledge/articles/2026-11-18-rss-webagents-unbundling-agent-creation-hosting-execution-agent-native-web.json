@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.21978v1",
+  "title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution for an Agent-Native Web",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.21978",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-18T08:04:16Z",
+  "analyzed_at": "2026-11-18T08:04:17Z",
+  "organized_at": "2026-11-18T08:07:21Z",
+  "summary": "这篇 arXiv 论文提出 WebAgents 架构，把智能体的创建、托管与执行三个角色解耦：创作者发布签名的 agent.pkg（含可移植工作流、技能、schema 与资源需求），托管方只分发公开程序并可保留私有服务，用户端基于 OpenClaw 的 agent-native 浏览器/运行时负责验证签名、获取授权，并在运行时绑定用户自选的模型、工具、权限与预算。核心价值在于让智能体行为跨环境迁移而不转移用户资源控制权，实验显示可拦截全部 716 个注入的契约违规、接受 295 个良性对照，预处理中位耗时低于 0.5 秒，为 Agent-Native Web 的互操作与安全提供了可落地的契约范式。",
+  "tags": [
+    "agent-native-web",
+    "agent-packaging",
+    "capability-security",
+    "runtime-authorization",
+    "interoperability"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dario Fenoglio, Martin Gjoreski, Marc Langheinrich, Pradyumna Chari, Ramesh Raskar",
+    "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.21946v1",
+  "title": "Conserved Verdicts, Drifting Commitments: Identifying Harmful Overthinking",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.21946",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-18T08:04:16Z",
+  "analyzed_at": "2026-11-18T08:04:17Z",
+  "organized_at": "2026-11-18T08:07:21Z",
+  "summary": "该论文研究推理模型（如 DeepSeek-R1-Distill 系列）的“有害过度思考”问题：模型已得出正确答案后继续推理反而可能丢失答案。作者提出“承诺-裁决”（commitment-verdict）框架，指出仅凭最终正确性探针无法判断是否应停止，因为裁决对固定结果没有可预测漂移；承诺与裁决之差等于剩余答案质量的期望变化及停止带来的准确率增益。在 MATH-500 上，379 个已持有正确答案的点继续推理平均损失 3.6 分，且损失集中在少数题目；六个推理模型上准确率曲线下降主要源于哪些链仍在运行，而非链内答案变差。该工作为构建停止规则前应先测量什么提供了理论框架，对推理效率与 early-stopping 研究有直接指导意义。",
+  "tags": [
+    "overthinking",
+    "reasoning-models",
+    "early-stopping",
+    "chain-of-thought",
+    "inference-efficiency"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jianghong Zhou, Hao Rong, Chen Lin",
+    "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.21950v1",
+  "title": "DiscoveryAgent: A Framework for Scientist-centric Agentic AI",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.21950",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-18T08:04:16Z",
+  "analyzed_at": "2026-11-18T08:04:17Z",
+  "organized_at": "2026-11-18T08:07:21Z",
+  "summary": "DiscoveryAgent 是一个以科学家为中心的领域无关 Agent 框架，核心设计是在自主科研与人类可控之间取得平衡：科学家在每轮研究之间选择、细化或替换假设，审计 Agent 则对带检查点的记录进行追问，以追溯结论、复现分析。论文提出严格的 checkpointing 机制，使审计 Agent 能以高于以往 AI scientist 的错误识别率自主发现错误，人机协作时科学家发现的有效错误数量是人工审查的 14 倍。在变星分类、蛋白质变异效应预测及物理/社会/生命科学三个案例中验证了效果，值得关注的是它把'可审计性'作为 Agent 科研系统的核心架构要素。",
+  "tags": [
+    "ai-scientist",
+    "agentic-research",
+    "human-in-the-loop",
+    "audit-agents",
+    "checkpointing"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Owen Queen, Ioana Ciuca, Emma Dann, Jean Somalwar, Carine You, Steven Dillmann, Viraj Manwadkar, Evan Gorrell, Harrison G Zhang, Jonathan K Pritchard, Risa H Wechsler, James Zou",
+    "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+  }
+}

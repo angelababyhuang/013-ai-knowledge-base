@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.22075v1",
+  "title": "Can You Undo It? Reversibility Classes for AI Agent Actions",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.22075",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-18T08:04:16Z",
+  "analyzed_at": "2026-11-18T08:04:17Z",
+  "organized_at": "2026-11-18T08:07:21Z",
+  "summary": "该论文提出\"可逆性等级\"（Reversibility Classes）框架，用五级声明式词汇表为 AI Agent 的工具调用动作标注可撤销程度，并引入参数敏感规则、保守默认值和显式的前置状态捕获契约。作者在 20 个 MCP 服务器、536 个工具上构建了带证据链接的注册表，并通过 738 条规则用例、2158 次运行验证会话守卫机制：在 29 次可归因攻击中全部拦截，优于读写代理的 18 次，但良性运行中新增 9 个审批点。其价值在于把\"权限≠可恢复\"这一被忽视的安全盲区变成可测试的工程契约，适合构建 Agent 安全护栏的团队参考。",
+  "tags": [
+    "agent-safety",
+    "tool-use",
+    "reversibility",
+    "mcp",
+    "guardrails"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Deepak Waghmare, Shaad Sufi",
+    "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+  }
+}

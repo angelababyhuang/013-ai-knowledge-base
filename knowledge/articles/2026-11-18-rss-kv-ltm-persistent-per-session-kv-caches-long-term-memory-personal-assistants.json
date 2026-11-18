@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.21998v1",
+  "title": "KV-LTM: Persistent Per-Session KV Caches as Long-Term Memory for Personal Assistants",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.21998",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-18T08:04:16Z",
+  "analyzed_at": "2026-11-18T08:04:17Z",
+  "organized_at": "2026-11-18T08:07:21Z",
+  "summary": "KV-LTM 提出把每个会话的原始文本连同其 KV cache 一起持久化存储，作为个人助理的长期记忆层：回答问题时直接恢复缓存会话并追加问题，从而免去重新 prefill 的计算，同时以文本作为记录载体、缓存仅作加速器，可优雅退化为纯文本方案。作者在 LongMemEval 上观察到商业助手得分远低于离线读全史的同一模型，据此论证写入-读取间存在内容损失，并给出存储记录、预算驱动的保留策略、只追加读路径与有界聚合的设计，以及每 token 31K-328K 字节、每用户年 0.34-3.6 TB 的容量估算和无需真实缓存实现的评测协议。该工作把 KV cache 从推理加速技巧提升为记忆架构的一等公民，对长记忆 Agent 的系统设计有参考价值。",
+  "tags": [
+    "kv-cache",
+    "long-term-memory",
+    "personal-assistant",
+    "longmemeval",
+    "memory-architecture"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ziv Kfir, Ido Kfir",
+    "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+  }
+}
