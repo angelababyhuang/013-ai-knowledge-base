@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23564v1",
+  "title": "LProp: Propagating Latent Uncertainty through Evidence-Conditioned Belief Revision in LLM Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23564",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "该论文针对 LLM 智能体在多步推理中把中间判断当作确定事实传递、导致误差累积的问题，提出 Latent Uncertainty 与 LProp 方法：用隐空间表示保留与不确定性相关的信息，避免冗长描述和反思带来的额外开销，并基于新证据对继承的答案分布进行贝叶斯式修正，无需额外轨迹采样。在选择题、是非题、开放问答和数学推理任务上，该方法多数指标优于基线，且在全部八种传播设置中推理 token 消耗最低，对构建可靠多步 Agent 流水线有直接参考价值。",
+  "tags": [
+    "uncertainty-propagation",
+    "llm-agents",
+    "latent-representation",
+    "belief-revision",
+    "token-efficiency"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Kaiwen Shi, Zheyuan Zhang, Weixiang Sun, Han Bao, Colby Nelson, Yanfang Ye",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

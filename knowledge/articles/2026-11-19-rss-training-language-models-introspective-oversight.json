@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23365v1",
+  "title": "Training Language Models for Introspective Oversight",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23365",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "该论文提出「内省式监督」（introspective oversight）：在模型中训练一个独立的第三人称观察者角色，专门回答关于助手行为的任意问题，并以助手实际行为作为可验证奖励来训练其准确性。相比外部转录监控、激活解码器和诚实性训练，该方法在五项留出监督评测上取得 0.907 的平均 AUROC，且训练观察者后助手本身也变得更易被监控。值得关注的是它把「模型自我报告」从不可靠的追问转变为可训练、可验证的监督信号，为 reward hacking、欺骗、谄媚等难以从输出中察觉的行为提供了新的检测路径。",
+  "tags": [
+    "introspective-oversight",
+    "ai-safety",
+    "model-monitoring",
+    "reward-hacking",
+    "deception-detection"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Alex Lin Wang, Linus Yifeng Tang, Dami Choi, Neil Chowdhury",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

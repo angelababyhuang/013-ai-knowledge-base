@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23588v1",
+  "title": "ARISE: Practical Self-Evolving Memory for Accurate and Cost-Efficient Enterprise Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23588",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "ARISE 提出一种面向企业 LLM Agent 的自演化记忆架构：不更新模型权重、工具或工作流逻辑，而是让 Agent 从自身失败中学习。它用模型自身或教师模型归因失败并提出修正，将修正保存为可检索的微记忆，再逐步整合为宏观规则，且仅当留出集准确率提升时才接受规则更新。在 SOP-Bench 和 τ²-bench 的 14 个企业工作流域、5 个模型上，ARISE-Teacher 分别提升 10.9 和 5.8 个百分点，且模型调用与输出 token 更少，展示了低成本、可落地的企业 Agent 持续改进路径。",
+  "tags": [
+    "self-evolving-memory",
+    "enterprise-agents",
+    "failure-attribution",
+    "memory-consolidation",
+    "agent-workflow"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiangyun Zhang, Zhou Tang, Kristen Surrao, Zhiyu Chen, Albert Guan, Tor Nitayanont, Yupei Zhang, Roopali Singh, Yunkai Xiao, Shreya Pandit, Julia Huang, Shayan Ali Akbar, Erwin Cornejo, Yuan Li, Yi Zhang",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

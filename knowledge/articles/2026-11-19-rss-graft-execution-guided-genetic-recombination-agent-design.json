@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23509v1",
+  "title": "GRAFT: Execution-Guided Genetic Recombination for Agent Design",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23509",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "GRAFT 针对自动化 Agent 架构搜索中进化方法仅依赖聚合适应度、掩盖实例级成败细节的问题，提出用父代特定的执行证据（成功与失败运行样本）引导语义交叉与变异，同时保留聚合适应度做选择与存活。其反馈机制复用适应度评估中已有的有界样本，不泄露参考答案、不额外执行任务，在六个推理与编程场景下平均测试准确率达 82.0%，超最强基线 9.8 个百分点，消融实验证实执行证据的独立增益。该工作为 LLM Agent 自动设计提供了低成本、可复用的搜索信号增强思路，值得关注进化式 Agent 架构搜索的研究者阅读。",
+  "tags": [
+    "agent-design",
+    "evolutionary-search",
+    "llm-agents",
+    "execution-feedback",
+    "automated-architecture-search"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sevda Ebrahimi, Mohammed Saidul Islam, Xiaodan Zhu, Elham Dolatabadi",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

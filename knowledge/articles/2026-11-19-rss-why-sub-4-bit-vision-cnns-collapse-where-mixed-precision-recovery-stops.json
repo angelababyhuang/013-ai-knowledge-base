@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23445v1",
+  "title": "Why Sub-4-Bit Vision CNNs Collapse and Where Mixed-Precision Recovery Stops",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23445",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "该论文系统剖析了视觉 CNN（ResNet、EfficientNet）在权重低于 4-bit 量化时精度崩塌的机理，在完整 ImageNet-1k 验证集上定位出崩塌集中在后段 pointwise 投影与 depthwise 层，且退化呈强非线性。作者提出多步混合精度恢复方案，仅保留不到 5% 的关键层激活为 8-bit 即可挽回最多 92% 的损失精度；同时在 ARM/x86 CPU 上实测发现低比特解包会导致 1.48x–21.5x 的执行减速，揭示了模型体积与边缘吞吐之间的现实权衡。对做端侧量化部署的工程师有直接参考价值。",
+  "tags": [
+    "quantization",
+    "vision-cnn",
+    "mixed-precision",
+    "edge-deployment",
+    "model-compression"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Michael Schroeder",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

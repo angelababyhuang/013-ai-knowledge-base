@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23611v1",
+  "title": "RefinementGuard: Counterexample-Directed Semantic Qualification for Hidden Agent-Tool Execution",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23611",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "该论文针对 Agent 工具运行时将用户可见操作降级为隐藏并行图（以降低延迟和上下文开销）时可能引入语义误译的问题，提出 RefinementGuard：一种面向隐藏、有副作用的 agent-tool 降级的翻译验证机制，并配合与产物绑定、失败即拒绝的运行时准入。方法上用独立参考实现和显式父操作义务在隔离状态上比较候选图，在 bug 定位与补丁验证两类仓库级契约上评估：义务式验证接受全部 60 个合法变体并拒绝 49/100 故障，而精确相等虽拒绝全部故障却误杀所有合法变体，体现选择性准入而非最大化变异拒绝的设计取向。值得关注的是它把编译器翻译验证思想引入 Agent 工具执行安全，并量化了隐藏执行的并行收益（4.50x 延迟比、上下文减少 74.3%）与补丁验证无加速的边界。",
+  "tags": [
+    "agent-tool-runtime",
+    "translation-validation",
+    "semantic-equivalence",
+    "runtime-admission",
+    "llm-agents"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Adhyayan Veer Singh, Fanjiang Ye, Yuke Wang",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

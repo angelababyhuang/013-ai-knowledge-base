@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23480v1",
+  "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23480",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "该研究系统评估了六种视觉语言模型（VLM）智能体在阅读急诊 CT/MRI 时的诊断准确率与阅片导航行为，设计了自由导航、关键层面起步、全切片单次请求、关键切片单次请求四种探索策略，共 4800 次运行，并与九名放射科医生对照。核心发现是：VLM 智能体在所有策略下都远逊于放射科医生（自由导航仅 30% vs 医生 77%），且普遍在阅片早期（约 10.8% 切片）形成首个假设并坚持不改，错误假设后仅 12.4% 能纠正；同时模型自报置信度中位数 90%，实际正确率仅 38.9%，存在严重过度自信。该工作为医疗多模态 Agent 的评测与可靠性研究提供了可复用的实验范式与警示性结论。",
+  "tags": [
+    "vision-language-models",
+    "medical-imaging",
+    "agent-evaluation",
+    "multimodal-reasoning",
+    "calibration"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jonathan Lichtle, Aymen Meddeb, Antonin Birot, Ibrahima Niang, Lisa Gastaud, Riyad Hanafi, Sofiane Dujardin, Corentin Selomme, Guillaume Cachard, Aghiles Hamroun, Gr\\'egory Kuchcinski, Su Hwan Kim, Bastien Le Guellec",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23483v1",
+  "title": "SpecLook: Speculating Where to Look for Fast and Reliable Agentic MLLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23483",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "SpecLook 针对「用图像思考」的 agentic MLLM（如 DeepEyes、Thyme-RL）推理慢、答案无可靠性评分的问题，提出免训练的三级 speculate-and-verify 框架：小模型先草拟一次 zoom-in 观察并据此重答，若答案不变且置信则提前结束；否则由大模型无工具校验并修正该观察，融合两者答案；仍缺证据的问题才进入 agent 单次前向（SpecLook-Fast 直接跳过）。其关键洞察是「推测可验证的下一步观察」而非答案，从而避免接受自信错误，并用轨迹为每个答案打无标签可靠性分。在 V*、HR-Bench、POPE 上全部 split 均优于基线，平均准确率 87.2%/86.2%，相对两个 agent 分别加速 7.7x/4.7x（Fast 版 9.9x/6.3x）。",
+  "tags": [
+    "agentic-mllm",
+    "speculative-decoding",
+    "multimodal-reasoning",
+    "training-free",
+    "efficient-inference"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xi Ding, Jiawei Zhang",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23410v1",
+  "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23410",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "RFBench 是首个面向无源射频（RF）版图设计与理解的多模态基准，用 ADS Momentum 仿真了 1 万个双端口平面版图，每个样本同时提供可编辑几何图元、栅格图、16x16 占用网格、201 个频点的复数 S 参数、结构类别与响应标签。基于这些对齐表示，它定义了七类任务，覆盖规格驱动的版图生成、表示转换、响应预测、仿真器验证、设计诊断与改进、结构理解和响应分类。评测七个多模态大模型后发现，它们在生成结构合法版图和预测电磁响应上系统性偏弱；RF 领域微调能把结构合法率从 0% 提到 83.2%，说明领域适配有效但仍有很大提升空间。该工作把'设计意图—几何—电磁行为'串成可量化评测闭环，对做科学计算、EDA 与多模态推理的研究者值得关注。",
+  "tags": [
+    "rf-design",
+    "multimodal-benchmark",
+    "electronic-design-automation",
+    "simulation-grounded",
+    "llm-evaluation"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jiarui Cui, Boxun Yan",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

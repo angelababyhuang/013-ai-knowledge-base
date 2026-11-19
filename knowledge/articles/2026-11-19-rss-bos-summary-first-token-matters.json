@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23508v1",
+  "title": "BOS Summary: The First Token Matters",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23508",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "该论文指出大视觉语言模型和语言模型普遍存在 attention sink 现象：BOS token 被后续 token 反复关注，但在因果掩码下 BOS 查询只能看到自己，因此这个被反复读取的表示不含任何输入信息。作者提出 BOS Summary，一种免训练的推理时方法，仅在 prefill 阶段对 BOS 查询行放松因果约束，使其聚合全部视觉与文本 token 形成自派生上下文表示，无需额外参数或解码开销。在多个 VLM/LLM 家族和八个多模态与纯文本基准上优于直接提示与 CoT，并在多步推理任务上超过近期 sink 干预方法；机制分析显示 BOS 携带输入信息后会削弱其 sink 主导地位并重新分配注意力。",
+  "tags": [
+    "attention-sink",
+    "vision-language-models",
+    "inference-time-intervention",
+    "training-free",
+    "mechanistic-interpretability"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Hui Zhu, Saleh Zare Zade, Rafi Ibn Sultan, Deng Pan, Arun Ross, Dongxiao Zhu",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

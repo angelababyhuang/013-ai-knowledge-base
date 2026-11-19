@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23476v1",
+  "title": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23476",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "GUARD 提出一种无需外部评分器的闭环框架，用于自主 AI Agent 的 harness（提示、技能、工具规则、记忆）持续自我进化。其核心洞察是将任务分解为执行前自检，并用方向性 regret 引导更新：锁定已掌握规则、优先修复新破坏的行为，再通过无 critic 的组相对适应度在候选编辑间选择，并用 Soft-HURT 门控保证收益大于回退、防止过度触发。该工作针对递归自我改进中反思与标量分数混淆“新破坏”与“未解决”导致的局部退化、技能遗忘和记忆膨胀问题，在记忆、技能演化、持续任务流与领域推理基准上稳定提升且降低部署 token 消耗，对构建无监督持续学习 Agent 有参考价值。",
+  "tags": [
+    "recursive-self-improvement",
+    "agent-harness",
+    "regret-guidance",
+    "continual-learning",
+    "grader-free"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Minghe Zhang, Xuetao Kang, Yifei Ming, Yanfei Chen, Han Yu, Yufan Zhuang, Chen-Yu Lee",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

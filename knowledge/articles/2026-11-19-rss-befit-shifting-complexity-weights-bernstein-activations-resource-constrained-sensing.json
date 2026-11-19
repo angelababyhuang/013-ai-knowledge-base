@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23520v1",
+  "title": "BeFit: Shifting Complexity from Weights to Bernstein Activations for Resource-Constrained Sensing",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23520",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "BeFit 提出一种端到端框架，把模型容量从权重转移到可学习的 Bernstein 多项式激活函数上，从而在资源受限的微控制器上实现无乘法推理。它先用硬件感知 NAS 搜索紧凑的 BeCNN 并做知识蒸馏，再把权重量化投影为无乘法编码，最后用可学习激活补偿精度损失并生成专用卷积核。在人体活动识别上，同架构下比 ReLU CNN 平均高 2.75pp；在 Cortex-M4 上投影后加速 2.2x 仅损失 0.8pp，无乘法器的 RISC-V 上指令数相比 DS-CNN 减少达 147x，对边缘端时序感知部署有较强参考价值。",
+  "tags": [
+    "edge-ai",
+    "microcontroller",
+    "neural-architecture-search",
+    "quantization",
+    "activation-functions"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Malak Gamal El-Din, Yasser Shoukry, Salma Elmalaki",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

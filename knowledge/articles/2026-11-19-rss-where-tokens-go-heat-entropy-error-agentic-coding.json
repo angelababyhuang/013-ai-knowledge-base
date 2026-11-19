@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.23375v1",
+  "title": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.23375",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "这篇 arXiv 论文提出「软件热力学」理论，把编码 agent 消耗的 token 拆分为「功」与「热」，并用测试套件充当 Maxwell 妖来判定每次代码变更。作者通过让 agent 反复执行「编码—撤销编码」循环，测量 token 成本的离散度，由此定义「软件温度」，并借用 Jarzynski 等式估算变更的自由能。核心发现是：成功运行中约 80% 的 token 属于「热」（即模型调用后并未改变目标代码），编码成本是撤销编码的 1.1–1.5 倍。该工作为分析和优化 agent 的 token 效率提供了新的物理类比视角，对降低 agent 推理成本有启发意义。",
+  "tags": [
+    "agentic-coding",
+    "token-efficiency",
+    "software-thermodynamics",
+    "cost-analysis",
+    "llm-agents"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Al\\'an Aspuru-Guzik, Varinia Bernales",
+    "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+  }
+}

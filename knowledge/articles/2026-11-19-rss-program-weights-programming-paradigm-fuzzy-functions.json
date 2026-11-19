@@ -1,0 +1,24 @@
+{
+  "id": "https://lobste.rs/s/qkalae",
+  "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2607.02512",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-19T08:04:32Z",
+  "analyzed_at": "2026-11-19T08:04:32Z",
+  "organized_at": "2026-11-19T08:07:21Z",
+  "summary": "该论文提出“Program-as-Weights”编程范式，主张将模糊函数（如自然语言处理、感知类任务）直接编译为模型权重，而非用传统代码实现，从而在编程语言层面统一符号逻辑与神经网络推理。它试图解决模糊逻辑难以用确定性代码表达、而纯 LLM 调用又缺乏可组合性与可调试性的矛盾，为 Agent 与 LLM 应用提供新的抽象层。值得关注的是其将“程序即权重”作为一等公民的设计思路，可能影响未来 AI 原生编程语言与编译器的形态。",
+  "tags": [
+    "program-as-weights",
+    "fuzzy-functions",
+    "neural-compilation",
+    "llm-programming",
+    "ai-native-language"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "lobsters-ai",
+    "author": "arxiv.org via lr0",
+    "published": "Tue, 17 Nov 2026 06:55:46 -0600"
+  }
+}
