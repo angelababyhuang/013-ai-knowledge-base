@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.25360v1",
+  "title": "AppSci-Bench: Can LLMs Build AI Agents and Make Them Better?",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.25360",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-20T08:04:31Z",
+  "analyzed_at": "2026-11-20T08:04:31Z",
+  "organized_at": "2026-11-20T08:07:17Z",
+  "summary": "AppSci-Bench 是一个评估 LLM 能否像人类应用科学家那样从零构建 AI Agent 的基准测试，覆盖幻灯片生成、订单到收款、合规审查、客服通话洞察、CRM 洞察等七个真实业务域，并配有各自独立的留出评测集。它要求模型先向利益相关者澄清需求、探索业务基础设施，再通过设计实验和内部基准来迭代改进 Agent，从而检验模型的构建与自我优化能力。结果显示，七个前沿模型均表现不佳，最佳模型 Claude Opus 5.0 三次尝试的平均最低分仅 59.1%，且模型常出现自建评测饱和却无法解决留出任务的问题，揭示了 Agent 构建能力这一被忽视的研究空白。",
+  "tags": [
+    "agent-benchmark",
+    "llm-evaluation",
+    "agent-construction",
+    "task-elicitation",
+    "self-improvement"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Sanjari Srivastava, Manpreet Kaur, Cheng Chang, Sof\\'ia Ram\\'os Anton, Oumaima Essamadi, Rishu Garg, Alejandro Lavale Jim\\'enez, Marcos Caballero Yus, Mercedes Garc\\'ia Mart\\'inez, Peng Qi",
+    "published": "Fri, 20 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.25043v1",
+  "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.25043",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-20T08:04:31Z",
+  "analyzed_at": "2026-11-20T08:04:31Z",
+  "organized_at": "2026-11-20T08:07:17Z",
+  "summary": "该论文提出一种授权受限的 LLM Agent 架构，嵌入自驱动实验室（SDL）DMTA 循环的 Analyze-Design 接口，让 Agent 自主选择测量任务、解读 LC-MS/DAD 数据并标记失败实验，同时通过授权、验证与审计机制约束所有改变物理状态的操作。在有机染料氧化剂筛选的真实仪器实验中，Agent 给出的氧化剂排序与脚本化峰积分一致，化学家也确认了其谱图解读；模拟回放显示其约第 7 次进样即找到最高产率条件（随机平均 14.5 次）。价值在于把 Agent 自主性与安全边界结合，为实验室自动化提供可验证的落地范式。",
+  "tags": [
+    "self-driving-lab",
+    "agent-architecture",
+    "scientific-discovery",
+    "human-in-the-loop",
+    "lab-automation"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yimeng Liu, Eric Isbrandt, Felix Katzenburg, Kevin P. Greenman, Han Hao, Yang Cao, Varinia Bernales, Al\\'an Aspuru-Guzik",
+    "published": "Fri, 20 Nov 2026 00:00:00 -0500"
+  }
+}

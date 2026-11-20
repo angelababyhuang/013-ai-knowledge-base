@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.25380v1",
+  "title": "Beyond Weight Updates: Evolving Agent Harnesses for Domain Specialization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.25380",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-20T08:04:31Z",
+  "analyzed_at": "2026-11-20T08:04:31Z",
+  "organized_at": "2026-11-20T08:07:17Z",
+  "summary": "该论文提出不更新模型权重、而是演化 agent harness（系统提示、工具 schema、技能库、规划脚手架）来实现领域专精，将 harness 演化建模为 RL 式外循环并用 GEPA 反思式进化优化器实现。在 SWE-bench Verified、OfficeBench、Terminal-Bench 上，harness 演化以极小算力恢复大部分权重更新收益，且与 RL/SFT 组合效果最佳；还指出 SFT 专精会导致推理链缩短与截断增加，而 harness 适配器天然规避该问题。为垂直 agent 落地提供了无需 GPU 训练、可按领域加载的非破坏性补充路径，工程价值突出。",
+  "tags": [
+    "agent-harness",
+    "prompt-optimization",
+    "domain-specialization",
+    "gepa",
+    "swe-bench"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "BoHao Chen",
+    "published": "Fri, 20 Nov 2026 00:00:00 -0500"
+  }
+}

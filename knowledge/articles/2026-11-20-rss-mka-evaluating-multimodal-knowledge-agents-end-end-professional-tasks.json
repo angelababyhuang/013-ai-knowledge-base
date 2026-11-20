@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.25228v1",
+  "title": "MKA: Evaluating Multimodal Knowledge Agents on end-to-end professional tasks",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.25228",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-20T08:04:31Z",
+  "analyzed_at": "2026-11-20T08:04:31Z",
+  "organized_at": "2026-11-20T08:07:17Z",
+  "summary": "MKA 是一个面向多模态知识智能体的端到端专业任务基准，包含 10 个经济领域的 200 个任务，要求智能体从 CAD 图纸、电路原理图、X 光片、复杂图表和地理地图等多份视觉密集文件中提取并整合信息，最终产出 xlsx、pptx、pdf、docx、html 或 png 格式的独立交付物。它填补了现有基准的空白：去掉图像查看工具后，Gemini 4 Carbon 在 GDPval 上的得分不变，而 GDP.pdf、GDP.xlsx 等单格式评测也不要求跨文件、跨模态推理。评测采用专家加权评分标准，并由沙箱化的智能体自动评分器打分（与人类专家判断一致率 96.2%，Cohen's κ=0.91），以 WSR 和 Climb-WSR 为指标；最强模型的 Climb-WSR 仍低于 57%，说明多模态智能体仍有很大提升空间。",
+  "tags": [
+    "multimodal-agent",
+    "benchmark",
+    "professional-tasks",
+    "document-generation",
+    "visual-reasoning"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Anima Singh, Suhas Yogin, Weicheng Kuo, Ivor Rendulic, Ivan Jurin, Antoine Yang, Oran Kelly, Rohan Doshi, Hammad Ayyubi, Ioana Bica, Sergi Caelles, Matthew Conniff, Dan Graur, Anastasija Ili\\'c, Ahmet Iscen, Chao Jia, Tomasz K\\k{e}pa, Chunyuan Li, Noah \\'O Donnaile, Filip Pavetic, Goran Petrovic, Khalid Salama, Zhicheng Wang, Polina Zablotskaia, Yiqian Zhang, Ming Zhao, Benjamin Caine, Mario Lu\\v{c}i\\'c, Melvin Johnson, Radu Soricut, Jean-Baptiste Alayrac",
+    "published": "Fri, 20 Nov 2026 00:00:00 -0500"
+  }
+}

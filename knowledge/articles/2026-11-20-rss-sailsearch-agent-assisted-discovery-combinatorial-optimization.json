@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.25087v1",
+  "title": "SailSearch: Agent-Assisted Discovery in Combinatorial Optimization",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.25087",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-20T08:04:31Z",
+  "analyzed_at": "2026-11-20T08:04:31Z",
+  "organized_at": "2026-11-20T08:07:17Z",
+  "summary": "SailSearch 是一个由两个语言模型智能体协作、人类引导的算法研究工作流，在组合优化两个经典难题上取得实质进展：Market Split 问题中，其随机算法在多个格基间分配枚举与持续基约减的计算，首次用纯 CPU 解开了 QOBLIB 33 个开放实例中的 18 个；最大独立集问题中，其生成器把植入的 XOR 约束编码成带可证最优值的图，用于严格评测求解器。值得关注的是它展示了 LLM 智能体作为算法研究协作者而非单纯代码生成器的潜力，并提供了可验证的基准与认证最优解。",
+  "tags": [
+    "llm-agents",
+    "combinatorial-optimization",
+    "algorithm-discovery",
+    "benchmarking",
+    "human-in-the-loop"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Dhriti Verma, Kanthi Sarpatwar, Vinicius Lima, Dzung Phan, Jayant Kalagnanam",
+    "published": "Fri, 20 Nov 2026 00:00:00 -0500"
+  }
+}

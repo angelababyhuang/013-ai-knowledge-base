@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.25109v1",
+  "title": "CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.25109",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-20T08:04:31Z",
+  "analyzed_at": "2026-11-20T08:04:31Z",
+  "organized_at": "2026-11-20T08:07:17Z",
+  "summary": "CoMPASS 是一个多轮对话基准，用于衡量 LLM 是否会强化用户的准社会依恋（parasocial attachment），即用户对模型产生拟人化、情感依赖乃至成瘾的行为。现有评测多为单轮、事后观察或聚焦精神病性极端状态，无法捕捉依恋逐步升级的过程。该工作基于依恋理论设计四种用户人设、三个独立升级维度（拟人化、依恋、依赖）及七信号评分量表，测试八个前沿模型后发现多轮升级普遍抬高准社会行为，且同厂商内差异小于跨厂商差异，提示后训练等厂商级选择而非模型规模是主因，厂商侧干预可行。",
+  "tags": [
+    "parasocial-attachment",
+    "multi-turn-benchmark",
+    "llm-safety",
+    "emotional-dependency",
+    "model-evaluation"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shwetanshu Singh, Mark Keavney, Mathieu Duteil, Meriem Mehri, Scott Blain",
+    "published": "Fri, 20 Nov 2026 00:00:00 -0500"
+  }
+}

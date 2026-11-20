@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.25325v1",
+  "title": "Pandora's Toolbox Or Why Agent Safety Cannot Be Verified",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.25325",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-20T08:04:31Z",
+  "analyzed_at": "2026-11-20T08:04:31Z",
+  "organized_at": "2026-11-20T08:07:17Z",
+  "summary": "这篇论文从可计算性理论角度论证：当前将固定语言模型与通用计算设备耦合而成的 AI Agent，其安全性在一般情况下不可判定——不存在算法能预测 Agent 是否会执行与某个危险程序语义等价的程序，因此护栏、黑白名单和认证只能提供不完美的安全。作者进一步证明，即便在有限上下文、有限取值和有限运行时间约束下安全性可判定，该问题仍是 PSPACE 完全，且安全性不具组合性：单独证明安全的 Agent 组合后仍可能产生不安全行为。论文最后讨论了实践中可用的松弛安全定义。对做 Agent 安全、沙箱隔离与形式化验证的研究者和工程师而言，这是一份重要的理论边界说明，有助于理解为何纯静态审查无法根治 Agent 风险。",
+  "tags": [
+    "agent-safety",
+    "computability",
+    "guardrails",
+    "formal-verification",
+    "ai-alignment"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mario Franco, Carlos Gershenson",
+    "published": "Fri, 20 Nov 2026 00:00:00 -0500"
+  }
+}

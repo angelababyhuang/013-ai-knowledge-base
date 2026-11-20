@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.25357v1",
+  "title": "Pro$^2$ Agent: Scientific Problem Probing for Autonomous AI R&D",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.25357",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-20T08:04:31Z",
+  "analyzed_at": "2026-11-20T08:04:31Z",
+  "organized_at": "2026-11-20T08:07:17Z",
+  "summary": "Pro² Agent 提出将自主 AI 科研的核心状态从\"代码库状态\"转为\"问题状态\"：显式建模阻碍成功的具体问题及候选解决方案，并通过受控假设检验动态更新问题重要性与方案收益。在完整 MLE-Bench 上以 24 小时预算达到 70.7% 奖牌率（与最佳持平），48 小时预算下提升至 76.0%，创该基准最高记录，并在 PostTrainBench 上表现有竞争力。其价值在于揭示\"只迭代代码、不显式理解问题结构\"是困难任务陷入错误解空间的主因，为 LLM 科研 Agent 提供了可解释、可复用的中间表征范式。",
+  "tags": [
+    "autonomous-research",
+    "llm-agent",
+    "problem-representation",
+    "mle-bench",
+    "hypothesis-testing"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yixiong Chen, Liqian Peng, Tian Tan, Ziqian Lin, Blake Jianhang Chen, Chao Zhao, Yaojie Liu, Alec Go, Alan Yuille",
+    "published": "Fri, 20 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.25088v1",
+  "title": "BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.25088",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-20T08:04:31Z",
+  "analyzed_at": "2026-11-20T08:04:31Z",
+  "organized_at": "2026-11-20T08:07:17Z",
+  "summary": "BuggyMLE 提出用「注入 bug」的方式规模化构造机器学习工程（MLE）基准：先定义基于仓库规模、依赖深度、补丁大小等十项结构特征的 Code Complexity Index（CCI），在八个公开编码基准上以 R²=0.951 预测解题率，再据此向 222 个可运行的 ML 仓库注入受控变异，生成 6600+ 个仓库级变体、约 26 万行注入代码。基于此构建的 BuggyMLE-Bench-Lite 是首个难度分级的仓库级 MLE 基准，14 个模型的最优解题率从最简单档的 95% 跌至最难档的 9%；作者还用三级难度课程微调 Qwen3.5-9B，使其在该基准上接近前沿模型，并迁移提升 SWE-bench Lite（24%→33%）与 LiveCodeBench v6（69%→71%）。值得关注的是它把「难度可量化、可合成」引入 Agent 训练数据构造，为 MLE Agent 提供了尚未饱和的评测与课程学习路径。",
+  "tags": [
+    "mle-benchmark",
+    "bug-injection",
+    "repo-level-coding",
+    "agent-training",
+    "difficulty-scaling"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "John Wu, Rushi Qiang, Yuchen Zhuang, Guowang Li, Girish Narayanswamy, Max Xu, Sam Schmidgall, Mark Malhotra, Shwetak Patel, Jimeng Sun, Daniel McDuff, Bo Dai, Xin Liu",
+    "published": "Fri, 20 Nov 2026 00:00:00 -0500"
+  }
+}

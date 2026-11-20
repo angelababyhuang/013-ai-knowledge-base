@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.25171v1",
+  "title": "A Verifier from the Past: Test-Time Compute for Time Series Foundation Models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.25171",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-20T08:04:31Z",
+  "analyzed_at": "2026-11-20T08:04:31Z",
+  "organized_at": "2026-11-20T08:07:17Z",
+  "summary": "该论文将语言模型中的测试时计算（TTC）思路迁移到时间序列基础模型（TSFM）预测，但指出预测任务必须保持因果性，无法像 LLM 那样用未来信息验证候选输出。作者提出 BGAA：用滚动原点回测从序列自身历史构建因果验证器，对上下文的结构化视图打分、剔除劣于原始上下文的视图，再对幸存视图的预测分布做平均。在 GIFT-Eval、fev-bench、BOOM 上 MASE 分别降低 0.5-1.0%、1.3-5.0%、1.7-5.9%，313M 模型加 TTC 后超过同族 1B/2.5B 模型，并揭示窗口级视图选择是主要瓶颈。",
+  "tags": [
+    "test-time-compute",
+    "time-series-forecasting",
+    "foundation-models",
+    "causal-verifier",
+    "backtesting"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Arjun Choudhry, Aditya Narayanan, Raghav Mallampalli, Po-han Li, Sai Shankar Narasimhan, Raimi Shah, B. Aditya Prakash, Shubhankar Agarwal",
+    "published": "Fri, 20 Nov 2026 00:00:00 -0500"
+  }
+}

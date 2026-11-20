@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.25135v1",
+  "title": "Calibrated Decision Rewards: Training Language Models with a Judge That Knows How Sure It Is",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.25135",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-20T08:04:31Z",
+  "analyzed_at": "2026-11-20T08:04:31Z",
+  "organized_at": "2026-11-20T08:07:17Z",
+  "summary": "该论文提出 RLCDR（基于校准决策奖励的强化学习），把 LLM 改造成决策模型：对“最终答案是否正确”“首个错误步骤在哪”等类型化问题，在一次前向传播中输出概率分布，并通过选项顺序去偏和约百条标签校准，得到无需参考答案的奖励信号。在 MATH 上用 GRPO 训练 Qwen3-1.7B，MATH500 从 72.2% 提升到 76.8%，与使用答案键训练（76.9%）持平，且难度越高增益越大；校准误差仅为同底座 softmax judge 的一半，未出现 reward hacking，还能在 ProcessBench 上超过专用 7B 过程奖励模型。论文同时给出六条预设假设及可证伪对照实验，并指出在基础模型普遍失败的分布上概率会过度自信、效果落后于答案键，为无参考奖励的适用边界提供了实证。",
+  "tags": [
+    "calibrated-reward",
+    "grpo",
+    "llm-as-judge",
+    "process-reward-model",
+    "reinforcement-learning"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Rudransh Agnihotri, Manasvi Kapoor",
+    "published": "Fri, 20 Nov 2026 00:00:00 -0500"
+  }
+}
