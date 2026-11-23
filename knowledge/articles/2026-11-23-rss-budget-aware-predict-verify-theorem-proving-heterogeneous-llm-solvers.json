@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.26906v1",
+  "title": "Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.26906",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "该论文提出 BudgetPV，一个面向 LLM 定理证明的预算感知智能体系统，核心问题是如何在多个能力与成本各异的 LLM 求解器之间分配计算资源。它用跨求解器预测器为每个子目标选择求解器，并根据验证反馈动态调整分配；针对证明早期（选哪个求解器处理未尝试子目标）与后期（哪些已尝试子目标值得追加计算）两个阶段，分别用类别加权交叉熵和普通交叉熵训练预测器。在 Lean Workbook、miniF2F、ProofNet、PutnamBench 上，用三种逐步扩充的求解器配置验证，同等子目标求解量下比均匀分配消耗更少生成计算，对构建成本可控的定理证明 Agent 有直接参考价值。",
+  "tags": [
+    "llm-theorem-proving",
+    "budget-aware-allocation",
+    "multi-solver-routing",
+    "agentic-reasoning",
+    "compute-efficiency"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Wei Jiang, Ziran Liu, Wei Wang",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}

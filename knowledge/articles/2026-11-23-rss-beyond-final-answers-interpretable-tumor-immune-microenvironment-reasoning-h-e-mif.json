@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.26794v1",
+  "title": "Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&E and mIF",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.26794",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "该论文提出 HERMES，一个 4B 参数的多模态大模型，针对肿瘤免疫微环境（TIME）的定量读出任务，联合 H&E 与同切片 mIF 图像进行按临床指南步骤的推理。核心创新在于利用 mIF 无需人工标注即可提供细胞级真值，构建过程奖励（process reward）对每一步陈述的数值进行校验，解决 R1 式强化学习只奖励最终答案、推理过程不可验证的问题。在结直肠癌四项任务上平均准确率 84.5%，超过十二个专有及开源基线，并在 CODEX 外部队列与未见癌种上保持泛化优势，对医学多模态推理的可解释性与可验证性有参考价值。",
+  "tags": [
+    "multimodal-llm",
+    "medical-imaging",
+    "process-reward",
+    "reinforcement-learning",
+    "computational-pathology"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yixuan Duan, Kexin Geng, Hanwen Xu, Wei Qiu",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}

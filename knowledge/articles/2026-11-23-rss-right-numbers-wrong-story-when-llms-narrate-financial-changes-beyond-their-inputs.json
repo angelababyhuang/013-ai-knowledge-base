@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.26968v1",
+  "title": "Right Numbers, Wrong Story: When LLMs Narrate Financial Changes Beyond Their Inputs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.26968",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "该论文指出LLM生成的财务报告虽数字正确，却常添加输入中不存在的判断和因果解释（称为unsupported framing），且用词用法提示反而加剧该问题。作者提出FrameCheck插件，通过专业范例引导、标记无依据判断与原因、规则化删除（无需额外模型调用），在17个开源LLM、300万份草稿上几乎消除此类框架，使判断率接近10-K报告专业撰写者水平。值得关注的是它揭示了LLM'数字对但叙事越界'的可靠性风险，并给出轻量可插拔的工程化缓解方案。",
+  "tags": [
+    "llm-reliability",
+    "hallucination-mitigation",
+    "financial-nlp",
+    "guardrails",
+    "evaluation"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Seunghan Lee, Jun Seo, Junhyeok Kang, Jaehoon Lee, Sangjun Han, Sungdong Yoo, Minjae Kim, Tae Yoon Lim, Dongwan Kang, Hwanil Choi, Soonyoung Lee, Wonbin Ahn",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}

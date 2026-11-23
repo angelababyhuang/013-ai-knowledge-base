@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.26975v1",
+  "title": "Run One, Get Two: Near-Free Streaming Safety Checks for Local LLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.26975",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "ToRA 针对本地 LLM 助手单用户解码时算力闲置、内存带宽受限的特点，提出把安全检测模型作为生成器解码步骤中的“额外一行”并行运行，共享权重与 KV cache，并用双行 kernel 让每份权重只读一次。在 Qwen3-0.6B 上，它以低于 4% 的每 token 延迟开销，在 17 个基准中的 12 个上 F1 超过专用流式 guard，并比 hidden-state probe 多检出 11.8 个百分点的不安全回复。该工作把“安全对齐”从额外模型调用变成近乎免费的并行计算，对端侧/本地部署的实时安全监控有直接参考价值。",
+  "tags": [
+    "streaming-safety",
+    "local-llm",
+    "kv-cache-sharing",
+    "speculative-decoding",
+    "inference-efficiency"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Soheil Zibakhsh, Pedram Aghazadeh, Farinaz Koushanfar",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.26797v1",
+  "title": "Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.26797",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "这篇论文把生成模型理解为联想记忆（AM）系统：训练样本对应能量极小值，样本过多时出现的伪状态（spurious states）被视为创造力的起点。作者首先证明扩散模型的行为符合 AM，并用吸引盆的体积、能量和曲率刻画从记忆到泛化的转变，分析覆盖 Stable Diffusion 等架构；随后转向语言，证明均匀态离散扩散模型仅靠条件似然最大化就能检索未见数据，并用条件熵廉价诊断模型处于记忆与泛化的哪个阶段。该工作为理解生成模型的记忆与泛化共存提供了统一框架，理论深度高。",
+  "tags": [
+    "associative-memory",
+    "energy-based-models",
+    "diffusion-models",
+    "generalization",
+    "memorization"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Bao Pham",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}

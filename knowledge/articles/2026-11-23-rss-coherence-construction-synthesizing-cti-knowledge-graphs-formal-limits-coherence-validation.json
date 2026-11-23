@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.26717v1",
+  "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.26717",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "该论文提出\"通过构造实现连贯\"的新范式：不再让 LLM 逐个生成结构化对象，而是让语言模型智能体提出意图、由确定性裁判依据显式世界模型裁决结果，仅当事件真实发生时才输出关系，使连贯性成为构造过程的副产品。作者在 STIX 2.1 标准下实现三个引擎（含对图基因组施加 LLM 遗传算子的进化引擎），证明引用闭包、因果接地与标识符稳定性，并给出一个警示性定理：任何能被结构匹配随机图复现的验证指标，对这类生成器都无法判断连贯性，并用 Erdős-Rényi 对照在四种评测场景中实证该定理。",
+  "tags": [
+    "knowledge-graph",
+    "llm-agents",
+    "synthetic-data",
+    "graph-generation",
+    "evaluation-benchmark"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Tanzimul Alam Fahim, Mohammad Arif Hossain",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}

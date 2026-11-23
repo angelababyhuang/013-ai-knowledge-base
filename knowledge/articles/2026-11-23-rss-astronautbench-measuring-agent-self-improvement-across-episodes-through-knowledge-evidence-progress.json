@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.26910v1",
+  "title": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.26910",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "AstronautBench 是一个面向 LLM Agent 跨回合自我改进能力的新基准，基于游戏 Outer Wilds 构建：每回合 22 分钟后世界重置，只有 Agent 的知识得以保留，且进度受知识门槛限制。它从三个维度评估同一次运行——掌握的知识、答案是否有自身证据支撑、实际推进程度，并用两个不同模型家族的 LLM 裁判交叉验证 164 个世界知识问答。核心发现是三个维度并不同步增长：GPT-6.1 Sol 规划器的正确率从 14.6% 升至 26.8%，但第 8 回合仅 59-68% 的答案有引用证据支撑，且第 3 回合后不再发现新传闻事实。该工作揭示了单一指标衡量 Agent 自我改进的片面性，对具身 Agent 与情景记忆评估有参考价值。",
+  "tags": [
+    "agent-benchmark",
+    "self-improvement",
+    "episodic-memory",
+    "embodied-agent",
+    "llm-as-judge"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Congyuan Yu, Runping Tian",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}

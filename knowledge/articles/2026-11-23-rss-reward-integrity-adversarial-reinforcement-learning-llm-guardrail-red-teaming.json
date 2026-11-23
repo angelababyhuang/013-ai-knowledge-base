@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.26998v1",
+  "title": "Reward Integrity in Adversarial Reinforcement Learning for LLM Guardrail Red-Teaming",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.26998",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "该论文研究对抗式强化学习红队循环中的奖励保真度问题：攻击方看似成功，可能只是因为攻击输入遗漏了规定的 PII，或奖励裁判误判了目标响应是否真正违反策略。作者在金融客服护栏场景中比较了 TypeSafe Jev、Laya（预训练与后训练）和 CLM-8B 与 Opus 4.8 人工标注判断的一致性，发现后训练显著提升裁判一致性，并构建人工复核的 off-target 集证明 Opus 会给出假阳性胜利。结论是红队 RL 需要专门化的决策模型裁判来校验 PII 与策略违规，对做 LLM 安全评测与自动化红队的团队有直接参考价值。",
+  "tags": [
+    "llm-guardrails",
+    "red-teaming",
+    "reward-hacking",
+    "adversarial-rl",
+    "llm-as-judge"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chengming Liu, Leon Viti, Hongxu Chen, Erdem Kemik, Mary-Anne Williams, Ruth Oliver",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.27007v1",
+  "title": "Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.27007",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "该论文提出一种自动化评估流水线，从 BMJ Best Practice 的 436 份临床指南中抽取结构化临床标准与分支决策树，生成覆盖鉴别诊断、检查、治疗和并发症的 3200 个开放式临床管理场景，并附带区域差异与指南时效性专项测试集。作者还开发了经临床医生校准的自动评分器，按临床严重程度对偏离进行 4 级分层。实验显示模型规模、联网搜索与多样本合成可叠加提升依从性，且 AI 辅助使基层医生依从性从 50.5% 升至 70.0%。其价值在于用现成循证指南替代昂贵的人工出题，为医疗 AI 提供可扩展、可更新的评测范式。",
+  "tags": [
+    "medical-ai",
+    "benchmark-evaluation",
+    "clinical-decision-support",
+    "autorater",
+    "evidence-based-medicine"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Teya Bergamaschi, Bijal Rajput, Akshay Goel, Matthew Thompson, Jacqueline Shreibati, Dave Steiner, Ashley Carrick, Mahvish Nagda, Dale R. Webster, Avinatan Hassidim, Katherine Chou, Yossi Matias, Po-Hsuan Cameron Chen, Christina Chen, Mike Schaekermann, Yun Liu, Anil Palepu",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}

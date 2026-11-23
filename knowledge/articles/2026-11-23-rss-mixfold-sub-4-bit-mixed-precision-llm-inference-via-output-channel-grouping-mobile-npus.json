@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.26976v1",
+  "title": "MixFold: Sub-4-Bit Mixed-Precision LLM Inference via Output-Channel Grouping on Mobile NPUs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.26976",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "MixFold 针对移动端 NPU 上 sub-4-bit 量化难以转化为实际解码加速的问题，提出按输出通道分组（output-channel grouping）的混合精度方案：3-bit 与完全对称的 2-bit 权重直接用 NPU 矩阵单元的原生整数运算执行，无需在解码时扩展到更宽数据类型，并按与矩阵单元 tile 对齐的输出通道组分配数据类型，实现比层级更细的精度分配而不打断矩阵单元执行。在 Snapdragon 8 Elite Gen 5 的 Hexagon NPU 上对比 llama.cpp Hexagon 后端，Qwen3 系列在相同 bits-per-weight 下精度相当或更高，解码快 1.16-1.41 倍，每焦耳生成 token 多 1.5-4.3 倍。该工作揭示了量化位宽、硬件原生数据类型与能耗之间的真实权衡，对端侧 LLM 部署有直接参考价值。",
+  "tags": [
+    "sub-4-bit-quantization",
+    "mobile-npu",
+    "mixed-precision",
+    "llm-inference",
+    "edge-deployment"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Vinnam Kim, Seong Hoon Seo, Junhan Kim, Jaeseong You, An Chen",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.26912v1",
+  "title": "Self-Evolving Beyond Human-Crafted Experience for EDA Scripting",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.26912",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "ZhuLong-SE 是一个面向 EDA 脚本编写的执行接地 LLM 智能体，针对专有 API 文档稀疏、错误常表现为静默失败或晦涩异常的问题，在 ZhuLong 基础上加入 API 检索、文档响应、隔离沙箱执行与静态检查，并引入受控的跨任务自进化机制：将历史执行轨迹蒸馏为三层记忆库，配合真值锚定、反证过滤、留出回滚与防泄漏检索。在 158 任务的 EDA-Eval-PyAether 上，仅任务级框架即达 92.4% pass@1；在更难的实例不相交测试集上，从零自进化比人工经验基线高 2.5 个百分点。其价值在于证明智能体可从自身执行经验中积累可复用知识，减少对人工维护领域知识的依赖。",
+  "tags": [
+    "eda-scripting",
+    "self-evolving-agent",
+    "execution-grounded",
+    "memory-augmented",
+    "code-generation"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yang Liu, Shengbo Tong, Xiyuan Chen, Shiwei Hou, Sen Yuan, Hao Wang, Yanfeng Li, Hongwen Li, Yiming Zhu, Zhuolun He, Wenjian Yu",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}

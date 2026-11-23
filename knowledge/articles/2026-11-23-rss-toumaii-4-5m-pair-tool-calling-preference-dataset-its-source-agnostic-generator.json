@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.26722v1",
+  "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.26722",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-23T08:05:24Z",
+  "analyzed_at": "2026-11-23T08:05:25Z",
+  "organized_at": "2026-11-23T08:08:09Z",
+  "summary": "TOUMAII 构建了约 450 万条经过验证的工具调用偏好对数据集，用于 DPO 训练，弥补了工具调用场景下偏好数据（尤其是多轮真实交互数据）极度稀缺的空白。其配套的 TOUMAII-Gen 流水线可从任意工具调用 SFT 数据集自动生成含自然失败模式的偏好数据，并用 ToolACE 派生的第二数据集验证了来源无关性。作者用 3B 模型微调验证效果，并开源代码与数据，对做 Agent 工具调用对齐的团队有直接参考价值。",
+  "tags": [
+    "tool-calling",
+    "preference-data",
+    "dpo",
+    "synthetic-data",
+    "agent-alignment"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Moritz P\\\"otzsch, Andrea Gentilini, Lisa Rossgoderer, Tom Osterfeld, Kesava Prasad Sanjivi Arul, Swanand Ravindra Kadhe",
+    "published": "Mon, 23 Nov 2026 00:00:00 -0500"
+  }
+}
