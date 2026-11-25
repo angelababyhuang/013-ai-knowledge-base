@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.31539v1",
+  "title": "Agent Evaluation Without Ground Truth: A Null Proportion Perspective",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.31539",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-25T08:04:26Z",
+  "analyzed_at": "2026-11-25T08:04:27Z",
+  "organized_at": "2026-11-25T08:07:19Z",
+  "summary": "该论文针对自主 Agent 在缺乏外部可验证 ground truth 的场景（如科学实验、部署决策）提出用 e-values 序列作为正确性的统计证据，替代传统标签，将 Agent 质量定义为轨迹上正确决策的加权和。框架支持任意依赖的决策、数据依赖的轨迹终止、动态生成的假设以及轨迹结束后才定义的质量度量，并给出上下界估计器与置信集，保证在轨迹分布上一致成立。对需要评估端到端自主 Agent 可靠性的研究者有方法学价值。",
+  "tags": [
+    "agent-evaluation",
+    "e-values",
+    "statistical-inference",
+    "autonomous-agents",
+    "no-ground-truth"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Brian M. Cho, Michael Lindon, Nathan Kallus",
+    "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+  }
+}

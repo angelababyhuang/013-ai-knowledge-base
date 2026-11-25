@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.31579v1",
+  "title": "Provably Near-Optimal PQ in the Extended Zador Model",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.31579",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-25T08:04:26Z",
+  "analyzed_at": "2026-11-25T08:04:27Z",
+  "organized_at": "2026-11-25T08:07:19Z",
+  "summary": "该论文研究高斯数据下的乘积量化（PQ）优化，提出三项贡献：证明 SVD 是 PQ 的最优预条件旋转；提出在低比特率和低维下更准确的扩展 Zador（EZ）估计器来刻画 k-means 量化代价；并基于全局比特分配的 1 维装箱设计新的分段算法。由此得到 EZPQ 算法，在保持与 OPQ 相当精度的同时，能给出每个实例的失真下界证书，在真实嵌入谱上 2 bit/坐标时常可证明距最优 1% 以内，并优于 EDEN、E-RaBitQ、TurboQuant 等随机旋转方法。对做向量检索与嵌入压缩的工程师有直接参考价值。",
+  "tags": [
+    "product-quantization",
+    "vector-search",
+    "quantization-theory",
+    "embedding-compression",
+    "approximation-guarantees"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Edo Liberty, Ashwin Padaki, Amir Ingber",
+    "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+  }
+}

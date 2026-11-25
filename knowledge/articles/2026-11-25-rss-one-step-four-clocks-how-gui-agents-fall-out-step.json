@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.31522v1",
+  "title": "One Step, Four Clocks: How GUI Agents Fall Out of Step",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.31522",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-25T08:04:26Z",
+  "analyzed_at": "2026-11-25T08:04:27Z",
+  "organized_at": "2026-11-25T08:07:19Z",
+  "summary": "该论文研究 GUI Agent 在界面动态变化时的时序失效问题，提出 EODA 四事件模型（环境变化、观测可用、决策提交、动作到达），并构建 ChronotopeGym 在 Paused/Replay/Live 三种执行模式下评测。核心发现是延迟本身无法解释失败，关键在于动作在不同交互阶段失效；作者提出加速器驻留的 Chronotope 控制器，用紧凑交互历史决定保留、更新或重决策待执行动作，27B 模型下中位延迟降低 85.5%，8 秒截止下 Live 成功率从 0% 提升至 100%。值得关注的是它把 GUI Agent 的实时性从'更快推理'转向'时序感知的动作生命周期管理'，为实时 GUI 控制提供了新架构思路。",
+  "tags": [
+    "gui-agents",
+    "real-time-control",
+    "latency-optimization",
+    "agent-architecture",
+    "benchmark"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zhanwen Chen, Tianchun Wang",
+    "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.31457v1",
+  "title": "Taxi: Analyzing Agents at (Real) Scale",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.31457",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-25T08:04:26Z",
+  "analyzed_at": "2026-11-25T08:04:27Z",
+  "organized_at": "2026-11-25T08:07:19Z",
+  "summary": "Taxi 是一个面向大规模 Agent 运行轨迹的调试、聚类与监控系统，可高效处理数百万步的 Agent 数据。它通过聚类生成步骤分类体系以提供结构化概览，并开放完整 SQL 查询能力，让工程师和自动化 Agent 提出复杂问题；两者在编码 Agent 引导下组成混合流水线。系统还实验性集成 Jev 式决策模型，将状态与受限问题映射为带类型的概率决策，用于嵌入或字面查询不足时的低成本语义路由与评估。对需要规模化观测和排障 Agent 的团队有参考价值。",
+  "tags": [
+    "agent-observability",
+    "agent-debugging",
+    "clustering",
+    "sql-analytics",
+    "llm-evaluation"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Guy Dar",
+    "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+  }
+}

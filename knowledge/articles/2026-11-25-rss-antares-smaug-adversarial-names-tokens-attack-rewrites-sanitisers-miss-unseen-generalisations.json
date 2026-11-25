@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.31347v1",
+  "title": "Antares-Smaug: Adversarial Names, Tokens and Attack Rewrites: Sanitisers Miss Unseen Generalisations",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.31347",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-25T08:04:26Z",
+  "analyzed_at": "2026-11-25T08:04:27Z",
+  "organized_at": "2026-11-25T08:07:19Z",
+  "summary": "该论文研究 Laya 这一开放决策模型（给定文本、问题和 K 个带描述选项，单次前向返回各选项概率）的对抗鲁棒性。作者用 81 种程序化编辑攻击 6 个 Laya 模型，发现未见过的攻击措辞可劫持 59% 条目，注入通过选项名生效（即使被否定仍达 32%），字符级编辑可致 72% 正确率损失；冻结的清洗器对构建内攻击降 72% 但对留出攻击仅降 27%，而基于构建族微调可将留出句攻击从 33% 降至 3%，但对字符编辑几乎无效。该工作揭示了决策模型安全对齐中泛化性不足的关键问题，对 LLM 安全评测与防御设计有直接参考价值。",
+  "tags": [
+    "adversarial-robustness",
+    "prompt-injection",
+    "llm-safety",
+    "decision-models",
+    "evaluation"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Mohammed Nayeem Khan, Akhil P",
+    "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+  }
+}

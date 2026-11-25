@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.31345v1",
+  "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.31345",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-25T08:04:26Z",
+  "analyzed_at": "2026-11-25T08:04:27Z",
+  "organized_at": "2026-11-25T08:07:19Z",
+  "summary": "该论文指出当前图表转代码（chart-to-code）基准只覆盖静态图表，忽略了悬停、高亮、tooltip 等交互行为，而交互场景要求图表状态随用户操作序列正确演化，传统单步评测无法衡量。作者提出 ChartInt，首个交互式图表转代码基准，含 2,779 个标注样本，并设计预设状态快照协议把动态交互转为可复现的评测目标，配合多维语义与风格一致性评估。实验显示 MLLM 在静态任务上表现良好但交互任务显著下降，为多模态代码生成评测提供了新方向。",
+  "tags": [
+    "chart-to-code",
+    "multimodal-llm",
+    "benchmark",
+    "interactive-visualization",
+    "code-generation"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Yuhan Bian, Haoyu Liu, Siyu Li, Hanpei Guo, Jingrong Gao, Zhixu Li",
+    "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.31521v1",
+  "title": "PatientFlowSynth: Evaluating FHIR Agents with Matched Patient Charts",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.31521",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-25T08:04:26Z",
+  "analyzed_at": "2026-11-25T08:04:27Z",
+  "organized_at": "2026-11-25T08:07:19Z",
+  "summary": "PatientFlowSynth 是一个面向医疗 FHIR 场景的 Agent 评测基准，包含 225 个合成患者、18 个模板和 18,000 个任务，通过固定患者、问题与检索程序、仅改变图表证据状态（含缺失与冲突证据）来构造匹配对照，从而把检索、引用与分类能力分开考核。研究发现，显式给出 Encounter-status 指引可让 GPT-5.6 Luna 的严格成功率从 40.7% 提升到 51.3%，但在“证据不足”类样本上标签一致率反而从 49.2% 降至 29.3%，且检索失败会伪装成正确的“证据不足”判断。该工作值得关注，因为它揭示了医疗 Agent 评测中检索与推理混淆的陷阱，并提出了可复现的严格评分协议。",
+  "tags": [
+    "fhir",
+    "medical-agents",
+    "agent-evaluation",
+    "benchmark",
+    "retrieval-augmented-generation"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Anthony Cuturrufo, Ratul Ghosh, Devashish Khatwani, Krishnaram Kenthapadi",
+    "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+  }
+}

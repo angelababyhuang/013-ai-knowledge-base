@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.31475v1",
+  "title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.31475",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-25T08:04:26Z",
+  "analyzed_at": "2026-11-25T08:04:27Z",
+  "organized_at": "2026-11-25T08:07:19Z",
+  "summary": "SpatialCraft 针对空间推理智能体在调用 3D 重建、分割、几何计算等外部工具时的编排瓶颈，提出一种无需更新模型参数的自进化框架。它把交互历史沉淀为两类外部知识：经验（条件-动作策略）与技能（带激活/终止条件的多步流程），并用对比效用分数随机屏蔽某条经验来估计其真实贡献，将稳定有效的经验固化为技能。在五个空间基准、四个骨干模型共 20 个设置上均取得最佳准确率，说明冻结的智能体也能从自身经验中学会工具编排，对构建可积累经验的 Agent 系统有直接参考价值。",
+  "tags": [
+    "spatial-reasoning",
+    "tool-orchestration",
+    "self-evolving-agent",
+    "experience-learning",
+    "multimodal-llm"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xiwei Liu, Yulong Li, Xuhui Li, Zhixiang Lu, Haolin Yang, Jianxu Chen, Yifan Lu, Di Fan, Yutong Xie",
+    "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+  }
+}

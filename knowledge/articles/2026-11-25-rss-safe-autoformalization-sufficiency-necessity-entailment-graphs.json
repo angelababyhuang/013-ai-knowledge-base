@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.31571v1",
+  "title": "Safe Autoformalization: Sufficiency and Necessity with Entailment Graphs",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.31571",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-25T08:04:26Z",
+  "analyzed_at": "2026-11-25T08:04:27Z",
+  "organized_at": "2026-11-25T08:07:19Z",
+  "summary": "该论文提出一种带形式化保证的自动形式化方法：用 LLM 生成候选逻辑公式，再按逻辑强度构建蕴含图（EG），由求解器判定边关系，并分别搜索“充分前沿”（最弱但能蕴含原句的公式）与“必要前沿”（最强但被原句蕴含的公式），两者夹逼原句并给出歧义残差。核心贡献是把 LLM 的概率输出转化为可证明的单侧逻辑充分性保证，并证明只要蕴含判定可靠，搜索就安全，与候选池质量无关；在 AWS 安全属性上 20 例全部安全，优于多数投票与 Universal Self-Consistency，证明已在 Lean 中机器验证。",
+  "tags": [
+    "autoformalization",
+    "entailment-graph",
+    "llm-verification",
+    "formal-methods",
+    "lean-proofs"
+  ],
+  "relevance_score": 0.68,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Umut A. Acar, Eli Goldweber",
+    "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+  }
+}

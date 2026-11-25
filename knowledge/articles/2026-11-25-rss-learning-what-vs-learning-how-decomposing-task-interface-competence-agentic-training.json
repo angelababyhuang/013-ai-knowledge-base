@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.31427v1",
+  "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.31427",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-25T08:04:26Z",
+  "analyzed_at": "2026-11-25T08:04:27Z",
+  "organized_at": "2026-11-25T08:07:19Z",
+  "summary": "论文区分了智能体能力的两个维度：任务能力（解题所需的知识与推理）和接口能力（通过特定 harness 行动的能力），并指出模型可能具备任务知识却因 harness 不匹配而失败。作者发现单 harness 训练会干扰接口能力，甚至导致在其他 harness 上性能崩溃；提出 harness rehearsal（用低任务知识但锻炼目标接口的轨迹做蒸馏），与跨 harness 任务监督结合后收益远超单独使用（BFCL V3 上 8.5% 与 32.5% 对比 58.8%）。此外发现 on-policy RL 比蒸馏更鲁棒。该工作为智能体训练数据与 harness 设计提供了可操作的分解视角。",
+  "tags": [
+    "agent-training",
+    "harness-generalization",
+    "knowledge-distillation",
+    "reinforcement-learning",
+    "benchmark-evaluation"
+  ],
+  "relevance_score": 0.67,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Chaeeun Lee, Hossein A. Rahmani, Aryo Pradipta Gema, Kexin Xu, Emine Yilmaz, Pasquale Minervini, T. Ian Simpson, Chen Jin, Amrutha Saseendran",
+    "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+  }
+}

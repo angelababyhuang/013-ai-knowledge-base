@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.31554v1",
+  "title": "Agent Recovery Gone Wrong: Measuring Harm Beyond Duplicate Calls",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.31554",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-25T08:04:26Z",
+  "analyzed_at": "2026-11-25T08:04:27Z",
+  "organized_at": "2026-11-25T08:07:19Z",
+  "summary": "该论文实证测量了代码执行型 LLM Agent 在部分执行失败后重试恢复时对外部状态造成的危害。作者在 AppWorld 的 200 条分层抽样轨迹（10 个模型）中发现 145 条为数据库确认的部分执行，其中约 24.6%（加权估计）的恢复会造成有害后果，且危害在运行结束时仍未被修复；三分之二为重复写入，其余为删除用户数据或错误首次写入（如下错商品订单）。论文还评估了基于重复调用检测与幂等键（模型自供 vs 内容派生）的防护效果，指出简单规则仅覆盖 41% 的危害，并给出更安全恢复的设计要求。价值在于把 Agent 可靠性研究从\"任务成功率\"推进到\"副作用安全\"这一被忽视的维度。",
+  "tags": [
+    "agent-reliability",
+    "code-execution-agents",
+    "idempotency",
+    "side-effect-safety",
+    "agent-evaluation"
+  ],
+  "relevance_score": 0.63,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Artem Trofimov, Boris Novikov",
+    "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+  }
+}
