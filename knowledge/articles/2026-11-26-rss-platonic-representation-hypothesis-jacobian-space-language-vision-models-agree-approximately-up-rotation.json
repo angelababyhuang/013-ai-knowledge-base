@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33304v1",
+  "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33304",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-26T08:04:27Z",
+  "analyzed_at": "2026-11-26T08:04:27Z",
+  "organized_at": "2026-11-26T08:07:22Z",
+  "summary": "该论文将 Platonic Representation Hypothesis（PRH）从\"表征相似\"推进到\"作用方式相似\"：作者用 Jacobian lens 为每个词/类别构造隐藏空间中的方向向量，组成模型的 J-space，发现视觉与语言模型的 J-space 不仅收敛，而且近似只差一个旋转——在部分词上拟合的单一旋转可泛化到未参与拟合的词与类别。更关键的是该旋转具有因果效力：把纯文本 LLM 的词向量旋转进 VLM 的 patch token 可改变其识别结果，旋转进图像生成器的文本条件可改变生成物体，旋转进无文本训练的 ImageNet 分类器可显著提升对应类别分数。这为跨模态模型的可迁移性与可解释性提供了可操作的几何工具。",
+  "tags": [
+    "platonic-representation",
+    "jacobian-lens",
+    "cross-modal-alignment",
+    "representation-geometry",
+    "model-interpretability"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Ross Murphy, Gabriel Brostow",
+    "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33497v1",
+  "title": "CA-RAG: Constraint-Aligned Retrieval for Structurally Faithful Long-Form Generation",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33497",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-26T08:04:27Z",
+  "analyzed_at": "2026-11-26T08:04:27Z",
+  "organized_at": "2026-11-26T08:07:22Z",
+  "summary": "CA-RAG 针对合规敏感的长文本生成场景，指出传统 RAG 仅按语义相关性检索证据，会遗漏支撑强制性条款所需的结构性信息。该方法在证据选择前，用本体派生的结构约束和基于政策的知识图谱关系增强分节查询，使检索结果与下游结构义务对齐。在 k=6 时，Precision@k、Recall@k 和 F1@k 均有提升，生成实验也显示合规性与可靠性改善；相比仅在生成阶段施加约束，检索端对齐更有效。",
+  "tags": [
+    "retrieval-augmented-generation",
+    "constraint-alignment",
+    "long-form-generation",
+    "knowledge-graph",
+    "compliance"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Vimal Kumar Kumar, Meghana Kshirsagar, Conor Ryan",
+    "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33394v1",
+  "title": "Confidence scores for gated automation of large language models",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33394",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-26T08:04:27Z",
+  "analyzed_at": "2026-11-26T08:04:27Z",
+  "organized_at": "2026-11-26T08:07:22Z",
+  "summary": "该论文针对 LLM 高置信度输出错误答案、难以安全自动化决策的问题，提出用监督学习训练置信度评分模型来门控（gate）自动化流程：在冻结的 2B 参数骨干网络最后一层隐状态上拟合线性置信度头，并为闭源模型提供纯文本元模型替代方案。实验基于约 98% SQuAD 与少量 TruthfulQA 的评分答案，结果显示置信度头在高准确率目标下自动化覆盖比例最高，优于多种基线和元模型；提示式置信度看似校准良好却缺乏阈值化所需的分辨率，跨数据集迁移性一般但鲁棒性最佳。价值在于为 Agent 自动化提供可落地的“置信门控+人工复核”路由机制，并可扩展到安全与合规等属性。",
+  "tags": [
+    "confidence-scoring",
+    "llm-reliability",
+    "human-in-the-loop",
+    "calibration",
+    "agent-safety"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Luiz G. A. Alves, Aaron Vermeersch",
+    "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+  }
+}

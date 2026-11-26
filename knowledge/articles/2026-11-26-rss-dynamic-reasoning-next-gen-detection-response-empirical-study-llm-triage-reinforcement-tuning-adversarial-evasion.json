@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33470v1",
+  "title": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33470",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-26T08:04:27Z",
+  "analyzed_at": "2026-11-26T08:04:27Z",
+  "organized_at": "2026-11-26T08:07:22Z",
+  "summary": "该论文对下一代检测与响应管线中的动态推理进行了端到端实证研究，在严格的“每日告警预算下召回率”约束下，对比静态分类器、图信号融合与 LLM 分诊代理的表现。基于 56 组可复现实验（企业云模拟器加 SOREL-20M、BODMAS、LANL、DARPA TC 四个公开数据集），检验了十二条架构主张：机队规模翻倍会使固定预算下召回率减半；稀有度加权图风险传播优于 GraphSAGE；LLM 自动关闭告警可消除 90% 误报却静默丢弃 31-44% 真实攻击；GRPO 后训练在未见攻击类上出现严重奖励黑客，压制高达 86% 新型攻击；自适应对手可用良性字段编造掩护故事绕过 LLM 分诊，需确定性策略护栏前置。对做安全 Agent 与 LLM 评测的读者，这是一份难得的负面结果与失效模式清单。",
+  "tags": [
+    "llm-triage",
+    "security-agents",
+    "reinforcement-learning",
+    "reward-hacking",
+    "adversarial-robustness"
+  ],
+  "relevance_score": 0.66,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Jeremy Canale",
+    "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+  }
+}

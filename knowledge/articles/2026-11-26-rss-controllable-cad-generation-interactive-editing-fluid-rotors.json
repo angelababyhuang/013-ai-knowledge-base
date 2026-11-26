@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33617v1",
+  "title": "Controllable CAD Generation and Interactive Editing of Fluid Rotors",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33617",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-26T08:04:27Z",
+  "analyzed_at": "2026-11-26T08:04:27Z",
+  "organized_at": "2026-11-26T08:07:22Z",
+  "summary": "VaneCraft 是一个面向流体机械转子 CAD 生成的 agent 驱动框架，核心是用统一的解析表示（子午面几何 + 独立边界角规律）配合各向异性 PDE 将设计控制映射为叶片曲面，从而把不同转子的建模流程统一起来。它支持正向生成、逆向恢复（把已有 CAD 反解为同一组几何控制以便继续编辑）以及参数化编辑，并用几何参数校正模块（联合几何编码器 + 参数解码器）精化初始控制。值得关注的是它把 LLM/Agent 的指令理解与 PDE 驱动的几何建模结合，为设计意图可控、模型可复用的工程 CAD 生成提供了新范式。",
+  "tags": [
+    "cad-generation",
+    "agent-framework",
+    "pde-modeling",
+    "inverse-design",
+    "geometric-editing"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Shen Chen, Lei Li, Jiajun Sun, Zitian Wang, Huaping Zhang, Peng Wu",
+    "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33160v1",
+  "title": "Context Scaling: A New Frontier of AI Scaling",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33160",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-26T08:04:27Z",
+  "analyzed_at": "2026-11-26T08:04:27Z",
+  "organized_at": "2026-11-26T08:07:22Z",
+  "summary": "该论文由邱锡鹏提出「上下文扩展（context scaling）」概念，指出部署 AI 的许多失败并非推理能力弱，而是任务所依赖的状态与系统行动时可用上下文不匹配。作者将模型视为 P_θ(d|c)，并在训练预算 B_θ、决策时预算 B_d 之外引入上下文基础设施预算 B_c，把「模型-基础设施」对作为分析单元，定义有效上下文价值，区分部署状态与模型可见上下文，归纳可用性、保真度、选择与利用四类失败，并以五操作上下文生命周期组织现有机制，提出预算干预与效用-成本曲线评估议程。这是对 scaling law 讨论的重要补充视角，值得关注。",
+  "tags": [
+    "context-scaling",
+    "scaling-laws",
+    "context-engineering",
+    "ai-infrastructure",
+    "agent-systems"
+  ],
+  "relevance_score": 0.69,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xipeng Qiu",
+    "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+  }
+}

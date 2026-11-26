@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33555v1",
+  "title": "PeerReveal: Learning to Generalize in AI Peer Review Detection",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33555",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-26T08:04:27Z",
+  "analyzed_at": "2026-11-26T08:04:27Z",
+  "organized_at": "2026-11-26T08:07:22Z",
+  "summary": "PeerReveal 提出了一种检测 AI 生成同行评审的新方法，核心创新在于区分\"完全由 AI 生成\"与\"AI 仅用于改写人类判断\"两类评审，并能在跨学科、多模型、多工作流的复杂场景下保持可靠。方法上，它将评审中的论断与同一论文的 AI 生成评审参考论断进行关系建模，再结合评审级文本信号做判断；同时构建了 PeerShift 测试集（5,430 条评审，覆盖机器学习、生命科学、社会科学），并提出基于小型本地生成器的对抗训练框架，将 Macro-F1 从 70.52% 提升至 82.40%。该工作对学术出版诚信与 AI 内容检测有直接参考价值。",
+  "tags": [
+    "ai-review-detection",
+    "adversarial-training",
+    "peer-review",
+    "benchmark-dataset",
+    "text-classification"
+  ],
+  "relevance_score": 0.62,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zi Li, Andr\\'e V. Duarte, Lei Li",
+    "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+  }
+}

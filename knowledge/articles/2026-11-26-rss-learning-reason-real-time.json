@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33513v1",
+  "title": "Learning to Reason in Real-Time",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33513",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-26T08:04:27Z",
+  "analyzed_at": "2026-11-26T08:04:27Z",
+  "organized_at": "2026-11-26T08:07:22Z",
+  "summary": "该论文指出当前 AI Agent 训练环境多为同步式（世界等待 Agent 行动），而真实环境是异步实时变化的，Agent 需学会在延迟代价高时快速行动、在收益大时延长推理。作者提出实时推理训练（RRT）框架及三种技术：使用实时数据、解耦行动与观察、时间课程学习。在 Frogger 和 Snake 两个实时环境中，RRT 平均超越最强基线 33%（分布内）和 55%（分布外）奖励，为实时 Agent 的推理-响应权衡提供了可训练范式。",
+  "tags": [
+    "real-time-agents",
+    "reasoning-training",
+    "reinforcement-learning",
+    "agent-architecture",
+    "curriculum-learning"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Xavier Schneider, Benjamin Schneider, Sun Sun, Olga Vechtomova, Victor Zhong",
+    "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+  }
+}

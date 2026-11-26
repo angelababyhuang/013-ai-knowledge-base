@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33639v1",
+  "title": "How Much Effort Does an AI Code Reviewer Need? Evidence from Claude 5.5 Models on Plausible-but-Wrong Patches",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33639",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-26T08:04:27Z",
+  "analyzed_at": "2026-11-26T08:04:27Z",
+  "organized_at": "2026-11-26T08:07:22Z",
+  "summary": "该论文研究 AI 代码审查器在审查“看似合理但实际错误”的补丁时，需要多少推理努力（effort setting）。作者用 Claude Opus/Sonnet/Haiku 5.5 在低、中、高三档努力下审查 90 个 SWE-bench Verified 的 Django 补丁，并用更强的 SWE-ABS 测试判定真伪。结果显示提高努力能显著减少误接受错误补丁，但即便最高档也至少放过 45% 的错误补丁，说明当前 AI 审查器尚不能作为强门禁。",
+  "tags": [
+    "ai-code-review",
+    "llm-evaluation",
+    "reasoning-effort",
+    "swe-bench",
+    "false-positive"
+  ],
+  "relevance_score": 0.6,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Zax Shen, Hanling Zhang, Zixu Wang",
+    "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+  }
+}

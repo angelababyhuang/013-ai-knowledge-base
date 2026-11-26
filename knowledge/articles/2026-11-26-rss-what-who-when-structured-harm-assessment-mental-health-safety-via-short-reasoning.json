@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33263v1",
+  "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33263",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-26T08:04:27Z",
+  "analyzed_at": "2026-11-26T08:04:27Z",
+  "organized_at": "2026-11-26T08:07:22Z",
+  "summary": "该论文针对 LLM 心理健康支持场景中的安全护栏问题，提出一个临床驱动的三维伤害分类法（What/Who/When），将伤害刻画与干预决策解耦，使安全策略能以可审计的显式指令形式置于模型权重之外。作者用临床专家验证分类法，并训练 35B-A3B 推理型护栏模型 MindGuard2（短推理链 SFT + 带长度惩罚的 RL），在保持与更大模型相当准确率的同时将中位延迟降低约 10 倍，并在高召回下维持低误报率。值得关注的是其揭示的基准偏差：公开基准中针对用户自身的伤害极少，而真实对话中占比近半。",
+  "tags": [
+    "mental-health-safety",
+    "guardrails",
+    "reasoning-models",
+    "harm-taxonomy",
+    "llm-safety"
+  ],
+  "relevance_score": 0.65,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Catarina Botelho, Ant\\'onio Farinhas, John Mendon\\c{c}a, Areti Vassilopoulos, In\\^es Gon\\c{c}alves, Maya D'Eon, Hugo Pitorro, Laura Cabello, Carrie Spadine, Nuno M. Guerreiro, Ricardo Rei",
+    "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+  }
+}

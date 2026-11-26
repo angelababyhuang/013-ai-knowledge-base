@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33303v1",
+  "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33303",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-26T08:04:27Z",
+  "analyzed_at": "2026-11-26T08:04:27Z",
+  "organized_at": "2026-11-26T08:07:22Z",
+  "summary": "该论文指出程序化生成的逻辑推理数据集存在'标注深度虚高'问题：植入的证明只是众多可能证明之一，题目可能存在更短证明或无关证明，导致标称深度无法反映真实求解难度。作者提出对每个问题计算所有证明必经步骤、最短证明、最小证明数量与不可或缺前提，并导出可被独立校验器验证的证书；审计八个数据集后发现 ProofWriter、Blocksworld 深度被强制、FLDx2 标称深度 5 实际仅需约两步规则应用、ZebraLogic 答案甚至无需特定步骤。随后基于每套规则集一次性证明的捷径目录构造结构可控的新问题，训练实验显示等规模下混合多种经认证题型（含前向生成无法产生的模型检测题）对 Qwen3 0.6B–8B 的迁移效果优于 FLDx2 式推导数据。",
+  "tags": [
+    "logical-reasoning",
+    "synthetic-data",
+    "proof-certification",
+    "dataset-audit",
+    "llm-training"
+  ],
+  "relevance_score": 0.64,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Baptiste Juran, Dimitri Kachler, Damien Sileo",
+    "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+  }
+}
