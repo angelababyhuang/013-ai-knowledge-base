@@ -1,0 +1,24 @@
+{
+  "id": "oai:arXiv.org:2611.33161v1",
+  "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+  "source": "rss",
+  "url": "https://arxiv.org/abs/2611.33161",
+  "category": "paper-or-talk",
+  "collected_at": "2026-11-27T08:04:17Z",
+  "analyzed_at": "2026-11-27T08:04:17Z",
+  "organized_at": "2026-11-27T08:06:58Z",
+  "summary": "该论文提出一种约束感知的测试时打分框架，用于在 LLM/VLM 生成多个候选答案时选出最佳者。它把必须通过的硬性检查（如安全、物理可行性、隐藏测试）与可加权的软性检查结合，并引入配置模型为每个任务选择检查项与权重。在 CWEval、LIBERO、LiveCodeBench、HotpotQA 四个任务上的消融显示，收益主要来自硬检查与候选比较的组合，而非软性检查的配置层，这为工程上简化打分流程提供了依据。",
+  "tags": [
+    "test-time-scoring",
+    "candidate-selection",
+    "llm-evaluation",
+    "constraint-checking",
+    "vlm"
+  ],
+  "relevance_score": 0.61,
+  "meta": {
+    "feed_name": "arxiv-cs-ai",
+    "author": "Rangarajan Ramesh, Yongchao Huang",
+    "published": "Fri, 27 Nov 2026 00:00:00 -0500"
+  }
+}
